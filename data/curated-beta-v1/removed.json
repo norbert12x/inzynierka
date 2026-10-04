@@ -1,0 +1,893 @@
+[
+  {
+    "id": "51721019fb37fe354059a36428dd4c114940f00103f90171183e890000000092031757797363686e69c4997465206f637a6b6f20776f646e65",
+    "name": "Wyschnięte oczko wodne",
+    "latitude": 50.1351582,
+    "longitude": 21.9930417,
+    "distanceFromCenterKm": 10.943,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction",
+      "tourism.attraction.viewpoint"
+    ],
+    "address": "Wyschnięte oczko wodne, Borsuk, 36-061 Głogów Małopolski, Polska",
+    "city": "Głogów Małopolski",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.1351582,
+        "lon": 21.9930417,
+        "name": "Wyschnięte oczko wodne",
+        "osm_id": 2302548081,
+        "tourism": "viewpoint",
+        "osm_type": "n"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "viewpoints",
+    "sourceRow": 4,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "517633a31f0d013640597782fdd7b9044940f00103f901b0e24d57020000009203094b7369c499c5bc7963",
+    "name": "Księżyc",
+    "latitude": 50.0369215,
+    "longitude": 22.0041065,
+    "distanceFromCenterKm": 0.012,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Księżyc, Króla Kazimierza, 35-060 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0369215,
+        "lon": 22.0041065,
+        "name": "Księżyc",
+        "osm_id": 10054656688,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Element modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q405"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 6,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51b8c60cf90c0136405965451ed2b9044940f00103f901b1e24d57020000009203065a69656d6961",
+    "name": "Ziemia",
+    "latitude": 50.0369208,
+    "longitude": 22.0041042,
+    "distanceFromCenterKm": 0.012,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Ziemia, Króla Kazimierza, 35-060 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0369208,
+        "lon": 22.0041042,
+        "name": "Ziemia",
+        "osm_id": 10054656689,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q2"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 12,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51b8c60cf90c01364059026ac592cd044940f00103f901b4e24d570200000092030853c5826fc5846365",
+    "name": "Słońce",
+    "latitude": 50.0375236,
+    "longitude": 22.0041042,
+    "distanceFromCenterKm": 0.059,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Słońce, Rynek 26, 35-060 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0375236,
+        "lon": 22.0041042,
+        "city": "Rzeszów",
+        "name": "Słońce",
+        "osm_id": 10054656692,
+        "street": "Rynek",
+        "tourism": "attraction",
+        "osm_type": "n",
+        "_inherited": "",
+        "description": "Element modelu układu słonecznego nad Wisłokiem",
+        "housenumber": 26,
+        "subject:wikidata": "Q525"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 24,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51258d76813701364059e734b0fac8044940f00103f901b2e24d570200000092030557656e7573",
+    "name": "Wenus",
+    "latitude": 50.0373834,
+    "longitude": 22.0047532,
+    "distanceFromCenterKm": 0.069,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Wenus, Rynek, 35-061 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0373834,
+        "lon": 22.0047532,
+        "name": "Wenus",
+        "osm_id": 10054656690,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q313"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 30,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51ac7df090180136405951a62c9ed5044940f00103f901b3e24d57020000009203074d65726b757279",
+    "name": "Merkury",
+    "latitude": 50.0377691,
+    "longitude": 22.0042811,
+    "distanceFromCenterKm": 0.088,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Merkury, Rynek, 35-060 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0377691,
+        "lon": 22.0042811,
+        "name": "Merkury",
+        "osm_id": 10054656691,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q308"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 36,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "513b095ba269013640593ef5fef5c0044940f00103f901afe24d57020000009203044d617273",
+    "name": "Mars",
+    "latitude": 50.0371387,
+    "longitude": 22.0055181,
+    "distanceFromCenterKm": 0.11,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Mars, Baldachówka, 35-061 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0371387,
+        "lon": 22.0055181,
+        "name": "Mars",
+        "osm_id": 10054656687,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q111"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 42,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51cb53b18c6800364059e61192bbbe044940f00103f901aee24d57020000009203054365726573",
+    "name": "Ceres",
+    "latitude": 50.0370707,
+    "longitude": 22.0015953,
+    "distanceFromCenterKm": 0.172,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Ceres, 3 Maja, 35-030 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0370707,
+        "lon": 22.0015953,
+        "name": "Ceres",
+        "image": "https://photos.app.goo.gl/QruT4HjjZK3YVFh37",
+        "osm_id": 10054656686,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q596"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 52,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "513044f3a55c02364059f09c77adce044940f00103f901ade24d57020000009203064a6f7769737a",
+    "name": "Jowisz",
+    "latitude": 50.0375573,
+    "longitude": 22.0092262,
+    "distanceFromCenterKm": 0.378,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Jowisz, Adama Mickiewicza, 35-065 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0375573,
+        "lon": 22.0092262,
+        "name": "Jowisz",
+        "osm_id": 10054656685,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q319"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 104,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51ed287398d4013640597db08c0ddd044940f00103f9010063410c03000000920333572074796d20627564796e6b75206d6965c59b6369c58261207369c4992053796e61676f676120537461726f6d69656a736b61",
+    "name": "W tym budynku mieściła się Synagoga Staromiejska",
+    "latitude": 50.037996,
+    "longitude": 22.0071502,
+    "distanceFromCenterKm": 0.251,
+    "sourceCategories": [
+      "tourism",
+      "tourism.sights",
+      "tourism.sights.memorial"
+    ],
+    "address": "W tym budynku mieściła się Synagoga Staromiejska, Bożnicza, 35-002 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.037996,
+        "lon": 22.0071502,
+        "name": "W tym budynku mieściła się Synagoga Staromiejska",
+        "image": "https://photos.app.goo.gl/N4Gzc54cziJjNedj7",
+        "osm_id": 13090513664,
+        "historic": "memorial",
+        "memorial": "plaque",
+        "osm_type": "n"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "heritage",
+    "sourceRow": 118,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "517a4db450d701364059c51ad3b8dc044940f00103f901ff62410c0300000092032253594e41474f474120535441524f4d49454a534b41205a57414e41204d41c581c484",
+    "name": "SYNAGOGA STAROMIEJSKA ZWANA MAŁĄ",
+    "latitude": 50.0379859,
+    "longitude": 22.0071917,
+    "distanceFromCenterKm": 0.253,
+    "sourceCategories": [
+      "tourism",
+      "tourism.sights",
+      "tourism.sights.memorial"
+    ],
+    "address": "SYNAGOGA STAROMIEJSKA ZWANA MAŁĄ, Bożnicza, 35-002 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0379859,
+        "lon": 22.0071917,
+        "name": "SYNAGOGA STAROMIEJSKA ZWANA MAŁĄ",
+        "image": "https://photos.app.goo.gl/sxA8kjZKaFZY4EbN9",
+        "osm_id": 13090513663,
+        "historic": "memorial",
+        "memorial": "plaque",
+        "osm_type": "n"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "heritage",
+    "sourceRow": 126,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "514fef3db72bff354059d89a520372044940f00103f901ace24d570200000092030653617475726e",
+    "name": "Saturn",
+    "latitude": 50.0347294,
+    "longitude": 21.9967608,
+    "distanceFromCenterKm": 0.575,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Saturn, Jagiellońska, 35-016 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0347294,
+        "lon": 21.9967608,
+        "name": "Saturn",
+        "osm_id": 10054656684,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q193"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 152,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51ca598e46f4013640596a317898f6044940f00103f901e4ec81650200000092032153796e2061676f6761204e6f776f6d6965736b61207a77616e61204475c5bcc485",
+    "name": "Syn agoga Nowomieska zwana Dużą",
+    "latitude": 50.0387755,
+    "longitude": 22.0076336,
+    "distanceFromCenterKm": 0.326,
+    "sourceCategories": [
+      "tourism",
+      "tourism.sights",
+      "tourism.sights.memorial"
+    ],
+    "address": "Syn agoga Nowomieska zwana Dużą, Jana III Sobieskiego 18, 35-002 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0387755,
+        "lon": 22.0076336,
+        "city": "Rzeszów",
+        "name": "Syn agoga Nowomieska zwana Dużą",
+        "osm_id": 10292948196,
+        "street": "Jana III Sobieskiego",
+        "historic": "memorial",
+        "memorial": "plaque",
+        "osm_type": "n",
+        "_inherited": "",
+        "housenumber": 18,
+        "inscription": "SYNAGOGA NOWOMIEJSKA zw.DUŻĄ - Wzniesiona pod koniec XVIIw., pierwotnie obrona, barokoa, przebudowana 1705-1712 przez architekta J.Ch.Belottiego oraz w I poł, XIX w. Spalona w 1944r. Odbudowana 1954-1965. Górna część nadbudowana podczas odbudowy."
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "heritage",
+    "sourceRow": 162,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "516760e4654dfc35405919e6046d72044940f00103f901abe24d57020000009203045572616e",
+    "name": "Uran",
+    "latitude": 50.034742,
+    "longitude": 21.985556,
+    "distanceFromCenterKm": 1.341,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Uran, Akacjowa, 35-113 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.034742,
+        "lon": 21.985556,
+        "name": "Uran",
+        "osm_id": 10054656683,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q324"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 197,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51dd4c3beb09ff354059c9b5fc1b0f074940f00103f901aae24d57020000009203064e657074756e",
+    "name": "Neptun",
+    "latitude": 50.0551486,
+    "longitude": 21.9962451,
+    "distanceFromCenterKm": 2.093,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Neptun, Warszawska, 35-231 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0551486,
+        "lon": 21.9962451,
+        "name": "Neptun",
+        "osm_id": 10054656682,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q332"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 221,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51e675c4211b02364059d3d9c9e028044940f00103f901e0d16d3d0300000092030a4d656e656c6f62696361",
+    "name": "Menelobica",
+    "latitude": 50.0324975,
+    "longitude": 22.0082265,
+    "distanceFromCenterKm": 0.585,
+    "sourceCategories": [
+      "tourism",
+      "tourism.sights",
+      "tourism.sights.memorial"
+    ],
+    "address": "Menelobica, Tetmajerów, 35-056 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0324975,
+        "lon": 22.0082265,
+        "name": "Menelobica",
+        "image": "https://rzeszow-news.pl/wp-content/uploads/2019/07/osrodek.png",
+        "osm_id": 13915509216,
+        "name:pl": "Menelobica",
+        "historic": "memorial",
+        "osm_type": "n",
+        "description": "Miejsce zbrodni w którym Mateusz D. dokonał pobicia nietrzeźwego bezdomnego.",
+        "official_name": "Miejsce pobicia menela przez Kiszaka"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "heritage",
+    "sourceRow": 222,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261",
+    "name": "Prasłowiańska Figura",
+    "latitude": 50.0248899,
+    "longitude": 22.0265183,
+    "distanceFromCenterKm": 2.098,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction",
+      "tourism.attraction.artwork",
+      "tourism.attraction.artwork.statue"
+    ],
+    "address": "Prasłowiańska Figura, Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0248899,
+        "lon": 22.0265183,
+        "name": "Prasłowiańska Figura",
+        "osm_id": 5130449936,
+        "tourism": "artwork",
+        "osm_type": "n",
+        "artwork_type": "statue"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 224,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+    "name": "Prasłowiańska Figura",
+    "latitude": 50.0249106,
+    "longitude": 22.0266043,
+    "distanceFromCenterKm": 2.101,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction",
+      "tourism.attraction.artwork",
+      "tourism.attraction.artwork.statue"
+    ],
+    "address": "Prasłowiańska Figura, Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0249106,
+        "lon": 22.0266043,
+        "name": "Prasłowiańska Figura",
+        "osm_id": 5130449935,
+        "tourism": "artwork",
+        "osm_type": "n",
+        "artwork_type": "statue"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 227,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+    "name": "Prasłowiańska Figura",
+    "latitude": 50.0249183,
+    "longitude": 22.0266365,
+    "distanceFromCenterKm": 2.102,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction",
+      "tourism.attraction.artwork",
+      "tourism.attraction.artwork.statue"
+    ],
+    "address": "Prasłowiańska Figura, Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0249183,
+        "lon": 22.0266365,
+        "name": "Prasłowiańska Figura",
+        "osm_id": 5130449934,
+        "tourism": "artwork",
+        "osm_type": "n",
+        "artwork_type": "statue"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 230,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "5120c221cba535364059baecc60baefd4840f00102f901a7fa292f0000000092033053746164696f6e204b6c7562752053706f72746f7765676f202247524f4d20535a694b222048616e647a6cc3b3776b61",
+    "name": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+    "latitude": 49.9818438,
+    "longitude": 22.2096683,
+    "distanceFromCenterKm": 15.926,
+    "sourceCategories": [
+      "leisure",
+      "leisure.park"
+    ],
+    "address": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka, 37-123 Handzlówka, Polska",
+    "city": "Handzlówka",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 49.98187396252747,
+        "lon": 22.20956105779817,
+        "city": "Handzlówka",
+        "name": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+        "osm_id": 791280295,
+        "leisure": "park",
+        "osm_type": "w",
+        "postcode": "37-123"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "nature",
+    "sourceRow": 241,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "5159e1f14817f6354059c4acbc89c6054940f00103f901a9e24d5702000000920306506c75746f6e",
+    "name": "Pluton",
+    "latitude": 50.0451214,
+    "longitude": 21.9612928,
+    "distanceFromCenterKm": 3.181,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Pluton, Krośnieńska, 35-504 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 50.0451214,
+        "lon": 21.9612928,
+        "name": "Pluton",
+        "osm_id": 10054656681,
+        "tourism": "attraction",
+        "osm_type": "n",
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "subject:wikidata": "Q339"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 260,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "5111c4793881fd3540594063cb97bcfd4840f00103f9017ac7cf3f0100000092030f4a616e6120506177c5826120313536",
+    "name": "Jana Pawła 156",
+    "latitude": 49.9823179,
+    "longitude": 21.990253,
+    "distanceFromCenterKm": 6.159,
+    "sourceCategories": [
+      "tourism",
+      "tourism.attraction"
+    ],
+    "address": "Jana Pawła 156, Jana Pawła II, 35-317 Rzeszów, Polska",
+    "city": "Rzeszów",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 49.9823179,
+        "lon": 21.990253,
+        "name": "Jana Pawła 156",
+        "osm_id": 5365548922,
+        "tourism": "attraction",
+        "osm_type": "n"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "attractions",
+    "sourceRow": 284,
+    "catalogStatus": "removed",
+    "components": []
+  },
+  {
+    "id": "512a317491e73136405903ca4ba36ef34840f00103f90120b99d080100000092030a4e612064727a65776965",
+    "name": "Na drzewie",
+    "latitude": 49.9018139,
+    "longitude": 22.1949397,
+    "distanceFromCenterKm": 20.309,
+    "sourceCategories": [
+      "tourism",
+      "tourism.sights",
+      "tourism.sights.memorial",
+      "tourism.sights.memorial.wayside_cross"
+    ],
+    "address": "Na drzewie, 877, 36-025 Dylągówka, Polska",
+    "city": "Dylągówka",
+    "openingHours": null,
+    "website": null,
+    "source": "Geoapify",
+    "sourceDetails": {
+      "sourcename": "openstreetmap",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License",
+      "url": "https://www.openstreetmap.org/copyright",
+      "raw": {
+        "lat": 49.9018139,
+        "lon": 22.1949397,
+        "name": "Na drzewie",
+        "osm_id": 4439521568,
+        "historic": "wayside_cross",
+        "osm_type": "n",
+        "religion": "christian",
+        "denomination": "catholic"
+      }
+    },
+    "estimatedVisitMinutes": null,
+    "reviewStatus": "unverified",
+    "selectionGroup": "heritage",
+    "sourceRow": 594,
+    "catalogStatus": "removed",
+    "components": []
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "verifiedAtUtc": "2026-10-04T22:10:25.348364+00:00",
+  "databaseApplied": true,
+  "counts": {
+    "places": 600,
+    "categories": 9,
+    "sources": 600
+  },
+  "statuses": {
+    "active": 485,
+    "component": 59,
+    "removed": 23,
+    "awaiting_photo": 33
+  },
+  "linkedComponents": 7,
+  "confirmedOpeningHours": 1,
+  "invalidCoordinates": 0,
+  "repeatImportAddedPlaces": 0,
+  "repeatImportPreservedCatalog": true,
+  "firstImport": [
+    {
+      "columns": [
+        "pg_advisory_xact_lock"
+      ],
+      "rows": [
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "newly_inserted_places"
+      ],
+      "rows": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "status",
+        "count"
+      ],
+      "rows": [
+        [
+          "active",
+          485
+        ],
+        [
+          "awaiting_photo",
+          33
+        ],
+        [
+          "component",
+          59
+        ],
+        [
+          "removed",
+          23
+        ]
+      ]
+    }
+  ]
+}

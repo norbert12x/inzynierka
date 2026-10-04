@@ -1,0 +1,3096 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Etnograficzne im. Franciszka Kotuli",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-061",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Rynek",
+        "housenumber": "6",
+        "iso3166_2": "PL-18",
+        "lon": 22.0046354,
+        "lat": 50.0370603,
+        "state_code": "PK",
+        "formatted": "Muzeum Etnograficzne im. Franciszka Kotuli, Rynek 6, 35-061 Rzeszów, Polska",
+        "address_line1": "Muzeum Etnograficzne im. Franciszka Kotuli",
+        "address_line2": "Rynek 6, 35-061 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "heritage"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.037044534225096,
+            "lon": 22.00463480514969,
+            "city": "Rzeszów",
+            "name": "Muzeum Etnograficzne im. Franciszka Kotuli",
+            "osm_id": 149933538,
+            "street": "Rynek",
+            "name:en": "Ethnographic Museum",
+            "name:pl": "Muzeum Etnograficzne im. Franciszka Kotuli",
+            "ref:nid": "236/ZN/59; A-57",
+            "tourism": "museum",
+            "website": "https://www.muzeumetnograficzne.rzeszow.pl/",
+            "building": "yes",
+            "heritage": 2,
+            "operator": "Muzeum Okręgowe w Rzeszowie",
+            "osm_type": "w",
+            "wikidata": "Q30547321",
+            "check_date": "2026-04-15",
+            "start_date": "before 1800",
+            "housenumber": 6,
+            "opening_hours": "Tu-We, Fr 08:30-15:30; Th 08:30-17:30; Sa-Su 14:00-19:00"
+          }
+        },
+        "website": "https://www.muzeumetnograficzne.rzeszow.pl/",
+        "opening_hours": "Tu-We, Fr 08:30-15:30; Th 08:30-17:30; Sa-Su 14:00-19:00",
+        "operator": "Muzeum Okręgowe w Rzeszowie",
+        "name_international": {
+          "en": "Ethnographic Museum",
+          "pl": "Muzeum Etnograficzne im. Franciszka Kotuli"
+        },
+        "ref_other": {
+          "nid": "236/ZN/59; A-57"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30547321"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "236/ZN/59; A-57"
+        },
+        "building": {
+          "start_date": "before 1800"
+        },
+        "distance": 46,
+        "place_id": "518f8a20bf2f01364059057f13e0bd044940f00102f901e2cdef080000000092032a4d757a65756d2045746e6f6772616669637a6e6520696d2e204672616e6369737a6b61204b6f74756c69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.00463480514969,
+          50.037044534225096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rzeszowskie Piwnice",
+        "old_name": "Podziemna Trasa Turystyczna",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Rynek",
+        "housenumber": "26",
+        "iso3166_2": "PL-18",
+        "lon": 22.0040982,
+        "lat": 50.0375908,
+        "state_code": "PK",
+        "formatted": "Rzeszowskie Piwnice, Rynek 26, 35-060 Rzeszów, Polska",
+        "address_line1": "Rzeszowskie Piwnice",
+        "address_line2": "Rynek 26, 35-060 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.facilities",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.037613502054874,
+            "lon": 22.004103127635872,
+            "url": "https://polska-org.pl/8269939,Rzeszow,Podziemna_Trasa_Turystyczna_Rzeszowskie_piwnice.html",
+            "city": "Rzeszów",
+            "name": "Rzeszowskie Piwnice",
+            "email": "rzeszowskiepiwnice@rzeszowskiepiwnice.pl",
+            "image": "https://rzeszowskiepiwnice.pl/upload/pliki/BGP211124KPtp_02.jpg",
+            "phone": "+48 17 748 39 90",
+            "osm_id": 204001283,
+            "street": "Rynek",
+            "name:en": "Rzeszów Cellars",
+            "name:pl": "Rzeszowskie Piwnice",
+            "tourism": "museum",
+            "website": "https://rzeszowskiepiwnice.pl/",
+            "building": "museum",
+            "old_name": "Podziemna Trasa Turystyczna",
+            "osm_type": "w",
+            "wikidata": "Q20032934",
+            "wikipedia": "pl:Podziemna Trasa Turystyczna w Rzeszowie",
+            "wheelchair": "limited",
+            "housenumber": 26
+          }
+        },
+        "website": "https://rzeszowskiepiwnice.pl/",
+        "website_other": [
+          "https://polska-org.pl/8269939,Rzeszow,Podziemna_Trasa_Turystyczna_Rzeszowskie_piwnice.html"
+        ],
+        "name_other": {
+          "old_name": "Podziemna Trasa Turystyczna"
+        },
+        "name_international": {
+          "en": "Rzeszów Cellars",
+          "pl": "Rzeszowskie Piwnice"
+        },
+        "contact": {
+          "phone": "+48 17 748 39 90",
+          "email": "rzeszowskiepiwnice@rzeszowskiepiwnice.pl"
+        },
+        "facilities": {
+          "wheelchair": true,
+          "wheelchair_details": {
+            "condition": "limited"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20032934",
+          "wikipedia": "pl:Podziemna Trasa Turystyczna w Rzeszowie",
+          "image": "https://rzeszowskiepiwnice.pl/upload/pliki/BGP211124KPtp_02.jpg"
+        },
+        "building": {
+          "type": "museum"
+        },
+        "distance": 69,
+        "place_id": "51e4010fe70c013640595b9bec84d0044940f00102f90103d0280c00000000920313527a65737a6f77736b6965205069776e696365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.004103127635872,
+          50.037613502054874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Historii Miasta Rzeszowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-061",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Rynek",
+        "housenumber": "12",
+        "iso3166_2": "PL-18",
+        "lon": 22.0054819,
+        "lat": 50.0370706,
+        "state_code": "PK",
+        "formatted": "Muzeum Historii Miasta Rzeszowa, Rynek 12, 35-061 Rzeszów, Polska",
+        "address_line1": "Muzeum Historii Miasta Rzeszowa",
+        "address_line2": "Rynek 12, 35-061 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "details": [
+          "details",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.0370706,
+            "lon": 22.0054819,
+            "name": "Muzeum Historii Miasta Rzeszowa",
+            "osm_id": 10895590853,
+            "street": "Rynek",
+            "name:en": "Museum of the History of Rzeszów",
+            "name:pl": "Muzeum Historii Miasta Rzeszowa",
+            "tourism": "museum",
+            "website": "https://mhmr.muzeum.rzeszow.pl/",
+            "operator": "Muzeum Okręgowe w Rzeszowie",
+            "osm_type": "n",
+            "wikidata": "Q11787110",
+            "wikipedia": "pl:Muzeum Okręgowe w Rzeszowie",
+            "check_date": "2026-04-15",
+            "housenumber": 12,
+            "opening_hours": "Mo-Th 08:30-15:30; Fr 08:30-17:30;Su[1] 10:00-16:00"
+          }
+        },
+        "website": "https://mhmr.muzeum.rzeszow.pl/",
+        "opening_hours": "Mo-Th 08:30-15:30; Fr 08:30-17:30;Su[1] 10:00-16:00",
+        "operator": "Muzeum Okręgowe w Rzeszowie",
+        "name_international": {
+          "en": "Museum of the History of Rzeszów",
+          "pl": "Muzeum Historii Miasta Rzeszowa"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11787110",
+          "wikipedia": "pl:Muzeum Okręgowe w Rzeszowie"
+        },
+        "distance": 106,
+        "place_id": "514e38054367013640595152bbbabe044940f00103f901c5856d890200000092031f4d757a65756d20486973746f726969204d696173746120527a65737a6f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0054819,
+          50.0370706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nierzeczywista",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-069",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Jana Matejki",
+        "housenumber": "10",
+        "iso3166_2": "PL-18",
+        "lon": 22.0032586,
+        "lat": 50.037953,
+        "state_code": "PK",
+        "formatted": "Nierzeczywista, Jana Matejki 10, 35-069 Rzeszów, Polska",
+        "address_line1": "Nierzeczywista",
+        "address_line2": "Jana Matejki 10, 35-069 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.culture",
+          "entertainment.culture.gallery",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.037953,
+            "lon": 22.0032586,
+            "name": "Nierzeczywista",
+            "osm_id": 13732777720,
+            "street": "Jana Matejki",
+            "tourism": "gallery",
+            "osm_type": "n",
+            "check_date": "2026-04-15",
+            "wheelchair": "limited",
+            "housenumber": 10,
+            "opening_hours": "Mo 18:30-21:30; Fr 17:00-20:00"
+          }
+        },
+        "opening_hours": "Mo 18:30-21:30; Fr 17:00-20:00",
+        "facilities": {
+          "wheelchair": true,
+          "wheelchair_details": {
+            "condition": "limited"
+          }
+        },
+        "distance": 119,
+        "place_id": "51456e3c8ed5003640597ee4d6a4db044940f00103f901f88e89320300000092030e4e6965727a65637a797769737461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0032586,
+          50.037953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Dobranocek ze Zbiorów Wojciecha Jamy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-065",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Adama Mickiewicza",
+        "housenumber": "13",
+        "iso3166_2": "PL-18",
+        "lon": 22.0067534,
+        "lat": 50.0378428,
+        "state_code": "PK",
+        "formatted": "Muzeum Dobranocek ze Zbiorów Wojciecha Jamy, Adama Mickiewicza 13, 35-065 Rzeszów, Polska",
+        "address_line1": "Muzeum Dobranocek ze Zbiorów Wojciecha Jamy",
+        "address_line2": "Adama Mickiewicza 13, 35-065 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.0378428,
+            "lon": 22.0067534,
+            "city": "Rzeszów",
+            "name": "Muzeum Dobranocek ze Zbiorów Wojciecha Jamy",
+            "email": "poczta@muzeumdobranocek.com.pl",
+            "image": "https://pl.wikipedia.org/wiki/Muzeum_Dobranocek_w_Rzeszowie#/media/File:Teatr_Maska_i_Muzeum_Dobranocek_w_Rzeszowie_01.jpg",
+            "phone": "+48 17 748 36 51",
+            "museum": "history",
+            "osm_id": 2835591832,
+            "street": "Adama Mickiewicza",
+            "name:en": "The Museum of Bedtime Cartoons",
+            "name:pl": "Muzeum Dobranocek ze Zbiorów Wojciecha Jamy",
+            "tourism": "museum",
+            "website": "http://www.muzeumdobranocek.com.pl/",
+            "operator": "Gmina Miasto Rzeszów",
+            "osm_type": "n",
+            "wikidata": "Q11786952",
+            "wikipedia": "pl:Muzeum Dobranocek w Rzeszowie",
+            "_inherited": "",
+            "housenumber": 13,
+            "opening_hours": "Jul-Aug Mo 09:00-17:00; Tu-Fr 09:00-17:00; Sa-Su 10:00-18:00",
+            "operator:type": "community"
+          }
+        },
+        "website": "http://www.muzeumdobranocek.com.pl/",
+        "opening_hours": "Jul-Aug Mo 09:00-17:00; Tu-Fr 09:00-17:00; Sa-Su 10:00-18:00",
+        "operator": "Gmina Miasto Rzeszów",
+        "operator_details": {
+          "type": "community"
+        },
+        "name_international": {
+          "en": "The Museum of Bedtime Cartoons",
+          "pl": "Muzeum Dobranocek ze Zbiorów Wojciecha Jamy"
+        },
+        "contact": {
+          "phone": "+48 17 748 36 51",
+          "email": "poczta@muzeumdobranocek.com.pl"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11786952",
+          "wikipedia": "pl:Muzeum Dobranocek w Rzeszowie",
+          "image": "https://pl.wikipedia.org/wiki/Muzeum_Dobranocek_w_Rzeszowie#/media/File:Teatr_Maska_i_Muzeum_Dobranocek_w_Rzeszowie_01.jpg"
+        },
+        "distance": 218,
+        "place_id": "5106234097ba01364059cd316a08d8044940f00103f90198b203a90000000092032c4d757a65756d20446f6272616e6f63656b207a65205a62696f72c3b37720576f6a636965636861204a616d79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0067534,
+          50.0378428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ZPAP",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "housenumber": "16",
+        "iso3166_2": "PL-18",
+        "lon": 22.0008853,
+        "lat": 50.0360842,
+        "state_code": "PK",
+        "formatted": "ZPAP, 3 Maja 16, 35-030 Rzeszów, Polska",
+        "address_line1": "ZPAP",
+        "address_line2": "3 Maja 16, 35-030 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.culture",
+          "entertainment.culture.gallery",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0360842,
+            "lon": 22.0008853,
+            "name": "ZPAP",
+            "osm_id": 13730246115,
+            "street": "3 Maja",
+            "tourism": "gallery",
+            "osm_type": "n",
+            "check_date": "2026-04-14",
+            "wheelchair": "limited",
+            "housenumber": 16,
+            "opening_hours": "Mo off; Tu-Su 15:30-18:30"
+          }
+        },
+        "opening_hours": "Mo off; Tu-Su 15:30-18:30",
+        "facilities": {
+          "wheelchair": true,
+          "wheelchair_details": {
+            "condition": "limited"
+          }
+        },
+        "distance": 245,
+        "place_id": "51128cde043a003640597f7335689e044940f00103f901e3ed6232030000009203045a504150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0008853,
+          50.0360842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Okręgowe w Rzeszowie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "housenumber": "19",
+        "iso3166_2": "PL-18",
+        "lon": 22.0012335,
+        "lat": 50.0353172,
+        "state_code": "PK",
+        "formatted": "Muzeum Okręgowe w Rzeszowie, 3 Maja 19, 35-030 Rzeszów, Polska",
+        "address_line1": "Muzeum Okręgowe w Rzeszowie",
+        "address_line2": "3 Maja 19, 35-030 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "heritage"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.contact",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.035274672323055,
+            "lon": 22.001449402661663,
+            "url": "https://fotopolska.eu/85192,obiekt.html?map_z=19",
+            "city": "Rzeszów",
+            "name": "Muzeum Okręgowe w Rzeszowie",
+            "email": "sekretariat@muzeum.rzeszow.pl",
+            "image": "https://photos.app.goo.gl/HKgD45tPaFniUKDV9",
+            "phone": "+48 17 853 52 78",
+            "url:0": "https://polska-org.pl/7228942,Rzeszow,Muzeum_Okregowe.html",
+            "osm_id": 202161900,
+            "street": "3 Maja",
+            "name:en": "The Regional Museum in Rzeszów",
+            "name:pl": "Muzeum Okręgowe w Rzeszowie",
+            "ref:nid": "A-1027",
+            "tourism": "museum",
+            "website": "https://www.muzeum.rzeszow.pl/",
+            "building": "yes",
+            "heritage": 2,
+            "operator": "Dyrektor mgr Bogdan Kaczmar",
+            "osm_type": "w",
+            "ref:ckkp": "PK00589",
+            "wikidata": "Q11787110",
+            "wikipedia": "pl:Muzeum Okręgowe w Rzeszowie",
+            "check_date": "2026-04-14",
+            "start_date": 1642,
+            "housenumber": 19,
+            "opening_hours": "Mo,Sa off; Tu-Th 08:30-15:30; Fr 08:30-17:30",
+            "building:levels": 2
+          }
+        },
+        "website": "https://www.muzeum.rzeszow.pl/",
+        "website_other": [
+          "https://fotopolska.eu/85192,obiekt.html?map_z=19"
+        ],
+        "opening_hours": "Mo,Sa off; Tu-Th 08:30-15:30; Fr 08:30-17:30",
+        "operator": "Dyrektor mgr Bogdan Kaczmar",
+        "name_international": {
+          "en": "The Regional Museum in Rzeszów",
+          "pl": "Muzeum Okręgowe w Rzeszowie"
+        },
+        "ref_other": {
+          "nid": "A-1027",
+          "ckkp": "PK00589"
+        },
+        "contact": {
+          "phone": "+48 17 853 52 78",
+          "email": "sekretariat@muzeum.rzeszow.pl"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11787110",
+          "wikipedia": "pl:Muzeum Okręgowe w Rzeszowie",
+          "image": "https://photos.app.goo.gl/HKgD45tPaFniUKDV9"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1027"
+        },
+        "building": {
+          "levels": 2,
+          "start_date": 1642
+        },
+        "distance": 265,
+        "place_id": "51d407f1fc5e00364059980066e183044940f00102f901ecbe0c0c0000000092031c4d757a65756d204f6b72c499676f7765207720527a65737a6f776965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.001449402661663,
+          50.035274672323055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Diecezjalne w Rzeszowie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-032",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Zamkowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.0001638,
+        "lat": 50.0342439,
+        "state_code": "PK",
+        "formatted": "Muzeum Diecezjalne w Rzeszowie, Zamkowa, 35-032 Rzeszów, Polska",
+        "address_line1": "Muzeum Diecezjalne w Rzeszowie",
+        "address_line2": "Zamkowa, 35-032 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0342439,
+            "lon": 22.0001638,
+            "name": "Muzeum Diecezjalne w Rzeszowie",
+            "email": "muzeum@diecezja.rzeszow.pl",
+            "image": "https://pl.wikipedia.org/wiki/Muzeum_Dobranocek_w_Rzeszowie#/media/File:Teatr_Maska_i_Muzeum_Dobranocek_w_Rzeszowie_01.jpg",
+            "phone": "+48 17 853 56 53",
+            "osm_id": 5115070783,
+            "name:pl": "Muzeum Diecezjalne w Rzeszowie",
+            "tourism": "museum",
+            "website": "https://www.diecezja.rzeszow.pl/category/struktura/instytucje/muzem/",
+            "alt_name": "Muzeum Diecezji Rzeszowskiej",
+            "operator": "Mo 14:00-16:00; Th-Fr 09:00-13:00",
+            "osm_type": "n",
+            "wikidata": "Q11786949",
+            "wikipedia": "pl:Muzeum Diecezjalne w Rzeszowie",
+            "start_date": "1998-09-22"
+          }
+        },
+        "website": "https://www.diecezja.rzeszow.pl/category/struktura/instytucje/muzem/",
+        "operator": "Mo 14:00-16:00; Th-Fr 09:00-13:00",
+        "name_other": {
+          "alt_name": "Muzeum Diecezji Rzeszowskiej"
+        },
+        "name_international": {
+          "pl": "Muzeum Diecezjalne w Rzeszowie"
+        },
+        "contact": {
+          "phone": "+48 17 853 56 53",
+          "email": "muzeum@diecezja.rzeszow.pl"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11786949",
+          "wikipedia": "pl:Muzeum Diecezjalne w Rzeszowie",
+          "image": "https://pl.wikipedia.org/wiki/Muzeum_Dobranocek_w_Rzeszowie#/media/File:Teatr_Maska_i_Muzeum_Dobranocek_w_Rzeszowie_01.jpg"
+        },
+        "distance": 412,
+        "place_id": "51a1a41bbc0a00364059334ba71a62044940f00103f9013fc9e1300100000092031e4d757a65756d2044696563657a6a616c6e65207720527a65737a6f776965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0001638,
+          50.0342439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Energetyki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-075",
+        "suburb": "Śródmieście",
+        "street": "8 Marca",
+        "housenumber": "6",
+        "iso3166_2": "PL-18",
+        "lon": 22.0132349,
+        "lat": 50.0381053,
+        "state_code": "PK",
+        "formatted": "Muzeum Energetyki, 8 Marca 6, 35-075 Rzeszów, Polska",
+        "address_line1": "Muzeum Energetyki",
+        "address_line2": "8 Marca 6, 35-075 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0381053,
+            "lon": 22.0132349,
+            "city": "Rzeszów",
+            "name": "Muzeum Energetyki",
+            "image": "https://pge-obrot.pl/var/pgeobrot_site/storage/images/_aliases/galleryfull/6/3/3/4/134336-1-pol-PL/NOc_3.JPG",
+            "osm_id": 5112935020,
+            "street": "8 Marca",
+            "name:pl": "Muzeum Energetyki",
+            "tourism": "museum",
+            "osm_type": "n",
+            "wikidata": "Q24944415",
+            "wikipedia": "pl:Muzeum Energetyki Podkarpackiej w Rzeszowie",
+            "_inherited": "",
+            "start_date": 2009,
+            "housenumber": 6,
+            "official_name": "Muzeum Energetyki Podkarpackiej w Rzeszowie"
+          }
+        },
+        "name_other": {
+          "official_name": "Muzeum Energetyki Podkarpackiej w Rzeszowie"
+        },
+        "name_international": {
+          "pl": "Muzeum Energetyki"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q24944415",
+          "wikipedia": "pl:Muzeum Energetyki Podkarpackiej w Rzeszowie",
+          "image": "https://pge-obrot.pl/var/pgeobrot_site/storage/images/_aliases/galleryfull/6/3/3/4/134336-1-pol-PL/NOc_3.JPG"
+        },
+        "distance": 673,
+        "place_id": "5174aac65c6303364059f2a66ca2e0044940f00103f9016c32c130010000009203114d757a65756d20456e6572676574796b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0132349,
+          50.0381053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Łowiectwa w Rzeszowie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-010",
+        "suburb": "Pułaskiego",
+        "street": "Księdza Józefa Jałowego",
+        "housenumber": "25",
+        "iso3166_2": "PL-18",
+        "lon": 21.9939932,
+        "lat": 50.040705,
+        "state_code": "PK",
+        "formatted": "Muzeum Łowiectwa w Rzeszowie, Księdza Józefa Jałowego 25, 35-010 Rzeszów, Polska",
+        "address_line1": "Muzeum Łowiectwa w Rzeszowie",
+        "address_line2": "Księdza Józefa Jałowego 25, 35-010 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.040705,
+            "lon": 21.9939932,
+            "city": "Rzeszów",
+            "name": "Muzeum Łowiectwa w Rzeszowie",
+            "image": "http://www.muzeum.rzeszow.pl/wp-content/uploads/2017/06/IMG_2715.jpg",
+            "phone": "+48 17 853 35 46",
+            "osm_id": 5115070779,
+            "street": "Księdza Józefa Jałowego",
+            "tourism": "museum",
+            "osm_type": "n",
+            "_inherited": "",
+            "housenumber": 25
+          }
+        },
+        "contact": {
+          "phone": "+48 17 853 35 46"
+        },
+        "wiki_and_media": {
+          "image": "http://www.muzeum.rzeszow.pl/wp-content/uploads/2017/06/IMG_2715.jpg"
+        },
+        "distance": 827,
+        "place_id": "5146729e5676fe35405950e449d235054940f00103f9013bc9e1300100000092031d4d757a65756d20c5816f77696563747761207720527a65737a6f776965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9939932,
+          50.040705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Techniki i Militariów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-202",
+        "suburb": "1000-Lecia",
+        "street": "Jana Kochanowskiego",
+        "housenumber": "19",
+        "iso3166_2": "PL-18",
+        "lon": 22.0078868,
+        "lat": 50.0449797,
+        "state_code": "PK",
+        "formatted": "Muzeum Techniki i Militariów, Jana Kochanowskiego 19, 35-202 Rzeszów, Polska",
+        "address_line1": "Muzeum Techniki i Militariów",
+        "address_line2": "Jana Kochanowskiego 19, 35-202 Rzeszów, Polska",
+        "categories": [
+          "access",
+          "access.yes",
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.04500742776898,
+            "lon": 22.007878093536306,
+            "city": "Rzeszów",
+            "name": "Muzeum Techniki i Militariów",
+            "phone": "+48 601 885 820",
+            "access": "permissive",
+            "osm_id": 197683187,
+            "street": "Jana Kochanowskiego",
+            "name:en": "Museum of Technology and the Military",
+            "name:pl": "Muzeum Techniki i Militariów",
+            "tourism": "museum",
+            "building": "yes",
+            "operator": "gen. Tomasz Bąk",
+            "osm_type": "w",
+            "wikidata": "Q20032781",
+            "wikipedia": "pl:Muzeum Techniki i Militariów w Rzeszowie",
+            "start_date": 2011,
+            "description": "Zwiedzanie muzeum jest możliwe po uprzednim uzgodnieniu.",
+            "housenumber": 19
+          }
+        },
+        "operator": "gen. Tomasz Bąk",
+        "description": "Zwiedzanie muzeum jest możliwe po uprzednim uzgodnieniu.",
+        "name_international": {
+          "en": "Museum of Technology and the Military",
+          "pl": "Muzeum Techniki i Militariów"
+        },
+        "contact": {
+          "phone": "+48 601 885 820"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20032781",
+          "wikipedia": "pl:Muzeum Techniki i Militariów w Rzeszowie"
+        },
+        "restrictions": {
+          "access": "permissive"
+        },
+        "building": {
+          "start_date": 2011
+        },
+        "distance": 933,
+        "place_id": "51e0177a4c0402364059242cabcdc2054940f00102f901f367c80b0000000092031d4d757a65756d20546563686e696b692069204d696c6974617269c3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.007878093536306,
+          50.04500742776898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Mleczarstwa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-241",
+        "suburb": "1000-Lecia",
+        "street": "Warszawska",
+        "housenumber": "22a",
+        "iso3166_2": "PL-18",
+        "lon": 21.9985395,
+        "lat": 50.0517724,
+        "state_code": "PK",
+        "formatted": "Muzeum Mleczarstwa, Warszawska 22a, 35-241 Rzeszów, Polska",
+        "address_line1": "Muzeum Mleczarstwa",
+        "address_line2": "Warszawska 22a, 35-241 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.05177238272281,
+            "lon": 21.99853948581861,
+            "city": "Rzeszów",
+            "name": "Muzeum Mleczarstwa",
+            "image": "http://zss.rze.pl/wp-content/uploads/2013/06/muz3.jpg",
+            "osm_id": 304699810,
+            "street": "Warszawska",
+            "name:pl": "Muzeum Mleczarstwa",
+            "tourism": "museum",
+            "website": "http://zss.rze.pl/?page_id=19",
+            "building": "yes",
+            "osm_type": "w",
+            "wikidata": "Q17619165",
+            "wikipedia": "pl:Muzeum Mleczarstwa w Rzeszowie",
+            "start_date": 1986,
+            "housenumber": "22a",
+            "official_name": "Muzeum Mleczarstwa przy Zespole Szkół Spożywczych im. Tadeusza Rylskiego w Rzeszowie"
+          }
+        },
+        "website": "http://zss.rze.pl/?page_id=19",
+        "name_other": {
+          "official_name": "Muzeum Mleczarstwa przy Zespole Szkół Spożywczych im. Tadeusza Rylskiego w Rzeszowie"
+        },
+        "name_international": {
+          "pl": "Muzeum Mleczarstwa"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q17619165",
+          "wikipedia": "pl:Muzeum Mleczarstwa w Rzeszowie",
+          "image": "http://zss.rze.pl/wp-content/uploads/2013/06/muz3.jpg"
+        },
+        "building": {
+          "start_date": 1986
+        },
+        "distance": 1689,
+        "place_id": "51085ba348a0ff354059b350397aa0064940f00102f901a2592912000000009203124d757a65756d204d6c65637a617273747761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.99853948581861,
+          50.05177238272281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Techniki i Militariów - Schron Marysieńka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-628",
+        "suburb": "Wilkowyja",
+        "street": "Królowej Marysieńki",
+        "housenumber": "3",
+        "iso3166_2": "PL-18",
+        "lon": 22.0527837,
+        "lat": 50.03722,
+        "state_code": "PK",
+        "formatted": "Muzeum Techniki i Militariów - Schron Marysieńka, Królowej Marysieńki 3, 35-628 Rzeszów, Polska",
+        "address_line1": "Muzeum Techniki i Militariów - Schron Marysieńka",
+        "address_line2": "Królowej Marysieńki 3, 35-628 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.037221686638794,
+            "lon": 22.052784219809862,
+            "city": "Rzeszów",
+            "name": "Muzeum Techniki i Militariów - Schron Marysieńka",
+            "museum": "history",
+            "osm_id": 349522878,
+            "street": "Królowej Marysieńki",
+            "tourism": "museum",
+            "website": "https://muzeum-techniki.rzeszow.pl/",
+            "building": "yes",
+            "osm_type": "w",
+            "postcode": "35-628",
+            "check_date": "2025-09-22",
+            "housenumber": 3
+          }
+        },
+        "website": "https://muzeum-techniki.rzeszow.pl/",
+        "distance": 3495,
+        "place_id": "5107d44144830d364059656823aec3044940f00102f901be4bd514000000009203324d757a65756d20546563686e696b692069204d696c6974617269c3b377202d20536368726f6e204d617279736965c5846b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.052784219809862,
+          50.037221686638794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Regionalne",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zaczernie",
+        "municipality": "gmina Trzebownisko",
+        "postcode": "36-062",
+        "housenumber": "266",
+        "iso3166_2": "PL-18",
+        "lon": 21.9974301,
+        "lat": 50.0928635,
+        "state_code": "PK",
+        "formatted": "Muzeum Regionalne, 266, 36-062 Zaczernie, Polska",
+        "address_line1": "Muzeum Regionalne",
+        "address_line2": "266, 36-062 Zaczernie, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0928635,
+            "lon": 21.9974301,
+            "name": "Muzeum Regionalne",
+            "place": "Zaczernie",
+            "museum": "local",
+            "osm_id": 11769819228,
+            "tourism": "museum",
+            "osm_type": "n",
+            "postcode": "36-062",
+            "_inherited": "",
+            "housenumber": 266
+          }
+        },
+        "distance": 6231,
+        "place_id": "51c78b3b9457ff354059fdbe7ff3e20b4940f00103f9015c3089bd020000009203114d757a65756d20526567696f6e616c6e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9974301,
+          50.0928635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Izba Tradycji Zapel S.A.",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Boguchwała",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-040",
+        "street": "Techniczna",
+        "iso3166_2": "PL-18",
+        "lon": 21.93672,
+        "lat": 49.9879394,
+        "state_code": "PK",
+        "formatted": "Izba Tradycji Zapel S.A., Techniczna, 36-040 Boguchwała, Polska",
+        "address_line1": "Izba Tradycji Zapel S.A.",
+        "address_line2": "Techniczna, 36-040 Boguchwała, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.98790133942543,
+            "lon": 21.93668919864493,
+            "name": "Izba Tradycji Zapel S.A.",
+            "osm_id": 341572599,
+            "tourism": "museum",
+            "building": "yes",
+            "osm_type": "w"
+          }
+        },
+        "distance": 7287,
+        "place_id": "5149b202ddcaef354059df40148d73fe4840f00102f901f7fb5b1400000000920318497a6261205472616479636a69205a6170656c20532e412e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.93668919864493,
+          49.98790133942543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Podkarpackie Centrum Nauki ,,Łukasiewicz''",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Jasionka",
+        "municipality": "gmina Trzebownisko",
+        "postcode": "36-002",
+        "housenumber": "952A",
+        "iso3166_2": "PL-18",
+        "lon": 22.0232715,
+        "lat": 50.1176555,
+        "state_code": "PK",
+        "formatted": "Podkarpackie Centrum Nauki ,,Łukasiewicz'', 952A, 36-002 Jasionka, Polska",
+        "address_line1": "Podkarpackie Centrum Nauki ,,Łukasiewicz''",
+        "address_line2": "952A, 36-002 Jasionka, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "details": [
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.117655752944074,
+            "lon": 22.023270463418797,
+            "name": "Podkarpackie Centrum Nauki ,,Łukasiewicz''",
+            "place": "Jasionka",
+            "museum": "science",
+            "osm_id": 835277758,
+            "tourism": "museum",
+            "building": "museum",
+            "osm_type": "w",
+            "postcode": "36-002",
+            "wikidata": "Q124436678",
+            "wikipedia": "pl:Podkarpackie Centrum Nauki Łukasiewicz",
+            "housenumber": "952A",
+            "addr:city:simc": "0664237"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q124436678",
+          "wikipedia": "pl:Podkarpackie Centrum Nauki Łukasiewicz"
+        },
+        "building": {
+          "type": "museum"
+        },
+        "distance": 9077,
+        "place_id": "51b458970df505364059608afd570f0f4940f00102f901be53c9310000000092032b506f646b61727061636b69652043656e7472756d204e61756b69202c2cc581756b617369657769637a2727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.023270463418797,
+          50.117655752944074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaplica bł. Józefa Kowalskiego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Siedliska",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-042",
+        "iso3166_2": "PL-18",
+        "lon": 21.9471629,
+        "lat": 49.9533485,
+        "state_code": "PK",
+        "formatted": "Kaplica bł. Józefa Kowalskiego, 36-042 Siedliska, Polska",
+        "address_line1": "Kaplica bł. Józefa Kowalskiego",
+        "address_line2": "36-042 Siedliska, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9533485,
+            "lon": 21.9471629,
+            "name": "Kaplica bł. Józefa Kowalskiego",
+            "place": "Siedliska",
+            "osm_id": 2958539589,
+            "tourism": "museum",
+            "website": "http://www.lubenia.pl/index.php?action=pages_1&action_id=44",
+            "osm_type": "n",
+            "_inherited": "",
+            "description": "Muzeum Polskiego duchownego katolickiego, salezjanin, błogosławiony Kościoła katolickiego",
+            "subject:wikidata": "Q325236",
+            "subject:wikipedia": "pl:Józef Kowalski (duchowny)"
+          }
+        },
+        "website": "http://www.lubenia.pl/index.php?action=pages_1&action_id=44",
+        "description": "Muzeum Polskiego duchownego katolickiego, salezjanin, błogosławiony Kościoła katolickiego",
+        "distance": 10158,
+        "place_id": "51097c8f4479f23540596798da5207fa4840f00103f90145bb57b0000000009203204b61706c6963612062c5822e204ac3b37a656661204b6f77616c736b6965676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9471629,
+          49.9533485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regionalny Dom Tradycji Ludowych",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Trzciana",
+        "municipality": "gmina Świlcza",
+        "postcode": "36-071",
+        "housenumber": "115",
+        "iso3166_2": "PL-18",
+        "lon": 21.8395007,
+        "lat": 50.0682834,
+        "state_code": "PK",
+        "formatted": "Regionalny Dom Tradycji Ludowych, 115, 36-071 Trzciana, Polska",
+        "address_line1": "Regionalny Dom Tradycji Ludowych",
+        "address_line2": "115, 36-071 Trzciana, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0682834,
+            "lon": 21.8395007,
+            "name": "Regionalny Dom Tradycji Ludowych",
+            "place": "Trzciana",
+            "osm_id": 13334718652,
+            "tourism": "museum",
+            "osm_type": "n",
+            "postcode": "36-071",
+            "_inherited": "",
+            "housenumber": 115
+          }
+        },
+        "distance": 12284,
+        "place_id": "5117789384e9d63540590aeeac82bd084940f00103f901bca8cf1a03000000920320526567696f6e616c6e7920446f6d205472616479636a69204c75646f77796368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8395007,
+          50.0682834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Strachów Polnych",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "housenumber": "23",
+        "iso3166_2": "PL-18",
+        "lon": 21.9496691,
+        "lat": 49.8997774,
+        "state_code": "PK",
+        "formatted": "Muzeum Strachów Polnych, 23, 36-043 Sołonka, Polska",
+        "address_line1": "Muzeum Strachów Polnych",
+        "address_line2": "23, 36-043 Sołonka, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8997774,
+            "lon": 21.9496691,
+            "name": "Muzeum Strachów Polnych",
+            "phone": "+48 782 442 888",
+            "place": "Sołonka",
+            "osm_id": 3823342236,
+            "tourism": "museum",
+            "website": "http://www.lubenia.pl/index.php?action=pages_1&action_id=760",
+            "operator": "Aleksander Bielenda",
+            "osm_type": "n",
+            "postcode": "36-043",
+            "_inherited": "",
+            "housenumber": 23,
+            "opening_hours": "May-Oct Su 11:00-18:00; Nov-Apr Su 11:00-16:00"
+          }
+        },
+        "website": "http://www.lubenia.pl/index.php?action=pages_1&action_id=760",
+        "opening_hours": "May-Oct Su 11:00-18:00; Nov-Apr Su 11:00-16:00",
+        "operator": "Aleksander Bielenda",
+        "contact": {
+          "phone": "+48 782 442 888"
+        },
+        "distance": 15753,
+        "place_id": "5192859e831df33540590757e5e72bf34840f00103f9019c92e3e3000000009203184d757a65756d20537472616368c3b37720506f6c6e796368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9496691,
+          49.8997774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Regionalne",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Handzlówka",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-123",
+        "housenumber": "107A",
+        "iso3166_2": "PL-18",
+        "lon": 22.2216852,
+        "lat": 49.9877214,
+        "state_code": "PK",
+        "formatted": "Muzeum Regionalne, 107A, 37-123 Handzlówka, Polska",
+        "address_line1": "Muzeum Regionalne",
+        "address_line2": "107A, 37-123 Handzlówka, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9877214,
+            "lon": 22.2216852,
+            "name": "Muzeum Regionalne",
+            "phone": "+48 17 226 42 11",
+            "place": "Handzlówka",
+            "osm_id": 4914290251,
+            "tourism": "museum",
+            "website": "http://www.gminalancut.pl/asp/pl_start.asp?typ=14&menu=98&strona=1",
+            "osm_type": "n",
+            "postcode": "37-123",
+            "wikidata": "Q16913416",
+            "wikipedia": "pl:Muzeum Regionalne w Handzlówce",
+            "_inherited": "",
+            "start_date": 2001,
+            "description": "Mieści się w czterech pomieszczeniach starej plebanii z 1910 r. Zbiór nawiązuje do historii wsi i okolic. Znajdują się tu stare dokumenty, fotografie, ubiory, przedmioty gospodarstwa domowego i narzędzia gospodarstwa rolnego.",
+            "housenumber": "107A",
+            "opening_hours": "Su[1] 8:30-12:00"
+          }
+        },
+        "website": "http://www.gminalancut.pl/asp/pl_start.asp?typ=14&menu=98&strona=1",
+        "opening_hours": "Su[1] 8:30-12:00",
+        "description": "Mieści się w czterech pomieszczeniach starej plebanii z 1910 r. Zbiór nawiązuje do historii wsi i okolic. Znajdują się tu stare dokumenty, fotografie, ubiory, przedmioty gospodarstwa domowego i narzędzia gospodarstwa rolnego.",
+        "contact": {
+          "phone": "+48 17 226 42 11"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q16913416",
+          "wikipedia": "pl:Muzeum Regionalne w Handzlówce"
+        },
+        "distance": 16538,
+        "place_id": "51d9017c5cc0383640599847a3a76dfe4840f00103f9014b1eea24010000009203114d757a65756d20526567696f6e616c6e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2216852,
+          49.9877214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Historii Miasta i Regionu (d. Kasyno)",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Zamkowa",
+        "housenumber": "2",
+        "iso3166_2": "PL-18",
+        "lon": 22.2311464,
+        "lat": 50.0684099,
+        "state_code": "PK",
+        "formatted": "Muzeum Historii Miasta i Regionu (d. Kasyno), Zamkowa 2, 37-100 Łańcut, Polska",
+        "address_line1": "Muzeum Historii Miasta i Regionu (d. Kasyno)",
+        "address_line2": "Zamkowa 2, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "heritage"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06840466032255,
+            "lon": 22.231141707893233,
+            "url": "https://polska-org.pl/9514626,Lancut,Muzeum_Zamek_w_Lancucie_Dzial_Historii_Miasta_i_Regionu.html",
+            "city": "Łańcut",
+            "name": "Muzeum Historii Miasta i Regionu (d. Kasyno)",
+            "image": "https://photos.app.goo.gl/j36QoXFoK7kqd3CZ8",
+            "url:0": "https://fotopolska.eu/144940,obiekt.html?map_z=19",
+            "osm_id": 175606501,
+            "street": "Zamkowa",
+            "ref:nid": "A-1016;A-1032",
+            "tourism": "museum",
+            "building": "yes",
+            "heritage": 2,
+            "operator": "Muzeum-Zamek w Łańcucie",
+            "osm_type": "w",
+            "postcode": "37-100",
+            "start_date": "before 1900",
+            "housenumber": 2
+          }
+        },
+        "website": "https://polska-org.pl/9514626,Lancut,Muzeum_Zamek_w_Lancucie_Dzial_Historii_Miasta_i_Regionu.html",
+        "operator": "Muzeum-Zamek w Łańcucie",
+        "ref_other": {
+          "nid": "A-1016;A-1032"
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/j36QoXFoK7kqd3CZ8"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1016;A-1032"
+        },
+        "building": {
+          "start_date": "before 1900"
+        },
+        "distance": 16638,
+        "place_id": "519d245c1a2c3b3640595b7de17bc1084940f00102f901e58a770a0000000092032c4d757a65756d20486973746f726969204d6961737461206920526567696f6e752028642e204b6173796e6f29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.231141707893233,
+          50.06840466032255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Judaistyczne",
+        "old_name": "Synagoga",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Plac Jana III Sobieskiego",
+        "housenumber": "16",
+        "iso3166_2": "PL-18",
+        "lon": 22.2318034,
+        "lat": 50.0675482,
+        "state_code": "PK",
+        "formatted": "Muzeum Judaistyczne, Plac Jana III Sobieskiego 16, 37-100 Łańcut, Polska",
+        "address_line1": "Muzeum Judaistyczne",
+        "address_line2": "Plac Jana III Sobieskiego 16, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.place_of_worship",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "heritage",
+          "tourism.sights.place_of_worship.synagogue"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.facilities",
+          "details.heritage",
+          "details.place_of_worship",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06754590417187,
+            "lon": 22.231796310023395,
+            "city": "Łańcut",
+            "name": "Muzeum Judaistyczne",
+            "osm_id": 175571609,
+            "street": "Plac Jana III Sobieskiego",
+            "name:en": "Łańcut Synagogue",
+            "name:fr": "Synagogue de Łańcut",
+            "name:pl": "Muzeum Judaistyczne",
+            "ref:nid": "A-315; A-1022",
+            "tourism": "museum",
+            "building": "synagogue",
+            "heritage": 2,
+            "old_name": "Synagoga",
+            "osm_type": "w",
+            "postcode": "37-100",
+            "religion": "jewish",
+            "wikidata": "Q178728",
+            "wikipedia": "pl:Synagoga w Łańcucie",
+            "check_date": "2026-04-17",
+            "start_date": 1761,
+            "wheelchair": "no",
+            "housenumber": 16,
+            "opening_hours": "May-Aug Tu-Fr 12:00-17:00; May-Aug Su 14:00-17:00; Mo Off",
+            "addr:city:simc": "0974529",
+            "heritage:operator": "nid",
+            "addr:street:sym_ul": 49089
+          }
+        },
+        "opening_hours": "May-Aug Tu-Fr 12:00-17:00; May-Aug Su 14:00-17:00; Mo Off",
+        "name_other": {
+          "old_name": "Synagoga"
+        },
+        "name_international": {
+          "en": "Łańcut Synagogue",
+          "fr": "Synagogue de Łańcut",
+          "pl": "Muzeum Judaistyczne"
+        },
+        "ref_other": {
+          "nid": "A-315; A-1022"
+        },
+        "facilities": {
+          "wheelchair": false
+        },
+        "wiki_and_media": {
+          "wikidata": "Q178728",
+          "wikipedia": "pl:Synagoga w Łańcucie"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "A-315; A-1022"
+        },
+        "building": {
+          "type": "synagogue",
+          "start_date": 1761
+        },
+        "place_of_worship": {
+          "religion": "jewish"
+        },
+        "distance": 16664,
+        "place_id": "514be2c200573b364059cfb21c58a5084940f00102f9019902770a000000009203134d757a65756d204a75646169737479637a6e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.231796310023395,
+          50.06754590417187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum wsi Podkarpackiej \"Potoki\"",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa Górna",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "housenumber": "366",
+        "iso3166_2": "PL-18",
+        "lon": 22.0506522,
+        "lat": 49.8898783,
+        "state_code": "PK",
+        "formatted": "Muzeum wsi Podkarpackiej \"Potoki\", 366, 36-030 Błażowa Górna, Polska",
+        "address_line1": "Muzeum wsi Podkarpackiej \"Potoki\"",
+        "address_line2": "366, 36-030 Błażowa Górna, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8898783,
+            "lon": 22.0506522,
+            "name": "Muzeum wsi Podkarpackiej \"Potoki\"",
+            "phone": "+48 694 152 007",
+            "place": "Błażowa Górna",
+            "museum": "local",
+            "osm_id": 4392096291,
+            "tourism": "museum",
+            "website": "https://www.blazowa.com.pl/?c=mdTresc-cmPokaz-107",
+            "operator": "Augustyn Rybka",
+            "osm_type": "n",
+            "wikidata": "Q17619099",
+            "website:2": "http://rs_1.republika.pl/muzeum.htm",
+            "wikipedia": "pl:Muzeum „Potoki” w Błażowej Górnej",
+            "_inherited": "",
+            "start_date": 2000,
+            "housenumber": 366,
+            "opening_hours": "Su 15:00-20:00",
+            "operator:type": "private"
+          }
+        },
+        "website": "https://www.blazowa.com.pl/?c=mdTresc-cmPokaz-107",
+        "opening_hours": "Su 15:00-20:00",
+        "operator": "Augustyn Rybka",
+        "operator_details": {
+          "type": "private"
+        },
+        "contact": {
+          "phone": "+48 694 152 007"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q17619099",
+          "wikipedia": "pl:Muzeum „Potoki” w Błażowej Górnej"
+        },
+        "distance": 16703,
+        "place_id": "516f78e68af70c364059c5f53988e7f14840f00103f9012312ca05010000009203214d757a65756d2077736920506f646b61727061636b69656a2022506f746f6b6922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0506522,
+          49.8898783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum - Zamek w Łańcucie",
+        "old_name": "Zamek Lubomirskich i Potockich",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Zamkowa",
+        "housenumber": "1",
+        "iso3166_2": "PL-18",
+        "lon": 22.2343151,
+        "lat": 50.0684665,
+        "state_code": "PK",
+        "formatted": "Muzeum - Zamek w Łańcucie, Zamkowa 1, 37-100 Łańcut, Polska",
+        "address_line1": "Muzeum - Zamek w Łańcucie",
+        "address_line2": "Zamkowa 1, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.castle"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.contact",
+          "details.heritage",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fax": "+48 17 225 20 12",
+            "lat": 50.06846154426999,
+            "lon": 22.23456953703118,
+            "url": "https://edukacjamuzealnalancut.blogspot.com/",
+            "city": "Łańcut",
+            "name": "Muzeum - Zamek w Łańcucie",
+            "email": "muzeum@zamek-lancut.pl",
+            "image": "https://photos.app.goo.gl/ZbNrKC1QA9UsXMD36",
+            "phone": "+48 17 225 20 08, 225 20 09, 225 20 10",
+            "url:0": "https://polska-org.pl/7221247,Lancut,Zespol_zamkowo_parkowy_w_Lancucie.html",
+            "url:1": "https://fotopolska.eu/4059,obiekt.html?map_z=19",
+            "url:2": "https://youtu.be/R7qchUfmG-o?si=7BiSi60bM3CmP87g",
+            "osm_id": 3229503,
+            "street": "Zamkowa",
+            "name:be": "Ланьцуцкі замак",
+            "name:bg": "Замък Ланцут",
+            "name:de": "Schloss Łańcut",
+            "name:en": "Łańcut Castle",
+            "name:es": "Castillo de Łańcut",
+            "name:fr": "Château de Łańcut",
+            "name:it": "Castello di Łańcut",
+            "name:nl": "Kasteel Łańcut",
+            "name:no": "Łańcut-slottet",
+            "name:pl": "Muzeum - Zamek w Łańcucie",
+            "name:ru": "Ланьцутский замок",
+            "name:uk": "Ланьцутський замок",
+            "name:uz": "Łańcut qalʼasi",
+            "name:vi": "Lâu đài Łańcut",
+            "name:zh": "万楚特城堡",
+            "ref:nid": "A-1023",
+            "tourism": "museum",
+            "website": "https://www.zamek-lancut.pl/",
+            "alt_name": "Zamek Lubomirskich i Potockich w Łańcucie",
+            "building": "yes",
+            "heritage": 2,
+            "historic": "castle",
+            "old_name": "Zamek Lubomirskich i Potockich",
+            "operator": "Muzeum-Zamek w Łańcucie",
+            "osm_type": "r",
+            "postcode": "37-100",
+            "ref:ckkp": "PK00349",
+            "wikidata": "Q773316",
+            "wikipedia": "pl:Zamek w Łańcucie",
+            "start_date": 1610,
+            "alt_name:fr": "Château des Lubomirski et des Potocki",
+            "housenumber": 1,
+            "opening_hours": "Mo-Fr 09:45-15:00; Sa-Su 09:45-17:00",
+            "contact:twitter": "https://x.com/mzlancut",
+            "contact:youtube": "https://www.youtube.com/user/MuseumCastleInLancut",
+            "contact:facebook": "https://www.facebook.com/mzlancut",
+            "contact:instagram": "https://www.instagram.com/zamek_lancut/",
+            "heritage:operator": "nid",
+            "contact:tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1956003-d286035-Reviews-Lancut_Castle-Lancut_Subcarpathian_Province_Southern_Poland.html"
+          }
+        },
+        "website": "https://www.zamek-lancut.pl/",
+        "website_other": [
+          "https://edukacjamuzealnalancut.blogspot.com/"
+        ],
+        "opening_hours": "Mo-Fr 09:45-15:00; Sa-Su 09:45-17:00",
+        "operator": "Muzeum-Zamek w Łańcucie",
+        "name_other": {
+          "alt_name": "Zamek Lubomirskich i Potockich w Łańcucie",
+          "old_name": "Zamek Lubomirskich i Potockich"
+        },
+        "name_international": {
+          "be": "Ланьцуцкі замак",
+          "bg": "Замък Ланцут",
+          "de": "Schloss Łańcut",
+          "en": "Łańcut Castle",
+          "es": "Castillo de Łańcut",
+          "fr": "Château de Łańcut",
+          "it": "Castello di Łańcut",
+          "nl": "Kasteel Łańcut",
+          "no": "Łańcut-slottet",
+          "pl": "Muzeum - Zamek w Łańcucie",
+          "ru": "Ланьцутский замок",
+          "uk": "Ланьцутський замок",
+          "uz": "Łańcut qalʼasi",
+          "vi": "Lâu đài Łańcut",
+          "zh": "万楚特城堡"
+        },
+        "ref_other": {
+          "nid": "A-1023",
+          "ckkp": "PK00349"
+        },
+        "contact": {
+          "phone": "+48 17 225 20 08, 225 20 09, 225 20 10",
+          "email": "muzeum@zamek-lancut.pl",
+          "fax": "+48 17 225 20 12"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q773316",
+          "wikipedia": "pl:Zamek w Łańcucie",
+          "image": "https://photos.app.goo.gl/ZbNrKC1QA9UsXMD36"
+        },
+        "historic": {
+          "type": "castle",
+          "start_date": 1610
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "A-1023"
+        },
+        "building": {
+          "start_date": 1610
+        },
+        "distance": 16880,
+        "place_id": "51d12fcabf0c3c3640592dd60e59c3084940f00101f9013f4731000000000092031b4d757a65756d202d205a616d656b207720c58161c5846375636965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.23456953703118,
+          50.06846154426999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Gorzelnictwa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Władysława Sikorskiego",
+        "street": "Stefana Żeromskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.2309273,
+        "lat": 50.0784268,
+        "state_code": "PK",
+        "formatted": "Muzeum Gorzelnictwa, Stefana Żeromskiego, 37-100 Łańcut, Polska",
+        "address_line1": "Muzeum Gorzelnictwa",
+        "address_line2": "Stefana Żeromskiego, 37-100 Łańcut, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0784268,
+            "lon": 22.2309273,
+            "name": "Muzeum Gorzelnictwa",
+            "email": "rezerwacja.mhs@interia.pl",
+            "phone": "+48 17 225 42 61",
+            "osm_id": 5115070774,
+            "name:pl": "Muzeum Gorzelnictwa",
+            "tourism": "museum",
+            "website": "https://muzeumgorzelnictwa.pl/museum.html",
+            "osm_type": "n",
+            "wikidata": "Q16579887",
+            "website:2": "http://www.polskaniezwykla.pl/web/place/6605,lancut-muzeum-gorzelnictwa---slodycz-z-moca.html",
+            "wikipedia": "pl:Muzeum Gorzelnictwa w Łańcucie",
+            "official_name": "Muzeum Gorzelnictwa w Łańcucie"
+          }
+        },
+        "website": "https://muzeumgorzelnictwa.pl/museum.html",
+        "name_other": {
+          "official_name": "Muzeum Gorzelnictwa w Łańcucie"
+        },
+        "name_international": {
+          "pl": "Muzeum Gorzelnictwa"
+        },
+        "contact": {
+          "phone": "+48 17 225 42 61",
+          "email": "rezerwacja.mhs@interia.pl"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q16579887",
+          "wikipedia": "pl:Muzeum Gorzelnictwa w Łańcucie"
+        },
+        "distance": 16891,
+        "place_id": "51eb40310d1e3b364059a290aee3090a4940f00103f90136c9e130010000009203134d757a65756d20476f727a656c6e6963747761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2309273,
+          50.0784268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Izba Pamięci gen. Władysława Sikorskiego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Hyżne",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-024",
+        "housenumber": "182",
+        "iso3166_2": "PL-18",
+        "lon": 22.1731209,
+        "lat": 49.9206869,
+        "state_code": "PK",
+        "formatted": "Izba Pamięci gen. Władysława Sikorskiego, 182, 36-024 Hyżne, Polska",
+        "address_line1": "Izba Pamięci gen. Władysława Sikorskiego",
+        "address_line2": "182, 36-024 Hyżne, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9206869,
+            "lon": 22.1731209,
+            "name": "Izba Pamięci gen. Władysława Sikorskiego",
+            "place": "Hyżne",
+            "osm_id": 9141312466,
+            "tourism": "museum",
+            "osm_type": "n",
+            "postcode": "36-024",
+            "_inherited": "",
+            "housenumber": 182
+          }
+        },
+        "distance": 17735,
+        "place_id": "510cc1bba6512c36405985ad7e11d9f54840f00103f901d25bdd200200000092032b497a62612050616d69c49963692067656e2e2057c58261647973c5826177612053696b6f72736b6965676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1731209,
+          49.9206869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Pisanek",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "district": "Miasto",
+        "street": "Armii Krajowej",
+        "housenumber": "17",
+        "iso3166_2": "PL-18",
+        "lon": 22.1001287,
+        "lat": 49.8882344,
+        "state_code": "PK",
+        "formatted": "Muzeum Pisanek, Armii Krajowej 17, 36-030 Błażowa, Polska",
+        "address_line1": "Muzeum Pisanek",
+        "address_line2": "Armii Krajowej 17, 36-030 Błażowa, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8882344,
+            "lon": 22.1001287,
+            "city": "Błażowa",
+            "name": "Muzeum Pisanek",
+            "osm_id": 13244850517,
+            "street": "Armii Krajowej",
+            "tourism": "museum",
+            "osm_type": "n",
+            "postcode": "36-030",
+            "_inherited": "",
+            "housenumber": 17
+          }
+        },
+        "distance": 17927,
+        "place_id": "5118e4d308a219364059529731aab1f14840f00103f901556174150300000092030e4d757a65756d20506973616e656b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1001287,
+          49.8882344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Społeczne Muzeum Ziemi Błażowskiej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "district": "Miasto",
+        "street": "Armii Krajowej",
+        "housenumber": "6",
+        "iso3166_2": "PL-18",
+        "lon": 22.101016,
+        "lat": 49.8859131,
+        "state_code": "PK",
+        "formatted": "Społeczne Muzeum Ziemi Błażowskiej, Armii Krajowej 6, 36-030 Błażowa, Polska",
+        "address_line1": "Społeczne Muzeum Ziemi Błażowskiej",
+        "address_line2": "Armii Krajowej 6, 36-030 Błażowa, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8859131,
+            "lon": 22.101016,
+            "city": "Błażowa",
+            "name": "Społeczne Muzeum Ziemi Błażowskiej",
+            "osm_id": 12368553323,
+            "street": "Armii Krajowej",
+            "tourism": "museum",
+            "osm_type": "n",
+            "postcode": "36-030",
+            "_inherited": "",
+            "housenumber": 6
+          }
+        },
+        "distance": 18190,
+        "place_id": "516c5f402fdc193640598bccb79965f14840f00103f9016b2539e10200000092032553706fc58265637a6e65204d757a65756d205a69656d692042c58261c5bc6f77736b69656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.101016,
+          49.8859131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Społeczne",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Konieczkowa",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-114",
+        "housenumber": "58",
+        "iso3166_2": "PL-18",
+        "lon": 21.9258226,
+        "lat": 49.8422112,
+        "state_code": "PK",
+        "formatted": "Muzeum Społeczne, 58, 38-114 Konieczkowa, Polska",
+        "address_line1": "Muzeum Społeczne",
+        "address_line2": "58, 38-114 Konieczkowa, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8422112,
+            "lon": 21.9258226,
+            "name": "Muzeum Społeczne",
+            "phone": "+48 698 505 749",
+            "place": "Konieczkowa",
+            "osm_id": 4914592782,
+            "name:pl": "Muzeum Społeczne",
+            "tourism": "museum",
+            "website": "https://zskonieczkowa.webd.pl/portal/viewpage.php?page_id=39",
+            "alt_name": "Muzeum Silników Stacjonarnych i Techniki Rolniczej",
+            "osm_type": "n",
+            "postcode": "38-114",
+            "wikidata": "Q16913347",
+            "website:2": "https://www.facebook.com/muzeumniebylec/",
+            "wikipedia": "pl:Muzeum Społeczne Gminy Niebylec",
+            "_inherited": "",
+            "start_date": 2012,
+            "description": "Pamiątki po wojskowych oraz liczne przedmioty codziennego użytku i zabytki techniki (radia, maszyny do pisania, maszyny do szycia, wagi) oraz obrazy religijne. Ponadto stara prasa oraz strażacka pompa ręczna",
+            "housenumber": 58,
+            "official_name": "Muzeum Społeczne Gminy Niebylec",
+            "opening_hours": "Th 16:00-18:00"
+          }
+        },
+        "website": "https://zskonieczkowa.webd.pl/portal/viewpage.php?page_id=39",
+        "opening_hours": "Th 16:00-18:00",
+        "description": "Pamiątki po wojskowych oraz liczne przedmioty codziennego użytku i zabytki techniki (radia, maszyny do pisania, maszyny do szycia, wagi) oraz obrazy religijne. Ponadto stara prasa oraz strażacka pompa ręczna",
+        "name_other": {
+          "alt_name": "Muzeum Silników Stacjonarnych i Techniki Rolniczej",
+          "official_name": "Muzeum Społeczne Gminy Niebylec"
+        },
+        "name_international": {
+          "pl": "Muzeum Społeczne"
+        },
+        "contact": {
+          "phone": "+48 698 505 749"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q16913347",
+          "wikipedia": "pl:Muzeum Społeczne Gminy Niebylec"
+        },
+        "distance": 22381,
+        "place_id": "51cfe5bcb502ed35405997299c93cdeb4840f00103f9010ebcee24010000009203114d757a65756d2053706fc58265637a6e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9258226,
+          49.8422112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Silników Stacjonarnych i Techniki Rolniczej „S”",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Niebylec",
+        "hamlet": "Dwór",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-114",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.9301732,
+        "lat": 49.841179,
+        "state_code": "PK",
+        "formatted": "Muzeum Silników Stacjonarnych i Techniki Rolniczej „S”, 19, 38-114 Niebylec, Polska",
+        "address_line1": "Muzeum Silników Stacjonarnych i Techniki Rolniczej „S”",
+        "address_line2": "19, 38-114 Niebylec, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.84117873134678,
+            "lon": 21.930173522904234,
+            "name": "Muzeum Silników Stacjonarnych i Techniki Rolniczej „S”",
+            "museum": "history",
+            "osm_id": 351404950,
+            "tourism": "museum",
+            "website": "http://muzeumsilnikow.pl/",
+            "building": "yes",
+            "osm_type": "w",
+            "opening_hours": "Tu-Su 10:00-17:00"
+          }
+        },
+        "website": "http://muzeumsilnikow.pl/",
+        "opening_hours": "Tu-Su 10:00-17:00",
+        "distance": 22416,
+        "place_id": "51927a1cda1fee354059d39ca2beabeb4840f00102f9019603f2140000000092033b4d757a65756d2053696c6e696bc3b37720537461636a6f6e61726e796368206920546563686e696b6920526f6c6e69637a656a20e2809e53e2809d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.930173522904234,
+          49.84117873134678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Markowa",
+        "hamlet": "Średnia Karczma",
+        "municipality": "gmina Markowa",
+        "postcode": "37-120",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.3171166,
+        "lat": 50.0230964,
+        "state_code": "PK",
+        "formatted": "Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów, 881, 37-120 Markowa, Polska",
+        "address_line1": "Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów",
+        "address_line2": "881, 37-120 Markowa, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.facilities",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.02300913207172,
+            "lon": 22.317137799970045,
+            "name": "Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów",
+            "email": "sekretariat@muzeumulmow.pl",
+            "image": "http://culture.pl/sites/default/files/styles/galeria_style/public/images/culture.pl/mu-cult_003.jpg",
+            "phone": "+48 17 224 10 15",
+            "osm_id": 500086074,
+            "landuse": "commercial",
+            "name:en": "The Ulma Family Museum of Poles Saving Jews in World War II",
+            "name:pl": "Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów",
+            "tourism": "museum",
+            "website": "https://muzeumulmow.pl/pl/",
+            "operator": "dr Anna Stróż",
+            "osm_type": "w",
+            "wikidata": "Q11787138",
+            "wikipedia": "pl:Muzeum Polaków Ratujących Żydów podczas II wojny światowej im. Rodziny Ulmów w Markowej",
+            "start_date": "2016-03-17",
+            "wheelchair": "yes",
+            "description": "Upamiętnia Polaków ratujących Żydów skazanych na zagładę.",
+            "official_name": "Muzeum Polaków Ratujących Żydów podczas II wojny światowej im. Rodziny Ulmów w Markowej",
+            "opening_hours": "Jan-Mar;Nov-Dec Tu-Su 10:00-16:00; Apr-Oct Tu-Su 10:00-18:00; Nov 1 off; Nov 11 off"
+          }
+        },
+        "website": "https://muzeumulmow.pl/pl/",
+        "opening_hours": "Jan-Mar;Nov-Dec Tu-Su 10:00-16:00; Apr-Oct Tu-Su 10:00-18:00; Nov 1 off; Nov 11 off",
+        "operator": "dr Anna Stróż",
+        "description": "Upamiętnia Polaków ratujących Żydów skazanych na zagładę.",
+        "name_other": {
+          "official_name": "Muzeum Polaków Ratujących Żydów podczas II wojny światowej im. Rodziny Ulmów w Markowej"
+        },
+        "name_international": {
+          "en": "The Ulma Family Museum of Poles Saving Jews in World War II",
+          "pl": "Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów"
+        },
+        "contact": {
+          "phone": "+48 17 224 10 15",
+          "email": "sekretariat@muzeumulmow.pl"
+        },
+        "facilities": {
+          "wheelchair": true
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11787138",
+          "wikipedia": "pl:Muzeum Polaków Ratujących Żydów podczas II wojny światowej im. Rodziny Ulmów w Markowej",
+          "image": "http://culture.pl/sites/default/files/styles/galeria_style/public/images/culture.pl/mu-cult_003.jpg"
+        },
+        "distance": 22491,
+        "place_id": "515d325ff12f51364059f2e096f6f1024940f00102f9013ab5ce1d0000000092033d4d757a65756d20506f6c616bc3b37720526174756ac4856379636820c5bb7964c3b377206e6120506f646b6172706163697520696d2e20556c6dc3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.317137799970045,
+          50.02300913207172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skansen w Markowej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Markowa",
+        "hamlet": "Średnia Karczma",
+        "municipality": "gmina Markowa",
+        "postcode": "37-120",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.3178203,
+        "lat": 50.0253482,
+        "state_code": "PK",
+        "formatted": "Skansen w Markowej, 881, 37-120 Markowa, Polska",
+        "address_line1": "Skansen w Markowej",
+        "address_line2": "881, 37-120 Markowa, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "tourism",
+          "tourism.sights"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02551112495873,
+            "lon": 22.317936336124927,
+            "city": "Markowa",
+            "name": "Skansen w Markowej",
+            "phone": "+48 603 386 102",
+            "museum": "open_air",
+            "osm_id": 271244764,
+            "landuse": "commercial",
+            "name:pl": "Skansen w Markowej",
+            "tourism": "museum",
+            "website": "https://www.skansen-markowa.pl/",
+            "historic": "farm",
+            "operator": "Towarzystwo Przyjaciół Markowej",
+            "osm_type": "w",
+            "wikidata": "Q24947571",
+            "wikipedia": "pl:Skansen w Markowej",
+            "start_date": "1985-08-25",
+            "official_name": "Skansen Zagroda Muzeum Wsi Markowa",
+            "opening_hours": "Tu-Fr 09:00-16:00; Sa 10:00-16:00; Su 11:00-16:00"
+          }
+        },
+        "website": "https://www.skansen-markowa.pl/",
+        "opening_hours": "Tu-Fr 09:00-16:00; Sa 10:00-16:00; Su 11:00-16:00",
+        "operator": "Towarzystwo Przyjaciół Markowej",
+        "name_other": {
+          "official_name": "Skansen Zagroda Muzeum Wsi Markowa"
+        },
+        "name_international": {
+          "pl": "Skansen w Markowej"
+        },
+        "contact": {
+          "phone": "+48 603 386 102"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q24947571",
+          "wikipedia": "pl:Skansen w Markowej"
+        },
+        "historic": {
+          "type": "farm",
+          "start_date": "1985-08-25"
+        },
+        "distance": 22530,
+        "place_id": "51dbdd95466451364059e3b0d3f243034940f00102f901dcdd2a1000000000920312536b616e73656e2077204d61726b6f77656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.317936336124927,
+          50.02551112495873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tunel schronowy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Na Grabówce",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "district": "Dwór",
+        "street": "Armii Krajowej",
+        "iso3166_2": "PL-18",
+        "lon": 21.8118378,
+        "lat": 49.8705346,
+        "state_code": "PK",
+        "formatted": "Tunel schronowy, Armii Krajowej, 38-100 Strzyżów, Polska",
+        "address_line1": "Tunel schronowy",
+        "address_line2": "Armii Krajowej, 38-100 Strzyżów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.87043153736915,
+            "lon": 21.811575562366126,
+            "name": "Tunel schronowy",
+            "email": "muzeum.samorzadowe.strzyzow@gmail.com",
+            "layer": -1,
+            "phone": "+48 889 839 031",
+            "osm_id": 298483668,
+            "tourism": "museum",
+            "website": "https://strzyzow.pl/pol/pages/tunel",
+            "location": "underground",
+            "military": "bunker",
+            "operator": "Muzeum Samorządowe Ziemi Strzyżowskiej im. Zygmunta Leśniaka",
+            "osm_type": "w",
+            "wikidata": "Q9362695",
+            "wikipedia": "pl:Tunel schronowy w Strzyżowie"
+          }
+        },
+        "website": "https://strzyzow.pl/pol/pages/tunel",
+        "operator": "Muzeum Samorządowe Ziemi Strzyżowskiej im. Zygmunta Leśniaka",
+        "contact": {
+          "phone": "+48 889 839 031",
+          "email": "muzeum.samorzadowe.strzyzow@gmail.com"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q9362695",
+          "wikipedia": "pl:Tunel schronowy w Strzyżowie"
+        },
+        "distance": 23107,
+        "place_id": "516798826ac3cf3540592934f54c6aef4840f00102f901d47fca110000000092030f54756e656c20736368726f6e6f7779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.811575562366126,
+          49.87043153736915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Samorządowe Ziemi Strzyżowskiej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "district": "Przekopna",
+        "street": "Ignacego Łukasiewicza",
+        "housenumber": "10",
+        "iso3166_2": "PL-18",
+        "lon": 21.7849777,
+        "lat": 49.8690286,
+        "state_code": "PK",
+        "formatted": "Muzeum Samorządowe Ziemi Strzyżowskiej, Ignacego Łukasiewicza 10, 38-100 Strzyżów, Polska",
+        "address_line1": "Muzeum Samorządowe Ziemi Strzyżowskiej",
+        "address_line2": "Ignacego Łukasiewicza 10, 38-100 Strzyżów, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "heritage"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.contact",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.869050752898325,
+            "lon": 21.784994289437723,
+            "city": "Strzyżów",
+            "name": "Muzeum Samorządowe Ziemi Strzyżowskiej",
+            "email": "muzeum.samorzadowe.strzyzow@gmail.com",
+            "image": "http://www.muzeum-strzyzow.pl/uploads/4/9/1/9/49192843/4589216_orig.jpg",
+            "phone": "+48 889 839 031",
+            "osm_id": 179565455,
+            "street": "Ignacego Łukasiewicza",
+            "name:pl": "Muzeum Samorządowe Ziemi Strzyżowskiej",
+            "ref:nid": "A-1374",
+            "tourism": "museum",
+            "website": "https://www.muzeum-strzyzow.pl/",
+            "building": "yes",
+            "heritage": 2,
+            "operator": "Gmina Strzyżów",
+            "osm_type": "w",
+            "postcode": "38-100",
+            "wikidata": "Q16913356",
+            "wikipedia": "pl:Muzeum Samorządowe Ziemi Strzyżowskiej w Strzyżowie",
+            "start_date": 2011,
+            "description": "Historia Strzyżowa (dokumenty, militaria, numizmaty, pamiątki z okresu II wojny światowej) oraz etnografia i kultura materialna regionu (meble, bibliofilia, wyroby rzemiosła, narzędzia rolnicze, sprzęty domowe oraz obrazy i rzeźby miejscowych twórców).",
+            "housenumber": 10,
+            "official_name": "Muzeum Samorządowe Ziemi Strzyżowskiej w Strzyżowie",
+            "opening_hours": "Tu-Fr,Su 10:00-16:00",
+            "construction_date": 1900
+          }
+        },
+        "website": "https://www.muzeum-strzyzow.pl/",
+        "opening_hours": "Tu-Fr,Su 10:00-16:00",
+        "operator": "Gmina Strzyżów",
+        "description": "Historia Strzyżowa (dokumenty, militaria, numizmaty, pamiątki z okresu II wojny światowej) oraz etnografia i kultura materialna regionu (meble, bibliofilia, wyroby rzemiosła, narzędzia rolnicze, sprzęty domowe oraz obrazy i rzeźby miejscowych twórców).",
+        "name_other": {
+          "official_name": "Muzeum Samorządowe Ziemi Strzyżowskiej w Strzyżowie"
+        },
+        "name_international": {
+          "pl": "Muzeum Samorządowe Ziemi Strzyżowskiej"
+        },
+        "ref_other": {
+          "nid": "A-1374"
+        },
+        "contact": {
+          "phone": "+48 889 839 031",
+          "email": "muzeum.samorzadowe.strzyzow@gmail.com"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q16913356",
+          "wikipedia": "pl:Muzeum Samorządowe Ziemi Strzyżowskiej w Strzyżowie",
+          "image": "http://www.muzeum-strzyzow.pl/uploads/4/9/1/9/49192843/4589216_orig.jpg"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1374"
+        },
+        "building": {
+          "start_date": 2011
+        },
+        "distance": 24413,
+        "place_id": "5189aec062f5c83540599921190e3def4840f00102f9018ff3b30a000000009203284d757a65756d2053616d6f727ac485646f7765205a69656d69205374727a79c5bc6f77736b69656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.784994289437723,
+          49.869050752898325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wystawa Starych Motocykli",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Sędziszów Małopolski",
+        "hamlet": "Poręby",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "39-122",
+        "district": "Borek Wielki",
+        "street": "Króla Kazimierza Jagiellończyka",
+        "iso3166_2": "PL-18",
+        "lon": 21.6980678,
+        "lat": 50.1670579,
+        "state_code": "PK",
+        "formatted": "Wystawa Starych Motocykli, Króla Kazimierza Jagiellończyka, 39-122 Sędziszów Małopolski, Polska",
+        "address_line1": "Wystawa Starych Motocykli",
+        "address_line2": "Króla Kazimierza Jagiellończyka, 39-122 Sędziszów Małopolski, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1670579,
+            "lon": 21.6980678,
+            "name": "Wystawa Starych Motocykli",
+            "osm_id": 10697013784,
+            "tourism": "museum",
+            "osm_type": "n"
+          }
+        },
+        "distance": 26236,
+        "place_id": "5103644392b4b2354059ec843c2762154940f00103f901187a977d02000000920319577973746177612053746172796368204d6f746f63796b6c69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6980678,
+          50.1670579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dom pamięci ludowej w Weryni",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Werynia",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-100",
+        "housenumber": "105",
+        "iso3166_2": "PL-18",
+        "lon": 21.8223,
+        "lat": 50.2502911,
+        "state_code": "PK",
+        "formatted": "Dom pamięci ludowej w Weryni, 105, 36-100 Werynia, Polska",
+        "address_line1": "Dom pamięci ludowej w Weryni",
+        "address_line2": "105, 36-100 Werynia, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.25029111080772,
+            "lon": 21.822300154287458,
+            "name": "Dom pamięci ludowej w Weryni",
+            "place": "Werynia",
+            "osm_id": 412654550,
+            "tourism": "museum",
+            "building": "yes",
+            "osm_type": "w",
+            "postcode": "36-100",
+            "housenumber": 105
+          }
+        },
+        "distance": 27047,
+        "place_id": "510f294e4382d235405908b3038a09204940f00102f901d69b98180000000092031d446f6d2070616d69c4996369206c75646f77656a207720576572796e69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.822300154287458,
+          50.25029111080772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum Kultury Ludowej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Brzezówka",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-100",
+        "street": "Wolska",
+        "housenumber": "36",
+        "iso3166_2": "PL-18",
+        "lon": 21.7552286,
+        "lat": 50.2216612,
+        "state_code": "PK",
+        "formatted": "Muzeum Kultury Ludowej, Wolska 36, 36-100 Brzezówka, Polska",
+        "address_line1": "Muzeum Kultury Ludowej",
+        "address_line2": "Wolska 36, 36-100 Brzezówka, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.221669784816086,
+            "lon": 21.75559012219881,
+            "city": "Kolbuszowa, Brzezówka",
+            "name": "Muzeum Kultury Ludowej",
+            "email": "recepcja@muzeumkolbuszowa.pl",
+            "phone": "+48 669 001 223",
+            "museum": "open_air",
+            "osm_id": 367065480,
+            "street": "Brzezówka, Wolska",
+            "country": "PL",
+            "name:pl": "Muzeum Kultury Ludowej",
+            "tourism": "museum",
+            "website": "https://www.muzeumkolbuszowa.pl/",
+            "osm_type": "w",
+            "postcode": "36-100",
+            "ref:ckkp": "PK00262",
+            "wikidata": "Q10858461",
+            "wikipedia": "pl:Muzeum Kultury Ludowej w Kolbuszowej",
+            "start_date": 1959,
+            "description": "Muzeum Kultury Ludowej w Kolbuszowej – instytucja kultury województwa podkarpackiego, wpisana do Państwowego Rejestru Muzeów. Obiekt zlokalizowany jest głównie na obszarze miejscowości Brzezówka",
+            "housenumber": 36,
+            "official_name": "Muzeum Kultury Ludowej w Kolbuszowej",
+            "opening_hours": "Apr-Oct Mo-Fr 09:00-17:00; Sa-Su,PH 10:00-18:00; Nov-Mar Mo-Su,PH 09:00-16:00"
+          }
+        },
+        "website": "https://www.muzeumkolbuszowa.pl/",
+        "opening_hours": "Apr-Oct Mo-Fr 09:00-17:00; Sa-Su,PH 10:00-18:00; Nov-Mar Mo-Su,PH 09:00-16:00",
+        "description": "Muzeum Kultury Ludowej w Kolbuszowej – instytucja kultury województwa podkarpackiego, wpisana do Państwowego Rejestru Muzeów. Obiekt zlokalizowany jest głównie na obszarze miejscowości Brzezówka",
+        "name_other": {
+          "official_name": "Muzeum Kultury Ludowej w Kolbuszowej"
+        },
+        "name_international": {
+          "pl": "Muzeum Kultury Ludowej"
+        },
+        "ref_other": {
+          "ckkp": "PK00262"
+        },
+        "contact": {
+          "phone": "+48 669 001 223",
+          "email": "recepcja@muzeumkolbuszowa.pl"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q10858461",
+          "wikipedia": "pl:Muzeum Kultury Ludowej w Kolbuszowej"
+        },
+        "distance": 27156,
+        "place_id": "514806b05a6ec1354059f225eeac5f1c4940f00102f90188f9e015000000009203164d757a65756d204b756c74757279204c75646f77656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75559012219881,
+          50.221669784816086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Izba Pamięci Sługi Bożego ks. Stanisława Sudoła",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Dzikowiec",
+        "hamlet": "Przedmieście",
+        "municipality": "gmina Dzikowiec",
+        "postcode": "36-122",
+        "street": "Księdza Stanisława Sudoła",
+        "housenumber": "24",
+        "iso3166_2": "PL-18",
+        "lon": 21.8537682,
+        "lat": 50.2695898,
+        "state_code": "PK",
+        "formatted": "Izba Pamięci Sługi Bożego ks. Stanisława Sudoła, Księdza Stanisława Sudoła 24, 36-122 Dzikowiec, Polska",
+        "address_line1": "Izba Pamięci Sługi Bożego ks. Stanisława Sudoła",
+        "address_line2": "Księdza Stanisława Sudoła 24, 36-122 Dzikowiec, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "heritage"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.26958409197608,
+            "lon": 21.853773300937437,
+            "city": "Dzikowiec",
+            "name": "Izba Pamięci Sługi Bożego ks. Stanisława Sudoła",
+            "osm_id": 412639387,
+            "street": "Księdza Stanisława Sudoła",
+            "ref:nid": "A-201",
+            "tourism": "museum",
+            "building": "yes",
+            "heritage": 2,
+            "osm_type": "w",
+            "postcode": "36-122",
+            "housenumber": 24,
+            "addr:city:simc": "0662110",
+            "heritage:operator": "NID",
+            "wikimedia_commons": "File:Dzikowiec - izba pamięci ks. Sudoła.jpg"
+          }
+        },
+        "ref_other": {
+          "nid": "A-201"
+        },
+        "wiki_and_media": {
+          "wikimedia_commons": "File:Dzikowiec - izba pamięci ks. Sudoła.jpg"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "NID",
+          "ref": "A-201"
+        },
+        "distance": 28010,
+        "place_id": "5169b915e390da354059914745bb81224940f00102f9019b60981800000000920334497a62612050616d69c49963692053c58275676920426fc5bc65676f206b732e205374616e6973c582617761205375646fc58261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.853773300937437,
+          50.26958409197608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kolbuszowskie Muzeum Techniki Militarnej i Użytkowej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Kolbuszowa Dolna",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-100",
+        "street": "Podporucznika Sawy",
+        "iso3166_2": "PL-18",
+        "lon": 21.7766965,
+        "lat": 50.2505387,
+        "state_code": "PK",
+        "formatted": "Kolbuszowskie Muzeum Techniki Militarnej i Użytkowej, Podporucznika Sawy, 36-100 Kolbuszowa Dolna, Polska",
+        "address_line1": "Kolbuszowskie Muzeum Techniki Militarnej i Użytkowej",
+        "address_line2": "Podporucznika Sawy, 36-100 Kolbuszowa Dolna, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2505387,
+            "lon": 21.7766965,
+            "name": "Kolbuszowskie Muzeum Techniki Militarnej i Użytkowej",
+            "museum": "history",
+            "osm_id": 13248824320,
+            "tourism": "museum",
+            "osm_type": "n"
+          }
+        },
+        "distance": 28778,
+        "place_id": "51ec6af294d5c6354059f170f1a611204940f00103f9010004b115030000009203354b6f6c6275737a6f77736b6965204d757a65756d20546563686e696b69204d696c697461726e656a20692055c5bc79746b6f77656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7766965,
+          50.2505387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzeum T. Kantora",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Wielopole Skrzyńskie",
+        "hamlet": "Stachorówka",
+        "municipality": "gmina Wielopole Skrzyńskie",
+        "postcode": "39-110",
+        "street": "986",
+        "iso3166_2": "PL-18",
+        "lon": 21.6123334,
+        "lat": 49.9460107,
+        "state_code": "PK",
+        "formatted": "Muzeum T. Kantora, 986, 39-110 Wielopole Skrzyńskie, Polska",
+        "address_line1": "Muzeum T. Kantora",
+        "address_line2": "986, 39-110 Wielopole Skrzyńskie, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.946010957871806,
+            "lon": 21.612337637748297,
+            "name": "Muzeum T. Kantora",
+            "email": "gokiw@poczta.onet.pl",
+            "phone": "+48 730 367 100",
+            "osm_id": 314169331,
+            "tourism": "museum",
+            "website": "https://gokiw.wielopole-skrz.pl/osrodek-dokumentacji-i-historii-regionu-muzeum-t-kantora/",
+            "building": "yes",
+            "osm_type": "w",
+            "opening_hours": "Mo-Sa 10:00-18:00",
+            "subject:wikidata": "Q702678",
+            "subject:wikipedia": "pl:Tadeusz Kantor"
+          }
+        },
+        "website": "https://gokiw.wielopole-skrz.pl/osrodek-dokumentacji-i-historii-regionu-muzeum-t-kantora/",
+        "opening_hours": "Mo-Sa 10:00-18:00",
+        "contact": {
+          "phone": "+48 730 367 100",
+          "email": "gokiw@poczta.onet.pl"
+        },
+        "distance": 29853,
+        "place_id": "51243dd028c29c354059c8db16e316f94840f00102f901f3d7b912000000009203114d757a65756d20542e204b616e746f7261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.612337637748297,
+          49.946010957871806
+        ]
+      }
+    }
+  ]
+}

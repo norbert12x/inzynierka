@@ -1,0 +1,5912 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2330945,
+        "lat": 50.0684652,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684652,
+            "lon": 22.2330945,
+            "image": "https://photos.app.goo.gl/4hun97uxmiyP2Cna9",
+            "osm_id": 13092074264,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/4hun97uxmiyP2Cna9"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16776,
+        "place_id": "51a260c614ac3b3640590175b977c3084940f00103f9011833590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2330945,
+          50.0684652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2331484,
+        "lat": 50.0683957,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0683957,
+            "lon": 22.2331484,
+            "osm_id": 13092074276,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16778,
+        "place_id": "515f1d119daf3b364059f157b730c1084940f00103f9012433590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2331484,
+          50.0683957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2331392,
+        "lat": 50.0684637,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684637,
+            "lon": 22.2331392,
+            "osm_id": 13092074279,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16779,
+        "place_id": "51656ab702af3b364059493b246bc3084940f00103f9012733590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2331392,
+          50.0684637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2332249,
+        "lat": 50.0684001,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684001,
+            "lon": 22.2332249,
+            "osm_id": 13092074277,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16784,
+        "place_id": "51e51c86a0b43b3640598545a055c1084940f00103f9012533590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2332249,
+          50.0684001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2332136,
+        "lat": 50.068468,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068468,
+            "lon": 22.2332136,
+            "osm_id": 13092074280,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16785,
+        "place_id": "5180fbf0e2b33b3640594969368fc3084940f00103f9012833590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2332136,
+          50.068468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glorietta",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2331123,
+        "lat": 50.0691396,
+        "state_code": "PK",
+        "formatted": "Glorietta, Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Glorietta",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06914588990111,
+            "lon": 22.23304930649571,
+            "url": "https://polska-org.pl/7229271,Lancut,Glorietta.html",
+            "name": "Glorietta",
+            "image": "https://photos.app.goo.gl/xbHKfQk573SRyixcA",
+            "url:0": "https://fotopolska.eu/93689,obiekt.html?map_force_parent=b4059&map_x=22.235939204692844&map_y=50.06820161248341&map_z=17",
+            "osm_id": 285720143,
+            "ref:nid": "A-1023",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": 1810
+          }
+        },
+        "website": "https://polska-org.pl/7229271,Lancut,Glorietta.html",
+        "ref_other": {
+          "nid": "A-1023"
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/xbHKfQk573SRyixcA"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1023"
+        },
+        "building": {
+          "start_date": 1810
+        },
+        "distance": 16789,
+        "place_id": "512bc18d1ea93b36405998e3c3c5d9084940f00102f9014fbe071100000000920309476c6f726965747461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.23304930649571,
+          50.06914588990111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Diana",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2330571,
+        "lat": 50.0691256,
+        "state_code": "PK",
+        "formatted": "Diana, Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Diana",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0691256,
+            "lon": 22.2330571,
+            "url": "https://polska-org.pl/7229271,Lancut,Glorietta.html",
+            "name": "Diana",
+            "image": "https://photos.app.goo.gl/RYMvzSoN5oB9sGJJA",
+            "url:0": "https://fotopolska.eu/93689,obiekt.html?map_force_parent=b4059&map_x=22.235939204692844&map_y=50.06820161248341&map_z=17",
+            "osm_id": 2835591879,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue",
+            "wikimedia_commons": "File:Glorieta-ParkZamkowy-POL, Łańcut.jpg"
+          }
+        },
+        "website": "https://polska-org.pl/7229271,Lancut,Glorietta.html",
+        "wiki_and_media": {
+          "wikimedia_commons": "File:Glorieta-ParkZamkowy-POL, Łańcut.jpg",
+          "image": "https://photos.app.goo.gl/RYMvzSoN5oB9sGJJA"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 16789,
+        "place_id": "51c1994ea1a93b3640597fa88f1bd9084940f00103f901c7b203a9000000009203054469616e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2330571,
+          50.0691256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2333104,
+        "lat": 50.068405,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068405,
+            "lon": 22.2333104,
+            "osm_id": 13092074278,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16790,
+        "place_id": "5112d1f93aba3b36405902f1ba7ec1084940f00103f9012633590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2333104,
+          50.068405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2333004,
+        "lat": 50.0684729,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684729,
+            "lon": 22.2333004,
+            "osm_id": 13092074281,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16791,
+        "place_id": "51cb243493b93b364059c61451b8c3084940f00103f9012933590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2333004,
+          50.0684729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2333563,
+        "lat": 50.0683292,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0683292,
+            "lon": 22.2333563,
+            "osm_id": 13092074287,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16791,
+        "place_id": "51c9d00c3dbd3b36405951aedf02bf084940f00103f9012f33590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2333563,
+          50.0683292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2333505,
+        "lat": 50.0683876,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0683876,
+            "lon": 22.2333505,
+            "image": "https://photos.app.goo.gl/2SAGszbNj3Hj6FZF6",
+            "osm_id": 13092094932,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/2SAGszbNj3Hj6FZF6"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16792,
+        "place_id": "515801bedbbc3b364059d9b9c4ecc0084940f00103f901d483590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2333505,
+          50.0683876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.233581,
+        "lat": 50.0677229,
+        "state_code": "PK",
+        "formatted": "3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "3 Maja",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677229,
+            "lon": 22.233581,
+            "osm_id": 13092095115,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16793,
+        "place_id": "518cf7e3f6cb3b3640595b58dc24ab084940f00103f9018b84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.233581,
+          50.0677229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2333324,
+        "lat": 50.0685009,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0685009,
+            "lon": 22.2333324,
+            "image": "https://photos.app.goo.gl/nraYgbSf1FFiEdnQA",
+            "osm_id": 13092074282,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/nraYgbSf1FFiEdnQA"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16794,
+        "place_id": "51e11813acbb3b3640598f9f32a3c4084940f00103f9012a33590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2333324,
+          50.0685009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2333232,
+        "lat": 50.0685557,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0685557,
+            "lon": 22.2333232,
+            "osm_id": 13092074286,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16794,
+        "place_id": "51e865b911bb3b36405929bae46ec6084940f00103f9012e33590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2333232,
+          50.0685557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.233316,
+        "lat": 50.0686118,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0686118,
+            "lon": 22.233316,
+            "osm_id": 13092074285,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16795,
+        "place_id": "512fa2ed98ba3b364059528f7e45c8084940f00103f9012d33590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.233316,
+          50.0686118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.2336099,
+        "lat": 50.067769,
+        "state_code": "PK",
+        "formatted": "3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "3 Maja",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.067769,
+            "lon": 22.2336099,
+            "osm_id": 13092095114,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16797,
+        "place_id": "519785c0dbcd3b364059605793a7ac084940f00103f9018a84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2336099,
+          50.067769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.2336555,
+        "lat": 50.0677278,
+        "state_code": "PK",
+        "formatted": "3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "3 Maja",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677278,
+            "lon": 22.2336555,
+            "osm_id": 13092095116,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16799,
+        "place_id": "51d107cbd8d03b364059d803f74dab084940f00103f9018c84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2336555,
+          50.0677278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.23373,
+        "lat": 50.0677334,
+        "state_code": "PK",
+        "formatted": "3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "3 Maja",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677334,
+            "lon": 22.23373,
+            "osm_id": 13092095117,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16804,
+        "place_id": "511618b2bad53b36405967ecf07cab084940f00103f9018d84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.23373,
+          50.0677334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kobieta upinająca wianek na głowie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2338319,
+        "lat": 50.0677391,
+        "state_code": "PK",
+        "formatted": "Kobieta upinająca wianek na głowie, Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Kobieta upinająca wianek na głowie",
+        "address_line2": "Most Południowy, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677391,
+            "lon": 22.2338319,
+            "url": "https://polska-org.pl/7597967,Lancut,Ogrod_Rozany.html",
+            "name": "Kobieta upinająca wianek na głowie",
+            "image": "https://photos.app.goo.gl/VzfCE6nFn2RnndXQ9",
+            "url:0": "https://fotopolska.eu/112286,obiekt.html?map_force_parent=b4059&map_x=22.235732725566887&map_y=50.06944634473568&map_z=17",
+            "osm_id": 11778083334,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "website": "https://polska-org.pl/7597967,Lancut,Ogrod_Rozany.html",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/VzfCE6nFn2RnndXQ9"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 16811,
+        "place_id": "51f4424b68dc3b3640598a94c1acab084940f00103f901064a07be020000009203244b6f6269657461207570696e616ac4856361207769616e656b206e612067c5826f776965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2338319,
+          50.0677391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2339389,
+        "lat": 50.0677466,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677466,
+            "lon": 22.2339389,
+            "osm_id": 13092095118,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16819,
+        "place_id": "5120c3746be33b36405925b5abebab084940f00103f9018e84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2339389,
+          50.0677466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2340111,
+        "lat": 50.0677508,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677508,
+            "lon": 22.2340111,
+            "osm_id": 13092095119,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16824,
+        "place_id": "51a766c526e83b3640599023e70eac084940f00103f9018f84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2340111,
+          50.0677508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2340415,
+        "lat": 50.0677979,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677979,
+            "lon": 22.2340415,
+            "osm_id": 13092095121,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16827,
+        "place_id": "512368cc24ea3b364059669e019aad084940f00103f9019184590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2340415,
+          50.0677979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2340805,
+        "lat": 50.0677544,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677544,
+            "lon": 22.2340805,
+            "osm_id": 13092095120,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16829,
+        "place_id": "519f211cb3ec3b3640597e141a2dac084940f00103f9019084590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2340805,
+          50.0677544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zegar słoneczny",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2344516,
+        "lat": 50.0678197,
+        "state_code": "PK",
+        "formatted": "Zegar słoneczny, Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Zegar słoneczny",
+        "address_line2": "Most Południowy, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.clock"
+        ],
+        "details": [
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0678197,
+            "lon": 22.2344516,
+            "name": "Zegar słoneczny",
+            "image": "https://photos.app.goo.gl/PZqvamsHydgyu3Bt9",
+            "osm_id": 11332998049,
+            "amenity": "clock",
+            "display": "sundial",
+            "tourism": "artwork",
+            "osm_type": "n"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/PZqvamsHydgyu3Bt9"
+        },
+        "distance": 16857,
+        "place_id": "51b07e2205053c36405924c3e050ae084940f00103f901a1d37fa3020000009203105a656761722073c5826f6e65637a6e79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2344516,
+          50.0678197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Powozownia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.2352292,
+        "lat": 50.0655019,
+        "state_code": "PK",
+        "formatted": "Powozownia, 3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "Powozownia",
+        "address_line2": "3 Maja, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06552170138374,
+            "lon": 22.235203240491874,
+            "name": "Powozownia",
+            "osm_id": 198987220,
+            "name:cs": "Remíza",
+            "name:de": "Remise",
+            "name:en": "Carriage house",
+            "name:et": "Tõllakuur",
+            "name:fr": "Remise",
+            "name:it": "Rimessa delle carrozze",
+            "name:lt": "Vežiminė",
+            "name:nl": "Koetshuis",
+            "name:pl": "Powozownia",
+            "name:ru": "Каретник",
+            "name:sv": "Vagnslider",
+            "name:uk": "Возівня",
+            "name:zh": "马车房",
+            "ref:nid": "A-1023",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "operator": "Muzeum-Zamek w Łańcucie",
+            "osm_type": "w",
+            "wikidata": "Q30532528",
+            "start_date": 1902
+          }
+        },
+        "operator": "Muzeum-Zamek w Łańcucie",
+        "name_international": {
+          "cs": "Remíza",
+          "de": "Remise",
+          "en": "Carriage house",
+          "et": "Tõllakuur",
+          "fr": "Remise",
+          "it": "Rimessa delle carrozze",
+          "lt": "Vežiminė",
+          "nl": "Koetshuis",
+          "pl": "Powozownia",
+          "ru": "Каретник",
+          "sv": "Vagnslider",
+          "uk": "Возівня",
+          "zh": "马车房"
+        },
+        "ref_other": {
+          "nid": "A-1023"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30532528"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1023"
+        },
+        "building": {
+          "start_date": 1902
+        },
+        "distance": 16860,
+        "place_id": "5169d39147363c3640598b4fde0363084940f00102f901d44ddc0b0000000092030a506f776f7a6f776e6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.235203240491874,
+          50.06552170138374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2342729,
+        "lat": 50.0687883,
+        "state_code": "PK",
+        "formatted": "Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Most Zachodni",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0687883,
+            "lon": 22.2342729,
+            "osm_id": 13092095108,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16866,
+        "place_id": "51ced60b4ff93b364059796c150ece084940f00103f9018484590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2342729,
+          50.0687883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2344198,
+        "lat": 50.0687987,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0687987,
+            "lon": 22.2344198,
+            "osm_id": 13092095109,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16877,
+        "place_id": "51ed889eef023c364059f0405365ce084940f00103f9018584590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2344198,
+          50.0687987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ohel Naftalego Cwi Horowica z Ropczyc syna Menachema Mendla Rubina",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Stanisława Moniuszki",
+        "housenumber": "15",
+        "iso3166_2": "PL-18",
+        "lon": 22.2331004,
+        "lat": 50.0726723,
+        "state_code": "PK",
+        "formatted": "Ohel Naftalego Cwi Horowica z Ropczyc syna Menachema Mendla Rubina, Stanisława Moniuszki 15, 37-100 Łańcut, Polska",
+        "address_line1": "Ohel Naftalego Cwi Horowica z Ropczyc syna Menachema Mendla Rubina",
+        "address_line2": "Stanisława Moniuszki 15, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.tomb"
+        ],
+        "details": [
+          "details.place_of_worship"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.072672306444716,
+            "lon": 22.233100421341256,
+            "city": "Łańcut",
+            "name": "Ohel Naftalego Cwi Horowica z Ropczyc syna Menachema Mendla Rubina",
+            "tomb": "crypt",
+            "osm_id": 221795543,
+            "street": "Stanisława Moniuszki",
+            "tourism": "attraction",
+            "building": "yes",
+            "historic": "tomb",
+            "osm_type": "w",
+            "postcode": "37-100",
+            "religion": "jewish",
+            "housenumber": 15,
+            "denomination": "hasidic"
+          }
+        },
+        "historic": {
+          "type": "tomb"
+        },
+        "place_of_worship": {
+          "religion": "jewish",
+          "denomination": "hasidic"
+        },
+        "distance": 16880,
+        "place_id": "5132581e78ac3b364059a2c07d534d094940f00102f901d754380d000000009203424f68656c204e616674616c65676f2043776920486f726f77696361207a20526f70637a79632073796e61204d656e616368656d61204d656e646c6120527562696e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.233100421341256,
+          50.072672306444716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2346346,
+        "lat": 50.068279,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068279,
+            "lon": 22.2346346,
+            "image": "https://photos.app.goo.gl/S1NQ74oifwfxCMoT9",
+            "osm_id": 13092094946,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/S1NQ74oifwfxCMoT9"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16880,
+        "place_id": "5192825d03113c3640597500c45dbd084940f00103f901e283590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2346346,
+          50.068279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2344762,
+        "lat": 50.068768,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068768,
+            "lon": 22.2344762,
+            "osm_id": 13092095110,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16880,
+        "place_id": "51bbb0daa1063c3640597381cb63cd084940f00103f9018684590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2344762,
+          50.068768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ohel Eleazara syna Cwi Elimelecha Szapiro z Dynowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Stanisława Moniuszki",
+        "housenumber": "15",
+        "iso3166_2": "PL-18",
+        "lon": 22.2331708,
+        "lat": 50.0725082,
+        "state_code": "PK",
+        "formatted": "Ohel Eleazara syna Cwi Elimelecha Szapiro z Dynowa, Stanisława Moniuszki 15, 37-100 Łańcut, Polska",
+        "address_line1": "Ohel Eleazara syna Cwi Elimelecha Szapiro z Dynowa",
+        "address_line2": "Stanisława Moniuszki 15, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.tomb"
+        ],
+        "details": [
+          "details.place_of_worship"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.072508150000004,
+            "lon": 22.233170750000003,
+            "city": "Łańcut",
+            "name": "Ohel Eleazara syna Cwi Elimelecha Szapiro z Dynowa",
+            "tomb": "crypt",
+            "osm_id": 279336207,
+            "street": "Stanisława Moniuszki",
+            "tourism": "attraction",
+            "building": "yes",
+            "historic": "tomb",
+            "osm_type": "w",
+            "postcode": "37-100",
+            "religion": "jewish",
+            "housenumber": 15,
+            "denomination": "hasidic"
+          }
+        },
+        "historic": {
+          "type": "tomb"
+        },
+        "place_of_worship": {
+          "religion": "jewish",
+          "denomination": "hasidic"
+        },
+        "distance": 16880,
+        "place_id": "5141a20914b13b364059c47872f247094940f00102f9010f55a610000000009203324f68656c20456c65617a6172612073796e612043776920456c696d656c6563686120537a617069726f207a2044796e6f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.233170750000003,
+          50.072508150000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stajnie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "housenumber": "14",
+        "iso3166_2": "PL-18",
+        "lon": 22.2353965,
+        "lat": 50.0659449,
+        "state_code": "PK",
+        "formatted": "Stajnie, 3 Maja 14, 37-100 Łańcut, Polska",
+        "address_line1": "Stajnie",
+        "address_line2": "3 Maja 14, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.065977800012114,
+            "lon": 22.235361095640744,
+            "city": "Łańcut",
+            "name": "Stajnie",
+            "osm_id": 190578322,
+            "street": "3 Maja",
+            "name:ar": "إسطبل",
+            "name:be": "Стайня",
+            "name:bg": "Конюшня",
+            "name:cs": "Konírna",
+            "name:da": "Hesteboks",
+            "name:de": "Pensionsstall",
+            "name:el": "Στάβλος",
+            "name:en": "Stables",
+            "name:eo": "Ĉevalstalo",
+            "name:es": "Caballeriza",
+            "name:et": "Tall",
+            "name:eu": "Zalditegi",
+            "name:fi": "Talli",
+            "name:fr": "Écurie",
+            "name:he": "אורווה",
+            "name:hi": "अस्तबल",
+            "name:hr": "Ergela",
+            "name:hu": "Istállók",
+            "name:id": "Istal",
+            "name:it": "Scuderia",
+            "name:ja": "厩舎",
+            "name:ka": "საჯინიბო",
+            "name:kk": "Ат қора",
+            "name:kn": "ಅಶ್ವಶಾಲೆ",
+            "name:ko": "마구간",
+            "name:lt": "Arklidė",
+            "name:lv": "Stallis",
+            "name:no": "Stall",
+            "name:pa": "ਅਸਤਬਲ",
+            "name:pl": "Stajnie",
+            "name:pt": "Estábulos",
+            "name:ro": "Grajd",
+            "name:ru": "Конюшня",
+            "name:sk": "Stajne",
+            "name:su": "Gedogan",
+            "name:sv": "Stall",
+            "name:ta": "குதிரைக் கொட்டில்",
+            "name:tr": "Ahır",
+            "name:uk": "Стайня",
+            "name:zh": "马棚",
+            "ref:nid": "26-ZN;A-1023",
+            "tourism": "attraction",
+            "building": "stable",
+            "heritage": 2,
+            "name:sco": "Steading",
+            "name:war": "Kuwadra",
+            "operator": "Muzeum-Zamek w Łańcucie",
+            "osm_type": "w",
+            "postcode": "37-100",
+            "start_date": 1892,
+            "housenumber": 14,
+            "addr:city:simc": "0974529",
+            "addr:street:sym_ul": 29830
+          }
+        },
+        "operator": "Muzeum-Zamek w Łańcucie",
+        "name_international": {
+          "ar": "إسطبل",
+          "be": "Стайня",
+          "bg": "Конюшня",
+          "cs": "Konírna",
+          "da": "Hesteboks",
+          "de": "Pensionsstall",
+          "el": "Στάβλος",
+          "en": "Stables",
+          "eo": "Ĉevalstalo",
+          "es": "Caballeriza",
+          "et": "Tall",
+          "eu": "Zalditegi",
+          "fi": "Talli",
+          "fr": "Écurie",
+          "he": "אורווה",
+          "hi": "अस्तबल",
+          "hr": "Ergela",
+          "hu": "Istállók",
+          "id": "Istal",
+          "it": "Scuderia",
+          "ja": "厩舎",
+          "ka": "საჯინიბო",
+          "kk": "Ат қора",
+          "kn": "ಅಶ್ವಶಾಲೆ",
+          "ko": "마구간",
+          "lt": "Arklidė",
+          "lv": "Stallis",
+          "no": "Stall",
+          "pa": "ਅਸਤਬਲ",
+          "pl": "Stajnie",
+          "pt": "Estábulos",
+          "ro": "Grajd",
+          "ru": "Конюшня",
+          "sk": "Stajne",
+          "su": "Gedogan",
+          "sv": "Stall",
+          "ta": "குதிரைக் கொட்டில்",
+          "tr": "Ahır",
+          "uk": "Стайня",
+          "zh": "马棚"
+        },
+        "ref_other": {
+          "nid": "26-ZN;A-1023"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "26-ZN;A-1023"
+        },
+        "building": {
+          "type": "stable",
+          "start_date": 1892
+        },
+        "distance": 16880,
+        "place_id": "511987f09f403c36405933a8e6f571084940f00102f90192fe5b0b000000009203075374616a6e6965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.235361095640744,
+          50.065977800012114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2346739,
+        "lat": 50.0682812,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0682812,
+            "lon": 22.2346739,
+            "image": "https://photos.app.goo.gl/64FQFPp6n4zWEuc86",
+            "osm_id": 13092094945,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/64FQFPp6n4zWEuc86"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16883,
+        "place_id": "518bb9b596133c36405940773870bd084940f00103f901e183590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2346739,
+          50.0682812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lew",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2345809,
+        "lat": 50.0688009,
+        "state_code": "PK",
+        "formatted": "Lew, Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Lew",
+        "address_line2": "Most Południowy, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0688009,
+            "lon": 22.2345809,
+            "name": "Lew",
+            "image": "https://photos.app.goo.gl/6LiJ2BVZR3nzRnWE9",
+            "osm_id": 12081589914,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "description": "Rzeźba lwa upamiętnia wspólną wyprawę myśliwską do Sudanu, w rejon Białego Nilu, która odbyła się w 1924 roku. Nazwiska uczestników wyprawy: Adam Zamoyski, Zygmunt Zamoyski, Alfred Potocki, Jerzy Potocki oraz Bolesław Tyszkiewicz i Roman Potocki",
+            "artwork_type": "sculpture",
+            "wikimedia_commons": "File:Łańcut, zamek - LEW.JPG"
+          }
+        },
+        "description": "Rzeźba lwa upamiętnia wspólną wyprawę myśliwską do Sudanu, w rejon Białego Nilu, która odbyła się w 1924 roku. Nazwiska uczestników wyprawy: Adam Zamoyski, Zygmunt Zamoyski, Alfred Potocki, Jerzy Potocki oraz Bolesław Tyszkiewicz i Roman Potocki",
+        "wiki_and_media": {
+          "wikimedia_commons": "File:Łańcut, zamek - LEW.JPG",
+          "image": "https://photos.app.goo.gl/6LiJ2BVZR3nzRnWE9"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16888,
+        "place_id": "5129c46d7e0d3c364059bab7c777ce084940f00103f9019a6e1ed0020000009203034c6577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2345809,
+          50.0688009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2346943,
+        "lat": 50.0687826,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0687826,
+            "lon": 22.2346943,
+            "osm_id": 13092095111,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16896,
+        "place_id": "51c00ef7ec143c36405955c444decd084940f00103f9018784590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2346943,
+          50.0687826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2347417,
+        "lat": 50.0688187,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0688187,
+            "lon": 22.2347417,
+            "osm_id": 13092095112,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16900,
+        "place_id": "51e8813408183c36405937ed180dcf084940f00103f9018884590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2347417,
+          50.0688187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zbiory Sztuki Cerkiewnej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "housenumber": "14",
+        "iso3166_2": "PL-18",
+        "lon": 22.2357573,
+        "lat": 50.0659793,
+        "state_code": "PK",
+        "formatted": "Zbiory Sztuki Cerkiewnej, 3 Maja 14, 37-100 Łańcut, Polska",
+        "address_line1": "Zbiory Sztuki Cerkiewnej",
+        "address_line2": "3 Maja 14, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0659793,
+            "lon": 22.2357573,
+            "city": "Łańcut",
+            "name": "Zbiory Sztuki Cerkiewnej",
+            "osm_id": 2893672115,
+            "street": "3 Maja",
+            "name:be": "Калекцыя праваслаўнага царкоўнага мастацтва",
+            "name:cs": "Sbírka Umění Pravoslavné Církve",
+            "name:de": "Kunstsammlung der orthodoxen Kirche",
+            "name:el": "Συλλογή Τέχνης Ορθόδοξης Εκκλησίας",
+            "name:en": "Orthodox Church Art Collection",
+            "name:fr": "Collection d'art de l'église orthodoxe",
+            "name:it": "Collezione d'arte della chiesa ortodossa",
+            "name:pl": "Zbiory Sztuki Cerkiewnej",
+            "name:ru": "Коллекция произведений искусства православной церкви",
+            "name:uk": "Колекція православного церковного мистецтва",
+            "name:zh": "东正教艺术收藏",
+            "tourism": "attraction",
+            "operator": "Muzeum-Zamek w Łańcucie",
+            "osm_type": "n",
+            "postcode": "37-100",
+            "housenumber": 14
+          }
+        },
+        "operator": "Muzeum-Zamek w Łańcucie",
+        "name_international": {
+          "be": "Калекцыя праваслаўнага царкоўнага мастацтва",
+          "cs": "Sbírka Umění Pravoslavné Církve",
+          "de": "Kunstsammlung der orthodoxen Kirche",
+          "el": "Συλλογή Τέχνης Ορθόδοξης Εκκλησίας",
+          "en": "Orthodox Church Art Collection",
+          "fr": "Collection d'art de l'église orthodoxe",
+          "it": "Collezione d'arte della chiesa ortodossa",
+          "pl": "Zbiory Sztuki Cerkiewnej",
+          "ru": "Коллекция произведений искусства православной церкви",
+          "uk": "Колекція православного церковного мистецтва",
+          "zh": "东正教艺术收藏"
+        },
+        "distance": 16908,
+        "place_id": "51134b25975a3c36405943db7b0272084940f00103f901b3ee79ac000000009203185a62696f727920537a74756b69204365726b6965776e656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2357573,
+          50.0659793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2348818,
+        "lat": 50.0688268,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0688268,
+            "lon": 22.2348818,
+            "osm_id": 13092095113,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16910,
+        "place_id": "51f56cb136213c3640594e8b0b51cf084940f00103f9018984590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2348818,
+          50.0688268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2350764,
+        "lat": 50.0684658,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684658,
+            "lon": 22.2350764,
+            "image": "https://photos.app.goo.gl/UzjBRAzWt3cvchKC7",
+            "osm_id": 13092095098,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/UzjBRAzWt3cvchKC7"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 16915,
+        "place_id": "51b90f8af72d3c3640597ef2c17cc3084940f00103f9017a84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2350764,
+          50.0684658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2350686,
+        "lat": 50.068515,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068515,
+            "lon": 22.2350686,
+            "image": "https://photos.app.goo.gl/FNMQJ6fNhiBsfcTC6",
+            "osm_id": 13092095100,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/FNMQJ6fNhiBsfcTC6"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 16916,
+        "place_id": "510751ad742d3c36405989247a19c5084940f00103f9017c84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2350686,
+          50.068515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2350614,
+        "lat": 50.0685626,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0685626,
+            "lon": 22.2350614,
+            "image": "https://photos.app.goo.gl/F7JRqxTpCP8HHJ1a6",
+            "osm_id": 13092095101,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/F7JRqxTpCP8HHJ1a6"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 16916,
+        "place_id": "514e8de1fb2c3c364059475dc6a8c6084940f00103f9017d84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2350614,
+          50.0685626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2350513,
+        "lat": 50.0686139,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0686139,
+            "lon": 22.2350513,
+            "image": "https://photos.app.goo.gl/LKeXkYninFWnDRgs9",
+            "osm_id": 13092095099,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/LKeXkYninFWnDRgs9"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 16917,
+        "place_id": "51dd616e522c3c36405988461c57c8084940f00103f9017b84590c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2350513,
+          50.0686139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2352681,
+        "lat": 50.0684559,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684559,
+            "lon": 22.2352681,
+            "osm_id": 6589889380,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16928,
+        "place_id": "51c44abb873a3c364059efdbb529c3084940f00103f90164bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2352681,
+          50.0684559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2352628,
+        "lat": 50.06849,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06849,
+            "lon": 22.2352628,
+            "osm_id": 6589889302,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16929,
+        "place_id": "5124f7cf2e3a3c364059300dc347c4084940f00103f90116bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2352628,
+          50.06849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2352388,
+        "lat": 50.068644,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068644,
+            "lon": 22.2352388,
+            "osm_id": 6589889317,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16931,
+        "place_id": "5113c0289c383c36405987889b53c9084940f00103f90125bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2352388,
+          50.068644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2352339,
+        "lat": 50.0686755,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0686755,
+            "lon": 22.2352339,
+            "osm_id": 6589889347,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16931,
+        "place_id": "511969f349383c364059aa44d95bca084940f00103f90143bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2352339,
+          50.0686755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Św. Hubert",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2349458,
+        "lat": 50.0695929,
+        "state_code": "PK",
+        "formatted": "Św. Hubert, Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Św. Hubert",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "heritage",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0695929,
+            "lon": 22.2349458,
+            "name": "Św. Hubert",
+            "image": "https://photos.app.goo.gl/ZRNigmTsRfFrpgwdA",
+            "osm_id": 6589889553,
+            "tourism": "artwork",
+            "heritage": 2,
+            "osm_type": "n",
+            "wikidata": "Q121886566",
+            "nid:website": "https://zabytek.pl/pl/obiekty/zabytek?inspire_id=PL.1.9.ZIPOZ.NID_N_18_MA.12025&rejestr=rejestr-zabytkow",
+            "ref:inspire": "PL.1.9.ZIPOZ.NID_N_18_MA.12025",
+            "artwork_type": "statue",
+            "heritage:operator": "nid",
+            "nid:inscription_date": "1979-08-27"
+          }
+        },
+        "ref_other": {
+          "inspire": "PL.1.9.ZIPOZ.NID_N_18_MA.12025"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q121886566",
+          "image": "https://photos.app.goo.gl/ZRNigmTsRfFrpgwdA"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "PL.1.9.ZIPOZ.NID_N_18_MA.12025",
+          "inscription_date": "1979-08-27"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 16932,
+        "place_id": "5122556f68253c36405954c48e6be8084940f00103f90111bcc9880100000092030bc59a772e20487562657274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2349458,
+          50.0695929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bachus na panterze",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.235368,
+        "lat": 50.0685713,
+        "state_code": "PK",
+        "formatted": "Bachus na panterze, Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Bachus na panterze",
+        "address_line2": "Most Południowy, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0685713,
+            "lon": 22.235368,
+            "url": "https://polska-org.pl/8494352,Lancut,Rzezba_Bachus_na_panterze.html",
+            "name": "Bachus na panterze",
+            "image": "https://photos.app.goo.gl/RGeNqH5NTJuovfxH7",
+            "osm_id": 6589889334,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "sculpture",
+            "wikimedia_commons": "File:PL - Łańcut - park zamkowy - 2012-05-02--11-00-45-05.jpg"
+          }
+        },
+        "website": "https://polska-org.pl/8494352,Lancut,Rzezba_Bachus_na_panterze.html",
+        "wiki_and_media": {
+          "wikimedia_commons": "File:PL - Łańcut - park zamkowy - 2012-05-02--11-00-45-05.jpg",
+          "image": "https://photos.app.goo.gl/RGeNqH5NTJuovfxH7"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16938,
+        "place_id": "516286c613413c364059dc78c1f1c6084940f00103f90136bbc98801000000920312426163687573206e612070616e7465727a65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.235368,
+          50.0685713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.235506,
+        "lat": 50.0684717,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684717,
+            "lon": 22.235506,
+            "osm_id": 6589889392,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16945,
+        "place_id": "510403081f4a3c364059cc1940aec3084940f00103f90170bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.235506,
+          50.0684717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2355008,
+        "lat": 50.0685054,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0685054,
+            "lon": 22.2355008,
+            "osm_id": 6589889319,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16946,
+        "place_id": "518d2ecac7493c364059b94cf2c8c4084940f00103f90127bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2355008,
+          50.0685054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2354769,
+        "lat": 50.0686594,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0686594,
+            "lon": 22.2354769,
+            "image": "https://photos.app.goo.gl/rd2UPwwNXrG9T8XM9",
+            "osm_id": 6589889318,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/rd2UPwwNXrG9T8XM9"
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16948,
+        "place_id": "51a576d036483c36405910c8cad4c9084940f00103f90126bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2354769,
+          50.0686594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.235472,
+        "lat": 50.0686914,
+        "state_code": "PK",
+        "formatted": "Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Most Południowy",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0686914,
+            "lon": 22.235472,
+            "image": "https://photos.app.goo.gl/rd2UPwwNXrG9T8XM9",
+            "osm_id": 6589889348,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "vase"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/rd2UPwwNXrG9T8XM9"
+        },
+        "artwork": {
+          "artwork_type": "vase"
+        },
+        "distance": 16948,
+        "place_id": "51ac1f9be4473c3640591b423ae1ca084940f00103f90144bbc98801000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.235472,
+          50.0686914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kolumna z orłem",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Południowy",
+        "iso3166_2": "PL-18",
+        "lon": 22.2356083,
+        "lat": 50.0685866,
+        "state_code": "PK",
+        "formatted": "Kolumna z orłem, Most Południowy, 37-100 Łańcut, Polska",
+        "address_line1": "Kolumna z orłem",
+        "address_line2": "Most Południowy, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0685866,
+            "lon": 22.2356083,
+            "name": "Kolumna z orłem",
+            "image": "https://photos.app.goo.gl/ZFyggkjHKZPS7jWt7",
+            "osm_id": 6589889335,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "column"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/ZFyggkjHKZPS7jWt7"
+        },
+        "artwork": {
+          "artwork_type": "column"
+        },
+        "distance": 16955,
+        "place_id": "51892a57d3503c364059d0f81972c7084940f00103f90137bbc988010000009203104b6f6c756d6e61207a206f72c582656d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2356083,
+          50.0685866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Źródło Solanki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9398263,
+        "lat": 49.890329,
+        "state_code": "PK",
+        "formatted": "Źródło Solanki, Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Źródło Solanki",
+        "address_line2": "Chłopski Most, 36-043 Sołonka, Polska",
+        "categories": [
+          "sport",
+          "tourism",
+          "tourism.attraction",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.890291543501704,
+            "lon": 21.939795699452493,
+            "name": "Źródło Solanki",
+            "osm_id": 290357877,
+            "landuse": "recreation_ground",
+            "tourism": "attraction",
+            "osm_type": "w",
+            "wheelchair": "limited",
+            "opening_hours": "24/7"
+          }
+        },
+        "opening_hours": "24/7",
+        "facilities": {
+          "wheelchair": true,
+          "wheelchair_details": {
+            "condition": "limited"
+          }
+        },
+        "distance": 16956,
+        "place_id": "51e511727396f0354059629fc312f5f14840f00102f90175824e1100000000920311c5b972c3b364c5826f20536f6c616e6b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.939795699452493,
+          49.890291543501704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tężnia solankowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9398105,
+        "lat": 49.8901464,
+        "state_code": "PK",
+        "formatted": "Tężnia solankowa, Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Tężnia solankowa",
+        "address_line2": "Chłopski Most, 36-043 Sołonka, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "man_made",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.890146400000006,
+            "lon": 21.939810500000007,
+            "name": "Tężnia solankowa",
+            "osm_id": 828829629,
+            "tourism": "attraction",
+            "building": "yes",
+            "man_made": "graduation_tower",
+            "osm_type": "w"
+          }
+        },
+        "distance": 16971,
+        "place_id": "51fcefc16b97f03540597a533651f0f14840f00102f901bdef66310000000092031254c499c5bc6e696120736f6c616e6b6f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.939810500000007,
+          49.890146400000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Diana z jeleniem",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.2372334,
+        "lat": 50.0670868,
+        "state_code": "PK",
+        "formatted": "Diana z jeleniem, 3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "Diana z jeleniem",
+        "address_line2": "3 Maja, 37-100 Łańcut, Polska",
+        "categories": [
+          "heritage",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0670868,
+            "lon": 22.2372334,
+            "name": "Diana z jeleniem",
+            "osm_id": 13475129809,
+            "ref:nid": "A-1023 z 1979-08-27",
+            "tourism": "artwork",
+            "heritage": 2,
+            "osm_type": "n",
+            "wikidata": "Q121886564",
+            "nid:website": "https://zabytek.pl/pl/obiekty/zabytek?inspire_id=PL.1.9.ZIPOZ.NID_N_18_MA.12037&rejestr=rejestr-zabytkow",
+            "artwork_type": "sculpture",
+            "wikimedia_commons": "File:PL - Łańcut - ujeżdżalnia - 2012-05-02--10-06-51-01.jpg",
+            "nid:inscription_date": "1979-08-27"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1023 z 1979-08-27"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q121886564",
+          "wikimedia_commons": "File:PL - Łańcut - ujeżdżalnia - 2012-05-02--10-06-51-01.jpg"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1023 z 1979-08-27",
+          "inscription_date": "1979-08-27"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 17036,
+        "place_id": "51d684fe53bb3c36405924ffdd4c96084940f00103f901d1292e23030000009203104469616e61207a206a656c656e69656d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2372334,
+          50.0670868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Młodzieniec walczący z wężem",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.2372805,
+        "lat": 50.0673529,
+        "state_code": "PK",
+        "formatted": "Młodzieniec walczący z wężem, 3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "Młodzieniec walczący z wężem",
+        "address_line2": "3 Maja, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0673529,
+            "lon": 22.2372805,
+            "name": "Młodzieniec walczący z wężem",
+            "osm_id": 13517114671,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 17045,
+        "place_id": "51817a336abe3c364059386513059f084940f00103f9012fcdae25030000009203204dc5826f647a69656e6965632077616c637ac4856379207a2077c499c5bc656d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2372805,
+          50.0673529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storczykarnia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2376539,
+        "lat": 50.0686037,
+        "state_code": "PK",
+        "formatted": "Storczykarnia, Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Storczykarnia",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06854655462541,
+            "lon": 22.2374254660492,
+            "name": "Storczykarnia",
+            "osm_id": 9763838,
+            "name:de": "Orchideenhaus",
+            "name:en": "Orchid House",
+            "name:pl": "Storczykarnia",
+            "name:zh": "兰花屋",
+            "ref:nid": "A-1023",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "osm_type": "r",
+            "wikidata": "Q9346092",
+            "wikipedia": "pl:Storczykarnia w Łańcucie",
+            "start_date": 1920,
+            "heritage:operator": "nid"
+          }
+        },
+        "name_international": {
+          "de": "Orchideenhaus",
+          "en": "Orchid House",
+          "pl": "Storczykarnia",
+          "zh": "兰花屋"
+        },
+        "ref_other": {
+          "nid": "A-1023"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q9346092",
+          "wikipedia": "pl:Storczykarnia w Łańcucie"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "A-1023"
+        },
+        "building": {
+          "start_date": 1920
+        },
+        "distance": 17082,
+        "place_id": "513beb53eac73c3640594f2f2d22c6084940f00101f901fefb94000000000092030d53746f72637a796b61726e6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2374254660492,
+          50.06854655462541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pomnik św. Floriana",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Władysława Sikorskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.2339983,
+        "lat": 50.0782289,
+        "state_code": "PK",
+        "formatted": "Pomnik św. Floriana, Władysława Sikorskiego, 37-100 Łańcut, Polska",
+        "address_line1": "Pomnik św. Floriana",
+        "address_line2": "Władysława Sikorskiego, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0782289,
+            "lon": 22.2339983,
+            "name": "Pomnik św. Floriana",
+            "osm_id": 10738745744,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 17097,
+        "place_id": "51d1d10550e73b364059108d9367030a4940f00103f9019041148002000000920314506f6d6e696b20c59b772e20466c6f7269616e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2339983,
+          50.0782289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zameczek Romantyczny",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "housenumber": "6",
+        "iso3166_2": "PL-18",
+        "lon": 22.2373016,
+        "lat": 50.0702547,
+        "state_code": "PK",
+        "formatted": "Zameczek Romantyczny, Tadeusza Kościuszki 6, 37-100 Łańcut, Polska",
+        "address_line1": "Zameczek Romantyczny",
+        "address_line2": "Tadeusza Kościuszki 6, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.castle"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.070285810509795,
+            "lon": 22.237301107324047,
+            "city": "Łańcut",
+            "name": "Zameczek Romantyczny",
+            "osm_id": 285720153,
+            "street": "Tadeusza Kościuszki",
+            "ref:nid": "A-1023",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "historic": "castle",
+            "osm_type": "w",
+            "postcode": "37-100",
+            "wikidata": "Q108701243",
+            "start_date": 1795,
+            "castle_type": "palace",
+            "housenumber": 6,
+            "wikimedia_commons": "File:Łańcut zamek zameczek romantyczny.jpg"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1023"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q108701243",
+          "wikimedia_commons": "File:Łańcut zamek zameczek romantyczny.jpg"
+        },
+        "historic": {
+          "type": "castle",
+          "start_date": 1795,
+          "castle_type": "palace"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1023"
+        },
+        "building": {
+          "start_date": 1795
+        },
+        "distance": 17113,
+        "place_id": "51e942efc3bf3c36405997c11c20ff084940f00102f90159be0711000000009203145a616d65637a656b20526f6d616e7479637a6e79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.237301107324047,
+          50.070285810509795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pracownia rodziny Plizgów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Medynia Głogowska",
+        "hamlet": "Zadwór",
+        "municipality": "gmina Czarna",
+        "postcode": "37-126",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.1376248,
+        "lat": 50.1674188,
+        "state_code": "PK",
+        "formatted": "Pracownia rodziny Plizgów, 881, 37-126 Medynia Głogowska, Polska",
+        "address_line1": "Pracownia rodziny Plizgów",
+        "address_line2": "881, 37-126 Medynia Głogowska, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1674188,
+            "lon": 22.1376248,
+            "name": "Pracownia rodziny Plizgów",
+            "osm_id": 5728507252,
+            "tourism": "attraction",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17373,
+        "place_id": "51591eff603b23364059275eaffa6d154940f00103f901741572550100000092031a507261636f776e696120726f647a696e7920506c697a67c3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1376248,
+          50.1674188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pawilon (Elizin)",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2415135,
+        "lat": 50.071162,
+        "state_code": "PK",
+        "formatted": "Pawilon (Elizin), Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Pawilon (Elizin)",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.071162032189996,
+            "lon": 22.241513486206912,
+            "name": "Pawilon (Elizin)",
+            "osm_id": 279249786,
+            "ref:nid": "A-1023",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "~1900"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1023"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1023"
+        },
+        "building": {
+          "start_date": "~1900"
+        },
+        "distance": 17429,
+        "place_id": "5138cdecd3d33d364059897c64d61b094940f00102f9017a03a51000000000920310506177696c6f6e2028456c697a696e29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.241513486206912,
+          50.071162032189996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Połomia",
+        "hamlet": "Sołtysie",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-115",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.876992,
+        "lat": 49.8990929,
+        "state_code": "PK",
+        "formatted": "19, 38-115 Połomia, Polska",
+        "address_line1": "19",
+        "address_line2": "38-115 Połomia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8990929,
+            "lon": 21.876992,
+            "osm_id": 4961721230,
+            "tourism": "artwork",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17841,
+        "place_id": "5188da368c82e03540596cc8e47915f34840f00103f9018edbbd2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.876992,
+          49.8990929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Papież JPII",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Połomia",
+        "hamlet": "Sołtysie",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-115",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.876894,
+        "lat": 49.8990887,
+        "state_code": "PK",
+        "formatted": "Papież JPII, 19, 38-115 Połomia, Polska",
+        "address_line1": "Papież JPII",
+        "address_line2": "19, 38-115 Połomia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8990887,
+            "lon": 21.876894,
+            "name": "Papież JPII",
+            "osm_id": 4961721229,
+            "tourism": "artwork",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17845,
+        "place_id": "51020f0c207ce0354059015aa95615f34840f00103f9018ddbbd270100000092030c5061706965c5bc204a504949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.876894,
+          49.8990887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gmina Błażowa – Naturalnie Nowoczesna",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "district": "Księże Budy",
+        "street": "Księdza Bronisława Markiewicza",
+        "iso3166_2": "PL-18",
+        "lon": 22.1009669,
+        "lat": 49.8877803,
+        "state_code": "PK",
+        "formatted": "Gmina Błażowa – Naturalnie Nowoczesna, Księdza Bronisława Markiewicza, 36-030 Błażowa, Polska",
+        "address_line1": "Gmina Błażowa – Naturalnie Nowoczesna",
+        "address_line2": "Księdza Bronisława Markiewicza, 36-030 Błażowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8877803,
+            "lon": 22.1009669,
+            "name": "Gmina Błażowa – Naturalnie Nowoczesna",
+            "osm_id": 13244850519,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 17997,
+        "place_id": "517f7a7df7d8193640593c44edc8a2f14840f00103f9015761741503000000920329476d696e612042c58261c5bc6f776120e28093204e61747572616c6e6965204e6f776f637a65736e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1009669,
+          49.8877803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Wola Dalsza",
+        "hamlet": "Jawornik",
+        "municipality": "gmina Białobrzegi",
+        "postcode": "37-114",
+        "street": "877",
+        "iso3166_2": "PL-18",
+        "lon": 22.2362042,
+        "lat": 50.1069472,
+        "state_code": "PK",
+        "formatted": "877, 37-114 Wola Dalsza, Polska",
+        "address_line1": "877",
+        "address_line2": "37-114 Wola Dalsza, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1069472,
+            "lon": 22.2362042,
+            "osm_id": 9857949966,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 18354,
+        "place_id": "51872de2e0773c3640590b332372b00d4940f00103f9010e61944b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2362042,
+          50.1069472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Handzlówka",
+        "hamlet": "Zagrody",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-123",
+        "street": "Skotnik",
+        "iso3166_2": "PL-18",
+        "lon": 22.2505626,
+        "lat": 49.9858399,
+        "state_code": "PK",
+        "formatted": "Skotnik, 37-123 Handzlówka, Polska",
+        "address_line1": "Skotnik",
+        "address_line2": "37-123 Handzlówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9858399,
+            "lon": 22.2505626,
+            "osm_id": 10833382883,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 18567,
+        "place_id": "51c999dcde2440364059c4cb780030fe4840f00103f901e34db88502000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2505626,
+          49.9858399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jana Pawła II",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Wesoła",
+        "village": "Ujazdy",
+        "hamlet": "Piekło",
+        "municipality": "gmina Nozdrzec",
+        "postcode": "36-233",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 22.0389908,
+        "lat": 49.8697981,
+        "state_code": "PK",
+        "formatted": "Jana Pawła II, 884, 36-233 Wesoła, Polska",
+        "address_line1": "Jana Pawła II",
+        "address_line2": "884, 36-233 Wesoła, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8697981,
+            "lon": 22.0389908,
+            "name": "Jana Pawła II",
+            "osm_id": 3048043269,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "bust",
+            "subject:wikidata": "Q989"
+          }
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 18766,
+        "place_id": "514ad8124dfb09364059bccf4c8b55ef4840f00103f9010573adb50000000092030e4a616e6120506177c58261204949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0389908,
+          49.8697981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9561045,
+        "lat": 49.8681277,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8681277,
+            "lon": 21.9561045,
+            "osm_id": 6750866838,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19095,
+        "place_id": "51f50eb743c3f43540593820f8ce1eef4840f00103f901960d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9561045,
+          49.8681277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Wola Zgłobieńska",
+        "municipality": "gmina Boguchwała",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7571311,
+        "lat": 49.9711303,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 38-121 Wola Zgłobieńska, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "38-121 Wola Zgłobieńska, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 406,
+            "lat": 49.9711303,
+            "lon": 21.7571311,
+            "name": "Łysa Góra",
+            "osm_id": 3688928811,
+            "natural": "peak",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "ele": 406,
+        "distance": 19155,
+        "place_id": "51d5480158d3c1354059cc5367ff4dfc4840f00103f9012b96e0db0000000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7571311,
+          49.9711303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Zaborów",
+        "hamlet": "Błonia",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "988",
+        "iso3166_2": "PL-18",
+        "lon": 21.8045488,
+        "lat": 49.9167564,
+        "state_code": "PK",
+        "formatted": "988, 28-120 Zaborów, Polska",
+        "address_line1": "988",
+        "address_line2": "28-120 Zaborów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9167564,
+            "lon": 21.8045488,
+            "osm_id": 11206157679,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19585,
+        "place_id": "513a0900e9f6cd3540590833124658f54840f00103f9016f65f09b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8045488,
+          49.9167564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "św. Florian",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Widełka",
+        "hamlet": "Wielka Widełka",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "street": "9",
+        "iso3166_2": "PL-18",
+        "lon": 21.8868126,
+        "lat": 50.2029886,
+        "state_code": "PK",
+        "formatted": "św. Florian, 9, 36-145 Widełka, Polska",
+        "address_line1": "św. Florian",
+        "address_line2": "9, 36-145 Widełka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2029886,
+            "lon": 21.8868126,
+            "name": "św. Florian",
+            "osm_id": 12141017609,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 20276,
+        "place_id": "5144ae8a2606e3354059fc3acb87fb194940f00103f901093aa9d30200000092030cc59b772e20466c6f7269616e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8868126,
+          50.2029886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Wesoła",
+        "village": "Ujazdy",
+        "hamlet": "Piekło",
+        "municipality": "gmina Nozdrzec",
+        "postcode": "36-233",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 22.0294976,
+        "lat": 49.8552783,
+        "state_code": "PK",
+        "formatted": "884, 36-233 Wesoła, Polska",
+        "address_line1": "884",
+        "address_line2": "36-233 Wesoła, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8552783,
+            "lon": 22.0294976,
+            "osm_id": 11226951769,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20295,
+        "place_id": "517c4f9b278d073640593fbd63c279ed4840f00103f90159b02d9d02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0294976,
+          49.8552783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jan Paweł II",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Widełka",
+        "hamlet": "Wielka Widełka",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "street": "9",
+        "iso3166_2": "PL-18",
+        "lon": 21.8813184,
+        "lat": 50.2024017,
+        "state_code": "PK",
+        "formatted": "Jan Paweł II, 9, 36-145 Widełka, Polska",
+        "address_line1": "Jan Paweł II",
+        "address_line2": "9, 36-145 Widełka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2024017,
+            "lon": 21.8813184,
+            "name": "Jan Paweł II",
+            "osm_id": 10123628027,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "bust",
+            "wikimedia_commons": "File:Kościół Matki Bożej Królowej Polski w Widełce - popiersie Jana Pawła II.jpg"
+          }
+        },
+        "wiki_and_media": {
+          "wikimedia_commons": "File:Kościół Matki Bożej Królowej Polski w Widełce - popiersie Jana Pawła II.jpg"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 20383,
+        "place_id": "51f15c29159ee1354059d113854ce8194940f00103f901fb4d6a5b0200000092030d4a616e2050617765c582204949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8813184,
+          50.2024017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "św. Michał Archanioł",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Widełka",
+        "hamlet": "Wielka Widełka",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "street": "9",
+        "iso3166_2": "PL-18",
+        "lon": 21.8814166,
+        "lat": 50.2024368,
+        "state_code": "PK",
+        "formatted": "św. Michał Archanioł, 9, 36-145 Widełka, Polska",
+        "address_line1": "św. Michał Archanioł",
+        "address_line2": "9, 36-145 Widełka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2024368,
+            "lon": 21.8814166,
+            "name": "św. Michał Archanioł",
+            "osm_id": 10123628028,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue",
+            "wikimedia_commons": "File:Figura Michała Archanioła w Widełce.jpg"
+          }
+        },
+        "wiki_and_media": {
+          "wikimedia_commons": "File:Figura Michała Archanioła w Widełce.jpg"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 20383,
+        "place_id": "51ca26af84a4e1354059e2c0f572e9194940f00103f901fc4d6a5b02000000920317c59b772e204d69636861c5822041726368616e696fc582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8814166,
+          50.2024368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Połomia",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8608401,
+        "lat": 49.8786664,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Połomia, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Połomia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8786664,
+            "lon": 21.8608401,
+            "osm_id": 7368766927,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20388,
+        "place_id": "51db954c0460dc3540590a0cfe2378f04840f00103f901cf7536b701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8608401,
+          49.8786664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "district": "Kuligi",
+        "street": "Młynarska",
+        "iso3166_2": "PL-18",
+        "lon": 22.097411,
+        "lat": 49.8638146,
+        "state_code": "PK",
+        "formatted": "Młynarska, 36-030 Błażowa, Polska",
+        "address_line1": "Młynarska",
+        "address_line2": "36-030 Błażowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8638146,
+            "lon": 22.097411,
+            "osm_id": 3889461673,
+            "amenity": "shelter",
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "shelter_type": "picnic_shelter",
+            "opening_hours": "24/7"
+          }
+        },
+        "opening_hours": "24/7",
+        "distance": 20396,
+        "place_id": "514a4563edef183640595667107a91ee4840f00103f901a979d4e700000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.097411,
+          49.8638146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoźnica Górna",
+        "hamlet": "Krzywa",
+        "municipality": "gmina Niebylec",
+        "postcode": "36-230",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 21.9895198,
+        "lat": 49.8508559,
+        "state_code": "PK",
+        "formatted": "884, 36-230 Gwoźnica Górna, Polska",
+        "address_line1": "884",
+        "address_line2": "36-230 Gwoźnica Górna, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8508559,
+            "lon": 21.9895198,
+            "osm_id": 13077961161,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20731,
+        "place_id": "5195be6b2b51fd354059e80d9cd8e8ec4840f00103f901c9d9810b03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9895198,
+          49.8508559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Widok na Rzeszów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8579404,
+        "lat": 49.8713263,
+        "state_code": "PK",
+        "formatted": "Widok na Rzeszów, Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Widok na Rzeszów",
+        "address_line2": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8713263,
+            "lon": 21.8579404,
+            "name": "Widok na Rzeszów",
+            "osm_id": 6750866849,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21200,
+        "place_id": "51cbea67fba1db3540598552c59e87ef4840f00103f901a10d6292010000009203115769646f6b206e6120527a65737ac3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8579404,
+          49.8713263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8566213,
+        "lat": 49.8714534,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8714534,
+            "lon": 21.8566213,
+            "osm_id": 9423264787,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Widok na Strzyżów, przy dobrej widoczności widać też szczyty Tatr"
+          }
+        },
+        "description": "Widok na Strzyżów, przy dobrej widoczności widać też szczyty Tatr",
+        "distance": 21235,
+        "place_id": "51988e94884bdb354059777ef6c88bef4840f00103f901139cab3102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8566213,
+          49.8714534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8604466,
+        "lat": 49.8687475,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8687475,
+            "lon": 21.8604466,
+            "osm_id": 9420138775,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Przy dobrej widoczności widać Tatry (Patrząc w strone Brzeżanki)."
+          }
+        },
+        "description": "Przy dobrej widoczności widać Tatry (Patrząc w strone Brzeżanki).",
+        "distance": 21363,
+        "place_id": "5153f4763a46dc354059aa7d3a1e33ef4840f00103f90117e97b3102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8604466,
+          49.8687475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8589007,
+        "lat": 49.8691418,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8691418,
+            "lon": 21.8589007,
+            "osm_id": 6984872752,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Widok na Rzeszów, i w kierunku Bieszczad"
+          }
+        },
+        "description": "Widok na Rzeszów, i w kierunku Bieszczad",
+        "distance": 21378,
+        "place_id": "51f20291eae0db354059154bdb0940ef4840f00103f90130b354a001000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8589007,
+          49.8691418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Łetownia",
+        "village": "Łętownia",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.7705035,
+        "lat": 49.9132848,
+        "state_code": "PK",
+        "formatted": "Leśna, 38-100 Łetownia, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "38-100 Łetownia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9132848,
+            "lon": 21.7705035,
+            "osm_id": 9420123533,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Przy dobrej widoczności, można zobaczyć Tatry. Patrząc w kierunku bramy frysztackiej. Za to z drugiej strony widok na Czudec, kawałek obwodnicy i Przedmieście Czudeckie"
+          }
+        },
+        "description": "Przy dobrej widoczności, można zobaczyć Tatry. Patrząc w kierunku bramy frysztackiej. Za to z drugiej strony widok na Czudec, kawałek obwodnicy i Przedmieście Czudeckie",
+        "distance": 21677,
+        "place_id": "511bf4a5b73fc53540598af72d84e6f44840f00103f9018dad7b3102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7705035,
+          49.9132848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Sędziszów Małopolski",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "39-120",
+        "district": "Śródmieście",
+        "street": "Jana Pawła II",
+        "iso3166_2": "PL-18",
+        "lon": 21.704911,
+        "lat": 50.0704914,
+        "state_code": "PK",
+        "formatted": "Jana Pawła II, 39-120 Sędziszów Małopolski, Polska",
+        "address_line1": "Jana Pawła II",
+        "address_line2": "39-120 Sędziszów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0704914,
+            "lon": 21.704911,
+            "osm_id": 11098531913,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 21741,
+        "place_id": "5135971b0c75b43540591bd3b8dc05094940f00103f9014928869502000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.704911,
+          50.0704914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Sędziszów Małopolski",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "39-120",
+        "district": "Śródmieście",
+        "street": "Jana Pawła II",
+        "iso3166_2": "PL-18",
+        "lon": 21.7026603,
+        "lat": 50.0710623,
+        "state_code": "PK",
+        "formatted": "Jana Pawła II, 39-120 Sędziszów Małopolski, Polska",
+        "address_line1": "Jana Pawła II",
+        "address_line2": "39-120 Sędziszów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0710623,
+            "lon": 21.7026603,
+            "osm_id": 7256761424,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "sculpture",
+            "artwork_subject": "religious"
+          }
+        },
+        "artwork": {
+          "artwork_subject": "religious",
+          "artwork_type": "sculpture"
+        },
+        "distance": 21911,
+        "place_id": "5193b2a08be1b3354059413dc79118094940f00103f901506489b001000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7026603,
+          50.0710623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "św. Florian",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Kupno",
+        "hamlet": "Majdan",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "street": "9",
+        "iso3166_2": "PL-18",
+        "lon": 21.826671,
+        "lat": 50.198351,
+        "state_code": "PK",
+        "formatted": "św. Florian, 9, 36-145 Kupno, Polska",
+        "address_line1": "św. Florian",
+        "address_line2": "9, 36-145 Kupno, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.198351,
+            "lon": 21.826671,
+            "name": "św. Florian",
+            "osm_id": 12140926688,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 21976,
+        "place_id": "51378dedb5a0d33540598010c99063194940f00103f901e0d6a7d30200000092030cc59b772e20466c6f7269616e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.826671,
+          50.198351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilcze",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Barycz",
+        "hamlet": "Początkówka",
+        "municipality": "gmina Domaradz",
+        "postcode": "36-233",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 22.0196117,
+        "lat": 49.8387919,
+        "state_code": "PK",
+        "formatted": "Wilcze, 884, 36-233 Barycz, Polska",
+        "address_line1": "Wilcze",
+        "address_line2": "884, 36-233 Barycz, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8387919,
+            "lon": 22.0196117,
+            "name": "Wilcze",
+            "osm_id": 3627539109,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22075,
+        "place_id": "51741eba450505364059295371885deb4840f00103f901a5da37d80000000092030657696c637a65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0196117,
+          49.8387919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Sędziszów Małopolski",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "39-120",
+        "district": "Śródmieście",
+        "street": "Partyzantów",
+        "iso3166_2": "PL-18",
+        "lon": 21.6970131,
+        "lat": 50.0704575,
+        "state_code": "PK",
+        "formatted": "Partyzantów, 39-120 Sędziszów Małopolski, Polska",
+        "address_line1": "Partyzantów",
+        "address_line2": "39-120 Sędziszów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0704575,
+            "lon": 21.6970131,
+            "osm_id": 11098531928,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 22298,
+        "place_id": "51326255736fb2354059042159c004094940f00103f9015828869502000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6970131,
+          50.0704575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smokówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Smokówka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-103",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8389261,
+        "lat": 49.8651801,
+        "state_code": "PK",
+        "formatted": "Smokówka, S19, 38-103 Żarnowa, Polska",
+        "address_line1": "Smokówka",
+        "address_line2": "S19, 38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8651801,
+            "lon": 21.8389261,
+            "name": "Smokówka",
+            "osm_id": 6750866839,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22485,
+        "place_id": "51c54263dcc3d63540593453b538beee4840f00103f901970d629201000000920309536d6f6bc3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8389261,
+          49.8651801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Rokitówka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Partyzantów",
+        "iso3166_2": "PL-18",
+        "lon": 21.7967516,
+        "lat": 49.8852235,
+        "state_code": "PK",
+        "formatted": "Partyzantów, 38-100 Strzyżów, Polska",
+        "address_line1": "Partyzantów",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8852235,
+            "lon": 21.7967516,
+            "osm_id": 9246961389,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22497,
+        "place_id": "512209b1e9f7cb3540594913ef004ff14840f00103f901ed6e292702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7967516,
+          49.8852235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Na Grabówce",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Działy",
+        "iso3166_2": "PL-18",
+        "lon": 21.8021375,
+        "lat": 49.8807438,
+        "state_code": "PK",
+        "formatted": "Działy, 38-100 Strzyżów, Polska",
+        "address_line1": "Działy",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8807438,
+            "lon": 21.8021375,
+            "osm_id": 9246961390,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22625,
+        "place_id": "512c6519e258cd354059cf937c36bcf04840f00103f901ee6e292702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8021375,
+          49.8807438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Łetownia",
+        "village": "Łętownia",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Łętownia",
+        "iso3166_2": "PL-18",
+        "lon": 21.7642808,
+        "lat": 49.9026234,
+        "state_code": "PK",
+        "formatted": "Łętownia, 38-100 Łetownia, Polska",
+        "address_line1": "Łętownia",
+        "address_line2": "38-100 Łetownia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9026234,
+            "lon": 21.7642808,
+            "osm_id": 9445268674,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22785,
+        "place_id": "51f2f510e8a7c33540595bcddf2989f34840f00103f901c25cfb3202000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7642808,
+          49.9026234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "św. Onufry",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sokołów Małopolski",
+        "municipality": "gmina Sokołów Małopolski",
+        "postcode": "36-050",
+        "district": "Rynek",
+        "street": "Władysława Reymonta",
+        "iso3166_2": "PL-18",
+        "lon": 22.1260172,
+        "lat": 50.2279762,
+        "state_code": "PK",
+        "formatted": "św. Onufry, Władysława Reymonta, 36-050 Sokołów Małopolski, Polska",
+        "address_line1": "św. Onufry",
+        "address_line2": "Władysława Reymonta, 36-050 Sokołów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2279762,
+            "lon": 22.1260172,
+            "name": "św. Onufry",
+            "osm_id": 11077839658,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 22964,
+        "place_id": "51c6bbc8a9422036405918a2f9522e1d4940f00103f9012a6b4a940200000092030bc59b772e204f6e75667279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1260172,
+          50.2279762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dawna Karczma drewniana, 1 ćw. XIX w",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Rakszawa",
+        "municipality": "gmina Rakszawa",
+        "postcode": "37-111",
+        "housenumber": "919",
+        "iso3166_2": "PL-18",
+        "lon": 22.2266343,
+        "lat": 50.1858512,
+        "state_code": "PK",
+        "formatted": "Dawna Karczma drewniana, 1 ćw. XIX w, 919, 37-111 Rakszawa, Polska",
+        "address_line1": "Dawna Karczma drewniana, 1 ćw. XIX w",
+        "address_line2": "919, 37-111 Rakszawa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1858512,
+            "lon": 22.2266343,
+            "name": "Dawna Karczma drewniana, 1 ćw. XIX w",
+            "place": "Rakszawa",
+            "osm_id": 5516031135,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "postcode": "37-111",
+            "_inherited": "",
+            "housenumber": 919
+          }
+        },
+        "distance": 22973,
+        "place_id": "51e0a69ab4043a36405910f6dcf8c9174940f00103f9019ff4c748010000009203254461776e61204b6172637a6d6120647265776e69616e612c203120c487772e205849582077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2266343,
+          50.1858512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-122",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.7304788,
+        "lat": 49.9209443,
+        "state_code": "PK",
+        "formatted": "Tadeusza Kościuszki, 38-122 Strzyżów, Polska",
+        "address_line1": "Tadeusza Kościuszki",
+        "address_line2": "38-122 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9209443,
+            "lon": 21.7304788,
+            "osm_id": 13140511721,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23485,
+        "place_id": "51dc6b9ca800bb35405904f8b880e1f54840f00103f901e94b3c0f03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7304788,
+          49.9209443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Godowa",
+        "hamlet": "Luteszki",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-111",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8555636,
+        "lat": 49.8483919,
+        "state_code": "PK",
+        "formatted": "S19, 38-111 Godowa, Polska",
+        "address_line1": "S19",
+        "address_line2": "38-111 Godowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8483919,
+            "lon": 21.8555636,
+            "osm_id": 6783668997,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23529,
+        "place_id": "51e5a5513706db3540597d58141b98ec4840f00103f9010593569401000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8555636,
+          49.8483919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edukacyjna Zagroda Szmer",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Godowa",
+        "hamlet": "Luteszki",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-111",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8470763,
+        "lat": 49.8503894,
+        "state_code": "PK",
+        "formatted": "Edukacyjna Zagroda Szmer, S19, 38-111 Godowa, Polska",
+        "address_line1": "Edukacyjna Zagroda Szmer",
+        "address_line2": "S19, 38-111 Godowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.85041609927756,
+            "lon": 21.847054930699233,
+            "name": "Edukacyjna Zagroda Szmer",
+            "osm_id": 158510514,
+            "tourism": "attraction",
+            "osm_type": "w"
+          }
+        },
+        "distance": 23614,
+        "place_id": "51cd448997d8d8354059cb314b6fdaec4840f00102f901b2ad7209000000009203184564756b6163796a6e61205a6167726f646120537a6d6572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.847054930699233,
+          49.85041609927756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ratośniówki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Rokitówka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "district": "Zawale",
+        "street": "700-lecia Strzyżowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.7859911,
+        "lat": 49.8771487,
+        "state_code": "PK",
+        "formatted": "Ratośniówki, 700-lecia Strzyżowa, 38-100 Strzyżów, Polska",
+        "address_line1": "Ratośniówki",
+        "address_line2": "700-lecia Strzyżowa, 38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8771487,
+            "lon": 21.7859911,
+            "name": "Ratośniówki",
+            "osm_id": 10043141471,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23683,
+        "place_id": "51737275b636c93540594d1d9a6846f04840f00103f9015f2d9e560200000092030d5261746fc59b6e69c3b3776b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7859911,
+          49.8771487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sokołów Małopolski",
+        "municipality": "gmina Sokołów Małopolski",
+        "postcode": "36-050",
+        "district": "Rynek",
+        "street": "Lubelska",
+        "iso3166_2": "PL-18",
+        "lon": 22.1223428,
+        "lat": 50.2361428,
+        "state_code": "PK",
+        "formatted": "Lubelska, 36-050 Sokołów Małopolski, Polska",
+        "address_line1": "Lubelska",
+        "address_line2": "36-050 Sokołów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2361428,
+            "lon": 22.1223428,
+            "city": "Sokołów Małopolski",
+            "osm_id": 11303466604,
+            "street": "Lubelska",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "36-050",
+            "_inherited": "",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 23712,
+        "place_id": "51ace694db511f364059cb9761ed391e4940f00103f9016c36bda102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1223428,
+          50.2361428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Godowa",
+        "hamlet": "Luteszki",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-111",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8475847,
+        "lat": 49.8488425,
+        "state_code": "PK",
+        "formatted": "S19, 38-111 Godowa, Polska",
+        "address_line1": "S19",
+        "address_line2": "38-111 Godowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8488425,
+            "lon": 21.8475847,
+            "osm_id": 6750866850,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23750,
+        "place_id": "510817974ffbd83540593a7afcdea6ec4840f00103f901a20d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8475847,
+          49.8488425
+        ]
+      }
+    }
+  ]
+}

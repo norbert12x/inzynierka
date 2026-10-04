@@ -1,0 +1,50 @@
+{
+  "count": 300,
+  "uniqueCandidateCount": 689,
+  "requestCount": 12,
+  "selectionGroups": {
+    "museums": 40,
+    "heritage": 82,
+    "nature": 81,
+    "viewpoints": 9,
+    "recreation": 7,
+    "attractions": 81
+  },
+  "withOpeningHours": 24,
+  "withWebsite": 50,
+  "possibleDuplicatePairs": [
+    {
+      "name": "Prasłowiańska Figura",
+      "distanceMetersApprox": 7,
+      "firstId": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "secondId": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "Prasłowiańska Figura",
+      "distanceMetersApprox": 9,
+      "firstId": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "secondId": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "Prasłowiańska Figura",
+      "distanceMetersApprox": 2,
+      "firstId": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "secondId": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "W Hołdzie Zesłańcom",
+      "distanceMetersApprox": 16,
+      "firstId": "513fd9deb8d6fa35405995c1acab5d064940f00103f901ce82cd23020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+      "secondId": "51bc81b861cafa3540597ee772de5a064940f00103f90195af1931020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+      "status": "manual-review-required"
+    }
+  ],
+  "notes": [
+    "Identyczne nazwy blisko siebie nie dowodzą duplikatu; np. figury mogą być osobnymi obiektami.",
+    "Różne nazwy tego samego miejsca nie są wykrywane tym sprawdzeniem.",
+    "Rzeźby, pomniki i skwery wymagają oceny przydatności jako samodzielne punkty planu."
+  ]
+}

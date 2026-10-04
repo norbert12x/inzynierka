@@ -1,0 +1,5054 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skwer im. Kazimierza Górskiego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Śródmieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.0039184,
+        "lat": 50.0365339,
+        "state_code": "PK",
+        "formatted": "Skwer im. Kazimierza Górskiego, Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Skwer im. Kazimierza Górskiego",
+        "address_line2": "Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03651836494966,
+            "lon": 22.003903750415805,
+            "name": "Skwer im. Kazimierza Górskiego",
+            "osm_id": 168656489,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 54,
+        "place_id": "511d5e10d6ff00364059c2943fa2ac044940f00102f901697e0d0a0000000092031f536b77657220696d2e204b617a696d6965727a612047c3b372736b6965676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.003903750415805,
+          50.03651836494966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biały Ogród",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Śródmieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.0008881,
+        "lat": 50.037823,
+        "state_code": "PK",
+        "formatted": "Biały Ogród, Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Biały Ogród",
+        "address_line2": "Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.037830254712894,
+            "lon": 22.000883534897863,
+            "name": "Biały Ogród",
+            "osm_id": 320322965,
+            "leisure": "park",
+            "osm_type": "w",
+            "wikidata": "Q121845413",
+            "opening_hours": "Mo-Su 06:00-22:00"
+          }
+        },
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "wiki_and_media": {
+          "wikidata": "Q121845413"
+        },
+        "distance": 242,
+        "place_id": "51bf7d41e7390036405947652d9fd7044940f00102f90195bd17130000000092030d426961c58279204f6772c3b364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.000883534897863,
+          50.037830254712894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plac Ofiar Getta",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-002",
+        "suburb": "Śródmieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.006355,
+        "lat": 50.0385752,
+        "state_code": "PK",
+        "formatted": "Plac Ofiar Getta, 35-002 Rzeszów, Polska",
+        "address_line1": "Plac Ofiar Getta",
+        "address_line2": "35-002 Rzeszów, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.038999569208265,
+            "lon": 22.00640360151566,
+            "name": "Plac Ofiar Getta",
+            "osm_id": 13473517,
+            "landuse": "village_green",
+            "leisure": "park",
+            "osm_type": "r",
+            "wikidata": "Q113013075"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q113013075"
+        },
+        "distance": 281,
+        "place_id": "511d169baaa3013640595f2719f0fd044940f00101f901ed96cd0000000000920310506c6163204f66696172204765747461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.00640360151566,
+          50.038999569208265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plac Wolności",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Śródmieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.0086156,
+        "lat": 50.0395193,
+        "state_code": "PK",
+        "formatted": "Plac Wolności, Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Plac Wolności",
+        "address_line2": "Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03943829169182,
+            "lon": 22.008777829100136,
+            "name": "Plac Wolności",
+            "osm_id": 177404922,
+            "leisure": "park",
+            "osm_type": "w",
+            "wikidata": "Q11819199",
+            "wikipedia": "pl:Plac Wolności w Rzeszowie"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11819199",
+          "wikipedia": "pl:Plac Wolności w Rzeszowie"
+        },
+        "distance": 437,
+        "place_id": "513bea88433f0236405964835e500c054940f00102f901fafb920a0000000092030e506c616320576f6c6e6fc59b6369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.008777829100136,
+          50.03943829169182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Śródmieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.0070119,
+        "lat": 50.0324205,
+        "state_code": "PK",
+        "formatted": "Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Śródmieście",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03255434542333,
+            "lon": 22.007181910392717,
+            "osm_id": 182389629,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 545,
+        "place_id": "51704276acd601364059cb77a4bd2a044940f00102f9017d0bdf0a00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.007181910392717,
+          50.03255434542333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Jedności Polonii z Macierzą",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pułaskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9956913,
+        "lat": 50.0384115,
+        "state_code": "PK",
+        "formatted": "Park Jedności Polonii z Macierzą, Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Jedności Polonii z Macierzą",
+        "address_line2": "Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.038373481666525,
+            "lon": 21.99582628267142,
+            "name": "Park Jedności Polonii z Macierzą",
+            "osm_id": 4003784,
+            "leisure": "park",
+            "osm_type": "r"
+          }
+        },
+        "distance": 605,
+        "place_id": "512d92a478eefe3540594c65186ce9044940f00101f901c8173d00000000009203225061726b204a65646e6fc59b636920506f6c6f6e6969207a204d61636965727ac485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.99582628267142,
+          50.038373481666525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pułaskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9961031,
+        "lat": 50.034739,
+        "state_code": "PK",
+        "formatted": "Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Pułaskiego",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.034729367472224,
+            "lon": 21.99613237991401,
+            "osm_id": 1414455642,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 618,
+        "place_id": "51a2371a8802ff35405982c00c0372044940f00102f9015ae14e5400000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.99613237991401,
+          50.034729367472224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skwer im. ks. Józefa Hermana Osińskiego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Śródmieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.0141924,
+        "lat": 50.0384801,
+        "state_code": "PK",
+        "formatted": "Skwer im. ks. Józefa Hermana Osińskiego, Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Skwer im. ks. Józefa Hermana Osińskiego",
+        "address_line2": "Śródmieście, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03853369578463,
+            "lon": 22.01421341146131,
+            "name": "Skwer im. ks. Józefa Hermana Osińskiego",
+            "osm_id": 859069400,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 751,
+        "place_id": "511364797da303364059319811acee044940f00102f901d85b343300000000920329536b77657220696d2e206b732e204ac3b37a656661204865726d616e61204f7369c584736b6965676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.01421341146131,
+          50.03853369578463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pułaskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9962724,
+        "lat": 50.0321047,
+        "state_code": "PK",
+        "formatted": "Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Pułaskiego",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03213028673307,
+            "lon": 21.996276322952145,
+            "osm_id": 332350440,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 774,
+        "place_id": "51cddb10f70bff354059655d61d81c044940f00102f901e843cf1300000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.996276322952145,
+          50.03213028673307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skwer prof. dr hab. n. med. Lesława Grzegorczyka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pułaskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9929856,
+        "lat": 50.0402948,
+        "state_code": "PK",
+        "formatted": "Skwer prof. dr hab. n. med. Lesława Grzegorczyka, Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Skwer prof. dr hab. n. med. Lesława Grzegorczyka",
+        "address_line2": "Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.040345837264404,
+            "lon": 21.992562370377517,
+            "name": "Skwer prof. dr hab. n. med. Lesława Grzegorczyka",
+            "osm_id": 1303562403,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 900,
+        "place_id": "51fd02489118fe35405949ca690d2a054940f00102f901a3c8b24d00000000920331536b7765722070726f662e206472206861622e206e2e206d65642e204c6573c5826177612047727a65676f72637a796b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.992562370377517,
+          50.040345837264404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ogród Miejski im. Solidarności",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pułaskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9930035,
+        "lat": 50.0312988,
+        "state_code": "PK",
+        "formatted": "Ogród Miejski im. Solidarności, Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Ogród Miejski im. Solidarności",
+        "address_line2": "Pułaskiego, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03127636812964,
+            "lon": 21.992972146377433,
+            "name": "Ogród Miejski im. Solidarności",
+            "osm_id": 182570652,
+            "leisure": "park",
+            "ref:nid": "A-1234",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "after 1800"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1234"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1234"
+        },
+        "distance": 1015,
+        "place_id": "51ae872e6c33fe354059922031dd00044940f00102f9019ccee10a000000009203204f6772c3b364204d69656a736b6920696d2e20536f6c696461726e6fc59b6369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.992972146377433,
+          50.03127636812964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ogród Kieszonkowy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Króla Stanisława Augusta",
+        "iso3166_2": "PL-18",
+        "lon": 21.9915484,
+        "lat": 50.0434522,
+        "state_code": "PK",
+        "formatted": "Ogród Kieszonkowy, Króla Stanisława Augusta, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Ogród Kieszonkowy",
+        "address_line2": "Króla Stanisława Augusta, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.04328043549207,
+            "lon": 21.991600566814267,
+            "name": "Ogród Kieszonkowy",
+            "osm_id": 13662834,
+            "leisure": "park",
+            "osm_type": "r"
+          }
+        },
+        "distance": 1130,
+        "place_id": "518f29e588d9fd3540595f7f9b368a054940f00101f901727ad000000000009203124f6772c3b364204b6965737a6f6e6b6f7779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.991600566814267,
+          50.04328043549207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "1000-Lecia",
+        "iso3166_2": "PL-18",
+        "lon": 22.0033809,
+        "lat": 50.0473403,
+        "state_code": "PK",
+        "formatted": "1000-Lecia, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "1000-Lecia",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.04741915420435,
+            "lon": 22.003419321285552,
+            "osm_id": 227698323,
+            "leisure": "park",
+            "ref:nid": "A-398",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "before 1900"
+          }
+        },
+        "ref_other": {
+          "nid": "A-398"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-398"
+        },
+        "distance": 1160,
+        "place_id": "519118b116e0003640597e41b2d411064940f00102f9019366920d00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.003419321285552,
+          50.04741915420435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Nowe Miasto",
+        "iso3166_2": "PL-18",
+        "lon": 22.0130981,
+        "lat": 50.026107,
+        "state_code": "PK",
+        "formatted": "Nowe Miasto, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Nowe Miasto",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02613212039676,
+            "lon": 22.013117221810326,
+            "osm_id": 1090441884,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 1374,
+        "place_id": "5192b076a65b03364059573d1d4c58034940f00102f9019cd2fe4000000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.013117221810326,
+          50.02613212039676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Kultury i Wypoczynku",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Grota-Roweckiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9995427,
+        "lat": 50.0240785,
+        "state_code": "PK",
+        "formatted": "Park Kultury i Wypoczynku, Grota-Roweckiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Kultury i Wypoczynku",
+        "address_line2": "Grota-Roweckiego, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0247914452051,
+            "lon": 22.00006326030924,
+            "name": "Park Kultury i Wypoczynku",
+            "osm_id": 172960676,
+            "leisure": "park",
+            "name:en": "Park of Culture and Recreation",
+            "name:pl": "Park Kultury i Wypoczynku",
+            "osm_type": "w"
+          }
+        },
+        "name_international": {
+          "en": "Park of Culture and Recreation",
+          "pl": "Park Kultury i Wypoczynku"
+        },
+        "distance": 1387,
+        "place_id": "5196f5542504003640593130b75d2c034940f00102f901a42b4f0a000000009203195061726b204b756c747572792069205779706f637a796e6b75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.00006326030924,
+          50.0247914452051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Króla Stanisława Augusta",
+        "iso3166_2": "PL-18",
+        "lon": 21.984568,
+        "lat": 50.0417856,
+        "state_code": "PK",
+        "formatted": "Króla Stanisława Augusta, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Króla Stanisława Augusta",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.041812554435275,
+            "lon": 21.98456857269785,
+            "osm_id": 640129462,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 1491,
+        "place_id": "511b689caf0cfc3540594dee201d5a054940f00102f901b699272600000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.98456857269785,
+          50.041812554435275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park kieszonkowy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pobitno",
+        "iso3166_2": "PL-18",
+        "lon": 22.0270332,
+        "lat": 50.0393717,
+        "state_code": "PK",
+        "formatted": "Park kieszonkowy, Pobitno, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park kieszonkowy",
+        "address_line2": "Pobitno, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.039394666998916,
+            "lon": 22.026911518119483,
+            "name": "Park kieszonkowy",
+            "osm_id": 1360372419,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 1663,
+        "place_id": "517a355aace306364059d6326be20a054940f00102f901c3a21551000000009203105061726b206b6965737a6f6e6b6f7779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.026911518119483,
+          50.039394666998916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kopiec Konfederatów Barskich",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-006",
+        "iso3166_2": "PL-18",
+        "lon": 22.0199032,
+        "lat": 50.048175,
+        "state_code": "PK",
+        "formatted": "Kopiec Konfederatów Barskich, 35-006 Rzeszów, Polska",
+        "address_line1": "Kopiec Konfederatów Barskich",
+        "address_line2": "35-006 Rzeszów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.048175,
+            "lon": 22.0199032,
+            "name": "Kopiec Konfederatów Barskich",
+            "osm_id": 2708923982,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 1686,
+        "place_id": "51f415496018053640590ebe30992a064940f00103f9014ee676a10000000092031d4b6f70696563204b6f6e66656465726174c3b37720426172736b696368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0199032,
+          50.048175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Kmity",
+        "iso3166_2": "PL-18",
+        "lon": 21.9804822,
+        "lat": 50.0347332,
+        "state_code": "PK",
+        "formatted": "Kmity, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Kmity",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0347075581406,
+            "lon": 21.980473528517557,
+            "osm_id": 203006067,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 1705,
+        "place_id": "519e932b5000fb354059a791194c71044940f00102f90173a0190c00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.980473528517557,
+          50.0347075581406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Zdrowia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Kmity",
+        "iso3166_2": "PL-18",
+        "lon": 21.9787071,
+        "lat": 50.0381402,
+        "state_code": "PK",
+        "formatted": "Park Zdrowia, Kmity, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Zdrowia",
+        "address_line2": "Kmity, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0384055087427,
+            "lon": 21.978639933927287,
+            "name": "Park Zdrowia",
+            "osm_id": 239669630,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 1824,
+        "place_id": "51fdc68e2588fa354059a004c278ea044940f00102f9017e11490e0000000092030c5061726b205a64726f776961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.978639933927287,
+          50.0384055087427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ogródek jordanowski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Dąbrowskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9868417,
+        "lat": 50.0244753,
+        "state_code": "PK",
+        "formatted": "ogródek jordanowski, Dąbrowskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "ogródek jordanowski",
+        "address_line2": "Dąbrowskiego, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.024459353892375,
+            "lon": 21.986799564805974,
+            "name": "ogródek jordanowski",
+            "osm_id": 181439974,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 1861,
+        "place_id": "51778c72e59efc3540594786ee7b21034940f00102f901e68dd00a000000009203146f6772c3b364656b206a6f7264616e6f77736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.986799564805974,
+          50.024459353892375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park im. Inwalidów Wojennych",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Piastów",
+        "iso3166_2": "PL-18",
+        "lon": 21.9872942,
+        "lat": 50.0219907,
+        "state_code": "PK",
+        "formatted": "Park im. Inwalidów Wojennych, Piastów, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park im. Inwalidów Wojennych",
+        "address_line2": "Piastów, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02201791344467,
+            "lon": 21.987304906292508,
+            "name": "Park im. Inwalidów Wojennych",
+            "osm_id": 181440367,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2051,
+        "place_id": "51e8b4ab03c0fc354059e415a57bd1024940f00102f9016f8fd00a0000000092031d5061726b20696d2e20496e77616c6964c3b37720576f6a656e6e796368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.987304906292508,
+          50.02201791344467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulwar WSK Rzeszów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Dąbrowskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.996549,
+        "lat": 50.0185304,
+        "state_code": "PK",
+        "formatted": "Bulwar WSK Rzeszów, Dąbrowskiego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Bulwar WSK Rzeszów",
+        "address_line2": "Dąbrowskiego, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.018530073055075,
+            "lon": 21.996756399023532,
+            "name": "Bulwar WSK Rzeszów",
+            "osm_id": 143209438,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2119,
+        "place_id": "5182e2676d2bff354059cce184315f024940f00102f901de3389080000000092031342756c7761722057534b20527a65737ac3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.996756399023532,
+          50.018530073055075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ogród kieszonkowy Bielefeld",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Pobitno",
+        "iso3166_2": "PL-18",
+        "lon": 22.0335005,
+        "lat": 50.0397693,
+        "state_code": "PK",
+        "formatted": "Ogród kieszonkowy Bielefeld, Pobitno, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Ogród kieszonkowy Bielefeld",
+        "address_line2": "Pobitno, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.039812206172,
+            "lon": 22.033501511076654,
+            "name": "Ogród kieszonkowy Bielefeld",
+            "osm_id": 1084028005,
+            "leisure": "park",
+            "osm_type": "w",
+            "start_date": "2022-09-22"
+          }
+        },
+        "distance": 2136,
+        "place_id": "51d970168e9308364059c4befd9018054940f00102f90165f49c400000000092031c4f6772c3b364206b6965737a6f6e6b6f7779204269656c6566656c64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.033501511076654,
+          50.039812206172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Niezapominajki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Franciszka Kotuli",
+        "iso3166_2": "PL-18",
+        "lon": 21.9738482,
+        "lat": 50.0405859,
+        "state_code": "PK",
+        "formatted": "Park Niezapominajki, Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Niezapominajki",
+        "address_line2": "Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.040602251821916,
+            "lon": 21.97355676404145,
+            "name": "Park Niezapominajki",
+            "osm_id": 11501735,
+            "leisure": "park",
+            "osm_type": "r"
+          }
+        },
+        "distance": 2217,
+        "place_id": "518d5b1e043bf93540590bdc5f7432054940f00101f901a780af00000000009203135061726b204e69657a61706f6d696e616a6b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97355676404145,
+          50.040602251821916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Sybiraków",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Generała Władysława Andersa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9795164,
+        "lat": 50.0502498,
+        "state_code": "PK",
+        "formatted": "Park Sybiraków, Generała Władysława Andersa, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Sybiraków",
+        "address_line2": "Generała Władysława Andersa, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.05018063695414,
+            "lon": 21.97951195212322,
+            "name": "Park Sybiraków",
+            "osm_id": 221974432,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2286,
+        "place_id": "510d69984bc1fa354059244eb1516c064940f00102f901a00f3b0d0000000092030f5061726b205379626972616bc3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97951195212322,
+          50.05018063695414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ogród kieszonkowy - Klagenfurt",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Staromieście",
+        "iso3166_2": "PL-18",
+        "lon": 22.0001455,
+        "lat": 50.0584818,
+        "state_code": "PK",
+        "formatted": "Ogród kieszonkowy - Klagenfurt, Staromieście, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Ogród kieszonkowy - Klagenfurt",
+        "address_line2": "Staromieście, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.05846786608369,
+            "lon": 22.00028047097757,
+            "name": "Ogród kieszonkowy - Klagenfurt",
+            "osm_id": 1429069833,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2403,
+        "place_id": "5118ad85611200364059225902e07b074940f00102f90109e02d550000000092031f4f6772c3b364206b6965737a6f6e6b6f7779202d204b6c6167656e66757274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.00028047097757,
+          50.05846786608369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Papieski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Zalesie",
+        "iso3166_2": "PL-18",
+        "lon": 22.0211612,
+        "lat": 50.0151056,
+        "state_code": "PK",
+        "formatted": "Park Papieski, Zalesie, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Papieski",
+        "address_line2": "Zalesie, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.01528748785737,
+            "lon": 22.020994449989566,
+            "name": "Park Papieski",
+            "osm_id": 227701454,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2705,
+        "place_id": "514a1a6ce45f053640595531bef0f4014940f00102f901ce72920d0000000092030d5061726b205061706965736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.020994449989566,
+          50.01528748785737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Zawiszy Czarnego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9743403,
+        "lat": 50.0209455,
+        "state_code": "PK",
+        "formatted": "Zawiszy Czarnego, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Zawiszy Czarnego",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02095655892276,
+            "lon": 21.974346357654134,
+            "osm_id": 1469734746,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2775,
+        "place_id": "51ea194dc36ef9354059e09a5bb4ae024940f00102f9015a5f9a5700000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.974346357654134,
+          50.02095655892276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Baranówka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9829845,
+        "lat": 50.058564,
+        "state_code": "PK",
+        "formatted": "Baranówka, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Baranówka",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.05860596035185,
+            "lon": 21.982957665277468,
+            "osm_id": 1099703195,
+            "leisure": "park",
+            "osm_type": "w",
+            "start_date": 2022,
+            "description": "Park Kieszonkowy w rejonie ul. Starzyńskiego i Brydaka",
+            "opening_hours": "24/7"
+          }
+        },
+        "opening_hours": "24/7",
+        "description": "Park Kieszonkowy w rejonie ul. Starzyńskiego i Brydaka",
+        "distance": 2837,
+        "place_id": "5120b8111da3fb354059eb876d6680074940f00102f9019b238c4100000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.982957665277468,
+          50.05860596035185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Błogosławionej Karoliny Kózki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Franciszka Kotuli",
+        "iso3166_2": "PL-18",
+        "lon": 21.9653436,
+        "lat": 50.0429362,
+        "state_code": "PK",
+        "formatted": "Park Błogosławionej Karoliny Kózki, Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Błogosławionej Karoliny Kózki",
+        "address_line2": "Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.042926591809646,
+            "lon": 21.965313610843275,
+            "name": "Park Błogosławionej Karoliny Kózki",
+            "osm_id": 313560050,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 2849,
+        "place_id": "519ef4f4ca1ef7354059c0f9599e7e054940f00102f901f28bb012000000009203255061726b2042c5826f676f73c5826177696f6e656a204b61726f6c696e79204bc3b37a6b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.965313610843275,
+          50.042926591809646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park im. Władysława Szafera",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Słocina",
+        "iso3166_2": "PL-18",
+        "lon": 22.0400714,
+        "lat": 50.0254247,
+        "state_code": "PK",
+        "formatted": "Park im. Władysława Szafera, Słocina, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park im. Władysława Szafera",
+        "address_line2": "Słocina, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.025558637781856,
+            "lon": 22.040286615326472,
+            "name": "Park im. Władysława Szafera",
+            "osm_id": 186634187,
+            "leisure": "park",
+            "ref:nid": "13; A-338",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q11695388",
+            "wikipedia": "pl:Dwór Chłapowskich w Rzeszowie",
+            "start_date": "after 1800",
+            "heritage:operator": "nid"
+          }
+        },
+        "ref_other": {
+          "nid": "13; A-338"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11695388",
+          "wikipedia": "pl:Dwór Chłapowskich w Rzeszowie"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "13; A-338"
+        },
+        "distance": 2895,
+        "place_id": "51324b3f39500a364059a2b3648145034940f00102f901cbcf1f0b0000000092031d5061726b20696d2e2057c58261647973c58261776120537a6166657261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.040286615326472,
+          50.025558637781856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skwer Księdza Infułata Stanisława Maca",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Drabinianka",
+        "iso3166_2": "PL-18",
+        "lon": 22.0029507,
+        "lat": 50.009604,
+        "state_code": "PK",
+        "formatted": "Skwer Księdza Infułata Stanisława Maca, Drabinianka, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Skwer Księdza Infułata Stanisława Maca",
+        "address_line2": "Drabinianka, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.00963597932087,
+            "lon": 22.002980307935392,
+            "name": "Skwer Księdza Infułata Stanisława Maca",
+            "osm_id": 750204507,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 3045,
+        "place_id": "51511d4551c300364059270674c03b014940f00102f9015b36b72c00000000920329536b776572204b7369c499647a6120496e6675c582617461205374616e6973c582617761204d616361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.002980307935392,
+          50.00963597932087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ogród kieszonkowy Nyíregyháza",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Baranówka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9715186,
+        "lat": 50.0580375,
+        "state_code": "PK",
+        "formatted": "Ogród kieszonkowy Nyíregyháza, Baranówka, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Ogród kieszonkowy Nyíregyháza",
+        "address_line2": "Baranówka, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.05803606900562,
+            "lon": 21.97126375553687,
+            "name": "Ogród kieszonkowy Nyíregyháza",
+            "osm_id": 1045525930,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 3312,
+        "place_id": "512dd2d1bda4f83540590b2fd5b96d074940f00102f901aa75513e000000009203204f6772c3b364206b6965737a6f6e6b6f7779204e79c3ad7265677968c3a17a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97126375553687,
+          50.05803606900562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park dworski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Załęże",
+        "iso3166_2": "PL-18",
+        "lon": 22.0396869,
+        "lat": 50.0597008,
+        "state_code": "PK",
+        "formatted": "Park dworski, Załęże, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park dworski",
+        "address_line2": "Załęże, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.05970072079078,
+            "lon": 22.03986969499876,
+            "name": "Park dworski",
+            "osm_id": 532546899,
+            "leisure": "park",
+            "ref:nid": "A-308",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "before 1900"
+          }
+        },
+        "ref_other": {
+          "nid": "A-308"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-308"
+        },
+        "distance": 3602,
+        "place_id": "51051f7ce6340a36405909acf145a4074940f00102f9015305be1f0000000092030c5061726b2064776f72736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.03986969499876,
+          50.05970072079078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Franciszka Kotuli",
+        "iso3166_2": "PL-18",
+        "lon": 21.9547101,
+        "lat": 50.0433918,
+        "state_code": "PK",
+        "formatted": "Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Franciszka Kotuli",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.04325065598168,
+            "lon": 21.95446601719708,
+            "osm_id": 1013710465,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 3616,
+        "place_id": "513d0189e257f4354059667ccc3c89054940f00102f90181fe6b3c00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.95446601719708,
+          50.04325065598168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park im. Adama Węgrzyna",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Franciszka Kotuli",
+        "iso3166_2": "PL-18",
+        "lon": 21.9532416,
+        "lat": 50.046902,
+        "state_code": "PK",
+        "formatted": "Park im. Adama Węgrzyna, Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park im. Adama Węgrzyna",
+        "address_line2": "Franciszka Kotuli, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0470397012502,
+            "lon": 21.953502378656495,
+            "name": "Park im. Adama Węgrzyna",
+            "osm_id": 1478782934,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 3786,
+        "place_id": "51e4fc5cbb18f4354059da3d9d6505064940f00102f901d66f2458000000009203185061726b20696d2e204164616d612057c49967727a796e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.953502378656495,
+          50.0470397012502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Przybyszówka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9561064,
+        "lat": 50.0545853,
+        "state_code": "PK",
+        "formatted": "Przybyszówka, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Przybyszówka",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.054660855288894,
+            "lon": 21.956132691061935,
+            "osm_id": 1478782993,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 3952,
+        "place_id": "515bbfae1cc5f435405929eb7c20ff064940f00102f9011170245800000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.956132691061935,
+          50.054660855288894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Miłocin",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Miłocin",
+        "iso3166_2": "PL-18",
+        "lon": 21.9706392,
+        "lat": 50.0653603,
+        "state_code": "PK",
+        "formatted": "Park Miłocin, Miłocin, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Park Miłocin",
+        "address_line2": "Miłocin, Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park",
+          "natural",
+          "natural.forest"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06535983399069,
+            "lon": 21.97067565806206,
+            "city": "Rzeszów",
+            "name": "Park Miłocin",
+            "osm_id": 226096408,
+            "street": "Miłocińska",
+            "leisure": "park",
+            "name:pl": "Park Miłocin",
+            "natural": "wood",
+            "website": "https://erzeszow.pl/45-mieszkancy/16641-parki-w-rzeszowie/16676-park-na-osiedlu-milocin.html",
+            "loc_name": "Park na Osiedlu Miłocin",
+            "osm_type": "w",
+            "start_date": "08-2018"
+          }
+        },
+        "website": "https://erzeszow.pl/45-mieszkancy/16641-parki-w-rzeszowie/16676-park-na-osiedlu-milocin.html",
+        "name_other": {
+          "loc_name": "Park na Osiedlu Miłocin"
+        },
+        "name_international": {
+          "pl": "Park Miłocin"
+        },
+        "distance": 3956,
+        "place_id": "515b662e337ef835405923bb06b65d084940f00102f90118f5790d0000000092030d5061726b204d69c5826f63696e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97067565806206,
+          50.06535983399069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Zalesie",
+        "iso3166_2": "PL-18",
+        "lon": 22.0311278,
+        "lat": 50.0035811,
+        "state_code": "PK",
+        "formatted": "Zalesie, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Zalesie",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.00351894106374,
+            "lon": 22.031177690623075,
+            "osm_id": 224158211,
+            "leisure": "park",
+            "ref:nid": "A-1007",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "before 1900"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1007"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1007"
+        },
+        "distance": 4203,
+        "place_id": "514697d942fb073640598564044f73004940f00102f90103625c0d00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.031177690623075,
+          50.00351894106374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-601",
+        "iso3166_2": "PL-18",
+        "lon": 22.0269586,
+        "lat": 49.9942174,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 35-601 Rzeszów, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "35-601 Rzeszów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9942174,
+            "lon": 22.0269586,
+            "name": "Łysa Góra",
+            "osm_id": 5253712244,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 5035,
+        "place_id": "51905841c2e6063640599c0e098442ff4840f00103f901744925390100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0269586,
+          49.9942174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wzgórze Matysa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "iso3166_2": "PL-18",
+        "lon": 22.0566048,
+        "lat": 50.0053944,
+        "state_code": "PK",
+        "formatted": "Wzgórze Matysa, 35-330 Rzeszów, Polska",
+        "address_line1": "Wzgórze Matysa",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 300.2,
+            "lat": 50.0053944,
+            "lon": 22.0566048,
+            "name": "Wzgórze Matysa",
+            "osm_id": 4163618589,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 300.2,
+        "distance": 5155,
+        "place_id": "51efcbf4a67d0e36405970ca81c3b0004940f00103f9011dc72bf80000000092030f577a67c3b3727a65204d6174797361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0566048,
+          50.0053944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "suburb": "Zwięczyca",
+        "iso3166_2": "PL-18",
+        "lon": 21.9672944,
+        "lat": 49.9936081,
+        "state_code": "PK",
+        "formatted": "Zwięczyca, Rzeszów, województwo podkarpackie, Polska",
+        "address_line1": "Zwięczyca",
+        "address_line2": "Rzeszów, województwo podkarpackie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.993577267529474,
+            "lon": 21.967329390945334,
+            "osm_id": 1464091908,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 5499,
+        "place_id": "51df9122e6a2f7354059480b378a2dff4840f00102f9010445445700000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.967329390945334,
+          49.993577267529474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kopiec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Kielanówka",
+        "municipality": "gmina Boguchwała",
+        "postcode": "35-106",
+        "iso3166_2": "PL-18",
+        "lon": 21.924441,
+        "lat": 50.0290628,
+        "state_code": "PK",
+        "formatted": "Kopiec, 35-106 Kielanówka, Polska",
+        "address_line1": "Kopiec",
+        "address_line2": "35-106 Kielanówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0290628,
+            "lon": 21.924441,
+            "name": "Kopiec",
+            "osm_id": 5245675430,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 5768,
+        "place_id": "51e014562aa8ec354059ddc36f54b8034940f00103f901a6a7aa38010000009203064b6f70696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.924441,
+          50.0290628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park dworski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zaczernie",
+        "hamlet": "Podedwór",
+        "municipality": "gmina Trzebownisko",
+        "iso3166_2": "PL-18",
+        "lon": 21.9861364,
+        "lat": 50.093611,
+        "state_code": "PK",
+        "formatted": "Park dworski, Zaczernie, powiat rzeszowski, Polska",
+        "address_line1": "Park dworski",
+        "address_line2": "Zaczernie, powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.09370508471398,
+            "lon": 21.98613215025893,
+            "name": "Park dworski",
+            "osm_id": 532732471,
+            "leisure": "park",
+            "ref:nid": "A-981",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q30559239",
+            "start_date": "before 1850"
+          }
+        },
+        "ref_other": {
+          "nid": "A-981"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30559239"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-981"
+        },
+        "distance": 6436,
+        "place_id": "5171e5162873fc35405961283987fe0b4940f00102f90137dac01f0000000092030c5061726b2064776f72736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.98613215025893,
+          50.09370508471398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patryja",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "gmina Krasne",
+        "postcode": "36-007",
+        "iso3166_2": "PL-18",
+        "lon": 22.0957761,
+        "lat": 50.046639,
+        "state_code": "PK",
+        "formatted": "Patryja, 36-007 gmina Krasne, Polska",
+        "address_line1": "Patryja",
+        "address_line2": "36-007 gmina Krasne, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.046639,
+            "lon": 22.0957761,
+            "name": "Patryja",
+            "osm_id": 5253712284,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6661,
+        "place_id": "51093d51c88418364059ecdb4944f8054940f00103f9019c4925390100000092030750617472796a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0957761,
+          50.046639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Trzebownisko",
+        "hamlet": "Spiny",
+        "municipality": "gmina Trzebownisko",
+        "iso3166_2": "PL-18",
+        "lon": 22.0528845,
+        "lat": 50.0884359,
+        "state_code": "PK",
+        "formatted": "Trzebownisko, powiat rzeszowski, Polska",
+        "address_line1": "Trzebownisko",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.088446172134695,
+            "lon": 22.05292391224192,
+            "osm_id": 309688632,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 6709,
+        "place_id": "516341e86b8c0d36405930634434520b4940f00102f9013879751200000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.05292391224192,
+          50.088446172134695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "iso3166_2": "PL-18",
+        "lon": 22.0479502,
+        "lat": 49.9810754,
+        "state_code": "PK",
+        "formatted": "Tyczyn, powiat rzeszowski, Polska",
+        "address_line1": "Tyczyn",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.98109581245402,
+            "lon": 22.048112078304822,
+            "osm_id": 311990811,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 6976,
+        "place_id": "519fdcba12510c364059c55d2e8c94fd4840f00102f9011b9a981200000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.048112078304822,
+          49.98109581245402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "iso3166_2": "PL-18",
+        "lon": 22.0473924,
+        "lat": 49.9796805,
+        "state_code": "PK",
+        "formatted": "Tyczyn, powiat rzeszowski, Polska",
+        "address_line1": "Tyczyn",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.979695881752946,
+            "lon": 22.04730617601487,
+            "osm_id": 311990809,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 7090,
+        "place_id": "51f8e1ee411c0c364059d013b6ac66fd4840f00102f901199a981200000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.04730617601487,
+          49.979695881752946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Retyrada",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Rudna Mała",
+        "municipality": "gmina Głogów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 21.9754541,
+        "lat": 50.0988701,
+        "state_code": "PK",
+        "formatted": "Retyrada, Rudna Mała, powiat rzeszowski, Polska",
+        "address_line1": "Retyrada",
+        "address_line2": "Rudna Mała, powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.09874377330703,
+            "lon": 21.975450691306094,
+            "name": "Retyrada",
+            "osm_id": 516147353,
+            "leisure": "park",
+            "ref:nid": "A-1229",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": 1740,
+            "description": "Park pałacowy"
+          }
+        },
+        "description": "Park pałacowy",
+        "ref_other": {
+          "nid": "A-1229"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1229"
+        },
+        "distance": 7165,
+        "place_id": "513005f222b7f9354059c784cea2a30c4940f00102f90199c8c31e000000009203085265747972616461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.975450691306094,
+          50.09874377330703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Stanisława Smykały",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Rudna Mała",
+        "hamlet": "Młynówka",
+        "municipality": "gmina Głogów Małopolski",
+        "postcode": "36-060",
+        "iso3166_2": "PL-18",
+        "lon": 21.953728,
+        "lat": 50.095778,
+        "state_code": "PK",
+        "formatted": "Park Stanisława Smykały, 36-060 Rudna Mała, Polska",
+        "address_line1": "Park Stanisława Smykały",
+        "address_line2": "36-060 Rudna Mała, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.09576764126702,
+            "lon": 21.95374261696202,
+            "name": "Park Stanisława Smykały",
+            "osm_id": 1061112819,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 7462,
+        "place_id": "5141a7e47928f4354059e2a0331d420c4940f00102f901f34b3f3f000000009203195061726b205374616e6973c58261776120536d796b61c58279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.95374261696202,
+          50.09576764126702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "gmina Krasne",
+        "postcode": "36-007",
+        "iso3166_2": "PL-18",
+        "lon": 22.1139808,
+        "lat": 50.0462706,
+        "state_code": "PK",
+        "formatted": "Kamionka, 36-007 gmina Krasne, Polska",
+        "address_line1": "Kamionka",
+        "address_line2": "36-007 gmina Krasne, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0462706,
+            "lon": 22.1139808,
+            "name": "Kamionka",
+            "osm_id": 5244357248,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 7946,
+        "place_id": "51365f80d82d1d36405916e2ec31ec054940f00103f901808a9638010000009203084b616d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1139808,
+          50.0462706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "iso3166_2": "PL-18",
+        "lon": 22.0252497,
+        "lat": 49.965051,
+        "state_code": "PK",
+        "formatted": "Tyczyn, powiat rzeszowski, Polska",
+        "address_line1": "Tyczyn",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.96468677376522,
+            "lon": 22.02597357727039,
+            "osm_id": 294761974,
+            "leisure": "park",
+            "ref:nid": "A-382",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "after 1850"
+          }
+        },
+        "ref_other": {
+          "nid": "A-382"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-382"
+        },
+        "distance": 8196,
+        "place_id": "51bbef5034a6063640594a1a30db7afb4840f00102f901f6b5911100000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.02597357727039,
+          49.96468677376522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lasek w Mrowli",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Mrowla",
+        "hamlet": "Koniec",
+        "municipality": "gmina Świlcza",
+        "iso3166_2": "PL-18",
+        "lon": 21.9205764,
+        "lat": 50.0923288,
+        "state_code": "PK",
+        "formatted": "Lasek w Mrowli, Mrowla, powiat rzeszowski, Polska",
+        "address_line1": "Lasek w Mrowli",
+        "address_line2": "Mrowla, powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0923535256714,
+            "lon": 21.920289680750304,
+            "name": "Lasek w Mrowli",
+            "osm_id": 500987593,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 8593,
+        "place_id": "5139abc11a98eb354059e836863dd20b4940f00102f901c976dc1d0000000092030e4c6173656b2077204d726f776c69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.920289680750304,
+          50.0923535256714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maria Magdalena",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "gmina Krasne",
+        "postcode": "36-016",
+        "iso3166_2": "PL-18",
+        "lon": 22.1235062,
+        "lat": 50.0139989,
+        "state_code": "PK",
+        "formatted": "Maria Magdalena, 36-016 gmina Krasne, Polska",
+        "address_line1": "Maria Magdalena",
+        "address_line2": "36-016 gmina Krasne, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 393,
+            "lat": 50.0139989,
+            "lon": 22.1235062,
+            "name": "Maria Magdalena",
+            "osm_id": 7824095871,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 393,
+        "distance": 8938,
+        "place_id": "516eda311a9e1f36405909d748b7ca014940f00103f9017f3a5ad20100000092030f4d61726961204d616764616c656e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1235062,
+          50.0139989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Księdza Władysława Brzuszka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "district": "Rogoźnica",
+        "suburb": "Rogoźnica",
+        "iso3166_2": "PL-18",
+        "lon": 21.957288,
+        "lat": 50.1141143,
+        "state_code": "PK",
+        "formatted": "Park Księdza Władysława Brzuszka, Rogoźnica, Głogów Małopolski, powiat rzeszowski, Polska",
+        "address_line1": "Park Księdza Władysława Brzuszka",
+        "address_line2": "Rogoźnica, Głogów Małopolski, powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1139450423346,
+            "lon": 21.957400917591407,
+            "name": "Park Księdza Władysława Brzuszka",
+            "osm_id": 1019458686,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 9186,
+        "place_id": "512a37fe3918f5354059292f4bc0950e4940f00102f9017eb4c33c000000009203235061726b204b7369c499647a612057c58261647973c5826177612042727a75737a6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.957400917591407,
+          50.1139450423346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Jasionka",
+        "hamlet": "Zagrody",
+        "municipality": "gmina Trzebownisko",
+        "iso3166_2": "PL-18",
+        "lon": 22.0586446,
+        "lat": 50.1128817,
+        "state_code": "PK",
+        "formatted": "Jasionka, powiat rzeszowski, Polska",
+        "address_line1": "Jasionka",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.11280090124801,
+            "lon": 22.05853786872634,
+            "osm_id": 429269182,
+            "leisure": "park",
+            "ref:nid": "A-1048; A-633",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q30559182",
+            "start_date": "before 1700"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1048; A-633"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30559182"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1048; A-633"
+        },
+        "distance": 9291,
+        "place_id": "51d6c17756fc0e364059e6e88a42700e4940f00102f901be20961900000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.05853786872634,
+          50.11280090124801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Łąka",
+        "municipality": "gmina Trzebownisko",
+        "iso3166_2": "PL-18",
+        "lon": 22.1181154,
+        "lat": 50.0884767,
+        "state_code": "PK",
+        "formatted": "Łąka, powiat rzeszowski, Polska",
+        "address_line1": "Łąka",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.08852173035887,
+            "lon": 22.117916006766965,
+            "osm_id": 403540078,
+            "leisure": "park",
+            "ref:nid": "A-373",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q30559202",
+            "start_date": "before 1900"
+          }
+        },
+        "ref_other": {
+          "nid": "A-373"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30559202"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-373"
+        },
+        "distance": 9969,
+        "place_id": "5131bd50be2f1e364059377018ae540b4940f00102f9016e880d1800000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.117916006766965,
+          50.08852173035887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Niechobrz",
+        "hamlet": "Dolny Niechobrz",
+        "municipality": "gmina Boguchwała",
+        "iso3166_2": "PL-18",
+        "lon": 21.8794655,
+        "lat": 49.9923794,
+        "state_code": "PK",
+        "formatted": "Niechobrz, powiat rzeszowski, Polska",
+        "address_line1": "Niechobrz",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.99241938492925,
+            "lon": 21.879413806529634,
+            "osm_id": 229798259,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 10214,
+        "place_id": "5116b2624321e13540590218319907ff4840f00102f9017371b20d00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.879413806529634,
+          49.99241938492925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "park imienia Tadeusza Nalepy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zgłobień",
+        "hamlet": "Przymiarki",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-046",
+        "iso3166_2": "PL-18",
+        "lon": 21.8593126,
+        "lat": 50.01309,
+        "state_code": "PK",
+        "formatted": "park imienia Tadeusza Nalepy, 36-046 Zgłobień, Polska",
+        "address_line1": "park imienia Tadeusza Nalepy",
+        "address_line2": "36-046 Zgłobień, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.01302018836008,
+            "lon": 21.85885658623362,
+            "name": "park imienia Tadeusza Nalepy",
+            "osm_id": 1030777004,
+            "leisure": "park",
+            "name:pl": "park imienia Tadeusza Nalepy",
+            "ref:nid": "A-905;A-896",
+            "heritage": 2,
+            "operator": "Gmina Boguchwała",
+            "osm_type": "w",
+            "short_name": "park Tadeusza Nalepy",
+            "start_date": "early C19",
+            "teryt:name": "park Park imienia Tadeusza Nalepy",
+            "name:etymology": "Tadeusz Nalepa",
+            "name:start_date": "2021-10-09",
+            "heritage:website": "https://zabytek.pl/pl/obiekty/zabytek?inspire_id=PL.1.9.ZIPOZ.NID_N_18_ZZ.5600&rejestr=rejestr-zabytkow",
+            "heritage:operator": "nid",
+            "nid:inscription_date": "1975-05-31;2012-09-18",
+            "name:etymology:wikidata": "Q721006",
+            "name:etymology:wikipedia": "pl:Tadeusz Nalepa"
+          }
+        },
+        "operator": "Gmina Boguchwała",
+        "name_other": {
+          "short_name": "park Tadeusza Nalepy"
+        },
+        "name_international": {
+          "pl": "park imienia Tadeusza Nalepy"
+        },
+        "ref_other": {
+          "nid": "A-905;A-896"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "website": "https://zabytek.pl/pl/obiekty/zabytek?inspire_id=PL.1.9.ZIPOZ.NID_N_18_ZZ.5600&rejestr=rejestr-zabytkow",
+          "ref": "A-905;A-896",
+          "inscription_date": "1975-05-31;2012-09-18"
+        },
+        "distance": 10737,
+        "place_id": "51ded37506dedb354059df9841a5aa014940f00102f901ac68703d0000000092031c7061726b20696d69656e6961205461646575737a61204e616c657079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.85885658623362,
+          50.01302018836008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jasna Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Borek Stary",
+        "municipality": "gmina Tyczyn",
+        "postcode": "36-020",
+        "iso3166_2": "PL-18",
+        "lon": 22.0835054,
+        "lat": 49.9538215,
+        "state_code": "PK",
+        "formatted": "Jasna Góra, 36-020 Borek Stary, Polska",
+        "address_line1": "Jasna Góra",
+        "address_line2": "36-020 Borek Stary, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9538215,
+            "lon": 22.0835054,
+            "name": "Jasna Góra",
+            "osm_id": 5244357303,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 10867,
+        "place_id": "51160a229c60153640595f5caad216fa4840f00103f901b78a96380100000092030b4a61736e612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0835054,
+          49.9538215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "iso3166_2": "PL-18",
+        "lon": 22.158839,
+        "lat": 50.04245,
+        "state_code": "PK",
+        "formatted": "Kamionka, 37-124 Kraczkowa, Polska",
+        "address_line1": "Kamionka",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.04245,
+            "lon": 22.158839,
+            "name": "Kamionka",
+            "osm_id": 5244357250,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 11109,
+        "place_id": "51505436aca9283640598cdb68006f054940f00103f901828a9638010000009203084b616d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.158839,
+          50.04245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalnica",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "36-020",
+        "iso3166_2": "PL-18",
+        "lon": 22.0507896,
+        "lat": 49.9412585,
+        "state_code": "PK",
+        "formatted": "Dalnica, 36-020 Tyczyn, Polska",
+        "address_line1": "Dalnica",
+        "address_line2": "36-020 Tyczyn, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 343,
+            "lat": 49.9412585,
+            "lon": 22.0507896,
+            "name": "Dalnica",
+            "osm_id": 5244357304,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 343,
+        "distance": 11165,
+        "place_id": "5118fa168c000d364059804a95287bf84840f00103f901b88a96380100000092030744616c6e696361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0507896,
+          49.9412585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zimna Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "iso3166_2": "PL-18",
+        "lon": 22.1668498,
+        "lat": 50.0220524,
+        "state_code": "PK",
+        "formatted": "Zimna Góra, 37-124 Kraczkowa, Polska",
+        "address_line1": "Zimna Góra",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0220524,
+            "lon": 22.1668498,
+            "name": "Zimna Góra",
+            "osm_id": 5244357252,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 11786,
+        "place_id": "511a5822abb62a3640592f66f09cd2024940f00103f901848a96380100000092030b5a696d6e612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1668498,
+          50.0220524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patryja",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "iso3166_2": "PL-18",
+        "lon": 22.1781139,
+        "lat": 50.0454353,
+        "state_code": "PK",
+        "formatted": "Patryja, 37-124 Kraczkowa, Polska",
+        "address_line1": "Patryja",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0454353,
+            "lon": 22.1781139,
+            "name": "Patryja",
+            "osm_id": 5244357249,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 12508,
+        "place_id": "5188765fdf982d364059bfcaebd2d0054940f00103f901818a96380100000092030750617472796a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1781139,
+          50.0454353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Niechobrz",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-046",
+        "iso3166_2": "PL-18",
+        "lon": 21.8560292,
+        "lat": 49.9755071,
+        "state_code": "PK",
+        "formatted": "Dział, 36-046 Niechobrz, Polska",
+        "address_line1": "Dział",
+        "address_line2": "36-046 Niechobrz, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 320,
+            "lat": 49.9755071,
+            "lon": 21.8560292,
+            "name": "Dział",
+            "osm_id": 5244357312,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 320,
+        "distance": 12621,
+        "place_id": "51c96bcaba24db35405906c2a96addfc4840f00103f901c08a963801000000920306447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8560292,
+          49.9755071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Trzciana",
+        "hamlet": "Dół",
+        "municipality": "gmina Świlcza",
+        "iso3166_2": "PL-18",
+        "lon": 21.8379887,
+        "lat": 50.0750129,
+        "state_code": "PK",
+        "formatted": "Trzciana, powiat rzeszowski, Polska",
+        "address_line1": "Trzciana",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.07493169179096,
+            "lon": 21.837887449762277,
+            "osm_id": 498529957,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 12622,
+        "place_id": "513475baca7fd63540598bd6965c97094940f00102f901a5f6b61d00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.837887449762277,
+          50.07493169179096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 21.9636075,
+        "lat": 50.1487576,
+        "state_code": "PK",
+        "formatted": "Głogów Małopolski, powiat rzeszowski, Polska",
+        "address_line1": "Głogów Małopolski",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.14872600569884,
+            "lon": 21.96355050286291,
+            "osm_id": 262921078,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 12760,
+        "place_id": "512ed7e93eabf63540594745297409134940f00102f90176dbab0f00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.96355050286291,
+          50.14872600569884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 21.9647689,
+        "lat": 50.1489156,
+        "state_code": "PK",
+        "formatted": "Głogów Małopolski, powiat rzeszowski, Polska",
+        "address_line1": "Głogów Małopolski",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.14893827758905,
+            "lon": 21.964696173753385,
+            "osm_id": 262921079,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 12765,
+        "place_id": "51ddd81454f6f63540590cafd36810134940f00102f90177dbab0f00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.964696173753385,
+          50.14893827758905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cyp",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lubenia",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "iso3166_2": "PL-18",
+        "lon": 21.9698063,
+        "lat": 49.9215477,
+        "state_code": "PK",
+        "formatted": "Cyp, 36-043 Lubenia, Polska",
+        "address_line1": "Cyp",
+        "address_line2": "36-043 Lubenia, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 318,
+            "lat": 49.9215477,
+            "lon": 21.9698063,
+            "name": "Cyp",
+            "osm_id": 5244357305,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 318,
+        "distance": 13074,
+        "place_id": "516bf4c53945f83540591d9a6846f5f54840f00103f901b98a963801000000920303437970"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9698063,
+          49.9215477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dereniówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zgłobień",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-046",
+        "iso3166_2": "PL-18",
+        "lon": 21.8306232,
+        "lat": 49.9992965,
+        "state_code": "PK",
+        "formatted": "Dereniówka, 36-046 Zgłobień, Polska",
+        "address_line1": "Dereniówka",
+        "address_line2": "36-046 Zgłobień, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9992965,
+            "lon": 21.8306232,
+            "name": "Dereniówka",
+            "osm_id": 5244357313,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 13114,
+        "place_id": "51834cd7b8a3d4354059ee409df2e8ff4840f00103f901c18a96380100000092030b446572656e69c3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8306232,
+          49.9992965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stare Kościelisko",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lubenia",
+        "hamlet": "Strona Mokra",
+        "municipality": "gmina Lubenia",
+        "iso3166_2": "PL-18",
+        "lon": 21.9262633,
+        "lat": 49.9300605,
+        "state_code": "PK",
+        "formatted": "Stare Kościelisko, Lubenia, powiat rzeszowski, Polska",
+        "address_line1": "Stare Kościelisko",
+        "address_line2": "Lubenia, powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.93003120546705,
+            "lon": 21.926283702244326,
+            "name": "Stare Kościelisko",
+            "osm_id": 291486687,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 13139,
+        "place_id": "510af5bfed20ed354059c7de35430bf74840f00102f901dfbb5f11000000009203125374617265204b6fc59b6369656c69736b6f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.926283702244326,
+          49.93003120546705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Dąbrowa",
+        "hamlet": "Dół",
+        "municipality": "gmina Świlcza",
+        "iso3166_2": "PL-18",
+        "lon": 21.8234441,
+        "lat": 50.0615218,
+        "state_code": "PK",
+        "formatted": "Dąbrowa, powiat rzeszowski, Polska",
+        "address_line1": "Dąbrowa",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06147547464287,
+            "lon": 21.823068697047294,
+            "osm_id": 359514932,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 13242,
+        "place_id": "51f12d50a1b4d2354059718ca86dde074940f00102f90134c36d1500000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.823068697047294,
+          50.06147547464287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skwer im. Franciszka Litwina",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 21.9599665,
+        "lat": 50.153245,
+        "state_code": "PK",
+        "formatted": "Skwer im. Franciszka Litwina, Głogów Małopolski, powiat rzeszowski, Polska",
+        "address_line1": "Skwer im. Franciszka Litwina",
+        "address_line2": "Głogów Małopolski, powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1532264963041,
+            "lon": 21.959993608505137,
+            "name": "Skwer im. Franciszka Litwina",
+            "osm_id": 478083433,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 13306,
+        "place_id": "510ae62024c2f5354059de4003ed9c134940f00102f90169f97e1c0000000092031c536b77657220696d2e204672616e6369737a6b61204c697477696e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.959993608505137,
+          50.1532264963041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Babia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zgłobień",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-046",
+        "iso3166_2": "PL-18",
+        "lon": 21.8365846,
+        "lat": 49.9841158,
+        "state_code": "PK",
+        "formatted": "Babia Góra, 36-046 Zgłobień, Polska",
+        "address_line1": "Babia Góra",
+        "address_line2": "36-046 Zgłobień, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 356,
+            "lat": 49.9841158,
+            "lon": 21.8365846,
+            "name": "Babia Góra",
+            "osm_id": 3688928802,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 356,
+        "distance": 13364,
+        "place_id": "51555689682ad63540590a3dac81f7fd4840f00103f9012296e0db0000000092030b42616269612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8365846,
+          49.9841158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Jana Bieniaszewskiego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Wysoka Głogowska",
+        "hamlet": "Zagrody",
+        "municipality": "gmina Głogów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 22.0238447,
+        "lat": 50.1562714,
+        "state_code": "PK",
+        "formatted": "Park Jana Bieniaszewskiego, Wysoka Głogowska, powiat rzeszowski, Polska",
+        "address_line1": "Park Jana Bieniaszewskiego",
+        "address_line2": "Wysoka Głogowska, powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.15652780392332,
+            "lon": 22.023684668283874,
+            "name": "Park Jana Bieniaszewskiego",
+            "osm_id": 532732468,
+            "leisure": "park",
+            "ref:nid": "A-979",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "after 1800"
+          }
+        },
+        "ref_other": {
+          "nid": "A-979"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-979"
+        },
+        "distance": 13370,
+        "place_id": "5123b2cb321006364059f761631a09144940f00102f90134dac01f0000000092031a5061726b204a616e61204269656e6961737a6577736b6965676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.023684668283874,
+          50.15652780392332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Grabina",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 21.9587163,
+        "lat": 50.1536548,
+        "state_code": "PK",
+        "formatted": "Park Grabina, Głogów Małopolski, powiat rzeszowski, Polska",
+        "address_line1": "Park Grabina",
+        "address_line2": "Głogów Małopolski, powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.15364865068725,
+            "lon": 21.95871584045214,
+            "name": "Park Grabina",
+            "osm_id": 256732489,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 13373,
+        "place_id": "512be6bc666ef53540595de34cc2aa134940f00102f901496d4d0f0000000092030c5061726b2047726162696e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.95871584045214,
+          50.15364865068725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Szklana Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Borek Stary",
+        "municipality": "gmina Tyczyn",
+        "postcode": "36-016",
+        "iso3166_2": "PL-18",
+        "lon": 22.1142886,
+        "lat": 49.9384741,
+        "state_code": "PK",
+        "formatted": "Szklana Góra, 36-016 Borek Stary, Polska",
+        "address_line1": "Szklana Góra",
+        "address_line2": "36-016 Borek Stary, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9384741,
+            "lon": 22.1142886,
+            "name": "Szklana Góra",
+            "osm_id": 5244357293,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 13515,
+        "place_id": "513d4e8704421d3640594fd257eb1ff84840f00103f901ad8a96380100000092030d537a6b6c616e612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1142886,
+          49.9384741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Dworski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Bratkowice",
+        "hamlet": "Bór",
+        "municipality": "gmina Świlcza",
+        "iso3166_2": "PL-18",
+        "lon": 21.8632935,
+        "lat": 50.119557,
+        "state_code": "PK",
+        "formatted": "Park Dworski, Bratkowice, powiat rzeszowski, Polska",
+        "address_line1": "Park Dworski",
+        "address_line2": "Bratkowice, powiat rzeszowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.11929282390253,
+            "lon": 21.863078321065213,
+            "name": "Park Dworski",
+            "osm_id": 411281531,
+            "leisure": "park",
+            "ref:nid": "A-982",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q30559107",
+            "start_date": "before 1850"
+          }
+        },
+        "ref_other": {
+          "nid": "A-982"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30559107"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-982"
+        },
+        "distance": 13621,
+        "place_id": "5197dc6ab3f2dc35405989a7bcfc440f4940f00102f9017ba883180000000092030c5061726b2044776f72736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.863078321065213,
+          50.11929282390253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krzemionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Niechobrz",
+        "municipality": "gmina Boguchwała",
+        "postcode": "38-120",
+        "iso3166_2": "PL-18",
+        "lon": 21.8427086,
+        "lat": 49.9714059,
+        "state_code": "PK",
+        "formatted": "Krzemionka, 38-120 Niechobrz, Polska",
+        "address_line1": "Krzemionka",
+        "address_line2": "38-120 Niechobrz, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 388,
+            "lat": 49.9714059,
+            "lon": 21.8427086,
+            "name": "Krzemionka",
+            "osm_id": 3688928803,
+            "natural": "peak",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "ele": 388,
+        "distance": 13672,
+        "place_id": "51d60e35c0bbd73540591bd24d0757fc4840f00103f9012396e0db0000000092030a4b727a656d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8427086,
+          49.9714059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Wola Rafałowska",
+        "hamlet": "Doły",
+        "municipality": "gmina Chmielnik",
+        "postcode": "36-017",
+        "iso3166_2": "PL-18",
+        "lon": 22.175966,
+        "lat": 49.980891,
+        "state_code": "PK",
+        "formatted": "36-017 Wola Rafałowska, Polska",
+        "address_line1": "36-017 Wola Rafałowska",
+        "address_line2": "Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9809199679584,
+            "lon": 22.17653054231856,
+            "osm_id": 426162929,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 13851,
+        "place_id": "51dc000a1b312d364059f62f17c98efd4840f00102f901f1ba661900000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.17653054231856,
+          49.9809199679584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Koziniec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Nowy Borek",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "iso3166_2": "PL-18",
+        "lon": 22.0902248,
+        "lat": 49.9253441,
+        "state_code": "PK",
+        "formatted": "Koziniec, 36-030 Nowy Borek, Polska",
+        "address_line1": "Koziniec",
+        "address_line2": "36-030 Nowy Borek, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9253441,
+            "lon": 22.0902248,
+            "name": "Koziniec",
+            "osm_id": 5244357287,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 13874,
+        "place_id": "51c449f5f81817364059f585ebac71f64840f00103f901a78a9638010000009203084b6f7a696e696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0902248,
+          49.9253441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Handzlówka",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-123",
+        "iso3166_2": "PL-18",
+        "lon": 22.2104848,
+        "lat": 49.9997324,
+        "state_code": "PK",
+        "formatted": "Dział, 37-123 Handzlówka, Polska",
+        "address_line1": "Dział",
+        "address_line2": "37-123 Handzlówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9997324,
+            "lon": 22.2104848,
+            "name": "Dział",
+            "osm_id": 5244357253,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15368,
+        "place_id": "511b4ef454e2353640593460353bf7ff4840f00103f901858a963801000000920306447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2104848,
+          49.9997324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Księdza Antoniego Bukały",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Budy Głogowskie",
+        "hamlet": "Podlesie",
+        "municipality": "gmina Głogów Małopolski",
+        "postcode": "36-060",
+        "iso3166_2": "PL-18",
+        "lon": 21.9056286,
+        "lat": 50.1594977,
+        "state_code": "PK",
+        "formatted": "Park Księdza Antoniego Bukały, 36-060 Budy Głogowskie, Polska",
+        "address_line1": "Park Księdza Antoniego Bukały",
+        "address_line2": "36-060 Budy Głogowskie, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.159829402857625,
+            "lon": 21.90558909937624,
+            "name": "Park Księdza Antoniego Bukały",
+            "osm_id": 409533298,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 15370,
+        "place_id": "515f6fedafd4e73540593a1b354a75144940f00102f90172fb68180000000092031f5061726b204b7369c499647a6120416e746f6e6965676f2042756b61c58279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.90558909937624,
+          50.159829402857625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Szalowe Góry",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa Dolna",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "iso3166_2": "PL-18",
+        "lon": 22.0786769,
+        "lat": 49.9041629,
+        "state_code": "PK",
+        "formatted": "Szalowe Góry, 36-030 Błażowa Dolna, Polska",
+        "address_line1": "Szalowe Góry",
+        "address_line2": "36-030 Błażowa Dolna, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9041629,
+            "lon": 22.0786769,
+            "name": "Szalowe Góry",
+            "osm_id": 5244357286,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15717,
+        "place_id": "515f73582b2414364059d6e0229cbbf34840f00103f901a68a96380100000092030d537a616c6f77652047c3b37279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0786769,
+          49.9041629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamionki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Hyżne",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-024",
+        "iso3166_2": "PL-18",
+        "lon": 22.1581818,
+        "lat": 49.9358098,
+        "state_code": "PK",
+        "formatted": "Kamionki, 36-024 Hyżne, Polska",
+        "address_line1": "Kamionki",
+        "address_line2": "36-024 Hyżne, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9358098,
+            "lon": 22.1581818,
+            "name": "Kamionki",
+            "osm_id": 5244357292,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15778,
+        "place_id": "518ad2399a7e283640595e23939dc8f74840f00103f901ac8a9638010000009203084b616d696f6e6b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1581818,
+          49.9358098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamieniec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błędowa Tyczyńska",
+        "municipality": "gmina Chmielnik",
+        "postcode": "36-017",
+        "iso3166_2": "PL-18",
+        "lon": 22.1788116,
+        "lat": 49.9482582,
+        "state_code": "PK",
+        "formatted": "Kamieniec, 36-017 Błędowa Tyczyńska, Polska",
+        "address_line1": "Kamieniec",
+        "address_line2": "36-017 Błędowa Tyczyńska, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9482582,
+            "lon": 22.1788116,
+            "name": "Kamieniec",
+            "osm_id": 5245672316,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15955,
+        "place_id": "513b25d698c62d364059f894528660f94840f00103f9017c9baa38010000009203094b616d69656e696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1788116,
+          49.9482582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Handzlówka",
+        "hamlet": "Chyrów",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-123",
+        "iso3166_2": "PL-18",
+        "lon": 22.2096683,
+        "lat": 49.9818438,
+        "state_code": "PK",
+        "formatted": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka, 37-123 Handzlówka, Polska",
+        "address_line1": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+        "address_line2": "37-123 Handzlówka, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.98187396252747,
+            "lon": 22.20956105779817,
+            "city": "Handzlówka",
+            "name": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+            "osm_id": 791280295,
+            "leisure": "park",
+            "osm_type": "w",
+            "postcode": "37-123"
+          }
+        },
+        "distance": 15960,
+        "place_id": "5120c221cba535364059baecc60baefd4840f00102f901a7fa292f0000000092033053746164696f6e204b6c7562752053706f72746f7765676f202247524f4d20535a694b222048616e647a6cc3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.20956105779817,
+          49.98187396252747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stawiska",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Połomia",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-115",
+        "iso3166_2": "PL-18",
+        "lon": 21.9143528,
+        "lat": 49.903877,
+        "state_code": "PK",
+        "formatted": "Stawiska, 38-115 Połomia, Polska",
+        "address_line1": "Stawiska",
+        "address_line2": "38-115 Połomia, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 331,
+            "lat": 49.903877,
+            "lon": 21.9143528,
+            "name": "Stawiska",
+            "osm_id": 5244357536,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 331,
+        "distance": 16143,
+        "place_id": "518b016d0613ea354059a54dd53db2f34840f00103f901a08b9638010000009203085374617769736b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9143528,
+          49.903877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kopiec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Hyżne",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-024",
+        "iso3166_2": "PL-18",
+        "lon": 22.1640202,
+        "lat": 49.9320195,
+        "state_code": "PK",
+        "formatted": "Kopiec, 36-024 Hyżne, Polska",
+        "address_line1": "Kopiec",
+        "address_line2": "36-024 Hyżne, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9320195,
+            "lon": 22.1640202,
+            "name": "Kopiec",
+            "osm_id": 5244357291,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 16372,
+        "place_id": "5125e2523afd29364059fddd3b6a4cf74840f00103f901ab8a9638010000009203064b6f70696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1640202,
+          49.9320195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jaźwia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Pogwizdów",
+        "municipality": "gmina Czarna",
+        "postcode": "36-052",
+        "iso3166_2": "PL-18",
+        "lon": 22.1121121,
+        "lat": 50.1675361,
+        "state_code": "PK",
+        "formatted": "Jaźwia Góra, 36-052 Pogwizdów, Polska",
+        "address_line1": "Jaźwia Góra",
+        "address_line2": "36-052 Pogwizdów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1675361,
+            "lon": 22.1121121,
+            "name": "Jaźwia Góra",
+            "osm_id": 5253712245,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 16451,
+        "place_id": "5163fcea60b31c3640591f33abd271154940f00103f901754925390100000092030d4a61c5ba7769612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1121121,
+          50.1675361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Planty",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "iso3166_2": "PL-18",
+        "lon": 22.2294974,
+        "lat": 50.0687736,
+        "state_code": "PK",
+        "formatted": "Planty, Łańcut, powiat łańcucki, Polska",
+        "address_line1": "Planty",
+        "address_line2": "Łańcut, powiat łańcucki, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06875286823878,
+            "lon": 22.22953584588696,
+            "name": "Planty",
+            "osm_id": 46651648,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 16534,
+        "place_id": "511d5877dcc23a364059bf4bdce4cc084940f00102f90100d9c70200000000920306506c616e7479"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.22953584588696,
+          50.06875286823878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "iso3166_2": "PL-18",
+        "lon": 22.2322667,
+        "lat": 50.0702307,
+        "state_code": "PK",
+        "formatted": "Łańcut, powiat łańcucki, Polska",
+        "address_line1": "Łańcut",
+        "address_line2": "powiat łańcucki, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.07019192816474,
+            "lon": 22.232256150334052,
+            "osm_id": 356943420,
+            "leisure": "park",
+            "ref:nid": "A-1003",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": 1870
+          }
+        },
+        "ref_other": {
+          "nid": "A-1003"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1003"
+        },
+        "distance": 16759,
+        "place_id": "51c8fa9923753b36405993f4910cfc084940f00102f9013c86461500000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.232256150334052,
+          50.07019192816474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Góra Zamkowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Przedmieście Czudeckie",
+        "municipality": "gmina Czudec",
+        "postcode": "38-120",
+        "iso3166_2": "PL-18",
+        "lon": 21.8363818,
+        "lat": 49.9308235,
+        "state_code": "PK",
+        "formatted": "Góra Zamkowa, 38-120 Przedmieście Czudeckie, Polska",
+        "address_line1": "Góra Zamkowa",
+        "address_line2": "38-120 Przedmieście Czudeckie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 328.5,
+            "lat": 49.9308235,
+            "lon": 21.8363818,
+            "name": "Góra Zamkowa",
+            "osm_id": 5244357523,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 328.5,
+        "distance": 16852,
+        "place_id": "5139f81d1e1dd6354059946c753925f74840f00103f901938b96380100000092030d47c3b37261205a616d6b6f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8363818,
+          49.9308235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Powozownia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "iso3166_2": "PL-18",
+        "lon": 22.2352714,
+        "lat": 50.0660701,
+        "state_code": "PK",
+        "formatted": "Powozownia, Łańcut, powiat łańcucki, Polska",
+        "address_line1": "Powozownia",
+        "address_line2": "Łańcut, powiat łańcucki, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.066004239316335,
+            "lon": 22.235305597451838,
+            "name": "Powozownia",
+            "osm_id": 5839010,
+            "leisure": "park",
+            "osm_type": "r"
+          }
+        },
+        "distance": 16877,
+        "place_id": "51139fd5fc3c3c36405969a1b0d372084940f00101f901a21859000000000092030a506f776f7a6f776e6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.235305597451838,
+          50.066004239316335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "iso3166_2": "PL-18",
+        "lon": 22.2344652,
+        "lat": 50.0711462,
+        "state_code": "PK",
+        "formatted": "Łańcut, powiat łańcucki, Polska",
+        "address_line1": "Łańcut",
+        "address_line2": "powiat łańcucki, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.07129841235372,
+            "lon": 22.234509759524993,
+            "osm_id": 46651650,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 16943,
+        "place_id": "51afc0e3d4083c36405971a86e4e20094940f00102f90102d9c70200000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.234509759524993,
+          50.07129841235372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Handzlówka",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-123",
+        "iso3166_2": "PL-18",
+        "lon": 22.2242212,
+        "lat": 49.9814456,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 37-123 Handzlówka, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "37-123 Handzlówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9814456,
+            "lon": 22.2242212,
+            "name": "Łysa Góra",
+            "osm_id": 5244357257,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 16952,
+        "place_id": "51e311818f6639364059cc666902a0fd4840f00103f901898a96380100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2242212,
+          49.9814456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Zamkowy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "iso3166_2": "PL-18",
+        "lon": 22.2382717,
+        "lat": 50.0689479,
+        "state_code": "PK",
+        "formatted": "Park Zamkowy, Łańcut, powiat łańcucki, Polska",
+        "address_line1": "Park Zamkowy",
+        "address_line2": "Łańcut, powiat łańcucki, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06876038912541,
+            "lon": 22.237759770675638,
+            "name": "Park Zamkowy",
+            "osm_id": 9756227,
+            "leisure": "park",
+            "name:cs": "Zámecký Park",
+            "name:de": "Schlosspark",
+            "name:en": "Castle Park",
+            "name:es": "Parque del Castillo",
+            "name:fr": "Parc du Château",
+            "name:it": "Parco del Castello",
+            "name:nl": "Kasteelpark",
+            "name:pl": "Park Zamkowy",
+            "name:ru": "Замковый Πарк",
+            "name:uk": "Замковий Πарк",
+            "name:zh": "城堡公园",
+            "osm_type": "r"
+          }
+        },
+        "name_international": {
+          "cs": "Zámecký Park",
+          "de": "Schlosspark",
+          "en": "Castle Park",
+          "es": "Parque del Castillo",
+          "fr": "Parc du Château",
+          "it": "Parco del Castello",
+          "nl": "Kasteelpark",
+          "pl": "Park Zamkowy",
+          "ru": "Замковый Πарк",
+          "uk": "Замковий Πарк",
+          "zh": "城堡公园"
+        },
+        "distance": 17110,
+        "place_id": "51385b07d3dd3c364059e546f323cd084940f00101f90143de94000000000092030c5061726b205a616d6b6f7779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.237759770675638,
+          50.06876038912541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zimny Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Straszydle",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "iso3166_2": "PL-18",
+        "lon": 21.9916363,
+        "lat": 49.8814952,
+        "state_code": "PK",
+        "formatted": "Zimny Dział, 36-043 Straszydle, Polska",
+        "address_line1": "Zimny Dział",
+        "address_line2": "36-043 Straszydle, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 406,
+            "lat": 49.8814952,
+            "lon": 21.9916363,
+            "name": "Zimny Dział",
+            "osm_id": 3139173935,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 406,
+        "distance": 17319,
+        "place_id": "51c50666e0dbfd3540595ecaafd5d4f04840f00103f9012ffe1bbb0000000092030c5a696d6e7920447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9916363,
+          49.8814952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.1009847,
+        "lat": 49.8928983,
+        "state_code": "PK",
+        "formatted": "Błażowa, powiat rzeszowski, Polska",
+        "address_line1": "Błażowa",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.89282501057346,
+            "lon": 22.10103453563456,
+            "osm_id": 289656086,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 17482,
+        "place_id": "5126513a66dd1936405960bb061748f24840f00102f90116cd431100000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.10103453563456,
+          49.89282501057346
+        ]
+      }
+    }
+  ]
+}

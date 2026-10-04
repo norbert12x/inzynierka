@@ -1,0 +1,839 @@
+{
+  "sourceFile": "data\\geoapify\\20261004T095555262149Z\\batch-02\\beta-places-600.json",
+  "sourceSha256": "4a667798d91691c211e51f5877c953eaa76094aa8de5be56a90d6a08de417f63",
+  "summary": {
+    "sourceCount": 600,
+    "standaloneCount": 518,
+    "activeCount": 485,
+    "awaitingPhotoCount": 33,
+    "removedCount": 23,
+    "linkedComponentCount": 7,
+    "pendingComponentCount": 52
+  },
+  "changes": [
+    {
+      "id": "514c885eebf7ff354059c44373f8ff044940f00103f901937f360c030000009203455465617472204e61726f646f777968747470733a2f2f70686f746f732e6170702e676f6f2e676c2f6a7a5966694664347844667a5a506a5441207720527a65737a6f776965",
+      "sourceRow": 177,
+      "field": "name",
+      "before": "Teatr Narodowyhttps://photos.app.goo.gl/jzYfiFd4xDfzZPjTA w Rzeszowie",
+      "after": "Teatr Narodowy w Rzeszowie",
+      "reason": "R01: nazwa i charakter miejsca wskazane przez użytkownika."
+    },
+    {
+      "id": "514c885eebf7ff354059c44373f8ff044940f00103f901937f360c030000009203455465617472204e61726f646f777968747470733a2f2f70686f746f732e6170702e676f6f2e676c2f6a7a5966694664347844667a5a506a5441207720527a65737a6f776965",
+      "sourceRow": 177,
+      "field": "categoryCodes",
+      "before": null,
+      "after": [
+        "culture"
+      ],
+      "reason": "R01: ręczna kategoria; źródłowy tag tablicy zachowany w sourceDetails."
+    },
+    {
+      "id": "514c885eebf7ff354059c44373f8ff044940f00103f901937f360c030000009203455465617472204e61726f646f777968747470733a2f2f70686f746f732e6170702e676f6f2e676c2f6a7a5966694664347844667a5a506a5441207720527a65737a6f776965",
+      "sourceRow": 177,
+      "field": "recordType",
+      "before": null,
+      "after": "theatre",
+      "reason": "R01: korekta użytkownika, bez niezależnej weryfikacji."
+    },
+    {
+      "id": "5183153c236e4836405936b72beeb3f14840f00102f90124adeb490000000092032b476d696e6e79204fc59b726f64656b204b756c747572792077204a61776f726e696b7520506f6c736b696d",
+      "sourceRow": 506,
+      "field": "categoryCodes",
+      "before": null,
+      "after": [
+        "nature",
+        "culture"
+      ],
+      "reason": "R06: park i ośrodek kultury."
+    },
+    {
+      "id": "51097c8f4479f23540596798da5207fa4840f00103f90145bb57b0000000009203204b61706c6963612062c5822e204ac3b37a656661204b6f77616c736b6965676f",
+      "sourceRow": 81,
+      "field": "categoryCodes",
+      "before": null,
+      "after": [
+        "museums",
+        "religious-sites"
+      ],
+      "reason": "R17: muzeum i obiekt sakralny."
+    },
+    {
+      "id": "51387128322900364059bc838e0c28044940f00103f901da00f372000000009203125a616d656b204c75626f6d6972736b696368",
+      "sourceRow": 148,
+      "field": "openingHoursVerification",
+      "before": null,
+      "after": "unverified",
+      "reason": "R18: zachowano godziny źródłowe; oczekujemy doprecyzowania użytkownika."
+    },
+    {
+      "id": "5109939856f900364059ed53443cc8044940f00103f9016c268c32030000009203114a756c6975737a2053c5826f7761636b69",
+      "sourceRow": 2,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51721019fb37fe354059a36428dd4c114940f00103f90171183e890000000092031757797363686e69c4997465206f637a6b6f20776f646e65",
+      "sourceRow": 4,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "517633a31f0d013640597782fdd7b9044940f00103f901b0e24d57020000009203094b7369c499c5bc7963",
+      "sourceRow": 6,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51c99c1d5f31013640592b84d558c2044940f00103f90109ba8c32030000009203135461646575737a204b6fc59b636975737a6b6f",
+      "sourceRow": 8,
+      "action": "make-component",
+      "parentId": "5173a3c85a43013640596b8c310bc8044940f00102f90157afd0410000000092031b506f6d6e696b205461646575737a61204b6fc59b636975737a6b69",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51b8c60cf90c0136405965451ed2b9044940f00103f901b1e24d57020000009203065a69656d6961",
+      "sourceRow": 12,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51e76388adea00364059dae21a9fc9044940f00103f9016b268c320300000092031349676e61637920c581756b617369657769637a",
+      "sourceRow": 14,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51b8c60cf90c01364059026ac592cd044940f00103f901b4e24d570200000092030853c5826fc5846365",
+      "sourceRow": 24,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51258d76813701364059e734b0fac8044940f00103f901b2e24d570200000092030557656e7573",
+      "sourceRow": 30,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51f9b605f0bb00364059b14115ede0044940f00103f901578f8d320300000092031b46656c696b73204d69636861c58220577967727a7977616c736b69",
+      "sourceRow": 32,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51ac7df090180136405951a62c9ed5044940f00103f901b3e24d57020000009203074d65726b757279",
+      "sourceRow": 36,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51293ba2e7bb00364059a4ef7f91e1044940f00103f901568f8d320300000092030e576f6a6369656368204b696c6172",
+      "sourceRow": 38,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "513b095ba269013640593ef5fef5c0044940f00103f901afe24d57020000009203044d617273",
+      "sourceRow": 42,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51b566d07586003640594175bd7ed2044940f00103f901edb92b0c030000009203134b6f6e666564657261636a6120426172736b61",
+      "sourceRow": 44,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51b1ac8fe277003640595eadc909c9044940f00103f9016ca145c10200000092031f4d617263696e20e2809e4c656c6577656ce2809d20426f72656c6f77736b69",
+      "sourceRow": 49,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51cb53b18c6800364059e61192bbbe044940f00103f901aee24d57020000009203054365726573",
+      "sourceRow": 52,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51155223997a00364059fb16e7b9cf044940f00103f901eeb92b0c0300000092030e4a616e207a20527a65737a6f7761",
+      "sourceRow": 54,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51098849b890013640592331410ddf044940f00103f901756cd6e10200000092030d4972656e612053656e646c6572",
+      "sourceRow": 56,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51cb1dec037f003640599a023ee4d2044940f00103f901ebb92b0c030000009203084f726d69616e6f6d",
+      "sourceRow": 58,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5126bd14c37a00364059d6ecdc0fd3044940f00103f901eab92b0c030000009203115a69656d692057696c65c584736b69656a",
+      "sourceRow": 62,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51475e317e7500364059f52b9d0fcf044940f00103f901f0b92b0c030000009203104c6567696f6e6f6d20506f6c736b696d",
+      "sourceRow": 66,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "513bf82e4a75003640591c51eb47d4044940f00103f901e8b92b0c030000009203243137205075c5826b2050696563686f7479205a69656d6920527a65737a6f77736b69656a",
+      "sourceRow": 70,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51f12900c63300364059d4900255ed044940f00103f9018c0418cc0000000092030f506c616e2057696564656d616e6e61",
+      "sourceRow": 76,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51395970dbcf00364059cef207310f054940f00102f90150783f450000000092030c505a4c20333720c5816fc59b",
+      "sourceRow": 80,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "513abcd6941a0036405966248cb0f2044940f00103f901668e50980200000092030a44c3a962616c6c616765",
+      "sourceRow": 84,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5187d1bd987700364059a24a28d8da044940f00103f901e9b92b0c030000009203104c656f706f6c64204c69732d4b756c61",
+      "sourceRow": 86,
+      "action": "make-component",
+      "parentId": "51154328a55600364059d7f09991e6044940f00103f901e6aae07200000000920319506f6d6e696b204c656f706f6c6461204c6973612d4b756c69",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5101f9122a3802364059383b08f0cc044940f00103f901ebec816502000000920326313530206c617420527a65737a6f77736b69656a2053747261c5bc7920506fc5bc61726e656a",
+      "sourceRow": 88,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5161777066aa003640590d2142b7f2044940f00103f90118933ee1020000009203234d69656a73636520706f6d6e696b61204269747779204772756e77616c647a6b69656a",
+      "sourceRow": 90,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51f65c4b6d4e003640596bd9b51897044940f00103f901f4b92b0c0300000092031457c58261647973c58261772053696b6f72736b69",
+      "sourceRow": 94,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51d15790662c023640593d9171d6f1044940f00103f90136721f9d0200000092031e42c5826f676f73c5826177696f6e6120526f647a696e6120556c6dc3b377",
+      "sourceRow": 96,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51a863df5f4e003640599572086696044940f00103f901c62463320300000092031349676e61637920c581756b617369657769637a",
+      "sourceRow": 98,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "513044f3a55c02364059f09c77adce044940f00103f901ade24d57020000009203064a6f7769737a",
+      "sourceRow": 104,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "517927fad74d003640594a2f206a91044940f00103f90105ba2b0c03000000920331572038302e20726f637a6e6963c499206f62726f6e79204c776f77612069204b726573c3b37720577363686f646e696368",
+      "sourceRow": 106,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51624b8fa67a023640595964e025dd044940f00103f9013515bc370100000092030853616b736f666f6e",
+      "sourceRow": 108,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51ea3e00a94d00364059f892212290044940f00103f90104ba2b0c0300000092031c50726f6665736f726f6d204c776f77736b6963682055637a656c6e69",
+      "sourceRow": 114,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51ed287398d4013640597db08c0ddd044940f00103f9010063410c03000000920333572074796d20627564796e6b75206d6965c59b6369c58261207369c4992053796e61676f676120537461726f6d69656a736b61",
+      "sourceRow": 118,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "5139c1edbf84003640590318e0ccf9044940f00103f90147dab03203000000920310496e737472756b746f72656b205a4850",
+      "sourceRow": 122,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "517a4db450d701364059c51ad3b8dc044940f00103f901ff62410c0300000092032253594e41474f474120535441524f4d49454a534b41205a57414e41204d41c581c484",
+      "sourceRow": 126,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "5193814de7d401364059b866e1a1de044940f00103f901fd62410c030000009203315461626c696361207570616d69c499746e6961206f666961727920486f6c6f6b6175737475207a20527a65737a6f77612e",
+      "sourceRow": 130,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51bd63c2798200364059392ba226fa044940f00103f90148dab032030000009203264b617461727a796e61205769c59b6e696f77736b61206920416e746f6e692047726f6d736b69",
+      "sourceRow": 134,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51e207420d3a003640597817de9b95044940f00103f9019df145c10200000092032d572031393220726f637a6e6963c4992075636877616c656e6961204b6f6e7374797475636a692033204d616a61",
+      "sourceRow": 138,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "517a1dcc8179ff3540595412239573044940f00103f901c8e906650200000092030e46726564205a696e6e656d616e6e",
+      "sourceRow": 140,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51dfca6d56d8013640598c65fa25e2044940f00103f901fc62410c0300000092032050616d69c49963692044617769646120416c74657261204b75727a6d616e6e61",
+      "sourceRow": 146,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "515453927538003640592865adfc8d044940f00103f9017de811b9020000009203535461626c6963612070616d69c485746b6f7761207570616d69c499746e6961206461726f77697a6ec49920646f6d7520646c6120706172616669692070772e20c59a7769c4997465676f204b727a79c5bc612e",
+      "sourceRow": 150,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "514fef3db72bff354059d89a520372044940f00103f901ace24d570200000092030653617475726e",
+      "sourceRow": 152,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51782975c938003640599a8ddf2582044940f00103f901a0f145c102000000920313497a626120527a656d6965c59b6c6e69637a61",
+      "sourceRow": 154,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51ca598e46f4013640596a317898f6044940f00103f901e4ec81650200000092032153796e2061676f6761204e6f776f6d6965736b61207a77616e61204475c5bcc485",
+      "sourceRow": 162,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51a10d654dd100364059a7ea1ed95c044940f00103f901f21846c1020000009203134a616e2053746566616e204b6f746f7769637a",
+      "sourceRow": 166,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "511e55a8c9e7fe3540599cd20b885a044940f00103f901adacdb920200000092031b447a696577637a796e6b61207a652073c58275636861776b616d69",
+      "sourceRow": 168,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "517f5cd19cab0036405940193e7d5f044940f00103f9011363410c030000009203195061c5826163206c65746e69204c75626f6d6972736b696368",
+      "sourceRow": 170,
+      "action": "make-component",
+      "parentId": "517d107fdd9e0036405997808ad858044940f00102f901558bdb0a000000009203194c65746e69205061c5826163204c75626f6d6972736b696368",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "510858ab764d00364059faa93b6068044940f00103f901815346c102000000920303504f57",
+      "sourceRow": 174,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "513fdaa447f8ff35405935cb0aea00054940f00103f901947f360c03000000920385015461626c696361207570616d69c499746e6961207a61c5826fc5bc656e6965205374726f6e6e6963747761204c75646f7765676f207720527a65737a6f7769652c206b74c3b37265206d6961c5826f206d69656a736365203238206c69706361203138393520726f6b7520706f64637a6173207a6a617a6475206368c5826f70736b696567",
+      "sourceRow": 180,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51cf3c6f1926ff3540592500a4dbb7034940f00103f90182f89b920200000092030e546f6d61737a20537461c5846b6f",
+      "sourceRow": 182,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5134f6251b0f00364059bd6b75de6b044940f00103f901c17d77930200000092030f50696f747220456d696c657769637a",
+      "sourceRow": 183,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5161d56a5908fe354059bf89d7ab7e054940f00103f901b674ac3b0200000092030e50756e6b74205769647a656e6961",
+      "sourceRow": 185,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51e86dc72f1704364059ff0af4e4f5034940f00103f901f03f51810200000092030844656c6f69747465",
+      "sourceRow": 188,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51aa317c9f0502364059408f07115f044940f00103f9010ee2a3320300000092031e48656e72796b20446f62727a61c584736b6920e2809e487562616ce2809d",
+      "sourceRow": 189,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5177ed77cd50013640598e869d7301064940f00103f901b974ac3b020000009203054a6f6b6572",
+      "sourceRow": 191,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "515afc5c2338fe35405962f3716da8034940f00103f9018b6d04180300000092031ec5bb796a207a64726f776f2077207a64726f77796d20c59b776965636965",
+      "sourceRow": 194,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "516760e4654dfc35405919e6046d72044940f00103f901abe24d57020000009203045572616e",
+      "sourceRow": 197,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "519198a0866fff35405946d26ef431064940f00103f901997f360c0300000092030a4e61737a65204d616b69",
+      "sourceRow": 200,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51d1a45e01960236405935d4282499044940f00103f90189e0a332030000009203155374616e6973c5826177204e6f77616b6f77736b69",
+      "sourceRow": 201,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51405e59b3dffe35405980d6fcf84b034940f00103f9012e305f9b0200000092030e5461646575737a204e616c657061",
+      "sourceRow": 206,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51af9fb426cc02364059dcb529c35d064940f00103f901b774ac3b0200000092030e42616a6b61204d616c6f77616e61",
+      "sourceRow": 209,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "510749fa0f440136405949360d4059054940f00103f9017bb07a3203000000920322506f6c6567c582796d20507261636f776e696b6f6d20c581c485637a6e6fc59b6369",
+      "sourceRow": 213,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "515312c8db00063640598e05854119034940f00102f9012e7b751f000000009203104d6973696f2069204a61737a637a7572",
+      "sourceRow": 215,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51eefcec9117ff354059890563e9e8044940f00103f9018b7f360c03000000920377506f6d6e696b2067656e2e2057c58261647973c5826177612053696b6f72736b6965676f207a6f737461c58220777a6e696573696f6e792073746172616e69656d2073706fc58265637a65c58473747761206d696173746120527a65737a6f7761206920506f6c6f6e69692077203139393320726f6b75",
+      "sourceRow": 216,
+      "action": "make-component",
+      "parentId": "51fd8e3c6b12ff35405994652daaea044940f00103f9012f8de07200000000920329506f6d6e696b2047656e657261c582612057c58261647973c5826177612053696b6f72736b6965676f",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51dd4c3beb09ff354059c9b5fc1b0f074940f00103f901aae24d57020000009203064e657074756e",
+      "sourceRow": 221,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51e675c4211b02364059d3d9c9e028044940f00103f901e0d16d3d0300000092030a4d656e656c6f62696361",
+      "sourceRow": 222,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "sourceRow": 224,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51f2fd1e06040036405923f94a2025044940f00103f901520fa6320300000092030e57696e63656e7479205769746f73",
+      "sourceRow": 225,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "sourceRow": 227,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+      "sourceRow": 230,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "5129cb10c7bafb354059325c1d00f1064940f00102f901abfb523a000000009203124d7572616c202250616d69c49974616e7922",
+      "sourceRow": 239,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5120c221cba535364059baecc60baefd4840f00102f901a7fa292f0000000092033053746164696f6e204b6c7562752053706f72746f7765676f202247524f4d20535a694b222048616e647a6cc3b3776b61",
+      "sourceRow": 241,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "517f95325f14fb354059179e978a8d024940f00103f901421649750200000092031349676e61637920c581756b617369657769637a",
+      "sourceRow": 242,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51c168a0432afe3540599b9c908c8b014940f00103f901be74ac3b020000009203175a776965727ac4997461204c697369656a2047c3b37279",
+      "sourceRow": 245,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "519d95fe6f36ff35405964df5f4e1a044940f00103f901f341ab32030000009203115374616e6973c5826177204d61637a656b",
+      "sourceRow": 246,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51297b4b395ffc354059db3bfe66bd074940f00103f901a874ac3b0200000092031253757065722053616979616e20476f6bc5ab",
+      "sourceRow": 248,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5167ed5b525afc3540598829368bbc074940f00103f901a974ac3b02000000920307506963636f6c6f",
+      "sourceRow": 251,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5183f11d46520036405975d5f2b9c9034940f00103f90160207a160300000092031950616d69c4996369204a616e61205374727a656c637a796b61",
+      "sourceRow": 252,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5159e1f14817f6354059c4acbc89c6054940f00103f901a9e24d5702000000920306506c75746f6e",
+      "sourceRow": 260,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51c7383586eff735405998ace52906074940f00103f901b574ac3b0200000092030b43656e7472756d20536e75",
+      "sourceRow": 263,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5135de0ced52f53540598a8f4fc8ce054940f00103f901963817d9010000009203114672616e6369737a656b204b6f74756c61",
+      "sourceRow": 266,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "511c21a8bf03fa35405935ae241ef5074940f00103f901aa74ac3b0200000092030550697a7a61",
+      "sourceRow": 269,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5135f91c0e01fa35405929006b7af5074940f00103f901ba74ac3b02000000920303536572",
+      "sourceRow": 272,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5102cd316a08fa354059ded9684afc074940f00103f901ab74ac3b0200000092030e446f75626c652054726f75626c65",
+      "sourceRow": 275,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51eb56cf49eff9354059bb65e2b1fa074940f00103f901bb74ac3b02000000920306427572676572",
+      "sourceRow": 278,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "5111c4793881fd3540594063cb97bcfd4840f00103f9017ac7cf3f0100000092030f4a616e6120506177c5826120313536",
+      "sourceRow": 284,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "51273e2df5e2fc35405958665b17c8024940f00103f90112355c72000000009203195061726b20496e77616c6964c3b37720576f6a656e6e796368",
+      "sourceRow": 285,
+      "action": "make-component",
+      "parentId": "51e8b4ab03c0fc354059e415a57bd1024940f00102f9016f8fd00a0000000092031d5061726b20696d2e20496e77616c6964c3b37720576f6a656e6e796368",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51ac5d6e8b8d08364059635babe232fb4840f00103f90118ab177e020000009203114b617461727a796e6120536f62637a796b",
+      "sourceRow": 290,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "513fd9deb8d6fa35405995c1acab5d064940f00103f901ce82cd23020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+      "sourceRow": 294,
+      "action": "make-component",
+      "parentId": "51a696523cd3fa354059006432665c064940f00103f901886a3aea00000000920311506f6d6e696b205379626972616bc3b377",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "516330da3e3f29364059e777f585eb044940f00103f90134b858cc0200000092030d4a616e2050617765c582204949",
+      "sourceRow": 296,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51bc81b861cafa3540597ee772de5a064940f00103f90195af1931020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+      "sourceRow": 300,
+      "action": "make-component",
+      "parentId": "51a696523cd3fa354059006432665c064940f00103f901886a3aea00000000920311506f6d6e696b205379626972616bc3b377",
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51c314408c6b0b364059d32357fb85034940f00103f901c88c1f2f0100000092030a4d616c696e6f77736b69",
+      "sourceRow": 328,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5144183f8d7b0b3640590137e6d07d034940f00103f901d48c1f2f0100000092031354797369c485636c65736965204368727a7475",
+      "sourceRow": 331,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "518293c899810b36405918737c597f034940f00103f901d38c1f2f0100000092031a32303030206c6174204368727a65c59b63696a61c58473747761",
+      "sourceRow": 334,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5106741541523a36405974571b086e0a4940f00103f9019cd36c9b0200000092030e526f647a696e6120556c6dc3b377",
+      "sourceRow": 339,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "51cd3a884270173640595e51a5c1c8054940f00103f901732e13f702000000920330313030302d6c65636965205061c5847374776120506f6c736b6965676f20692036302d6c656369652073747261c5bc79",
+      "sourceRow": 389,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "517f7a7df7d8193640593c44edc8a2f14840f00103f9015761741503000000920329476d696e612042c58261c5bc6f776120e28093204e61747572616c6e6965204e6f776f637a65736e61",
+      "sourceRow": 411,
+      "action": "await-photo",
+      "reason": "R07/R08: wszystkie murale pozostają warunkowo, wymagane zdjęcie."
+    },
+    {
+      "id": "515c8242f3efe93540590d946f1173004940f00103f90166cf80b60000000092031b4b732e204b616e2e204d617263656c6920536f636861c584736b69",
+      "sourceRow": 412,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5141c4bc7d0cfc354059f68ab84ac1fb4840f00103f90135d17f32030000009203185374727a656c63c3b377204275647a69776f6a736b696368",
+      "sourceRow": 418,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "511f4b1fbaa008364059a5c97b8b3dfb4840f00103f901976682320300000092030f4a65727a79207a205479637a796e61",
+      "sourceRow": 433,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "518162bf828f083640596a80779730fb4840f00103f901996682320300000092030ec5bb6fc5826e6965727a6520414b",
+      "sourceRow": 436,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5126ac8db113dc3540595899df1fa5014940f00103f901f75cc7540200000092030e5461646575737a204e616c657061",
+      "sourceRow": 458,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51d64114820bd635405991fea89729094940f00103f9014226b52401000000920326506f6d6e696b206b752070616d69c4996369206b732e2053746f6a61c5826f77736b6965676f",
+      "sourceRow": 481,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "518fceaf9c73f63540592fa8ca5246134940f00103f9015219c9de020000009203204b61706974616e204d6965637a7973c58261772047c5826f676f776965636b69",
+      "sourceRow": 489,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51bfe2ba7372f6354059bf4692205c134940f00103f9015319c9de02000000920349467261676d656e7420616b74752066756e646163796a6e65676f204b727a79737a746f66612047c5826f7779207a20646e6961203233206b776965746e6961203135373020726f6b75",
+      "sourceRow": 497,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "519494aaa399cf354059931ada006cfd4840f00103f9011ce2fedc0000000092031f57796d6f72646f77616e796d2070727a657a206869746c65726f7763c3b377",
+      "sourceRow": 521,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "519d2919a5f0d53540591d3059260df94840f00103f901991bffe602000000920312566f74756d204a7562696c6575737a6f7765",
+      "sourceRow": 533,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51ee87e98c393b3640594affdce1c0084940f00103f9011179d1320300000092030f4a6f736970204a656c61c48d69c487",
+      "sourceRow": 554,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51c9a596523c3b3640592c56c334c2084940f00103f901a084590c0300000092031b3130205075c5826b205374727a656c63c3b377204b6f6e6e796368",
+      "sourceRow": 556,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "5125027a86153d36405969f2de628f084940f00103f901ce35d0320300000092031154656f646f72204c65737a657479636b69",
+      "sourceRow": 568,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "515cea7b687af2354059a95b87b4d7174940f00103f901a8a24cb50200000092032d5461626c6963612070616d69c4996369206f6669617220746572726f7275206869746c65726f77736b6965676f",
+      "sourceRow": 570,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "512a317491e73136405903ca4ba36ef34840f00103f90120b99d080100000092030a4e612064727a65776965",
+      "sourceRow": 594,
+      "action": "remove-from-working-catalog",
+      "reason": "Decyzja użytkownika."
+    },
+    {
+      "id": "5113e6875b4fb4354059267e7b8d13094940f00103f901f60dfa94020000009203166b732e205374616e6973c5826177204d616369c48567",
+      "sourceRow": 600,
+      "action": "make-component",
+      "parentId": null,
+      "reason": "Tablice jako elementy obiektów, nie osobne przystanki; R11–R16."
+    },
+    {
+      "id": "51387128322900364059bc838e0c28044940f00103f901da00f372000000009203125a616d656b204c75626f6d6972736b696368",
+      "sourceRow": 148,
+      "field": "openingHoursVerification",
+      "before": "unverified",
+      "after": "confirmed_by_user",
+      "reason": "R18: użytkownik potwierdził godziny zwiedzania pon.–pt. 07:30–15:30.",
+      "confirmedOn": "2026-10-04"
+    }
+  ],
+  "pendingDecisions": [
+    "Przypisanie tablic bez rozpoznanego obiektu nadrzędnego."
+  ],
+  "unansweredGroups": [
+    "G1 (poza zasadą tablic)",
+    "G2",
+    "G3",
+    "G4 (poza muralami)",
+    "G5"
+  ]
+}

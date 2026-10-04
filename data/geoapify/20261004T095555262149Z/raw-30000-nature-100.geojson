@@ -1,0 +1,4983 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilcza Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Czarna",
+        "municipality": "gmina Czarna",
+        "postcode": "37-125",
+        "iso3166_2": "PL-18",
+        "lon": 22.2042971,
+        "lat": 50.1281336,
+        "state_code": "PK",
+        "formatted": "Wilcza Góra, 37-125 Czarna, Polska",
+        "address_line1": "Wilcza Góra",
+        "address_line2": "37-125 Czarna, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 202.3,
+            "lat": 50.1281336,
+            "lon": 22.2042971,
+            "name": "Wilcza Góra",
+            "osm_id": 5253712283,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 202.3,
+        "distance": 17558,
+        "place_id": "51eb2a93d04c3436405966c28aae66104940f00103f9019b4925390100000092030c57696c637a612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2042971,
+          50.1281336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jastrzębia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Poręby Kupieńskie",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "iso3166_2": "PL-18",
+        "lon": 21.8535966,
+        "lat": 50.162054,
+        "state_code": "PK",
+        "formatted": "Jastrzębia Góra, 36-145 Poręby Kupieńskie, Polska",
+        "address_line1": "Jastrzębia Góra",
+        "address_line2": "36-145 Poręby Kupieńskie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 246.2,
+            "lat": 50.162054,
+            "lon": 21.8535966,
+            "name": "Jastrzębia Góra",
+            "osm_id": 2430785124,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 246.2,
+        "distance": 17586,
+        "place_id": "510ffa884e85da354059ce177b2fbe144940f00103f90164d6e290000000009203114a617374727ac4996269612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8535966,
+          50.162054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berdecha",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lecka",
+        "municipality": "gmina Błażowa",
+        "postcode": "32-205",
+        "iso3166_2": "PL-18",
+        "lon": 22.0242827,
+        "lat": 49.8788331,
+        "state_code": "PK",
+        "formatted": "Berdecha, 32-205 Lecka, Polska",
+        "address_line1": "Berdecha",
+        "address_line2": "32-205 Lecka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8788331,
+            "lon": 22.0242827,
+            "name": "Berdecha",
+            "osm_id": 5245675351,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17653,
+        "place_id": "51cc5b1a64370636405937925f9a7df04840f00103f90157a7aa38010000009203084265726465636861"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0242827,
+          49.8788331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ciemnica",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Hyżne",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-024",
+        "iso3166_2": "PL-18",
+        "lon": 22.15025,
+        "lat": 49.9083819,
+        "state_code": "PK",
+        "formatted": "Ciemnica, 36-024 Hyżne, Polska",
+        "address_line1": "Ciemnica",
+        "address_line2": "36-024 Hyżne, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9083819,
+            "lon": 22.15025,
+            "name": "Ciemnica",
+            "osm_id": 5244357290,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17741,
+        "place_id": "515839b4c87626364059a163acdb45f44840f00103f901aa8a9638010000009203084369656d6e696361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.15025,
+          49.9083819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Nienadówka",
+        "municipality": "gmina Sokołów Małopolski",
+        "postcode": "36-052",
+        "iso3166_2": "PL-18",
+        "lon": 22.1043008,
+        "lat": 50.1848405,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 36-052 Nienadówka, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "36-052 Nienadówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1848405,
+            "lon": 22.1043008,
+            "name": "Łysa Góra",
+            "osm_id": 5253712246,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17941,
+        "place_id": "5157f20c75b31a364059f73c7fdaa8174940f00103f901764925390100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1043008,
+          50.1848405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chełm",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Iwierzyce",
+        "municipality": "gmina Iwierzyce",
+        "postcode": "39-124",
+        "iso3166_2": "PL-18",
+        "lon": 21.7530791,
+        "lat": 50.0374957,
+        "state_code": "PK",
+        "formatted": "Chełm, 39-124 Iwierzyce, Polska",
+        "address_line1": "Chełm",
+        "address_line2": "39-124 Iwierzyce, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0374957,
+            "lon": 21.7530791,
+            "name": "Chełm",
+            "osm_id": 5245675440,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 17976,
+        "place_id": "5116cdb9cac9c0354059cd9ebaa8cc044940f00103f901b0a7aa3801000000920306436865c5826d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7530791,
+          50.0374957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wielki Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Przedmieście Czudeckie",
+        "municipality": "gmina Czudec",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7755329,
+        "lat": 49.9694873,
+        "state_code": "PK",
+        "formatted": "Wielki Dział, 38-121 Przedmieście Czudeckie, Polska",
+        "address_line1": "Wielki Dział",
+        "address_line2": "38-121 Przedmieście Czudeckie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 400.1,
+            "lat": 49.9694873,
+            "lon": 21.7755329,
+            "name": "Wielki Dział",
+            "osm_id": 5245675561,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 400.1,
+        "distance": 18018,
+        "place_id": "51d878fa5289c635405994b1eb2818fc4840f00103f90129a8aa380100000092030d5769656c6b6920447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7755329,
+          49.9694873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.100369,
+        "lat": 49.8858122,
+        "state_code": "PK",
+        "formatted": "Błażowa, powiat rzeszowski, Polska",
+        "address_line1": "Błażowa",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.88582558038643,
+            "lon": 22.100359420370868,
+            "osm_id": 292314296,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 18181,
+        "place_id": "51a156ac27b11936405927dc8cbb62f14840f00102f901b85c6c1100000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.100359420370868,
+          49.88582558038643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Planty",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.1004566,
+        "lat": 49.8841253,
+        "state_code": "PK",
+        "formatted": "Planty, Błażowa, powiat rzeszowski, Polska",
+        "address_line1": "Planty",
+        "address_line2": "Błażowa, powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.88409645108038,
+            "lon": 22.10043159152907,
+            "name": "Planty",
+            "osm_id": 292314295,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 18361,
+        "place_id": "51431a81e2b51936405930f38f122af14840f00102f901b75c6c1100000000920306506c616e7479"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.10043159152907,
+          49.88409645108038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patryja",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Husów",
+        "municipality": "gmina Markowa",
+        "postcode": "37-121",
+        "iso3166_2": "PL-18",
+        "lon": 22.2513956,
+        "lat": 49.9857819,
+        "state_code": "PK",
+        "formatted": "Patryja, 37-121 Husów, Polska",
+        "address_line1": "Patryja",
+        "address_line2": "37-121 Husów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9857819,
+            "lon": 22.2513956,
+            "name": "Patryja",
+            "osm_id": 5244357258,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 18626,
+        "place_id": "51b95b48765b403640598fbeee192efe4840f00103f9018a8a96380100000092030750617472796a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2513956,
+          49.9857819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "iso3166_2": "PL-18",
+        "lon": 22.1089035,
+        "lat": 49.8811883,
+        "state_code": "PK",
+        "formatted": "Dział, 36-030 Błażowa, Polska",
+        "address_line1": "Dział",
+        "address_line2": "36-030 Błażowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8811883,
+            "lon": 22.1089035,
+            "name": "Dział",
+            "osm_id": 5245819735,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 18895,
+        "place_id": "5181eb8a19e11b364059150f39c7caf04840f00103f90157dbac3801000000920306447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1089035,
+          49.8811883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Średni Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lecka",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-043",
+        "iso3166_2": "PL-18",
+        "lon": 22.0131267,
+        "lat": 49.8668378,
+        "state_code": "PK",
+        "formatted": "Średni Dział, 36-043 Lecka, Polska",
+        "address_line1": "Średni Dział",
+        "address_line2": "36-043 Lecka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8668378,
+            "lon": 22.0131267,
+            "name": "Średni Dział",
+            "osm_id": 5245675350,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 18938,
+        "place_id": "5154347b455c03364059e2f7808af4ee4840f00103f90156a7aa380100000092030ec59a7265646e6920447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0131267,
+          49.8668378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Działy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Pstrągowa",
+        "municipality": "gmina Czudec",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7652995,
+        "lat": 49.9622669,
+        "state_code": "PK",
+        "formatted": "Działy, 38-121 Pstrągowa, Polska",
+        "address_line1": "Działy",
+        "address_line2": "38-121 Pstrągowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9622669,
+            "lon": 21.7652995,
+            "name": "Działy",
+            "osm_id": 5245675560,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19026,
+        "place_id": "51292504abeac3354059fcc2d08f2bfb4840f00103f90128a8aa3801000000920307447a6961c58279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7652995,
+          49.9622669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Iwierzyce",
+        "hamlet": "Dworskie",
+        "municipality": "gmina Iwierzyce",
+        "postcode": "39-124",
+        "iso3166_2": "PL-18",
+        "lon": 21.7383806,
+        "lat": 50.0396672,
+        "state_code": "PK",
+        "formatted": "39-124 Iwierzyce, Polska",
+        "address_line1": "39-124 Iwierzyce",
+        "address_line2": "Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.039767319270354,
+            "lon": 21.738354193455883,
+            "osm_id": 342426540,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 19033,
+        "place_id": "51eac1c9c704bd3540599edb731817054940f00102f901ac03691400000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.738354193455883,
+          50.039767319270354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bycza Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "iso3166_2": "PL-18",
+        "lon": 22.1034879,
+        "lat": 49.8783334,
+        "state_code": "PK",
+        "formatted": "Bycza Góra, 36-030 Błażowa, Polska",
+        "address_line1": "Bycza Góra",
+        "address_line2": "36-030 Błażowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8783334,
+            "lon": 22.1034879,
+            "name": "Bycza Góra",
+            "osm_id": 5245819736,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19037,
+        "place_id": "511f08da2e7e1a36405904fe953a6df04840f00103f90158dbac380100000092030b4279637a612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1034879,
+          49.8783334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zubrowa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Poręby Kupieńskie",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "iso3166_2": "PL-18",
+        "lon": 21.8358551,
+        "lat": 50.1701511,
+        "state_code": "PK",
+        "formatted": "Zubrowa Góra, 36-145 Poręby Kupieńskie, Polska",
+        "address_line1": "Zubrowa Góra",
+        "address_line2": "36-145 Poręby Kupieńskie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 259,
+            "lat": 50.1701511,
+            "lon": 21.8358551,
+            "name": "Zubrowa Góra",
+            "osm_id": 5253712243,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 259,
+        "distance": 19080,
+        "place_id": "51dfb18e99fad535405970f0e082c7154940f00103f901734925390100000092030d5a7562726f77612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8358551,
+          50.1701511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Wola Zgłobieńska",
+        "municipality": "gmina Boguchwała",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7571311,
+        "lat": 49.9711303,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 38-121 Wola Zgłobieńska, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "38-121 Wola Zgłobieńska, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 406,
+            "lat": 49.9711303,
+            "lon": 21.7571311,
+            "name": "Łysa Góra",
+            "osm_id": 3688928811,
+            "natural": "peak",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "ele": 406,
+        "distance": 19155,
+        "place_id": "51d5480158d3c1354059cc5367ff4dfc4840f00103f9012b96e0db0000000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7571311,
+          49.9711303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cisowiec Duży",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Piątkowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-035",
+        "iso3166_2": "PL-18",
+        "lon": 22.1336583,
+        "lat": 49.8856286,
+        "state_code": "PK",
+        "formatted": "Cisowiec Duży, 36-035 Piątkowa, Polska",
+        "address_line1": "Cisowiec Duży",
+        "address_line2": "36-035 Piątkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8856286,
+            "lon": 22.1336583,
+            "name": "Cisowiec Duży",
+            "osm_id": 5245819737,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19236,
+        "place_id": "51c6562b6e37223640597db328475cf14840f00103f90159dbac380100000092030e4369736f77696563204475c5bc79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1336583,
+          49.8856286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zapady",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Piątkowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-035",
+        "iso3166_2": "PL-18",
+        "lon": 22.142455,
+        "lat": 49.8868784,
+        "state_code": "PK",
+        "formatted": "Zapady, 36-035 Piątkowa, Polska",
+        "address_line1": "Zapady",
+        "address_line2": "36-035 Piątkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8868784,
+            "lon": 22.142455,
+            "name": "Zapady",
+            "osm_id": 5245819727,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19430,
+        "place_id": "51d5264eee7724364059b0c33d3b85f14840f00103f9014fdbac38010000009203065a6170616479"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.142455,
+          49.8868784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Trzeboś",
+        "municipality": "gmina Sokołów Małopolski",
+        "postcode": "37-126",
+        "iso3166_2": "PL-18",
+        "lon": 22.1699115,
+        "lat": 50.1766384,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 37-126 Trzeboś, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "37-126 Trzeboś, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1766384,
+            "lon": 22.1699115,
+            "name": "Łysa Góra",
+            "osm_id": 5253712251,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19548,
+        "place_id": "51ddb6ef517f2b364059e09b4b169c164940f00103f9017b4925390100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1699115,
+          50.1766384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Dąbrówki",
+        "municipality": "gmina Czarna",
+        "postcode": "37-111",
+        "iso3166_2": "PL-18",
+        "lon": 22.2315464,
+        "lat": 50.1356636,
+        "state_code": "PK",
+        "formatted": "Lisia Góra, 37-111 Dąbrówki, Polska",
+        "address_line1": "Lisia Góra",
+        "address_line2": "37-111 Dąbrówki, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 221,
+            "lat": 50.1356636,
+            "lon": 22.2315464,
+            "name": "Lisia Góra",
+            "osm_id": 5253712282,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 221,
+        "distance": 19638,
+        "place_id": "51ac81f79f463b364059faa0c26c5d114940f00103f9019a4925390100000092030b4c697369612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2315464,
+          50.1356636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Górki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Piątkowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-035",
+        "iso3166_2": "PL-18",
+        "lon": 22.1505182,
+        "lat": 49.8876118,
+        "state_code": "PK",
+        "formatted": "Górki, 36-035 Piątkowa, Polska",
+        "address_line1": "Górki",
+        "address_line2": "36-035 Piątkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8876118,
+            "lon": 22.1505182,
+            "name": "Górki",
+            "osm_id": 5245819730,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19663,
+        "place_id": "51ea735a5c8826364059984572439df14840f00103f90152dbac380100000092030647c3b3726b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1505182,
+          49.8876118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mała Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Trzeboś",
+        "municipality": "gmina Sokołów Małopolski",
+        "postcode": "37-126",
+        "iso3166_2": "PL-18",
+        "lon": 22.1598877,
+        "lat": 50.1831737,
+        "state_code": "PK",
+        "formatted": "Mała Góra, 37-126 Trzeboś, Polska",
+        "address_line1": "Mała Góra",
+        "address_line2": "37-126 Trzeboś, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1831737,
+            "lon": 22.1598877,
+            "name": "Mała Góra",
+            "osm_id": 5253712250,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19715,
+        "place_id": "515c887a66ee28364059607e5d3c72174940f00103f9017a4925390100000092030b4d61c582612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1598877,
+          50.1831737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Husów",
+        "municipality": "gmina Markowa",
+        "postcode": "37-121",
+        "iso3166_2": "PL-18",
+        "lon": 22.2715871,
+        "lat": 49.994357,
+        "state_code": "PK",
+        "formatted": "Kamionka, 37-121 Husów, Polska",
+        "address_line1": "Kamionka",
+        "address_line2": "37-121 Husów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.994357,
+            "lon": 22.2715871,
+            "name": "Kamionka",
+            "osm_id": 5244357254,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19756,
+        "place_id": "51f78370bb86453640593bc6151747ff4840f00103f901868a9638010000009203084b616d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2715871,
+          49.994357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cykuł",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Pstrągowa",
+        "municipality": "gmina Czudec",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7508056,
+        "lat": 49.9647565,
+        "state_code": "PK",
+        "formatted": "Cykuł, 38-121 Pstrągowa, Polska",
+        "address_line1": "Cykuł",
+        "address_line2": "38-121 Pstrągowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 382,
+            "lat": 49.9647565,
+            "lon": 21.7508056,
+            "name": "Cykuł",
+            "osm_id": 5245675466,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 382,
+        "distance": 19852,
+        "place_id": "5156a7b9cb34c03540593d0d18247dfb4840f00103f901caa7aa380100000092030643796b75c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7508056,
+          49.9647565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wysoka Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Piątkowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-035",
+        "iso3166_2": "PL-18",
+        "lon": 22.1589752,
+        "lat": 49.8878815,
+        "state_code": "PK",
+        "formatted": "Wysoka Góra, 36-035 Piątkowa, Polska",
+        "address_line1": "Wysoka Góra",
+        "address_line2": "36-035 Piątkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8878815,
+            "lon": 22.1589752,
+            "name": "Wysoka Góra",
+            "osm_id": 5245820609,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19969,
+        "place_id": "5104e04499b228364059999cda19a6f14840f00103f901c1deac380100000092030c5779736f6b612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1589752,
+          49.8878815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barania Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Sonina",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-120",
+        "iso3166_2": "PL-18",
+        "lon": 22.2827805,
+        "lat": 50.053972,
+        "state_code": "PK",
+        "formatted": "Barania Góra, 37-120 Sonina, Polska",
+        "address_line1": "Barania Góra",
+        "address_line2": "37-120 Sonina, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.053972,
+            "lon": 22.2827805,
+            "name": "Barania Góra",
+            "osm_id": 5253712286,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20058,
+        "place_id": "515072874d64483640592a73f38de8064940f00103f9019e4925390100000092030d426172616e69612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2827805,
+          50.053972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Żabia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoździanka",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-115",
+        "iso3166_2": "PL-18",
+        "lon": 21.8889054,
+        "lat": 49.8722286,
+        "state_code": "PK",
+        "formatted": "Żabia Góra, 38-115 Gwoździanka, Polska",
+        "address_line1": "Żabia Góra",
+        "address_line2": "38-115 Gwoździanka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8722286,
+            "lon": 21.8889054,
+            "name": "Żabia Góra",
+            "osm_id": 5244357530,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20102,
+        "place_id": "51e03ce64d8fe335405964d1cf2fa5ef4840f00103f9019a8b96380100000092030cc5bb616269612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8889054,
+          49.8722286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Betkówki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Pstrągowa",
+        "municipality": "gmina Czudec",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7571917,
+        "lat": 49.9463295,
+        "state_code": "PK",
+        "formatted": "Betkówki, 38-121 Pstrągowa, Polska",
+        "address_line1": "Betkówki",
+        "address_line2": "38-121 Pstrągowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9463295,
+            "lon": 21.7571917,
+            "name": "Betkówki",
+            "osm_id": 5245675467,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20370,
+        "place_id": "517a4db450d7c1354059b9de365321f94840f00103f901cba7aa38010000009203094265746bc3b3776b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7571917,
+          49.9463295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Działy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Tarnawka",
+        "municipality": "gmina Markowa",
+        "postcode": "37-121",
+        "iso3166_2": "PL-18",
+        "lon": 22.2584941,
+        "lat": 49.9542238,
+        "state_code": "PK",
+        "formatted": "Działy, 37-121 Tarnawka, Polska",
+        "address_line1": "Działy",
+        "address_line2": "37-121 Tarnawka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9542238,
+            "lon": 22.2584941,
+            "name": "Działy",
+            "osm_id": 5244357263,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20439,
+        "place_id": "517eb559ab2c423640594d08670124fa4840f00103f9018f8a963801000000920307447a6961c58279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2584941,
+          49.9542238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biedroniówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Husów",
+        "municipality": "gmina Markowa",
+        "postcode": "37-121",
+        "iso3166_2": "PL-18",
+        "lon": 22.2731703,
+        "lat": 49.9741684,
+        "state_code": "PK",
+        "formatted": "Biedroniówka, 37-121 Husów, Polska",
+        "address_line1": "Biedroniówka",
+        "address_line2": "37-121 Husów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9741684,
+            "lon": 22.2731703,
+            "name": "Biedroniówka",
+            "osm_id": 5244357262,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20523,
+        "place_id": "510fbd207dee45364059f965d58cb1fc4840f00103f9018e8a96380100000092030d42696564726f6e69c3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2731703,
+          49.9741684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoźnica Górna",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-116",
+        "iso3166_2": "PL-18",
+        "lon": 21.9719442,
+        "lat": 49.8524491,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 38-116 Gwoźnica Górna, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "38-116 Gwoźnica Górna, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8524491,
+            "lon": 21.9719442,
+            "name": "Łysa Góra",
+            "osm_id": 5245675352,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20656,
+        "place_id": "517189c855d1f83540599800570d1ded4840f00103f90158a7aa380100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9719442,
+          49.8524491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Sędziszów Małopolski",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "39-120",
+        "iso3166_2": "PL-18",
+        "lon": 21.7158857,
+        "lat": 50.0514673,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 39-120 Sędziszów Małopolski, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "39-120 Sędziszów Małopolski, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0514673,
+            "lon": 21.7158857,
+            "name": "Łysa Góra",
+            "osm_id": 5245675412,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20700,
+        "place_id": "51902c054944b73540591e28017b96064940f00103f90194a7aa380100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7158857,
+          50.0514673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Szewski Stołek",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Czarna Sędziszowska",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "30-300",
+        "iso3166_2": "PL-18",
+        "lon": 21.7843703,
+        "lat": 50.1631956,
+        "state_code": "PK",
+        "formatted": "Szewski Stołek, 30-300 Czarna Sędziszowska, Polska",
+        "address_line1": "Szewski Stołek",
+        "address_line2": "30-300 Czarna Sędziszowska, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1631956,
+            "lon": 21.7843703,
+            "name": "Szewski Stołek",
+            "osm_id": 5253712239,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21070,
+        "place_id": "512674f27dccc8354059f16cea97e3144940f00103f9016f4925390100000092030f537a6577736b692053746fc582656b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7843703,
+          50.1631956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Czabajka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Harta",
+        "municipality": "gmina Dynów",
+        "postcode": "36-035",
+        "iso3166_2": "PL-18",
+        "lon": 22.1855258,
+        "lat": 49.887319,
+        "state_code": "PK",
+        "formatted": "Czabajka, 36-035 Harta, Polska",
+        "address_line1": "Czabajka",
+        "address_line2": "36-035 Harta, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 416,
+            "lat": 49.887319,
+            "lon": 22.1855258,
+            "name": "Czabajka",
+            "osm_id": 5815070647,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 416,
+        "distance": 21138,
+        "place_id": "5172906b9e7e2f364059490f43ab93f14840f00103f901b7ef9a5a01000000920308437a6162616a6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1855258,
+          49.887319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kopalina",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-115",
+        "iso3166_2": "PL-18",
+        "lon": 21.8577616,
+        "lat": 49.8719891,
+        "state_code": "PK",
+        "formatted": "Kopalina, 38-115 Żarnowa, Polska",
+        "address_line1": "Kopalina",
+        "address_line2": "38-115 Żarnowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8719891,
+            "lon": 21.8577616,
+            "name": "Kopalina",
+            "osm_id": 5244357529,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21142,
+        "place_id": "51bfc3a34396db354059f77bbd569def4840f00103f901998b9638010000009203084b6f70616c696e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8577616,
+          49.8719891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamieniec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Futoma",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-034",
+        "iso3166_2": "PL-18",
+        "lon": 22.1135791,
+        "lat": 49.8605143,
+        "state_code": "PK",
+        "formatted": "Kamieniec, 36-034 Futoma, Polska",
+        "address_line1": "Kamieniec",
+        "address_line2": "36-034 Futoma, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8605143,
+            "lon": 22.1135791,
+            "name": "Kamieniec",
+            "osm_id": 5245820571,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21147,
+        "place_id": "5155021885131d364059c31e245525ee4840f00103f9019bdeac38010000009203094b616d69656e696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1135791,
+          49.8605143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pod Przylaskiem",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Dylągówka",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-025",
+        "iso3166_2": "PL-18",
+        "lon": 22.2227603,
+        "lat": 49.9043397,
+        "state_code": "PK",
+        "formatted": "Pod Przylaskiem, 36-025 Dylągówka, Polska",
+        "address_line1": "Pod Przylaskiem",
+        "address_line2": "36-025 Dylągówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9043397,
+            "lon": 22.2227603,
+            "name": "Pod Przylaskiem",
+            "osm_id": 5244357285,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21541,
+        "place_id": "51df58abd10639364059bbfc3d67c1f34840f00103f901a58a96380100000092030f506f642050727a796c61736b69656d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2227603,
+          49.9043397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Husów",
+        "municipality": "gmina Markowa",
+        "postcode": "37-121",
+        "iso3166_2": "PL-18",
+        "lon": 22.2957772,
+        "lat": 49.9894572,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 37-121 Husów, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "37-121 Husów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9894572,
+            "lon": 22.2957772,
+            "name": "Łysa Góra",
+            "osm_id": 5244357247,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21572,
+        "place_id": "5107e7f80db84b36405957659588a6fe4840f00103f9017f8a96380100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2957772,
+          49.9894572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lotnisko",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kosina",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-112",
+        "iso3166_2": "PL-18",
+        "lon": 22.3081072,
+        "lat": 50.0625784,
+        "state_code": "PK",
+        "formatted": "Lotnisko, 37-112 Kosina, Polska",
+        "address_line1": "Lotnisko",
+        "address_line2": "37-112 Kosina, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 239,
+            "lat": 50.0625784,
+            "lon": 22.3081072,
+            "name": "Lotnisko",
+            "osm_id": 3099989363,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 239,
+        "distance": 21966,
+        "place_id": "5181a90b1de04e364059cfb7aa9102084940f00103f9017315c6b8000000009203084c6f746e69736b6f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3081072,
+          50.0625784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostra Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Dylągówka",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-025",
+        "iso3166_2": "PL-18",
+        "lon": 22.2161252,
+        "lat": 49.8943807,
+        "state_code": "PK",
+        "formatted": "Ostra Góra, 36-025 Dylągówka, Polska",
+        "address_line1": "Ostra Góra",
+        "address_line2": "36-025 Dylągówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8943807,
+            "lon": 22.2161252,
+            "name": "Ostra Góra",
+            "osm_id": 5244357289,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21983,
+        "place_id": "516ad729fb5337364059385618117bf24840f00103f901a98a96380100000092030b4f737472612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2161252,
+          49.8943807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilcze",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoźnica Górna",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-116",
+        "iso3166_2": "PL-18",
+        "lon": 22.0196598,
+        "lat": 49.8387772,
+        "state_code": "PK",
+        "formatted": "Wilcze, 38-116 Gwoźnica Górna, Polska",
+        "address_line1": "Wilcze",
+        "address_line2": "38-116 Gwoźnica Górna, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 506,
+            "lat": 49.8387772,
+            "lon": 22.0196598,
+            "name": "Wilcze",
+            "osm_id": 3382873745,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 506,
+        "distance": 22077,
+        "place_id": "51c00bb66c0805364059b350210d5deb4840f00103f901918ea2c90000000092030657696c637a65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0196598,
+          49.8387772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Czubata Górka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Czarna Sędziszowska",
+        "municipality": "gmina Sędziszów Małopolski",
+        "postcode": "30-300",
+        "iso3166_2": "PL-18",
+        "lon": 21.766414,
+        "lat": 50.1653249,
+        "state_code": "PK",
+        "formatted": "Czubata Górka, 30-300 Czarna Sędziszowska, Polska",
+        "address_line1": "Czubata Górka",
+        "address_line2": "30-300 Czarna Sędziszowska, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1653249,
+            "lon": 21.766414,
+            "name": "Czubata Górka",
+            "osm_id": 5253712238,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22196,
+        "place_id": "51513239b533c4354059745bc75d29154940f00103f9016e4925390100000092030e437a75626174612047c3b3726b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.766414,
+          50.1653249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wychylówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Pstrągowa",
+        "municipality": "gmina Czudec",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7257166,
+        "lat": 49.9492167,
+        "state_code": "PK",
+        "formatted": "Wychylówka, 38-121 Pstrągowa, Polska",
+        "address_line1": "Wychylówka",
+        "address_line2": "38-121 Pstrągowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9492167,
+            "lon": 21.7257166,
+            "name": "Wychylówka",
+            "osm_id": 5245675465,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22215,
+        "place_id": "51102a2790c8b935405995a8cdee7ff94840f00103f901c9a7aa380100000092030b57796368796cc3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7257166,
+          49.9492167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smokówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-103",
+        "iso3166_2": "PL-18",
+        "lon": 21.8399306,
+        "lat": 49.8653228,
+        "state_code": "PK",
+        "formatted": "Smokówka, 38-103 Żarnowa, Polska",
+        "address_line1": "Smokówka",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8653228,
+            "lon": 21.8399306,
+            "name": "Smokówka",
+            "osm_id": 5244357524,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22434,
+        "place_id": "51dfe819b105d7354059d83dc3e5c2ee4840f00103f901948b963801000000920309536d6f6bc3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8399306,
+          49.8653228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sad Pamięci",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Markowa",
+        "hamlet": "Folwarczne",
+        "municipality": "gmina Markowa",
+        "postcode": "37-120",
+        "iso3166_2": "PL-18",
+        "lon": 22.3170424,
+        "lat": 50.0231509,
+        "state_code": "PK",
+        "formatted": "Sad Pamięci, 37-120 Markowa, Polska",
+        "address_line1": "Sad Pamięci",
+        "address_line2": "37-120 Markowa, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02316348935895,
+            "lon": 22.31703387137707,
+            "name": "Sad Pamięci",
+            "osm_id": 1195355971,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 22482,
+        "place_id": "51ee49bd21295136405904a16e05f7024940f00102f90143af3f470000000092030c5361642050616d69c4996369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.31703387137707,
+          50.02316348935895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patryja",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Tarnawka",
+        "municipality": "gmina Markowa",
+        "postcode": "37-121",
+        "iso3166_2": "PL-18",
+        "lon": 22.2918378,
+        "lat": 49.9544958,
+        "state_code": "PK",
+        "formatted": "Patryja, 37-121 Tarnawka, Polska",
+        "address_line1": "Patryja",
+        "address_line2": "37-121 Tarnawka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9544958,
+            "lon": 22.2918378,
+            "name": "Patryja",
+            "osm_id": 5244357264,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22587,
+        "place_id": "5191bccee1b54a364059ad951aeb2cfa4840f00103f901908a96380100000092030750617472796a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2918378,
+          49.9544958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mogiła",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Markowa",
+        "municipality": "gmina Markowa",
+        "postcode": "37-120",
+        "iso3166_2": "PL-18",
+        "lon": 22.3134792,
+        "lat": 49.9982149,
+        "state_code": "PK",
+        "formatted": "Mogiła, 37-120 Markowa, Polska",
+        "address_line1": "Mogiła",
+        "address_line2": "37-120 Markowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9982149,
+            "lon": 22.3134792,
+            "name": "Mogiła",
+            "osm_id": 5244357245,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22596,
+        "place_id": "51ebf93f2c4050364059a1f07e81c5ff4840f00103f9017d8a9638010000009203074d6f6769c58261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3134792,
+          49.9982149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wielki Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Szklary",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-025",
+        "iso3166_2": "PL-18",
+        "lon": 22.2174742,
+        "lat": 49.8861285,
+        "state_code": "PK",
+        "formatted": "Wielki Dział, 36-025 Szklary, Polska",
+        "address_line1": "Wielki Dział",
+        "address_line2": "36-025 Szklary, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8861285,
+            "lon": 22.2174742,
+            "name": "Wielki Dział",
+            "osm_id": 5244357288,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22721,
+        "place_id": "5149b9a063ac37364059dac69fa86cf14840f00103f901a88a96380100000092030d5769656c6b6920447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2174742,
+          49.8861285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sępia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Bystrzyca",
+        "municipality": "gmina Iwierzyce",
+        "postcode": "39-126",
+        "iso3166_2": "PL-18",
+        "lon": 21.6995442,
+        "lat": 49.978352,
+        "state_code": "PK",
+        "formatted": "Sępia, 39-126 Bystrzyca, Polska",
+        "address_line1": "Sępia",
+        "address_line2": "39-126 Bystrzyca, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.978352,
+            "lon": 21.6995442,
+            "name": "Sępia",
+            "osm_id": 5245675462,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22779,
+        "place_id": "51421b255415b3354059f4fc69a33afd4840f00103f901c6a7aa380100000092030653c499706961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6995442,
+          49.978352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostry Stok",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat przeworski",
+        "city": "Hadle Szklarskie",
+        "municipality": "gmina Jawornik Polski",
+        "postcode": "37-231",
+        "iso3166_2": "PL-18",
+        "lon": 22.2607368,
+        "lat": 49.9153253,
+        "state_code": "PK",
+        "formatted": "Ostry Stok, 37-231 Hadle Szklarskie, Polska",
+        "address_line1": "Ostry Stok",
+        "address_line2": "37-231 Hadle Szklarskie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9153253,
+            "lon": 22.2607368,
+            "name": "Ostry Stok",
+            "osm_id": 5244357284,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22854,
+        "place_id": "511bdd9ca5bf42364059c759226129f54840f00103f901a48a96380100000092030a4f737472792053746f6b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2607368,
+          49.9153253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buczkowskie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Konieczkowa",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-116",
+        "iso3166_2": "PL-18",
+        "lon": 21.9440367,
+        "lat": 49.8343758,
+        "state_code": "PK",
+        "formatted": "Buczkowskie, 38-116 Konieczkowa, Polska",
+        "address_line1": "Buczkowskie",
+        "address_line2": "38-116 Konieczkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8343758,
+            "lon": 21.9440367,
+            "name": "Buczkowskie",
+            "osm_id": 5245675344,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22945,
+        "place_id": "5149b9a063acf135405973c982d3ccea4840f00103f90150a7aa380100000092030b4275637a6b6f77736b6965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9440367,
+          49.8343758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sokołów Małopolski",
+        "municipality": "gmina Sokołów Małopolski",
+        "iso3166_2": "PL-18",
+        "lon": 22.1188188,
+        "lat": 50.2298608,
+        "state_code": "PK",
+        "formatted": "Sokołów Małopolski, powiat rzeszowski, Polska",
+        "address_line1": "Sokołów Małopolski",
+        "address_line2": "powiat rzeszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.229863475243896,
+            "lon": 22.11890455935654,
+            "osm_id": 777657190,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 22972,
+        "place_id": "5119c87987701e364059d55b962a6c1d4940f00102f901661b5a2e00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.11890455935654,
+          50.229863475243896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kozłowa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoźnica Górna",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-116",
+        "iso3166_2": "PL-18",
+        "lon": 21.9885444,
+        "lat": 49.8304786,
+        "state_code": "PK",
+        "formatted": "Kozłowa Góra, 38-116 Gwoźnica Górna, Polska",
+        "address_line1": "Kozłowa Góra",
+        "address_line2": "38-116 Gwoźnica Górna, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8304786,
+            "lon": 21.9885444,
+            "name": "Kozłowa Góra",
+            "osm_id": 5245675323,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22998,
+        "place_id": "51d9a4ec3e11fd35405991836d1f4dea4840f00103f9013ba7aa380100000092030e4b6f7ac5826f77612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9885444,
+          49.8304786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamienica",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Futoma",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-035",
+        "iso3166_2": "PL-18",
+        "lon": 22.1593719,
+        "lat": 49.856155,
+        "state_code": "PK",
+        "formatted": "Kamienica, 36-035 Futoma, Polska",
+        "address_line1": "Kamienica",
+        "address_line2": "36-035 Futoma, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.856155,
+            "lon": 22.1593719,
+            "name": "Kamienica",
+            "osm_id": 5245820573,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23000,
+        "place_id": "51c166ca98cc2836405948a7ae7c96ed4840f00103f9019ddeac38010000009203094b616d69656e696361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1593719,
+          49.856155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Góra Żarnowska",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "iso3166_2": "PL-18",
+        "lon": 21.8086858,
+        "lat": 49.8728441,
+        "state_code": "PK",
+        "formatted": "Góra Żarnowska, 38-100 Strzyżów, Polska",
+        "address_line1": "Góra Żarnowska",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8728441,
+            "lon": 21.8086858,
+            "name": "Góra Żarnowska",
+            "osm_id": 5245675568,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23018,
+        "place_id": "5156bd570806cf354059d700005bb9ef4840f00103f90130a8aa380100000092031047c3b3726120c5bb61726e6f77736b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8086858,
+          49.8728441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kozia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Kąkolówka",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-233",
+        "iso3166_2": "PL-18",
+        "lon": 22.0477153,
+        "lat": 49.8317176,
+        "state_code": "PK",
+        "formatted": "Kozia Góra, 36-233 Kąkolówka, Polska",
+        "address_line1": "Kozia Góra",
+        "address_line2": "36-233 Kąkolówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8317176,
+            "lon": 22.0477153,
+            "name": "Kozia Góra",
+            "osm_id": 5245820544,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23048,
+        "place_id": "51d204e511370c364059f9c0e9b875ea4840f00103f90180deac380100000092030b4b6f7a69612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0477153,
+          49.8317176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spalona Baba",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat przeworski",
+        "city": "Lipnik",
+        "municipality": "gmina Kańczuga",
+        "postcode": "37-206",
+        "iso3166_2": "PL-18",
+        "lon": 22.3204125,
+        "lat": 49.9975164,
+        "state_code": "PK",
+        "formatted": "Spalona Baba, 37-206 Lipnik, Polska",
+        "address_line1": "Spalona Baba",
+        "address_line2": "37-206 Lipnik, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9975164,
+            "lon": 22.3204125,
+            "name": "Spalona Baba",
+            "osm_id": 5244357246,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23099,
+        "place_id": "51c7bab88d0652364059a19c0d9eaeff4840f00103f9017e8a96380100000092030c5370616c6f6e612042616261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3204125,
+          49.9975164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat przeworski",
+        "city": "Lipnik",
+        "municipality": "gmina Kańczuga",
+        "iso3166_2": "PL-18",
+        "lon": 22.3186887,
+        "lat": 49.9922909,
+        "state_code": "PK",
+        "formatted": "Lipnik, powiat przeworski, Polska",
+        "address_line1": "Lipnik",
+        "address_line2": "powiat przeworski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.99221859248818,
+            "lon": 22.318713997361602,
+            "osm_id": 326295456,
+            "barrier": "fence",
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 23100,
+        "place_id": "510d72933d9751364059259cd20401ff4840f00102f901a0df721300000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.318713997361602,
+          49.99221859248818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamienna Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Kąkolówka",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-233",
+        "iso3166_2": "PL-18",
+        "lon": 22.0660378,
+        "lat": 49.8309958,
+        "state_code": "PK",
+        "formatted": "Kamienna Góra, 36-233 Kąkolówka, Polska",
+        "address_line1": "Kamienna Góra",
+        "address_line2": "36-233 Kąkolówka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8309958,
+            "lon": 22.0660378,
+            "name": "Kamienna Góra",
+            "osm_id": 5245820543,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23342,
+        "place_id": "51bf4c6fdae710364059820e04125eea4840f00103f9017fdeac380100000092030e4b616d69656e6e612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0660378,
+          49.8309958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Góra Białówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Tropie",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-122",
+        "iso3166_2": "PL-18",
+        "lon": 21.7674336,
+        "lat": 49.8919913,
+        "state_code": "PK",
+        "formatted": "Góra Białówka, 38-122 Tropie, Polska",
+        "address_line1": "Góra Białówka",
+        "address_line2": "38-122 Tropie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8919913,
+            "lon": 21.7674336,
+            "name": "Góra Białówka",
+            "osm_id": 5245675567,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23415,
+        "place_id": "51ffd9458776c435405984e85ac52cf24840f00103f9012fa8aa380100000092031047c3b3726120426961c582c3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7674336,
+          49.8919913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kłapacz",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Pstrągowa",
+        "municipality": "gmina Czudec",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.7006397,
+        "lat": 49.9560535,
+        "state_code": "PK",
+        "formatted": "Kłapacz, 38-102 Pstrągowa, Polska",
+        "address_line1": "Kłapacz",
+        "address_line2": "38-102 Pstrągowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9560535,
+            "lon": 21.7006397,
+            "name": "Kłapacz",
+            "osm_id": 5245675464,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23541,
+        "place_id": "517dc7951f5db3354059f9dc09f65ffa4840f00103f901c8a7aa38010000009203084bc582617061637a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7006397,
+          49.9560535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Konieczkowa",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-114",
+        "iso3166_2": "PL-18",
+        "lon": 21.9133557,
+        "lat": 49.8328659,
+        "state_code": "PK",
+        "formatted": "Dział, 38-114 Konieczkowa, Polska",
+        "address_line1": "Dział",
+        "address_line2": "38-114 Konieczkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8328659,
+            "lon": 21.9133557,
+            "name": "Dział",
+            "osm_id": 5245675342,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23620,
+        "place_id": "517d1dddadd1e9354059103a8d599bea4840f00103f9014ea7aa3801000000920306447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9133557,
+          49.8328659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Górki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Markowa",
+        "municipality": "gmina Markowa",
+        "postcode": "37-120",
+        "iso3166_2": "PL-18",
+        "lon": 22.3343963,
+        "lat": 50.0322242,
+        "state_code": "PK",
+        "formatted": "Górki, 37-120 Markowa, Polska",
+        "address_line1": "Górki",
+        "address_line2": "37-120 Markowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0322242,
+            "lon": 22.3343963,
+            "name": "Górki",
+            "osm_id": 5244357243,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23677,
+        "place_id": "514667f4fe9a55364059e4912eec1f044940f00103f9017b8a96380100000092030647c3b3726b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3343963,
+          50.0322242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulcowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Konieczkowa",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-114",
+        "iso3166_2": "PL-18",
+        "lon": 21.9272674,
+        "lat": 49.829777,
+        "state_code": "PK",
+        "formatted": "Bulcowa, 38-114 Konieczkowa, Polska",
+        "address_line1": "Bulcowa",
+        "address_line2": "38-114 Konieczkowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.829777,
+            "lon": 21.9272674,
+            "name": "Bulcowa",
+            "osm_id": 5245675343,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23698,
+        "place_id": "519fa5756561ed3540598bfcfa2136ea4840f00103f9014fa7aa380100000092030742756c636f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9272674,
+          49.829777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zagranicze",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Domatków",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "30-300",
+        "iso3166_2": "PL-18",
+        "lon": 21.775,
+        "lat": 50.1913889,
+        "state_code": "PK",
+        "formatted": "Zagranicze, 30-300 Domatków, Polska",
+        "address_line1": "Zagranicze",
+        "address_line2": "30-300 Domatków, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1913889,
+            "lon": 21.775,
+            "name": "Zagranicze",
+            "osm_id": 3009767795,
+            "name:pl": "Zagranicze",
+            "natural": "peak",
+            "osm_type": "n",
+            "name:genitive": "Zagranicza"
+          }
+        },
+        "name_international": {
+          "pl": "Zagranicze"
+        },
+        "distance": 23732,
+        "place_id": "516666666666c6354059a128756e7f184940f00103f901736965b30000000092030a5a616772616e69637a65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.775,
+          50.1913889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamne",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoźnica Górna",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-116",
+        "iso3166_2": "PL-18",
+        "lon": 22.0064061,
+        "lat": 49.8232733,
+        "state_code": "PK",
+        "formatted": "Jamne, 38-116 Gwoźnica Górna, Polska",
+        "address_line1": "Jamne",
+        "address_line2": "38-116 Gwoźnica Górna, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8232733,
+            "lon": 22.0064061,
+            "name": "Jamne",
+            "osm_id": 5245820218,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23773,
+        "place_id": "51b2fe85d4a301364059c295fd0461e94840f00103f9013addac38010000009203054a616d6e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0064061,
+          49.8232733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stawiska",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Harta",
+        "municipality": "gmina Dynów",
+        "postcode": "36-067",
+        "iso3166_2": "PL-18",
+        "lon": 22.1915298,
+        "lat": 49.8601545,
+        "state_code": "PK",
+        "formatted": "Stawiska, 36-067 Harta, Polska",
+        "address_line1": "Stawiska",
+        "address_line2": "36-067 Harta, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8601545,
+            "lon": 22.1915298,
+            "name": "Stawiska",
+            "osm_id": 5245818119,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23834,
+        "place_id": "519d35d3180831364059ed80eb8a19ee4840f00103f90107d5ac38010000009203085374617769736b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1915298,
+          49.8601545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Werynia",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-145",
+        "iso3166_2": "PL-18",
+        "lon": 21.8564113,
+        "lat": 50.2291801,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 36-145 Werynia, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "36-145 Werynia, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2291801,
+            "lon": 21.8564113,
+            "name": "Łysa Góra",
+            "osm_id": 5253712220,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23839,
+        "place_id": "51c36c5dc53ddb3540596f3205c6551d4940f00103f9015c4925390100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8564113,
+          50.2291801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "iso3166_2": "PL-18",
+        "lon": 21.7936641,
+        "lat": 49.8699894,
+        "state_code": "PK",
+        "formatted": "Strzyżów, powiat strzyżowski, Polska",
+        "address_line1": "Strzyżów",
+        "address_line2": "powiat strzyżowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.87001868805945,
+            "lon": 21.79359939660051,
+            "osm_id": 1460525382,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 23936,
+        "place_id": "5147867e5429cb354059e50fbac55cef4840f00102f90146d90d5700000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.79359939660051,
+          49.87001868805945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stanciówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Barycz",
+        "municipality": "gmina Domaradz",
+        "postcode": "36-233",
+        "iso3166_2": "PL-18",
+        "lon": 22.0444507,
+        "lat": 49.823346,
+        "state_code": "PK",
+        "formatted": "Stanciówka, 36-233 Barycz, Polska",
+        "address_line1": "Stanciówka",
+        "address_line2": "36-233 Barycz, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.823346,
+            "lon": 22.0444507,
+            "name": "Stanciówka",
+            "osm_id": 5245820530,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23941,
+        "place_id": "51c8c8fe1e610b3640596ea5d76663e94840f00103f90172deac380100000092030b5374616e6369c3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0444507,
+          49.823346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Szklarska Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Szklary",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-025",
+        "iso3166_2": "PL-18",
+        "lon": 22.2429898,
+        "lat": 49.8853294,
+        "state_code": "PK",
+        "formatted": "Szklarska Góra, 36-025 Szklary, Polska",
+        "address_line1": "Szklarska Góra",
+        "address_line2": "36-025 Szklary, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8853294,
+            "lon": 22.2429898,
+            "name": "Szklarska Góra",
+            "osm_id": 10961488092,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24055,
+        "place_id": "51f7425c94343e364059fa97497952f14840f00103f901dc085b8d0200000092030f537a6b6c6172736b612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2429898,
+          49.8853294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Barycz",
+        "municipality": "gmina Domaradz",
+        "postcode": "36-233",
+        "iso3166_2": "PL-18",
+        "lon": 22.0499431,
+        "lat": 49.8223729,
+        "state_code": "PK",
+        "formatted": "Kamionka, 36-233 Barycz, Polska",
+        "address_line1": "Kamionka",
+        "address_line2": "36-233 Barycz, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8223729,
+            "lon": 22.0499431,
+            "name": "Kamionka",
+            "osm_id": 5245820529,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24099,
+        "place_id": "512e292d12c90c364059ef4ee38343e94840f00103f90171deac38010000009203084b616d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0499431,
+          49.8223729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Na Grabówce",
+        "municipality": "gmina Strzyżów",
+        "iso3166_2": "PL-18",
+        "lon": 21.8010366,
+        "lat": 49.8644752,
+        "state_code": "PK",
+        "formatted": "Strzyżów, powiat strzyżowski, Polska",
+        "address_line1": "Strzyżów",
+        "address_line2": "powiat strzyżowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.86425216043685,
+            "lon": 21.80074848236555,
+            "osm_id": 528328961,
+            "leisure": "park",
+            "ref:nid": "A-349",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "before 1800"
+          }
+        },
+        "ref_other": {
+          "nid": "A-349"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-349"
+        },
+        "distance": 24124,
+        "place_id": "51e81440dafdcc3540596c4996d09fee4840f00102f90101a97d1f00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.80074848236555,
+          49.86425216043685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kąt",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Grodzisko",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.7229469,
+        "lat": 49.9161399,
+        "state_code": "PK",
+        "formatted": "Kąt, 38-102 Grodzisko, Polska",
+        "address_line1": "Kąt",
+        "address_line2": "38-102 Grodzisko, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9161399,
+            "lon": 21.7229469,
+            "name": "Kąt",
+            "osm_id": 5245675550,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24231,
+        "place_id": "519d3e4c0c13b9354059c5877e1244f54840f00103f9011ea8aa38010000009203044bc48574"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7229469,
+          49.9161399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamieniec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Nawsie",
+        "municipality": "gmina Wielopole Skrzyńskie",
+        "postcode": "39-110",
+        "iso3166_2": "PL-18",
+        "lon": 21.6857344,
+        "lat": 49.9627447,
+        "state_code": "PK",
+        "formatted": "Kamieniec, 39-110 Nawsie, Polska",
+        "address_line1": "Kamieniec",
+        "address_line2": "39-110 Nawsie, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 440,
+            "lat": 49.9627447,
+            "lon": 21.6857344,
+            "name": "Kamieniec",
+            "osm_id": 5245675463,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 440,
+        "distance": 24267,
+        "place_id": "5100be254a8caf354059dc72e4373bfb4840f00103f901c7a7aa38010000009203094b616d69656e696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6857344,
+          49.9627447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Planty",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "iso3166_2": "PL-18",
+        "lon": 21.7867599,
+        "lat": 49.869588,
+        "state_code": "PK",
+        "formatted": "Planty, Strzyżów, powiat strzyżowski, Polska",
+        "address_line1": "Planty",
+        "address_line2": "Strzyżów, powiat strzyżowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park",
+          "tourism",
+          "tourism.sights"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.86961887359677,
+            "lon": 21.786805097069426,
+            "link": "http://www.kirkuty.xip.pl/strzyzow.htm",
+            "name": "Planty",
+            "osm_id": 259815576,
+            "leisure": "park",
+            "historic": "cementary",
+            "osm_type": "w",
+            "abandoned:landuse": "cementary"
+          }
+        },
+        "historic": {
+          "type": "cementary"
+        },
+        "distance": 24281,
+        "place_id": "51423d100f6cc93540598f0ad7ab4fef4840f00102f90198787c0f00000000920306506c616e7479"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.786805097069426,
+          49.86961887359677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Wólka Niedźwiedzka",
+        "municipality": "gmina Sokołów Małopolski",
+        "postcode": "36-050",
+        "iso3166_2": "PL-18",
+        "lon": 22.1602214,
+        "lat": 50.2308791,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 36-050 Wólka Niedźwiedzka, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "36-050 Wólka Niedźwiedzka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.2308791,
+            "lon": 22.1602214,
+            "name": "Łysa Góra",
+            "osm_id": 5253712089,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24286,
+        "place_id": "518d1e094504293640593bea43728d1d4940f00103f901d94825390100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1602214,
+          50.2308791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park dworski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat przeworski",
+        "city": "Hadle Szklarskie",
+        "hamlet": "Kociuba",
+        "municipality": "gmina Jawornik Polski",
+        "iso3166_2": "PL-18",
+        "lon": 22.2831682,
+        "lat": 49.9116173,
+        "state_code": "PK",
+        "formatted": "Park dworski, Hadle Szklarskie, powiat przeworski, Polska",
+        "address_line1": "Park dworski",
+        "address_line2": "Hadle Szklarskie, powiat przeworski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.911194675380315,
+            "lon": 22.283135694010582,
+            "name": "Park dworski",
+            "osm_id": 532193967,
+            "leisure": "park",
+            "ref:nid": "A-169",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q24945734",
+            "wikipedia": "pl:Zespół dworski w Hadlach Szklarskich",
+            "start_date": "~1900"
+          }
+        },
+        "ref_other": {
+          "nid": "A-169"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q24945734",
+          "wikipedia": "pl:Zespół dworski w Hadlach Szklarskich"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-169"
+        },
+        "distance": 24428,
+        "place_id": "51101bb2947b483640591e86f106a2f44840f00102f901afa2b81f0000000092030c5061726b2064776f72736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.283135694010582,
+          49.911194675380315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Babia Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Lutcza",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-112",
+        "iso3166_2": "PL-18",
+        "lon": 21.9272736,
+        "lat": 49.8213481,
+        "state_code": "PK",
+        "formatted": "Babia Góra, 38-112 Lutcza, Polska",
+        "address_line1": "Babia Góra",
+        "address_line2": "38-112 Lutcza, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8213481,
+            "lon": 21.9272736,
+            "name": "Babia Góra",
+            "osm_id": 5245675329,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24611,
+        "place_id": "51b6717acd61ed354059dd103eef21e94840f00103f90141a7aa380100000092030b42616269612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9272736,
+          49.8213481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Przedbórz",
+        "hamlet": "Podlesie",
+        "municipality": "gmina Kolbuszowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.745582,
+        "lat": 50.1830657,
+        "state_code": "PK",
+        "formatted": "Przedbórz, powiat kolbuszowski, Polska",
+        "address_line1": "Przedbórz",
+        "address_line2": "powiat kolbuszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.183184187674556,
+            "lon": 21.745583465272368,
+            "osm_id": 1095601875,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 24619,
+        "place_id": "517ec8d78edebe354059709a579472174940f00102f901d38e4d4100000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.745583465272368,
+          50.183184187674556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Gnojnica",
+        "municipality": "gmina Ropczyce",
+        "postcode": "39-105",
+        "iso3166_2": "PL-18",
+        "lon": 21.6596975,
+        "lat": 50.0313538,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 39-105 Gnojnica, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "39-105 Gnojnica, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0313538,
+            "lon": 21.6596975,
+            "name": "Łysa Góra",
+            "osm_id": 5245675416,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24675,
+        "place_id": "51c2c073efe1a83540597bcdbc6603044940f00103f90198a7aa380100000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6596975,
+          50.0313538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bąkowa Górka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Markowa",
+        "municipality": "gmina Markowa",
+        "postcode": "37-120",
+        "iso3166_2": "PL-18",
+        "lon": 22.3468522,
+        "lat": 50.0106854,
+        "state_code": "PK",
+        "formatted": "Bąkowa Górka, 37-120 Markowa, Polska",
+        "address_line1": "Bąkowa Górka",
+        "address_line2": "37-120 Markowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0106854,
+            "lon": 22.3468522,
+            "name": "Bąkowa Górka",
+            "osm_id": 5244357244,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24743,
+        "place_id": "51b08b474ecb58364059b8c5a1235e014940f00103f9017c8a96380100000092030e42c4856b6f77612047c3b3726b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3468522,
+          50.0106854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Raniżów",
+        "hamlet": "Piaski",
+        "municipality": "gmina Raniżów",
+        "iso3166_2": "PL-18",
+        "lon": 21.9720828,
+        "lat": 50.2588463,
+        "state_code": "PK",
+        "formatted": "Raniżów, powiat kolbuszowski, Polska",
+        "address_line1": "Raniżów",
+        "address_line2": "powiat kolbuszowski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.25879661914963,
+            "lon": 21.972117644980706,
+            "osm_id": 243209594,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 24776,
+        "place_id": "51820eb5b3dcf835405911c8633f20214940f00102f9017a157f0e00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.972117644980706,
+          50.25879661914963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "iso3166_2": "PL-18",
+        "lon": 21.7691306,
+        "lat": 49.8731138,
+        "state_code": "PK",
+        "formatted": "Strzyżów, powiat strzyżowski, Polska",
+        "address_line1": "Strzyżów",
+        "address_line2": "powiat strzyżowski, Polska",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [
+          "details",
+          "details.heritage"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8730095417711,
+            "lon": 21.769194176269465,
+            "osm_id": 386795901,
+            "leisure": "park",
+            "ref:nid": "A-1126",
+            "heritage": 2,
+            "osm_type": "w",
+            "start_date": "before 1850"
+          }
+        },
+        "ref_other": {
+          "nid": "A-1126"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-1126"
+        },
+        "distance": 24832,
+        "place_id": "51dc59d7e8e9c43540595c80d3c6beef4840f00102f9017d090e1700000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.769194176269465,
+          49.8730095417711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Straśliwy",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Dobrzechów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-122",
+        "iso3166_2": "PL-18",
+        "lon": 21.7476192,
+        "lat": 49.8870344,
+        "state_code": "PK",
+        "formatted": "Straśliwy, 38-122 Dobrzechów, Polska",
+        "address_line1": "Straśliwy",
+        "address_line2": "38-122 Dobrzechów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8870344,
+            "lon": 21.7476192,
+            "name": "Straśliwy",
+            "osm_id": 5245675556,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24832,
+        "place_id": "5197dccdf863bf354059a736dd578af14840f00103f90124a8aa380100000092030a53747261c59b6c697779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7476192,
+          49.8870344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Zawadka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.6966813,
+        "lat": 49.9314441,
+        "state_code": "PK",
+        "formatted": "Dział, 38-102 Zawadka, Polska",
+        "address_line1": "Dział",
+        "address_line2": "38-102 Zawadka, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9314441,
+            "lon": 21.6966813,
+            "name": "Dział",
+            "osm_id": 5245675547,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24973,
+        "place_id": "511a3ca7b459b2354059adc66d8f39f74840f00103f9011ba8aa3801000000920306447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6966813,
+          49.9314441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Za Figurą",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Grodzisko",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.707582,
+        "lat": 49.9183094,
+        "state_code": "PK",
+        "formatted": "Za Figurą, 38-102 Grodzisko, Polska",
+        "address_line1": "Za Figurą",
+        "address_line2": "38-102 Grodzisko, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9183094,
+            "lon": 21.707582,
+            "name": "Za Figurą",
+            "osm_id": 5245675551,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25027,
+        "place_id": "51ff3c0d1824b5354059004e94298bf54840f00103f9011fa8aa380100000092030a5a61204669677572c485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.707582,
+          49.9183094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Folwark",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Lutcza",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-112",
+        "iso3166_2": "PL-18",
+        "lon": 21.8863582,
+        "lat": 49.8251846,
+        "state_code": "PK",
+        "formatted": "Folwark, 38-112 Lutcza, Polska",
+        "address_line1": "Folwark",
+        "address_line2": "38-112 Lutcza, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8251846,
+            "lon": 21.8863582,
+            "name": "Folwark",
+            "osm_id": 5245675340,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25028,
+        "place_id": "519b8af95ee8e2354059d81423a69fe94840f00103f9014ca7aa3801000000920307466f6c7761726b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8863582,
+          49.8251846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisie Góry",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Żołynia",
+        "municipality": "gmina Żołynia",
+        "postcode": "37-110",
+        "iso3166_2": "PL-18",
+        "lon": 22.3162654,
+        "lat": 50.1393802,
+        "state_code": "PK",
+        "formatted": "Lisie Góry, 37-110 Żołynia, Polska",
+        "address_line1": "Lisie Góry",
+        "address_line2": "37-110 Żołynia, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1393802,
+            "lon": 22.3162654,
+            "name": "Lisie Góry",
+            "osm_id": 5253712281,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25081,
+        "place_id": "513adbedc4f650364059df5adc35d7114940f00103f901994925390100000092030b4c697369652047c3b37279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3162654,
+          50.1393802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamieniec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Lutcza",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-112",
+        "iso3166_2": "PL-18",
+        "lon": 21.8998449,
+        "lat": 49.8205382,
+        "state_code": "PK",
+        "formatted": "Kamieniec, 38-112 Lutcza, Polska",
+        "address_line1": "Kamieniec",
+        "address_line2": "38-112 Lutcza, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8205382,
+            "lon": 21.8998449,
+            "name": "Kamieniec",
+            "osm_id": 5245675341,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25211,
+        "place_id": "51eff8403c5ce6354059320f4f6507e94840f00103f9014da7aa38010000009203094b616d69656e696563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8998449,
+          49.8205382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plebańskie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Grodzisko",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.7017537,
+        "lat": 49.9195882,
+        "state_code": "PK",
+        "formatted": "Plebańskie, 38-102 Grodzisko, Polska",
+        "address_line1": "Plebańskie",
+        "address_line2": "38-102 Grodzisko, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9195882,
+            "lon": 21.7017537,
+            "name": "Plebańskie",
+            "osm_id": 5245675548,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25309,
+        "place_id": "51d5586721a6b3354059cd64ee10b5f54840f00103f9011ca8aa380100000092030b506c656261c584736b6965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7017537,
+          49.9195882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stecówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "gmina Wiśniowa",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.7010558,
+        "lat": 49.9183188,
+        "state_code": "PK",
+        "formatted": "Stecówka, 38-102 gmina Wiśniowa, Polska",
+        "address_line1": "Stecówka",
+        "address_line2": "38-102 gmina Wiśniowa, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9183188,
+            "lon": 21.7010558,
+            "name": "Stecówka",
+            "osm_id": 5245675549,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25425,
+        "place_id": "51ceab956478b3354059a7a66e788bf54840f00103f9011da8aa380100000092030953746563c3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7010558,
+          49.9183188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat przeworski",
+        "city": "Sietesz",
+        "hamlet": "Sietesz Dolna",
+        "municipality": "gmina Kańczuga",
+        "iso3166_2": "PL-18",
+        "lon": 22.353966,
+        "lat": 49.9981124,
+        "state_code": "PK",
+        "formatted": "Sietesz, powiat przeworski, Polska",
+        "address_line1": "Sietesz",
+        "address_line2": "powiat przeworski, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.99835701468006,
+            "lon": 22.353956541711636,
+            "osm_id": 222133784,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 25447,
+        "place_id": "5153db5ae59c5a3640593be4a329caff4840f00102f901187e3d0d00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.353956541711636,
+          49.99835701468006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bania",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Łubno",
+        "municipality": "gmina Dynów",
+        "postcode": "36-034",
+        "iso3166_2": "PL-18",
+        "lon": 22.1220283,
+        "lat": 49.8209184,
+        "state_code": "PK",
+        "formatted": "Bania, 36-034 Łubno, Polska",
+        "address_line1": "Bania",
+        "address_line2": "36-034 Łubno, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 455,
+            "lat": 49.8209184,
+            "lon": 22.1220283,
+            "name": "Bania",
+            "osm_id": 2729916594,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 455,
+        "distance": 25485,
+        "place_id": "51bdaf253f3d1f364059a257a8da13e94840f00103f901b238b7a20000000092030542616e6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1220283,
+          49.8209184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giewont",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Żołynia",
+        "municipality": "gmina Żołynia",
+        "postcode": "37-110",
+        "iso3166_2": "PL-18",
+        "lon": 22.3112132,
+        "lat": 50.1535488,
+        "state_code": "PK",
+        "formatted": "Giewont, 37-110 Żołynia, Polska",
+        "address_line1": "Giewont",
+        "address_line2": "37-110 Żołynia, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1535488,
+            "lon": 22.3112132,
+            "name": "Giewont",
+            "osm_id": 5253712252,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25520,
+        "place_id": "51611514abab4f364059872bb17ca7134940f00103f9017c49253901000000920307476965776f6e74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3112132,
+          50.1535488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Francicowa Górka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Dobrzechów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-122",
+        "iso3166_2": "PL-18",
+        "lon": 21.7397071,
+        "lat": 49.882279,
+        "state_code": "PK",
+        "formatted": "Francicowa Górka, 38-122 Dobrzechów, Polska",
+        "address_line1": "Francicowa Górka",
+        "address_line2": "38-122 Dobrzechów, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.882279,
+            "lon": 21.7397071,
+            "name": "Francicowa Górka",
+            "osm_id": 5245675557,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25609,
+        "place_id": "51771ecb715dbd3540594a79ad84eef04840f00103f90125a8aa38010000009203114672616e6369636f77612047c3b3726b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7397071,
+          49.882279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostry Dział",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Łubno",
+        "municipality": "gmina Dynów",
+        "postcode": "36-034",
+        "iso3166_2": "PL-18",
+        "lon": 22.1636471,
+        "lat": 49.8309429,
+        "state_code": "PK",
+        "formatted": "Ostry Dział, 36-034 Łubno, Polska",
+        "address_line1": "Ostry Dział",
+        "address_line2": "36-034 Łubno, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 421.96,
+            "lat": 49.8309429,
+            "lon": 22.1636471,
+            "name": "Ostry Dział",
+            "osm_id": 2730063613,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "ele": 421.96,
+        "distance": 25625,
+        "place_id": "51d295bec6e429364059f42b42565cea4840f00103f901fd76b9a20000000092030c4f7374727920447a6961c582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1636471,
+          49.8309429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Góra Wysoka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Harta",
+        "municipality": "gmina Dynów",
+        "postcode": "36-067",
+        "iso3166_2": "PL-18",
+        "lon": 22.2048977,
+        "lat": 49.8462132,
+        "state_code": "PK",
+        "formatted": "Góra Wysoka, 36-067 Harta, Polska",
+        "address_line1": "Góra Wysoka",
+        "address_line2": "36-067 Harta, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8462132,
+            "lon": 22.2048977,
+            "name": "Góra Wysoka",
+            "osm_id": 5245820584,
+            "natural": "peak",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25657,
+        "place_id": "518f86f82c7434364059c5b8d1b650ec4840f00103f901a8deac380100000092030c47c3b37261205779736f6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2048977,
+          49.8462132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Białobrzegi",
+        "hamlet": "Biłgoraj",
+        "municipality": "gmina Białobrzegi",
+        "iso3166_2": "PL-18",
+        "lon": 22.3383653,
+        "lat": 50.1203208,
+        "state_code": "PK",
+        "formatted": "Białobrzegi, powiat łańcucki, Polska",
+        "address_line1": "Białobrzegi",
+        "address_line2": "powiat łańcucki, Polska",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.12031033159238,
+            "lon": 22.338316473408476,
+            "osm_id": 405000675,
+            "leisure": "park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 25661,
+        "place_id": "51cafc8ce89b56364059b4c73554660f4940f00102f901e3d1231800000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.338316473408476,
+          50.12031033159238
+        ]
+      }
+    }
+  ]
+}

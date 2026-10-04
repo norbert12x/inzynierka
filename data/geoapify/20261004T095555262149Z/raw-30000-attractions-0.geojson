@@ -1,0 +1,6076 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ziemia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Króla Kazimierza",
+        "iso3166_2": "PL-18",
+        "lon": 22.0041042,
+        "lat": 50.0369208,
+        "state_code": "PK",
+        "formatted": "Ziemia, Króla Kazimierza, 35-060 Rzeszów, Polska",
+        "address_line1": "Ziemia",
+        "address_line2": "Króla Kazimierza, 35-060 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0369208,
+            "lon": 22.0041042,
+            "name": "Ziemia",
+            "osm_id": 10054656689,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q2"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 12,
+        "place_id": "51b8c60cf90c0136405965451ed2b9044940f00103f901b1e24d57020000009203065a69656d6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0041042,
+          50.0369208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Księżyc",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Króla Kazimierza",
+        "iso3166_2": "PL-18",
+        "lon": 22.0041065,
+        "lat": 50.0369215,
+        "state_code": "PK",
+        "formatted": "Księżyc, Króla Kazimierza, 35-060 Rzeszów, Polska",
+        "address_line1": "Księżyc",
+        "address_line2": "Króla Kazimierza, 35-060 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0369215,
+            "lon": 22.0041065,
+            "name": "Księżyc",
+            "osm_id": 10054656688,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Element modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q405"
+          }
+        },
+        "description": "Element modelu układu słonecznego nad Wisłokiem",
+        "distance": 12,
+        "place_id": "517633a31f0d013640597782fdd7b9044940f00103f901b0e24d57020000009203094b7369c499c5bc7963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0041065,
+          50.0369215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pomnik Kazimierza Górskiego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Juliusza Słowackiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0037651,
+        "lat": 50.0365816,
+        "state_code": "PK",
+        "formatted": "Pomnik Kazimierza Górskiego, Juliusza Słowackiego, 35-060 Rzeszów, Polska",
+        "address_line1": "Pomnik Kazimierza Górskiego",
+        "address_line2": "Juliusza Słowackiego, 35-060 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "details": [
+          "details.artwork",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0365816,
+            "lon": 22.0037651,
+            "name": "Pomnik Kazimierza Górskiego",
+            "image": "https://photos.app.goo.gl/2w6Qb93YCUsRemSs6",
+            "osm_id": 3007652476,
+            "tourism": "artwork",
+            "historic": "memorial",
+            "memorial": "sculpture",
+            "osm_type": "n",
+            "inscription": "Piłka jest jedna, a bramki są dwie. Albo my wygramy, albo oni.",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/2w6Qb93YCUsRemSs6"
+        },
+        "historic": {
+          "type": "memorial",
+          "memorial": "sculpture",
+          "inscription": "Piłka jest jedna, a bramki są dwie. Albo my wygramy, albo oni.",
+          "artwork_type": "sculpture"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 49,
+        "place_id": "51bd5de5bff60036405953d1b3b4ae044940f00103f9017c2245b30000000092031c506f6d6e696b204b617a696d6965727a612047c3b372736b6965676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0037651,
+          50.0365816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Słońce",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Rynek",
+        "housenumber": "26",
+        "iso3166_2": "PL-18",
+        "lon": 22.0041042,
+        "lat": 50.0375236,
+        "state_code": "PK",
+        "formatted": "Słońce, Rynek 26, 35-060 Rzeszów, Polska",
+        "address_line1": "Słońce",
+        "address_line2": "Rynek 26, 35-060 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0375236,
+            "lon": 22.0041042,
+            "city": "Rzeszów",
+            "name": "Słońce",
+            "osm_id": 10054656692,
+            "street": "Rynek",
+            "tourism": "attraction",
+            "osm_type": "n",
+            "_inherited": "",
+            "description": "Element modelu układu słonecznego nad Wisłokiem",
+            "housenumber": 26,
+            "subject:wikidata": "Q525"
+          }
+        },
+        "description": "Element modelu układu słonecznego nad Wisłokiem",
+        "distance": 59,
+        "place_id": "51b8c60cf90c01364059026ac592cd044940f00103f901b4e24d570200000092030853c5826fc5846365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0041042,
+          50.0375236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wenus",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-061",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Rynek",
+        "iso3166_2": "PL-18",
+        "lon": 22.0047532,
+        "lat": 50.0373834,
+        "state_code": "PK",
+        "formatted": "Wenus, Rynek, 35-061 Rzeszów, Polska",
+        "address_line1": "Wenus",
+        "address_line2": "Rynek, 35-061 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0373834,
+            "lon": 22.0047532,
+            "name": "Wenus",
+            "osm_id": 10054656690,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q313"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 69,
+        "place_id": "51258d76813701364059e734b0fac8044940f00103f901b2e24d570200000092030557656e7573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0047532,
+          50.0373834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Merkury",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Rynek",
+        "iso3166_2": "PL-18",
+        "lon": 22.0042811,
+        "lat": 50.0377691,
+        "state_code": "PK",
+        "formatted": "Merkury, Rynek, 35-060 Rzeszów, Polska",
+        "address_line1": "Merkury",
+        "address_line2": "Rynek, 35-060 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0377691,
+            "lon": 22.0042811,
+            "name": "Merkury",
+            "osm_id": 10054656691,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q308"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 88,
+        "place_id": "51ac7df090180136405951a62c9ed5044940f00103f901b3e24d57020000009203074d65726b757279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0042811,
+          50.0377691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mars",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-061",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Baldachówka",
+        "iso3166_2": "PL-18",
+        "lon": 22.0055181,
+        "lat": 50.0371387,
+        "state_code": "PK",
+        "formatted": "Mars, Baldachówka, 35-061 Rzeszów, Polska",
+        "address_line1": "Mars",
+        "address_line2": "Baldachówka, 35-061 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371387,
+            "lon": 22.0055181,
+            "name": "Mars",
+            "osm_id": 10054656687,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q111"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 110,
+        "place_id": "513b095ba269013640593ef5fef5c0044940f00103f901afe24d57020000009203044d617273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0055181,
+          50.0371387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jan Nepomucen",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-069",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Plac Biskupów Janów z Rzeszowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.0022808,
+        "lat": 50.0377269,
+        "state_code": "PK",
+        "formatted": "Jan Nepomucen, Plac Biskupów Janów z Rzeszowa, 35-069 Rzeszów, Polska",
+        "address_line1": "Jan Nepomucen",
+        "address_line2": "Plac Biskupów Janów z Rzeszowa, 35-069 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0377269,
+            "lon": 22.0022808,
+            "name": "Jan Nepomucen",
+            "image": "https://photos.app.goo.gl/Vzv48eWnXt1RzFsq8",
+            "osm_id": 12613564008,
+            "tourism": "artwork",
+            "material": "sandstone",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/Vzv48eWnXt1RzFsq8"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 147,
+        "place_id": "51a26879799500364059f9d62c3cd4044940f00103f90168b6d3ef0200000092030d4a616e204e65706f6d7563656e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0022808,
+          50.0377269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ceres",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.0015953,
+        "lat": 50.0370707,
+        "state_code": "PK",
+        "formatted": "Ceres, 3 Maja, 35-030 Rzeszów, Polska",
+        "address_line1": "Ceres",
+        "address_line2": "3 Maja, 35-030 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0370707,
+            "lon": 22.0015953,
+            "name": "Ceres",
+            "image": "https://photos.app.goo.gl/QruT4HjjZK3YVFh37",
+            "osm_id": 10054656686,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q596"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/QruT4HjjZK3YVFh37"
+        },
+        "distance": 172,
+        "place_id": "51cb53b18c6800364059e61192bbbe044940f00103f901aee24d57020000009203054365726573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0015953,
+          50.0370707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irena Sendler",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-002",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Mikołaja Kopernika",
+        "iso3166_2": "PL-18",
+        "lon": 22.0061145,
+        "lat": 50.038057,
+        "state_code": "PK",
+        "formatted": "Irena Sendler, Mikołaja Kopernika, 35-002 Rzeszów, Polska",
+        "address_line1": "Irena Sendler",
+        "address_line2": "Mikołaja Kopernika, 35-002 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.038057,
+            "lon": 22.0061145,
+            "name": "Irena Sendler",
+            "image": "https://photos.app.goo.gl/A568Zrueb7Nk6g2j9",
+            "osm_id": 12378860661,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "start_date": "2018-09-07",
+            "artist_name": "Mateusz Kołek",
+            "artwork_type": "mural"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/A568Zrueb7Nk6g2j9"
+        },
+        "artwork": {
+          "artist_name": "Mateusz Kołek",
+          "artwork_type": "mural",
+          "start_date": "2018-09-07"
+        },
+        "distance": 192,
+        "place_id": "51098849b890013640592331410ddf044940f00103f901756cd6e10200000092030d4972656e612053656e646c6572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0061145,
+          50.038057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Przejście 2001",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-055",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Ludwika Zamenhofa",
+        "iso3166_2": "PL-18",
+        "lon": 22.0068906,
+        "lat": 50.0372127,
+        "state_code": "PK",
+        "formatted": "Przejście 2001, Ludwika Zamenhofa, 35-055 Rzeszów, Polska",
+        "address_line1": "Przejście 2001",
+        "address_line2": "Ludwika Zamenhofa, 35-055 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.facilities",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0372127,
+            "lon": 22.0068906,
+            "url": "https://fotopolska.eu/Skwer-Cichociemnych-Pomnik-Przejscie-2001?map_z=19",
+            "name": "Przejście 2001",
+            "image": "https://photos.app.goo.gl/QcwHuVCt9x67aqRC9",
+            "url:0": "https://polska-org.pl/7311971,Rzeszow,Pomnik_Przejscie_2001.html",
+            "osm_id": 3925986701,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wheelchair": "yes",
+            "artist_name": "Józef Szajna",
+            "artwork_type": "sculpture"
+          }
+        },
+        "website": "https://fotopolska.eu/Skwer-Cichociemnych-Pomnik-Przejscie-2001?map_z=19",
+        "facilities": {
+          "wheelchair": true
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/QcwHuVCt9x67aqRC9"
+        },
+        "artwork": {
+          "artist_name": "Józef Szajna",
+          "artwork_type": "sculpture"
+        },
+        "distance": 208,
+        "place_id": "515aa61595c30136405978bfc062c3044940f00103f9018dcd01ea0000000092030f50727a656ac59b6369652032303031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0068906,
+          50.0372127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stanisław Konarski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.0011485,
+        "lat": 50.0357972,
+        "state_code": "PK",
+        "formatted": "Stanisław Konarski, 3 Maja, 35-030 Rzeszów, Polska",
+        "address_line1": "Stanisław Konarski",
+        "address_line2": "3 Maja, 35-030 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0357972,
+            "lon": 22.0011485,
+            "url": "https://fotopolska.eu/I-Liceum-Ogolnoksztalcace-im.-ks.-Stanislawa-Konarskiego-Pomnik-?map_z=19",
+            "name": "Stanisław Konarski",
+            "image": "https://photos.app.goo.gl/guBEVge7a5wJhqhQA",
+            "url:0": "https://polska-org.pl/8341691,Rzeszow,Pomnik_Stanislawa_Konarskiego.html",
+            "osm_id": 11832521116,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wikidata": "Q314261",
+            "wikipedia": "pl:Stanisław Konarski",
+            "inscription": "ks. Stanisław Konarski 1770-1775",
+            "artwork_type": "bust"
+          }
+        },
+        "website": "https://fotopolska.eu/I-Liceum-Ogolnoksztalcace-im.-ks.-Stanislawa-Konarskiego-Pomnik-?map_z=19",
+        "wiki_and_media": {
+          "wikidata": "Q314261",
+          "wikipedia": "pl:Stanisław Konarski",
+          "image": "https://photos.app.goo.gl/guBEVge7a5wJhqhQA"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 244,
+        "place_id": "5180f0a1444b00364059e9a4ad0095044940f00103f9019cf145c1020000009203135374616e6973c5826177204b6f6e6172736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0011485,
+          50.0357972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ptak",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.0011395,
+        "lat": 50.0353794,
+        "state_code": "PK",
+        "formatted": "Ptak, 3 Maja, 35-030 Rzeszów, Polska",
+        "address_line1": "Ptak",
+        "address_line2": "3 Maja, 35-030 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0353794,
+            "lon": 22.0011395,
+            "name": "Ptak",
+            "image": "https://photos.app.goo.gl/LAK4TrNYUh3aMuof9",
+            "osm_id": 11832521118,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "artist_name": "Andrzej Litwahttps://photos.app.goo.gl/aXhyvTiEwbntHuaZ9",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/LAK4TrNYUh3aMuof9"
+        },
+        "artwork": {
+          "artist_name": "Andrzej Litwahttps://photos.app.goo.gl/aXhyvTiEwbntHuaZ9",
+          "artwork_type": "sculpture"
+        },
+        "distance": 273,
+        "place_id": "51da3ba3ad4a00364059def9ea4f87044940f00103f9019ef145c1020000009203045074616b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0011395,
+          50.0353794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strusie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.0011356,
+        "lat": 50.0352764,
+        "state_code": "PK",
+        "formatted": "Strusie, 3 Maja, 35-030 Rzeszów, Polska",
+        "address_line1": "Strusie",
+        "address_line2": "3 Maja, 35-030 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0352764,
+            "lon": 22.0011356,
+            "name": "Strusie",
+            "image": "https://photos.app.goo.gl/rA6Do6Y2N1kYJu8M7",
+            "osm_id": 11832521119,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "artist_name": "Marcin Szczepaniak",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/rA6Do6Y2N1kYJu8M7"
+        },
+        "artwork": {
+          "artist_name": "Marcin Szczepaniak",
+          "artwork_type": "sculpture"
+        },
+        "distance": 281,
+        "place_id": "5181dc346c4a003640590a29e4ef83044940f00103f9019ff145c10200000092030753747275736965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0011356,
+          50.0352764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plan Wiedemanna",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-069",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Sokoła",
+        "iso3166_2": "PL-18",
+        "lon": 22.00079,
+        "lat": 50.0384928,
+        "state_code": "PK",
+        "formatted": "Plan Wiedemanna, Sokoła, 35-069 Rzeszów, Polska",
+        "address_line1": "Plan Wiedemanna",
+        "address_line2": "Sokoła, 35-069 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0384928,
+            "lon": 22.00079,
+            "name": "Plan Wiedemanna",
+            "image": "https://photos.app.goo.gl/pUiWsBzM78F51QgK9",
+            "osm_id": 3424126092,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/pUiWsBzM78F51QgK9"
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 284,
+        "place_id": "51f12900c63300364059d4900255ed044940f00103f9018c0418cc0000000092030f506c616e2057696564656d616e6e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.00079,
+          50.0384928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PZL 37 Łoś",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-068",
+        "suburb": "Śródmieście",
+        "street": "Jana III Sobieskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0031716,
+        "lat": 50.0395261,
+        "state_code": "PK",
+        "formatted": "PZL 37 Łoś, Jana III Sobieskiego, 35-068 Rzeszów, Polska",
+        "address_line1": "PZL 37 Łoś",
+        "address_line2": "Jana III Sobieskiego, 35-068 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03952610862835,
+            "lon": 22.003171648911323,
+            "name": "PZL 37 Łoś",
+            "osm_id": 1161787472,
+            "tourism": "artwork",
+            "osm_type": "w",
+            "start_date": "2016-06-26",
+            "artwork_type": "mural",
+            "subject:wikidata": "Q925815",
+            "subject:wikipedia": "pl:PZL.37 Łoś",
+            "wikimedia_commons": "File:Rzeszów (ul. Grunwaldzka 22) - mural.jpg"
+          }
+        },
+        "wiki_and_media": {
+          "wikimedia_commons": "File:Rzeszów (ul. Grunwaldzka 22) - mural.jpg"
+        },
+        "artwork": {
+          "artwork_type": "mural",
+          "start_date": "2016-06-26"
+        },
+        "distance": 287,
+        "place_id": "51395970dbcf00364059cef207310f054940f00102f90150783f450000000092030c505a4c20333720c5816fc59b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.003171648911323,
+          50.03952610862835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Déballage",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-069",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Sokoła",
+        "iso3166_2": "PL-18",
+        "lon": 22.0004056,
+        "lat": 50.0386563,
+        "state_code": "PK",
+        "formatted": "Déballage, Sokoła, 35-069 Rzeszów, Polska",
+        "address_line1": "Déballage",
+        "address_line2": "Sokoła, 35-069 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0386563,
+            "lon": 22.0004056,
+            "name": "Déballage",
+            "image": "https://photos.app.goo.gl/ipkAJ2fqBemD8i5z8",
+            "osm_id": 11145350758,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wikidata": "Q121845218",
+            "artist_name": "Józef Szajna",
+            "artwork_type": "mural"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q121845218",
+          "image": "https://photos.app.goo.gl/ipkAJ2fqBemD8i5z8"
+        },
+        "artwork": {
+          "artist_name": "Józef Szajna",
+          "artwork_type": "mural"
+        },
+        "distance": 317,
+        "place_id": "513abcd6941a0036405966248cb0f2044940f00103f901668e50980200000092030a44c3a962616c6c616765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0004056,
+          50.0386563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "150 lat Rzeszowskiej Straży Pożarnej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-065",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Adama Mickiewicza",
+        "iso3166_2": "PL-18",
+        "lon": 22.0086695,
+        "lat": 50.0375042,
+        "state_code": "PK",
+        "formatted": "150 lat Rzeszowskiej Straży Pożarnej, Adama Mickiewicza, 35-065 Rzeszów, Polska",
+        "address_line1": "150 lat Rzeszowskiej Straży Pożarnej",
+        "address_line2": "Adama Mickiewicza, 35-065 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0375042,
+            "lon": 22.0086695,
+            "name": "150 lat Rzeszowskiej Straży Pożarnej",
+            "osm_id": 10292948203,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "start_date": 2022,
+            "artist_name": "Michał Czerko",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Michał Czerko",
+          "artwork_type": "mural",
+          "start_date": 2022
+        },
+        "distance": 339,
+        "place_id": "5101f9122a3802364059383b08f0cc044940f00103f901ebec816502000000920326313530206c617420527a65737a6f77736b69656a2053747261c5bc7920506fc5bc61726e656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0086695,
+          50.0375042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9993462,
+        "lat": 50.0379966,
+        "state_code": "PK",
+        "formatted": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Stanisława Moniuszki",
+        "address_line2": "35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0379966,
+            "lon": 21.9993462,
+            "osm_id": 11145350757,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wikidata": "Q121845619",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q121845619"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 351,
+        "place_id": "51c3610e27d5ff354059fa2d9512dd044940f00103f901658e509802000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9993462,
+          50.0379966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-030",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "3 Maja",
+        "housenumber": "30",
+        "iso3166_2": "PL-18",
+        "lon": 22.0007588,
+        "lat": 50.03462,
+        "state_code": "PK",
+        "formatted": "3 Maja 30, 35-030 Rzeszów, Polska",
+        "address_line1": "3 Maja 30",
+        "address_line2": "35-030 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.03462,
+            "lon": 22.0007588,
+            "city": "Rzeszów",
+            "image": "https://photos.app.goo.gl/czvZ6Kr136HBeH7Q6",
+            "osm_id": 13089800052,
+            "street": "3 Maja",
+            "covered": "yes",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "_inherited": "",
+            "housenumber": 30,
+            "artwork_type": "graffiti"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/czvZ6Kr136HBeH7Q6"
+        },
+        "artwork": {
+          "artwork_type": "graffiti"
+        },
+        "distance": 352,
+        "place_id": "51282f8dba3100364059cde49b6d6e044940f00103f901747f360c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0007588,
+          50.03462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Letni Pałac Lubomirskich",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-060",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Jana Dekerta",
+        "housenumber": "2",
+        "iso3166_2": "PL-18",
+        "lon": 22.0024241,
+        "lat": 50.0339617,
+        "state_code": "PK",
+        "formatted": "Letni Pałac Lubomirskich, Jana Dekerta 2, 35-060 Rzeszów, Polska",
+        "address_line1": "Letni Pałac Lubomirskich",
+        "address_line2": "Jana Dekerta 2, 35-060 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.033961360576704,
+            "lon": 22.002424090882858,
+            "url": "https://polska-org.pl/7228950,Rzeszow,Palac_letni_Lubomirskich_Okregowa_Izba_Lekarska.html",
+            "city": "Rzeszów",
+            "name": "Letni Pałac Lubomirskich",
+            "image": "https://photos.app.goo.gl/iYwvR8ve57ifYdvb9",
+            "url:0": "https://fotopolska.eu/32831,obiekt.html?map_z=18",
+            "osm_id": 182160213,
+            "street": "Jana Dekerta",
+            "name:pl": "Letni Pałac Lubomirskich",
+            "name:uk": "Літній палац Любомирських",
+            "ref:nid": "A-292",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "osm_type": "w",
+            "wikidata": "Q11755239",
+            "wikipedia": "pl:Letni Pałac Lubomirskich w Rzeszowie",
+            "start_date": "after 1700",
+            "housenumber": 2,
+            "addr:housename": "Letni Pałac Lubomirskich"
+          }
+        },
+        "website": "https://polska-org.pl/7228950,Rzeszow,Palac_letni_Lubomirskich_Okregowa_Izba_Lekarska.html",
+        "name_international": {
+          "pl": "Letni Pałac Lubomirskich",
+          "uk": "Літній палац Любомирських"
+        },
+        "ref_other": {
+          "nid": "A-292"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11755239",
+          "wikipedia": "pl:Letni Pałac Lubomirskich w Rzeszowie",
+          "image": "https://photos.app.goo.gl/iYwvR8ve57ifYdvb9"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-292"
+        },
+        "building": {
+          "start_date": "after 1700"
+        },
+        "distance": 356,
+        "place_id": "517d107fdd9e0036405997808ad858044940f00102f901558bdb0a000000009203194c65746e69205061c5826163204c75626f6d6972736b696368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.002424090882858,
+          50.033961360576704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Błogosławiona Rodzina Ulmów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-073",
+        "suburb": "Śródmieście",
+        "street": "Plac Wolności",
+        "housenumber": "1",
+        "iso3166_2": "PL-18",
+        "lon": 22.00849,
+        "lat": 50.0386303,
+        "state_code": "PK",
+        "formatted": "Błogosławiona Rodzina Ulmów, Plac Wolności 1, 35-073 Rzeszów, Polska",
+        "address_line1": "Błogosławiona Rodzina Ulmów",
+        "address_line2": "Plac Wolności 1, 35-073 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0386303,
+            "lon": 22.00849,
+            "city": "Rzeszów",
+            "name": "Błogosławiona Rodzina Ulmów",
+            "image": "https://photos.app.goo.gl/yE3KSCUsVByf83fb9",
+            "osm_id": 11226018358,
+            "street": "Plac Wolności",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "_inherited": "",
+            "artist_name": "Arkadiusz Andrejkow",
+            "housenumber": 1,
+            "artwork_type": "mural"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/yE3KSCUsVByf83fb9"
+        },
+        "artwork": {
+          "artist_name": "Arkadiusz Andrejkow",
+          "artwork_type": "mural"
+        },
+        "distance": 369,
+        "place_id": "51d15790662c023640593d9171d6f1044940f00103f90136721f9d0200000092031e42c5826f676f73c5826177696f6e6120526f647a696e6120556c6dc3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.00849,
+          50.0386303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taniec Życia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-001",
+        "suburb": "Śródmieście",
+        "street": "Sokoła",
+        "iso3166_2": "PL-18",
+        "lon": 21.9999277,
+        "lat": 50.0390491,
+        "state_code": "PK",
+        "formatted": "Taniec Życia, Sokoła, 35-001 Rzeszów, Polska",
+        "address_line1": "Taniec Życia",
+        "address_line2": "Sokoła, 35-001 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0390491,
+            "lon": 21.9999277,
+            "name": "Taniec Życia",
+            "image": "https://photos.app.goo.gl/n1e1PcZBquenj4HdAhttps://photos.app.goo.gl/Zm7PDct4hXaumGx5A",
+            "osm_id": 10073061032,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wikidata": "Q113486099",
+            "artist_name": "Krzysztof Brzuzan",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q113486099",
+          "image": "https://photos.app.goo.gl/n1e1PcZBquenj4HdAhttps://photos.app.goo.gl/Zm7PDct4hXaumGx5A"
+        },
+        "artwork": {
+          "artist_name": "Krzysztof Brzuzan",
+          "artwork_type": "sculpture"
+        },
+        "distance": 370,
+        "place_id": "5150dd0143fbff35405918b8978fff044940f00103f901a8b666580200000092030d54616e69656320c5bb79636961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9999277,
+          50.0390491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-001",
+        "suburb": "Śródmieście",
+        "street": "Jana III Sobieskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0001063,
+        "lat": 50.0392298,
+        "state_code": "PK",
+        "formatted": "Jana III Sobieskiego, 35-001 Rzeszów, Polska",
+        "address_line1": "Jana III Sobieskiego",
+        "address_line2": "35-001 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0392298,
+            "lon": 22.0001063,
+            "url": "https://fotopolska.eu/341924,obiekt.html?map_z=19",
+            "image": "https://photos.app.goo.gl/NJjFjtkjyAuYXdRJ8",
+            "osm_id": 11234581514,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "website": "https://fotopolska.eu/341924,obiekt.html?map_z=19",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/NJjFjtkjyAuYXdRJ8"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 373,
+        "place_id": "5108066bf70600364059aa036a7b05054940f00103f9010a1ca29d02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0001063,
+          50.0392298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jowisz",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-065",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Adama Mickiewicza",
+        "iso3166_2": "PL-18",
+        "lon": 22.0092262,
+        "lat": 50.0375573,
+        "state_code": "PK",
+        "formatted": "Jowisz, Adama Mickiewicza, 35-065 Rzeszów, Polska",
+        "address_line1": "Jowisz",
+        "address_line2": "Adama Mickiewicza, 35-065 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0375573,
+            "lon": 22.0092262,
+            "name": "Jowisz",
+            "osm_id": 10054656685,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q319"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 380,
+        "place_id": "513044f3a55c02364059f09c77adce044940f00103f901ade24d57020000009203064a6f7769737a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0092262,
+          50.0375573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saksofon",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-074",
+        "suburb": "Śródmieście",
+        "street": "Targowa",
+        "housenumber": "9",
+        "iso3166_2": "PL-18",
+        "lon": 22.009684,
+        "lat": 50.0379989,
+        "state_code": "PK",
+        "formatted": "Saksofon, Targowa 9, 35-074 Rzeszów, Polska",
+        "address_line1": "Saksofon",
+        "address_line2": "Targowa 9, 35-074 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details",
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0379989,
+            "lon": 22.009684,
+            "city": "Rzeszów",
+            "name": "Saksofon",
+            "osm_id": 5230040373,
+            "street": "Targowa",
+            "tourism": "artwork",
+            "website": "http://supernowosci24.pl/muzyczny-mural-na-targowej/",
+            "osm_type": "n",
+            "_inherited": "",
+            "artist_name": "Michał Czerko",
+            "housenumber": 9,
+            "artwork_type": "mural"
+          }
+        },
+        "website": "http://supernowosci24.pl/muzyczny-mural-na-targowej/",
+        "artwork": {
+          "artist_name": "Michał Czerko",
+          "artwork_type": "mural"
+        },
+        "distance": 422,
+        "place_id": "51624b8fa67a023640595964e025dd044940f00103f9013515bc370100000092030853616b736f666f6e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.009684,
+          50.0379989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skrzydła dla Filipa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-001",
+        "suburb": "Śródmieście",
+        "street": "Aleja Józefa Piłsudskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0009174,
+        "lat": 50.0402486,
+        "state_code": "PK",
+        "formatted": "Skrzydła dla Filipa, Aleja Józefa Piłsudskiego, 35-001 Rzeszów, Polska",
+        "address_line1": "Skrzydła dla Filipa",
+        "address_line2": "Aleja Józefa Piłsudskiego, 35-001 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0402486,
+            "lon": 22.0009174,
+            "url": "https://fotopolska.eu/Ogrody-bernardynskie-Rzezba-Skrzydla-dla-Filipa?map_z=19",
+            "name": "Skrzydła dla Filipa",
+            "image": "https://photos.app.goo.gl/96UnvtRNG6YhWuxVA",
+            "osm_id": 13089800082,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "website": "https://fotopolska.eu/Ogrody-bernardynskie-Rzezba-Skrzydla-dla-Filipa?map_z=19",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/96UnvtRNG6YhWuxVA"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 423,
+        "place_id": "5152ff6a1f3c00364059da5abadd26054940f00103f901927f360c03000000920314536b727a7964c5826120646c612046696c697061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0009174,
+          50.0402486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adam Lazarowicz",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9977189,
+        "lat": 50.0371274,
+        "state_code": "PK",
+        "formatted": "Adam Lazarowicz, Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Adam Lazarowicz",
+        "address_line2": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371274,
+            "lon": 21.9977189,
+            "name": "Adam Lazarowicz",
+            "image": "https://photos.app.goo.gl/toRGsE1p7RwQmfWZ7",
+            "osm_id": 9366077391,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "wikidata": "Q20033172",
+            "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20033172",
+          "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+          "image": "https://photos.app.goo.gl/toRGsE1p7RwQmfWZ7"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 450,
+        "place_id": "51e1197e816aff3540598c643497c0044940f00103f901cfff422e0200000092030f4164616d204c617a61726f7769637a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9977189,
+          50.0371274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mieczysław Kawalec",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9976993,
+        "lat": 50.0371208,
+        "state_code": "PK",
+        "formatted": "Mieczysław Kawalec, Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Mieczysław Kawalec",
+        "address_line2": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371208,
+            "lon": 21.9976993,
+            "name": "Mieczysław Kawalec",
+            "image": "https://photos.app.goo.gl/eY3NNb8K21y25UNR6",
+            "osm_id": 9366077392,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "wikidata": "Q20033172",
+            "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20033172",
+          "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+          "image": "https://photos.app.goo.gl/eY3NNb8K21y25UNR6"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 452,
+        "place_id": "51fabda83869ff3540592c00d75fc0044940f00103f901d0ff422e020000009203134d6965637a7973c5826177204b6177616c6563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9976993,
+          50.0371208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Józef Batory",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9977,
+        "lat": 50.0371475,
+        "state_code": "PK",
+        "formatted": "Józef Batory, Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Józef Batory",
+        "address_line2": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371475,
+            "lon": 21.9977,
+            "name": "Józef Batory",
+            "image": "https://photos.app.goo.gl/n3uAmD1QggPfjyTT7",
+            "osm_id": 9366077393,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "wikidata": "Q20033172",
+            "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20033172",
+          "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+          "image": "https://photos.app.goo.gl/n3uAmD1QggPfjyTT7"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 452,
+        "place_id": "511d38674469ff35405968d0d03fc1044940f00103f901d1ff422e0200000092030d4ac3b37a6566204261746f7279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9977,
+          50.0371475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Franciszek Błażej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9976812,
+        "lat": 50.0371423,
+        "state_code": "PK",
+        "formatted": "Franciszek Błażej, Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Franciszek Błażej",
+        "address_line2": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371423,
+            "lon": 21.9976812,
+            "name": "Franciszek Błażej",
+            "image": "https://photos.app.goo.gl/ZvKJEGwR2BVNfcsR7",
+            "osm_id": 9366077394,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "wikidata": "Q20033172",
+            "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20033172",
+          "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+          "image": "https://photos.app.goo.gl/ZvKJEGwR2BVNfcsR7"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 453,
+        "place_id": "5183d5fd0868ff3540592ce63114c1044940f00103f901d2ff422e020000009203134672616e6369737a656b2042c58261c5bc656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9976812,
+          50.0371423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Józef Rzepka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9976823,
+        "lat": 50.0371683,
+        "state_code": "PK",
+        "formatted": "Józef Rzepka, Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Józef Rzepka",
+        "address_line2": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371683,
+            "lon": 21.9976823,
+            "name": "Józef Rzepka",
+            "image": "https://photos.app.goo.gl/8tqdyBg7wGXZLvDb9",
+            "osm_id": 9366077395,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "wikidata": "Q20033172",
+            "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20033172",
+          "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+          "image": "https://photos.app.goo.gl/8tqdyBg7wGXZLvDb9"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 453,
+        "place_id": "514e4c721b68ff35405955794ceec1044940f00103f901d3ff422e0200000092030d4ac3b37a656620527a65706b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9976823,
+          50.0371683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karol Chmiel",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Śródmieście",
+        "street": "Stanisława Moniuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.9976615,
+        "lat": 50.0371618,
+        "state_code": "PK",
+        "formatted": "Karol Chmiel, Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "address_line1": "Karol Chmiel",
+        "address_line2": "Stanisława Moniuszki, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0371618,
+            "lon": 21.9976615,
+            "name": "Karol Chmiel",
+            "image": "https://photos.app.goo.gl/TTUqTpHaVc7XXjb18",
+            "osm_id": 9366077396,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "wikidata": "Q20033172",
+            "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q20033172",
+          "wikipedia": "pl:Pomnik Żołnierzy Wyklętych w Rzeszowie",
+          "image": "https://photos.app.goo.gl/TTUqTpHaVc7XXjb18"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 454,
+        "place_id": "5172fa7abe66ff3540598bd4c5b7c1044940f00103f901d4ff422e0200000092030c4b61726f6c2043686d69656c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9976615,
+          50.0371618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-032",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "street": "Fryderyka Szopena",
+        "iso3166_2": "PL-18",
+        "lon": 22.0039935,
+        "lat": 50.0327422,
+        "state_code": "PK",
+        "formatted": "Fryderyka Szopena, 35-032 Rzeszów, Polska",
+        "address_line1": "Fryderyka Szopena",
+        "address_line2": "35-032 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0327422,
+            "lon": 22.0039935,
+            "osm_id": 13734644349,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 474,
+        "place_id": "5186e5cfb705013640597c197be530044940f00103f9017d0aa63203000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0039935,
+          50.0327422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fred Zinnemann",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-025",
+        "suburb": "Pułaskiego",
+        "street": "Pułkownika Leopolda Lisa-Kuli",
+        "housenumber": "13",
+        "iso3166_2": "PL-18",
+        "lon": 21.9979478,
+        "lat": 50.0347773,
+        "state_code": "PK",
+        "formatted": "Fred Zinnemann, Pułkownika Leopolda Lisa-Kuli 13, 35-025 Rzeszów, Polska",
+        "address_line1": "Fred Zinnemann",
+        "address_line2": "Pułkownika Leopolda Lisa-Kuli 13, 35-025 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0347773,
+            "lon": 21.9979478,
+            "city": "Rzeszów",
+            "name": "Fred Zinnemann",
+            "osm_id": 10284886472,
+            "street": "Pułkownika Leopolda Lisa-Kuli",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "_inherited": "",
+            "housenumber": 13,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 499,
+        "place_id": "517a1dcc8179ff3540595412239573044940f00103f901c8e906650200000092030e46726564205a696e6e656d616e6e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9979478,
+          50.0347773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pomnik Czynu Rewolucyjnego",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-001",
+        "suburb": "Śródmieście",
+        "street": "Aleja Józefa Piłsudskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9994803,
+        "lat": 50.0405955,
+        "state_code": "PK",
+        "formatted": "Pomnik Czynu Rewolucyjnego, Aleja Józefa Piłsudskiego, 35-001 Rzeszów, Polska",
+        "address_line1": "Pomnik Czynu Rewolucyjnego",
+        "address_line2": "Aleja Józefa Piłsudskiego, 35-001 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.monument",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.facilities",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0405955,
+            "lon": 21.9994803,
+            "url": "https://polska-org.pl/7734359,Rzeszow,Pomnik_Czynu_Rewolucyjnego.html",
+            "name": "Pomnik Czynu Rewolucyjnego",
+            "image": "https://photos.app.goo.gl/cqBy9gsyVqmRtFi48",
+            "url:0": "https://fotopolska.eu/40667,obiekt.html?map_z=19",
+            "osm_id": 2023605459,
+            "name:pl": "Pomnik Czynu Rewolucyjnego",
+            "tourism": "attraction",
+            "historic": "monument",
+            "loc_name": "Wielka Wagina;Wielka Cipa;Wielka C",
+            "monument": "statue",
+            "osm_type": "n",
+            "wikidata": "Q11823171",
+            "wikipedia": "pl:Pomnik Czynu Rewolucyjnego w Rzeszowie",
+            "start_date": 1974,
+            "wheelchair": "yes",
+            "artist_name": "Marian Konieczny",
+            "vulgar_name": "Wielka Cipa",
+            "artist:wikidata": "Q6370836",
+            "euphemistic_name": "Wielka C",
+            "wikimedia_commons": "File:PL-PK Rzeszów, Pomnik Czynu Rewolucyjnego 2016-08-30--09-52-11-001.jpg"
+          }
+        },
+        "website": "https://polska-org.pl/7734359,Rzeszow,Pomnik_Czynu_Rewolucyjnego.html",
+        "name_other": {
+          "loc_name": "Wielka Wagina;Wielka Cipa;Wielka C"
+        },
+        "name_international": {
+          "pl": "Pomnik Czynu Rewolucyjnego"
+        },
+        "facilities": {
+          "wheelchair": true
+        },
+        "wiki_and_media": {
+          "wikidata": "Q11823171",
+          "wikipedia": "pl:Pomnik Czynu Rewolucyjnego w Rzeszowie",
+          "wikimedia_commons": "File:PL-PK Rzeszów, Pomnik Czynu Rewolucyjnego 2016-08-30--09-52-11-001.jpg",
+          "image": "https://photos.app.goo.gl/cqBy9gsyVqmRtFi48"
+        },
+        "historic": {
+          "type": "monument",
+          "start_date": 1974
+        },
+        "artwork": {
+          "artist_name": "Marian Konieczny",
+          "artist_details": {
+            "wikidata": "Q6370836"
+          },
+          "start_date": 1974
+        },
+        "distance": 515,
+        "place_id": "510b7fe1f0ddff354059b16ebc3b32054940f00103f901d3c49d780000000092031a506f6d6e696b20437a796e75205265776f6c7563796a6e65676f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9994803,
+          50.0405955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zamek Lubomirskich",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-032",
+        "district": "Baldachówka",
+        "suburb": "Śródmieście",
+        "housenumber": "3",
+        "iso3166_2": "PL-18",
+        "lon": 22.0006286,
+        "lat": 50.0324722,
+        "state_code": "PK",
+        "formatted": "Zamek Lubomirskich, 3, 35-032 Rzeszów, Polska",
+        "address_line1": "Zamek Lubomirskich",
+        "address_line2": "3, 35-032 Rzeszów, Polska",
+        "categories": [
+          "heritage",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.castle"
+        ],
+        "details": [
+          "details",
+          "details.heritage",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0324722,
+            "lon": 22.0006286,
+            "name": "Zamek Lubomirskich",
+            "place": "Plac Śreniawitów",
+            "osm_id": 1928528090,
+            "name:be": "Замак Любамірскіх",
+            "name:pl": "Zamek Lubomirskich",
+            "name:uk": "Замок Любомирських",
+            "ref:nid": "40 z 1950-05-05",
+            "tourism": "attraction",
+            "heritage": 2,
+            "historic": "castle",
+            "osm_type": "n",
+            "postcode": "35-032",
+            "wikidata": "Q4179790",
+            "wikipedia": "pl:Zamek w Rzeszowie",
+            "start_date": 1600,
+            "housenumber": 3,
+            "nid:website": "https://zabytek.pl/pl/obiekty/zabytek?inspire_id=PL.1.9.ZIPOZ.NID_N_18_BK.12778&rejestr=rejestr-zabytkow",
+            "ref:inspire": "PL.1.9.ZIPOZ.NID_N_18_BK.12778",
+            "opening_hours": "Mo-Fr 07:30-15:30",
+            "heritage:operator": "nid",
+            "wikimedia_commons": "Category:Rzeszów Castle",
+            "nid:inscription_date": "1950-05-05"
+          }
+        },
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "name_international": {
+          "be": "Замак Любамірскіх",
+          "pl": "Zamek Lubomirskich",
+          "uk": "Замок Любомирських"
+        },
+        "ref_other": {
+          "nid": "40 z 1950-05-05",
+          "inspire": "PL.1.9.ZIPOZ.NID_N_18_BK.12778"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q4179790",
+          "wikipedia": "pl:Zamek w Rzeszowie",
+          "wikimedia_commons": "Category:Rzeszów Castle"
+        },
+        "historic": {
+          "type": "castle",
+          "start_date": 1600
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "40 z 1950-05-05",
+          "inscription_date": "1950-05-05"
+        },
+        "distance": 559,
+        "place_id": "51387128322900364059bc838e0c28044940f00103f901da00f372000000009203125a616d656b204c75626f6d6972736b696368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0006286,
+          50.0324722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saturn",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-016",
+        "suburb": "Pułaskiego",
+        "street": "Jagiellońska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9967608,
+        "lat": 50.0347294,
+        "state_code": "PK",
+        "formatted": "Saturn, Jagiellońska, 35-016 Rzeszów, Polska",
+        "address_line1": "Saturn",
+        "address_line2": "Jagiellońska, 35-016 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0347294,
+            "lon": 21.9967608,
+            "name": "Saturn",
+            "osm_id": 10054656684,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q193"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 577,
+        "place_id": "514fef3db72bff354059d89a520372044940f00103f901ace24d570200000092030653617475726e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9967608,
+          50.0347294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jaszczurka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Pułaskiego",
+        "street": "Aleja Gwiazd Sportowców Polonijnych",
+        "iso3166_2": "PL-18",
+        "lon": 21.9958374,
+        "lat": 50.0385702,
+        "state_code": "PK",
+        "formatted": "Jaszczurka, Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "address_line1": "Jaszczurka",
+        "address_line2": "Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0385702,
+            "lon": 21.9958374,
+            "name": "Jaszczurka",
+            "image": "https://photos.app.goo.gl/4oJmfbTHpHt1AP4U6",
+            "osm_id": 13089800076,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/4oJmfbTHpHt1AP4U6"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 610,
+        "place_id": "5138222933effe354059d3cc49deef044940f00103f9018c7f360c0300000092030a4a61737a637a75726b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9958374,
+          50.0385702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ślimak",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Pułaskiego",
+        "street": "Aleja Gwiazd Sportowców Polonijnych",
+        "iso3166_2": "PL-18",
+        "lon": 21.9956433,
+        "lat": 50.0385489,
+        "state_code": "PK",
+        "formatted": "Ślimak, Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "address_line1": "Ślimak",
+        "address_line2": "Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0385489,
+            "lon": 21.9956433,
+            "name": "Ślimak",
+            "image": "https://photos.app.goo.gl/1yHQznNHKLjaNVym8",
+            "osm_id": 13089800079,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/1yHQznNHKLjaNVym8"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 623,
+        "place_id": "5145fbb37ae2fe354059fd659c2bef044940f00103f9018f7f360c03000000920307c59a6c696d616b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9956433,
+          50.0385489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Żaba",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Pułaskiego",
+        "street": "Aleja Gwiazd Sportowców Polonijnych",
+        "iso3166_2": "PL-18",
+        "lon": 21.9954713,
+        "lat": 50.0386247,
+        "state_code": "PK",
+        "formatted": "Żaba, Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "address_line1": "Żaba",
+        "address_line2": "Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0386247,
+            "lon": 21.9954713,
+            "name": "Żaba",
+            "image": "https://photos.app.goo.gl/QCgtGRSsAn7DeufL9",
+            "osm_id": 13089800078,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/QCgtGRSsAn7DeufL9"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 637,
+        "place_id": "514a9b0535d7fe354059aea877a7f1044940f00103f9018e7f360c03000000920305c5bb616261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9954713,
+          50.0386247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dziewczynka ze słuchawkami",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-016",
+        "suburb": "Pułaskiego",
+        "street": "Księcia Józefa Poniatowskiego",
+        "housenumber": "11",
+        "iso3166_2": "PL-18",
+        "lon": 21.9957243,
+        "lat": 50.0340128,
+        "state_code": "PK",
+        "formatted": "Dziewczynka ze słuchawkami, Księcia Józefa Poniatowskiego 11, 35-016 Rzeszów, Polska",
+        "address_line1": "Dziewczynka ze słuchawkami",
+        "address_line2": "Księcia Józefa Poniatowskiego 11, 35-016 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0340128,
+            "lon": 21.9957243,
+            "city": "Rzeszów",
+            "name": "Dziewczynka ze słuchawkami",
+            "osm_id": 11053804717,
+            "street": "Księcia Józefa Poniatowskiego",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "_inherited": "",
+            "start_date": 2016,
+            "artist_name": "Arkadiusz Andrejkow",
+            "housenumber": 11,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Arkadiusz Andrejkow",
+          "artwork_type": "mural",
+          "start_date": 2016
+        },
+        "distance": 680,
+        "place_id": "511e55a8c9e7fe3540599cd20b885a044940f00103f901adacdb920200000092031b447a696577637a796e6b61207a652073c58275636861776b616d69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9957243,
+          50.0340128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Pułaskiego",
+        "street": "Aleja Gwiazd Sportowców Polonijnych",
+        "iso3166_2": "PL-18",
+        "lon": 21.994938,
+        "lat": 50.0388839,
+        "state_code": "PK",
+        "formatted": "Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "address_line1": "Aleja Gwiazd Sportowców Polonijnych",
+        "address_line2": "35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0388839,
+            "lon": 21.994938,
+            "image": "https://photos.app.goo.gl/n3oAtWNRiGhxxEFa9",
+            "osm_id": 13089800081,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/n3oAtWNRiGhxxEFa9"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 682,
+        "place_id": "51338cbb41b4fe354059a46bcb25fa044940f00103f901917f360c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.994938,
+          50.0388839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kobieta klasyczna",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-015",
+        "suburb": "Pułaskiego",
+        "street": "Aleja Gwiazd Sportowców Polonijnych",
+        "iso3166_2": "PL-18",
+        "lon": 21.9947559,
+        "lat": 50.0386287,
+        "state_code": "PK",
+        "formatted": "Kobieta klasyczna, Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "address_line1": "Kobieta klasyczna",
+        "address_line2": "Aleja Gwiazd Sportowców Polonijnych, 35-015 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0386287,
+            "lon": 21.9947559,
+            "name": "Kobieta klasyczna",
+            "image": "https://photos.app.goo.gl/2LRdbxT64usL4pTB7",
+            "osm_id": 13089800080,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Adrian Witek",
+            "artwork_type": "sculpture"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/2LRdbxT64usL4pTB7"
+        },
+        "artwork": {
+          "artist_name": "Adrian Witek",
+          "artwork_type": "sculpture"
+        },
+        "distance": 687,
+        "place_id": "51c8009a52a8fe354059ef9705c9f1044940f00103f901907f360c030000009203114b6f6269657461206b6c617379637a6e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9947559,
+          50.0386287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bicykl",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-051",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Podpromie",
+        "iso3166_2": "PL-18",
+        "lon": 22.0007028,
+        "lat": 50.0303627,
+        "state_code": "PK",
+        "formatted": "Bicykl, Podpromie, 35-051 Rzeszów, Polska",
+        "address_line1": "Bicykl",
+        "address_line2": "Podpromie, 35-051 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0303627,
+            "lon": 22.0007028,
+            "name": "Bicykl",
+            "osm_id": 11358400917,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "installation"
+          }
+        },
+        "artwork": {
+          "artwork_type": "installation"
+        },
+        "distance": 775,
+        "place_id": "510004070f2e0036405956c2c9ece2034940f00103f901957103a502000000920306426963796b6c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0007028,
+          50.0303627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TKt48-27",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-201",
+        "suburb": "Śródmieście",
+        "street": "Stefana Batorego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0128018,
+        "lat": 50.0428594,
+        "state_code": "PK",
+        "formatted": "TKt48-27, Stefana Batorego, 35-201 Rzeszów, Polska",
+        "address_line1": "TKt48-27",
+        "address_line2": "Stefana Batorego, 35-201 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.locomotive"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.04285935,
+            "lon": 22.012801750000005,
+            "area": "yes",
+            "name": "TKt48-27",
+            "osm_id": 1030067539,
+            "tourism": "attraction",
+            "historic": "locomotive",
+            "osm_type": "w",
+            "locomotive:type": "steam"
+          }
+        },
+        "historic": {
+          "type": "locomotive"
+        },
+        "distance": 907,
+        "place_id": "51e394b9f94603364059f649496a7c054940f00102f9015395653d00000000920308544b7434382d3237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.012801750000005,
+          50.04285935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomasz Stańko",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-051",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Hetmańska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9966751,
+        "lat": 50.0290484,
+        "state_code": "PK",
+        "formatted": "Tomasz Stańko, Hetmańska, 35-051 Rzeszów, Polska",
+        "address_line1": "Tomasz Stańko",
+        "address_line2": "Hetmańska, 35-051 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0290484,
+            "lon": 21.9966751,
+            "name": "Tomasz Stańko",
+            "image": "https://photos.app.goo.gl/tBHb1dcQxbf9w2zh6",
+            "osm_id": 11049629826,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural",
+            "subject:wikidata": "Q385488",
+            "subject:wikipedia": "pl:Tomasz Stańko"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/tBHb1dcQxbf9w2zh6"
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1028,
+        "place_id": "51cf3c6f1926ff3540592500a4dbb7034940f00103f90182f89b920200000092030e546f6d61737a20537461c5846b6f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9966751,
+          50.0290484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-010",
+        "suburb": "Króla Stanisława Augusta",
+        "street": "Władysława Reymonta",
+        "iso3166_2": "PL-18",
+        "lon": 21.9929579,
+        "lat": 50.043157,
+        "state_code": "PK",
+        "formatted": "Władysława Reymonta, 35-010 Rzeszów, Polska",
+        "address_line1": "Władysława Reymonta",
+        "address_line2": "35-010 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.043157,
+            "lon": 21.9929579,
+            "osm_id": 9275751029,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 1046,
+        "place_id": "510ace2a7d32fe354059f7cb272b86054940f00103f90175bae02802000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9929579,
+          50.043157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt Widzenia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-010",
+        "suburb": "Króla Stanisława Augusta",
+        "street": "Wiadukt Śląski",
+        "iso3166_2": "PL-18",
+        "lon": 21.9923149,
+        "lat": 50.0429282,
+        "state_code": "PK",
+        "formatted": "Punkt Widzenia, Wiadukt Śląski, 35-010 Rzeszów, Polska",
+        "address_line1": "Punkt Widzenia",
+        "address_line2": "Wiadukt Śląski, 35-010 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0429282,
+            "lon": 21.9923149,
+            "name": "Punkt Widzenia",
+            "osm_id": 9591092406,
+            "covered": "yes",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1066,
+        "place_id": "5161d56a5908fe354059bf89d7ab7e054940f00103f901b674ac3b0200000092030e50756e6b74205769647a656e6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9923149,
+          50.0429282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deloitte",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-242",
+        "district": "Czekaj",
+        "suburb": "Mieszka I",
+        "street": "Aleja Tadeusza Rejtana",
+        "housenumber": "14",
+        "iso3166_2": "PL-18",
+        "lon": 22.0159788,
+        "lat": 50.0309416,
+        "state_code": "PK",
+        "formatted": "Deloitte, Aleja Tadeusza Rejtana 14, 35-242 Rzeszów, Polska",
+        "address_line1": "Deloitte",
+        "address_line2": "Aleja Tadeusza Rejtana 14, 35-242 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0309416,
+            "lon": 22.0159788,
+            "city": "Rzeszów",
+            "name": "Deloitte",
+            "osm_id": 10759520240,
+            "street": "Aleja Tadeusza Rejtana",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "_inherited": "",
+            "housenumber": 14,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1091,
+        "place_id": "51e86dc72f1704364059ff0af4e4f5034940f00103f901f03f51810200000092030844656c6f69747465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0159788,
+          50.0309416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-216",
+        "suburb": "1000-Lecia",
+        "street": "Partyzantów",
+        "iso3166_2": "PL-18",
+        "lon": 22.0051392,
+        "lat": 50.0469193,
+        "state_code": "PK",
+        "formatted": "Joker, Partyzantów, 35-216 Rzeszów, Polska",
+        "address_line1": "Joker",
+        "address_line2": "Partyzantów, 35-216 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0469193,
+            "lon": 22.0051392,
+            "name": "Joker",
+            "osm_id": 9591092409,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Sowa;Setu;DOK1;Ione",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Sowa;Setu;DOK1;Ione",
+          "artwork_type": "mural"
+        },
+        "distance": 1106,
+        "place_id": "5177ed77cd50013640598e869d7301064940f00103f901b974ac3b020000009203054a6f6b6572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0051392,
+          50.0469193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-020",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Generała Jarosława Dąbrowskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9938167,
+        "lat": 50.029472,
+        "state_code": "PK",
+        "formatted": "Generała Jarosława Dąbrowskiego, 35-020 Rzeszów, Polska",
+        "address_line1": "Generała Jarosława Dąbrowskiego",
+        "address_line2": "35-020 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.029472,
+            "lon": 21.9938167,
+            "osm_id": 4917641907,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1111,
+        "place_id": "51f9b770c56afe354059e8120ebdc5034940f00103f901b3421d2501000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9938167,
+          50.029472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Żyj zdrowo w zdrowym świecie",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-020",
+        "suburb": "Dąbrowskiego",
+        "street": "Generała Jarosława Dąbrowskiego",
+        "housenumber": "25",
+        "iso3166_2": "PL-18",
+        "lon": 21.9930441,
+        "lat": 50.0285775,
+        "state_code": "PK",
+        "formatted": "Żyj zdrowo w zdrowym świecie, Generała Jarosława Dąbrowskiego 25, 35-020 Rzeszów, Polska",
+        "address_line1": "Żyj zdrowo w zdrowym świecie",
+        "address_line2": "Generała Jarosława Dąbrowskiego 25, 35-020 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0285775,
+            "lon": 21.9930441,
+            "city": "Rzeszów",
+            "name": "Żyj zdrowo w zdrowym świecie",
+            "osm_id": 13287845259,
+            "street": "Generała Jarosława Dąbrowskiego",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "_inherited": "",
+            "housenumber": 25,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1222,
+        "place_id": "515afc5c2338fe35405962f3716da8034940f00103f9018b6d04180300000092031ec5bb796a207a64726f776f2077207a64726f77796d20c59b776965636965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9930441,
+          50.0285775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-242",
+        "district": "Czekaj",
+        "suburb": "Mieszka I",
+        "street": "Aleja majora Wacława Kopisto",
+        "iso3166_2": "PL-18",
+        "lon": 22.01582,
+        "lat": 50.0288959,
+        "state_code": "PK",
+        "formatted": "Aleja majora Wacława Kopisto, 35-242 Rzeszów, Polska",
+        "address_line1": "Aleja majora Wacława Kopisto",
+        "address_line2": "35-242 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0288959,
+            "lon": 22.01582,
+            "osm_id": 9577055599,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1237,
+        "place_id": "516b9f8ec70c0436405987be60dcb2034940f00103f9016f45d63a02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.01582,
+          50.0288959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-242",
+        "district": "Czekaj",
+        "suburb": "Mieszka I",
+        "street": "Aleja majora Wacława Kopisto",
+        "iso3166_2": "PL-18",
+        "lon": 22.0158532,
+        "lat": 50.0288985,
+        "state_code": "PK",
+        "formatted": "Aleja majora Wacława Kopisto, 35-242 Rzeszów, Polska",
+        "address_line1": "Aleja majora Wacława Kopisto",
+        "address_line2": "35-242 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0288985,
+            "lon": 22.0158532,
+            "osm_id": 9577055598,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1238,
+        "place_id": "5175898ff40e04364059a43330f2b2034940f00103f9016e45d63a02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0158532,
+          50.0288985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-242",
+        "district": "Czekaj",
+        "suburb": "Mieszka I",
+        "street": "Aleja majora Wacława Kopisto",
+        "iso3166_2": "PL-18",
+        "lon": 22.0159843,
+        "lat": 50.0288886,
+        "state_code": "PK",
+        "formatted": "Aleja majora Wacława Kopisto, 35-242 Rzeszów, Polska",
+        "address_line1": "Aleja majora Wacława Kopisto",
+        "address_line2": "35-242 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0288886,
+            "lon": 22.0159843,
+            "osm_id": 9577055597,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1246,
+        "place_id": "51dcbf0d8c1704364059161d249fb2034940f00103f9016d45d63a02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0159843,
+          50.0288886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nasze Maki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-241",
+        "suburb": "1000-Lecia",
+        "street": "Gołębia",
+        "iso3166_2": "PL-18",
+        "lon": 21.9977955,
+        "lat": 50.0483995,
+        "state_code": "PK",
+        "formatted": "Nasze Maki, Gołębia, 35-241 Rzeszów, Polska",
+        "address_line1": "Nasze Maki",
+        "address_line2": "Gołębia, 35-241 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0483995,
+            "lon": 21.9977955,
+            "name": "Nasze Maki",
+            "image": "https://photos.app.goo.gl/v6pWDx8hTFzKJnTb7",
+            "osm_id": 13089800089,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/v6pWDx8hTFzKJnTb7"
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1344,
+        "place_id": "519198a0866fff35405946d26ef431064940f00103f901997f360c0300000092030a4e61737a65204d616b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9977955,
+          50.0483995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uran",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-113",
+        "suburb": "Kmity",
+        "street": "Akacjowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.985556,
+        "lat": 50.034742,
+        "state_code": "PK",
+        "formatted": "Uran, Akacjowa, 35-113 Rzeszów, Polska",
+        "address_line1": "Uran",
+        "address_line2": "Akacjowa, 35-113 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.034742,
+            "lon": 21.985556,
+            "name": "Uran",
+            "osm_id": 10054656683,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q324"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 1345,
+        "place_id": "516760e4654dfc35405919e6046d72044940f00103f901abe24d57020000009203045572616e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.985556,
+          50.034742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pomnik Stanisława Nitki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-051",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Bulwarowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.0013482,
+        "lat": 50.0248617,
+        "state_code": "PK",
+        "formatted": "Pomnik Stanisława Nitki, Bulwarowa, 35-051 Rzeszów, Polska",
+        "address_line1": "Pomnik Stanisława Nitki",
+        "address_line2": "Bulwarowa, 35-051 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details.artwork",
+          "details.facilities",
+          "details.historic"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0248617,
+            "lon": 22.0013482,
+            "name": "Pomnik Stanisława Nitki",
+            "osm_id": 3064090103,
+            "tourism": "artwork",
+            "historic": "memorial",
+            "memorial": "sculpture",
+            "osm_type": "n",
+            "wheelchair": "yes",
+            "artist_name": "Paweł Chlebek",
+            "artwork_type": "sculpture"
+          }
+        },
+        "facilities": {
+          "wheelchair": true
+        },
+        "historic": {
+          "type": "memorial",
+          "memorial": "sculpture",
+          "artwork_type": "sculpture"
+        },
+        "artwork": {
+          "artist_name": "Paweł Chlebek",
+          "artwork_type": "sculpture"
+        },
+        "distance": 1363,
+        "place_id": "5191e80a5b580036405924360eab2e034940f00103f901f74da2b600000000920318506f6d6e696b205374616e6973c582617761204e69746b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0013482,
+          50.0248617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tadeusz Nalepa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-045",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Teofila Aleksandra Lenartowicza",
+        "iso3166_2": "PL-18",
+        "lon": 21.9956009,
+        "lat": 50.025756,
+        "state_code": "PK",
+        "formatted": "Tadeusz Nalepa, Teofila Aleksandra Lenartowicza, 35-045 Rzeszów, Polska",
+        "address_line1": "Tadeusz Nalepa",
+        "address_line2": "Teofila Aleksandra Lenartowicza, 35-045 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.025756,
+            "lon": 21.9956009,
+            "name": "Tadeusz Nalepa",
+            "image": "https://photos.app.goo.gl/XSSLnXzRubgANJ139",
+            "osm_id": 11196641326,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "start_date": "2023-09-16",
+            "artist_name": "Michał Czerko",
+            "inscription": "W tym bloku w latach 1945-1955 mieszkał Tadeusz Nalepa „Ojciec polskiego bluesa”.",
+            "artwork_type": "mural"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/XSSLnXzRubgANJ139"
+        },
+        "artwork": {
+          "artist_name": "Michał Czerko",
+          "artwork_type": "mural",
+          "start_date": "2023-09-16"
+        },
+        "distance": 1388,
+        "place_id": "51405e59b3dffe35405980d6fcf84b034940f00103f9012e305f9b0200000092030e5461646575737a204e616c657061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9956009,
+          50.025756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-051",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Bulwarowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9996777,
+        "lat": 50.0243557,
+        "state_code": "PK",
+        "formatted": "Bulwarowa, 35-051 Rzeszów, Polska",
+        "address_line1": "Bulwarowa",
+        "address_line2": "35-051 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0243557,
+            "lon": 21.9996777,
+            "osm_id": 12259245470,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1440,
+        "place_id": "515e0ab4e0eaff354059507c6b161e034940f00103f9019e3db5da02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9996777,
+          50.0243557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-051",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Bulwarowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9996543,
+        "lat": 50.0243247,
+        "state_code": "PK",
+        "formatted": "Bulwarowa, 35-051 Rzeszów, Polska",
+        "address_line1": "Bulwarowa",
+        "address_line2": "35-051 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0243247,
+            "lon": 21.9996543,
+            "osm_id": 12259232543,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1444,
+        "place_id": "5147ce1d58e9ff354059157e5f121d034940f00103f9011f0bb5da02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9996543,
+          50.0243247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-234",
+        "suburb": "Staromieście",
+        "street": "Generała Stanisława Maczka",
+        "iso3166_2": "PL-18",
+        "lon": 22.0096613,
+        "lat": 50.0496143,
+        "state_code": "PK",
+        "formatted": "Generała Stanisława Maczka, 35-234 Rzeszów, Polska",
+        "address_line1": "Generała Stanisława Maczka",
+        "address_line2": "35-234 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0496143,
+            "lon": 22.0096613,
+            "osm_id": 9591092408,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Sylwester Łaskawski",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Sylwester Łaskawski",
+          "artwork_type": "mural"
+        },
+        "distance": 1461,
+        "place_id": "516f89b7297902364059fcf4e9c259064940f00103f901b874ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0096613,
+          50.0496143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bajka Malowana",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-203",
+        "suburb": "Staromieście",
+        "street": "Lucjana Siemieńskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0109276,
+        "lat": 50.0497364,
+        "state_code": "PK",
+        "formatted": "Bajka Malowana, Lucjana Siemieńskiego, 35-203 Rzeszów, Polska",
+        "address_line1": "Bajka Malowana",
+        "address_line2": "Lucjana Siemieńskiego, 35-203 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0497364,
+            "lon": 22.0109276,
+            "name": "Bajka Malowana",
+            "osm_id": 9591092407,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1501,
+        "place_id": "51af9fb426cc02364059dcb529c35d064940f00103f901b774ac3b0200000092030e42616a6b61204d616c6f77616e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0109276,
+          50.0497364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-006",
+        "suburb": "Załęże",
+        "street": "Generała Kazimierza Dworaka",
+        "iso3166_2": "PL-18",
+        "lon": 22.0181847,
+        "lat": 50.0470527,
+        "state_code": "PK",
+        "formatted": "Generała Kazimierza Dworaka, 35-006 Rzeszów, Polska",
+        "address_line1": "Generała Kazimierza Dworaka",
+        "address_line2": "35-006 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0470527,
+            "lon": 22.0181847,
+            "osm_id": 13625894289,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 1511,
+        "place_id": "519ec9a3c0a70436405921d8a7d205064940f00103f90191a52a2c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0181847,
+          50.0470527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-045",
+        "district": "Podpromie",
+        "suburb": "Grota-Roweckiego",
+        "street": "Hetmańska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9953307,
+        "lat": 50.0245742,
+        "state_code": "PK",
+        "formatted": "Hetmańska, 35-045 Rzeszów, Polska",
+        "address_line1": "Hetmańska",
+        "address_line2": "35-045 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0245742,
+            "lon": 21.9953307,
+            "image": "https://photos.app.goo.gl/W22rWdtoNhRKms9M7",
+            "osm_id": 11049619874,
+            "tourism": "artwork",
+            "website": "https://zsm.resman.pl/mural/",
+            "osm_type": "n",
+            "artist_name": "MIX-Art Mural",
+            "artwork_type": "mural"
+          }
+        },
+        "website": "https://zsm.resman.pl/mural/",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/W22rWdtoNhRKms9M7"
+        },
+        "artwork": {
+          "artist_name": "MIX-Art Mural",
+          "artwork_type": "mural"
+        },
+        "distance": 1515,
+        "place_id": "516d3425fecdfe354059a6a9543f25034940f00103f901a2d19b9202000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9953307,
+          50.0245742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-321",
+        "suburb": "Pobitno",
+        "street": "Konfederatów Barskich",
+        "iso3166_2": "PL-18",
+        "lon": 22.0219653,
+        "lat": 50.0455757,
+        "state_code": "PK",
+        "formatted": "Konfederatów Barskich, 35-321 Rzeszów, Polska",
+        "address_line1": "Konfederatów Barskich",
+        "address_line2": "35-321 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0455757,
+            "lon": 22.0219653,
+            "osm_id": 13592196045,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 1602,
+        "place_id": "51972595849f05364059047fae6cd5054940f00103f901cd73282a03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0219653,
+          50.0455757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-114",
+        "suburb": "Kmity",
+        "street": "Janusza Korczaka",
+        "housenumber": "2",
+        "iso3166_2": "PL-18",
+        "lon": 21.9817645,
+        "lat": 50.0353686,
+        "state_code": "PK",
+        "formatted": "Janusza Korczaka 2, 35-114 Rzeszów, Polska",
+        "address_line1": "Janusza Korczaka 2",
+        "address_line2": "35-114 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0353686,
+            "lon": 21.9817645,
+            "city": "Rzeszów",
+            "osm_id": 13313336035,
+            "street": "Janusza Korczaka",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "35-114",
+            "_inherited": "",
+            "start_date": "2022-06-01",
+            "artist_name": "Arkadiusz Andrejkow",
+            "housenumber": 2,
+            "artwork_type": "mural",
+            "artwork_subject": "Janusz Korczak"
+          }
+        },
+        "artwork": {
+          "artist_name": "Arkadiusz Andrejkow",
+          "artwork_subject": "Janusz Korczak",
+          "artwork_type": "mural",
+          "start_date": "2022-06-01"
+        },
+        "distance": 1603,
+        "place_id": "51b1df13eb54fb354059142752f586044940f00103f901e362891903000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9817645,
+          50.0353686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-241",
+        "suburb": "1000-Lecia",
+        "street": "Warszawska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9974828,
+        "lat": 50.0508542,
+        "state_code": "PK",
+        "formatted": "Warszawska, 35-241 Rzeszów, Polska",
+        "address_line1": "Warszawska",
+        "address_line2": "35-241 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0508542,
+            "lon": 21.9974828,
+            "image": "https://photos.app.goo.gl/GcqxQkM4YFx3rDMTA",
+            "osm_id": 11535979583,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/GcqxQkM4YFx3rDMTA"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 1610,
+        "place_id": "51905264085bff354059a0eef26382064940f00103f9013f1499af02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9974828,
+          50.0508542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-111",
+        "suburb": "Kmity",
+        "street": "Stanisława Witkacego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9794155,
+        "lat": 50.0379334,
+        "state_code": "PK",
+        "formatted": "Stanisława Witkacego, 35-111 Rzeszów, Polska",
+        "address_line1": "Stanisława Witkacego",
+        "address_line2": "35-111 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0379334,
+            "lon": 21.9794155,
+            "osm_id": 13151984796,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 1764,
+        "place_id": "510cb265f9bafa3540598a366c00db044940f00103f9019c5ceb0f03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9794155,
+          50.0379334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-224",
+        "suburb": "Generała Władysława Andersa",
+        "street": "Generała Mieczysława Boruty-Spiechowicza",
+        "iso3166_2": "PL-18",
+        "lon": 21.9830474,
+        "lat": 50.0474767,
+        "state_code": "PK",
+        "formatted": "Generała Mieczysława Boruty-Spiechowicza, 35-224 Rzeszów, Polska",
+        "address_line1": "Generała Mieczysława Boruty-Spiechowicza",
+        "address_line2": "35-224 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0474767,
+            "lon": 21.9830474,
+            "osm_id": 9591092404,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1900,
+        "place_id": "51f76a91fea8fb35405937e96cb713064940f00103f901b474ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9830474,
+          50.0474767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zdobywcom przestrzeni",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-040",
+        "suburb": "Dąbrowskiego",
+        "street": "Generała Jarosława Dąbrowskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9861842,
+        "lat": 50.0237198,
+        "state_code": "PK",
+        "formatted": "Zdobywcom przestrzeni, Generała Jarosława Dąbrowskiego, 35-040 Rzeszów, Polska",
+        "address_line1": "Zdobywcom przestrzeni",
+        "address_line2": "Generała Jarosława Dąbrowskiego, 35-040 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0237198,
+            "lon": 21.9861842,
+            "name": "Zdobywcom przestrzeni",
+            "osm_id": 2648726893,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Jerzy Nowakowski",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artist_name": "Jerzy Nowakowski",
+          "artwork_type": "sculpture"
+        },
+        "distance": 1952,
+        "place_id": "51f9d4569176fc35405943a21a4009034940f00103f9016d5de09d000000009203155a646f627977636f6d2070727a657374727a656e69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9861842,
+          50.0237198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Misio i Jaszczur",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-310",
+        "suburb": "Paderewskiego",
+        "street": "Ignacego Paderewskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0234506,
+        "lat": 50.0242083,
+        "state_code": "PK",
+        "formatted": "Misio i Jaszczur, Ignacego Paderewskiego, 35-310 Rzeszów, Polska",
+        "address_line1": "Misio i Jaszczur",
+        "address_line2": "Ignacego Paderewskiego, 35-310 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02420825,
+            "lon": 22.0234506,
+            "name": "Misio i Jaszczur",
+            "osm_id": 527792942,
+            "tourism": "artwork",
+            "osm_type": "w",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 1992,
+        "place_id": "515312c8db00063640598e05854119034940f00102f9012e7b751f000000009203104d6973696f2069204a61737a637a7572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0234506,
+          50.02420825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lot",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-078",
+        "suburb": "Dąbrowskiego",
+        "street": "Aleja Powstańców Warszawy",
+        "iso3166_2": "PL-18",
+        "lon": 21.9975588,
+        "lat": 50.0186525,
+        "state_code": "PK",
+        "formatted": "Lot, Aleja Powstańców Warszawy, 35-078 Rzeszów, Polska",
+        "address_line1": "Lot",
+        "address_line2": "Aleja Powstańców Warszawy, 35-078 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0186525,
+            "lon": 21.9975588,
+            "name": "Lot",
+            "osm_id": 4487330089,
+            "tourism": "artwork",
+            "historic": "memorial",
+            "osm_type": "n",
+            "wikidata": "Q124544461",
+            "description": "Rzeźba opatrzona została tablicą pamiątkową upamiętniającą 77 lat historii firmy WSK Rzeszów, obecnie Pratt&Whitney.",
+            "artwork_type": "sculpture"
+          }
+        },
+        "description": "Rzeźba opatrzona została tablicą pamiątkową upamiętniającą 77 lat historii firmy WSK Rzeszów, obecnie Pratt&Whitney.",
+        "wiki_and_media": {
+          "wikidata": "Q124544461"
+        },
+        "historic": {
+          "type": "memorial",
+          "artwork_type": "sculpture"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 2092,
+        "place_id": "5146d6750360ff3540598cbe823463024940f00103f9012939770b010000009203034c6f74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9975588,
+          50.0186525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neptun",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-231",
+        "suburb": "Staromieście",
+        "street": "Warszawska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9962451,
+        "lat": 50.0551486,
+        "state_code": "PK",
+        "formatted": "Neptun, Warszawska, 35-231 Rzeszów, Polska",
+        "address_line1": "Neptun",
+        "address_line2": "Warszawska, 35-231 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0551486,
+            "lon": 21.9962451,
+            "name": "Neptun",
+            "osm_id": 10054656682,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q332"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 2094,
+        "place_id": "51dd4c3beb09ff354059c9b5fc1b0f074940f00103f901aae24d57020000009203064e657074756e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9962451,
+          50.0551486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prasłowiańska Figura",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-328",
+        "suburb": "Paderewskiego",
+        "street": "Ignacego Paderewskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0265183,
+        "lat": 50.0248899,
+        "state_code": "PK",
+        "formatted": "Prasłowiańska Figura, Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+        "address_line1": "Prasłowiańska Figura",
+        "address_line2": "Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0248899,
+            "lon": 22.0265183,
+            "name": "Prasłowiańska Figura",
+            "osm_id": 5130449936,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 2102,
+        "place_id": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0265183,
+          50.0248899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prasłowiańska Figura",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-328",
+        "suburb": "Paderewskiego",
+        "street": "Ignacego Paderewskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0266043,
+        "lat": 50.0249106,
+        "state_code": "PK",
+        "formatted": "Prasłowiańska Figura, Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+        "address_line1": "Prasłowiańska Figura",
+        "address_line2": "Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0249106,
+            "lon": 22.0266043,
+            "name": "Prasłowiańska Figura",
+            "osm_id": 5130449935,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 2105,
+        "place_id": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0266043,
+          50.0249106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prasłowiańska Figura",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-328",
+        "suburb": "Paderewskiego",
+        "street": "Ignacego Paderewskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0266365,
+        "lat": 50.0249183,
+        "state_code": "PK",
+        "formatted": "Prasłowiańska Figura, Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+        "address_line1": "Prasłowiańska Figura",
+        "address_line2": "Ignacego Paderewskiego, 35-328 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0249183,
+            "lon": 22.0266365,
+            "name": "Prasłowiańska Figura",
+            "osm_id": 5130449934,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 2106,
+        "place_id": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0266365,
+          50.0249183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-206",
+        "suburb": "Króla Stanisława Augusta",
+        "street": "Aleja generała Leopolda Okulickiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9889002,
+        "lat": 50.0533465,
+        "state_code": "PK",
+        "formatted": "Aleja generała Leopolda Okulickiego, 35-206 Rzeszów, Polska",
+        "address_line1": "Aleja generała Leopolda Okulickiego",
+        "address_line2": "35-206 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0533465,
+            "lon": 21.9889002,
+            "osm_id": 9591092403,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2116,
+        "place_id": "510302429028fd354059946de00ed4064940f00103f901b374ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9889002,
+          50.0533465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drabina do Nieba",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-225",
+        "suburb": "Generała Władysława Andersa",
+        "street": "Krakowska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9773413,
+        "lat": 50.0474773,
+        "state_code": "PK",
+        "formatted": "Drabina do Nieba, Krakowska, 35-225 Rzeszów, Polska",
+        "address_line1": "Drabina do Nieba",
+        "address_line2": "Krakowska, 35-225 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0474773,
+            "lon": 21.9773413,
+            "name": "Drabina do Nieba",
+            "height": 20,
+            "osm_id": 11067062664,
+            "tourism": "artwork",
+            "material": "steel",
+            "osm_type": "n",
+            "start_date": 2023,
+            "artist_name": "prof. Józef Szajna",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artist_name": "prof. Józef Szajna",
+          "artwork_type": "sculpture",
+          "start_date": 2023
+        },
+        "distance": 2237,
+        "place_id": "51b687180a33fa354059b46675bc13064940f00103f90188f9a5930200000092031044726162696e6120646f204e69656261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9773413,
+          50.0474773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Żubr",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-230",
+        "suburb": "Staromieście",
+        "street": "Jana Robaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9955738,
+        "lat": 50.0568055,
+        "state_code": "PK",
+        "formatted": "Żubr, Jana Robaka, 35-230 Rzeszów, Polska",
+        "address_line1": "Żubr",
+        "address_line2": "Jana Robaka, 35-230 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0568055,
+            "lon": 21.9955738,
+            "name": "Żubr",
+            "osm_id": 10245088910,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 2284,
+        "place_id": "5123c1afecddfe354059d15d126745074940f00103f9018ea6a76202000000920305c5bb756272"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9955738,
+          50.0568055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mural \"Pamiętany\"",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-207",
+        "suburb": "Generała Władysława Andersa",
+        "street": "Ptasia",
+        "iso3166_2": "PL-18",
+        "lon": 21.9833188,
+        "lat": 50.0542298,
+        "state_code": "PK",
+        "formatted": "Mural \"Pamiętany\", Ptasia, 35-207 Rzeszów, Polska",
+        "address_line1": "Mural \"Pamiętany\"",
+        "address_line2": "Ptasia, 35-207 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.054229750000005,
+            "lon": 21.98331875,
+            "name": "Mural \"Pamiętany\"",
+            "osm_id": 978516907,
+            "tourism": "artwork",
+            "osm_type": "w",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2422,
+        "place_id": "5129cb10c7bafb354059325c1d00f1064940f00102f901abfb523a000000009203124d7572616c202250616d69c49974616e7922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.98331875,
+          50.054229750000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-102",
+        "suburb": "Staroniwa",
+        "street": "Staroniwska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9707165,
+        "lat": 50.0302155,
+        "state_code": "PK",
+        "formatted": "Staroniwska, 35-102 Rzeszów, Polska",
+        "address_line1": "Staroniwska",
+        "address_line2": "35-102 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0302155,
+            "lon": 21.9707165,
+            "osm_id": 10115068574,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 2501,
+        "place_id": "51063065e080f8354059882afc19de034940f00103f9019eb2e75a02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9707165,
+          50.0302155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ignacy Łukasiewicz",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-082",
+        "suburb": "Zawiszy Czarnego",
+        "street": "Podkarpacka",
+        "housenumber": "1",
+        "iso3166_2": "PL-18",
+        "lon": 21.9807796,
+        "lat": 50.0199445,
+        "state_code": "PK",
+        "formatted": "Ignacy Łukasiewicz, Podkarpacka 1, 35-082 Rzeszów, Polska",
+        "address_line1": "Ignacy Łukasiewicz",
+        "address_line2": "Podkarpacka 1, 35-082 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0199445,
+            "lon": 21.9807796,
+            "city": "Rzeszów",
+            "name": "Ignacy Łukasiewicz",
+            "osm_id": 10557658690,
+            "street": "Podkarpacka",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "35-082",
+            "_inherited": "",
+            "start_date": "2022-11-24",
+            "artist_name": "Przemysław Śliwka",
+            "housenumber": 1,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Przemysław Śliwka",
+          "artwork_type": "mural",
+          "start_date": "2022-11-24"
+        },
+        "distance": 2523,
+        "place_id": "517f95325f14fb354059179e978a8d024940f00103f901421649750200000092031349676e61637920c581756b617369657769637a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9807796,
+          50.0199445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-119",
+        "district": "Wzgórza Staroniwskie",
+        "suburb": "Franciszka Kotuli",
+        "street": "Plenerowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9679333,
+        "lat": 50.0352051,
+        "state_code": "PK",
+        "formatted": "Plenerowa, 35-119 Rzeszów, Polska",
+        "address_line1": "Plenerowa",
+        "address_line2": "35-119 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0352051,
+            "lon": 21.9679333,
+            "osm_id": 11671667661,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 2592,
+        "place_id": "5198350c7acaf73540598293c89981044940f00103f901cd83afb702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9679333,
+          50.0352051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-615",
+        "suburb": "Wilkowyja",
+        "street": "Witolda",
+        "iso3166_2": "PL-18",
+        "lon": 22.0403785,
+        "lat": 50.0315989,
+        "state_code": "PK",
+        "formatted": "Witolda, 35-615 Rzeszów, Polska",
+        "address_line1": "Witolda",
+        "address_line2": "35-615 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0315989,
+            "lon": 22.0403785,
+            "osm_id": 13688447325,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 2675,
+        "place_id": "5127f6d03e560a364059770bc96e0b044940f00103f9015d21e52f03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0403785,
+          50.0315989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9815737,
+        "lat": 50.0567387,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0567387,
+            "lon": 21.9815737,
+            "osm_id": 9591092401,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2720,
+        "place_id": "511c1dfc6948fb3540597275b63643074940f00103f901b174ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9815737,
+          50.0567387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9813611,
+        "lat": 50.0567163,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0567163,
+            "lon": 21.9813611,
+            "osm_id": 9591092400,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2727,
+        "place_id": "510c11267b3afb35405937d3ce7a42074940f00103f901b074ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9813611,
+          50.0567163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9812638,
+        "lat": 50.0567225,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0567225,
+            "lon": 21.9812638,
+            "osm_id": 9591092399,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2732,
+        "place_id": "51aabfb91a34fb3540594339d1ae42074940f00103f901af74ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9812638,
+          50.0567225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9810499,
+        "lat": 50.0567895,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0567895,
+            "lon": 21.9810499,
+            "osm_id": 9591092402,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2747,
+        "place_id": "517b3e141626fb354059cba0dae044074940f00103f901b274ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9810499,
+          50.0567895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9809216,
+        "lat": 50.0568251,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0568251,
+            "lon": 21.9809216,
+            "osm_id": 9591092398,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2756,
+        "place_id": "51a3f08fad1dfb354059c40b7d0b46074940f00103f901ae74ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9809216,
+          50.0568251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9807087,
+        "lat": 50.0568019,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0568019,
+            "lon": 21.9807087,
+            "osm_id": 9591092397,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2763,
+        "place_id": "511667b1b90ffb354059e36cdf4845074940f00103f901ad74ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9807087,
+          50.0568019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Kapitana Edwarda Brydaka",
+        "iso3166_2": "PL-18",
+        "lon": 21.9803019,
+        "lat": 50.0567881,
+        "state_code": "PK",
+        "formatted": "Kapitana Edwarda Brydaka, 35-508 Rzeszów, Polska",
+        "address_line1": "Kapitana Edwarda Brydaka",
+        "address_line2": "35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0567881,
+            "lon": 21.9803019,
+            "osm_id": 9591092396,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2780,
+        "place_id": "51e8b4b810f5fa354059a7261cd544074940f00103f901ac74ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9803019,
+          50.0567881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zwierzęta Lisiej Góry",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-086",
+        "suburb": "Dąbrowskiego",
+        "street": "Żeglarska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9928324,
+        "lat": 50.0120712,
+        "state_code": "PK",
+        "formatted": "Zwierzęta Lisiej Góry, Żeglarska, 35-086 Rzeszów, Polska",
+        "address_line1": "Zwierzęta Lisiej Góry",
+        "address_line2": "Żeglarska, 35-086 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0120712,
+            "lon": 21.9928324,
+            "name": "Zwierzęta Lisiej Góry",
+            "osm_id": 9591092414,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2886,
+        "place_id": "51c168a0432afe3540599b9c908c8b014940f00103f901be74ac3b020000009203175a776965727ac4997461204c697369656a2047c3b37279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9928324,
+          50.0120712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piccolo",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-205",
+        "suburb": "Baranówka",
+        "street": "Ciasna",
+        "iso3166_2": "PL-18",
+        "lon": 21.9857532,
+        "lat": 50.0604414,
+        "state_code": "PK",
+        "formatted": "Piccolo, Ciasna, 35-205 Rzeszów, Polska",
+        "address_line1": "Piccolo",
+        "address_line2": "Ciasna, 35-205 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0604414,
+            "lon": 21.9857532,
+            "name": "Piccolo",
+            "osm_id": 9591092393,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2917,
+        "place_id": "5167ed5b525afc3540598829368bbc074940f00103f901a974ac3b02000000920307506963636f6c6f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9857532,
+          50.0604414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Super Saiyan Gokū",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-205",
+        "suburb": "Baranówka",
+        "street": "Ciasna",
+        "iso3166_2": "PL-18",
+        "lon": 21.985828,
+        "lat": 50.0604676,
+        "state_code": "PK",
+        "formatted": "Super Saiyan Gokū, Ciasna, 35-205 Rzeszów, Polska",
+        "address_line1": "Super Saiyan Gokū",
+        "address_line2": "Ciasna, 35-205 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0604676,
+            "lon": 21.985828,
+            "name": "Super Saiyan Gokū",
+            "osm_id": 9591092392,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 2917,
+        "place_id": "51297b4b395ffc354059db3bfe66bd074940f00103f901a874ac3b0200000092031253757065722053616979616e20476f6bc5ab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.985828,
+          50.0604676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-310",
+        "suburb": "Słocina",
+        "street": "Powstańców Śląskich",
+        "housenumber": "2",
+        "iso3166_2": "PL-18",
+        "lon": 22.0400951,
+        "lat": 50.0247569,
+        "state_code": "PK",
+        "formatted": "Powstańców Śląskich 2, 35-310 Rzeszów, Polska",
+        "address_line1": "Powstańców Śląskich 2",
+        "address_line2": "35-310 Rzeszów, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.manor"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.historic"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.02476216703146,
+            "lon": 22.04008715609217,
+            "city": "Rzeszów",
+            "osm_id": 205282671,
+            "street": "Powstańców Śląskich",
+            "ref:nid": "A-338",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 2,
+            "historic": "manor",
+            "osm_type": "w",
+            "postcode": "35-310",
+            "start_date": "after 1800",
+            "housenumber": 2,
+            "heritage:operator": "nid"
+          }
+        },
+        "ref_other": {
+          "nid": "A-338"
+        },
+        "historic": {
+          "type": "manor",
+          "start_date": "after 1800"
+        },
+        "heritage": {
+          "level": 2,
+          "operator": "nid",
+          "ref": "A-338"
+        },
+        "building": {
+          "start_date": "after 1800"
+        },
+        "distance": 2922,
+        "place_id": "51d067e026430a36405903ca1c682b034940f00102f9016f5d3c0c00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.04008715609217,
+          50.02476216703146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-611",
+        "suburb": "Słocina",
+        "street": "Ignacego Paderewskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0444499,
+        "lat": 50.0274537,
+        "state_code": "PK",
+        "formatted": "Ignacego Paderewskiego, 35-611 Rzeszów, Polska",
+        "address_line1": "Ignacego Paderewskiego",
+        "address_line2": "35-611 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0274537,
+            "lon": 22.0444499,
+            "osm_id": 5085564105,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 3087,
+        "place_id": "517bcf9211610b364059bdd3539a83034940f00103f901c98c1f2f01000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0444499,
+          50.0274537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ikar",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Stefana Starzyńskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9822907,
+        "lat": 50.0609814,
+        "state_code": "PK",
+        "formatted": "Ikar, Stefana Starzyńskiego, 35-508 Rzeszów, Polska",
+        "address_line1": "Ikar",
+        "address_line2": "Stefana Starzyńskiego, 35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0609814,
+            "lon": 21.9822907,
+            "name": "Ikar",
+            "osm_id": 8504783752,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "artist_name": "Jakub Tomczak",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artist_name": "Jakub Tomczak",
+          "artwork_type": "sculpture"
+        },
+        "distance": 3088,
+        "place_id": "513aaa3f6777fb35405908550f3dce074940f00103f90188b3ecfa01000000920304496b6172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9822907,
+          50.0609814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rosiczka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-508",
+        "suburb": "Baranówka",
+        "street": "Stefana Starzyńskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9822121,
+        "lat": 50.0610997,
+        "state_code": "PK",
+        "formatted": "Rosiczka, Stefana Starzyńskiego, 35-508 Rzeszów, Polska",
+        "address_line1": "Rosiczka",
+        "address_line2": "Stefana Starzyńskiego, 35-508 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0610997,
+            "lon": 21.9822121,
+            "name": "Rosiczka",
+            "osm_id": 8504783753,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 3102,
+        "place_id": "51493c8f4072fb354059d0a56e1dd2074940f00103f90189b3ecfa01000000920308526f7369637a6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9822121,
+          50.0610997
+        ]
+      }
+    }
+  ]
+}

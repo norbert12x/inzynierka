@@ -1,0 +1,10 @@
+.local/
+.vs/
+**/bin/
+**/obj/
+__pycache__/
+*.user
+*.suo
+.env
+.env.*
+!.env.example

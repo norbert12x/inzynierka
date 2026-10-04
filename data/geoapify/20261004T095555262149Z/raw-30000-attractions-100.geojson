@@ -1,0 +1,5668 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pluton",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-504",
+        "district": "Kantorówka",
+        "suburb": "Franciszka Kotuli",
+        "street": "Krośnieńska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9612928,
+        "lat": 50.0451214,
+        "state_code": "PK",
+        "formatted": "Pluton, Krośnieńska, 35-504 Rzeszów, Polska",
+        "address_line1": "Pluton",
+        "address_line2": "Krośnieńska, 35-504 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0451214,
+            "lon": 21.9612928,
+            "name": "Pluton",
+            "osm_id": 10054656681,
+            "tourism": "attraction",
+            "osm_type": "n",
+            "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+            "subject:wikidata": "Q339"
+          }
+        },
+        "description": "Planeta modelu układu słonecznego nad Wisłokiem",
+        "distance": 3190,
+        "place_id": "5159e1f14817f6354059c4acbc89c6054940f00103f901a9e24d5702000000920306506c75746f6e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9612928,
+          50.0451214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrum Snu",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-506",
+        "suburb": "Przybyszówka",
+        "street": "Krakowska",
+        "iso3166_2": "PL-18",
+        "lon": 21.9684986,
+        "lat": 50.0548756,
+        "state_code": "PK",
+        "formatted": "Centrum Snu, Krakowska, 35-506 Rzeszów, Polska",
+        "address_line1": "Centrum Snu",
+        "address_line2": "Krakowska, 35-506 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0548756,
+            "lon": 21.9684986,
+            "name": "Centrum Snu",
+            "osm_id": 9591092405,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 3228,
+        "place_id": "51c7383586eff735405998ace52906074940f00103f901b574ac3b0200000092030b43656e7472756d20536e75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9684986,
+          50.0548756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Franciszek Kotula",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-505",
+        "district": "Kantorówka",
+        "suburb": "Franciszka Kotuli",
+        "street": "Krośnieńska",
+        "housenumber": "17",
+        "iso3166_2": "PL-18",
+        "lon": 21.9582966,
+        "lat": 50.045373,
+        "state_code": "PK",
+        "formatted": "Franciszek Kotula, Krośnieńska 17, 35-505 Rzeszów, Polska",
+        "address_line1": "Franciszek Kotula",
+        "address_line2": "Krośnieńska 17, 35-505 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.045373,
+            "lon": 21.9582966,
+            "city": "Rzeszów",
+            "name": "Franciszek Kotula",
+            "osm_id": 7937144982,
+            "street": "Krośnieńska",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "35-505",
+            "_inherited": "",
+            "start_date": "2020-09-25",
+            "housenumber": 17,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural",
+          "start_date": "2020-09-25"
+        },
+        "distance": 3404,
+        "place_id": "5135de0ced52f53540598a8f4fc8ce054940f00103f901963817d9010000009203114672616e6369737a656b204b6f74756c61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9582966,
+          50.045373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pizza",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-510",
+        "suburb": "Baranówka",
+        "street": "Maksymiliana Marii Kolbego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9766197,
+        "lat": 50.0621679,
+        "state_code": "PK",
+        "formatted": "Pizza, Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "address_line1": "Pizza",
+        "address_line2": "Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0621679,
+            "lon": 21.9766197,
+            "name": "Pizza",
+            "osm_id": 9591092394,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+          "artwork_type": "mural"
+        },
+        "distance": 3418,
+        "place_id": "511c21a8bf03fa35405935ae241ef5074940f00103f901aa74ac3b0200000092030550697a7a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9766197,
+          50.0621679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ser",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-510",
+        "suburb": "Baranówka",
+        "street": "Maksymiliana Marii Kolbego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9765786,
+        "lat": 50.0621789,
+        "state_code": "PK",
+        "formatted": "Ser, Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "address_line1": "Ser",
+        "address_line2": "Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0621789,
+            "lon": 21.9765786,
+            "name": "Ser",
+            "osm_id": 9591092410,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+          "artwork_type": "mural"
+        },
+        "distance": 3421,
+        "place_id": "5135f91c0e01fa35405929006b7af5074940f00103f901ba74ac3b02000000920303536572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9765786,
+          50.0621789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-510",
+        "suburb": "Baranówka",
+        "street": "Maksymiliana Marii Kolbego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9764262,
+        "lat": 50.0622189,
+        "state_code": "PK",
+        "formatted": "Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "address_line1": "Maksymiliana Marii Kolbego",
+        "address_line2": "35-510 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0622189,
+            "lon": 21.9764262,
+            "osm_id": 9591092413,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+          "artwork_type": "mural"
+        },
+        "distance": 3431,
+        "place_id": "5122f54311f7f9354059b758f6c9f6074940f00103f901bd74ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9764262,
+          50.0622189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Double Trouble",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-510",
+        "suburb": "Baranówka",
+        "street": "Maksymiliana Marii Kolbego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9766909,
+        "lat": 50.0623868,
+        "state_code": "PK",
+        "formatted": "Double Trouble, Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "address_line1": "Double Trouble",
+        "address_line2": "Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details",
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0623868,
+            "lon": 21.9766909,
+            "name": "Double Trouble",
+            "osm_id": 9591092395,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "description": "Mural przedstawiający 2 tygrysy",
+            "artwork_type": "mural"
+          }
+        },
+        "description": "Mural przedstawiający 2 tygrysy",
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 3435,
+        "place_id": "5102cd316a08fa354059ded9684afc074940f00103f901ab74ac3b0200000092030e446f75626c652054726f75626c65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9766909,
+          50.0623868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-510",
+        "suburb": "Baranówka",
+        "street": "Maksymiliana Marii Kolbego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9763004,
+        "lat": 50.0622846,
+        "state_code": "PK",
+        "formatted": "Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "address_line1": "Maksymiliana Marii Kolbego",
+        "address_line2": "35-510 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0622846,
+            "lon": 21.9763004,
+            "osm_id": 9591092412,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+          "artwork_type": "mural"
+        },
+        "distance": 3442,
+        "place_id": "515c12b1d2eef9354059b00518f1f8074940f00103f901bc74ac3b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9763004,
+          50.0622846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burger",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-510",
+        "suburb": "Baranówka",
+        "street": "Maksymiliana Marii Kolbego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9763075,
+        "lat": 50.0623381,
+        "state_code": "PK",
+        "formatted": "Burger, Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "address_line1": "Burger",
+        "address_line2": "Maksymiliana Marii Kolbego, 35-510 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0623381,
+            "lon": 21.9763075,
+            "name": "Burger",
+            "osm_id": 9591092411,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Setu;Medi;Sowa;Plik;Yone;Dok1;Magnes",
+          "artwork_type": "mural"
+        },
+        "distance": 3446,
+        "place_id": "51eb56cf49eff9354059bb65e2b1fa074940f00103f901bb74ac3b02000000920306427572676572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9763075,
+          50.0623381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "suburb": "Matysówka",
+        "street": "Wichrowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.0562639,
+        "lat": 50.0056532,
+        "state_code": "PK",
+        "formatted": "Wichrowa, 35-330 Rzeszów, Polska",
+        "address_line1": "Wichrowa",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0056532,
+            "lon": 22.0562639,
+            "osm_id": 13651588302,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 5117,
+        "place_id": "5107729a4f670e364059128f7a3eb9004940f00103f901ceb4b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0562639,
+          50.0056532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "suburb": "Matysówka",
+        "street": "Wichrowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.056936,
+        "lat": 50.0055592,
+        "state_code": "PK",
+        "formatted": "Wichrowa, 35-330 Rzeszów, Polska",
+        "address_line1": "Wichrowa",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0055592,
+            "lon": 22.056936,
+            "osm_id": 4393103290,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 5160,
+        "place_id": "510ef7915b930e3640599118f329b6004940f00103f901ba6fd90501000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.056936,
+          50.0055592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-601",
+        "suburb": "Zalesie",
+        "street": "Aleksandra Zelwerowicza",
+        "iso3166_2": "PL-18",
+        "lon": 22.0409652,
+        "lat": 49.9949907,
+        "state_code": "PK",
+        "formatted": "Aleksandra Zelwerowicza, 35-601 Rzeszów, Polska",
+        "address_line1": "Aleksandra Zelwerowicza",
+        "address_line2": "35-601 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9949907,
+            "lon": 22.0409652,
+            "osm_id": 13651581012,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 5371,
+        "place_id": "512b4602b27c0a3640597e29f2da5bff4840f00103f9015498b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0409652,
+          49.9949907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruchoma Szopka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Kielanówka",
+        "municipality": "gmina Boguchwała",
+        "postcode": "35-106",
+        "housenumber": "151",
+        "iso3166_2": "PL-18",
+        "lon": 21.9291368,
+        "lat": 50.0264916,
+        "state_code": "PK",
+        "formatted": "Ruchoma Szopka, 151, 35-106 Kielanówka, Polska",
+        "address_line1": "Ruchoma Szopka",
+        "address_line2": "151, 35-106 Kielanówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0264916,
+            "lon": 21.9291368,
+            "name": "Ruchoma Szopka",
+            "place": "Kielanówka",
+            "osm_id": 11472684617,
+            "country": "PL",
+            "tourism": "attraction",
+            "osm_type": "n",
+            "postcode": "35-106",
+            "_inherited": "",
+            "wheelchair": "yes",
+            "housenumber": 151,
+            "reservation": "no",
+            "opening_hours": "Dec 25-Feb 2: Mo-Sa 15:00-18:00; Dec 25-Feb 2:Su 09:00-18:00; PH Dec 25-Feb 2:09:00-18:00"
+          }
+        },
+        "opening_hours": "Dec 25-Feb 2: Mo-Sa 15:00-18:00; Dec 25-Feb 2:Su 09:00-18:00; PH Dec 25-Feb 2:09:00-18:00",
+        "facilities": {
+          "wheelchair": true
+        },
+        "distance": 5490,
+        "place_id": "519582c9e8dbed35405932cfa51364034940f00103f9014946d3ab0200000092030e527563686f6d6120537a6f706b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9291368,
+          50.0264916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "district": "Święty Roch",
+        "suburb": "Matysówka",
+        "street": "Świętego Walentego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0680019,
+        "lat": 50.005,
+        "state_code": "PK",
+        "formatted": "Świętego Walentego, 35-330 Rzeszów, Polska",
+        "address_line1": "Świętego Walentego",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.005,
+            "lon": 22.0680019,
+            "osm_id": 13625923918,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 5806,
+        "place_id": "51dc9090926811364059713d0ad7a3004940f00103f9014e192b2c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0680019,
+          50.005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0500339,
+        "lat": 49.9910019,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9910019,
+            "lon": 22.0500339,
+            "osm_id": 13651573086,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 6088,
+        "place_id": "51fb308c05cf0c3640590e637726d9fe4840f00103f9015e79b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0500339,
+          49.9910019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "district": "Budy",
+        "suburb": "Słocina",
+        "street": "Świętego Marcina",
+        "iso3166_2": "PL-18",
+        "lon": 22.0815675,
+        "lat": 50.0136378,
+        "state_code": "PK",
+        "formatted": "Świętego Marcina, 35-330 Rzeszów, Polska",
+        "address_line1": "Świętego Marcina",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0136378,
+            "lon": 22.0815675,
+            "osm_id": 13651581011,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6136,
+        "place_id": "519eea909be114364059a47e28e2be014940f00103f9015398b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0815675,
+          50.0136378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Kielanówka",
+        "hamlet": "Kopiec",
+        "municipality": "gmina Boguchwała",
+        "postcode": "35-106",
+        "street": "Błękitne Wzgórze",
+        "iso3166_2": "PL-18",
+        "lon": 21.9193759,
+        "lat": 50.0280677,
+        "state_code": "PK",
+        "formatted": "Błękitne Wzgórze, 35-106 Kielanówka, Polska",
+        "address_line1": "Błękitne Wzgórze",
+        "address_line2": "35-106 Kielanówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0280677,
+            "lon": 21.9193759,
+            "osm_id": 3688928809,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6144,
+        "place_id": "51063b0f385ceb35405977c9eeb897034940f00103f9012996e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9193759,
+          50.0280677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jana Pawła 156",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-317",
+        "suburb": "Budziwój",
+        "street": "Jana Pawła II",
+        "iso3166_2": "PL-18",
+        "lon": 21.990253,
+        "lat": 49.9823179,
+        "state_code": "PK",
+        "formatted": "Jana Pawła 156, Jana Pawła II, 35-317 Rzeszów, Polska",
+        "address_line1": "Jana Pawła 156",
+        "address_line2": "Jana Pawła II, 35-317 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9823179,
+            "lon": 21.990253,
+            "name": "Jana Pawła 156",
+            "osm_id": 5365548922,
+            "tourism": "attraction",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6162,
+        "place_id": "5111c4793881fd3540594063cb97bcfd4840f00103f9017ac7cf3f0100000092030f4a616e6120506177c5826120313536"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.990253,
+          49.9823179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0498462,
+        "lat": 49.9899083,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9899083,
+            "lon": 22.0498462,
+            "osm_id": 11832512887,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6183,
+        "place_id": "5173d476b8c20c364059fd44af50b5fe4840f00103f90177d145c102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0498462,
+          49.9899083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0434614,
+        "lat": 49.9875219,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9875219,
+            "lon": 22.0434614,
+            "osm_id": 11391988432,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6188,
+        "place_id": "516da34b49200b364059b94a1c1e67fe4840f00103f901d0f203a702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0434614,
+          49.9875219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0505301,
+        "lat": 49.9895635,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9895635,
+            "lon": 22.0505301,
+            "osm_id": 11832512888,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6242,
+        "place_id": "51aff6668aef0c3640595ce84a04aafe4840f00103f90178d145c102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0505301,
+          49.9895635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Nowa Wieś",
+        "hamlet": "Nowa Wieś Staromiejska",
+        "municipality": "gmina Trzebownisko",
+        "postcode": "36-001",
+        "street": "A4;S19",
+        "iso3166_2": "PL-18",
+        "lon": 22.0418894,
+        "lat": 50.0905364,
+        "state_code": "PK",
+        "formatted": "A4;S19, 36-001 Nowa Wieś, Polska",
+        "address_line1": "A4;S19",
+        "address_line2": "36-001 Nowa Wieś, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0905364,
+            "lon": 22.0418894,
+            "osm_id": 11136092898,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wikidata": "Q121760746",
+            "artist_name": "Arkadiusz Andrejkow",
+            "description": "Mural inspirowany fotografią kobiet tuż po ukończonym kursie kulinarnym w Nowej Wsi",
+            "artwork_type": "mural"
+          }
+        },
+        "description": "Mural inspirowany fotografią kobiet tuż po ukończonym kursie kulinarnym w Nowej Wsi",
+        "wiki_and_media": {
+          "wikidata": "Q121760746"
+        },
+        "artwork": {
+          "artist_name": "Arkadiusz Andrejkow",
+          "artwork_type": "mural"
+        },
+        "distance": 6544,
+        "place_id": "518f0c8343b90a3640597d8c5eb2960b4940f00103f901e24ac39702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0418894,
+          50.0905364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ks. ppłk. Stanisław Żytkiewicz",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Boguchwała",
+        "municipality": "gmina Boguchwała",
+        "postcode": "35-083",
+        "district": "Za Kościołem",
+        "street": "Przemysłowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9446114,
+        "lat": 49.9850311,
+        "state_code": "PK",
+        "formatted": "ks. ppłk. Stanisław Żytkiewicz, Przemysłowa, 35-083 Boguchwała, Polska",
+        "address_line1": "ks. ppłk. Stanisław Żytkiewicz",
+        "address_line2": "Przemysłowa, 35-083 Boguchwała, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9850311,
+            "lon": 21.9446114,
+            "name": "ks. ppłk. Stanisław Żytkiewicz",
+            "osm_id": 9249249460,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "bust"
+          }
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 7179,
+        "place_id": "51c46d7e0dd2f13540597e05c47f15fe4840f00103f901b4584c27020000009203216b732e207070c5826b2e205374616e6973c582617720c5bb79746b69657769637a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9446114,
+          49.9850311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-317",
+        "district": "Potoki",
+        "suburb": "Budziwój",
+        "street": "Parkowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9995241,
+        "lat": 49.9628413,
+        "state_code": "PK",
+        "formatted": "Parkowa, 35-317 Tyczyn, Polska",
+        "address_line1": "Parkowa",
+        "address_line2": "35-317 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9628413,
+            "lon": 21.9995241,
+            "osm_id": 13732211514,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 8255,
+        "place_id": "515710b9cfe0ff3540597b5e3b623efb4840f00103f9013aeb803203000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9995241,
+          49.9628413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Katarzyna Sobczyk",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "36-020",
+        "street": "Adama Mickiewicza",
+        "housenumber": "1",
+        "iso3166_2": "PL-18",
+        "lon": 22.0334098,
+        "lat": 49.9624904,
+        "state_code": "PK",
+        "formatted": "Katarzyna Sobczyk, Adama Mickiewicza 1, 36-020 Tyczyn, Polska",
+        "address_line1": "Katarzyna Sobczyk",
+        "address_line2": "Adama Mickiewicza 1, 36-020 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9624904,
+            "lon": 22.0334098,
+            "city": "Tyczyn",
+            "name": "Katarzyna Sobczyk",
+            "osm_id": 10705414936,
+            "street": "Adama Mickiewicza",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "36-020",
+            "_inherited": "",
+            "housenumber": 1,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 8552,
+        "place_id": "51ac5d6e8b8d08364059635babe232fb4840f00103f90118ab177e020000009203114b617461727a796e6120536f62637a796b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0334098,
+          49.9624904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "hamlet": "Działy Zachodnie",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "street": "MTB",
+        "iso3166_2": "PL-18",
+        "lon": 22.1232398,
+        "lat": 50.0139677,
+        "state_code": "PK",
+        "formatted": "MTB, 37-124 Kraczkowa, Polska",
+        "address_line1": "MTB",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0139677,
+            "lon": 22.1232398,
+            "osm_id": 13625922333,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 8920,
+        "place_id": "51ca90bea48c1f364059a5598fb1c9014940f00103f9011d132b2c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1232398,
+          50.0139677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Łąka",
+        "municipality": "gmina Trzebownisko",
+        "postcode": "36-004",
+        "housenumber": "281",
+        "iso3166_2": "PL-18",
+        "lon": 22.1064163,
+        "lat": 50.0866627,
+        "state_code": "PK",
+        "formatted": "281, 36-004 Łąka, Polska",
+        "address_line1": "281",
+        "address_line2": "36-004 Łąka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0866627,
+            "lon": 22.1064163,
+            "place": "Łąka",
+            "osm_id": 11279066489,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "36-004",
+            "_inherited": "",
+            "artist_name": "Michał Czerko;Michał Mach",
+            "housenumber": 281,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artist_name": "Michał Czerko;Michał Mach",
+          "artwork_type": "mural"
+        },
+        "distance": 9181,
+        "place_id": "51e64240193e1b3640593b246bc3170b4940f00103f90179e548a002000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1064163,
+          50.0866627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Woliczka",
+        "hamlet": "Kurzejówka",
+        "municipality": "gmina Świlcza",
+        "postcode": "36-072",
+        "street": "Świętego Jakuba",
+        "iso3166_2": "PL-18",
+        "lon": 21.8752661,
+        "lat": 50.0488463,
+        "state_code": "PK",
+        "formatted": "Świętego Jakuba, 36-072 Woliczka, Polska",
+        "address_line1": "Świętego Jakuba",
+        "address_line2": "36-072 Woliczka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0488463,
+            "lon": 21.8752661,
+            "osm_id": 8236565434,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 9315,
+        "place_id": "5127cc6a7011e0354059eb83769840064940f00103f901ba03f0ea01000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8752661,
+          50.0488463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "hamlet": "Działy Zachodnie",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "street": "MTB",
+        "iso3166_2": "PL-18",
+        "lon": 22.1291401,
+        "lat": 50.0126212,
+        "state_code": "PK",
+        "formatted": "MTB, 37-124 Kraczkowa, Polska",
+        "address_line1": "MTB",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "access",
+          "access.yes",
+          "man_made",
+          "man_made.tower",
+          "no_fee",
+          "no_fee.no",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint",
+          "tourism.sights",
+          "tourism.sights.tower"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "no",
+            "lat": 50.0126212,
+            "lon": 22.1291401,
+            "access": "yes",
+            "height": 15,
+            "osm_id": 8122039283,
+            "tourism": "viewpoint",
+            "man_made": "tower",
+            "material": "steel",
+            "osm_type": "n",
+            "direction": "0-360",
+            "tower:type": "observation",
+            "wheelchair": "no",
+            "description": "Widok na Rzeszów, Pogórze Dynowskie, Łańcut",
+            "opening_hours": "24/7",
+            "communication:radio": "yes"
+          }
+        },
+        "opening_hours": "24/7",
+        "description": "Widok na Rzeszów, Pogórze Dynowskie, Łańcut",
+        "facilities": {
+          "wheelchair": false
+        },
+        "restrictions": {
+          "access": "permissive"
+        },
+        "distance": 9368,
+        "place_id": "51281a5a530f213640593e9e4c929d014940f00103f901f37b1ce401000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1291401,
+          50.0126212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pałac Lubomirskich w Łące",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Łąka",
+        "municipality": "gmina Trzebownisko",
+        "postcode": "36-004",
+        "housenumber": "260",
+        "iso3166_2": "PL-18",
+        "lon": 22.1179371,
+        "lat": 50.0888823,
+        "state_code": "PK",
+        "formatted": "Pałac Lubomirskich w Łące, 260, 36-004 Łąka, Polska",
+        "address_line1": "Pałac Lubomirskich w Łące",
+        "address_line2": "260, 36-004 Łąka, Polska",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.building",
+          "details.heritage",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.08889607696065,
+            "lon": 22.117903248650382,
+            "name": "Pałac Lubomirskich w Łące",
+            "place": "Łąka",
+            "osm_id": 361701707,
+            "ref:nid": "A-373",
+            "tourism": "attraction",
+            "website": "https://trzebownisko.pl/?c=mdTresc-cmPokaz-234",
+            "building": "yes",
+            "heritage": 2,
+            "osm_type": "w",
+            "postcode": "36-004",
+            "wikidata": "Q30559201",
+            "start_date": "after 1700",
+            "housenumber": 260
+          }
+        },
+        "website": "https://trzebownisko.pl/?c=mdTresc-cmPokaz-234",
+        "ref_other": {
+          "nid": "A-373"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30559201"
+        },
+        "heritage": {
+          "level": 2,
+          "ref": "A-373"
+        },
+        "building": {
+          "start_date": "after 1700"
+        },
+        "distance": 9992,
+        "place_id": "51a90b45e82e1e364059f4a457f2600b4940f00102f9014b218f150000000092031c5061c5826163204c75626f6d6972736b696368207720c581c4856365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.117903248650382,
+          50.08889607696065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wyschnięte oczko wodne",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "postcode": "36-061",
+        "district": "Borsuk",
+        "street": "Borsuk",
+        "iso3166_2": "PL-18",
+        "lon": 21.9930417,
+        "lat": 50.1351582,
+        "state_code": "PK",
+        "formatted": "Wyschnięte oczko wodne, Borsuk, 36-061 Głogów Małopolski, Polska",
+        "address_line1": "Wyschnięte oczko wodne",
+        "address_line2": "Borsuk, 36-061 Głogów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1351582,
+            "lon": 21.9930417,
+            "name": "Wyschnięte oczko wodne",
+            "osm_id": 2302548081,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 10946,
+        "place_id": "51721019fb37fe354059a36428dd4c114940f00103f90171183e890000000092031757797363686e69c4997465206f637a6b6f20776f646e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9930417,
+          50.1351582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jan Paweł II",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "housenumber": "311",
+        "iso3166_2": "PL-18",
+        "lon": 22.1611213,
+        "lat": 50.0384376,
+        "state_code": "PK",
+        "formatted": "Jan Paweł II, 311, 37-124 Kraczkowa, Polska",
+        "address_line1": "Jan Paweł II",
+        "address_line2": "311, 37-124 Kraczkowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0384376,
+            "lon": 22.1611213,
+            "name": "Jan Paweł II",
+            "place": "Kraczkowa",
+            "osm_id": 12018300980,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "37-124",
+            "_inherited": "",
+            "housenumber": 311,
+            "artwork_type": "mural"
+          }
+        },
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 11257,
+        "place_id": "516330da3e3f29364059e777f585eb044940f00103f90134b858cc0200000092030d4a616e2050617765c582204949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1611213,
+          50.0384376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lutoryż",
+        "hamlet": "Podlas",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-040",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8853786,
+        "lat": 49.9644869,
+        "state_code": "PK",
+        "formatted": "S19, 36-040 Lutoryż, Polska",
+        "address_line1": "S19",
+        "address_line2": "36-040 Lutoryż, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9644869,
+            "lon": 21.8853786,
+            "osm_id": 3688928804,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 11721,
+        "place_id": "510994032ca8e2354059d075864e74fb4840f00103f9012496e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8853786,
+          49.9644869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lutoryż",
+        "hamlet": "Podlas",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-047",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8719363,
+        "lat": 49.9707317,
+        "state_code": "PK",
+        "formatted": "S19, 36-047 Lutoryż, Polska",
+        "address_line1": "S19",
+        "address_line2": "36-047 Lutoryż, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9707317,
+            "lon": 21.8719363,
+            "osm_id": 3688928806,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 11999,
+        "place_id": "51fcb1a43737df3540596258b4ef40fc4840f00103f9012696e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8719363,
+          49.9707317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grodzisko Pierścieniowe Okop",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "hamlet": "Przylasek",
+        "postcode": "32-205",
+        "suburb": "Budziwój",
+        "street": "Podleśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.9746156,
+        "lat": 49.9228672,
+        "state_code": "PK",
+        "formatted": "Grodzisko Pierścieniowe Okop, Podleśna, 32-205 Rzeszów, Polska",
+        "address_line1": "Grodzisko Pierścieniowe Okop",
+        "address_line2": "Podleśna, 32-205 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights"
+        ],
+        "details": [
+          "details",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.92292114094544,
+            "lon": 21.97459554312187,
+            "name": "Grodzisko Pierścieniowe Okop",
+            "image": "http://www.lubenia.pl/obrazki/Image/wal_obronny_d.jpg",
+            "osm_id": 297008977,
+            "tourism": "attraction",
+            "website": "http://www.lubenia.pl/index.php?action=pages_1&action_id=40",
+            "historic": "citywalls",
+            "osm_type": "w",
+            "start_date": "before 1200",
+            "description": "Grodzisko Okop"
+          }
+        },
+        "website": "http://www.lubenia.pl/index.php?action=pages_1&action_id=40",
+        "description": "Grodzisko Okop",
+        "wiki_and_media": {
+          "image": "http://www.lubenia.pl/obrazki/Image/wal_obronny_d.jpg"
+        },
+        "historic": {
+          "type": "citywalls",
+          "start_date": "before 1200"
+        },
+        "distance": 12863,
+        "place_id": "512989f0177ff9354059e792aa4722f64840f00102f90151ffb3110000000092031d47726f647a69736b6f2050696572c59b6369656e696f7765204f6b6f70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97459554312187,
+          49.92292114094544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lubenia",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-042",
+        "housenumber": "100",
+        "iso3166_2": "PL-18",
+        "lon": 21.9338305,
+        "lat": 49.9270326,
+        "state_code": "PK",
+        "formatted": "100, 36-042 Lubenia, Polska",
+        "address_line1": "100",
+        "address_line2": "36-042 Lubenia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details",
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9270326,
+            "lon": 21.9338305,
+            "place": "Lubenia",
+            "osm_id": 11500266006,
+            "tourism": "artwork",
+            "website": "https://samorzad.gov.pl/web/gmina-lubenia/szkola-podstawowa-w-lubeni",
+            "material": "bronze",
+            "osm_type": "n",
+            "postcode": "36-042",
+            "_inherited": "",
+            "housenumber": 100,
+            "inscription": "Patron szkoły podstawowej w Lubeni Ks. Mjr Franciszek Łuszczki",
+            "artwork_type": "bust"
+          }
+        },
+        "website": "https://samorzad.gov.pl/web/gmina-lubenia/szkola-podstawowa-w-lubeni",
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 13226,
+        "place_id": "51e08101840fef354059b5a91501a9f64840f00103f901162278ad02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9338305,
+          49.9270326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Babica",
+        "hamlet": "Dół",
+        "municipality": "gmina Czudec",
+        "postcode": "36-041",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.9325754,
+        "lat": 49.9262241,
+        "state_code": "PK",
+        "formatted": "19, 36-041 Babica, Polska",
+        "address_line1": "19",
+        "address_line2": "36-041 Babica, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details",
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9262241,
+            "lon": 21.9325754,
+            "osm_id": 11499732452,
+            "tourism": "artwork",
+            "website": "https://samorzad.gov.pl/web/gmina-lubenia/mural-w-lubeni2",
+            "osm_type": "n",
+            "artwork_type": "mural"
+          }
+        },
+        "website": "https://samorzad.gov.pl/web/gmina-lubenia/mural-w-lubeni2",
+        "artwork": {
+          "artwork_type": "mural"
+        },
+        "distance": 13344,
+        "place_id": "51db0dec42bdee3540592e22e5828ef64840f00103f901e4fd6fad02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9325754,
+          49.9262241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Platforma Widokowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Grobla",
+        "municipality": "gmina Czudec",
+        "postcode": "38-120",
+        "street": "Słoneczna",
+        "iso3166_2": "PL-18",
+        "lon": 21.840081,
+        "lat": 49.9801197,
+        "state_code": "PK",
+        "formatted": "Platforma Widokowa, Słoneczna, 38-120 Czudec, Polska",
+        "address_line1": "Platforma Widokowa",
+        "address_line2": "Słoneczna, 38-120 Czudec, Polska",
+        "categories": [
+          "sport",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.98011395294452,
+            "lon": 21.840071257883995,
+            "name": "Platforma Widokowa",
+            "osm_id": 301635551,
+            "landuse": "recreation_ground",
+            "tourism": "viewpoint",
+            "osm_type": "w",
+            "description": "Widok okolicy nawet do 40km"
+          }
+        },
+        "description": "Widok okolicy nawet do 40km",
+        "distance": 13346,
+        "place_id": "51ddebf2e80ed73540590020bf5f74fd4840f00102f901df97fa1100000000920312506c6174666f726d61205769646f6b6f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.840071257883995,
+          49.98011395294452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Babica",
+        "hamlet": "Góra",
+        "municipality": "gmina Czudec",
+        "postcode": "38-115",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8855778,
+        "lat": 49.9439492,
+        "state_code": "PK",
+        "formatted": "19, 38-115 Babica, Polska",
+        "address_line1": "19",
+        "address_line2": "38-115 Babica, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9439492,
+            "lon": 21.8855778,
+            "osm_id": 6750866848,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 13388,
+        "place_id": "514a10093ab5e2354059ed8acf53d3f84840f00103f901a00d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8855778,
+          49.9439492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krzemionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Niechobrz",
+        "municipality": "gmina Boguchwała",
+        "postcode": "38-120",
+        "iso3166_2": "PL-18",
+        "lon": 21.8427086,
+        "lat": 49.9714059,
+        "state_code": "PK",
+        "formatted": "Krzemionka, 38-120 Niechobrz, Polska",
+        "address_line1": "Krzemionka",
+        "address_line2": "38-120 Niechobrz, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 388,
+            "lat": 49.9714059,
+            "lon": 21.8427086,
+            "name": "Krzemionka",
+            "osm_id": 3688928803,
+            "natural": "peak",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "ele": 388,
+        "distance": 13672,
+        "place_id": "51d60e35c0bbd73540591bd24d0757fc4840f00103f9012396e0db0000000092030a4b727a656d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8427086,
+          49.9714059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Figura Matki Boskiej",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9435999,
+        "lat": 49.9112117,
+        "state_code": "PK",
+        "formatted": "Figura Matki Boskiej, Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Figura Matki Boskiej",
+        "address_line2": "Chłopski Most, 36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork",
+          "details.place_of_worship"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9112117,
+            "lon": 21.9435999,
+            "name": "Figura Matki Boskiej",
+            "osm_id": 11501466673,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "religion": "christian",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "place_of_worship": {
+          "religion": "christian"
+        },
+        "distance": 14647,
+        "place_id": "51450257c38ff1354059c59dc195a2f44840f00103f90131748aad02000000920314466967757261204d61746b6920426f736b69656a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9435999,
+          49.9112117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Przedmieście Czudeckie",
+        "hamlet": "Kolonia",
+        "municipality": "gmina Czudec",
+        "postcode": "38-120",
+        "street": "988",
+        "iso3166_2": "PL-18",
+        "lon": 21.8580973,
+        "lat": 49.9417466,
+        "state_code": "PK",
+        "formatted": "988, 38-120 Przedmieście Czudeckie, Polska",
+        "address_line1": "988",
+        "address_line2": "38-120 Przedmieście Czudeckie, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9417466,
+            "lon": 21.8580973,
+            "osm_id": 6750866847,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 14890,
+        "place_id": "513149c043acdb354059420f10278bf84840f00103f9019f0d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8580973,
+          49.9417466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Leśniczówka",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.8096963,
+        "lat": 49.9798316,
+        "state_code": "PK",
+        "formatted": "Leśna, 28-120 Czudec, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "28-120 Czudec, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9798316,
+            "lon": 21.8096963,
+            "osm_id": 3688928807,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15311,
+        "place_id": "513431b84148cf3540592ecb321f6bfd4840f00103f9012796e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8096963,
+          49.9798316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Leśniczówka",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.8158006,
+        "lat": 49.9701651,
+        "state_code": "PK",
+        "formatted": "Leśna, 28-120 Czudec, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "28-120 Czudec, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9701651,
+            "lon": 21.8158006,
+            "osm_id": 3688928805,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15405,
+        "place_id": "51a30ee14ed8d03540593c1cb85e2efc4840f00103f9012596e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8158006,
+          49.9701651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dawna synagoga w Czudcu",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "municipality": "gmina Czudec",
+        "postcode": "38-120",
+        "street": "Słoneczna",
+        "housenumber": "2",
+        "iso3166_2": "PL-18",
+        "lon": 21.8388099,
+        "lat": 49.9463964,
+        "state_code": "PK",
+        "formatted": "Dawna synagoga w Czudcu, Słoneczna 2, 38-120 Czudec, Polska",
+        "address_line1": "Dawna synagoga w Czudcu",
+        "address_line2": "Słoneczna 2, 38-120 Czudec, Polska",
+        "categories": [
+          "building",
+          "building.place_of_worship",
+          "building.tourism",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights.place_of_worship.synagogue"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.94639569920126,
+            "lon": 21.838810313331344,
+            "city": "Czudec",
+            "name": "Dawna synagoga w Czudcu",
+            "phone": "+48 17 277 11 11",
+            "osm_id": 208969923,
+            "street": "Słoneczna",
+            "tourism": "attraction",
+            "building": "synagogue",
+            "osm_type": "w",
+            "postcode": "38-120",
+            "wikidata": "Q9349725",
+            "wikipedia": "pl:Synagoga w Czudcu",
+            "description": "dawna synagoga",
+            "housenumber": 2,
+            "addr:city:simc": "0648385",
+            "addr:street:sym_ul": 20254
+          }
+        },
+        "description": "dawna synagoga",
+        "contact": {
+          "phone": "+48 17 277 11 11"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q9349725",
+          "wikipedia": "pl:Synagoga w Czudcu"
+        },
+        "building": {
+          "type": "synagogue"
+        },
+        "distance": 15552,
+        "place_id": "513e4ecf45bcd63540597e92887e23f94840f00102f901c3a0740c000000009203174461776e612073796e61676f6761207720437a75646375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.838810313331344,
+          49.94639569920126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9498184,
+        "lat": 49.8991024,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8991024,
+            "lon": 21.9498184,
+            "osm_id": 4961768972,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 15823,
+        "place_id": "519923754c27f3354059a7e095c915f34840f00103f9010c96be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9498184,
+          49.8991024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9496387,
+        "lat": 49.8987865,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8987865,
+            "lon": 21.9496387,
+            "osm_id": 4961768971,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 15860,
+        "place_id": "51168497851bf33540590ccb9f6f0bf34840f00103f9010b96be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9496387,
+          49.8987865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zabratówka",
+        "hamlet": "Zabratówka-Wieś",
+        "municipality": "gmina Chmielnik",
+        "postcode": "36-017",
+        "street": "877",
+        "iso3166_2": "PL-18",
+        "lon": 22.2049791,
+        "lat": 49.9771404,
+        "state_code": "PK",
+        "formatted": "877, 36-017 Zabratówka, Polska",
+        "address_line1": "877",
+        "address_line2": "36-017 Zabratówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9771404,
+            "lon": 22.2049791,
+            "osm_id": 12097303260,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15871,
+        "place_id": "510fdda2827934364059d9ccc6ef12fd4840f00103f901dc320ed102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2049791,
+          49.9771404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9493194,
+        "lat": 49.8981854,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8981854,
+            "lon": 21.9493194,
+            "osm_id": 4961768970,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 15931,
+        "place_id": "515675a09806f3354059525f3bbdf7f24840f00103f9010a96be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9493194,
+          49.8981854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9492235,
+        "lat": 49.898091,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.898091,
+            "lon": 21.9492235,
+            "osm_id": 4961768969,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 15943,
+        "place_id": "513b18b14f00f33540597dea58a5f4f24840f00103f9010996be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9492235,
+          49.898091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "widok na Rzeszow i okolice",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Medynia Głogowska",
+        "hamlet": "Kępówka",
+        "municipality": "gmina Czarna",
+        "postcode": "37-126",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.1376275,
+        "lat": 50.1517179,
+        "state_code": "PK",
+        "formatted": "widok na Rzeszow i okolice, 881, 37-126 Medynia Głogowska, Polska",
+        "address_line1": "widok na Rzeszow i okolice",
+        "address_line2": "881, 37-126 Medynia Głogowska, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1517179,
+            "lon": 22.1376275,
+            "name": "widok na Rzeszow i okolice",
+            "osm_id": 4501420942,
+            "name:pl": "widok na Rzeszow i okolice",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "name_international": {
+          "pl": "widok na Rzeszow i okolice"
+        },
+        "distance": 15945,
+        "place_id": "51be874b8e3b23364059e15bfd7d6b134940f00103f9018e3b4e0c0100000092031a7769646f6b206e6120527a65737a6f772069206f6b6f6c696365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1376275,
+          50.1517179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9490627,
+        "lat": 49.897934,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.897934,
+            "lon": 21.9490627,
+            "osm_id": 4961768968,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 15962,
+        "place_id": "517c5aeac5f5f2354059b5fb5580eff24840f00103f9010896be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9490627,
+          49.897934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.949162,
+        "lat": 49.8977353,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8977353,
+            "lon": 21.949162,
+            "osm_id": 4961768967,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 15982,
+        "place_id": "51209be447fcf23540597dfb84fde8f24840f00103f9010796be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.949162,
+          49.8977353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9491115,
+        "lat": 49.8972781,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8972781,
+            "lon": 21.9491115,
+            "osm_id": 4961768966,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16032,
+        "place_id": "51ecc1a4f8f8f235405961753f02daf24840f00103f9010696be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9491115,
+          49.8972781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9491016,
+        "lat": 49.8968971,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8968971,
+            "lon": 21.9491016,
+            "osm_id": 4961768965,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16073,
+        "place_id": "51ce948c52f8f235405949303086cdf24840f00103f9010596be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9491016,
+          49.8968971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.949097,
+        "lat": 49.8968664,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8968664,
+            "lon": 21.949097,
+            "osm_id": 4961768964,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16077,
+        "place_id": "5151bb5f05f8f2354059cd70a884ccf24840f00103f9010496be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.949097,
+          49.8968664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9490794,
+        "lat": 49.8968377,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8968377,
+            "lon": 21.9490794,
+            "osm_id": 4961768963,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16080,
+        "place_id": "51ab4e18def6f2354059f1a8e793cbf24840f00103f9010396be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9490794,
+          49.8968377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9490503,
+        "lat": 49.8967742,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8967742,
+            "lon": 21.9490503,
+            "osm_id": 4961768962,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16088,
+        "place_id": "514dc2e0f5f4f2354059c3723a7fc9f24840f00103f9010296be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9490503,
+          49.8967742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9479213,
+        "lat": 49.8968157,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8968157,
+            "lon": 21.9479213,
+            "osm_id": 4961768957,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16103,
+        "place_id": "518bae66f8aaf235405909055bdbcaf24840f00103f901fd95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9479213,
+          49.8968157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9481811,
+        "lat": 49.8967474,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8967474,
+            "lon": 21.9481811,
+            "osm_id": 4961768958,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16106,
+        "place_id": "51702f1fffbbf2354059f3e2699ec8f24840f00103f901fe95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9481811,
+          49.8967474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9483341,
+        "lat": 49.8966887,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8966887,
+            "lon": 21.9483341,
+            "osm_id": 4961768960,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16110,
+        "place_id": "517d2e0906c6f2354059ac9800b2c6f24840f00103f9010096be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9483341,
+          49.8966887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9485081,
+        "lat": 49.8966491,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8966491,
+            "lon": 21.9485081,
+            "osm_id": 4961768961,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16111,
+        "place_id": "51b97d456dd1f2354059713ed065c5f24840f00103f9010196be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9485081,
+          49.8966491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.948245,
+        "lat": 49.8966858,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8966858,
+            "lon": 21.948245,
+            "osm_id": 4961768959,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16111,
+        "place_id": "5174982f2fc0f2354059d0e4ac99c6f24840f00103f901ff95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.948245,
+          49.8966858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9485649,
+        "lat": 49.8965809,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8965809,
+            "lon": 21.9485649,
+            "osm_id": 4961768952,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16117,
+        "place_id": "512ea23726d5f2354059efdbb529c3f24840f00103f901f895be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9485649,
+          49.8965809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9485166,
+        "lat": 49.896571,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.896571,
+            "lon": 21.9485166,
+            "osm_id": 4961768953,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16119,
+        "place_id": "518fb6e0fbd1f235405961c5a9d6c2f24840f00103f901f995be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9485166,
+          49.896571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9484755,
+        "lat": 49.896572,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.896572,
+            "lon": 21.9484755,
+            "osm_id": 4961768954,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16120,
+        "place_id": "51a88e554acff235405931410ddfc2f24840f00103f901fa95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9484755,
+          49.896572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.947793,
+        "lat": 49.8966682,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8966682,
+            "lon": 21.947793,
+            "osm_id": 4961768956,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16121,
+        "place_id": "51b360e28fa2f23540597d2e0906c6f24840f00103f901fc95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.947793,
+          49.8966682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9476595,
+        "lat": 49.8966116,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8966116,
+            "lon": 21.9476595,
+            "osm_id": 4961768955,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16130,
+        "place_id": "51643e20d099f23540596c9b3d2bc4f24840f00103f901fb95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9476595,
+          49.8966116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9474192,
+        "lat": 49.8964121,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8964121,
+            "lon": 21.9474192,
+            "osm_id": 4961768944,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16156,
+        "place_id": "513c9a8f108af23540598d9eb6a1bdf24840f00103f901f095be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9474192,
+          49.8964121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9481789,
+        "lat": 49.8962762,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8962762,
+            "lon": 21.9481789,
+            "osm_id": 4961768951,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16157,
+        "place_id": "51db4136dabbf23540597297b32db9f24840f00103f901f795be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9481789,
+          49.8962762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9481054,
+        "lat": 49.8962224,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8962224,
+            "lon": 21.9481054,
+            "osm_id": 4961768950,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16164,
+        "place_id": "5137291609b7f2354059a8f8646ab7f24840f00103f901f695be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9481054,
+          49.8962224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9472873,
+        "lat": 49.896316,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.896316,
+            "lon": 21.9472873,
+            "osm_id": 4961768945,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16168,
+        "place_id": "51886aa56b81f2354059d670917bbaf24840f00103f901f195be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9472873,
+          49.896316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9471093,
+        "lat": 49.8962674,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8962674,
+            "lon": 21.9471093,
+            "osm_id": 4961768946,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16177,
+        "place_id": "51ca3c4dc175f235405948bce1e3b8f24840f00103f901f295be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9471093,
+          49.8962674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9478892,
+        "lat": 49.8961139,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8961139,
+            "lon": 21.9478892,
+            "osm_id": 4961768949,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16179,
+        "place_id": "514a3bdadda8f2354059dafe3adcb3f24840f00103f901f595be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9478892,
+          49.8961139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9474742,
+        "lat": 49.8960517,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8960517,
+            "lon": 21.9474742,
+            "osm_id": 4961768947,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16194,
+        "place_id": "51c3cd4eab8df23540593a8375d2b1f24840f00103f901f395be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9474742,
+          49.8960517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9476127,
+        "lat": 49.8959522,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8959522,
+            "lon": 21.9476127,
+            "osm_id": 4961768948,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16202,
+        "place_id": "5136c6f3be96f2354059bfe3ca8faef24840f00103f901f495be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9476127,
+          49.8959522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9473164,
+        "lat": 49.8957918,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8957918,
+            "lon": 21.9473164,
+            "osm_id": 4961768943,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16224,
+        "place_id": "51e6f6dc5383f23540593283424ea9f24840f00103f901ef95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9473164,
+          49.8957918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9469868,
+        "lat": 49.8956511,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8956511,
+            "lon": 21.9469868,
+            "osm_id": 4961768942,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16245,
+        "place_id": "5163be17ba6df23540592f90fbb1a4f24840f00103f901ee95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9469868,
+          49.8956511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9464652,
+        "lat": 49.8954064,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8954064,
+            "lon": 21.9464652,
+            "osm_id": 4961768941,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16281,
+        "place_id": "5156cd188b4bf235405986504aad9cf24840f00103f901ed95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9464652,
+          49.8954064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.945907,
+        "lat": 49.8951044,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8951044,
+            "lon": 21.945907,
+            "osm_id": 4961768940,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16324,
+        "place_id": "51b60e0ef626f2354059bb40eec792f24840f00103f901ec95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.945907,
+          49.8951044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9457697,
+        "lat": 49.8950282,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8950282,
+            "lon": 21.9457697,
+            "osm_id": 4961768939,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16335,
+        "place_id": "51380c8bf61df2354059b6ffb74890f24840f00103f901eb95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9457697,
+          49.8950282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9455689,
+        "lat": 49.8949117,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8949117,
+            "lon": 21.9455689,
+            "osm_id": 4961768938,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16351,
+        "place_id": "515d9dadcd10f2354059652772778cf24840f00103f901ea95be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9455689,
+          49.8949117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.945014,
+        "lat": 49.8945984,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8945984,
+            "lon": 21.945014,
+            "osm_id": 4961768937,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16395,
+        "place_id": "511c430070ecf1354059e7864b3382f24840f00103f901e995be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.945014,
+          49.8945984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9453339,
+        "lat": 49.8944729,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8944729,
+            "lon": 21.9453339,
+            "osm_id": 4961768936,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16402,
+        "place_id": "51d64c086701f2354059425486167ef24840f00103f901e895be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9453339,
+          49.8944729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9456391,
+        "lat": 49.8943658,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8943658,
+            "lon": 21.9456391,
+            "osm_id": 4961768935,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "scarecrow"
+          }
+        },
+        "artwork": {
+          "artwork_type": "scarecrow"
+        },
+        "distance": 16408,
+        "place_id": "51a251706715f235405998d41a947af24840f00103f901e795be2701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9456391,
+          49.8943658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zagroda Garncarska",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Medynia Głogowska",
+        "hamlet": "Zadwór",
+        "municipality": "gmina Czarna",
+        "postcode": "37-126",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.1387179,
+        "lat": 50.1578045,
+        "state_code": "PK",
+        "formatted": "Zagroda Garncarska, 881, 37-126 Medynia Głogowska, Polska",
+        "address_line1": "Zagroda Garncarska",
+        "address_line2": "881, 37-126 Medynia Głogowska, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.157808971709635,
+            "lon": 22.138708069962455,
+            "name": "Zagroda Garncarska",
+            "osm_id": 193130974,
+            "tourism": "attraction",
+            "osm_type": "w",
+            "contact:website": "https://www.medynia.com/"
+          }
+        },
+        "website": "https://www.medynia.com/",
+        "distance": 16537,
+        "place_id": "51162e405f82233640590f419a1533144940f00102f901def1820b000000009203125a6167726f6461204761726e636172736b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.138708069962455,
+          50.157808971709635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galeria Rzeźby Cermicznej Władysławy Prucnal",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Medynia Głogowska",
+        "hamlet": "Zadwór",
+        "municipality": "gmina Czarna",
+        "postcode": "37-126",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.1398557,
+        "lat": 50.157366,
+        "state_code": "PK",
+        "formatted": "Galeria Rzeźby Cermicznej Władysławy Prucnal, 881, 37-126 Medynia Głogowska, Polska",
+        "address_line1": "Galeria Rzeźby Cermicznej Władysławy Prucnal",
+        "address_line2": "881, 37-126 Medynia Głogowska, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.157366,
+            "lon": 22.1398557,
+            "name": "Galeria Rzeźby Cermicznej Władysławy Prucnal",
+            "osm_id": 5728507250,
+            "tourism": "attraction",
+            "osm_type": "n"
+          }
+        },
+        "distance": 16545,
+        "place_id": "51c0a84995cd233640594dc0af9124144940f00103f901721572550100000092032f47616c6572696120527a65c5ba6279204365726d69637a6e656a2057c58261647973c58261777920507275636e616c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1398557,
+          50.157366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Powóz",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Generała Stanisława Maczka",
+        "street": "Rynek",
+        "iso3166_2": "PL-18",
+        "lon": 22.2299517,
+        "lat": 50.0684621,
+        "state_code": "PK",
+        "formatted": "Powóz, Rynek, 37-100 Łańcut, Polska",
+        "address_line1": "Powóz",
+        "address_line2": "Rynek, 37-100 Łańcut, Polska",
+        "categories": [
+          "no_access",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0684621,
+            "lon": 22.2299517,
+            "url": "https://fotopolska.eu/Kareta-na-Rynku-Lancut?map_z=19",
+            "name": "Powóz",
+            "image": "https://photos.app.goo.gl/wtVxwEKyBKqtuhoM6",
+            "access": "no",
+            "osm_id": 2163123641,
+            "tourism": "artwork",
+            "material": "metal",
+            "osm_type": "n",
+            "description": "Metalowa rzeźba przedstawiająca powóz. Pełni funkcję promowania miasta.",
+            "artwork_type": "sculpture",
+            "artwork_subject:pl": "powóz"
+          }
+        },
+        "website": "https://fotopolska.eu/Kareta-na-Rynku-Lancut?map_z=19",
+        "description": "Metalowa rzeźba przedstawiająca powóz. Pełni funkcję promowania miasta.",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/wtVxwEKyBKqtuhoM6"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "restrictions": {
+          "access": "private"
+        },
+        "distance": 16556,
+        "place_id": "51dc28571dde3a364059fb41b85dc3084940f00103f901b9a5ee8000000000920306506f77c3b37a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2299517,
+          50.0684621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Generała Stanisława Maczka",
+        "street": "Farna",
+        "iso3166_2": "PL-18",
+        "lon": 22.229661,
+        "lat": 50.0700057,
+        "state_code": "PK",
+        "formatted": "Farna, 37-100 Łańcut, Polska",
+        "address_line1": "Farna",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0700057,
+            "lon": 22.229661,
+            "osm_id": 13737134142,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 16573,
+        "place_id": "51aa2a3410cb3a3640594d0460f2f5084940f00103f9013e08cc3203000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.229661,
+          50.0700057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fortepian",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Plac Jana III Sobieskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.2306598,
+        "lat": 50.067644,
+        "state_code": "PK",
+        "formatted": "Fortepian, Plac Jana III Sobieskiego, 37-100 Łańcut, Polska",
+        "address_line1": "Fortepian",
+        "address_line2": "Plac Jana III Sobieskiego, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.067644,
+            "lon": 22.2306598,
+            "name": "Fortepian",
+            "osm_id": 10738717166,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "installation"
+          }
+        },
+        "artwork": {
+          "artwork_type": "installation"
+        },
+        "distance": 16587,
+        "place_id": "517d8049850c3b364059a4e2ff8ea8084940f00103f901eed1138002000000920309466f7274657069616e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2306598,
+          50.067644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Leśniczówka",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.7877966,
+        "lat": 49.9837086,
+        "state_code": "PK",
+        "formatted": "Leśna, 28-120 Czudec, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "28-120 Czudec, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9837086,
+            "lon": 21.7877966,
+            "osm_id": 3688928808,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 16592,
+        "place_id": "5166e6b809adc9354059a0e5d429eafd4840f00103f9012896e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7877966,
+          49.9837086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ławeczka Jana i Stanisława Cetnarskich",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Plac Jana III Sobieskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.2310584,
+        "lat": 50.0677769,
+        "state_code": "PK",
+        "formatted": "Ławeczka Jana i Stanisława Cetnarskich, Plac Jana III Sobieskiego, 37-100 Łańcut, Polska",
+        "address_line1": "Ławeczka Jana i Stanisława Cetnarskich",
+        "address_line2": "Plac Jana III Sobieskiego, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0677769,
+            "lon": 22.2310584,
+            "name": "Ławeczka Jana i Stanisława Cetnarskich",
+            "osm_id": 1861708070,
+            "tourism": "artwork",
+            "material": "bronze",
+            "osm_type": "n",
+            "wikidata": "Q16621137",
+            "architect": "Wrzesław Żurawski",
+            "wikipedia": "pl:Ławeczka Jana i Stanisława Cetnarskich w Łańcucie",
+            "start_date": "2008-05-03",
+            "artist_name": "Grzegorz Sacała",
+            "artwork_type": "statue",
+            "start_event:url": "http://lancut.pl/asp/pl_start.asp?typ=13&menu=3&str&dzialy=3&akcja=artykul&artykul=212"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q16621137",
+          "wikipedia": "pl:Ławeczka Jana i Stanisława Cetnarskich w Łańcucie"
+        },
+        "artwork": {
+          "artist_name": "Grzegorz Sacała",
+          "artwork_type": "statue",
+          "start_date": "2008-05-03"
+        },
+        "distance": 16618,
+        "place_id": "515177afa4263b3640594e76d8e9ac084940f00103f9012669f76e00000000920328c581617765637a6b61204a616e612069205374616e6973c582617761204365746e6172736b696368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2310584,
+          50.0677769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Józef Piłsudski",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Plac Jana III Sobieskiego",
+        "iso3166_2": "PL-18",
+        "lon": 22.2309312,
+        "lat": 50.0683359,
+        "state_code": "PK",
+        "formatted": "Józef Piłsudski, Plac Jana III Sobieskiego, 37-100 Łańcut, Polska",
+        "address_line1": "Józef Piłsudski",
+        "address_line2": "Plac Jana III Sobieskiego, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0683359,
+            "lon": 22.2309312,
+            "name": "Józef Piłsudski",
+            "image": "https://photos.app.goo.gl/xb4xWm3ZiCUNGVCa7",
+            "osm_id": 13092095135,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "wikidata": "Q885",
+            "wikipedia": "pl:Józef Piłsudski",
+            "artwork_type": "bust"
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q885",
+          "wikipedia": "pl:Józef Piłsudski",
+          "image": "https://photos.app.goo.gl/xb4xWm3ZiCUNGVCa7"
+        },
+        "artwork": {
+          "artwork_type": "bust"
+        },
+        "distance": 16622,
+        "place_id": "5144a09f4e1e3b36405945d2133bbf084940f00103f9019f84590c030000009203114ac3b37a6566205069c582737564736b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2309312,
+          50.0683359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "3 Maja",
+        "iso3166_2": "PL-18",
+        "lon": 22.2318743,
+        "lat": 50.0674211,
+        "state_code": "PK",
+        "formatted": "3 Maja, 37-100 Łańcut, Polska",
+        "address_line1": "3 Maja",
+        "address_line2": "37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0674211,
+            "lon": 22.2318743,
+            "osm_id": 13737490704,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "figurine"
+          }
+        },
+        "artwork": {
+          "artwork_type": "figurine"
+        },
+        "distance": 16667,
+        "place_id": "516c48371d5c3b364059b9c72d41a1084940f00103f9011079d13203000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2318743,
+          50.0674211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brama Główna",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2319906,
+        "lat": 50.068611,
+        "state_code": "PK",
+        "formatted": "Brama Główna, Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Brama Główna",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "building",
+          "building.tourism",
+          "tourism",
+          "tourism.attraction"
+        ],
+        "details": [
+          "details",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.06861167051056,
+            "lon": 22.23199333607367,
+            "url": "https://polska-org.pl/7597589,Lancut,Brama_glowna.html",
+            "name": "Brama Główna",
+            "image": "https://photos.app.goo.gl/J39fFmHBitzMkLRR6",
+            "url:0": "https://fotopolska.eu/Park--Brama-Glowna?map_z=19",
+            "osm_id": 1424350056,
+            "barrier": "gate",
+            "name:de": "Haupteingang",
+            "name:en": "Main Gate",
+            "name:pl": "Brama Główna",
+            "name:zh": "大门",
+            "tourism": "attraction",
+            "building": "yes",
+            "osm_type": "w",
+            "wikidata": "Q30532536"
+          }
+        },
+        "website": "https://polska-org.pl/7597589,Lancut,Brama_glowna.html",
+        "name_international": {
+          "de": "Haupteingang",
+          "en": "Main Gate",
+          "pl": "Brama Główna",
+          "zh": "大门"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q30532536",
+          "image": "https://photos.app.goo.gl/J39fFmHBitzMkLRR6"
+        },
+        "distance": 16703,
+        "place_id": "518c534fea633b364059c07b6844c8084940f00102f90168dbe5540000000092030e4272616d612047c582c3b3776e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.23199333607367,
+          50.06861167051056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kleopatra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2327235,
+        "lat": 50.0681026,
+        "state_code": "PK",
+        "formatted": "Kleopatra, Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Kleopatra",
+        "address_line2": "Most Zachodni, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0681026,
+            "lon": 22.2327235,
+            "url": "https://fotopolska.eu/Park-zamkowy-Figura-Kleopatry?map_z=19",
+            "name": "Kleopatra",
+            "image": "https://photos.app.goo.gl/QJ8KLcEuMaZA6cAm6",
+            "osm_id": 11332982785,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "website": "https://fotopolska.eu/Park-zamkowy-Figura-Kleopatry?map_z=19",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/QJ8KLcEuMaZA6cAm6"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 16742,
+        "place_id": "51ba826dc4933b364059e4e20396b7084940f00103f90101987fa3020000009203094b6c656f7061747261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2327235,
+          50.0681026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niedźwiedź",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "district": "Cielęcy Kąt",
+        "street": "Księdza Michała Pilipca",
+        "iso3166_2": "PL-18",
+        "lon": 22.0501762,
+        "lat": 49.889436,
+        "state_code": "PK",
+        "formatted": "Niedźwiedź, Księdza Michała Pilipca, 36-030 Błażowa, Polska",
+        "address_line1": "Niedźwiedź",
+        "address_line2": "Księdza Michała Pilipca, 36-030 Błażowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.889436,
+            "lon": 22.0501762,
+            "name": "Niedźwiedź",
+            "osm_id": 11831788728,
+            "tourism": "artwork",
+            "material": "wood",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16744,
+        "place_id": "519d09f258d80c3640594af1f109d9f14840f00103f901b8c43ac10200000092030c4e696564c5ba77696564c5ba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0501762,
+          49.889436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apollo",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 22.2325957,
+        "lat": 50.0686718,
+        "state_code": "PK",
+        "formatted": "Apollo, Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "address_line1": "Apollo",
+        "address_line2": "Tadeusza Kościuszki, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0686718,
+            "lon": 22.2325957,
+            "url": "https://fotopolska.eu/Park-zamkowy-Figura-Apolla?map_z=19",
+            "name": "Apollo",
+            "image": "https://photos.app.goo.gl/8JqvSLX7XGo9ZndJ9",
+            "osm_id": 10861758736,
+            "tourism": "artwork",
+            "material": "stone",
+            "osm_type": "n",
+            "artwork_type": "statue"
+          }
+        },
+        "website": "https://fotopolska.eu/Park-zamkowy-Figura-Apolla?map_z=19",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/8JqvSLX7XGo9ZndJ9"
+        },
+        "artwork": {
+          "artwork_type": "statue"
+        },
+        "distance": 16746,
+        "place_id": "51b3b04c648b3b3640592794cf3cca084940f00103f901104969870200000092030641706f6c6c6f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2325957,
+          50.0686718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rodzina Ulmów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "street": "Kolejowa",
+        "housenumber": "2A",
+        "iso3166_2": "PL-18",
+        "lon": 22.2278176,
+        "lat": 50.0814829,
+        "state_code": "PK",
+        "formatted": "Rodzina Ulmów, Kolejowa 2A, 37-100 Łańcut, Polska",
+        "address_line1": "Rodzina Ulmów",
+        "address_line2": "Kolejowa 2A, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.mural"
+        ],
+        "details": [
+          "details.artwork"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0814829,
+            "lon": 22.2278176,
+            "city": "Łańcut",
+            "name": "Rodzina Ulmów",
+            "osm_id": 11197535132,
+            "street": "Kolejowa",
+            "tourism": "artwork",
+            "osm_type": "n",
+            "postcode": "37-100",
+            "_inherited": "",
+            "artist_name": "Arkadiusz Andrejkow",
+            "housenumber": "2A",
+            "artwork_type": "mural",
+            "subject:wikidata": "Q3133080",
+            "subject:wikipedia": "pl:Rodzina Ulmów"
+          }
+        },
+        "artwork": {
+          "artist_name": "Arkadiusz Andrejkow",
+          "artwork_type": "mural"
+        },
+        "distance": 16773,
+        "place_id": "5106741541523a36405974571b086e0a4940f00103f9019cd36c9b0200000092030e526f647a696e6120556c6dc3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2278176,
+          50.0814829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Putto - chłopiec z kulą",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Łańcut",
+        "postcode": "37-100",
+        "district": "Osiedle Wschód",
+        "street": "Most Zachodni",
+        "iso3166_2": "PL-18",
+        "lon": 22.2331059,
+        "lat": 50.068384,
+        "state_code": "PK",
+        "formatted": "Putto - chłopiec z kulą, Most Zachodni, 37-100 Łańcut, Polska",
+        "address_line1": "Putto - chłopiec z kulą",
+        "address_line2": "Most Zachodni, 37-100 Łańcut, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.sculpture"
+        ],
+        "details": [
+          "details",
+          "details.artwork",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.068384,
+            "lon": 22.2331059,
+            "url": "https://fotopolska.eu/Most-Zachodni--Putto---chlopiec-z-kula.?map_z=19",
+            "name": "Putto - chłopiec z kulą",
+            "image": "https://photos.app.goo.gl/GCetGuevUYALsiWV9",
+            "osm_id": 13092074263,
+            "tourism": "artwork",
+            "osm_type": "n",
+            "artwork_type": "sculpture"
+          }
+        },
+        "website": "https://fotopolska.eu/Most-Zachodni--Putto---chlopiec-z-kula.?map_z=19",
+        "wiki_and_media": {
+          "image": "https://photos.app.goo.gl/GCetGuevUYALsiWV9"
+        },
+        "artwork": {
+          "artwork_type": "sculpture"
+        },
+        "distance": 16775,
+        "place_id": "51310109d4ac3b364059ebc891cec0084940f00103f9011733590c03000000920319507574746f202d206368c5826f70696563207a206b756cc485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2331059,
+          50.068384
+        ]
+      }
+    }
+  ]
+}

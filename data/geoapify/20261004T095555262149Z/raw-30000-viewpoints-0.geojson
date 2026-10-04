@@ -1,0 +1,3249 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-006",
+        "suburb": "Załęże",
+        "street": "Generała Kazimierza Dworaka",
+        "iso3166_2": "PL-18",
+        "lon": 22.0181847,
+        "lat": 50.0470527,
+        "state_code": "PK",
+        "formatted": "Generała Kazimierza Dworaka, 35-006 Rzeszów, Polska",
+        "address_line1": "Generała Kazimierza Dworaka",
+        "address_line2": "35-006 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0470527,
+            "lon": 22.0181847,
+            "osm_id": 13625894289,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 1511,
+        "place_id": "519ec9a3c0a70436405921d8a7d205064940f00103f90191a52a2c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0181847,
+          50.0470527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-321",
+        "suburb": "Pobitno",
+        "street": "Konfederatów Barskich",
+        "iso3166_2": "PL-18",
+        "lon": 22.0219653,
+        "lat": 50.0455757,
+        "state_code": "PK",
+        "formatted": "Konfederatów Barskich, 35-321 Rzeszów, Polska",
+        "address_line1": "Konfederatów Barskich",
+        "address_line2": "35-321 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0455757,
+            "lon": 22.0219653,
+            "osm_id": 13592196045,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 1602,
+        "place_id": "51972595849f05364059047fae6cd5054940f00103f901cd73282a03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0219653,
+          50.0455757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "suburb": "Matysówka",
+        "street": "Wichrowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.0562639,
+        "lat": 50.0056532,
+        "state_code": "PK",
+        "formatted": "Wichrowa, 35-330 Rzeszów, Polska",
+        "address_line1": "Wichrowa",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0056532,
+            "lon": 22.0562639,
+            "osm_id": 13651588302,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 5117,
+        "place_id": "5107729a4f670e364059128f7a3eb9004940f00103f901ceb4b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0562639,
+          50.0056532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "suburb": "Matysówka",
+        "street": "Wichrowa",
+        "iso3166_2": "PL-18",
+        "lon": 22.056936,
+        "lat": 50.0055592,
+        "state_code": "PK",
+        "formatted": "Wichrowa, 35-330 Rzeszów, Polska",
+        "address_line1": "Wichrowa",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0055592,
+            "lon": 22.056936,
+            "osm_id": 4393103290,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 5160,
+        "place_id": "510ef7915b930e3640599118f329b6004940f00103f901ba6fd90501000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.056936,
+          50.0055592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-601",
+        "suburb": "Zalesie",
+        "street": "Aleksandra Zelwerowicza",
+        "iso3166_2": "PL-18",
+        "lon": 22.0409652,
+        "lat": 49.9949907,
+        "state_code": "PK",
+        "formatted": "Aleksandra Zelwerowicza, 35-601 Rzeszów, Polska",
+        "address_line1": "Aleksandra Zelwerowicza",
+        "address_line2": "35-601 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9949907,
+            "lon": 22.0409652,
+            "osm_id": 13651581012,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 5371,
+        "place_id": "512b4602b27c0a3640597e29f2da5bff4840f00103f9015498b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0409652,
+          49.9949907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "district": "Święty Roch",
+        "suburb": "Matysówka",
+        "street": "Świętego Walentego",
+        "iso3166_2": "PL-18",
+        "lon": 22.0680019,
+        "lat": 50.005,
+        "state_code": "PK",
+        "formatted": "Świętego Walentego, 35-330 Rzeszów, Polska",
+        "address_line1": "Świętego Walentego",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.005,
+            "lon": 22.0680019,
+            "osm_id": 13625923918,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 5806,
+        "place_id": "51dc9090926811364059713d0ad7a3004940f00103f9014e192b2c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0680019,
+          50.005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0500339,
+        "lat": 49.9910019,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9910019,
+            "lon": 22.0500339,
+            "osm_id": 13651573086,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Panorama Rzeszowa"
+          }
+        },
+        "description": "Panorama Rzeszowa",
+        "distance": 6088,
+        "place_id": "51fb308c05cf0c3640590e637726d9fe4840f00103f9015e79b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0500339,
+          49.9910019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-330",
+        "district": "Budy",
+        "suburb": "Słocina",
+        "street": "Świętego Marcina",
+        "iso3166_2": "PL-18",
+        "lon": 22.0815675,
+        "lat": 50.0136378,
+        "state_code": "PK",
+        "formatted": "Świętego Marcina, 35-330 Rzeszów, Polska",
+        "address_line1": "Świętego Marcina",
+        "address_line2": "35-330 Rzeszów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0136378,
+            "lon": 22.0815675,
+            "osm_id": 13651581011,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6136,
+        "place_id": "519eea909be114364059a47e28e2be014940f00103f9015398b22d03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0815675,
+          50.0136378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Kielanówka",
+        "hamlet": "Kopiec",
+        "municipality": "gmina Boguchwała",
+        "postcode": "35-106",
+        "street": "Błękitne Wzgórze",
+        "iso3166_2": "PL-18",
+        "lon": 21.9193759,
+        "lat": 50.0280677,
+        "state_code": "PK",
+        "formatted": "Błękitne Wzgórze, 35-106 Kielanówka, Polska",
+        "address_line1": "Błękitne Wzgórze",
+        "address_line2": "35-106 Kielanówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0280677,
+            "lon": 21.9193759,
+            "osm_id": 3688928809,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6144,
+        "place_id": "51063b0f385ceb35405977c9eeb897034940f00103f9012996e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9193759,
+          50.0280677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0498462,
+        "lat": 49.9899083,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9899083,
+            "lon": 22.0498462,
+            "osm_id": 11832512887,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6183,
+        "place_id": "5173d476b8c20c364059fd44af50b5fe4840f00103f90177d145c102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0498462,
+          49.9899083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0434614,
+        "lat": 49.9875219,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9875219,
+            "lon": 22.0434614,
+            "osm_id": 11391988432,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6188,
+        "place_id": "516da34b49200b364059b94a1c1e67fe4840f00103f901d0f203a702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0434614,
+          49.9875219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Tyczyn",
+        "municipality": "gmina Tyczyn",
+        "postcode": "35-600",
+        "district": "Łany",
+        "street": "Łany",
+        "iso3166_2": "PL-18",
+        "lon": 22.0505301,
+        "lat": 49.9895635,
+        "state_code": "PK",
+        "formatted": "Łany, 35-600 Tyczyn, Polska",
+        "address_line1": "Łany",
+        "address_line2": "35-600 Tyczyn, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9895635,
+            "lon": 22.0505301,
+            "osm_id": 11832512888,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 6242,
+        "place_id": "51aff6668aef0c3640595ce84a04aafe4840f00103f90178d145c102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0505301,
+          49.9895635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "hamlet": "Działy Zachodnie",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "street": "MTB",
+        "iso3166_2": "PL-18",
+        "lon": 22.1232398,
+        "lat": 50.0139677,
+        "state_code": "PK",
+        "formatted": "MTB, 37-124 Kraczkowa, Polska",
+        "address_line1": "MTB",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0139677,
+            "lon": 22.1232398,
+            "osm_id": 13625922333,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 8920,
+        "place_id": "51ca90bea48c1f364059a5598fb1c9014940f00103f9011d132b2c03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1232398,
+          50.0139677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Woliczka",
+        "hamlet": "Kurzejówka",
+        "municipality": "gmina Świlcza",
+        "postcode": "36-072",
+        "street": "Świętego Jakuba",
+        "iso3166_2": "PL-18",
+        "lon": 21.8752661,
+        "lat": 50.0488463,
+        "state_code": "PK",
+        "formatted": "Świętego Jakuba, 36-072 Woliczka, Polska",
+        "address_line1": "Świętego Jakuba",
+        "address_line2": "36-072 Woliczka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0488463,
+            "lon": 21.8752661,
+            "osm_id": 8236565434,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 9315,
+        "place_id": "5127cc6a7011e0354059eb83769840064940f00103f901ba03f0ea01000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8752661,
+          50.0488463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Kraczkowa",
+        "hamlet": "Działy Zachodnie",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-124",
+        "street": "MTB",
+        "iso3166_2": "PL-18",
+        "lon": 22.1291401,
+        "lat": 50.0126212,
+        "state_code": "PK",
+        "formatted": "MTB, 37-124 Kraczkowa, Polska",
+        "address_line1": "MTB",
+        "address_line2": "37-124 Kraczkowa, Polska",
+        "categories": [
+          "access",
+          "access.yes",
+          "man_made",
+          "man_made.tower",
+          "no_fee",
+          "no_fee.no",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint",
+          "tourism.sights",
+          "tourism.sights.tower"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "no",
+            "lat": 50.0126212,
+            "lon": 22.1291401,
+            "access": "yes",
+            "height": 15,
+            "osm_id": 8122039283,
+            "tourism": "viewpoint",
+            "man_made": "tower",
+            "material": "steel",
+            "osm_type": "n",
+            "direction": "0-360",
+            "tower:type": "observation",
+            "wheelchair": "no",
+            "description": "Widok na Rzeszów, Pogórze Dynowskie, Łańcut",
+            "opening_hours": "24/7",
+            "communication:radio": "yes"
+          }
+        },
+        "opening_hours": "24/7",
+        "description": "Widok na Rzeszów, Pogórze Dynowskie, Łańcut",
+        "facilities": {
+          "wheelchair": false
+        },
+        "restrictions": {
+          "access": "permissive"
+        },
+        "distance": 9368,
+        "place_id": "51281a5a530f213640593e9e4c929d014940f00103f901f37b1ce401000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1291401,
+          50.0126212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wyschnięte oczko wodne",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Głogów Małopolski",
+        "municipality": "gmina Głogów Małopolski",
+        "postcode": "36-061",
+        "district": "Borsuk",
+        "street": "Borsuk",
+        "iso3166_2": "PL-18",
+        "lon": 21.9930417,
+        "lat": 50.1351582,
+        "state_code": "PK",
+        "formatted": "Wyschnięte oczko wodne, Borsuk, 36-061 Głogów Małopolski, Polska",
+        "address_line1": "Wyschnięte oczko wodne",
+        "address_line2": "Borsuk, 36-061 Głogów Małopolski, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1351582,
+            "lon": 21.9930417,
+            "name": "Wyschnięte oczko wodne",
+            "osm_id": 2302548081,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 10946,
+        "place_id": "51721019fb37fe354059a36428dd4c114940f00103f90171183e890000000092031757797363686e69c4997465206f637a6b6f20776f646e65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9930417,
+          50.1351582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lutoryż",
+        "hamlet": "Podlas",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-040",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8853786,
+        "lat": 49.9644869,
+        "state_code": "PK",
+        "formatted": "S19, 36-040 Lutoryż, Polska",
+        "address_line1": "S19",
+        "address_line2": "36-040 Lutoryż, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9644869,
+            "lon": 21.8853786,
+            "osm_id": 3688928804,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 11721,
+        "place_id": "510994032ca8e2354059d075864e74fb4840f00103f9012496e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8853786,
+          49.9644869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Lutoryż",
+        "hamlet": "Podlas",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-047",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8719363,
+        "lat": 49.9707317,
+        "state_code": "PK",
+        "formatted": "S19, 36-047 Lutoryż, Polska",
+        "address_line1": "S19",
+        "address_line2": "36-047 Lutoryż, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9707317,
+            "lon": 21.8719363,
+            "osm_id": 3688928806,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 11999,
+        "place_id": "51fcb1a43737df3540596258b4ef40fc4840f00103f9012696e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8719363,
+          49.9707317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Platforma Widokowa",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Grobla",
+        "municipality": "gmina Czudec",
+        "postcode": "38-120",
+        "street": "Słoneczna",
+        "iso3166_2": "PL-18",
+        "lon": 21.840081,
+        "lat": 49.9801197,
+        "state_code": "PK",
+        "formatted": "Platforma Widokowa, Słoneczna, 38-120 Czudec, Polska",
+        "address_line1": "Platforma Widokowa",
+        "address_line2": "Słoneczna, 38-120 Czudec, Polska",
+        "categories": [
+          "sport",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.98011395294452,
+            "lon": 21.840071257883995,
+            "name": "Platforma Widokowa",
+            "osm_id": 301635551,
+            "landuse": "recreation_ground",
+            "tourism": "viewpoint",
+            "osm_type": "w",
+            "description": "Widok okolicy nawet do 40km"
+          }
+        },
+        "description": "Widok okolicy nawet do 40km",
+        "distance": 13346,
+        "place_id": "51ddebf2e80ed73540590020bf5f74fd4840f00102f901df97fa1100000000920312506c6174666f726d61205769646f6b6f7761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.840071257883995,
+          49.98011395294452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Babica",
+        "hamlet": "Góra",
+        "municipality": "gmina Czudec",
+        "postcode": "38-115",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8855778,
+        "lat": 49.9439492,
+        "state_code": "PK",
+        "formatted": "19, 38-115 Babica, Polska",
+        "address_line1": "19",
+        "address_line2": "38-115 Babica, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9439492,
+            "lon": 21.8855778,
+            "osm_id": 6750866848,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 13388,
+        "place_id": "514a10093ab5e2354059ed8acf53d3f84840f00103f901a00d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8855778,
+          49.9439492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krzemionka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Niechobrz",
+        "municipality": "gmina Boguchwała",
+        "postcode": "38-120",
+        "iso3166_2": "PL-18",
+        "lon": 21.8427086,
+        "lat": 49.9714059,
+        "state_code": "PK",
+        "formatted": "Krzemionka, 38-120 Niechobrz, Polska",
+        "address_line1": "Krzemionka",
+        "address_line2": "38-120 Niechobrz, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 388,
+            "lat": 49.9714059,
+            "lon": 21.8427086,
+            "name": "Krzemionka",
+            "osm_id": 3688928803,
+            "natural": "peak",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "ele": 388,
+        "distance": 13672,
+        "place_id": "51d60e35c0bbd73540591bd24d0757fc4840f00103f9012396e0db0000000092030a4b727a656d696f6e6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8427086,
+          49.9714059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Przedmieście Czudeckie",
+        "hamlet": "Kolonia",
+        "municipality": "gmina Czudec",
+        "postcode": "38-120",
+        "street": "988",
+        "iso3166_2": "PL-18",
+        "lon": 21.8580973,
+        "lat": 49.9417466,
+        "state_code": "PK",
+        "formatted": "988, 38-120 Przedmieście Czudeckie, Polska",
+        "address_line1": "988",
+        "address_line2": "38-120 Przedmieście Czudeckie, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9417466,
+            "lon": 21.8580973,
+            "osm_id": 6750866847,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 14890,
+        "place_id": "513149c043acdb354059420f10278bf84840f00103f9019f0d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8580973,
+          49.9417466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Leśniczówka",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.8096963,
+        "lat": 49.9798316,
+        "state_code": "PK",
+        "formatted": "Leśna, 28-120 Czudec, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "28-120 Czudec, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9798316,
+            "lon": 21.8096963,
+            "osm_id": 3688928807,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15311,
+        "place_id": "513431b84148cf3540592ecb321f6bfd4840f00103f9012796e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8096963,
+          49.9798316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Leśniczówka",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.8158006,
+        "lat": 49.9701651,
+        "state_code": "PK",
+        "formatted": "Leśna, 28-120 Czudec, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "28-120 Czudec, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9701651,
+            "lon": 21.8158006,
+            "osm_id": 3688928805,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15405,
+        "place_id": "51a30ee14ed8d03540593c1cb85e2efc4840f00103f9012596e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8158006,
+          49.9701651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Zabratówka",
+        "hamlet": "Zabratówka-Wieś",
+        "municipality": "gmina Chmielnik",
+        "postcode": "36-017",
+        "street": "877",
+        "iso3166_2": "PL-18",
+        "lon": 22.2049791,
+        "lat": 49.9771404,
+        "state_code": "PK",
+        "formatted": "877, 36-017 Zabratówka, Polska",
+        "address_line1": "877",
+        "address_line2": "36-017 Zabratówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9771404,
+            "lon": 22.2049791,
+            "osm_id": 12097303260,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 15871,
+        "place_id": "510fdda2827934364059d9ccc6ef12fd4840f00103f901dc320ed102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2049791,
+          49.9771404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "widok na Rzeszow i okolice",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Medynia Głogowska",
+        "hamlet": "Kępówka",
+        "municipality": "gmina Czarna",
+        "postcode": "37-126",
+        "street": "881",
+        "iso3166_2": "PL-18",
+        "lon": 22.1376275,
+        "lat": 50.1517179,
+        "state_code": "PK",
+        "formatted": "widok na Rzeszow i okolice, 881, 37-126 Medynia Głogowska, Polska",
+        "address_line1": "widok na Rzeszow i okolice",
+        "address_line2": "881, 37-126 Medynia Głogowska, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.1517179,
+            "lon": 22.1376275,
+            "name": "widok na Rzeszow i okolice",
+            "osm_id": 4501420942,
+            "name:pl": "widok na Rzeszow i okolice",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "name_international": {
+          "pl": "widok na Rzeszow i okolice"
+        },
+        "distance": 15945,
+        "place_id": "51be874b8e3b23364059e15bfd7d6b134940f00103f9018e3b4e0c0100000092031a7769646f6b206e6120527a65737a6f772069206f6b6f6c696365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1376275,
+          50.1517179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Czudec",
+        "hamlet": "Leśniczówka",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.7877966,
+        "lat": 49.9837086,
+        "state_code": "PK",
+        "formatted": "Leśna, 28-120 Czudec, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "28-120 Czudec, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9837086,
+            "lon": 21.7877966,
+            "osm_id": 3688928808,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 16592,
+        "place_id": "5166e6b809adc9354059a0e5d429eafd4840f00103f9012896e0db00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7877966,
+          49.9837086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat łańcucki",
+        "city": "Handzlówka",
+        "hamlet": "Zagrody",
+        "municipality": "gmina Łańcut",
+        "postcode": "37-123",
+        "street": "Skotnik",
+        "iso3166_2": "PL-18",
+        "lon": 22.2505626,
+        "lat": 49.9858399,
+        "state_code": "PK",
+        "formatted": "Skotnik, 37-123 Handzlówka, Polska",
+        "address_line1": "Skotnik",
+        "address_line2": "37-123 Handzlówka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9858399,
+            "lon": 22.2505626,
+            "osm_id": 10833382883,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 18567,
+        "place_id": "51c999dcde2440364059c4cb780030fe4840f00103f901e34db88502000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2505626,
+          49.9858399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Sołonka",
+        "hamlet": "Zakrąg",
+        "municipality": "gmina Lubenia",
+        "postcode": "36-043",
+        "street": "Chłopski Most",
+        "iso3166_2": "PL-18",
+        "lon": 21.9561045,
+        "lat": 49.8681277,
+        "state_code": "PK",
+        "formatted": "Chłopski Most, 36-043 Sołonka, Polska",
+        "address_line1": "Chłopski Most",
+        "address_line2": "36-043 Sołonka, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8681277,
+            "lon": 21.9561045,
+            "osm_id": 6750866838,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19095,
+        "place_id": "51f50eb743c3f43540593820f8ce1eef4840f00103f901960d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9561045,
+          49.8681277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łysa Góra",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Wola Zgłobieńska",
+        "municipality": "gmina Boguchwała",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7571311,
+        "lat": 49.9711303,
+        "state_code": "PK",
+        "formatted": "Łysa Góra, 38-121 Wola Zgłobieńska, Polska",
+        "address_line1": "Łysa Góra",
+        "address_line2": "38-121 Wola Zgłobieńska, Polska",
+        "categories": [
+          "natural",
+          "natural.mountain",
+          "natural.mountain.peak",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "ele": 406,
+            "lat": 49.9711303,
+            "lon": 21.7571311,
+            "name": "Łysa Góra",
+            "osm_id": 3688928811,
+            "natural": "peak",
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "ele": 406,
+        "distance": 19155,
+        "place_id": "51d5480158d3c1354059cc5367ff4dfc4840f00103f9012b96e0db0000000092030bc5817973612047c3b37261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7571311,
+          49.9711303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Zaborów",
+        "hamlet": "Błonia",
+        "municipality": "gmina Czudec",
+        "postcode": "28-120",
+        "street": "988",
+        "iso3166_2": "PL-18",
+        "lon": 21.8045488,
+        "lat": 49.9167564,
+        "state_code": "PK",
+        "formatted": "988, 28-120 Zaborów, Polska",
+        "address_line1": "988",
+        "address_line2": "28-120 Zaborów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9167564,
+            "lon": 21.8045488,
+            "osm_id": 11206157679,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 19585,
+        "place_id": "513a0900e9f6cd3540590833124658f54840f00103f9016f65f09b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8045488,
+          49.9167564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Wesoła",
+        "village": "Ujazdy",
+        "hamlet": "Piekło",
+        "municipality": "gmina Nozdrzec",
+        "postcode": "36-233",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 22.0294976,
+        "lat": 49.8552783,
+        "state_code": "PK",
+        "formatted": "884, 36-233 Wesoła, Polska",
+        "address_line1": "884",
+        "address_line2": "36-233 Wesoła, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8552783,
+            "lon": 22.0294976,
+            "osm_id": 11226951769,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20295,
+        "place_id": "517c4f9b278d073640593fbd63c279ed4840f00103f90159b02d9d02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0294976,
+          49.8552783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Połomia",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8608401,
+        "lat": 49.8786664,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Połomia, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Połomia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8786664,
+            "lon": 21.8608401,
+            "osm_id": 7368766927,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20388,
+        "place_id": "51db954c0460dc3540590a0cfe2378f04840f00103f901cf7536b701000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8608401,
+          49.8786664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Błażowa",
+        "municipality": "gmina Błażowa",
+        "postcode": "36-030",
+        "district": "Kuligi",
+        "street": "Młynarska",
+        "iso3166_2": "PL-18",
+        "lon": 22.097411,
+        "lat": 49.8638146,
+        "state_code": "PK",
+        "formatted": "Młynarska, 36-030 Błażowa, Polska",
+        "address_line1": "Młynarska",
+        "address_line2": "36-030 Błażowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8638146,
+            "lon": 22.097411,
+            "osm_id": 3889461673,
+            "amenity": "shelter",
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "shelter_type": "picnic_shelter",
+            "opening_hours": "24/7"
+          }
+        },
+        "opening_hours": "24/7",
+        "distance": 20396,
+        "place_id": "514a4563edef183640595667107a91ee4840f00103f901a979d4e700000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.097411,
+          49.8638146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Gwoźnica Górna",
+        "hamlet": "Krzywa",
+        "municipality": "gmina Niebylec",
+        "postcode": "36-230",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 21.9895198,
+        "lat": 49.8508559,
+        "state_code": "PK",
+        "formatted": "884, 36-230 Gwoźnica Górna, Polska",
+        "address_line1": "884",
+        "address_line2": "36-230 Gwoźnica Górna, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8508559,
+            "lon": 21.9895198,
+            "osm_id": 13077961161,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 20731,
+        "place_id": "5195be6b2b51fd354059e80d9cd8e8ec4840f00103f901c9d9810b03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9895198,
+          49.8508559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Widok na Rzeszów",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8579404,
+        "lat": 49.8713263,
+        "state_code": "PK",
+        "formatted": "Widok na Rzeszów, Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Widok na Rzeszów",
+        "address_line2": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8713263,
+            "lon": 21.8579404,
+            "name": "Widok na Rzeszów",
+            "osm_id": 6750866849,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 21200,
+        "place_id": "51cbea67fba1db3540598552c59e87ef4840f00103f901a10d6292010000009203115769646f6b206e6120527a65737ac3b377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8579404,
+          49.8713263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8566213,
+        "lat": 49.8714534,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8714534,
+            "lon": 21.8566213,
+            "osm_id": 9423264787,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Widok na Strzyżów, przy dobrej widoczności widać też szczyty Tatr"
+          }
+        },
+        "description": "Widok na Strzyżów, przy dobrej widoczności widać też szczyty Tatr",
+        "distance": 21235,
+        "place_id": "51988e94884bdb354059777ef6c88bef4840f00103f901139cab3102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8566213,
+          49.8714534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8604466,
+        "lat": 49.8687475,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8687475,
+            "lon": 21.8604466,
+            "osm_id": 9420138775,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Przy dobrej widoczności widać Tatry (Patrząc w strone Brzeżanki)."
+          }
+        },
+        "description": "Przy dobrej widoczności widać Tatry (Patrząc w strone Brzeżanki).",
+        "distance": 21363,
+        "place_id": "5153f4763a46dc354059aa7d3a1e33ef4840f00103f90117e97b3102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8604466,
+          49.8687475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Wielkie Pole",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-103",
+        "street": "Via Carpatia",
+        "iso3166_2": "PL-18",
+        "lon": 21.8589007,
+        "lat": 49.8691418,
+        "state_code": "PK",
+        "formatted": "Via Carpatia, 38-103 Żarnowa, Polska",
+        "address_line1": "Via Carpatia",
+        "address_line2": "38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8691418,
+            "lon": 21.8589007,
+            "osm_id": 6984872752,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Widok na Rzeszów, i w kierunku Bieszczad"
+          }
+        },
+        "description": "Widok na Rzeszów, i w kierunku Bieszczad",
+        "distance": 21378,
+        "place_id": "51f20291eae0db354059154bdb0940ef4840f00103f90130b354a001000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8589007,
+          49.8691418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Łetownia",
+        "village": "Łętownia",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Leśna",
+        "iso3166_2": "PL-18",
+        "lon": 21.7705035,
+        "lat": 49.9132848,
+        "state_code": "PK",
+        "formatted": "Leśna, 38-100 Łetownia, Polska",
+        "address_line1": "Leśna",
+        "address_line2": "38-100 Łetownia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9132848,
+            "lon": 21.7705035,
+            "osm_id": 9420123533,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Przy dobrej widoczności, można zobaczyć Tatry. Patrząc w kierunku bramy frysztackiej. Za to z drugiej strony widok na Czudec, kawałek obwodnicy i Przedmieście Czudeckie"
+          }
+        },
+        "description": "Przy dobrej widoczności, można zobaczyć Tatry. Patrząc w kierunku bramy frysztackiej. Za to z drugiej strony widok na Czudec, kawałek obwodnicy i Przedmieście Czudeckie",
+        "distance": 21677,
+        "place_id": "511bf4a5b73fc53540598af72d84e6f44840f00103f9018dad7b3102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7705035,
+          49.9132848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilcze",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat brzozowski",
+        "city": "Barycz",
+        "hamlet": "Początkówka",
+        "municipality": "gmina Domaradz",
+        "postcode": "36-233",
+        "street": "884",
+        "iso3166_2": "PL-18",
+        "lon": 22.0196117,
+        "lat": 49.8387919,
+        "state_code": "PK",
+        "formatted": "Wilcze, 884, 36-233 Barycz, Polska",
+        "address_line1": "Wilcze",
+        "address_line2": "884, 36-233 Barycz, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8387919,
+            "lon": 22.0196117,
+            "name": "Wilcze",
+            "osm_id": 3627539109,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22075,
+        "place_id": "51741eba450505364059295371885deb4840f00103f901a5da37d80000000092030657696c637a65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0196117,
+          49.8387919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smokówka",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żarnowa",
+        "hamlet": "Smokówka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-103",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8389261,
+        "lat": 49.8651801,
+        "state_code": "PK",
+        "formatted": "Smokówka, S19, 38-103 Żarnowa, Polska",
+        "address_line1": "Smokówka",
+        "address_line2": "S19, 38-103 Żarnowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8651801,
+            "lon": 21.8389261,
+            "name": "Smokówka",
+            "osm_id": 6750866839,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22485,
+        "place_id": "51c54263dcc3d63540593453b538beee4840f00103f901970d629201000000920309536d6f6bc3b3776b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8389261,
+          49.8651801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Rokitówka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Partyzantów",
+        "iso3166_2": "PL-18",
+        "lon": 21.7967516,
+        "lat": 49.8852235,
+        "state_code": "PK",
+        "formatted": "Partyzantów, 38-100 Strzyżów, Polska",
+        "address_line1": "Partyzantów",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8852235,
+            "lon": 21.7967516,
+            "osm_id": 9246961389,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22497,
+        "place_id": "512209b1e9f7cb3540594913ef004ff14840f00103f901ed6e292702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7967516,
+          49.8852235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Na Grabówce",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Działy",
+        "iso3166_2": "PL-18",
+        "lon": 21.8021375,
+        "lat": 49.8807438,
+        "state_code": "PK",
+        "formatted": "Działy, 38-100 Strzyżów, Polska",
+        "address_line1": "Działy",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8807438,
+            "lon": 21.8021375,
+            "osm_id": 9246961390,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22625,
+        "place_id": "512c6519e258cd354059cf937c36bcf04840f00103f901ee6e292702000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8021375,
+          49.8807438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Łetownia",
+        "village": "Łętownia",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Łętownia",
+        "iso3166_2": "PL-18",
+        "lon": 21.7642808,
+        "lat": 49.9026234,
+        "state_code": "PK",
+        "formatted": "Łętownia, 38-100 Łetownia, Polska",
+        "address_line1": "Łętownia",
+        "address_line2": "38-100 Łetownia, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9026234,
+            "lon": 21.7642808,
+            "osm_id": 9445268674,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 22785,
+        "place_id": "51f2f510e8a7c33540595bcddf2989f34840f00103f901c25cfb3202000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7642808,
+          49.9026234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-122",
+        "street": "Tadeusza Kościuszki",
+        "iso3166_2": "PL-18",
+        "lon": 21.7304788,
+        "lat": 49.9209443,
+        "state_code": "PK",
+        "formatted": "Tadeusza Kościuszki, 38-122 Strzyżów, Polska",
+        "address_line1": "Tadeusza Kościuszki",
+        "address_line2": "38-122 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9209443,
+            "lon": 21.7304788,
+            "osm_id": 13140511721,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23485,
+        "place_id": "51dc6b9ca800bb35405904f8b880e1f54840f00103f901e94b3c0f03000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7304788,
+          49.9209443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Godowa",
+        "hamlet": "Luteszki",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-111",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8555636,
+        "lat": 49.8483919,
+        "state_code": "PK",
+        "formatted": "S19, 38-111 Godowa, Polska",
+        "address_line1": "S19",
+        "address_line2": "38-111 Godowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8483919,
+            "lon": 21.8555636,
+            "osm_id": 6783668997,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23529,
+        "place_id": "51e5a5513706db3540597d58141b98ec4840f00103f9010593569401000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8555636,
+          49.8483919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ratośniówki",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "hamlet": "Rokitówka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "district": "Zawale",
+        "street": "700-lecia Strzyżowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.7859911,
+        "lat": 49.8771487,
+        "state_code": "PK",
+        "formatted": "Ratośniówki, 700-lecia Strzyżowa, 38-100 Strzyżów, Polska",
+        "address_line1": "Ratośniówki",
+        "address_line2": "700-lecia Strzyżowa, 38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8771487,
+            "lon": 21.7859911,
+            "name": "Ratośniówki",
+            "osm_id": 10043141471,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23683,
+        "place_id": "51737275b636c93540594d1d9a6846f04840f00103f9015f2d9e560200000092030d5261746fc59b6e69c3b3776b69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7859911,
+          49.8771487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Godowa",
+        "hamlet": "Luteszki",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-111",
+        "street": "S19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8475847,
+        "lat": 49.8488425,
+        "state_code": "PK",
+        "formatted": "S19, 38-111 Godowa, Polska",
+        "address_line1": "S19",
+        "address_line2": "38-111 Godowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8488425,
+            "lon": 21.8475847,
+            "osm_id": 6750866850,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23750,
+        "place_id": "510817974ffbd83540593a7afcdea6ec4840f00103f901a20d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8475847,
+          49.8488425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Zawadka",
+        "hamlet": "Bania",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-102",
+        "iso3166_2": "PL-18",
+        "lon": 21.6972309,
+        "lat": 49.9517554,
+        "state_code": "PK",
+        "formatted": "38-102 Zawadka, Polska",
+        "address_line1": "38-102 Zawadka",
+        "address_line2": "Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9517554,
+            "lon": 21.6972309,
+            "osm_id": 6750866840,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 23953,
+        "place_id": "51ba4269b97db23540594d65f61ed3f94840f00103f901980d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6972309,
+          49.9517554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat ropczycko-sędziszowski",
+        "city": "Ropczyce",
+        "hamlet": "Brzyzna Górna",
+        "municipality": "gmina Ropczyce",
+        "postcode": "39-105",
+        "district": "Brzyzna Dolna",
+        "street": "Ogrodnicza",
+        "iso3166_2": "PL-18",
+        "lon": 21.6704798,
+        "lat": 50.0027197,
+        "state_code": "PK",
+        "formatted": "Ogrodnicza, 39-105 Ropczyce, Polska",
+        "address_line1": "Ogrodnicza",
+        "address_line2": "39-105 Ropczyce, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0027197,
+            "lon": 21.6704798,
+            "osm_id": 11919636540,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24204,
+        "place_id": "51eda06d90a4ab35405908477f1e59004940f00103f9013c3877c602000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6704798,
+          50.0027197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Szklary",
+        "hamlet": "Góry",
+        "municipality": "gmina Hyżne",
+        "postcode": "36-025",
+        "street": "835",
+        "iso3166_2": "PL-18",
+        "lon": 22.2461095,
+        "lat": 49.8837894,
+        "state_code": "PK",
+        "formatted": "835, 36-025 Szklary, Polska",
+        "address_line1": "835",
+        "address_line2": "36-025 Szklary, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8837894,
+            "lon": 22.2461095,
+            "osm_id": 6750866825,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 24335,
+        "place_id": "5123bc3d08013f36405996c6d40220f14840f00103f901890d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2461095,
+          49.8837894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Lutcza",
+        "hamlet": "Dół",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-112",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8989022,
+        "lat": 49.8188898,
+        "state_code": "PK",
+        "formatted": "19, 38-112 Lutcza, Polska",
+        "address_line1": "19",
+        "address_line2": "38-112 Lutcza, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8188898,
+            "lon": 21.8989022,
+            "osm_id": 8679743879,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 25406,
+        "place_id": "516d4d5f741ee635405995038761d1e84840f00103f90187615a0502000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8989022,
+          49.8188898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Lutcza",
+        "hamlet": "Dół",
+        "municipality": "gmina Niebylec",
+        "postcode": "38-112",
+        "street": "19",
+        "iso3166_2": "PL-18",
+        "lon": 21.8998021,
+        "lat": 49.8127748,
+        "state_code": "PK",
+        "formatted": "19, 38-112 Lutcza, Polska",
+        "address_line1": "19",
+        "address_line2": "38-112 Lutcza, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8127748,
+            "lon": 21.8998021,
+            "osm_id": 10977638612,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 26038,
+        "place_id": "51435f306e59e6354059a881300109e84840f00103f901d478518e02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8998021,
+          49.8127748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Żyznów",
+        "hamlet": "Pod Wiśnią Górą",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-111",
+        "street": "989",
+        "iso3166_2": "PL-18",
+        "lon": 21.8533945,
+        "lat": 49.8212307,
+        "state_code": "PK",
+        "formatted": "989, 38-111 Żyznów, Polska",
+        "address_line1": "989",
+        "address_line2": "38-111 Żyznów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8212307,
+            "lon": 21.8533945,
+            "osm_id": 11027721360,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 26323,
+        "place_id": "511616dc0f78da354059507c6b161ee94840f00103f90190ac4d9102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8533945,
+          49.8212307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "gmina Wiśniowa",
+        "village": "Szufnarowa",
+        "hamlet": "Blich",
+        "postcode": "38-124",
+        "street": "986",
+        "iso3166_2": "PL-18",
+        "lon": 21.6802035,
+        "lat": 49.9166052,
+        "state_code": "PK",
+        "formatted": "986, 38-124 gmina Wiśniowa, Polska",
+        "address_line1": "986",
+        "address_line2": "38-124 gmina Wiśniowa, Polska",
+        "categories": [
+          "man_made",
+          "man_made.tower",
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint",
+          "tourism.sights",
+          "tourism.sights.tower"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9166052,
+            "lon": 21.6802035,
+            "osm_id": 7296859682,
+            "tourism": "viewpoint",
+            "man_made": "tower",
+            "osm_type": "n",
+            "direction": "0-360",
+            "tower:type": "observation"
+          }
+        },
+        "distance": 26810,
+        "place_id": "51ef1f0bd121ae354059f9abb65153f54840f00103f901223eedb201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6802035,
+          49.9166052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Wysoka Strzyżowska",
+        "hamlet": "Mroczka",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-122",
+        "street": "Droga Wolna od Nienawiści",
+        "iso3166_2": "PL-18",
+        "lon": 21.7331189,
+        "lat": 49.8636922,
+        "state_code": "PK",
+        "formatted": "Droga Wolna od Nienawiści, 38-122 Wysoka Strzyżowska, Polska",
+        "address_line1": "Droga Wolna od Nienawiści",
+        "address_line2": "38-122 Wysoka Strzyżowska, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8636922,
+            "lon": 21.7331189,
+            "osm_id": 11193907983,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 27378,
+        "place_id": "515a9423aeadbb354059b8674c778dee4840f00103f9010f7b359b02000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7331189,
+          49.8636922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "district": "Pustki",
+        "street": "Zielona",
+        "iso3166_2": "PL-18",
+        "lon": 21.7757318,
+        "lat": 49.8355594,
+        "state_code": "PK",
+        "formatted": "Zielona, 38-100 Strzyżów, Polska",
+        "address_line1": "Zielona",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8355594,
+            "lon": 21.7757318,
+            "osm_id": 6750866821,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 27759,
+        "place_id": "519b77f75b96c6354059c56e449cf3ea4840f00103f901850d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7757318,
+          49.8355594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "gmina Wiśniowa",
+        "village": "Kożuchów",
+        "hamlet": "Za Krzyżem",
+        "postcode": "38-126",
+        "street": "988",
+        "iso3166_2": "PL-18",
+        "lon": 21.6928911,
+        "lat": 49.8855605,
+        "state_code": "PK",
+        "formatted": "988, 38-126 gmina Wiśniowa, Polska",
+        "address_line1": "988",
+        "address_line2": "38-126 gmina Wiśniowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8855605,
+            "lon": 21.6928911,
+            "osm_id": 10298617359,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 27965,
+        "place_id": "518130a64f61b13540599010e50b5af14840f00103f9010f6ed86502000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6928911,
+          49.8855605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Sadowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.7811497,
+        "lat": 49.8265208,
+        "state_code": "PK",
+        "formatted": "Sadowa, 38-100 Strzyżów, Polska",
+        "address_line1": "Sadowa",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8265208,
+            "lon": 21.7811497,
+            "osm_id": 6750866851,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 28356,
+        "place_id": "51bcc73e6df9c73540595cbbfe6ecbe94840f00103f901a30d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7811497,
+          49.8265208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "street": "Sadowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.7844832,
+        "lat": 49.8174598,
+        "state_code": "PK",
+        "formatted": "Sadowa, 38-100 Strzyżów, Polska",
+        "address_line1": "Sadowa",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8174598,
+            "lon": 21.7844832,
+            "osm_id": 10765794074,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 29064,
+        "place_id": "51ed4218e4d3c8354059b965d185a2e84840f00103f9011afbb08102000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7844832,
+          49.8174598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "gmina Wiśniowa",
+        "village": "Szufnarowa",
+        "hamlet": "Blich",
+        "postcode": "38-124",
+        "street": "986",
+        "iso3166_2": "PL-18",
+        "lon": 21.6417327,
+        "lat": 49.9097515,
+        "state_code": "PK",
+        "formatted": "986, 38-124 gmina Wiśniowa, Polska",
+        "address_line1": "986",
+        "address_line2": "38-124 gmina Wiśniowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.9097515,
+            "lon": 21.6417327,
+            "osm_id": 7297008044,
+            "tourism": "viewpoint",
+            "osm_type": "n",
+            "description": "Przy dobrych warunkach widać Tatry"
+          }
+        },
+        "description": "Przy dobrych warunkach widać Tatry",
+        "distance": 29592,
+        "place_id": "5116461f9848a435405954feb5bc72f44840f00103f901ac81efb201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6417327,
+          49.9097515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Strzyżów",
+        "municipality": "gmina Strzyżów",
+        "postcode": "38-100",
+        "district": "Pustki",
+        "street": "Zielona",
+        "iso3166_2": "PL-18",
+        "lon": 21.7719265,
+        "lat": 49.8168847,
+        "state_code": "PK",
+        "formatted": "Zielona, 38-100 Strzyżów, Polska",
+        "address_line1": "Zielona",
+        "address_line2": "38-100 Strzyżów, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8168847,
+            "lon": 21.7719265,
+            "osm_id": 6750866822,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 29616,
+        "place_id": "516e6aa0f99cc5354059288d87ad8fe84840f00103f901860d629201000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7719265,
+          49.8168847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "gmina Wiśniowa",
+        "hamlet": "Piasek",
+        "postcode": "38-124",
+        "district": "Wiśniowa",
+        "street": "988",
+        "iso3166_2": "PL-18",
+        "lon": 21.6729757,
+        "lat": 49.8776776,
+        "state_code": "PK",
+        "formatted": "988, 38-124 gmina Wiśniowa, Polska",
+        "address_line1": "988",
+        "address_line2": "38-124 gmina Wiśniowa, Polska",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.viewpoint"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.8776776,
+            "lon": 21.6729757,
+            "osm_id": 11704498582,
+            "tourism": "viewpoint",
+            "osm_type": "n"
+          }
+        },
+        "distance": 29636,
+        "place_id": "51b180ae2248ac354059443756bd57f04840f00103f9019679a4b902000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6729757,
+          49.8776776
+        ]
+      }
+    }
+  ]
+}

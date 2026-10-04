@@ -1,0 +1,529 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Papugarnia",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-001",
+        "suburb": "Pułaskiego",
+        "street": "Aleja Józefa Piłsudskiego",
+        "housenumber": "44",
+        "iso3166_2": "PL-18",
+        "lon": 21.9971081,
+        "lat": 50.0424158,
+        "state_code": "PK",
+        "formatted": "Papugarnia, Aleja Józefa Piłsudskiego 44, 35-001 Rzeszów, Polska",
+        "address_line1": "Papugarnia",
+        "address_line2": "Aleja Józefa Piłsudskiego 44, 35-001 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.zoo",
+          "fee"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "fee": "yes",
+            "lat": 50.0424158,
+            "lon": 21.9971081,
+            "zoo": "petting_zoo",
+            "city": "Rzeszów",
+            "name": "Papugarnia",
+            "level": 3,
+            "phone": "+48 666 400 952",
+            "osm_id": 12944480357,
+            "street": "Aleja Józefa Piłsudskiego",
+            "tourism": "zoo",
+            "website": "https://www.facebook.com/PapugarniaRzeszow/",
+            "osm_type": "n",
+            "postcode": "35-001",
+            "housenumber": 44,
+            "opening_hours": "Mo-Su 10:30-19:00"
+          }
+        },
+        "website": "https://www.facebook.com/PapugarniaRzeszow/",
+        "opening_hours": "Mo-Su 10:30-19:00",
+        "contact": {
+          "phone": "+48 666 400 952"
+        },
+        "distance": 779,
+        "place_id": "51a213f87942ff354059b6ea84e16d054940f00103f90165188d030300000092030a506170756761726e6961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9971081,
+          50.0424158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Magiczna Polana",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "postcode": "35-620",
+        "district": "Osiedle Pobitno-Północ",
+        "suburb": "Pobitno",
+        "street": "Polna",
+        "iso3166_2": "PL-18",
+        "lon": 22.0383667,
+        "lat": 50.0451872,
+        "state_code": "PK",
+        "formatted": "Magiczna Polana, Polna, 35-620 Rzeszów, Polska",
+        "address_line1": "Magiczna Polana",
+        "address_line2": "Polna, 35-620 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.theme_park"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0451872,
+            "lon": 22.0383667,
+            "name": "Magiczna Polana",
+            "osm_id": 13260893200,
+            "tourism": "theme_park",
+            "operator": "Stowarzyszenie Inspiracji i Rozwoju \"Perspektywa\"",
+            "osm_type": "n",
+            "contact:mobile": "+48 605173020",
+            "contact:facebook": "sir.perspektywa"
+          }
+        },
+        "operator": "Stowarzyszenie Inspiracji i Rozwoju \"Perspektywa\"",
+        "distance": 2625,
+        "place_id": "5165c16966d2093640595219b5b1c8054940f00103f901102c69160300000092030f4d616769637a6e6120506f6c616e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0383667,
+          50.0451872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wiewiórki Świata",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Rudna Wielka",
+        "municipality": "gmina Świlcza",
+        "postcode": "36-054",
+        "street": "Via Carpatia im. Prezydenta RP Lecha Kaczyńskiego",
+        "iso3166_2": "PL-18",
+        "lon": 21.9416664,
+        "lat": 50.0885651,
+        "state_code": "PK",
+        "formatted": "Wiewiórki Świata, Via Carpatia im. Prezydenta RP Lecha Kaczyńskiego, 36-054 Rudna Wielka, Polska",
+        "address_line1": "Wiewiórki Świata",
+        "address_line2": "Via Carpatia im. Prezydenta RP Lecha Kaczyńskiego, 36-054 Rudna Wielka, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.zoo"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.08861328832654,
+            "lon": 21.94166658066363,
+            "name": "Wiewiórki Świata",
+            "phone": "+48 506 683 434",
+            "osm_id": 511554886,
+            "tourism": "zoo",
+            "website": "www.wiewiorkiswiata.pl",
+            "osm_type": "w",
+            "opening_hours": "09:00-19:00"
+          }
+        },
+        "website": "www.wiewiorkiswiata.pl",
+        "opening_hours": "09:00-19:00",
+        "contact": {
+          "phone": "+48 506 683 434"
+        },
+        "distance": 7272,
+        "place_id": "51baaf9f0f11f135405940ad23ae570b4940f00102f90146b57d1e000000009203125769657769c3b3726b6920c59a7769617461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.94166658066363,
+          50.08861328832654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Boguchwała",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-040",
+        "district": "Koło Gościńca",
+        "street": "Kasztanowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9345358,
+        "lat": 49.9811672,
+        "state_code": "PK",
+        "formatted": "Kasztanowa, 36-040 Boguchwała, Polska",
+        "address_line1": "Kasztanowa",
+        "address_line2": "36-040 Boguchwała, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.water_park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.98119024704561,
+            "lon": 21.934513160270132,
+            "osm_id": 515157293,
+            "leisure": "water_park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 7959,
+        "place_id": "51b50a25413cef354059871b5ba497fd4840f00102f9012dadb41e00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.934513160270132,
+          49.98119024704561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AlpakaTeam - Przygoda z Alpaką",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat rzeszowski",
+        "city": "Nosówka",
+        "municipality": "gmina Boguchwała",
+        "postcode": "36-046",
+        "housenumber": "271",
+        "iso3166_2": "PL-18",
+        "lon": 21.888758,
+        "lat": 50.0187796,
+        "state_code": "PK",
+        "formatted": "AlpakaTeam - Przygoda z Alpaką, 271, 36-046 Nosówka, Polska",
+        "address_line1": "AlpakaTeam - Przygoda z Alpaką",
+        "address_line2": "271, 36-046 Nosówka, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.zoo"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.0187796,
+            "lon": 21.888758,
+            "zoo": "petting_zoo",
+            "name": "AlpakaTeam - Przygoda z Alpaką",
+            "place": "Nosówka",
+            "osm_id": 11064766907,
+            "tourism": "zoo",
+            "operator": "Fundacja Podaruj Miłość",
+            "osm_type": "n",
+            "postcode": "36-046",
+            "wheelchair": "no",
+            "housenumber": 271,
+            "contact:email": "info@alpaki.rzeszow.pl",
+            "opening_hours": "Tu-Su 10:00-18:00",
+            "contact:mobile": "+48 533588773",
+            "contact:website": "https://alpakateam.pl",
+            "contact:facebook": "alpakirzeszow"
+          }
+        },
+        "website": "https://alpakateam.pl",
+        "opening_hours": "Tu-Su 10:00-18:00",
+        "operator": "Fundacja Podaruj Miłość",
+        "contact": {
+          "email": "info@alpaki.rzeszow.pl"
+        },
+        "facilities": {
+          "wheelchair": false
+        },
+        "distance": 8503,
+        "place_id": "51f10ef0a485e33540597eeab35e67024940f00103f901bbf182930200000092031f416c70616b615465616d202d2050727a79676f6461207a20416c70616bc485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.888758,
+          50.0187796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turkusowa Polana",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "city": "Rzeszów",
+        "hamlet": "Przylasek",
+        "postcode": "32-205",
+        "suburb": "Budziwój",
+        "street": "Jarzębinowa",
+        "iso3166_2": "PL-18",
+        "lon": 21.9877067,
+        "lat": 49.941612,
+        "state_code": "PK",
+        "formatted": "Turkusowa Polana, Jarzębinowa, 32-205 Rzeszów, Polska",
+        "address_line1": "Turkusowa Polana",
+        "address_line2": "Jarzębinowa, 32-205 Rzeszów, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.theme_park"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.94175112074163,
+            "lon": 21.987648770750777,
+            "name": "Turkusowa Polana",
+            "osm_id": 482117628,
+            "tourism": "theme_park",
+            "osm_type": "w",
+            "contact:email": "turkusowa.polana.rzeszow@gmail.com",
+            "contact:mobile": "+48 660291105",
+            "contact:website": "https://turkusowapolana.pl",
+            "contact:facebook": "turkusowapolana"
+          }
+        },
+        "website": "https://turkusowapolana.pl",
+        "contact": {
+          "email": "turkusowa.polana.rzeszow@gmail.com"
+        },
+        "distance": 10659,
+        "place_id": "51274fc28cd6fc3540594047fc4c8bf84840f00102f901fc87bc1c000000009203105475726b75736f776120506f6c616e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.987648770750777,
+          49.94175112074163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mini Zoo",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat strzyżowski",
+        "city": "Pstrągowa",
+        "hamlet": "Niebylec",
+        "municipality": "gmina Czudec",
+        "postcode": "38-121",
+        "iso3166_2": "PL-18",
+        "lon": 21.7201143,
+        "lat": 49.9547436,
+        "state_code": "PK",
+        "formatted": "Mini Zoo, 38-121 Pstrągowa, Polska",
+        "address_line1": "Mini Zoo",
+        "address_line2": "38-121 Pstrągowa, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.zoo"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.954731532127305,
+            "lon": 21.720149574359688,
+            "name": "Mini Zoo",
+            "osm_id": 403928079,
+            "tourism": "zoo",
+            "website": "https://rozanydworek.pl/hodowla_lam_i_danieli.php",
+            "osm_type": "w",
+            "description": "Hodowla lam i danieli"
+          }
+        },
+        "website": "https://rozanydworek.pl/hodowla_lam_i_danieli.php",
+        "description": "Hodowla lam i danieli",
+        "distance": 22315,
+        "place_id": "516a1af6b85bb83540592f7991a434fa4840f00102f9010f741318000000009203084d696e69205a6f6f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.720149574359688,
+          49.954731532127305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat przeworski",
+        "city": "Hadle Szklarskie",
+        "hamlet": "Grabnik",
+        "municipality": "gmina Jawornik Polski",
+        "postcode": "37-232",
+        "street": "Dworska",
+        "iso3166_2": "PL-18",
+        "lon": 22.2832049,
+        "lat": 49.9128341,
+        "state_code": "PK",
+        "formatted": "Dworska, 37-232 Hadle Szklarskie, Polska",
+        "address_line1": "Dworska",
+        "address_line2": "37-232 Hadle Szklarskie, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.water_park"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 49.91283901469057,
+            "lon": 22.28320073074671,
+            "osm_id": 1238418324,
+            "leisure": "water_park",
+            "osm_type": "w"
+          }
+        },
+        "distance": 24328,
+        "place_id": "51abc2d4d77f48364059ef4da9e8d7f44840f00102f90194c3d04900000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.28320073074671,
+          49.91283901469057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kompleks Turystyczny Brzezóvka w Brzezówce",
+        "country": "Polska",
+        "country_code": "pl",
+        "state": "województwo podkarpackie",
+        "county": "powiat kolbuszowski",
+        "city": "Brzezówka",
+        "municipality": "gmina Kolbuszowa",
+        "postcode": "36-100",
+        "housenumber": "36f",
+        "iso3166_2": "PL-18",
+        "lon": 21.7512268,
+        "lat": 50.2190904,
+        "state_code": "PK",
+        "formatted": "Kompleks Turystyczny Brzezóvka w Brzezówce, 36f, 36-100 Brzezówka, Polska",
+        "address_line1": "Kompleks Turystyczny Brzezóvka w Brzezówce",
+        "address_line2": "36f, 36-100 Brzezówka, Polska",
+        "categories": [
+          "entertainment",
+          "entertainment.theme_park"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 50.21902267895911,
+            "lon": 21.751220294736537,
+            "name": "Kompleks Turystyczny Brzezóvka w Brzezówce",
+            "place": "Brzezówka",
+            "osm_id": 1093768714,
+            "barrier": "fence",
+            "tourism": "theme_park",
+            "website": "https://brzezovka.pl/",
+            "osm_type": "w",
+            "postcode": "36-100",
+            "housenumber": "36f"
+          }
+        },
+        "website": "https://brzezovka.pl/",
+        "distance": 27141,
+        "place_id": "5123fc25f94fc0354059189b65ef081c4940f00102f9010a9631410000000092032c4b6f6d706c656b732054757279737479637a6e792042727a657ac3b3766b6120772042727a657ac3b3776365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.751220294736537,
+          50.21902267895911
+        ]
+      }
+    }
+  ]
+}

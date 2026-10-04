@@ -1,0 +1,4126 @@
+{
+  "dataset": "beta-places-600.json",
+  "items": [
+    {
+      "code": "R01",
+      "records": [
+        {
+          "row": 177,
+          "id": "514c885eebf7ff354059c44373f8ff044940f00103f901937f360c030000009203455465617472204e61726f646f777968747470733a2f2f70686f746f732e6170702e676f6f2e676c2f6a7a5966694664347844667a5a506a5441207720527a65737a6f776965",
+          "name": "Teatr Narodowyhttps://photos.app.goo.gl/jzYfiFd4xDfzZPjTA w Rzeszowie",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800083"
+        }
+      ],
+      "concern": "Uszkodzona nazwa: wklejony adres URL. Według tagów jest to tablica pamiątkowa, nie działający teatr.",
+      "proposal": "Poprawić nazwę i typ albo ukryć do wyjaśnienia.",
+      "decision": null
+    },
+    {
+      "code": "R02",
+      "records": [
+        {
+          "row": 222,
+          "id": "51e675c4211b02364059d3d9c9e028044940f00103f901e0d16d3d0300000092030a4d656e656c6f62696361",
+          "name": "Menelobica",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13915509216"
+        }
+      ],
+      "concern": "Niejasny wpis memorial; źródłowy opis zawiera niezweryfikowaną informację o pobiciu. Nie potwierdza atrakcji turystycznej.",
+      "proposal": "Ukryć do wiarygodnej weryfikacji.",
+      "decision": null
+    },
+    {
+      "code": "R03",
+      "records": [
+        {
+          "row": 284,
+          "id": "5111c4793881fd3540594063cb97bcfd4840f00103f9017ac7cf3f0100000092030f4a616e6120506177c5826120313536",
+          "name": "Jana Pawła 156",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5365548922"
+        }
+      ],
+      "concern": "Nazwa wygląda jak adres; brak informacji o rodzaju atrakcji.",
+      "proposal": "Ukryć do wyjaśnienia.",
+      "decision": null
+    },
+    {
+      "code": "R04",
+      "records": [
+        {
+          "row": 4,
+          "id": "51721019fb37fe354059a36428dd4c114940f00103f90171183e890000000092031757797363686e69c4997465206f637a6b6f20776f646e65",
+          "name": "Wyschnięte oczko wodne",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/2302548081"
+        }
+      ],
+      "concern": "Nazwa Wyschnięte oczko wodne, ale kategoria punkt widokowy. Brak opisu uzasadniającego wizytę.",
+      "proposal": "Potwierdzić, co jest na miejscu i czy warto tam kierować.",
+      "decision": null
+    },
+    {
+      "code": "R05",
+      "records": [
+        {
+          "row": 241,
+          "id": "5120c221cba535364059baecc60baefd4840f00102f901a7fa292f0000000092033053746164696f6e204b6c7562752053706f72746f7765676f202247524f4d20535a694b222048616e647a6cc3b3776b61",
+          "name": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+          "city": "Handzlówka",
+          "sourceUrl": "https://www.openstreetmap.org/way/791280295"
+        }
+      ],
+      "concern": "Stadion oznaczony jako park.",
+      "proposal": "Poprawić kategorię; zdecydować, czy potrzebny w katalogu turystycznym.",
+      "decision": null
+    },
+    {
+      "code": "R06",
+      "records": [
+        {
+          "row": 506,
+          "id": "5183153c236e4836405936b72beeb3f14840f00102f90124adeb490000000092032b476d696e6e79204fc59b726f64656b204b756c747572792077204a61776f726e696b7520506f6c736b696d",
+          "name": "Gminny Ośrodek Kultury w Jaworniku Polskim",
+          "city": "Jawornik Polski",
+          "sourceUrl": "https://www.openstreetmap.org/way/1240182052"
+        }
+      ],
+      "concern": "Gminny ośrodek kultury oznaczony jako park; możliwe, że geometria dotyczy otoczenia.",
+      "proposal": "Sprawdzić, jaki obiekt przedstawia wpis.",
+      "decision": null
+    },
+    {
+      "code": "R07",
+      "records": [
+        {
+          "row": 188,
+          "id": "51e86dc72f1704364059ff0af4e4f5034940f00103f901f03f51810200000092030844656c6f69747465",
+          "name": "Deloitte",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10759520240"
+        },
+        {
+          "row": 263,
+          "id": "51c7383586eff735405998ace52906074940f00103f901b574ac3b0200000092030b43656e7472756d20536e75",
+          "name": "Centrum Snu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092405"
+        }
+      ],
+      "concern": "Deloitte i Centrum Snu mają tag mural. Nazwy mogą sugerować firmę lub reklamę.",
+      "proposal": "Potwierdzić wartość turystyczną; ewentualnie dopisać Mural do nazwy.",
+      "decision": null
+    },
+    {
+      "code": "R08",
+      "records": [
+        {
+          "row": 269,
+          "id": "511c21a8bf03fa35405935ae241ef5074940f00103f901aa74ac3b0200000092030550697a7a61",
+          "name": "Pizza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092394"
+        },
+        {
+          "row": 272,
+          "id": "5135f91c0e01fa35405929006b7af5074940f00103f901ba74ac3b02000000920303536572",
+          "name": "Ser",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092410"
+        },
+        {
+          "row": 278,
+          "id": "51eb56cf49eff9354059bb65e2b1fa074940f00103f901bb74ac3b02000000920306427572676572",
+          "name": "Burger",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092411"
+        }
+      ],
+      "concern": "Pizza, Ser i Burger to w danych murale, nie lokale gastronomiczne.",
+      "proposal": "Zachować jako sztukę uliczną lub ukryć; nie używać jako restauracji.",
+      "decision": null
+    },
+    {
+      "code": "R09",
+      "records": [
+        {
+          "row": 6,
+          "id": "517633a31f0d013640597782fdd7b9044940f00103f901b0e24d57020000009203094b7369c499c5bc7963",
+          "name": "Księżyc",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656688"
+        },
+        {
+          "row": 12,
+          "id": "51b8c60cf90c0136405965451ed2b9044940f00103f901b1e24d57020000009203065a69656d6961",
+          "name": "Ziemia",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656689"
+        },
+        {
+          "row": 24,
+          "id": "51b8c60cf90c01364059026ac592cd044940f00103f901b4e24d570200000092030853c5826fc5846365",
+          "name": "Słońce",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656692"
+        },
+        {
+          "row": 30,
+          "id": "51258d76813701364059e734b0fac8044940f00103f901b2e24d570200000092030557656e7573",
+          "name": "Wenus",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656690"
+        },
+        {
+          "row": 36,
+          "id": "51ac7df090180136405951a62c9ed5044940f00103f901b3e24d57020000009203074d65726b757279",
+          "name": "Merkury",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656691"
+        },
+        {
+          "row": 42,
+          "id": "513b095ba269013640593ef5fef5c0044940f00103f901afe24d57020000009203044d617273",
+          "name": "Mars",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656687"
+        },
+        {
+          "row": 52,
+          "id": "51cb53b18c6800364059e61192bbbe044940f00103f901aee24d57020000009203054365726573",
+          "name": "Ceres",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656686"
+        },
+        {
+          "row": 104,
+          "id": "513044f3a55c02364059f09c77adce044940f00103f901ade24d57020000009203064a6f7769737a",
+          "name": "Jowisz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656685"
+        },
+        {
+          "row": 152,
+          "id": "514fef3db72bff354059d89a520372044940f00103f901ace24d570200000092030653617475726e",
+          "name": "Saturn",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656684"
+        },
+        {
+          "row": 197,
+          "id": "516760e4654dfc35405919e6046d72044940f00103f901abe24d57020000009203045572616e",
+          "name": "Uran",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656683"
+        },
+        {
+          "row": 221,
+          "id": "51dd4c3beb09ff354059c9b5fc1b0f074940f00103f901aae24d57020000009203064e657074756e",
+          "name": "Neptun",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656682"
+        },
+        {
+          "row": 260,
+          "id": "5159e1f14817f6354059c4acbc89c6054940f00103f901a9e24d5702000000920306506c75746f6e",
+          "name": "Pluton",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10054656681"
+        }
+      ],
+      "concern": "Nazwy ciał niebieskich sugerują elementy wspólnej instalacji lub trasy. Nie potwierdzono tego w terenie.",
+      "proposal": "Rozważyć jeden przystanek lub trasę tematyczną zamiast wielu pełnych wizyt.",
+      "decision": null
+    },
+    {
+      "code": "R10",
+      "records": [
+        {
+          "row": 224,
+          "id": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261",
+          "name": "Prasłowiańska Figura",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5130449936"
+        },
+        {
+          "row": 227,
+          "id": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+          "name": "Prasłowiańska Figura",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5130449935"
+        },
+        {
+          "row": 230,
+          "id": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+          "name": "Prasłowiańska Figura",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5130449934"
+        }
+      ],
+      "concern": "Trzy Prasłowiańskie Figury w odległościach około 2–9 m; możliwe osobne rzeźby.",
+      "proposal": "Potwierdzić, czy zespół rzeźb; rozważyć jeden przystanek.",
+      "decision": null
+    },
+    {
+      "code": "R11",
+      "records": [
+        {
+          "row": 294,
+          "id": "513fd9deb8d6fa35405995c1acab5d064940f00103f901ce82cd23020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+          "name": "W Hołdzie Zesłańcom",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9190605518"
+        },
+        {
+          "row": 300,
+          "id": "51bc81b861cafa3540597ee772de5a064940f00103f90195af1931020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+          "name": "W Hołdzie Zesłańcom",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9413701525"
+        },
+        {
+          "row": 297,
+          "id": "51a696523cd3fa354059006432665c064940f00103f901886a3aea00000000920311506f6d6e696b205379626972616bc3b377",
+          "name": "Pomnik Sybiraków",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3929696904"
+        }
+      ],
+      "concern": "Dwie tablice W Hołdzie Zesłańcom są około 16 m od siebie; w katalogu jest też Pomnik Sybiraków.",
+      "proposal": "Sprawdzić relację tablic z pomnikiem i ewentualnie grupować.",
+      "decision": null
+    },
+    {
+      "code": "R12",
+      "records": [
+        {
+          "row": 8,
+          "id": "51c99c1d5f31013640592b84d558c2044940f00103f90109ba8c32030000009203135461646575737a204b6fc59b636975737a6b6f",
+          "name": "Tadeusz Kościuszko",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732985353"
+        },
+        {
+          "row": 20,
+          "id": "5173a3c85a43013640596b8c310bc8044940f00102f90157afd0410000000092031b506f6d6e696b205461646575737a61204b6fc59b636975737a6b69",
+          "name": "Pomnik Tadeusza Kościuszki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1104195415"
+        },
+        {
+          "row": 86,
+          "id": "5187d1bd987700364059a24a28d8da044940f00103f901e9b92b0c030000009203104c656f706f6c64204c69732d4b756c61",
+          "name": "Leopold Lis-Kula",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094121"
+        },
+        {
+          "row": 102,
+          "id": "51154328a55600364059d7f09991e6044940f00103f901e6aae07200000000920319506f6d6e696b204c656f706f6c6461204c6973612d4b756c69",
+          "name": "Pomnik Leopolda Lisa-Kuli",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1927326438"
+        },
+        {
+          "row": 216,
+          "id": "51eefcec9117ff354059890563e9e8044940f00103f9018b7f360c03000000920377506f6d6e696b2067656e2e2057c58261647973c5826177612053696b6f72736b6965676f207a6f737461c58220777a6e696573696f6e792073746172616e69656d2073706fc58265637a65c58473747761206d696173746120527a65737a6f7761206920506f6c6f6e69692077203139393320726f6b75",
+          "name": "Pomnik gen. Władysława Sikorskiego został wzniesiony staraniem społeczeństwa miasta Rzeszowa i Polonii w 1993 roku",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800075"
+        },
+        {
+          "row": 219,
+          "id": "51fd8e3c6b12ff35405994652daaea044940f00103f9012f8de07200000000920329506f6d6e696b2047656e657261c582612057c58261647973c5826177612053696b6f72736b6965676f",
+          "name": "Pomnik Generała Władysława Sikorskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1927318831"
+        }
+      ],
+      "concern": "Pary: tablica i pomnik Kościuszki, Lisa-Kuli oraz Sikorskiego. To różne typy obiektów, nie pewne duplikaty.",
+      "proposal": "Rozważyć tablice jako szczegóły pomników, nie oddzielne wizyty.",
+      "decision": null
+    },
+    {
+      "code": "R13",
+      "records": [
+        {
+          "row": 92,
+          "id": "517d107fdd9e0036405997808ad858044940f00102f901558bdb0a000000009203194c65746e69205061c5826163204c75626f6d6972736b696368",
+          "name": "Letni Pałac Lubomirskich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/182160213"
+        },
+        {
+          "row": 170,
+          "id": "517f5cd19cab0036405940193e7d5f044940f00103f9011363410c030000009203195061c5826163206c65746e69204c75626f6d6972736b696368",
+          "name": "Pałac letni Lubomirskich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513683"
+        }
+      ],
+      "concern": "Pałac letni: budynek oraz tablica o podobnej nazwie, około 26 m od siebie.",
+      "proposal": "Jeden przystanek z tablicą jako szczegółem.",
+      "decision": null
+    },
+    {
+      "code": "R14",
+      "records": [
+        {
+          "row": 75,
+          "id": "51e8b4ab03c0fc354059e415a57bd1024940f00102f9016f8fd00a0000000092031d5061726b20696d2e20496e77616c6964c3b37720576f6a656e6e796368",
+          "name": "Park im. Inwalidów Wojennych",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/181440367"
+        },
+        {
+          "row": 285,
+          "id": "51273e2df5e2fc35405958665b17c8024940f00103f90112355c72000000009203195061726b20496e77616c6964c3b37720576f6a656e6e796368",
+          "name": "Park Inwalidów Wojennych",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1918645522"
+        }
+      ],
+      "concern": "Park Inwalidów Wojennych: obszar parku oraz kamień pamiątkowy nazwany jak park, około 48 m od siebie.",
+      "proposal": "Jeden przystanek; poprawić nazwę kamienia, jeżeli zostaje osobno.",
+      "decision": null
+    },
+    {
+      "code": "R15",
+      "records": [
+        {
+          "row": 118,
+          "id": "51ed287398d4013640597db08c0ddd044940f00103f9010063410c03000000920333572074796d20627564796e6b75206d6965c59b6369c58261207369c4992053796e61676f676120537461726f6d69656a736b61",
+          "name": "W tym budynku mieściła się Synagoga Staromiejska",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513664"
+        },
+        {
+          "row": 126,
+          "id": "517a4db450d701364059c51ad3b8dc044940f00103f901ff62410c0300000092032253594e41474f474120535441524f4d49454a534b41205a57414e41204d41c581c484",
+          "name": "SYNAGOGA STAROMIEJSKA ZWANA MAŁĄ",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513663"
+        },
+        {
+          "row": 162,
+          "id": "51ca598e46f4013640596a317898f6044940f00103f901e4ec81650200000092032153796e2061676f6761204e6f776f6d6965736b61207a77616e61204475c5bcc485",
+          "name": "Syn agoga Nowomieska zwana Dużą",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10292948196"
+        }
+      ],
+      "concern": "Wszystkie trzy wpisy dotyczą tablic, choć nazwy mogą sugerować synagogi. Pierwsze dwa dotyczą Staromiejskiej; trzeci Nowomiejskiej i ma literówki.",
+      "proposal": "Sprawdzić obiekty nadrzędne; nie scalać obu różnych synagog.",
+      "decision": null
+    },
+    {
+      "code": "R16",
+      "records": [
+        {
+          "row": 82,
+          "id": "51e770adf6b001364059346d5a84bd044940f00103f901857f360c030000009203b801506f6d69656369203430206d6965737a6b61c58463c3b37720527a65737a6f776120617265737a746f77616e7963682031206d616a61203139343020726f6b7520692070727a657769657a696f6e79636820313420637a6572776361203139343020726f6b75207a205461726e6f7761207069657277737a796d207472616e73706f7274656d20646f206e69656d6965636b6965676f206f626f7a75206b6f6e63656e74726163796a6e65676f2041757363687769747a2e",
+          "name": "Pomieci 40 mieszkańców Rzeszowa aresztowanych 1 maja 1940 roku i przewiezionych 14 czerwca 1940 roku z Tarnowa pierwszym transportem do niemieckiego obozu koncentracyjnego Auschwitz.",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800069"
+        },
+        {
+          "row": 180,
+          "id": "513fdaa447f8ff35405935cb0aea00054940f00103f901947f360c03000000920385015461626c696361207570616d69c499746e6961207a61c5826fc5bc656e6965205374726f6e6e6963747761204c75646f7765676f207720527a65737a6f7769652c206b74c3b37265206d6961c5826f206d69656a736365203238206c69706361203138393520726f6b7520706f64637a6173207a6a617a6475206368c5826f70736b696567",
+          "name": "Tablica upamiętnia założenie Stronnictwa Ludowego w Rzeszowie, które miało miejsce 28 lipca 1895 roku podczas zjazdu chłopskieg",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800084"
+        },
+        {
+          "row": 216,
+          "id": "51eefcec9117ff354059890563e9e8044940f00103f9018b7f360c03000000920377506f6d6e696b2067656e2e2057c58261647973c5826177612053696b6f72736b6965676f207a6f737461c58220777a6e696573696f6e792073746172616e69656d2073706fc58265637a65c58473747761206d696173746120527a65737a6f7761206920506f6c6f6e69692077203139393320726f6b75",
+          "name": "Pomnik gen. Władysława Sikorskiego został wzniesiony staraniem społeczeństwa miasta Rzeszowa i Polonii w 1993 roku",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800075"
+        }
+      ],
+      "concern": "W polu nazwy znajduje się długi tekst tablicy; wpis 180 wygląda na urwany.",
+      "proposal": "Krótka nazwa, treść przeniesiona do opisu po sprawdzeniu.",
+      "decision": null
+    },
+    {
+      "code": "R17",
+      "records": [
+        {
+          "row": 81,
+          "id": "51097c8f4479f23540596798da5207fa4840f00103f90145bb57b0000000009203204b61706c6963612062c5822e204ac3b37a656661204b6f77616c736b6965676f",
+          "name": "Kaplica bł. Józefa Kowalskiego",
+          "city": "Siedliska",
+          "sourceUrl": "https://www.openstreetmap.org/node/2958539589"
+        }
+      ],
+      "concern": "Kaplica bł. Józefa Kowalskiego jest oznaczona jako muzeum; opis źródłowy również mówi o muzeum.",
+      "proposal": "Potwierdzić charakter wizyty; być może poprawne są dwie kategorie.",
+      "decision": null
+    },
+    {
+      "code": "R18",
+      "records": [
+        {
+          "row": 148,
+          "id": "51387128322900364059bc838e0c28044940f00103f901da00f372000000009203125a616d656b204c75626f6d6972736b696368",
+          "name": "Zamek Lubomirskich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1928528090"
+        }
+      ],
+      "concern": "Godziny Mo-Fr 07:30-15:30 nie wyjaśniają, czy chodzi o zwiedzanie czy funkcjonowanie instytucji.",
+      "proposal": "Zweryfikować zasady zwiedzania przed użyciem tych godzin w planerze.",
+      "decision": null
+    },
+    {
+      "code": "R19",
+      "records": [
+        {
+          "row": 594,
+          "id": "512a317491e73136405903ca4ba36ef34840f00103f90120b99d080100000092030a4e612064727a65776965",
+          "name": "Na drzewie",
+          "city": "Dylągówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/4439521568"
+        }
+      ],
+      "concern": "Na drzewie jest oznaczone jako krzyż przydrożny; nazwa nie identyfikuje jasno miejsca.",
+      "proposal": "Ukryć lub nadać opisową nazwę po weryfikacji.",
+      "decision": null
+    },
+    {
+      "code": "G1",
+      "records": [
+        {
+          "row": 2,
+          "id": "5109939856f900364059ed53443cc8044940f00103f9016c268c32030000009203114a756c6975737a2053c5826f7761636b69",
+          "name": "Juliusz Słowacki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732947564"
+        },
+        {
+          "row": 8,
+          "id": "51c99c1d5f31013640592b84d558c2044940f00103f90109ba8c32030000009203135461646575737a204b6fc59b636975737a6b6f",
+          "name": "Tadeusz Kościuszko",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732985353"
+        },
+        {
+          "row": 14,
+          "id": "51e76388adea00364059dae21a9fc9044940f00103f9016b268c320300000092031349676e61637920c581756b617369657769637a",
+          "name": "Ignacy Łukasiewicz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732947563"
+        },
+        {
+          "row": 18,
+          "id": "51bd5de5bff60036405953d1b3b4ae044940f00103f9017c2245b30000000092031c506f6d6e696b204b617a696d6965727a612047c3b372736b6965676f",
+          "name": "Pomnik Kazimierza Górskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3007652476"
+        },
+        {
+          "row": 20,
+          "id": "5173a3c85a43013640596b8c310bc8044940f00102f90157afd0410000000092031b506f6d6e696b205461646575737a61204b6fc59b636975737a6b69",
+          "name": "Pomnik Tadeusza Kościuszki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1104195415"
+        },
+        {
+          "row": 32,
+          "id": "51f9b605f0bb00364059b14115ede0044940f00103f901578f8d320300000092031b46656c696b73204d69636861c58220577967727a7977616c736b69",
+          "name": "Feliks Michał Wygrzywalski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13733039959"
+        },
+        {
+          "row": 38,
+          "id": "51293ba2e7bb00364059a4ef7f91e1044940f00103f901568f8d320300000092030e576f6a6369656368204b696c6172",
+          "name": "Wojciech Kilar",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13733039958"
+        },
+        {
+          "row": 44,
+          "id": "51b566d07586003640594175bd7ed2044940f00103f901edb92b0c030000009203134b6f6e666564657261636a6120426172736b61",
+          "name": "Konfederacja Barska",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094125"
+        },
+        {
+          "row": 49,
+          "id": "51b1ac8fe277003640595eadc909c9044940f00103f9016ca145c10200000092031f4d617263696e20e2809e4c656c6577656ce2809d20426f72656c6f77736b69",
+          "name": "Marcin „Lelewel” Borelowski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832500588"
+        },
+        {
+          "row": 54,
+          "id": "51155223997a00364059fb16e7b9cf044940f00103f901eeb92b0c0300000092030e4a616e207a20527a65737a6f7761",
+          "name": "Jan z Rzeszowa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094126"
+        },
+        {
+          "row": 58,
+          "id": "51cb1dec037f003640599a023ee4d2044940f00103f901ebb92b0c030000009203084f726d69616e6f6d",
+          "name": "Ormianom",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094123"
+        },
+        {
+          "row": 62,
+          "id": "5126bd14c37a00364059d6ecdc0fd3044940f00103f901eab92b0c030000009203115a69656d692057696c65c584736b69656a",
+          "name": "Ziemi Wileńskiej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094122"
+        },
+        {
+          "row": 66,
+          "id": "51475e317e7500364059f52b9d0fcf044940f00103f901f0b92b0c030000009203104c6567696f6e6f6d20506f6c736b696d",
+          "name": "Legionom Polskim",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094128"
+        },
+        {
+          "row": 70,
+          "id": "513bf82e4a75003640591c51eb47d4044940f00103f901e8b92b0c030000009203243137205075c5826b2050696563686f7479205a69656d6920527a65737a6f77736b69656a",
+          "name": "17 Pułk Piechoty Ziemi Rzeszowskiej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094120"
+        },
+        {
+          "row": 74,
+          "id": "51f1b105ce6300364059c600e4dfc2044940f00103f901f52a523c0100000092030e5461646575737a204e616c657061",
+          "name": "Tadeusz Nalepa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5306985205"
+        },
+        {
+          "row": 78,
+          "id": "5102e5000baa01364059048d9944bd044940f00103f901c61cead20200000092030f4d69636861c582205374617369756b",
+          "name": "Michał Stasiuk",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12128492742"
+        },
+        {
+          "row": 82,
+          "id": "51e770adf6b001364059346d5a84bd044940f00103f901857f360c030000009203b801506f6d69656369203430206d6965737a6b61c58463c3b37720527a65737a6f776120617265737a746f77616e7963682031206d616a61203139343020726f6b7520692070727a657769657a696f6e79636820313420637a6572776361203139343020726f6b75207a205461726e6f7761207069657277737a796d207472616e73706f7274656d20646f206e69656d6965636b6965676f206f626f7a75206b6f6e63656e74726163796a6e65676f2041757363687769747a2e",
+          "name": "Pomieci 40 mieszkańców Rzeszowa aresztowanych 1 maja 1940 roku i przewiezionych 14 czerwca 1940 roku z Tarnowa pierwszym transportem do niemieckiego obozu koncentracyjnego Auschwitz.",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800069"
+        },
+        {
+          "row": 86,
+          "id": "5187d1bd987700364059a24a28d8da044940f00103f901e9b92b0c030000009203104c656f706f6c64204c69732d4b756c61",
+          "name": "Leopold Lis-Kula",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094121"
+        },
+        {
+          "row": 90,
+          "id": "5161777066aa003640590d2142b7f2044940f00103f90118933ee1020000009203234d69656a73636520706f6d6e696b61204269747779204772756e77616c647a6b69656a",
+          "name": "Miejsce pomnika Bitwy Grunwaldzkiej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12368909080"
+        },
+        {
+          "row": 94,
+          "id": "51f65c4b6d4e003640596bd9b51897044940f00103f901f4b92b0c0300000092031457c58261647973c58261772053696b6f72736b69",
+          "name": "Władysław Sikorski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094132"
+        },
+        {
+          "row": 98,
+          "id": "51a863df5f4e003640599572086696044940f00103f901c62463320300000092031349676e61637920c581756b617369657769637a",
+          "name": "Ignacy Łukasiewicz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13730260166"
+        },
+        {
+          "row": 102,
+          "id": "51154328a55600364059d7f09991e6044940f00103f901e6aae07200000000920319506f6d6e696b204c656f706f6c6461204c6973612d4b756c69",
+          "name": "Pomnik Leopolda Lisa-Kuli",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1927326438"
+        },
+        {
+          "row": 106,
+          "id": "517927fad74d003640594a2f206a91044940f00103f90105ba2b0c03000000920331572038302e20726f637a6e6963c499206f62726f6e79204c776f77612069204b726573c3b37720577363686f646e696368",
+          "name": "W 80. rocznicę obrony Lwowa i Kresów Wschodnich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094149"
+        },
+        {
+          "row": 110,
+          "id": "519690b4c0c3013640598af72d84e6044940f00103f90189120534010000009203445461626c6963612070616d69c485746b6f77612077206d69656a736375206b69726b7574753b5856492d776965637a6e7920436d656e7461727a20c5bb79646f77736b69",
+          "name": "Tablica pamiątkowa w miejscu kirkutu;XVI-wieczny Cmentarz Żydowski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167714953"
+        },
+        {
+          "row": 114,
+          "id": "51ea3e00a94d00364059f892212290044940f00103f90104ba2b0c0300000092031c50726f6665736f726f6d204c776f77736b6963682055637a656c6e69",
+          "name": "Profesorom Lwowskich Uczelni",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089094148"
+        },
+        {
+          "row": 118,
+          "id": "51ed287398d4013640597db08c0ddd044940f00103f9010063410c03000000920333572074796d20627564796e6b75206d6965c59b6369c58261207369c4992053796e61676f676120537461726f6d69656a736b61",
+          "name": "W tym budynku mieściła się Synagoga Staromiejska",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513664"
+        },
+        {
+          "row": 122,
+          "id": "5139c1edbf84003640590318e0ccf9044940f00103f90147dab03203000000920310496e737472756b746f72656b205a4850",
+          "name": "Instruktorek ZHP",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13735352903"
+        },
+        {
+          "row": 126,
+          "id": "517a4db450d701364059c51ad3b8dc044940f00103f901ff62410c0300000092032253594e41474f474120535441524f4d49454a534b41205a57414e41204d41c581c484",
+          "name": "SYNAGOGA STAROMIEJSKA ZWANA MAŁĄ",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513663"
+        },
+        {
+          "row": 130,
+          "id": "5193814de7d401364059b866e1a1de044940f00103f901fd62410c030000009203315461626c696361207570616d69c499746e6961206f666961727920486f6c6f6b6175737475207a20527a65737a6f77612e",
+          "name": "Tablica upamiętnia ofiary Holokaustu z Rzeszowa.",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513661"
+        },
+        {
+          "row": 134,
+          "id": "51bd63c2798200364059392ba226fa044940f00103f90148dab032030000009203264b617461727a796e61205769c59b6e696f77736b61206920416e746f6e692047726f6d736b69",
+          "name": "Katarzyna Wiśniowska i Antoni Gromski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13735352904"
+        },
+        {
+          "row": 138,
+          "id": "51e207420d3a003640597817de9b95044940f00103f9019df145c10200000092032d572031393220726f637a6e6963c4992075636877616c656e6961204b6f6e7374797475636a692033204d616a61",
+          "name": "W 192 rocznicę uchwalenia Konstytucji 3 Maja",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832521117"
+        },
+        {
+          "row": 142,
+          "id": "512bc24d4695013640595dbf057ef9044940f00103f9014b024d7c00000000920325506f6d6e696b2057647a69c499637a6e6fc59b63692041726d696920437a6572776f6e656a",
+          "name": "Pomnik Wdzięczności Armii Czerwonej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2085421643"
+        },
+        {
+          "row": 144,
+          "id": "510b7fe1f0ddff354059b16ebc3b32054940f00103f901d3c49d780000000092031a506f6d6e696b20437a796e75205265776f6c7563796a6e65676f",
+          "name": "Pomnik Czynu Rewolucyjnego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2023605459"
+        },
+        {
+          "row": 146,
+          "id": "51dfca6d56d8013640598c65fa25e2044940f00103f901fc62410c0300000092032050616d69c49963692044617769646120416c74657261204b75727a6d616e6e61",
+          "name": "Pamięci Dawida Altera Kurzmanna",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513660"
+        },
+        {
+          "row": 150,
+          "id": "515453927538003640592865adfc8d044940f00103f9017de811b9020000009203535461626c6963612070616d69c485746b6f7761207570616d69c499746e6961206461726f77697a6ec49920646f6d7520646c6120706172616669692070772e20c59a7769c4997465676f204b727a79c5bc612e",
+          "name": "Tablica pamiątkowa upamiętnia darowiznę domu dla parafii pw. Świętego Krzyża.",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11694893181"
+        },
+        {
+          "row": 154,
+          "id": "51782975c938003640599a8ddf2582044940f00103f901a0f145c102000000920313497a626120527a656d6965c59b6c6e69637a61",
+          "name": "Izba Rzemieślnicza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832521120"
+        },
+        {
+          "row": 158,
+          "id": "511c508072250236405903cc214ecc044940f00103f901b75dfdb700000000920318506f6d6e696b204164616d61204d69636b69657769637a61",
+          "name": "Pomnik Adama Mickiewicza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3086835127"
+        },
+        {
+          "row": 162,
+          "id": "51ca598e46f4013640596a317898f6044940f00103f901e4ec81650200000092032153796e2061676f6761204e6f776f6d6965736b61207a77616e61204475c5bcc485",
+          "name": "Syn agoga Nowomieska zwana Dużą",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10292948196"
+        },
+        {
+          "row": 166,
+          "id": "51a10d654dd100364059a7ea1ed95c044940f00103f901f21846c1020000009203134a616e2053746566616e204b6f746f7769637a",
+          "name": "Jan Stefan Kotowicz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832531186"
+        },
+        {
+          "row": 170,
+          "id": "517f5cd19cab0036405940193e7d5f044940f00103f9011363410c030000009203195061c5826163206c65746e69204c75626f6d6972736b696368",
+          "name": "Pałac letni Lubomirskich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513683"
+        },
+        {
+          "row": 174,
+          "id": "510858ab764d00364059faa93b6068044940f00103f901815346c102000000920303504f57",
+          "name": "POW",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832546177"
+        },
+        {
+          "row": 177,
+          "id": "514c885eebf7ff354059c44373f8ff044940f00103f901937f360c030000009203455465617472204e61726f646f777968747470733a2f2f70686f746f732e6170702e676f6f2e676c2f6a7a5966694664347844667a5a506a5441207720527a65737a6f776965",
+          "name": "Teatr Narodowyhttps://photos.app.goo.gl/jzYfiFd4xDfzZPjTA w Rzeszowie",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800083"
+        },
+        {
+          "row": 179,
+          "id": "51e394b9f94603364059f649496a7c054940f00102f9015395653d00000000920308544b7434382d3237",
+          "name": "TKt48-27",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1030067539"
+        },
+        {
+          "row": 180,
+          "id": "513fdaa447f8ff35405935cb0aea00054940f00103f901947f360c03000000920385015461626c696361207570616d69c499746e6961207a61c5826fc5bc656e6965205374726f6e6e6963747761204c75646f7765676f207720527a65737a6f7769652c206b74c3b37265206d6961c5826f206d69656a736365203238206c69706361203138393520726f6b7520706f64637a6173207a6a617a6475206368c5826f70736b696567",
+          "name": "Tablica upamiętnia założenie Stronnictwa Ludowego w Rzeszowie, które miało miejsce 28 lipca 1895 roku podczas zjazdu chłopskieg",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800084"
+        },
+        {
+          "row": 183,
+          "id": "5134f6251b0f00364059bd6b75de6b044940f00103f901c17d77930200000092030f50696f747220456d696c657769637a",
+          "name": "Piotr Emilewicz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11064016321"
+        },
+        {
+          "row": 186,
+          "id": "514a24d1cb28023640594a7f2f8507054940f00103f9017b8079fa02000000920316447a776f6e204e6965706f646c6567c5826fc59b6369",
+          "name": "Dzwon Niepodległości",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12792201339"
+        },
+        {
+          "row": 189,
+          "id": "51aa317c9f0502364059408f07115f044940f00103f9010ee2a3320300000092031e48656e72796b20446f62727a61c584736b6920e2809e487562616ce2809d",
+          "name": "Henryk Dobrzański „Hubal”",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13734502926"
+        },
+        {
+          "row": 192,
+          "id": "513305210f3302364059532faea70c054940f00103f901c4bfb78d0100000092031c506f6d6e696b204ac3b37a656661205069c582737564736b6965676f",
+          "name": "Pomnik Józefa Piłsudskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/6672596932"
+        },
+        {
+          "row": 195,
+          "id": "518b98c8bbd9ff3540597ab0202812054940f00103f9011e5ecdb901000000920310c59a772e204a616e207a2044756b6c69",
+          "name": "Św. Jan z Dukli",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/7412211230"
+        },
+        {
+          "row": 198,
+          "id": "517bd80b056cff354059eb2aee89bf044940f00103f901ceff422e0200000092031e506f6d6e696b20c581756b61737a6120436965706c69c584736b6965676f",
+          "name": "Pomnik Łukasza Cieplińskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077390"
+        },
+        {
+          "row": 201,
+          "id": "51d1a45e01960236405935d4282499044940f00103f90189e0a332030000009203155374616e6973c5826177204e6f77616b6f77736b69",
+          "name": "Stanisław Nowakowski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13734502537"
+        },
+        {
+          "row": 203,
+          "id": "5191e80a5b580036405924360eab2e034940f00103f901f74da2b600000000920318506f6d6e696b205374616e6973c582617761204e69746b69",
+          "name": "Pomnik Stanisława Nitki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3064090103"
+        },
+        {
+          "row": 204,
+          "id": "51fbf087fab8ff354059a77e390e17054940f00103f901e83b5b6301000000920321466967757261204d61746b6920426f736b69656a20527a65737a6f77736b69656a",
+          "name": "Figura Matki Boskiej Rzeszowskiej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5961890792"
+        },
+        {
+          "row": 207,
+          "id": "515e42aacda4003640599e503ef328044940f00103f901c30234a200000000920340506f6d6e696b2043687761c5827920c5bb6fc5826e6965727a792041726d6969204b72616a6f77656a20506f646f6b72c499677520527a65737ac3b37720414b",
+          "name": "Pomnik Chwały Żołnierzy Armii Krajowej Podokręgu Rzeszów AK",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2721317571"
+        },
+        {
+          "row": 210,
+          "id": "514a8160e9d7ff3540593c2eaa4544044940f00103f901f5bfbbbf0000000092030f4a616e2050616b6f73c58261776963",
+          "name": "Jan Pakosławic",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3216752629"
+        },
+        {
+          "row": 213,
+          "id": "510749fa0f440136405949360d4059054940f00103f9017bb07a3203000000920322506f6c6567c582796d20507261636f776e696b6f6d20c581c485637a6e6fc59b6369",
+          "name": "Poległym Pracownikom Łączności",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13731803259"
+        },
+        {
+          "row": 216,
+          "id": "51eefcec9117ff354059890563e9e8044940f00103f9018b7f360c03000000920377506f6d6e696b2067656e2e2057c58261647973c5826177612053696b6f72736b6965676f207a6f737461c58220777a6e696573696f6e792073746172616e69656d2073706fc58265637a65c58473747761206d696173746120527a65737a6f7761206920506f6c6f6e69692077203139393320726f6b75",
+          "name": "Pomnik gen. Władysława Sikorskiego został wzniesiony staraniem społeczeństwa miasta Rzeszowa i Polonii w 1993 roku",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800075"
+        },
+        {
+          "row": 218,
+          "id": "5146d6750360ff3540598cbe823463024940f00103f9012939770b010000009203034c6f74",
+          "name": "Lot",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/4487330089"
+        },
+        {
+          "row": 219,
+          "id": "51fd8e3c6b12ff35405994652daaea044940f00103f9012f8de07200000000920329506f6d6e696b2047656e657261c582612057c58261647973c5826177612053696b6f72736b6965676f",
+          "name": "Pomnik Generała Władysława Sikorskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1927318831"
+        },
+        {
+          "row": 222,
+          "id": "51e675c4211b02364059d3d9c9e028044940f00103f901e0d16d3d0300000092030a4d656e656c6f62696361",
+          "name": "Menelobica",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13915509216"
+        },
+        {
+          "row": 225,
+          "id": "51f2fd1e06040036405923f94a2025044940f00103f901520fa6320300000092030e57696e63656e7479205769746f73",
+          "name": "Wincenty Witos",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13734645586"
+        },
+        {
+          "row": 228,
+          "id": "51ba6587f887ff354059c3ceb9803c054940f00103f901a1167657020000009203154b6174617374726f666120736d6f6c65c584736b61",
+          "name": "Katastrofa smoleńska",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10057291425"
+        },
+        {
+          "row": 231,
+          "id": "51631b02918fff3540595cc98e8d40054940f00103f901a01676570200000092031c313035302e20726f637a6e696361204368727a747520506f6c736b69",
+          "name": "1050. rocznica Chrztu Polski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10057291424"
+        },
+        {
+          "row": 234,
+          "id": "51349c3237dffe35405934187ecbf7044940f00103f9018d7f360c0300000092033857203130302e20726f637a6e6963c49920706f777374616e6961205a7769c4857a6b75204861726365727374776120506f6c736b6965676f",
+          "name": "W 100. rocznicę powstania Związku Harcerstwa Polskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800077"
+        },
+        {
+          "row": 237,
+          "id": "51279710bdd6ff354059b0a481c41b044940f00103f90168090f85000000009203254b727a79c5bc2d506f6d6e696b20e2809e4f666961726f6d204b6f6d756e697a6d75e2809d",
+          "name": "Krzyż-Pomnik „Ofiarom Komunizmu”",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2232355176"
+        },
+        {
+          "row": 240,
+          "id": "514bd2904ce201364059aa8482ad6d054940f00103f9012edddb380200000092031a46696775726120c59a7769c49974656a204b617461727a796e79",
+          "name": "Figura Świętej Katarzyny",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9543867694"
+        },
+        {
+          "row": 243,
+          "id": "51f93bca77df01364059aa0eb9196e054940f00103f901f962410c0300000092030d536f6c696461726e6fc59bc487",
+          "name": "Solidarność",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13090513657"
+        },
+        {
+          "row": 246,
+          "id": "519d95fe6f36ff35405964df5f4e1a044940f00103f901f341ab32030000009203115374616e6973c5826177204d61637a656b",
+          "name": "Stanisław Maczek",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13734986227"
+        },
+        {
+          "row": 249,
+          "id": "518caec1b11dfe354059ec33677dca044940f00103f901c9a00a34010000009203124b617a696d6965727a205075c58261736b69",
+          "name": "Kazimierz Pułaski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5168079049"
+        },
+        {
+          "row": 252,
+          "id": "5183f11d46520036405975d5f2b9c9034940f00103f90160207a160300000092031950616d69c4996369204a616e61205374727a656c637a796b61",
+          "name": "Pamięci Jana Strzelczyka",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13262004320"
+        },
+        {
+          "row": 255,
+          "id": "514772f90fe9013640595db8bdeebe034940f00103f9017c9a53af0000000092031b506f6d6e696b20c59b772e204a616e61204e65706f6d7563656e61",
+          "name": "Pomnik św. Jana Nepomucena",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2941491836"
+        },
+        {
+          "row": 258,
+          "id": "514729d7ca3a0036405935be8ae7c7054940f00103f901a4d779040100000092031a506f6d6e696b204a616e61204b6f6368616e6f77736b6965676f",
+          "name": "Pomnik Jana Kochanowskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/4370061220"
+        },
+        {
+          "row": 261,
+          "id": "51cde49b6d6efe354059c9f43a9803044940f00103f901870c732e0100000092031c506f6d6e696b204a756c6975737a612053c5826f7761636b6965676f",
+          "name": "Pomnik Juliusza Słowackiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5074259079"
+        },
+        {
+          "row": 264,
+          "id": "51aa1496d3f9fd3540597b0b900d49054940f00103f90163fc3e530200000092031153746566616e205779737a79c584736b69",
+          "name": "Stefan Wyszyński",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9986571363"
+        },
+        {
+          "row": 267,
+          "id": "5180e89326effd354059ce4b6a0d4a054940f00103f90164fc3e530200000092030d4a616e2050617765c582204949",
+          "name": "Jan Paweł II",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9986571364"
+        },
+        {
+          "row": 270,
+          "id": "51e907932333013640597061f020fa054940f00102f90169958b3b00000000920314506f6d6e696b204f6669617220546572726f7275",
+          "name": "Pomnik Ofiar Terroru",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/999003497"
+        },
+        {
+          "row": 273,
+          "id": "5122b2fe85d4ff3540594b8fa67a32064940f00103f9010d7659b800000000920315506f6d6e696b204a616e6120506177c58261204949",
+          "name": "Pomnik Jana Pawła II",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3092870669"
+        },
+        {
+          "row": 276,
+          "id": "51959ba8a5b9fd354059a971ca3736064940f00103f9013efccccd0200000092031a537a637ac499c59bc48720426fc5bc6520313935372d32303037",
+          "name": "Szczęść Boże 1957-2007",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12042697790"
+        },
+        {
+          "row": 279,
+          "id": "51763172bb3cfc354059ae731df4b6054940f00103f9010355f583020000009203394b616d6965c584207570616d69c499746e69616ac4856379204d617263696e6120426f72656c6f77736b6965676f20224c656c6577656c6122",
+          "name": "Kamień upamiętniający Marcina Borelowskiego \"Lelewela\"",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10803827971"
+        },
+        {
+          "row": 282,
+          "id": "511cedb8e177fb354059fd0571d4c0054940f00103f901e87847f40100000092030e57696e63656e7479205769746f73",
+          "name": "Wincenty Witos",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/8393292008"
+        },
+        {
+          "row": 285,
+          "id": "51273e2df5e2fc35405958665b17c8024940f00103f90112355c72000000009203195061726b20496e77616c6964c3b37720576f6a656e6e796368",
+          "name": "Park Inwalidów Wojennych",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/1918645522"
+        },
+        {
+          "row": 288,
+          "id": "512773e26190fa354059b2930bdf0c064940f00103f90121591b1d02000000920313506f6d6e696b204d61746b6920426fc5bc656a",
+          "name": "Pomnik Matki Bożej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9078266145"
+        },
+        {
+          "row": 291,
+          "id": "51cdea1d6e87fa354059a7e095c915064940f00103f90122591b1d0200000092030f4a657a75732077204b6f726f6e6965",
+          "name": "Jezus w Koronie",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9078266146"
+        },
+        {
+          "row": 294,
+          "id": "513fd9deb8d6fa35405995c1acab5d064940f00103f901ce82cd23020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+          "name": "W Hołdzie Zesłańcom",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9190605518"
+        },
+        {
+          "row": 297,
+          "id": "51a696523cd3fa354059006432665c064940f00103f901886a3aea00000000920311506f6d6e696b205379626972616bc3b377",
+          "name": "Pomnik Sybiraków",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3929696904"
+        },
+        {
+          "row": 300,
+          "id": "51bc81b861cafa3540597ee772de5a064940f00103f90195af1931020000009203165720486fc582647a6965205a6573c58261c584636f6d",
+          "name": "W Hołdzie Zesłańcom",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9413701525"
+        },
+        {
+          "row": 301,
+          "id": "518bbe277bf005364059f3936a9f8e024940f00103f90120dd03c500000000920320466967757261204e616ac59b772e2053657263612050616e61204a657a757361",
+          "name": "Figura Najśw. Serca Pana Jezusa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3305364768"
+        },
+        {
+          "row": 304,
+          "id": "51b39aae27bafc354059a5cd829a6b024940f00103f9014bac86190100000092031d506f6d6e696b2049676e616365676f20c581756b617369657769637a61",
+          "name": "Pomnik Ignacego Łukasiewicza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/4723223627"
+        },
+        {
+          "row": 307,
+          "id": "51d208ec206500364059095fa9786d074940f00103f9015b2a79250100000092030d437a61726e79204b727a79c5bc",
+          "name": "Czarny Krzyż",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/4923664987"
+        },
+        {
+          "row": 310,
+          "id": "51b499f9c4f0ff354059d3669c86a8014940f00103f901ed372ccf0100000092031a506f6d6e696b20576f6c6e6fc59b636920313931382d31393238",
+          "name": "Pomnik Wolności 1918-1928",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/7770748909"
+        },
+        {
+          "row": 313,
+          "id": "511f1a715c21f735405966a032fe7d054940f00103f9010c8582be0000000092031842c5826f676f73c5826177696f6e61204b61726f6c696e61",
+          "name": "Błogosławiona Karolina",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3196224780"
+        },
+        {
+          "row": 319,
+          "id": "518524b37a87f9354059aa98ef856e024940f00103f9019e92e3e30000000092031d506f6c65676c6920c5bb6fc5826e6965727a65205261647a6965636379",
+          "name": "Polegli Żołnierze Radzieccy",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3823342238"
+        },
+        {
+          "row": 322,
+          "id": "5132827cbf87f9354059f4b578c25c024940f00103f9019d92e3e30000000092032d506f6c65676c6920c5bb6fc5826e6965727a65204c75646f7765676f20576f6a736b6120506f6c736b6965676f",
+          "name": "Polegli Żołnierze Ludowego Wojska Polskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3823342237"
+        },
+        {
+          "row": 325,
+          "id": "51be1d9727c60036405917e7b9cf3b014940f00103f901d7a01ea20100000092030b44726162696e69616e6b61",
+          "name": "Drabinianka",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/7014883543"
+        },
+        {
+          "row": 328,
+          "id": "51c314408c6b0b364059d32357fb85034940f00103f901c88c1f2f0100000092030a4d616c696e6f77736b69",
+          "name": "Malinowski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5085564104"
+        },
+        {
+          "row": 331,
+          "id": "5144183f8d7b0b3640590137e6d07d034940f00103f901d48c1f2f0100000092031354797369c485636c65736965204368727a7475",
+          "name": "Tysiąclesie Chrztu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5085564116"
+        },
+        {
+          "row": 334,
+          "id": "518293c899810b36405918737c597f034940f00103f901d38c1f2f0100000092031a32303030206c6174204368727a65c59b63696a61c58473747761",
+          "name": "2000 lat Chrześcijaństwa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5085564115"
+        },
+        {
+          "row": 337,
+          "id": "51a3be767aef053640594f4f690e5a014940f00103f9011fdd03c500000000920321466967757261204d61746b6920426fc5bc656a2052c3b3c5bc61c584636f77656a",
+          "name": "Figura Matki Bożej Różańcowej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3305364767"
+        },
+        {
+          "row": 340,
+          "id": "515ebef561bd0b3640591891cdfa39034940f00103f901da8c1f2f01000000920309506f6c6567c582796d",
+          "name": "Poległym",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5085564122"
+        },
+        {
+          "row": 343,
+          "id": "5148043e9a45f9354059ecba5c69be074940f00103f901ac964ef701000000920315506f6d6e696b204a616e6120506177c58261204949",
+          "name": "Pomnik Jana Pawła II",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/8444090028"
+        },
+        {
+          "row": 346,
+          "id": "517432271e060536405931cb434bc3004940f00103f901a9bbfe2e010000009203054a657a7573",
+          "name": "Jezus",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5083413417"
+        },
+        {
+          "row": 349,
+          "id": "513ab3b85a82f335405917c8a29f5f034940f00103f9019d29f2df0000000092030d466967757261204d6172796a69",
+          "name": "Figura Maryji",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3757189533"
+        },
+        {
+          "row": 352,
+          "id": "517bad3a6178ff3540595074b8b134004940f00103f901c5d1f6d500000000920310c59a7769c499747920466c6f7269616e",
+          "name": "Święty Florian",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3589722565"
+        },
+        {
+          "row": 355,
+          "id": "51b34698fd15f335405961c5a9d6c2064940f00103f901a519f90e0200000092032d506f6d6e696b20726f7a7374727a656c616e7963682070727a657a204e69656d63c3b37720772031393434722e",
+          "name": "Pomnik rozstrzelanych przez Niemców w 1944r.",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/8841140645"
+        },
+        {
+          "row": 357,
+          "id": "51c7cdba905810364059eab303ae2b054940f00103f9017ac901340100000092030fc59a7769c499747920416e746f6e69",
+          "name": "Święty Antoni",
+          "city": "gmina Krasne",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167499642"
+        },
+        {
+          "row": 359,
+          "id": "5132581e78ac3b364059a2c07d534d094940f00102f901d754380d000000009203424f68656c204e616674616c65676f2043776920486f726f77696361207a20526f70637a79632073796e61204d656e616368656d61204d656e646c6120527562696e61",
+          "name": "Ohel Naftalego Cwi Horowica z Ropczyc syna Menachema Mendla Rubina",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/way/221795543"
+        },
+        {
+          "row": 362,
+          "id": "5141a20914b13b364059c47872f247094940f00102f9010f55a610000000009203324f68656c20456c65617a6172612073796e612043776920456c696d656c6563686120537a617069726f207a2044796e6f7761",
+          "name": "Ohel Eleazara syna Cwi Elimelecha Szapiro z Dynowa",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/way/279336207"
+        },
+        {
+          "row": 363,
+          "id": "51aac024f0e2f0354059b315ea9f96044940f00103f901f253600703000000920313c59a772e20416e64727a656a20426f626f6c61",
+          "name": "Św. Andrzej Bobola",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13008655346"
+        },
+        {
+          "row": 375,
+          "id": "51c2c073efe1f6354059c28c841156094940f00103f901e71c1c130200000092031947c582617a20477261c5bc796e792047c4997369636b69656a",
+          "name": "Głaz Grażyny Gęsickiej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/8910544103"
+        },
+        {
+          "row": 381,
+          "id": "51afe94141290a364059a6bff27bf6094940f00103f90106ec16230100000092032d506f6c6567c582796d20c5bb6fc5826e6965727a6f6d204c575020692041726d69205261647a6965636b69656a",
+          "name": "Poległym Żołnierzom LWP i Armi Radzieckiej",
+          "city": "Trzebownisko",
+          "sourceUrl": "https://www.openstreetmap.org/node/4883672070"
+        },
+        {
+          "row": 384,
+          "id": "51817cf660e4fc354059d2ca3b2787fe4840f00102f901d75f3a2900000000920315506f6d6e696b204a616e6120506177c58261204949",
+          "name": "Pomnik Jana Pawła II",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/691691479"
+        },
+        {
+          "row": 386,
+          "id": "519d60a4bcfbfe3540590f5ebbb4e10b4940f00103f90176af592c01000000920313506f6c65676c69206c6567696f6e69c59b6369",
+          "name": "Polegli legioniści",
+          "city": "Zaczernie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5039042422"
+        },
+        {
+          "row": 389,
+          "id": "51cd3a884270173640595e51a5c1c8054940f00103f901732e13f702000000920330313030302d6c65636965205061c5847374776120506f6c736b6965676f20692036302d6c656369652073747261c5bc79",
+          "name": "1000-lecie Państwa Polskiego i 60-lecie straży",
+          "city": "gmina Krasne",
+          "sourceUrl": "https://www.openstreetmap.org/node/12735164019"
+        },
+        {
+          "row": 394,
+          "id": "51428067d6adf33540592877442a310b4940f00103f90139e632250100000092032950616d69c499636920726f7a7374727a656c616e796d2070727a657a206869746c65726f7763c3b377",
+          "name": "Pamięci rozstrzelanym przez hitlerowców",
+          "city": "Rudna Wielka",
+          "sourceUrl": "https://www.openstreetmap.org/node/4919060025"
+        },
+        {
+          "row": 397,
+          "id": "5113b3035372f33540594ec3a68416fe4840f00103f901435eea2b010000009203164b727a79c5bc204a756c69616e612042616269616b61",
+          "name": "Krzyż Juliana Babiaka",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/5031747139"
+        },
+        {
+          "row": 400,
+          "id": "51cc9b1e6f4df1354059911b8f6335fe4840f00103f901cca83a17030000009203164d6f6769c5826120c5bc6fc5826e6965727a7920414b",
+          "name": "Mogiła żołnierzy AK",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/13274622156"
+        },
+        {
+          "row": 403,
+          "id": "51ecd74235caf135405927c0b0fcf9fd4840f00103f9015acf80b6000000009203124772756e77616c6420313431302d31393130",
+          "name": "Grunwald 1410-1910",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/3061895002"
+        },
+        {
+          "row": 406,
+          "id": "514186e9d6c6f135405962067470fafd4840f00103f901293dfe070300000092033a3630302d6c65636965206d696c697461726e65676f207a77796369c4997374776120706f64204772756e77616c64656d20313431302d32303130",
+          "name": "600-lecie militarnego zwycięstwa pod Grunwaldem 1410-2010",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/13019004201"
+        },
+        {
+          "row": 409,
+          "id": "51eb3c85b762f03540592a5d555117fe4840f00103f9017d9ce5dc020000009203135461646575737a204b6fc59b636975737a6b6f",
+          "name": "Tadeusz Kościuszko",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/12295969917"
+        },
+        {
+          "row": 412,
+          "id": "515c8242f3efe93540590d946f1173004940f00103f90166cf80b60000000092031b4b732e204b616e2e204d617263656c6920536f636861c584736b69",
+          "name": "Ks. Kan. Marceli Sochański",
+          "city": "Racławówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/3061895014"
+        },
+        {
+          "row": 415,
+          "id": "51f1b89c19acfe354059b1440105b3fb4840f00102f901f4bc441100000000920310506f6d6e696b204772756e77616c6475",
+          "name": "Pomnik Grunwaldu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/289717492"
+        },
+        {
+          "row": 418,
+          "id": "5141c4bc7d0cfc354059f68ab84ac1fb4840f00103f90135d17f32030000009203185374727a656c63c3b377204275647a69776f6a736b696368",
+          "name": "Strzelców Budziwojskich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732139317"
+        },
+        {
+          "row": 424,
+          "id": "51246074797306364059801c83047bfb4840f00103f9016c5a81320300000092030f4c756477696b20576f647a69636b69",
+          "name": "Ludwik Wodzicki",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732239980"
+        },
+        {
+          "row": 427,
+          "id": "5139b9dfa128083640593f8c101e6dfb4840f00103f9019e37c5b50000000092032150616d69c485746b61206b6fc59b63696fc5826120c59b772e204b727a79c5bc61",
+          "name": "Pamiątka kościoła św. Krzyża",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/3049600926"
+        },
+        {
+          "row": 430,
+          "id": "5179c1f1c69308364059d141f2295bfb4840f00103f9019237c5b50000000092031d4a7562696c6575737a204772756e77616c647520313431302d31393130",
+          "name": "Jubileusz Grunwaldu 1410-1910",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/3049600914"
+        },
+        {
+          "row": 433,
+          "id": "511f4b1fbaa008364059a5c97b8b3dfb4840f00103f901976682320300000092030f4a65727a79207a205479637a796e61",
+          "name": "Jerzy z Tyczyna",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732308631"
+        },
+        {
+          "row": 436,
+          "id": "518162bf828f083640596a80779730fb4840f00103f901996682320300000092030ec5bb6fc5826e6965727a6520414b",
+          "name": "Żołnierze AK",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/13732308633"
+        },
+        {
+          "row": 438,
+          "id": "51704c05cbc70836405992d2c7d7f9fa4840f00103f9019f37c5b500000000920325506f6d6e696b20437a796e752050617472696f7479637a6e65676f20412e442e2031393931",
+          "name": "Pomnik Czynu Patriotycznego A.D. 1991",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/3049600927"
+        },
+        {
+          "row": 440,
+          "id": "51863364e190ea35405988878b378dfd4840f00103f901f04e38b60000000092030d4a616e2050617765c582204949",
+          "name": "Jan Paweł II",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/3057143536"
+        },
+        {
+          "row": 442,
+          "id": "516592ec6c23f7354059a293a5d6fbfa4840f00102f901b826ce0b0000000092034050616d69c499636920506f6d6f72646f77616e7963682070727a657a204869746c65726f7763c3b37720437ac5826f6e6bc3b377205275636875204f706f7275",
+          "name": "Pamięci Pomordowanych przez Hitlerowców Członków Ruchu Oporu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/198059704"
+        },
+        {
+          "row": 446,
+          "id": "51005471e3160f364059fd2081f56e0f4940f00103f9016322532c0100000092030cc59b772e20466c6f7269616e",
+          "name": "św. Florian",
+          "city": "Jasionka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5038613091"
+        },
+        {
+          "row": 448,
+          "id": "510cba7317170f364059321a9e03700f4940f00103f9016422532c010000009203084772756e77616c64",
+          "name": "Grunwald",
+          "city": "Jasionka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5038613092"
+        },
+        {
+          "row": 452,
+          "id": "51a2c49dc195e435405917c2209f46fd4840f00103f901ed4e38b60000000092032a447775647a696573746f6c65636965204e6965706f646c6567c5826fc59b636920313931382d31393338",
+          "name": "Dwudziestolecie Niepodległości 1918-1938",
+          "city": "Mogielnica",
+          "sourceUrl": "https://www.openstreetmap.org/node/3057143533"
+        },
+        {
+          "row": 454,
+          "id": "51153eb6c0790e364059e8d3cf40d10f4940f00103f901fa22532c0100000092031046696775726120436872797374757361",
+          "name": "Figura Chrystusa",
+          "city": "Jasionka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5038613242"
+        },
+        {
+          "row": 456,
+          "id": "5164ada1d45e0e36405945402a6ad50f4940f00103f9016c22532c0100000092031241726368616e696fc582204d69636861c582",
+          "name": "Archanioł Michał",
+          "city": "Jasionka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5038613100"
+        },
+        {
+          "row": 458,
+          "id": "5126ac8db113dc3540595899df1fa5014940f00103f901f75cc7540200000092030e5461646575737a204e616c657061",
+          "name": "Tadeusz Nalepa",
+          "city": "Nosówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/10012286199"
+        },
+        {
+          "row": 460,
+          "id": "51b50fc358f0f835405984ea8b29fd104940f00103f9013c70dde30000000092031a5a62696f726f7761204d6f6769c5826120c5bb79646f77736b61",
+          "name": "Zbiorowa Mogiła Żydowska",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/3822940220"
+        },
+        {
+          "row": 462,
+          "id": "51380fcc762af93540592f50526001114940f00103f9013a70dde300000000920322506f6d696e6b2070616d69c499636920706f6c6567c58279636820c5bb7964c3b377",
+          "name": "Pomink pamięci poległych Żydów",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/3822940218"
+        },
+        {
+          "row": 465,
+          "id": "512eb022febcfa354059db32e02c25f84840f00103f901579651b30000000092030b3330306b6d206472c3b367",
+          "name": "300km dróg",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3008468567"
+        },
+        {
+          "row": 467,
+          "id": "5104c69f4db31936405971f1a611e9f94840f00103f901f0210ab600000000920336426f68617465726f6d20506f6c6567c582796d207a6120576f6c6e6fc59bc487207720526f637a6e6963c49920506f777374616e6961",
+          "name": "Bohaterom Poległym za Wolność w Rocznicę Powstania",
+          "city": "Borek Stary",
+          "sourceUrl": "https://www.openstreetmap.org/node/3054117360"
+        },
+        {
+          "row": 469,
+          "id": "51a78e70ec1b05364059cc0f423440f74840f00102f90129f5901100000000920314506f6d6e696b20c59b772e20466c6f7269616e61",
+          "name": "Pomnik św. Floriana",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/way/294712617"
+        },
+        {
+          "row": 471,
+          "id": "51a8aed74f5a2b3640599a95ed43de044940f00103f901e1902ad10000000092031c506f6d6e696b2043687761c58279204772756e77616c647a6b69656a",
+          "name": "Pomnik Chwały Grunwaldzkiej",
+          "city": "Kraczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/3509227745"
+        },
+        {
+          "row": 475,
+          "id": "51de4b2bcfcd1c364059f01989d0080f4940f00103f901f3419ac50200000092032c506f6d6e696b20706f6c6567c58279636820772049206920494920776f6a6e696520c59b776961746f77656a",
+          "name": "Pomnik poległych w I i II wojnie światowej",
+          "city": "Wólka Podleśna",
+          "sourceUrl": "https://www.openstreetmap.org/node/11905155571"
+        },
+        {
+          "row": 477,
+          "id": "512db6a4fed5f8354059c073942820124940f00103f901f3f3857d0200000092030d44c48562205061706965736b69",
+          "name": "Dąb Papieski",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/10695865331"
+        },
+        {
+          "row": 479,
+          "id": "51eb950dc6e311364059a68526e4de114940f00103f901c527532c01000000920309506f6c6567c582796d",
+          "name": "Poległym",
+          "city": "Stobierna",
+          "sourceUrl": "https://www.openstreetmap.org/node/5038614469"
+        },
+        {
+          "row": 481,
+          "id": "51d64114820bd635405991fea89729094940f00103f9014226b52401000000920326506f6d6e696b206b752070616d69c4996369206b732e2053746f6a61c5826f77736b6965676f",
+          "name": "Pomnik ku pamięci ks. Stojałowskiego",
+          "city": "Trzciana",
+          "sourceUrl": "https://www.openstreetmap.org/node/4910818882"
+        },
+        {
+          "row": 483,
+          "id": "51faa534513af33540598eb2d9eca3124940f00103f901bbd5169c000000009203104b727a79c5bc206e612067c3b3726365",
+          "name": "Krzyż na górce",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/2618742203"
+        },
+        {
+          "row": 485,
+          "id": "51450191346e1a36405957ddd90d91f84840f00103f901a15c58d7000000009203265a6120506f6c736bc4992c20576f6c6e6fc59bc4872c204c75642050617274797a616e746f6d",
+          "name": "Za Polskę, Wolność, Lud Partyzantom",
+          "city": "Borek Stary",
+          "sourceUrl": "https://www.openstreetmap.org/node/3612892321"
+        },
+        {
+          "row": 487,
+          "id": "51bb65e2b1fa2636405990604fe042fc4840f00103f901855c58d70000000092030d4b727a79c5bc2031393338722e",
+          "name": "Krzyż 1938r.",
+          "city": "Wola Rafałowska",
+          "sourceUrl": "https://www.openstreetmap.org/node/3612892293"
+        },
+        {
+          "row": 489,
+          "id": "518fceaf9c73f63540592fa8ca5246134940f00103f9015219c9de020000009203204b61706974616e204d6965637a7973c58261772047c5826f676f776965636b69",
+          "name": "Kapitan Mieczysław Głogowiecki",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/12327655762"
+        },
+        {
+          "row": 491,
+          "id": "5129de12ca0ced3540594f965aef37f74840f00103f901f89251b30000000092031a4d69656a7363652070616d69c4996369206e61726f646f77656a",
+          "name": "Miejsce pamięci narodowej",
+          "city": "Babica",
+          "sourceUrl": "https://www.openstreetmap.org/node/3008467704"
+        },
+        {
+          "row": 493,
+          "id": "516d90b3ea97f635405932fb0ee554134940f00102f901964c6b0d0000000092031a506f6d6e696b2057616c6b2069204dc499637a65c58473747761",
+          "name": "Pomnik Walk i Męczeństwa",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/way/225135766"
+        },
+        {
+          "row": 495,
+          "id": "51ae2017e64ef6354059a110018750134940f00103f901d3b80b580200000092032b4b616d6965c58420706fc59b7769c499636f6e79204a616e6f77692049494920536f626965736b69656d75",
+          "name": "Kamień poświęcony Janowi III Sobieskiemu",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/10067097811"
+        },
+        {
+          "row": 497,
+          "id": "51bfe2ba7372f6354059bf4692205c134940f00103f9015319c9de02000000920349467261676d656e7420616b74752066756e646163796a6e65676f204b727a79737a746f66612047c5826f7779207a20646e6961203233206b776965746e6961203135373020726f6b75",
+          "name": "Fragment aktu fundacyjnego Krzysztofa Głowy z dnia 23 kwietnia 1570 roku",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/12327655763"
+        },
+        {
+          "row": 499,
+          "id": "51d881734694f63540590aa41f6860134940f00103f9017bacfdbf000000009203214d61746b6120426fc5bc61204e6965706f6b616c616e696520506f637ac4997461",
+          "name": "Matka Boża Niepokalanie Poczęta",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/3221073019"
+        },
+        {
+          "row": 501,
+          "id": "51cc24ea059ff4354059f5786baa38134940f00103f90177a6eea10200000092031e506f6d6e696b20706f6c6567c582796368207a61204f6a637a797a6ec499",
+          "name": "Pomnik poległych za Ojczyznę",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/11306706551"
+        },
+        {
+          "row": 503,
+          "id": "51ba69334e43f6354059e16c29d65f134940f00103f9017cacfdbf0000000092031a506f6d6e696b20c59a7769c4997465676f20466c6f7269616e61",
+          "name": "Pomnik Świętego Floriana",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/3221073020"
+        },
+        {
+          "row": 505,
+          "id": "5190e5b24c92f6354059d34b913c6a134940f00102f901b70aa20f00000000920315506f6d6e696b204a616e6120506177c58261204949",
+          "name": "Pomnik Jana Pawła II",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/way/262277815"
+        },
+        {
+          "row": 507,
+          "id": "51aab129fcbef635405967d47c957c134940f00103f901aeabbf8b02000000920319506f6d6e696b204d616b73796d696c69616e61204b6f6c6265",
+          "name": "Pomnik Maksymiliana Kolbe",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/10934528942"
+        },
+        {
+          "row": 509,
+          "id": "51c8ae965503f63540590cbacfc890134940f00102f901ce32a40f00000000920327506f6d6e696b204b617264796e61c582612053746566616e61205779737a79c584736b6965676f",
+          "name": "Pomnik Kardynała Stefana Wyszyńskiego",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/way/262419150"
+        },
+        {
+          "row": 511,
+          "id": "51a9c9422a7bf535405943e8fb04ab134940f00103f901063d065802000000920318506f6d6e696b204b727a79737a746f66612047c5826f7779",
+          "name": "Pomnik Krzysztofa Głowy",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/10066738438"
+        },
+        {
+          "row": 513,
+          "id": "516555849b8cf43540592df41ceca8134940f00103f9010429b47c02000000920312416c656b73616e64657220c58161646fc59b",
+          "name": "Aleksander Ładoś",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/10682116356"
+        },
+        {
+          "row": 521,
+          "id": "519494aaa399cf354059931ada006cfd4840f00103f9011ce2fedc0000000092031f57796d6f72646f77616e796d2070727a657a206869746c65726f7763c3b377",
+          "name": "Wymordowanym przez hitlerowców",
+          "city": "Czudec",
+          "sourceUrl": "https://www.openstreetmap.org/node/3707691548"
+        },
+        {
+          "row": 525,
+          "id": "51c4c25ac697d6354059d7d4c3e116f94840f00103f901dbb9fee6020000009203293130302e20726f637a6e696361206f647a79736b616e6961206e6965706f646c6567c5826fc59b6369",
+          "name": "100. rocznica odzyskania niepodległości",
+          "city": "Czudec",
+          "sourceUrl": "https://www.openstreetmap.org/node/12465387995"
+        },
+        {
+          "row": 529,
+          "id": "51a79ab40474d6354059d5f3249f0df94840f00103f901f0b178a90200000092030d4a616e2050617765c582204949",
+          "name": "Jan Paweł II",
+          "city": "Czudec",
+          "sourceUrl": "https://www.openstreetmap.org/node/11433193968"
+        },
+        {
+          "row": 531,
+          "id": "511e83baede7d5354059da907f6610f94840f00103f9019a1bffe6020000009203124a65727a7920506f706965c58275737a6b6f",
+          "name": "Jerzy Popiełuszko",
+          "city": "Czudec",
+          "sourceUrl": "https://www.openstreetmap.org/node/12465413018"
+        },
+        {
+          "row": 533,
+          "id": "519d2919a5f0d53540591d3059260df94840f00103f901991bffe602000000920312566f74756d204a7562696c6575737a6f7765",
+          "name": "Votum Jubileuszowe",
+          "city": "Czudec",
+          "sourceUrl": "https://www.openstreetmap.org/node/12465413017"
+        },
+        {
+          "row": 535,
+          "id": "51964c0460f2f3354059207fc40a12f34840f00103f901811e19b100000000920312486fc5826420506f6d6f72646f77616e796d",
+          "name": "Hołd Pomordowanym",
+          "city": "Sołonka",
+          "sourceUrl": "https://www.openstreetmap.org/node/2971213441"
+        },
+        {
+          "row": 539,
+          "id": "51a8bbfc9820c8354059cc63cdc820074940f00103f9015b7b3694010000009203104b727a79c5bc206d696c656e696a6e79",
+          "name": "Krzyż milenijny",
+          "city": "Będziemyśl",
+          "sourceUrl": "https://www.openstreetmap.org/node/6781565787"
+        },
+        {
+          "row": 541,
+          "id": "5149e6a26b702236405918fc47f0d0134940f00103f90194aac90c0100000092033f506f6d6e696b20506f6d6f72646f77616e796368204d6965737a6b61c58463c3b377207720637a6173696520494920576f6a6e7920c59a776961746f77656a",
+          "name": "Pomnik Pomordowanych Mieszkańców w czasie II Wojny Światowej",
+          "city": "Medynia Głogowska",
+          "sourceUrl": "https://www.openstreetmap.org/node/4509510292"
+        },
+        {
+          "row": 543,
+          "id": "51867071f9b439364059f0de516342094940f00103f9015982e1880100000092031445677a656b75636a612035204949492031393434",
+          "name": "Egzekucja 5 III 1944",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/6591447641"
+        },
+        {
+          "row": 545,
+          "id": "51b63412fcca3a3640596fc218ece1074940f00103f901310cd37900000000920317506f6d6e696b206f6669617220486f6c6f6b6175737475",
+          "name": "Pomnik ofiar Holokaustu",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/2043874353"
+        },
+        {
+          "row": 547,
+          "id": "517a68c471853a3640590ba30f4c24094940f00103f901f5f1a7ca020000009203304b616d6965c584207570616d69c499746e69616ac4856379206c6970c499206b72c3b36c61204a61676965c582c58279",
+          "name": "Kamień upamiętniający lipę króla Jagiełły",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/11989938677"
+        },
+        {
+          "row": 554,
+          "id": "51ee87e98c393b3640594affdce1c0084940f00103f9011179d1320300000092030f4a6f736970204a656c61c48d69c487",
+          "name": "Josip Jelačić",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13737490705"
+        },
+        {
+          "row": 556,
+          "id": "51c9a596523c3b3640592c56c334c2084940f00103f901a084590c0300000092031b3130205075c5826b205374727a656c63c3b377204b6f6e6e796368",
+          "name": "10 Pułk Strzelców Konnych",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13092095136"
+        },
+        {
+          "row": 560,
+          "id": "5136559c0f74393640593d32b15472fe4840f00103f9019859209a000000009203084772756e77616c64",
+          "name": "Grunwald",
+          "city": "Handzlówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/2585811352"
+        },
+        {
+          "row": 562,
+          "id": "5100b33165963b3640592e8782be99084940f00103f9015257cb320300000092031557696573c5826177204b726177637a79c584736b69",
+          "name": "Wiesław Krawczyński",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13737088850"
+        },
+        {
+          "row": 564,
+          "id": "513704221f4fc435405901c9cfa167034940f00103f901983ef6e001000000920319506f6d6e696b20437a796e75204368c5826f70736b6965676f",
+          "name": "Pomnik Czynu Chłopskiego",
+          "city": "Będziemyśl",
+          "sourceUrl": "https://www.openstreetmap.org/node/8069201560"
+        },
+        {
+          "row": 566,
+          "id": "514b4b9b60ee29364059f86bb2463df64840f00103f901aebab09302000000920324506f6d6e696b2067656e2e2057c58261647973c5826177612053696b6f72736b6965676f",
+          "name": "Pomnik gen. Władysława Sikorskiego",
+          "city": "Hyżne",
+          "sourceUrl": "https://www.openstreetmap.org/node/11067767470"
+        },
+        {
+          "row": 568,
+          "id": "5125027a86153d36405969f2de628f084940f00103f901ce35d0320300000092031154656f646f72204c65737a657479636b69",
+          "name": "Teodor Leszetycki",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13737407950"
+        },
+        {
+          "row": 570,
+          "id": "515cea7b687af2354059a95b87b4d7174940f00103f901a8a24cb50200000092032d5461626c6963612070616d69c4996369206f6669617220746572726f7275206869746c65726f77736b6965676f",
+          "name": "Tablica pamięci ofiar terroru hitlerowskiego",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/11631633064"
+        },
+        {
+          "row": 572,
+          "id": "51a906abfb11c6354059d8f0f44a59fc4840f00103f9012fe2c2db00000000920318486973746f7279637a6e61206772616e69636120676d696e",
+          "name": "Historyczna granica gmin",
+          "city": "Czudec",
+          "sourceUrl": "https://www.openstreetmap.org/node/3686982191"
+        },
+        {
+          "row": 574,
+          "id": "51560e2db29d3f364059eb6e43311e0a4940f00103f901712af680000000009203124b727a79c5bc20c5bc6fc5826e6965727a61",
+          "name": "Krzyż żołnierza",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/2163616369"
+        },
+        {
+          "row": 576,
+          "id": "519de05119b519364059b02d4d5b6df14840f00103f901702c59b000000000920318506f6d6e696b206b732e2041646f6c6661204b6f77616c61",
+          "name": "Pomnik ks. Adolfa Kowala",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/2958634096"
+        },
+        {
+          "row": 578,
+          "id": "519fecc1ffb119364059c2d375f233f14840f00103f9016f2c59b000000000920325506f6d6e696b206b72c3b36c612057c58261647973c582617761204a61676965c582c58279",
+          "name": "Pomnik króla Władysława Jagiełły",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/2958634095"
+        },
+        {
+          "row": 580,
+          "id": "514a5b012ac119364059bb4f447529f14840f00103f9016e2c59b0000000009203104b727a79c5bc204d696c656e696a6e79",
+          "name": "Krzyż Milenijny",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/2958634094"
+        },
+        {
+          "row": 584,
+          "id": "5161904f2388ba35405956a98f7692064940f00103f901e7b66f800200000092032746696775726120c59b772e204a616e61204e65706f6d7563656e61207a203138383320726f6b75",
+          "name": "Figura św. Jana Nepomucena z 1883 roku",
+          "city": "Sielec",
+          "sourceUrl": "https://www.openstreetmap.org/node/10744739559"
+        },
+        {
+          "row": 586,
+          "id": "51781f91007f16364059cf0ab19f6a1a4940f00103f9011e233ddc020000009203394d69656a7363652050616d69c4996369202d204d69656a736365206279c58265676f206f626f7a75204e4b574420772054727a656275736365",
+          "name": "Miejsce Pamięci - Miejsce byłego obozu NKWD w Trzebusce",
+          "city": "Nienadówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/12284928798"
+        },
+        {
+          "row": 588,
+          "id": "5121fd9bbc6d1936405993dad5f555ef4840f00103f90107702efe010000009203354b61706c69637a6b612070727a7964726fc5bc6e61207a206b727a79c5bc656d2c20726f6b2066756e646f77616e69612031393130",
+          "name": "Kapliczka przydrożna z krzyżem, rok fundowania 1910",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/8559423495"
+        },
+        {
+          "row": 590,
+          "id": "51ab3a504c8311364059b08cb2237aee4840f00103f90158e654dd0000000092030d537461747561204a657a757361",
+          "name": "Statua Jezusa",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/3713328728"
+        },
+        {
+          "row": 592,
+          "id": "511da0450081b8354059055262d7f6044940f00103f901a59ab793010000009203104b727a79c5bc206d696c656e696a6e79",
+          "name": "Krzyż milenijny",
+          "city": "Sielec",
+          "sourceUrl": "https://www.openstreetmap.org/node/6773250725"
+        },
+        {
+          "row": 593,
+          "id": "51c5877e1244e23540590e805df2e4194940f00103f901e803a8d302000000920321557374616e69652070616e64656d6969206869737a70616e6b6920772031393230",
+          "name": "Ustanie pandemii hiszpanki w 1920",
+          "city": "Widełka",
+          "sourceUrl": "https://www.openstreetmap.org/node/12140938216"
+        },
+        {
+          "row": 594,
+          "id": "512a317491e73136405903ca4ba36ef34840f00103f90120b99d080100000092030a4e612064727a65776965",
+          "name": "Na drzewie",
+          "city": "Dylągówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/4439521568"
+        },
+        {
+          "row": 595,
+          "id": "5189c047b368b83540591faf5120fd094940f00103f9012f95049401000000920310506f6d6e696b204772756e77616c6475",
+          "name": "Pomnik Grunwaldu",
+          "city": "Sędziszów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/6778295599"
+        },
+        {
+          "row": 596,
+          "id": "51e78d93c2bc0f3640598e00135dbc1c4940f00103f9012f98039f010000009203124b727a79c5bc2070727a7964726fc5bc6e79",
+          "name": "Krzyż przydrożny",
+          "city": "Trzebuska",
+          "sourceUrl": "https://www.openstreetmap.org/node/6962780207"
+        },
+        {
+          "row": 597,
+          "id": "515c97755a12e7354059bfc062c389ed4840f00103f901a0f413cc000000009203186b732e204a65727a65676f20506f706965c58275737a6b69",
+          "name": "ks. Jerzego Popiełuszki",
+          "city": "Niebylec",
+          "sourceUrl": "https://www.openstreetmap.org/node/3423859872"
+        },
+        {
+          "row": 598,
+          "id": "513d6cd8a5fce63540596aef9de282ed4840f00103f901962414cc0000000092030dc59a772e20466c6f7269616e61",
+          "name": "Św. Floriana",
+          "city": "Niebylec",
+          "sourceUrl": "https://www.openstreetmap.org/node/3423872150"
+        },
+        {
+          "row": 599,
+          "id": "5150e7e50bb5133640594af7297dd71c4940f00103f901f27cc08e02000000920329506f6d6e696b2050616d69c4996369204f6669617220546572726f727520536f776965636b6965676f",
+          "name": "Pomnik Pamięci Ofiar Terroru Sowieckiego",
+          "city": "Sokołów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/10984914162"
+        },
+        {
+          "row": 600,
+          "id": "5113e6875b4fb4354059267e7b8d13094940f00103f901f60dfa94020000009203166b732e205374616e6973c5826177204d616369c48567",
+          "name": "ks. Stanisław Maciąg",
+          "city": "Sędziszów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/11089350134"
+        }
+      ],
+      "concern": "199 wpisów nie powinno automatycznie dominować planów; ustalić rolę tablic i drobnych upamiętnień.",
+      "decision": null
+    },
+    {
+      "code": "G2",
+      "records": [
+        {
+          "row": 16,
+          "id": "51d60e35c0bbd73540591bd24d0757fc4840f00103f9012396e0db0000000092030a4b727a656d696f6e6b61",
+          "name": "Krzemionka",
+          "city": "Niechobrz",
+          "sourceUrl": "https://www.openstreetmap.org/node/3688928803"
+        },
+        {
+          "row": 28,
+          "id": "51d5480158d3c1354059cc5367ff4dfc4840f00103f9012b96e0db0000000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Wola Zgłobieńska",
+          "sourceUrl": "https://www.openstreetmap.org/node/3688928811"
+        },
+        {
+          "row": 63,
+          "id": "51f415496018053640590ebe30992a064940f00103f9014ee676a10000000092031d4b6f70696563204b6f6e66656465726174c3b37720426172736b696368",
+          "name": "Kopiec Konfederatów Barskich",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2708923982"
+        },
+        {
+          "row": 131,
+          "id": "51905841c2e6063640599c0e098442ff4840f00103f901744925390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712244"
+        },
+        {
+          "row": 135,
+          "id": "51efcbf4a67d0e36405970ca81c3b0004940f00103f9011dc72bf80000000092030f577a67c3b3727a65204d6174797361",
+          "name": "Wzgórze Matysa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/4163618589"
+        },
+        {
+          "row": 139,
+          "id": "51e014562aa8ec354059ddc36f54b8034940f00103f901a6a7aa38010000009203064b6f70696563",
+          "name": "Kopiec",
+          "city": "Kielanówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675430"
+        },
+        {
+          "row": 147,
+          "id": "51093d51c88418364059ecdb4944f8054940f00103f9019c4925390100000092030750617472796a61",
+          "name": "Patryja",
+          "city": "gmina Krasne",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712284"
+        },
+        {
+          "row": 159,
+          "id": "51365f80d82d1d36405916e2ec31ec054940f00103f901808a9638010000009203084b616d696f6e6b61",
+          "name": "Kamionka",
+          "city": "gmina Krasne",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357248"
+        },
+        {
+          "row": 167,
+          "id": "516eda311a9e1f36405909d748b7ca014940f00103f9017f3a5ad20100000092030f4d61726961204d616764616c656e61",
+          "name": "Maria Magdalena",
+          "city": "gmina Krasne",
+          "sourceUrl": "https://www.openstreetmap.org/node/7824095871"
+        },
+        {
+          "row": 178,
+          "id": "51160a229c60153640595f5caad216fa4840f00103f901b78a96380100000092030b4a61736e612047c3b37261",
+          "name": "Jasna Góra",
+          "city": "Borek Stary",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357303"
+        },
+        {
+          "row": 181,
+          "id": "51505436aca9283640598cdb68006f054940f00103f901828a9638010000009203084b616d696f6e6b61",
+          "name": "Kamionka",
+          "city": "Kraczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357250"
+        },
+        {
+          "row": 184,
+          "id": "5118fa168c000d364059804a95287bf84840f00103f901b88a96380100000092030744616c6e696361",
+          "name": "Dalnica",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357304"
+        },
+        {
+          "row": 187,
+          "id": "511a5822abb62a3640592f66f09cd2024940f00103f901848a96380100000092030b5a696d6e612047c3b37261",
+          "name": "Zimna Góra",
+          "city": "Kraczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357252"
+        },
+        {
+          "row": 190,
+          "id": "5188765fdf982d364059bfcaebd2d0054940f00103f901818a96380100000092030750617472796a61",
+          "name": "Patryja",
+          "city": "Kraczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357249"
+        },
+        {
+          "row": 193,
+          "id": "51c96bcaba24db35405906c2a96addfc4840f00103f901c08a963801000000920306447a6961c582",
+          "name": "Dział",
+          "city": "Niechobrz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357312"
+        },
+        {
+          "row": 196,
+          "id": "516bf4c53945f83540591d9a6846f5f54840f00103f901b98a963801000000920303437970",
+          "name": "Cyp",
+          "city": "Lubenia",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357305"
+        },
+        {
+          "row": 199,
+          "id": "51834cd7b8a3d4354059ee409df2e8ff4840f00103f901c18a96380100000092030b446572656e69c3b3776b61",
+          "name": "Dereniówka",
+          "city": "Zgłobień",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357313"
+        },
+        {
+          "row": 208,
+          "id": "51555689682ad63540590a3dac81f7fd4840f00103f9012296e0db0000000092030b42616269612047c3b37261",
+          "name": "Babia Góra",
+          "city": "Zgłobień",
+          "sourceUrl": "https://www.openstreetmap.org/node/3688928802"
+        },
+        {
+          "row": 217,
+          "id": "513d4e8704421d3640594fd257eb1ff84840f00103f901ad8a96380100000092030d537a6b6c616e612047c3b37261",
+          "name": "Szklana Góra",
+          "city": "Borek Stary",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357293"
+        },
+        {
+          "row": 223,
+          "id": "51c449f5f81817364059f585ebac71f64840f00103f901a78a9638010000009203084b6f7a696e696563",
+          "name": "Koziniec",
+          "city": "Nowy Borek",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357287"
+        },
+        {
+          "row": 229,
+          "id": "511b4ef454e2353640593460353bf7ff4840f00103f901858a963801000000920306447a6961c582",
+          "name": "Dział",
+          "city": "Handzlówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357253"
+        },
+        {
+          "row": 232,
+          "id": "515f73582b2414364059d6e0229cbbf34840f00103f901a68a96380100000092030d537a616c6f77652047c3b37279",
+          "name": "Szalowe Góry",
+          "city": "Błażowa Dolna",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357286"
+        },
+        {
+          "row": 235,
+          "id": "518ad2399a7e283640595e23939dc8f74840f00103f901ac8a9638010000009203084b616d696f6e6b69",
+          "name": "Kamionki",
+          "city": "Hyżne",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357292"
+        },
+        {
+          "row": 238,
+          "id": "513b25d698c62d364059f894528660f94840f00103f9017c9baa38010000009203094b616d69656e696563",
+          "name": "Kamieniec",
+          "city": "Błędowa Tyczyńska",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245672316"
+        },
+        {
+          "row": 244,
+          "id": "518b016d0613ea354059a54dd53db2f34840f00103f901a08b9638010000009203085374617769736b61",
+          "name": "Stawiska",
+          "city": "Połomia",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357536"
+        },
+        {
+          "row": 247,
+          "id": "5125e2523afd29364059fddd3b6a4cf74840f00103f901ab8a9638010000009203064b6f70696563",
+          "name": "Kopiec",
+          "city": "Hyżne",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357291"
+        },
+        {
+          "row": 250,
+          "id": "5163fcea60b31c3640591f33abd271154940f00103f901754925390100000092030d4a61c5ba7769612047c3b37261",
+          "name": "Jaźwia Góra",
+          "city": "Pogwizdów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712245"
+        },
+        {
+          "row": 256,
+          "id": "5139f81d1e1dd6354059946c753925f74840f00103f901938b96380100000092030d47c3b37261205a616d6b6f7761",
+          "name": "Góra Zamkowa",
+          "city": "Przedmieście Czudeckie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357523"
+        },
+        {
+          "row": 262,
+          "id": "51e311818f6639364059cc666902a0fd4840f00103f901898a96380100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Handzlówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357257"
+        },
+        {
+          "row": 268,
+          "id": "51c50666e0dbfd3540595ecaafd5d4f04840f00103f9012ffe1bbb0000000092030c5a696d6e7920447a6961c582",
+          "name": "Zimny Dział",
+          "city": "Straszydle",
+          "sourceUrl": "https://www.openstreetmap.org/node/3139173935"
+        },
+        {
+          "row": 271,
+          "id": "51eb2a93d04c3436405966c28aae66104940f00103f9019b4925390100000092030c57696c637a612047c3b37261",
+          "name": "Wilcza Góra",
+          "city": "Czarna",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712283"
+        },
+        {
+          "row": 274,
+          "id": "510ffa884e85da354059ce177b2fbe144940f00103f90164d6e290000000009203114a617374727ac4996269612047c3b37261",
+          "name": "Jastrzębia Góra",
+          "city": "Poręby Kupieńskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/2430785124"
+        },
+        {
+          "row": 277,
+          "id": "51cc5b1a64370636405937925f9a7df04840f00103f90157a7aa38010000009203084265726465636861",
+          "name": "Berdecha",
+          "city": "Lecka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675351"
+        },
+        {
+          "row": 280,
+          "id": "515839b4c87626364059a163acdb45f44840f00103f901aa8a9638010000009203084369656d6e696361",
+          "name": "Ciemnica",
+          "city": "Hyżne",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357290"
+        },
+        {
+          "row": 283,
+          "id": "5116cdb9cac9c0354059cd9ebaa8cc044940f00103f901b0a7aa3801000000920306436865c5826d",
+          "name": "Chełm",
+          "city": "Iwierzyce",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675440"
+        },
+        {
+          "row": 286,
+          "id": "5157f20c75b31a364059f73c7fdaa8174940f00103f901764925390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Nienadówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712246"
+        },
+        {
+          "row": 289,
+          "id": "51d878fa5289c635405994b1eb2818fc4840f00103f90129a8aa380100000092030d5769656c6b6920447a6961c582",
+          "name": "Wielki Dział",
+          "city": "Przedmieście Czudeckie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675561"
+        },
+        {
+          "row": 295,
+          "id": "51b95b48765b403640598fbeee192efe4840f00103f9018a8a96380100000092030750617472796a61",
+          "name": "Patryja",
+          "city": "Husów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357258"
+        },
+        {
+          "row": 298,
+          "id": "5181eb8a19e11b364059150f39c7caf04840f00103f90157dbac3801000000920306447a6961c582",
+          "name": "Dział",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245819735"
+        },
+        {
+          "row": 302,
+          "id": "5154347b455c03364059e2f7808af4ee4840f00103f90156a7aa380100000092030ec59a7265646e6920447a6961c582",
+          "name": "Średni Dział",
+          "city": "Lecka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675350"
+        },
+        {
+          "row": 305,
+          "id": "51292504abeac3354059fcc2d08f2bfb4840f00103f90128a8aa3801000000920307447a6961c58279",
+          "name": "Działy",
+          "city": "Pstrągowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675560"
+        },
+        {
+          "row": 308,
+          "id": "511f08da2e7e1a36405904fe953a6df04840f00103f90158dbac380100000092030b4279637a612047c3b37261",
+          "name": "Bycza Góra",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245819736"
+        },
+        {
+          "row": 311,
+          "id": "51dfb18e99fad535405970f0e082c7154940f00103f901734925390100000092030d5a7562726f77612047c3b37261",
+          "name": "Zubrowa Góra",
+          "city": "Poręby Kupieńskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712243"
+        },
+        {
+          "row": 314,
+          "id": "51c6562b6e37223640597db328475cf14840f00103f90159dbac380100000092030e4369736f77696563204475c5bc79",
+          "name": "Cisowiec Duży",
+          "city": "Piątkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245819737"
+        },
+        {
+          "row": 317,
+          "id": "51d5264eee7724364059b0c33d3b85f14840f00103f9014fdbac38010000009203065a6170616479",
+          "name": "Zapady",
+          "city": "Piątkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245819727"
+        },
+        {
+          "row": 320,
+          "id": "51ddb6ef517f2b364059e09b4b169c164940f00103f9017b4925390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Trzeboś",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712251"
+        },
+        {
+          "row": 323,
+          "id": "51ac81f79f463b364059faa0c26c5d114940f00103f9019a4925390100000092030b4c697369612047c3b37261",
+          "name": "Lisia Góra",
+          "city": "Dąbrówki",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712282"
+        },
+        {
+          "row": 326,
+          "id": "51ea735a5c8826364059984572439df14840f00103f90152dbac380100000092030647c3b3726b69",
+          "name": "Górki",
+          "city": "Piątkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245819730"
+        },
+        {
+          "row": 329,
+          "id": "515c887a66ee28364059607e5d3c72174940f00103f9017a4925390100000092030b4d61c582612047c3b37261",
+          "name": "Mała Góra",
+          "city": "Trzeboś",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712250"
+        },
+        {
+          "row": 332,
+          "id": "51f78370bb86453640593bc6151747ff4840f00103f901868a9638010000009203084b616d696f6e6b61",
+          "name": "Kamionka",
+          "city": "Husów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357254"
+        },
+        {
+          "row": 335,
+          "id": "5156a7b9cb34c03540593d0d18247dfb4840f00103f901caa7aa380100000092030643796b75c582",
+          "name": "Cykuł",
+          "city": "Pstrągowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675466"
+        },
+        {
+          "row": 338,
+          "id": "5104e04499b228364059999cda19a6f14840f00103f901c1deac380100000092030c5779736f6b612047c3b37261",
+          "name": "Wysoka Góra",
+          "city": "Piątkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820609"
+        },
+        {
+          "row": 341,
+          "id": "515072874d64483640592a73f38de8064940f00103f9019e4925390100000092030d426172616e69612047c3b37261",
+          "name": "Barania Góra",
+          "city": "Sonina",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712286"
+        },
+        {
+          "row": 344,
+          "id": "51e03ce64d8fe335405964d1cf2fa5ef4840f00103f9019a8b96380100000092030cc5bb616269612047c3b37261",
+          "name": "Żabia Góra",
+          "city": "Gwoździanka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357530"
+        },
+        {
+          "row": 347,
+          "id": "517a4db450d7c1354059b9de365321f94840f00103f901cba7aa38010000009203094265746bc3b3776b69",
+          "name": "Betkówki",
+          "city": "Pstrągowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675467"
+        },
+        {
+          "row": 350,
+          "id": "517eb559ab2c423640594d08670124fa4840f00103f9018f8a963801000000920307447a6961c58279",
+          "name": "Działy",
+          "city": "Tarnawka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357263"
+        },
+        {
+          "row": 353,
+          "id": "510fbd207dee45364059f965d58cb1fc4840f00103f9018e8a96380100000092030d42696564726f6e69c3b3776b61",
+          "name": "Biedroniówka",
+          "city": "Husów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357262"
+        },
+        {
+          "row": 356,
+          "id": "51902c054944b73540591e28017b96064940f00103f90194a7aa380100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Sędziszów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675412"
+        },
+        {
+          "row": 358,
+          "id": "517189c855d1f83540599800570d1ded4840f00103f90158a7aa380100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Gwoźnica Górna",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675352"
+        },
+        {
+          "row": 361,
+          "id": "512674f27dccc8354059f16cea97e3144940f00103f9016f4925390100000092030f537a6577736b692053746fc582656b",
+          "name": "Szewski Stołek",
+          "city": "Czarna Sędziszowska",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712239"
+        },
+        {
+          "row": 364,
+          "id": "5172906b9e7e2f364059490f43ab93f14840f00103f901b7ef9a5a01000000920308437a6162616a6b61",
+          "name": "Czabajka",
+          "city": "Harta",
+          "sourceUrl": "https://www.openstreetmap.org/node/5815070647"
+        },
+        {
+          "row": 367,
+          "id": "51bfc3a34396db354059f77bbd569def4840f00103f901998b9638010000009203084b6f70616c696e61",
+          "name": "Kopalina",
+          "city": "Żarnowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357529"
+        },
+        {
+          "row": 370,
+          "id": "5155021885131d364059c31e245525ee4840f00103f9019bdeac38010000009203094b616d69656e696563",
+          "name": "Kamieniec",
+          "city": "Futoma",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820571"
+        },
+        {
+          "row": 373,
+          "id": "51df58abd10639364059bbfc3d67c1f34840f00103f901a58a96380100000092030f506f642050727a796c61736b69656d",
+          "name": "Pod Przylaskiem",
+          "city": "Dylągówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357285"
+        },
+        {
+          "row": 376,
+          "id": "5107e7f80db84b36405957659588a6fe4840f00103f9017f8a96380100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Husów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357247"
+        },
+        {
+          "row": 379,
+          "id": "5181a90b1de04e364059cfb7aa9102084940f00103f9017315c6b8000000009203084c6f746e69736b6f",
+          "name": "Lotnisko",
+          "city": "Kosina",
+          "sourceUrl": "https://www.openstreetmap.org/node/3099989363"
+        },
+        {
+          "row": 382,
+          "id": "516ad729fb5337364059385618117bf24840f00103f901a98a96380100000092030b4f737472612047c3b37261",
+          "name": "Ostra Góra",
+          "city": "Dylągówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357289"
+        },
+        {
+          "row": 387,
+          "id": "51513239b533c4354059745bc75d29154940f00103f9016e4925390100000092030e437a75626174612047c3b3726b61",
+          "name": "Czubata Górka",
+          "city": "Czarna Sędziszowska",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712238"
+        },
+        {
+          "row": 390,
+          "id": "51102a2790c8b935405995a8cdee7ff94840f00103f901c9a7aa380100000092030b57796368796cc3b3776b61",
+          "name": "Wychylówka",
+          "city": "Pstrągowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675465"
+        },
+        {
+          "row": 398,
+          "id": "5191bccee1b54a364059ad951aeb2cfa4840f00103f901908a96380100000092030750617472796a61",
+          "name": "Patryja",
+          "city": "Tarnawka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357264"
+        },
+        {
+          "row": 401,
+          "id": "51ebf93f2c4050364059a1f07e81c5ff4840f00103f9017d8a9638010000009203074d6f6769c58261",
+          "name": "Mogiła",
+          "city": "Markowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357245"
+        },
+        {
+          "row": 404,
+          "id": "5149b9a063ac37364059dac69fa86cf14840f00103f901a88a96380100000092030d5769656c6b6920447a6961c582",
+          "name": "Wielki Dział",
+          "city": "Szklary",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357288"
+        },
+        {
+          "row": 407,
+          "id": "51421b255415b3354059f4fc69a33afd4840f00103f901c6a7aa380100000092030653c499706961",
+          "name": "Sępia",
+          "city": "Bystrzyca",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675462"
+        },
+        {
+          "row": 410,
+          "id": "511bdd9ca5bf42364059c759226129f54840f00103f901a48a96380100000092030a4f737472792053746f6b",
+          "name": "Ostry Stok",
+          "city": "Hadle Szklarskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357284"
+        },
+        {
+          "row": 413,
+          "id": "5149b9a063acf135405973c982d3ccea4840f00103f90150a7aa380100000092030b4275637a6b6f77736b6965",
+          "name": "Buczkowskie",
+          "city": "Konieczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675344"
+        },
+        {
+          "row": 416,
+          "id": "51c166ca98cc2836405948a7ae7c96ed4840f00103f9019ddeac38010000009203094b616d69656e696361",
+          "name": "Kamienica",
+          "city": "Futoma",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820573"
+        },
+        {
+          "row": 419,
+          "id": "5156bd570806cf354059d700005bb9ef4840f00103f90130a8aa380100000092031047c3b3726120c5bb61726e6f77736b61",
+          "name": "Góra Żarnowska",
+          "city": "Strzyżów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675568"
+        },
+        {
+          "row": 422,
+          "id": "51d9a4ec3e11fd35405991836d1f4dea4840f00103f9013ba7aa380100000092030e4b6f7ac5826f77612047c3b37261",
+          "name": "Kozłowa Góra",
+          "city": "Gwoźnica Górna",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675323"
+        },
+        {
+          "row": 425,
+          "id": "51c7bab88d0652364059a19c0d9eaeff4840f00103f9017e8a96380100000092030c5370616c6f6e612042616261",
+          "name": "Spalona Baba",
+          "city": "Lipnik",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357246"
+        },
+        {
+          "row": 428,
+          "id": "51d204e511370c364059f9c0e9b875ea4840f00103f90180deac380100000092030b4b6f7a69612047c3b37261",
+          "name": "Kozia Góra",
+          "city": "Kąkolówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820544"
+        },
+        {
+          "row": 431,
+          "id": "51bf4c6fdae710364059820e04125eea4840f00103f9017fdeac380100000092030e4b616d69656e6e612047c3b37261",
+          "name": "Kamienna Góra",
+          "city": "Kąkolówka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820543"
+        },
+        {
+          "row": 434,
+          "id": "51ffd9458776c435405984e85ac52cf24840f00103f9012fa8aa380100000092031047c3b3726120426961c582c3b3776b61",
+          "name": "Góra Białówka",
+          "city": "Tropie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675567"
+        },
+        {
+          "row": 437,
+          "id": "517dc7951f5db3354059f9dc09f65ffa4840f00103f901c8a7aa38010000009203084bc582617061637a",
+          "name": "Kłapacz",
+          "city": "Pstrągowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675464"
+        },
+        {
+          "row": 439,
+          "id": "514667f4fe9a55364059e4912eec1f044940f00103f9017b8a96380100000092030647c3b3726b69",
+          "name": "Górki",
+          "city": "Markowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357243"
+        },
+        {
+          "row": 441,
+          "id": "517d1dddadd1e9354059103a8d599bea4840f00103f9014ea7aa3801000000920306447a6961c582",
+          "name": "Dział",
+          "city": "Konieczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675342"
+        },
+        {
+          "row": 443,
+          "id": "519fa5756561ed3540598bfcfa2136ea4840f00103f9014fa7aa380100000092030742756c636f7761",
+          "name": "Bulcowa",
+          "city": "Konieczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675343"
+        },
+        {
+          "row": 445,
+          "id": "516666666666c6354059a128756e7f184940f00103f901736965b30000000092030a5a616772616e69637a65",
+          "name": "Zagranicze",
+          "city": "Domatków",
+          "sourceUrl": "https://www.openstreetmap.org/node/3009767795"
+        },
+        {
+          "row": 447,
+          "id": "51b2fe85d4a301364059c295fd0461e94840f00103f9013addac38010000009203054a616d6e65",
+          "name": "Jamne",
+          "city": "Gwoźnica Górna",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820218"
+        },
+        {
+          "row": 449,
+          "id": "519d35d3180831364059ed80eb8a19ee4840f00103f90107d5ac38010000009203085374617769736b61",
+          "name": "Stawiska",
+          "city": "Harta",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245818119"
+        },
+        {
+          "row": 451,
+          "id": "51c36c5dc53ddb3540596f3205c6551d4940f00103f9015c4925390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Werynia",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712220"
+        },
+        {
+          "row": 453,
+          "id": "51c8c8fe1e610b3640596ea5d76663e94840f00103f90172deac380100000092030b5374616e6369c3b3776b61",
+          "name": "Stanciówka",
+          "city": "Barycz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820530"
+        },
+        {
+          "row": 455,
+          "id": "51f7425c94343e364059fa97497952f14840f00103f901dc085b8d0200000092030f537a6b6c6172736b612047c3b37261",
+          "name": "Szklarska Góra",
+          "city": "Szklary",
+          "sourceUrl": "https://www.openstreetmap.org/node/10961488092"
+        },
+        {
+          "row": 457,
+          "id": "512e292d12c90c364059ef4ee38343e94840f00103f90171deac38010000009203084b616d696f6e6b61",
+          "name": "Kamionka",
+          "city": "Barycz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820529"
+        },
+        {
+          "row": 459,
+          "id": "519d3e4c0c13b9354059c5877e1244f54840f00103f9011ea8aa38010000009203044bc48574",
+          "name": "Kąt",
+          "city": "Grodzisko",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675550"
+        },
+        {
+          "row": 461,
+          "id": "5100be254a8caf354059dc72e4373bfb4840f00103f901c7a7aa38010000009203094b616d69656e696563",
+          "name": "Kamieniec",
+          "city": "Nawsie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675463"
+        },
+        {
+          "row": 464,
+          "id": "518d1e094504293640593bea43728d1d4940f00103f901d94825390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Wólka Niedźwiedzka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712089"
+        },
+        {
+          "row": 468,
+          "id": "51c2c073efe1a83540597bcdbc6603044940f00103f90198a7aa380100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Gnojnica",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675416"
+        },
+        {
+          "row": 470,
+          "id": "51b6717acd61ed354059dd103eef21e94840f00103f90141a7aa380100000092030b42616269612047c3b37261",
+          "name": "Babia Góra",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675329"
+        },
+        {
+          "row": 472,
+          "id": "51b08b474ecb58364059b8c5a1235e014940f00103f9017c8a96380100000092030e42c4856b6f77612047c3b3726b61",
+          "name": "Bąkowa Górka",
+          "city": "Markowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357244"
+        },
+        {
+          "row": 474,
+          "id": "5197dccdf863bf354059a736dd578af14840f00103f90124a8aa380100000092030a53747261c59b6c697779",
+          "name": "Straśliwy",
+          "city": "Dobrzechów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675556"
+        },
+        {
+          "row": 476,
+          "id": "511a3ca7b459b2354059adc66d8f39f74840f00103f9011ba8aa3801000000920306447a6961c582",
+          "name": "Dział",
+          "city": "Zawadka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675547"
+        },
+        {
+          "row": 478,
+          "id": "51ff3c0d1824b5354059004e94298bf54840f00103f9011fa8aa380100000092030a5a61204669677572c485",
+          "name": "Za Figurą",
+          "city": "Grodzisko",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675551"
+        },
+        {
+          "row": 480,
+          "id": "519b8af95ee8e2354059d81423a69fe94840f00103f9014ca7aa3801000000920307466f6c7761726b",
+          "name": "Folwark",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675340"
+        },
+        {
+          "row": 482,
+          "id": "513adbedc4f650364059df5adc35d7114940f00103f901994925390100000092030b4c697369652047c3b37279",
+          "name": "Lisie Góry",
+          "city": "Żołynia",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712281"
+        },
+        {
+          "row": 484,
+          "id": "51eff8403c5ce6354059320f4f6507e94840f00103f9014da7aa38010000009203094b616d69656e696563",
+          "name": "Kamieniec",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675341"
+        },
+        {
+          "row": 486,
+          "id": "51d5586721a6b3354059cd64ee10b5f54840f00103f9011ca8aa380100000092030b506c656261c584736b6965",
+          "name": "Plebańskie",
+          "city": "Grodzisko",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675548"
+        },
+        {
+          "row": 488,
+          "id": "51ceab956478b3354059a7a66e788bf54840f00103f9011da8aa380100000092030953746563c3b3776b61",
+          "name": "Stecówka",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675549"
+        },
+        {
+          "row": 490,
+          "id": "51611514abab4f364059872bb17ca7134940f00103f9017c49253901000000920307476965776f6e74",
+          "name": "Giewont",
+          "city": "Żołynia",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712252"
+        },
+        {
+          "row": 492,
+          "id": "51bdaf253f3d1f364059a257a8da13e94840f00103f901b238b7a20000000092030542616e6961",
+          "name": "Bania",
+          "city": "Łubno",
+          "sourceUrl": "https://www.openstreetmap.org/node/2729916594"
+        },
+        {
+          "row": 494,
+          "id": "51771ecb715dbd3540594a79ad84eef04840f00103f90125a8aa38010000009203114672616e6369636f77612047c3b3726b61",
+          "name": "Francicowa Górka",
+          "city": "Dobrzechów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675557"
+        },
+        {
+          "row": 496,
+          "id": "51d295bec6e429364059f42b42565cea4840f00103f901fd76b9a20000000092030c4f7374727920447a6961c582",
+          "name": "Ostry Dział",
+          "city": "Łubno",
+          "sourceUrl": "https://www.openstreetmap.org/node/2730063613"
+        },
+        {
+          "row": 498,
+          "id": "51863710374cb3354059e71fd84c19f54840f00103f90120a8aa3801000000920306447a6961c582",
+          "name": "Dział",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675552"
+        },
+        {
+          "row": 500,
+          "id": "518f86f82c7434364059c5b8d1b650ec4840f00103f901a8deac380100000092030c47c3b37261205779736f6b61",
+          "name": "Góra Wysoka",
+          "city": "Harta",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245820584"
+        },
+        {
+          "row": 502,
+          "id": "511e2d735f73b7354059c613e6e214f34840f00103f90121a8aa3801000000920308506f646c65736965",
+          "name": "Podlesie",
+          "city": "Grodzisko",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675553"
+        },
+        {
+          "row": 504,
+          "id": "519fb93df7d408364059cb59e9ff66224940f00103f901da4825390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Zielonka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712090"
+        },
+        {
+          "row": 508,
+          "id": "5127614b34edb7354059f4e38ae65cf24840f00103f90123a8aa380100000092030b44616e636572c3b3776b61",
+          "name": "Dancerówka",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675555"
+        },
+        {
+          "row": 512,
+          "id": "518f0a52dfe8d7354059645122d3ebe94840f00103f90159a7aa380100000092030b576e6961727ac3b3776b61",
+          "name": "Wniarzówka",
+          "city": "Żyznów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675353"
+        },
+        {
+          "row": 514,
+          "id": "514956348c7154364059064c3b9050f74840f00103f901928a9638010000009203094e6120447a69616c65",
+          "name": "Na Dziale",
+          "city": "Manasterz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357266"
+        },
+        {
+          "row": 516,
+          "id": "51f329b63819e5354059479b994f0ce84840f00103f9014ba7aa380100000092030d4b6172637a6d6172c3b3776b61",
+          "name": "Karczmarówka",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675339"
+        },
+        {
+          "row": 518,
+          "id": "5112222a9ec4b535405929c709b88cf24840f00103f90122a8aa380100000092030f42616e6173696f77612047c3b37261",
+          "name": "Banasiowa Góra",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675554"
+        },
+        {
+          "row": 520,
+          "id": "5111aedbfbaf543640595118ef22a7f64840f00103f901918a963801000000920310447a6961c582205a69c4997a69c3b377",
+          "name": "Dział Zięziów",
+          "city": "Manasterz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357265"
+        },
+        {
+          "row": 522,
+          "id": "5130ed404239fe3540598cd4207134e64840f00103f901809baa380100000092030d5061c584736b612047c3b37261",
+          "name": "Pańska Góra",
+          "city": "Domaradz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245672320"
+        },
+        {
+          "row": 524,
+          "id": "5158d81d9c99de35405975ae282504e84840f00103f9014aa7aa3801000000920309536f6368c3b3776b61",
+          "name": "Sochówka",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675338"
+        },
+        {
+          "row": 526,
+          "id": "517cd28904535b36405925c2d03472fa4840f00103f901708a9638010000009203064d696ac3b377",
+          "name": "Mijów",
+          "city": "Manasterz",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357232"
+        },
+        {
+          "row": 528,
+          "id": "51f9f8dfa52f5936405939be518605114940f00103f901984925390100000092031547c3b3726120706f64204d69636861c5826b69656d",
+          "name": "Góra pod Michałkiem",
+          "city": "Białobrzegi",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712280"
+        },
+        {
+          "row": 530,
+          "id": "51356909e8745d3640596cc8e47915fc4840f00103f901718a963801000000920307536b6f746e696b",
+          "name": "Skotnik",
+          "city": "Siedleczka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357233"
+        },
+        {
+          "row": 534,
+          "id": "5124df5b470bcc3540591f09a0bd9f1f4940f00103f901644925390100000092031047c3b3726b612057657279c584736b61",
+          "name": "Górka Weryńska",
+          "city": "Kolbuszowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712228"
+        },
+        {
+          "row": 536,
+          "id": "514906cab788a9354059452ffe11e1f54840f00103f901cea7aa38010000009203085a6d756c69736b61",
+          "name": "Zmuliska",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675470"
+        },
+        {
+          "row": 540,
+          "id": "51e07c8f9f3219364059cd5b751daae54840f00103f901c4c075a20000000092030b4a61736e612047c3b37261",
+          "name": "Jasna Góra",
+          "city": "Wesoła",
+          "sourceUrl": "https://www.openstreetmap.org/node/2725626052"
+        },
+        {
+          "row": 542,
+          "id": "515c07623486be3540598fea2a93d0ec4840f00103f90147b0be390100000092030750617472796a61",
+          "name": "Patryja",
+          "city": "Wysoka Strzyżowska",
+          "sourceUrl": "https://www.openstreetmap.org/node/5263765575"
+        },
+        {
+          "row": 546,
+          "id": "51a53220d676e0354059122741c92ee64840f00103f9014d4d2a3901000000920307476f6c676f7461",
+          "name": "Golgota",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5254040909"
+        },
+        {
+          "row": 548,
+          "id": "5181a3d3a9e15936405928e7d54a32144940f00103f9018f4925390100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Kopanie Żołyńskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712271"
+        },
+        {
+          "row": 550,
+          "id": "51157a5803efa13540592ad1483ab9f94840f00103f901cca7aa380100000092030953747261c5bc6f7761",
+          "name": "Strażowa",
+          "city": "Wielopole Skrzyńskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675468"
+        },
+        {
+          "row": 553,
+          "id": "515223997a82dd354059c3bd8d2848e64840f00103f9014c4d2a39010000009203094b616d6965c5846365",
+          "name": "Kamieńce",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5254040908"
+        },
+        {
+          "row": 555,
+          "id": "51b752be56f8eb354059fe4eeed2e1e44840f00103f9014b4d2a3901000000920307506f6c616e6b61",
+          "name": "Polanka",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5254040907"
+        },
+        {
+          "row": 557,
+          "id": "51b39f200c97cc354059723c5574dae84840f00103f901f429138b0000000092030e476f646f77736b612047c3b37261",
+          "name": "Godowska Góra",
+          "city": "Godowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/2333288948"
+        },
+        {
+          "row": 559,
+          "id": "51097e65efd65536405983a10e2bdcf24840f00103f9019c8a96380100000092030a536977612047c3b37261",
+          "name": "Siwa Góra",
+          "city": "Hucisko Jawornickie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357276"
+        },
+        {
+          "row": 561,
+          "id": "5183d7d3b3c500364059312f76b11fe44840f00103f9011e9844390100000092030b4a61736e612047c3b37261",
+          "name": "Jasna Góra",
+          "city": "Golcowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5255763998"
+        },
+        {
+          "row": 565,
+          "id": "517a2cc7759d3b364059b520efb0e4e94840f00103f90162dbac380100000092030fc5bb79646f77736b612047c3b37261",
+          "name": "Żydowska Góra",
+          "city": "Dynów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245819746"
+        },
+        {
+          "row": 567,
+          "id": "5156ef703b349c354059d0910145d10a4940f00103f9010c4725390100000092030d5769736f77612047c3b3726b61",
+          "name": "Wisowa Górka",
+          "city": "Ropczyce",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253711628"
+        },
+        {
+          "row": 569,
+          "id": "514db4f51d0dab354059288e4d3cb1f24840f00103f901cda7aa3801000000920307536b6f746e696b",
+          "name": "Skotnik",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675469"
+        },
+        {
+          "row": 571,
+          "id": "516d0f8ccdd8f535405911e0f42edee34840f00103f9010c7075a200000000920303487962",
+          "name": "Hyb",
+          "city": "Domaradz",
+          "sourceUrl": "https://www.openstreetmap.org/node/2725605388"
+        },
+        {
+          "row": 573,
+          "id": "51999a046f481b364059adc090d5ade44840f00103f9011ffe88a2000000009203094b616d69656e696563",
+          "name": "Kamieniec",
+          "city": "Wesoła",
+          "sourceUrl": "https://www.openstreetmap.org/node/2726886943"
+        },
+        {
+          "row": 575,
+          "id": "516581c0142f60364059d1f7640ffef64840f00103f901938a96380100000092030a4bc5826170c3b3776b61",
+          "name": "Kłapówka",
+          "city": "Zagórze",
+          "sourceUrl": "https://www.openstreetmap.org/node/5244357267"
+        },
+        {
+          "row": 577,
+          "id": "51b63aefb5569a354059dd8ebae70a0b4940f00103f9010b472539010000009203104772616e69637a6e612047c3b3726b61",
+          "name": "Graniczna Górka",
+          "city": "Ropczyce",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253711627"
+        },
+        {
+          "row": 579,
+          "id": "515d3e480504e33540592f4503c298e44840f00103f9014e4d2a390100000092030c5374727a61c582c3b3776b61",
+          "name": "Strzałówka",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5254040910"
+        },
+        {
+          "row": 581,
+          "id": "515785bcd4bed735405970a076aedee54840f00103f9015ca7aa380100000092030bc5817973612047c3b37261",
+          "name": "Łysa Góra",
+          "city": "Lutcza",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675356"
+        },
+        {
+          "row": 585,
+          "id": "515f1ed72bd1623640593addc36f54114940f00103f901974925390100000092030e4b7369c499c5bc612047c3b37261",
+          "name": "Księża Góra",
+          "city": "Budy Łańcuckie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5253712279"
+        },
+        {
+          "row": 589,
+          "id": "513e26ad534015364059511553e927e34840f00103f90123ef88a20000000092030944c499626f77696563",
+          "name": "Dębowiec",
+          "city": "Izdebki",
+          "sourceUrl": "https://www.openstreetmap.org/node/2726883107"
+        },
+        {
+          "row": 591,
+          "id": "515ab8acc266aa3540593f90172d9bf04840f00103f9011aa8aa3801000000920307426172616e656b",
+          "name": "Baranek",
+          "city": "gmina Wiśniowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5245675546"
+        }
+      ],
+      "concern": "Sam punkt wysokościowy nie dowodzi dostępnego szlaku ani punktu widokowego.",
+      "decision": null
+    },
+    {
+      "code": "G3",
+      "records": [
+        {
+          "row": 316,
+          "id": "51278b5649bf06364059f6fbb44071074940f00103f90190c90134010000009203164f73616461207a2065706f6b69206b616d69656e6961",
+          "name": "Osada z epoki kamienia",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167499664"
+        },
+        {
+          "row": 360,
+          "id": "51e662c21ec9073640599d9b36e334004940f00103f901413dfa33010000009203144f73616461207a2065706f6b69206272c4857a75",
+          "name": "Osada z epoki brązu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167004993"
+        },
+        {
+          "row": 366,
+          "id": "511c17c4f649083640593f9ea74b10004940f00103f901403dfa33010000009203144f73616461207a2065706f6b69206272c4857a75",
+          "name": "Osada z epoki brązu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167004992"
+        },
+        {
+          "row": 369,
+          "id": "510db8f8252c09364059c4f24295f5ff4840f00103f9013f3dfa33010000009203154f73616461207a2065706f6b6920c5bc656c617a61",
+          "name": "Osada z epoki żelaza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167004991"
+        },
+        {
+          "row": 372,
+          "id": "5186a9d2bb1d0a364059729648580a004940f00103f9013e3dfa330100000092031fc59a7265646e696f776965637a6e792070756e6b74206f7361646e69637a79",
+          "name": "Średniowieczny punkt osadniczy",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167004990"
+        },
+        {
+          "row": 378,
+          "id": "513f06860728f8354059c4e347a1d1ff4840f00103f901736c4bf1020000009203214f73616461206b756c7475727920636572616d696b6920777374c499676f77656a",
+          "name": "Osada kultury ceramiki wstęgowej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12638186611"
+        },
+        {
+          "row": 392,
+          "id": "51ccb0f61cfdf635405992add3ed910b4940f00103f9017e501b34010000009203154f73616461207a2065706f6b6920c5bc656c617a61",
+          "name": "Osada z epoki żelaza",
+          "city": "Rudna Wielka",
+          "sourceUrl": "https://www.openstreetmap.org/node/5169172606"
+        },
+        {
+          "row": 421,
+          "id": "51269419cae4f13540598c5eb296a70c4940f00103f90174501b340100000092031a5374616e6f7769736b6f207a2065706f6b6920c5bc656c617a61",
+          "name": "Stanowisko z epoki żelaza",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/5169172596"
+        },
+        {
+          "row": 444,
+          "id": "51c9c5bd9e54ec354059a4552de9280e4940f00103f90173501b34010000009203144f73616461207a2065706f6b69206272c4857a75",
+          "name": "Osada z epoki brązu",
+          "city": "Mrowla",
+          "sourceUrl": "https://www.openstreetmap.org/node/5169172595"
+        },
+        {
+          "row": 450,
+          "id": "5126570cb2c0ea35405910adbab31b0e4940f00103f90197d3e9900000000092030947726f647a69736b6f",
+          "name": "Grodzisko",
+          "city": "Mrowla",
+          "sourceUrl": "https://www.openstreetmap.org/node/2431243159"
+        },
+        {
+          "row": 473,
+          "id": "5115f3bdd06d2b364059729879bcda044940f00103f901114dfa33010000009203164f73616461207a2065706f6b69206b616d69656e6961",
+          "name": "Osada z epoki kamienia",
+          "city": "Kraczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167009041"
+        },
+        {
+          "row": 515,
+          "id": "51d9d53fe31de73540595f155e38c6134940f00103f90170501b340100000092031a57796b6f70616c69736b6f2061726368656f6c6f6769637a6e65",
+          "name": "Wykopalisko archeologiczne",
+          "city": "Budy Głogowskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5169172592"
+        },
+        {
+          "row": 517,
+          "id": "51a6176b6e3be7354059d4f8e01005144940f00103f9016f501b340100000092031b4f626f7a6f7769736b6f207a2065706f6b69206b616d69656e6961",
+          "name": "Obozowisko z epoki kamienia",
+          "city": "Budy Głogowskie",
+          "sourceUrl": "https://www.openstreetmap.org/node/5169172591"
+        },
+        {
+          "row": 519,
+          "id": "51f2e379ba04cb354059c643296be5064940f00103f9015ae77ec8010000009203254d69656a736365206461776e65676f205a616d6b752042c499647a69656d79736b6965676f",
+          "name": "Miejsce dawnego Zamku Będziemyskiego",
+          "city": "Będziemyśl",
+          "sourceUrl": "https://www.openstreetmap.org/node/7658727258"
+        },
+        {
+          "row": 523,
+          "id": "5189b663eaae34364059efd819f0430b4940f00103f901e1c9f23301000000920325507261647a69656a6f7765207374616e6f7769736b6f2061726368656f6c6f6769637a6e65",
+          "name": "Pradziejowe stanowisko archeologiczne",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/5166516705"
+        },
+        {
+          "row": 537,
+          "id": "519a852cc19839364059b207a40e3c024940f00103f901493dfa33010000009203164f73616461207a2065706f6b69206b616d69656e6961",
+          "name": "Osada z epoki kamienia",
+          "city": "Albigowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167005001"
+        },
+        {
+          "row": 549,
+          "id": "51611a868f883b3640593460353bf7014940f00103f9014a3dfa33010000009203164f73616461207a2065706f6b69206b616d69656e6961",
+          "name": "Osada z epoki kamienia",
+          "city": "Albigowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/5167005002"
+        },
+        {
+          "row": 551,
+          "id": "513fd5d7a9a83a364059cbf044b52d094940f00103f901f7cbf2330100000092031947726f647a69736b6f20c59b7265646e696f776965637a6e65",
+          "name": "Grodzisko średniowieczne",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/5166517239"
+        },
+        {
+          "row": 558,
+          "id": "51f85a86ee483b3640595b9b21b0cd084940f00103f90104bbe733010000009203164f73616461207a2065706f6b69206b616d69656e6961",
+          "name": "Osada z epoki kamienia",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/5165792004"
+        },
+        {
+          "row": 582,
+          "id": "51ebd44b42d83f36405933816ca34b0b4940f00103f901e2c9f23301000000920325507261647a69656a6f7765207374616e6f7769736b6f2061726368656f6c6f6769637a6e65",
+          "name": "Pradziejowe stanowisko archeologiczne",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/5166516706"
+        }
+      ],
+      "concern": "Wpis nie potwierdza widocznych pozostałości ani możliwości zwiedzania.",
+      "decision": null
+    },
+    {
+      "code": "G4",
+      "records": [
+        {
+          "row": 18,
+          "id": "51bd5de5bff60036405953d1b3b4ae044940f00103f9017c2245b30000000092031c506f6d6e696b204b617a696d6965727a612047c3b372736b6965676f",
+          "name": "Pomnik Kazimierza Górskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3007652476"
+        },
+        {
+          "row": 47,
+          "id": "51a26879799500364059f9d62c3cd4044940f00103f90168b6d3ef0200000092030d4a616e204e65706f6d7563656e",
+          "name": "Jan Nepomucen",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12613564008"
+        },
+        {
+          "row": 56,
+          "id": "51098849b890013640592331410ddf044940f00103f901756cd6e10200000092030d4972656e612053656e646c6572",
+          "name": "Irena Sendler",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/12378860661"
+        },
+        {
+          "row": 60,
+          "id": "515aa61595c30136405978bfc062c3044940f00103f9018dcd01ea0000000092030f50727a656ac59b6369652032303031",
+          "name": "Przejście 2001",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3925986701"
+        },
+        {
+          "row": 64,
+          "id": "5180f0a1444b00364059e9a4ad0095044940f00103f9019cf145c1020000009203135374616e6973c5826177204b6f6e6172736b69",
+          "name": "Stanisław Konarski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832521116"
+        },
+        {
+          "row": 68,
+          "id": "51da3ba3ad4a00364059def9ea4f87044940f00103f9019ef145c1020000009203045074616b",
+          "name": "Ptak",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832521118"
+        },
+        {
+          "row": 72,
+          "id": "5181dc346c4a003640590a29e4ef83044940f00103f9019ff145c10200000092030753747275736965",
+          "name": "Strusie",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11832521119"
+        },
+        {
+          "row": 76,
+          "id": "51f12900c63300364059d4900255ed044940f00103f9018c0418cc0000000092030f506c616e2057696564656d616e6e61",
+          "name": "Plan Wiedemanna",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3424126092"
+        },
+        {
+          "row": 80,
+          "id": "51395970dbcf00364059cef207310f054940f00102f90150783f450000000092030c505a4c20333720c5816fc59b",
+          "name": "PZL 37 Łoś",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1161787472"
+        },
+        {
+          "row": 84,
+          "id": "513abcd6941a0036405966248cb0f2044940f00103f901668e50980200000092030a44c3a962616c6c616765",
+          "name": "Déballage",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11145350758"
+        },
+        {
+          "row": 88,
+          "id": "5101f9122a3802364059383b08f0cc044940f00103f901ebec816502000000920326313530206c617420527a65737a6f77736b69656a2053747261c5bc7920506fc5bc61726e656a",
+          "name": "150 lat Rzeszowskiej Straży Pożarnej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10292948203"
+        },
+        {
+          "row": 96,
+          "id": "51d15790662c023640593d9171d6f1044940f00103f90136721f9d0200000092031e42c5826f676f73c5826177696f6e6120526f647a696e6120556c6dc3b377",
+          "name": "Błogosławiona Rodzina Ulmów",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11226018358"
+        },
+        {
+          "row": 100,
+          "id": "5150dd0143fbff35405918b8978fff044940f00103f901a8b666580200000092030d54616e69656320c5bb79636961",
+          "name": "Taniec Życia",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10073061032"
+        },
+        {
+          "row": 108,
+          "id": "51624b8fa67a023640595964e025dd044940f00103f9013515bc370100000092030853616b736f666f6e",
+          "name": "Saksofon",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5230040373"
+        },
+        {
+          "row": 112,
+          "id": "5152ff6a1f3c00364059da5abadd26054940f00103f901927f360c03000000920314536b727a7964c5826120646c612046696c697061",
+          "name": "Skrzydła dla Filipa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800082"
+        },
+        {
+          "row": 116,
+          "id": "51e1197e816aff3540598c643497c0044940f00103f901cfff422e0200000092030f4164616d204c617a61726f7769637a",
+          "name": "Adam Lazarowicz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077391"
+        },
+        {
+          "row": 120,
+          "id": "511d38674469ff35405968d0d03fc1044940f00103f901d1ff422e0200000092030d4ac3b37a6566204261746f7279",
+          "name": "Józef Batory",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077393"
+        },
+        {
+          "row": 124,
+          "id": "51fabda83869ff3540592c00d75fc0044940f00103f901d0ff422e020000009203134d6965637a7973c5826177204b6177616c6563",
+          "name": "Mieczysław Kawalec",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077392"
+        },
+        {
+          "row": 128,
+          "id": "514e4c721b68ff35405955794ceec1044940f00103f901d3ff422e0200000092030d4ac3b37a656620527a65706b61",
+          "name": "Józef Rzepka",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077395"
+        },
+        {
+          "row": 132,
+          "id": "5183d5fd0868ff3540592ce63114c1044940f00103f901d2ff422e020000009203134672616e6369737a656b2042c58261c5bc656a",
+          "name": "Franciszek Błażej",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077394"
+        },
+        {
+          "row": 136,
+          "id": "5172fa7abe66ff3540598bd4c5b7c1044940f00103f901d4ff422e0200000092030c4b61726f6c2043686d69656c",
+          "name": "Karol Chmiel",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9366077396"
+        },
+        {
+          "row": 140,
+          "id": "517a1dcc8179ff3540595412239573044940f00103f901c8e906650200000092030e46726564205a696e6e656d616e6e",
+          "name": "Fred Zinnemann",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10284886472"
+        },
+        {
+          "row": 156,
+          "id": "5138222933effe354059d3cc49deef044940f00103f9018c7f360c0300000092030a4a61737a637a75726b61",
+          "name": "Jaszczurka",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800076"
+        },
+        {
+          "row": 160,
+          "id": "5145fbb37ae2fe354059fd659c2bef044940f00103f9018f7f360c03000000920307c59a6c696d616b",
+          "name": "Ślimak",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800079"
+        },
+        {
+          "row": 164,
+          "id": "514a9b0535d7fe354059aea877a7f1044940f00103f9018e7f360c03000000920305c5bb616261",
+          "name": "Żaba",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800078"
+        },
+        {
+          "row": 168,
+          "id": "511e55a8c9e7fe3540599cd20b885a044940f00103f901adacdb920200000092031b447a696577637a796e6b61207a652073c58275636861776b616d69",
+          "name": "Dziewczynka ze słuchawkami",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11053804717"
+        },
+        {
+          "row": 172,
+          "id": "51c8009a52a8fe354059ef9705c9f1044940f00103f901907f360c030000009203114b6f6269657461206b6c617379637a6e61",
+          "name": "Kobieta klasyczna",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800080"
+        },
+        {
+          "row": 176,
+          "id": "510004070f2e0036405956c2c9ece2034940f00103f901957103a502000000920306426963796b6c",
+          "name": "Bicykl",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11358400917"
+        },
+        {
+          "row": 182,
+          "id": "51cf3c6f1926ff3540592500a4dbb7034940f00103f90182f89b920200000092030e546f6d61737a20537461c5846b6f",
+          "name": "Tomasz Stańko",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11049629826"
+        },
+        {
+          "row": 185,
+          "id": "5161d56a5908fe354059bf89d7ab7e054940f00103f901b674ac3b0200000092030e50756e6b74205769647a656e6961",
+          "name": "Punkt Widzenia",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092406"
+        },
+        {
+          "row": 188,
+          "id": "51e86dc72f1704364059ff0af4e4f5034940f00103f901f03f51810200000092030844656c6f69747465",
+          "name": "Deloitte",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10759520240"
+        },
+        {
+          "row": 191,
+          "id": "5177ed77cd50013640598e869d7301064940f00103f901b974ac3b020000009203054a6f6b6572",
+          "name": "Joker",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092409"
+        },
+        {
+          "row": 194,
+          "id": "515afc5c2338fe35405962f3716da8034940f00103f9018b6d04180300000092031ec5bb796a207a64726f776f2077207a64726f77796d20c59b776965636965",
+          "name": "Żyj zdrowo w zdrowym świecie",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13287845259"
+        },
+        {
+          "row": 200,
+          "id": "519198a0866fff35405946d26ef431064940f00103f901997f360c0300000092030a4e61737a65204d616b69",
+          "name": "Nasze Maki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/13089800089"
+        },
+        {
+          "row": 203,
+          "id": "5191e80a5b580036405924360eab2e034940f00103f901f74da2b600000000920318506f6d6e696b205374616e6973c582617761204e69746b69",
+          "name": "Pomnik Stanisława Nitki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/3064090103"
+        },
+        {
+          "row": 206,
+          "id": "51405e59b3dffe35405980d6fcf84b034940f00103f9012e305f9b0200000092030e5461646575737a204e616c657061",
+          "name": "Tadeusz Nalepa",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11196641326"
+        },
+        {
+          "row": 209,
+          "id": "51af9fb426cc02364059dcb529c35d064940f00103f901b774ac3b0200000092030e42616a6b61204d616c6f77616e61",
+          "name": "Bajka Malowana",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092407"
+        },
+        {
+          "row": 212,
+          "id": "51f9d4569176fc35405943a21a4009034940f00103f9016d5de09d000000009203155a646f627977636f6d2070727a657374727a656e69",
+          "name": "Zdobywcom przestrzeni",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/2648726893"
+        },
+        {
+          "row": 215,
+          "id": "515312c8db00063640598e05854119034940f00102f9012e7b751f000000009203104d6973696f2069204a61737a637a7572",
+          "name": "Misio i Jaszczur",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/527792942"
+        },
+        {
+          "row": 218,
+          "id": "5146d6750360ff3540598cbe823463024940f00103f9012939770b010000009203034c6f74",
+          "name": "Lot",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/4487330089"
+        },
+        {
+          "row": 224,
+          "id": "51da3e3fe7c90636405917409d972f034940f00103f9011074cc310100000092031650726173c5826f776961c584736b6120466967757261",
+          "name": "Prasłowiańska Figura",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5130449936"
+        },
+        {
+          "row": 227,
+          "id": "51d76e168acf063640597029424530034940f00103f9010f74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+          "name": "Prasłowiańska Figura",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5130449935"
+        },
+        {
+          "row": 230,
+          "id": "51416150a6d10636405935c9d98530034940f00103f9010e74cc310100000092031650726173c5826f776961c584736b6120466967757261",
+          "name": "Prasłowiańska Figura",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/5130449934"
+        },
+        {
+          "row": 233,
+          "id": "51b687180a33fa354059b46675bc13064940f00103f90188f9a5930200000092031044726162696e6120646f204e69656261",
+          "name": "Drabina do Nieba",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/11067062664"
+        },
+        {
+          "row": 236,
+          "id": "5123c1afecddfe354059d15d126745074940f00103f9018ea6a76202000000920305c5bb756272",
+          "name": "Żubr",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10245088910"
+        },
+        {
+          "row": 239,
+          "id": "5129cb10c7bafb354059325c1d00f1064940f00102f901abfb523a000000009203124d7572616c202250616d69c49974616e7922",
+          "name": "Mural \"Pamiętany\"",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/978516907"
+        },
+        {
+          "row": 242,
+          "id": "517f95325f14fb354059179e978a8d024940f00103f901421649750200000092031349676e61637920c581756b617369657769637a",
+          "name": "Ignacy Łukasiewicz",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/10557658690"
+        },
+        {
+          "row": 245,
+          "id": "51c168a0432afe3540599b9c908c8b014940f00103f901be74ac3b020000009203175a776965727ac4997461204c697369656a2047c3b37279",
+          "name": "Zwierzęta Lisiej Góry",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092414"
+        },
+        {
+          "row": 248,
+          "id": "51297b4b395ffc354059db3bfe66bd074940f00103f901a874ac3b0200000092031253757065722053616979616e20476f6bc5ab",
+          "name": "Super Saiyan Gokū",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092392"
+        },
+        {
+          "row": 251,
+          "id": "5167ed5b525afc3540598829368bbc074940f00103f901a974ac3b02000000920307506963636f6c6f",
+          "name": "Piccolo",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092393"
+        },
+        {
+          "row": 254,
+          "id": "513aaa3f6777fb35405908550f3dce074940f00103f90188b3ecfa01000000920304496b6172",
+          "name": "Ikar",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/8504783752"
+        },
+        {
+          "row": 257,
+          "id": "51493c8f4072fb354059d0a56e1dd2074940f00103f90189b3ecfa01000000920308526f7369637a6b61",
+          "name": "Rosiczka",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/8504783753"
+        },
+        {
+          "row": 263,
+          "id": "51c7383586eff735405998ace52906074940f00103f901b574ac3b0200000092030b43656e7472756d20536e75",
+          "name": "Centrum Snu",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092405"
+        },
+        {
+          "row": 266,
+          "id": "5135de0ced52f53540598a8f4fc8ce054940f00103f901963817d9010000009203114672616e6369737a656b204b6f74756c61",
+          "name": "Franciszek Kotula",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/7937144982"
+        },
+        {
+          "row": 269,
+          "id": "511c21a8bf03fa35405935ae241ef5074940f00103f901aa74ac3b0200000092030550697a7a61",
+          "name": "Pizza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092394"
+        },
+        {
+          "row": 272,
+          "id": "5135f91c0e01fa35405929006b7af5074940f00103f901ba74ac3b02000000920303536572",
+          "name": "Ser",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092410"
+        },
+        {
+          "row": 275,
+          "id": "5102cd316a08fa354059ded9684afc074940f00103f901ab74ac3b0200000092030e446f75626c652054726f75626c65",
+          "name": "Double Trouble",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092395"
+        },
+        {
+          "row": 278,
+          "id": "51eb56cf49eff9354059bb65e2b1fa074940f00103f901bb74ac3b02000000920306427572676572",
+          "name": "Burger",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/node/9591092411"
+        },
+        {
+          "row": 287,
+          "id": "51c46d7e0dd2f13540597e05c47f15fe4840f00103f901b4584c27020000009203216b732e207070c5826b2e205374616e6973c582617720c5bb79746b69657769637a",
+          "name": "ks. ppłk. Stanisław Żytkiewicz",
+          "city": "Boguchwała",
+          "sourceUrl": "https://www.openstreetmap.org/node/9249249460"
+        },
+        {
+          "row": 290,
+          "id": "51ac5d6e8b8d08364059635babe232fb4840f00103f90118ab177e020000009203114b617461727a796e6120536f62637a796b",
+          "name": "Katarzyna Sobczyk",
+          "city": "Tyczyn",
+          "sourceUrl": "https://www.openstreetmap.org/node/10705414936"
+        },
+        {
+          "row": 296,
+          "id": "516330da3e3f29364059e777f585eb044940f00103f90134b858cc0200000092030d4a616e2050617765c582204949",
+          "name": "Jan Paweł II",
+          "city": "Kraczkowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/12018300980"
+        },
+        {
+          "row": 303,
+          "id": "51450257c38ff1354059c59dc195a2f44840f00103f90131748aad02000000920314466967757261204d61746b6920426f736b69656a",
+          "name": "Figura Matki Boskiej",
+          "city": "Sołonka",
+          "sourceUrl": "https://www.openstreetmap.org/node/11501466673"
+        },
+        {
+          "row": 309,
+          "id": "51dc28571dde3a364059fb41b85dc3084940f00103f901b9a5ee8000000000920306506f77c3b37a",
+          "name": "Powóz",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/2163123641"
+        },
+        {
+          "row": 318,
+          "id": "517d8049850c3b364059a4e2ff8ea8084940f00103f901eed1138002000000920309466f7274657069616e",
+          "name": "Fortepian",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/10738717166"
+        },
+        {
+          "row": 321,
+          "id": "515177afa4263b3640594e76d8e9ac084940f00103f9012669f76e00000000920328c581617765637a6b61204a616e612069205374616e6973c582617761204365746e6172736b696368",
+          "name": "Ławeczka Jana i Stanisława Cetnarskich",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/1861708070"
+        },
+        {
+          "row": 324,
+          "id": "5144a09f4e1e3b36405945d2133bbf084940f00103f9019f84590c030000009203114ac3b37a6566205069c582737564736b69",
+          "name": "Józef Piłsudski",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13092095135"
+        },
+        {
+          "row": 330,
+          "id": "51ba826dc4933b364059e4e20396b7084940f00103f90101987fa3020000009203094b6c656f7061747261",
+          "name": "Kleopatra",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/11332982785"
+        },
+        {
+          "row": 333,
+          "id": "51b3b04c648b3b3640592794cf3cca084940f00103f901104969870200000092030641706f6c6c6f",
+          "name": "Apollo",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/10861758736"
+        },
+        {
+          "row": 336,
+          "id": "51310109d4ac3b364059ebc891cec0084940f00103f9011733590c03000000920319507574746f202d206368c5826f70696563207a206b756cc485",
+          "name": "Putto - chłopiec z kulą",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13092074263"
+        },
+        {
+          "row": 339,
+          "id": "5106741541523a36405974571b086e0a4940f00103f9019cd36c9b0200000092030e526f647a696e6120556c6dc3b377",
+          "name": "Rodzina Ulmów",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/11197535132"
+        },
+        {
+          "row": 342,
+          "id": "519d09f258d80c3640594af1f109d9f14840f00103f901b8c43ac10200000092030c4e696564c5ba77696564c5ba",
+          "name": "Niedźwiedź",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/11831788728"
+        },
+        {
+          "row": 345,
+          "id": "51c1994ea1a93b3640597fa88f1bd9084940f00103f901c7b203a9000000009203054469616e61",
+          "name": "Diana",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/2835591879"
+        },
+        {
+          "row": 351,
+          "id": "51f4424b68dc3b3640598a94c1acab084940f00103f901064a07be020000009203244b6f6269657461207570696e616ac4856361207769616e656b206e612067c5826f776965",
+          "name": "Kobieta upinająca wianek na głowie",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/11778083334"
+        },
+        {
+          "row": 354,
+          "id": "51b07e2205053c36405924c3e050ae084940f00103f901a1d37fa3020000009203105a656761722073c5826f6e65637a6e79",
+          "name": "Zegar słoneczny",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/11332998049"
+        },
+        {
+          "row": 368,
+          "id": "5129c46d7e0d3c364059bab7c777ce084940f00103f9019a6e1ed0020000009203034c6577",
+          "name": "Lew",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/12081589914"
+        },
+        {
+          "row": 374,
+          "id": "5122556f68253c36405954c48e6be8084940f00103f90111bcc9880100000092030bc59a772e20487562657274",
+          "name": "Św. Hubert",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/6589889553"
+        },
+        {
+          "row": 377,
+          "id": "516286c613413c364059dc78c1f1c6084940f00103f90136bbc98801000000920312426163687573206e612070616e7465727a65",
+          "name": "Bachus na panterze",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/6589889334"
+        },
+        {
+          "row": 380,
+          "id": "51892a57d3503c364059d0f81972c7084940f00103f90137bbc988010000009203104b6f6c756d6e61207a206f72c582656d",
+          "name": "Kolumna z orłem",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/6589889335"
+        },
+        {
+          "row": 388,
+          "id": "51d684fe53bb3c36405924ffdd4c96084940f00103f901d1292e23030000009203104469616e61207a206a656c656e69656d",
+          "name": "Diana z jeleniem",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13475129809"
+        },
+        {
+          "row": 391,
+          "id": "51817a336abe3c364059386513059f084940f00103f9012fcdae25030000009203204dc5826f647a69656e6965632077616c637ac4856379207a2077c499c5bc656d",
+          "name": "Młodzieniec walczący z wężem",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/13517114671"
+        },
+        {
+          "row": 393,
+          "id": "51d1d10550e73b364059108d9367030a4940f00103f9019041148002000000920314506f6d6e696b20c59b772e20466c6f7269616e61",
+          "name": "Pomnik św. Floriana",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/node/10738745744"
+        },
+        {
+          "row": 408,
+          "id": "51020f0c207ce0354059015aa95615f34840f00103f9018ddbbd270100000092030c5061706965c5bc204a504949",
+          "name": "Papież JPII",
+          "city": "Połomia",
+          "sourceUrl": "https://www.openstreetmap.org/node/4961721229"
+        },
+        {
+          "row": 411,
+          "id": "517f7a7df7d8193640593c44edc8a2f14840f00103f9015761741503000000920329476d696e612042c58261c5bc6f776120e28093204e61747572616c6e6965204e6f776f637a65736e61",
+          "name": "Gmina Błażowa – Naturalnie Nowoczesna",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/node/13244850519"
+        },
+        {
+          "row": 414,
+          "id": "514ad8124dfb09364059bccf4c8b55ef4840f00103f9010573adb50000000092030e4a616e6120506177c58261204949",
+          "name": "Jana Pawła II",
+          "city": "Wesoła",
+          "sourceUrl": "https://www.openstreetmap.org/node/3048043269"
+        },
+        {
+          "row": 417,
+          "id": "5144ae8a2606e3354059fc3acb87fb194940f00103f901093aa9d30200000092030cc59b772e20466c6f7269616e",
+          "name": "św. Florian",
+          "city": "Widełka",
+          "sourceUrl": "https://www.openstreetmap.org/node/12141017609"
+        },
+        {
+          "row": 420,
+          "id": "51ca26af84a4e1354059e2c0f572e9194940f00103f901fc4d6a5b02000000920317c59b772e204d69636861c5822041726368616e696fc582",
+          "name": "św. Michał Archanioł",
+          "city": "Widełka",
+          "sourceUrl": "https://www.openstreetmap.org/node/10123628028"
+        },
+        {
+          "row": 423,
+          "id": "51f15c29159ee1354059d113854ce8194940f00103f901fb4d6a5b0200000092030d4a616e2050617765c582204949",
+          "name": "Jan Paweł II",
+          "city": "Widełka",
+          "sourceUrl": "https://www.openstreetmap.org/node/10123628027"
+        },
+        {
+          "row": 426,
+          "id": "51378dedb5a0d33540598010c99063194940f00103f901e0d6a7d30200000092030cc59b772e20466c6f7269616e",
+          "name": "św. Florian",
+          "city": "Kupno",
+          "sourceUrl": "https://www.openstreetmap.org/node/12140926688"
+        },
+        {
+          "row": 432,
+          "id": "51c6bbc8a9422036405918a2f9522e1d4940f00103f9012a6b4a940200000092030bc59b772e204f6e75667279",
+          "name": "św. Onufry",
+          "city": "Sokołów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/node/11077839658"
+        }
+      ],
+      "concern": "Ustalić, czy osobne przystanki, elementy spaceru czy tylko opcja dla zainteresowanych.",
+      "decision": null
+    },
+    {
+      "code": "G5",
+      "records": [
+        {
+          "row": 3,
+          "id": "511d5e10d6ff00364059c2943fa2ac044940f00102f901697e0d0a0000000092031f536b77657220696d2e204b617a696d6965727a612047c3b372736b6965676f",
+          "name": "Skwer im. Kazimierza Górskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/168656489"
+        },
+        {
+          "row": 9,
+          "id": "51bf7d41e7390036405947652d9fd7044940f00102f90195bd17130000000092030d426961c58279204f6772c3b364",
+          "name": "Biały Ogród",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/320322965"
+        },
+        {
+          "row": 15,
+          "id": "511d169baaa3013640595f2719f0fd044940f00101f901ed96cd0000000000920310506c6163204f66696172204765747461",
+          "name": "Plac Ofiar Getta",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/relation/13473517"
+        },
+        {
+          "row": 21,
+          "id": "513bea88433f0236405964835e500c054940f00102f901fafb920a0000000092030e506c616320576f6c6e6fc59b6369",
+          "name": "Plac Wolności",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/177404922"
+        },
+        {
+          "row": 27,
+          "id": "512d92a478eefe3540594c65186ce9044940f00101f901c8173d00000000009203225061726b204a65646e6fc59b636920506f6c6f6e6969207a204d61636965727ac485",
+          "name": "Park Jedności Polonii z Macierzą",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/relation/4003784"
+        },
+        {
+          "row": 33,
+          "id": "511364797da303364059319811acee044940f00102f901d85b343300000000920329536b77657220696d2e206b732e204ac3b37a656661204865726d616e61204f7369c584736b6965676f",
+          "name": "Skwer im. ks. Józefa Hermana Osińskiego",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/859069400"
+        },
+        {
+          "row": 39,
+          "id": "51fd02489118fe35405949ca690d2a054940f00102f901a3c8b24d00000000920331536b7765722070726f662e206472206861622e206e2e206d65642e204c6573c5826177612047727a65676f72637a796b61",
+          "name": "Skwer prof. dr hab. n. med. Lesława Grzegorczyka",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1303562403"
+        },
+        {
+          "row": 45,
+          "id": "51ae872e6c33fe354059922031dd00044940f00102f9019ccee10a000000009203204f6772c3b364204d69656a736b6920696d2e20536f6c696461726e6fc59b6369",
+          "name": "Ogród Miejski im. Solidarności",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/182570652"
+        },
+        {
+          "row": 50,
+          "id": "518f29e588d9fd3540595f7f9b368a054940f00101f901727ad000000000009203124f6772c3b364204b6965737a6f6e6b6f7779",
+          "name": "Ogród Kieszonkowy",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/relation/13662834"
+        },
+        {
+          "row": 55,
+          "id": "5196f5542504003640593130b75d2c034940f00102f901a42b4f0a000000009203195061726b204b756c747572792069205779706f637a796e6b75",
+          "name": "Park Kultury i Wypoczynku",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/172960676"
+        },
+        {
+          "row": 59,
+          "id": "517a355aace306364059d6326be20a054940f00102f901c3a21551000000009203105061726b206b6965737a6f6e6b6f7779",
+          "name": "Park kieszonkowy",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1360372419"
+        },
+        {
+          "row": 67,
+          "id": "51fdc68e2588fa354059a004c278ea044940f00102f9017e11490e0000000092030c5061726b205a64726f776961",
+          "name": "Park Zdrowia",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/239669630"
+        },
+        {
+          "row": 71,
+          "id": "51778c72e59efc3540594786ee7b21034940f00102f901e68dd00a000000009203146f6772c3b364656b206a6f7264616e6f77736b69",
+          "name": "ogródek jordanowski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/181439974"
+        },
+        {
+          "row": 75,
+          "id": "51e8b4ab03c0fc354059e415a57bd1024940f00102f9016f8fd00a0000000092031d5061726b20696d2e20496e77616c6964c3b37720576f6a656e6e796368",
+          "name": "Park im. Inwalidów Wojennych",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/181440367"
+        },
+        {
+          "row": 79,
+          "id": "5182e2676d2bff354059cce184315f024940f00102f901de3389080000000092031342756c7761722057534b20527a65737ac3b377",
+          "name": "Bulwar WSK Rzeszów",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/143209438"
+        },
+        {
+          "row": 83,
+          "id": "51d970168e9308364059c4befd9018054940f00102f90165f49c400000000092031c4f6772c3b364206b6965737a6f6e6b6f7779204269656c6566656c64",
+          "name": "Ogród kieszonkowy Bielefeld",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1084028005"
+        },
+        {
+          "row": 87,
+          "id": "518d5b1e043bf93540590bdc5f7432054940f00101f901a780af00000000009203135061726b204e69657a61706f6d696e616a6b69",
+          "name": "Park Niezapominajki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/relation/11501735"
+        },
+        {
+          "row": 91,
+          "id": "510d69984bc1fa354059244eb1516c064940f00102f901a00f3b0d0000000092030f5061726b205379626972616bc3b377",
+          "name": "Park Sybiraków",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/221974432"
+        },
+        {
+          "row": 95,
+          "id": "5118ad85611200364059225902e07b074940f00102f90109e02d550000000092031f4f6772c3b364206b6965737a6f6e6b6f7779202d204b6c6167656e66757274",
+          "name": "Ogród kieszonkowy - Klagenfurt",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1429069833"
+        },
+        {
+          "row": 99,
+          "id": "514a1a6ce45f053640595531bef0f4014940f00102f901ce72920d0000000092030d5061726b205061706965736b69",
+          "name": "Park Papieski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/227701454"
+        },
+        {
+          "row": 103,
+          "id": "519ef4f4ca1ef7354059c0f9599e7e054940f00102f901f28bb012000000009203255061726b2042c5826f676f73c5826177696f6e656a204b61726f6c696e79204bc3b37a6b69",
+          "name": "Park Błogosławionej Karoliny Kózki",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/313560050"
+        },
+        {
+          "row": 107,
+          "id": "51324b3f39500a364059a2b3648145034940f00102f901cbcf1f0b0000000092031d5061726b20696d2e2057c58261647973c58261776120537a6166657261",
+          "name": "Park im. Władysława Szafera",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/186634187"
+        },
+        {
+          "row": 111,
+          "id": "51511d4551c300364059270674c03b014940f00102f9015b36b72c00000000920329536b776572204b7369c499647a6120496e6675c582617461205374616e6973c582617761204d616361",
+          "name": "Skwer Księdza Infułata Stanisława Maca",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/750204507"
+        },
+        {
+          "row": 115,
+          "id": "512dd2d1bda4f83540590b2fd5b96d074940f00102f901aa75513e000000009203204f6772c3b364206b6965737a6f6e6b6f7779204e79c3ad7265677968c3a17a61",
+          "name": "Ogród kieszonkowy Nyíregyháza",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1045525930"
+        },
+        {
+          "row": 119,
+          "id": "51051f7ce6340a36405909acf145a4074940f00102f9015305be1f0000000092030c5061726b2064776f72736b69",
+          "name": "Park dworski",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/532546899"
+        },
+        {
+          "row": 123,
+          "id": "51e4fc5cbb18f4354059da3d9d6505064940f00102f901d66f2458000000009203185061726b20696d2e204164616d612057c49967727a796e61",
+          "name": "Park im. Adama Węgrzyna",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/1478782934"
+        },
+        {
+          "row": 127,
+          "id": "515b662e337ef835405923bb06b65d084940f00102f90118f5790d0000000092030d5061726b204d69c5826f63696e",
+          "name": "Park Miłocin",
+          "city": "Rzeszów",
+          "sourceUrl": "https://www.openstreetmap.org/way/226096408"
+        },
+        {
+          "row": 143,
+          "id": "5171e5162873fc35405961283987fe0b4940f00102f90137dac01f0000000092030c5061726b2064776f72736b69",
+          "name": "Park dworski",
+          "city": "Zaczernie",
+          "sourceUrl": "https://www.openstreetmap.org/way/532732471"
+        },
+        {
+          "row": 151,
+          "id": "513005f222b7f9354059c784cea2a30c4940f00102f90199c8c31e000000009203085265747972616461",
+          "name": "Retyrada",
+          "city": "Rudna Mała",
+          "sourceUrl": "https://www.openstreetmap.org/way/516147353"
+        },
+        {
+          "row": 155,
+          "id": "5141a7e47928f4354059e2a0331d420c4940f00102f901f34b3f3f000000009203195061726b205374616e6973c58261776120536d796b61c58279",
+          "name": "Park Stanisława Smykały",
+          "city": "Rudna Mała",
+          "sourceUrl": "https://www.openstreetmap.org/way/1061112819"
+        },
+        {
+          "row": 163,
+          "id": "5139abc11a98eb354059e836863dd20b4940f00102f901c976dc1d0000000092030e4c6173656b2077204d726f776c69",
+          "name": "Lasek w Mrowli",
+          "city": "Mrowla",
+          "sourceUrl": "https://www.openstreetmap.org/way/500987593"
+        },
+        {
+          "row": 171,
+          "id": "512a37fe3918f5354059292f4bc0950e4940f00102f9017eb4c33c000000009203235061726b204b7369c499647a612057c58261647973c5826177612042727a75737a6b61",
+          "name": "Park Księdza Władysława Brzuszka",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/way/1019458686"
+        },
+        {
+          "row": 175,
+          "id": "51ded37506dedb354059df9841a5aa014940f00102f901ac68703d0000000092031c7061726b20696d69656e6961205461646575737a61204e616c657079",
+          "name": "park imienia Tadeusza Nalepy",
+          "city": "Zgłobień",
+          "sourceUrl": "https://www.openstreetmap.org/way/1030777004"
+        },
+        {
+          "row": 202,
+          "id": "510af5bfed20ed354059c7de35430bf74840f00102f901dfbb5f11000000009203125374617265204b6fc59b6369656c69736b6f",
+          "name": "Stare Kościelisko",
+          "city": "Lubenia",
+          "sourceUrl": "https://www.openstreetmap.org/way/291486687"
+        },
+        {
+          "row": 205,
+          "id": "510ae62024c2f5354059de4003ed9c134940f00102f90169f97e1c0000000092031c536b77657220696d2e204672616e6369737a6b61204c697477696e61",
+          "name": "Skwer im. Franciszka Litwina",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/way/478083433"
+        },
+        {
+          "row": 211,
+          "id": "5123b2cb321006364059f761631a09144940f00102f90134dac01f0000000092031a5061726b204a616e61204269656e6961737a6577736b6965676f",
+          "name": "Park Jana Bieniaszewskiego",
+          "city": "Wysoka Głogowska",
+          "sourceUrl": "https://www.openstreetmap.org/way/532732468"
+        },
+        {
+          "row": 214,
+          "id": "512be6bc666ef53540595de34cc2aa134940f00102f901496d4d0f0000000092030c5061726b2047726162696e61",
+          "name": "Park Grabina",
+          "city": "Głogów Małopolski",
+          "sourceUrl": "https://www.openstreetmap.org/way/256732489"
+        },
+        {
+          "row": 220,
+          "id": "5197dc6ab3f2dc35405989a7bcfc440f4940f00102f9017ba883180000000092030c5061726b2044776f72736b69",
+          "name": "Park Dworski",
+          "city": "Bratkowice",
+          "sourceUrl": "https://www.openstreetmap.org/way/411281531"
+        },
+        {
+          "row": 226,
+          "id": "515f6fedafd4e73540593a1b354a75144940f00102f90172fb68180000000092031f5061726b204b7369c499647a6120416e746f6e6965676f2042756b61c58279",
+          "name": "Park Księdza Antoniego Bukały",
+          "city": "Budy Głogowskie",
+          "sourceUrl": "https://www.openstreetmap.org/way/409533298"
+        },
+        {
+          "row": 241,
+          "id": "5120c221cba535364059baecc60baefd4840f00102f901a7fa292f0000000092033053746164696f6e204b6c7562752053706f72746f7765676f202247524f4d20535a694b222048616e647a6cc3b3776b61",
+          "name": "Stadion Klubu Sportowego \"GROM SZiK\" Handzlówka",
+          "city": "Handzlówka",
+          "sourceUrl": "https://www.openstreetmap.org/way/791280295"
+        },
+        {
+          "row": 253,
+          "id": "511d5877dcc23a364059bf4bdce4cc084940f00102f90100d9c70200000000920306506c616e7479",
+          "name": "Planty",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/way/46651648"
+        },
+        {
+          "row": 259,
+          "id": "51139fd5fc3c3c36405969a1b0d372084940f00101f901a21859000000000092030a506f776f7a6f776e6961",
+          "name": "Powozownia",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/relation/5839010"
+        },
+        {
+          "row": 265,
+          "id": "51385b07d3dd3c364059e546f323cd084940f00101f90143de94000000000092030c5061726b205a616d6b6f7779",
+          "name": "Park Zamkowy",
+          "city": "Łańcut",
+          "sourceUrl": "https://www.openstreetmap.org/relation/9756227"
+        },
+        {
+          "row": 292,
+          "id": "51431a81e2b51936405930f38f122af14840f00102f901b75c6c1100000000920306506c616e7479",
+          "name": "Planty",
+          "city": "Błażowa",
+          "sourceUrl": "https://www.openstreetmap.org/way/292314295"
+        },
+        {
+          "row": 395,
+          "id": "51ee49bd21295136405904a16e05f7024940f00102f90143af3f470000000092030c5361642050616d69c4996369",
+          "name": "Sad Pamięci",
+          "city": "Markowa",
+          "sourceUrl": "https://www.openstreetmap.org/way/1195355971"
+        },
+        {
+          "row": 463,
+          "id": "51423d100f6cc93540598f0ad7ab4fef4840f00102f90198787c0f00000000920306506c616e7479",
+          "name": "Planty",
+          "city": "Strzyżów",
+          "sourceUrl": "https://www.openstreetmap.org/way/259815576"
+        },
+        {
+          "row": 466,
+          "id": "51101bb2947b483640591e86f106a2f44840f00102f901afa2b81f0000000092030c5061726b2064776f72736b69",
+          "name": "Park dworski",
+          "city": "Hadle Szklarskie",
+          "sourceUrl": "https://www.openstreetmap.org/way/532193967"
+        },
+        {
+          "row": 506,
+          "id": "5183153c236e4836405936b72beeb3f14840f00102f90124adeb490000000092032b476d696e6e79204fc59b726f64656b204b756c747572792077204a61776f726e696b7520506f6c736b696d",
+          "name": "Gminny Ośrodek Kultury w Jaworniku Polskim",
+          "city": "Jawornik Polski",
+          "sourceUrl": "https://www.openstreetmap.org/way/1240182052"
+        },
+        {
+          "row": 510,
+          "id": "514588d351f3483640596dc6be05cef14840f00102f901822fe9490000000092030552796e656b",
+          "name": "Rynek",
+          "city": "Jawornik Polski",
+          "sourceUrl": "https://www.openstreetmap.org/way/1240018818"
+        },
+        {
+          "row": 532,
+          "id": "511971b2168dd735405919a9f399a9e84840f00102f9011da97d1f0000000092030c5061726b2064776f72736b69",
+          "name": "Park dworski",
+          "city": "Żyznów",
+          "sourceUrl": "https://www.openstreetmap.org/way/528328989"
+        },
+        {
+          "row": 538,
+          "id": "51507d0e13ff4236405994529b0faa1c4940f00102f90157f5b202000000009203195a657370c3b3c582206d79c59b6c6977736b69204a756c696e",
+          "name": "Zespół myśliwski Julin",
+          "city": "Wydrze",
+          "sourceUrl": "https://www.openstreetmap.org/way/45282647"
+        },
+        {
+          "row": 544,
+          "id": "5169c4703fa8ce3540595abcbaaeb5204940f00102f901ef72591e000000009203235a657370c3b3c582205061c58261636f776f2d5061726b6f7779207720576572796e69",
+          "name": "Zespół Pałacowo-Parkowy w Weryni",
+          "city": "Werynia",
+          "sourceUrl": "https://www.openstreetmap.org/way/509178607"
+        },
+        {
+          "row": 552,
+          "id": "51af43ae41f7c63540595bebeffb6b1f4940f00102f901aa456e12000000009203144f6772c3b364656b206a6f7264616e6f77736b69",
+          "name": "Ogródek jordanowski",
+          "city": "Kolbuszowa",
+          "sourceUrl": "https://www.openstreetmap.org/way/309216682"
+        },
+        {
+          "row": 563,
+          "id": "51cc889a4396c6354059d6797c41681f4940f00102f9017f869d3c0000000092035542756c77617279206e6164204e696c656d20696d69656e69612042c5826f676f73c5826177696f6e65676f204b7369c499647a61204b617264796e61c582612053746566616e61205779737a79c584736b6965676f",
+          "name": "Bulwary nad Nilem imienia Błogosławionego Księdza Kardynała Stefana Wyszyńskiego",
+          "city": "Kolbuszowa",
+          "sourceUrl": "https://www.openstreetmap.org/way/1016956543"
+        },
+        {
+          "row": 583,
+          "id": "51948a2614103a364059a98958738ce84840f00102f9017ed7f4120000000092030e5061726b20706f64776f72736b69",
+          "name": "Park podworski",
+          "city": "Dynów",
+          "sourceUrl": "https://www.openstreetmap.org/way/318035838"
+        },
+        {
+          "row": 587,
+          "id": "5173967b77febc35405932e7eb2bb61e4940f00102f90179206040000000009203155061726b204e6965706f646c6567c5826fc59b6369",
+          "name": "Park Niepodległości",
+          "city": "Kolbuszowa",
+          "sourceUrl": "https://www.openstreetmap.org/way/1080041593"
+        }
+      ],
+      "concern": "Zróżnicować duże parki od małych skwerów oraz sprawdzić podejrzane kategorie.",
+      "decision": null
+    }
+  ]
+}
