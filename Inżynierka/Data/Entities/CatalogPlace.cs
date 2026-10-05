@@ -24,6 +24,28 @@ public sealed class CatalogPlace
     public string[] ManuallyEditedFields { get; set; } = [];
     public ICollection<PlaceCategory> Categories { get; set; } = new List<PlaceCategory>();
     public ICollection<PlaceSource> Sources { get; set; } = new List<PlaceSource>();
+    public ICollection<PlacePhoto> Photos { get; set; } = new List<PlacePhoto>();
+}
+
+public sealed class PlacePhoto
+{
+    public Guid Id { get; set; }
+    public Guid PlaceId { get; set; }
+    public CatalogPlace Place { get; set; } = null!;
+    public string Provider { get; set; } = "";
+    public string SourceFile { get; set; } = "";
+    public string SourcePageUrl { get; set; } = "";
+    public string OriginalUrl { get; set; } = "";
+    public string ThumbnailUrl { get; set; } = "";
+    public string CachedRelativePath { get; set; } = "";
+    public string Author { get; set; } = "";
+    public string Credit { get; set; } = "";
+    public string License { get; set; } = "";
+    public string LicenseUrl { get; set; } = "";
+    public string MatchMethod { get; set; } = "";
+    public string Metadata { get; set; } = "{}";
+    public DateTimeOffset FetchedAtUtc { get; set; }
+    public string Status { get; set; } = "pending_review";
 }
 
 public sealed class CatalogCategory

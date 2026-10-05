@@ -14,6 +14,10 @@ namespace Inżynierka
                 var localSettings = Path.GetFullPath(Path.Combine(
                     builder.Environment.ContentRootPath, "..", ".local", "supabase.json"));
                 builder.Configuration.AddJsonFile(localSettings, optional: true, reloadOnChange: false);
+                var geoapifyKeyFile = Path.GetFullPath(Path.Combine(
+                    builder.Environment.ContentRootPath, "..", ".local", "geoapify-key.txt"));
+                if (string.IsNullOrWhiteSpace(builder.Configuration["Geoapify:ApiKey"]) && File.Exists(geoapifyKeyFile))
+                    builder.Configuration["Geoapify:ApiKey"] = File.ReadAllText(geoapifyKeyFile).Trim();
                 // Zmienne środowiskowe mają pierwszeństwo przed lokalnym plikiem.
                 builder.Configuration.AddEnvironmentVariables();
             }
@@ -30,6 +34,11 @@ namespace Inżynierka
             builder.Services.AddRazorPages();
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddHttpClient<Services.GeoapifyGeocodingService>(client =>
+            {
+                client.BaseAddress = new Uri("https://api.geoapify.com/");
+                client.Timeout = TimeSpan.FromSeconds(15);
+            }).RemoveAllLoggers(); // URL Geoapify zawiera klucz API i adres użytkownika.
             builder.Services.AddHttpClient<Services.OverpassAttractionService>(client =>
             {
                 client.BaseAddress = new Uri("https://overpass-api.de/api/");
@@ -42,7 +51,7 @@ namespace Inżynierka
                 {
                     Title = "Atrakcje Podkarpacia — API",
                     Version = "v1",
-                    Description = "Kategorie atrakcji i próbne pobieranie danych OSM dla Rzeszowa."
+                    Description = "Katalog atrakcji z Supabase, wyszukiwanie miasta lub adresu, filtry miasta i promienia oraz podgląd OSM."
                 });
             });
 

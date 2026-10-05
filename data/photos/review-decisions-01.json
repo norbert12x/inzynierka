@@ -1,0 +1,22 @@
+{
+  "reviewId": "photo-review-01-Z04-Z05-Z10",
+  "confirmedAtUtc": "2026-10-05T16:38:49.952568+00:00",
+  "actions": [
+    {
+      "label": "Z04",
+      "action": "move_photo_to_parent_and_make_component",
+      "placeId": "ebbb352c-5f63-5364-a818-41d0d5cfa3f5",
+      "parentId": "4402cf21-12ab-5f1c-9802-f07ab332feb7"
+    },
+    {
+      "label": "Z05",
+      "action": "remove_from_catalog_and_reject_photo",
+      "placeId": "05c43e68-5d36-5d2f-8a28-7e8db221a1b4"
+    },
+    {
+      "label": "Z10",
+      "action": "remove_from_catalog_and_reject_photo",
+      "placeId": "b7576011-0f48-50a0-acd8-e10a5b93f027"
+    }
+  ]
+}

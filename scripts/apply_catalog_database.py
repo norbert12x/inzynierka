@@ -48,10 +48,13 @@ def main():
                 print("Połączenie z Supabase: OK. Tabele catalog:", tables)
                 if args.check_only:
                     return 0
-                expected = {"categories", "places", "place_categories", "place_sources"}
+                expected = {"categories", "places", "place_categories", "place_sources",
+                            "place_photos", "photo_fetch_attempts"}
                 if set(tables) - expected:
                     raise ValueError("Schema catalog zawiera inne tabele; import przerwany do przeglądu.")
                 schema = execute_script(connection, ROOT / "database/001_catalog_schema.sql")
+                execute_script(connection, ROOT / "database/003_place_photos.sql")
+                execute_script(connection, ROOT / "database/004_user_provided_photos.sql")
                 first_import = execute_script(connection, ROOT / "database/002_import_beta_catalog.sql")
                 before = connection.execute("""select md5(string_agg(row_to_json(p)::text, '' order by id))
                     from catalog.places p""").fetchone()[0]

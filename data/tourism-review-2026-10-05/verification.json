@@ -1,0 +1,10 @@
+{
+  "verifiedAtUtc": "2026-10-05T17:37:00.693067+00:00",
+  "all600DatabasePlacesMatchCuratedCopy": true,
+  "all600SourceRecordsUnchanged": true,
+  "parentRelationsMatch": true,
+  "openingHoursPreserved": true,
+  "activeRzeszowCount": 65,
+  "activeWithin10KmOfCatalogCenter": 74,
+  "noBuildOrAppStartup": true
+}

@@ -1,25 +1,25 @@
 {
   "records": 600,
   "statuses": {
-    "active": 485,
-    "component": 59,
+    "active": 152,
+    "component": 89,
     "awaiting_photo": 33,
-    "removed": 23
+    "removed": 326
   },
   "categories": {
     "heritage": 252,
     "museums": 40,
-    "nature": 206,
     "recreation": 7,
+    "nature": 206,
     "viewpoints": 9,
     "public-art": 89,
     "culture": 4,
     "religious-sites": 3,
     "other": 22
   },
-  "linkedComponents": 7,
+  "linkedComponents": 37,
   "unassignedComponents": 52,
   "confirmedHours": 1,
-  "catalogSha256": "0a49584ac4868645a5f8b201cc2ef40e1f2181644a802a1c74a63cdbec977361",
+  "catalogSha256": "ed68f0439a331ee426686498e647c3310e1fb7dc66c099931e46a042b34b82f7",
   "note": "To raport przygotowania, nie dowód wykonania importu w Supabase. Brak ponownego pobierania danych."
 }

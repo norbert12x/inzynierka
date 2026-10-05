@@ -19,12 +19,12 @@ Tabele w schemacie `catalog`:
 
 Import rozlicza wszystkie 600 rekordów. Statusy:
 
-- `active`: 485 samodzielnych wpisów;
+- `active`: 152 samodzielne wpisy;
 - `awaiting_photo`: 33 murale, warunkowo zachowane;
-- `component`: 59 elementów (7 powiązanych, 52 do przypisania);
-- `removed`: 23 wpisy zachowane tylko w historii, nie do prezentowania jako atrakcje.
+- `component`: 89 elementów (37 powiązanych, 52 do przypisania);
+- `removed`: 326 wpisów zachowanych tylko w historii, nie do prezentowania jako atrakcje.
 
-Lista atrakcji w kolejnym etapie będzie wybierała tylko `kind='attraction'` i `status='active'`. Konta, wycieczki, oceny i zdjęcia pozostają osobnymi etapami.
+Lista atrakcji wybiera tylko `kind='attraction'` i `status='active'`. Konta, wycieczki i oceny pozostają osobnymi etapami. Zdjęcia są przechowywane w `place_photos`; próby pozyskania w `photo_fetch_attempts`. Selekcję turystyczną wykonano w Supabase poprzez `scripts/apply_tourism_review.py --apply`; wynik w `data/tourism-review-2026-10-05/applied.json`. Ponowny import nie przywraca wyłączonych miejsc.
 
 ## Konfiguracja lokalna
 
@@ -38,6 +38,10 @@ Zmienne środowiskowe mają pierwszeństwo, np. `Database__Password` i `Database
 
 1. `001_catalog_schema.sql`: schemat, cztery tabele, indeksy, dziewięć kategorii i ograniczenia dostępu. PostGIS ma być w `extensions`; skrypt zatrzyma się, jeśli rozszerzenie istnieje w innym schemacie.
 2. `002_import_beta_catalog.sql`: import katalogu. Identyfikatory UUID są deterministyczne względem identyfikatora Geoapify. Miejsca i kategorie istniejących miejsc pozostają bez zmian przy ponowieniu. Zaktualizować można jedynie snapshot źródła z co najmniej taką samą datą pobrania. Dane źródłowe i ręczne korekty pozostają oddzielone.
+3. `003_place_photos.sql`: zdjęcia i zapis prób wyszukiwania. Wymagane przez obecny endpoint listy i zdjęć.
+4. `004_user_provided_photos.sql`: dopuszczenie zdjęć własnych lub udostępnionych przez autorów.
+
+Skrypt `apply_catalog_database.py --apply` wykonuje również schematy 003 i 004. Nie zatwierdza ani nie usuwa istniejących zdjęć.
 
 Można uruchomić pliki kolejno w SQL Editor Supabase. Alternatywnie skrypt `scripts/apply_catalog_database.py` używa lokalnego sterownika PostgreSQL z `.local/python-packages`:
 

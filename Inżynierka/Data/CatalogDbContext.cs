@@ -8,6 +8,7 @@ public sealed class CatalogDbContext(DbContextOptions<CatalogDbContext> options)
     public DbSet<CatalogPlace> Places => Set<CatalogPlace>();
     public DbSet<CatalogCategory> Categories => Set<CatalogCategory>();
     public DbSet<PlaceSource> Sources => Set<PlaceSource>();
+    public DbSet<PlacePhoto> Photos => Set<PlacePhoto>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -60,5 +61,27 @@ public sealed class CatalogDbContext(DbContextOptions<CatalogDbContext> options)
         source.Property(s => s.RawData).HasColumnName("raw_data").HasColumnType("jsonb").IsRequired();
         source.HasIndex(s => new { s.Provider, s.ExternalId }).IsUnique();
         source.HasOne(s => s.Place).WithMany(p => p.Sources).HasForeignKey(s => s.PlaceId);
+
+        var photo = modelBuilder.Entity<PlacePhoto>();
+        photo.ToTable("place_photos");
+        photo.HasKey(p => p.Id);
+        photo.Property(p => p.Id).HasColumnName("id").ValueGeneratedNever();
+        photo.Property(p => p.PlaceId).HasColumnName("place_id");
+        photo.Property(p => p.Provider).HasColumnName("provider");
+        photo.Property(p => p.SourceFile).HasColumnName("source_file");
+        photo.Property(p => p.SourcePageUrl).HasColumnName("source_page_url");
+        photo.Property(p => p.OriginalUrl).HasColumnName("original_url");
+        photo.Property(p => p.ThumbnailUrl).HasColumnName("thumbnail_url");
+        photo.Property(p => p.CachedRelativePath).HasColumnName("cached_relative_path");
+        photo.Property(p => p.Author).HasColumnName("author");
+        photo.Property(p => p.Credit).HasColumnName("credit");
+        photo.Property(p => p.License).HasColumnName("license");
+        photo.Property(p => p.LicenseUrl).HasColumnName("license_url");
+        photo.Property(p => p.MatchMethod).HasColumnName("match_method");
+        photo.Property(p => p.Metadata).HasColumnName("metadata").HasColumnType("jsonb");
+        photo.Property(p => p.FetchedAtUtc).HasColumnName("fetched_at_utc");
+        photo.Property(p => p.Status).HasColumnName("status");
+        photo.HasIndex(p => new { p.PlaceId, p.Provider, p.SourceFile }).IsUnique();
+        photo.HasOne(p => p.Place).WithMany(p => p.Photos).HasForeignKey(p => p.PlaceId);
     }
 }

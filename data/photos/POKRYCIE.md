@@ -1,0 +1,122 @@
+# Pokrycie katalogu zdjęciami
+
+Atrakcje aktywne i murale warunkowe: **185**.
+Zatwierdzone zdjęcie: **1**; propozycja do przeglądu: **73**; bez zdjęcia: **111**.
+Jeszcze niesprawdzone automatycznie: **0**.
+
+Propozycja nie gwarantuje poprawnego dopasowania. Brak zdjęcia nie jest zastępowany przypadkową fotografią ani grafiką udającą zdjęcie obiektu.
+Dla pozostałych miejsc potrzebna jest fotografia własna lub udostępniona przez uprawnionego autora/właściciela. Google nie jest używane, zgodnie z decyzją użytkownika.
+
+## Miejsca bez zdjęcia
+
+- AlpakaTeam - Przygoda z Alpaką — Nosówka; wynik: no_candidate. Strona obiektu: https://alpakateam.pl
+- Bajka Malowana — Rzeszów; wynik: no_candidate.
+- Berdecha — Lecka; wynik: no_candidate.
+- Bicykl — Rzeszów; wynik: no_candidate.
+- Bulwar WSK Rzeszów — Rzeszów; wynik: no_candidate.
+- Burger — Rzeszów; wynik: no_candidate.
+- Centrum Snu — Rzeszów; wynik: no_candidate.
+- Czabajka — Harta; wynik: no_candidate.
+- Dawna Karczma drewniana, 1 ćw. XIX w — Rakszawa; wynik: no_candidate.
+- Deloitte — Rzeszów; wynik: no_candidate.
+- Double Trouble — Rzeszów; wynik: no_candidate.
+- Dziewczynka ze słuchawkami — Rzeszów; wynik: no_candidate.
+- Dzwon Niepodległości — Rzeszów; wynik: no_candidate.
+- Edukacyjna Zagroda Szmer — Godowa; wynik: no_candidate.
+- Fortepian — Łańcut; wynik: no_candidate.
+- Franciszek Kotula — Rzeszów; wynik: no_candidate.
+- Fred Zinnemann — Rzeszów; wynik: no_candidate.
+- Galeria Rzeźby Cermicznej Władysławy Prucnal — Medynia Głogowska; wynik: no_candidate.
+- Gminny Ośrodek Kultury w Jaworniku Polskim — Jawornik Polski; wynik: no_candidate.
+- Góra Zamkowa — Przedmieście Czudeckie; wynik: no_candidate.
+- Grodzisko — Mrowla; wynik: no_candidate.
+- Grodzisko Pierścieniowe Okop — Rzeszów; wynik: no_candidate. Strona obiektu: http://www.lubenia.pl/index.php?action=pages_1&action_id=40
+- Grodzisko średniowieczne — Łańcut; wynik: no_candidate.
+- Izba Pamięci gen. Władysława Sikorskiego — Hyżne; wynik: no_candidate.
+- Jan Paweł II — Kraczkowa; wynik: no_candidate.
+- Kaplica bł. Józefa Kowalskiego — Siedliska; wynik: no_candidate. Strona obiektu: http://www.lubenia.pl/index.php?action=pages_1&action_id=44
+- Kolbuszowskie Muzeum Techniki Militarnej i Użytkowej — Kolbuszowa Dolna; wynik: no_candidate.
+- Kompleks Turystyczny Brzezóvka w Brzezówce — Brzezówka; wynik: no_candidate. Strona obiektu: https://brzezovka.pl/
+- Kopiec Konfederatów Barskich — Rzeszów; wynik: no_candidate.
+- Krzemionka — Niechobrz; wynik: no_candidate.
+- Lasek w Mrowli — Mrowla; wynik: no_candidate.
+- Łysa Góra — Wola Zgłobieńska; wynik: no_candidate.
+- Magiczna Polana — Rzeszów; wynik: no_candidate.
+- Maria Magdalena — gmina Krasne; wynik: no_candidate.
+- Miejsce dawnego Zamku Będziemyskiego — Będziemyśl; wynik: no_candidate. Strona obiektu: https://www.zamki.pl/?idzamku=bedziemysl
+- Miejsce Pamięci - Miejsce byłego obozu NKWD w Trzebusce — Nienadówka; wynik: no_candidate.
+- Mini Zoo — Pstrągowa; wynik: no_candidate. Strona obiektu: https://rozanydworek.pl/hodowla_lam_i_danieli.php
+- Misio i Jaszczur — Rzeszów; wynik: no_candidate.
+- Mural "Pamiętany" — Rzeszów; wynik: no_candidate.
+- Muzeum Energetyki — Rzeszów; wynik: no_candidate.
+- Muzeum Gorzelnictwa — Łańcut; wynik: no_candidate. Strona obiektu: https://muzeumgorzelnictwa.pl/museum.html
+- Muzeum Łowiectwa w Rzeszowie — Rzeszów; wynik: no_candidate.
+- Muzeum Mleczarstwa — Rzeszów; wynik: no_candidate. Strona obiektu: http://zss.rze.pl/?page_id=19
+- Muzeum Pisanek — Błażowa; wynik: no_candidate.
+- Muzeum Regionalne — Zaczernie; wynik: no_candidate.
+- Muzeum Regionalne — Handzlówka; wynik: no_candidate. Strona obiektu: http://www.gminalancut.pl/asp/pl_start.asp?typ=14&menu=98&strona=1
+- Muzeum Samorządowe Ziemi Strzyżowskiej — Strzyżów; wynik: no_candidate. Strona obiektu: https://www.muzeum-strzyzow.pl/
+- Muzeum Silników Stacjonarnych i Techniki Rolniczej „S” — Niebylec; wynik: no_candidate. Strona obiektu: http://muzeumsilnikow.pl/
+- Muzeum Strachów Polnych — Sołonka; wynik: no_candidate. Strona obiektu: http://www.lubenia.pl/index.php?action=pages_1&action_id=760
+- Muzeum T. Kantora — Wielopole Skrzyńskie; wynik: no_candidate. Strona obiektu: https://gokiw.wielopole-skrz.pl/osrodek-dokumentacji-i-historii-regionu-muzeum-t-kantora/
+- Muzeum Techniki i Militariów - Schron Marysieńka — Rzeszów; wynik: no_candidate. Strona obiektu: https://muzeum-techniki.rzeszow.pl/
+- Muzeum wsi Podkarpackiej "Potoki" — Błażowa Górna; wynik: no_candidate. Strona obiektu: https://www.blazowa.com.pl/?c=mdTresc-cmPokaz-107
+- Nasze Maki — Rzeszów; wynik: no_candidate.
+- Niedźwiedź — Błażowa; wynik: no_candidate.
+- Nierzeczywista — Rzeszów; wynik: no_candidate.
+- Papugarnia — Rzeszów; wynik: no_candidate. Strona obiektu: https://www.facebook.com/PapugarniaRzeszow/
+- Park Błogosławionej Karoliny Kózki — Rzeszów; wynik: no_candidate.
+- Park dworski — Rzeszów; wynik: no_candidate.
+- Park dworski — Hadle Szklarskie; wynik: no_candidate.
+- Park dworski — Zaczernie; wynik: no_candidate.
+- Park dworski — Żyznów; wynik: no_candidate.
+- Park Dworski — Bratkowice; wynik: no_candidate.
+- Park Grabina — Głogów Małopolski; wynik: no_candidate.
+- Park im. Władysława Szafera — Rzeszów; wynik: no_candidate.
+- park imienia Tadeusza Nalepy — Zgłobień; wynik: no_candidate.
+- Park Jana Bieniaszewskiego — Wysoka Głogowska; wynik: no_candidate.
+- Park Księdza Władysława Brzuszka — Głogów Małopolski; wynik: no_candidate.
+- Park Kultury i Wypoczynku — Rzeszów; wynik: no_candidate.
+- Park Miłocin — Rzeszów; wynik: no_candidate. Strona obiektu: https://erzeszow.pl/45-mieszkancy/16641-parki-w-rzeszowie/16676-park-na-osiedlu-milocin.html
+- Park Papieski — Rzeszów; wynik: no_candidate.
+- Park podworski — Dynów; wynik: no_candidate.
+- Park Sybiraków — Rzeszów; wynik: no_candidate.
+- Park Zdrowia — Rzeszów; wynik: no_candidate.
+- Piccolo — Rzeszów; wynik: no_candidate.
+- Pizza — Rzeszów; wynik: no_candidate.
+- Plan Wiedemanna — Rzeszów; wynik: no_candidate.
+- Planty — Błażowa; wynik: no_candidate.
+- Planty — Łańcut; wynik: no_candidate.
+- Platforma Widokowa — Czudec; wynik: no_candidate.
+- Pomnik gen. Władysława Sikorskiego — Hyżne; wynik: no_candidate.
+- Pomnik Grunwaldu — Rzeszów; wynik: no_candidate.
+- Pomnik Ignacego Łukasiewicza — Rzeszów; wynik: no_candidate.
+- Pomnik Pamięci Ofiar Terroru Sowieckiego — Sokołów Małopolski; wynik: no_candidate.
+- Pomnik Wolności 1918-1928 — Rzeszów; wynik: no_candidate.
+- Pracownia rodziny Plizgów — Medynia Głogowska; wynik: no_candidate.
+- Prochownia — Łańcut; wynik: no_candidate.
+- Punkt Widzenia — Rzeszów; wynik: no_candidate.
+- Ratośniówki — Strzyżów; wynik: no_candidate.
+- Retyrada — Rudna Mała; wynik: no_candidate.
+- Ruchoma Szopka — Kielanówka; wynik: no_candidate.
+- Rynek — Jawornik Polski; wynik: no_candidate.
+- Saksofon — Rzeszów; wynik: no_candidate. Strona obiektu: http://supernowosci24.pl/muzyczny-mural-na-targowej/
+- Ser — Rzeszów; wynik: no_candidate.
+- Smokówka — Żarnowa; wynik: no_candidate.
+- Super Saiyan Gokū — Rzeszów; wynik: no_candidate.
+- Teatr Narodowy w Rzeszowie — Rzeszów; wynik: no_candidate.
+- Tężnia solankowa — Sołonka; wynik: no_candidate.
+- TKt48-27 — Rzeszów; wynik: no_candidate.
+- Turkusowa Polana — Rzeszów; wynik: no_candidate. Strona obiektu: https://turkusowapolana.pl
+- Widok na Rzeszów — Żarnowa; wynik: no_candidate.
+- widok na Rzeszow i okolice — Medynia Głogowska; wynik: no_candidate.
+- Wiewiórki Świata — Rudna Wielka; wynik: no_candidate. Strona obiektu: www.wiewiorkiswiata.pl
+- Wilcze — Barycz; wynik: no_candidate.
+- Wystawa Starych Motocykli — Sędziszów Małopolski; wynik: no_candidate.
+- Zamek Lubomirskich — Rzeszów; wynik: no_candidate.
+- Zbiorowa Mogiła Żydowska — Głogów Małopolski; wynik: no_candidate.
+- Zbiory Sztuki Cerkiewnej — Łańcut; wynik: no_candidate.
+- Zdobywcom przestrzeni — Rzeszów; wynik: no_candidate.
+- ZPAP — Rzeszów; wynik: no_candidate.
+- Zwierzęta Lisiej Góry — Rzeszów; wynik: no_candidate.
+- Żyj zdrowo w zdrowym świecie — Rzeszów; wynik: no_candidate.

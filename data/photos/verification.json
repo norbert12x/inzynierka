@@ -1,0 +1,33 @@
+{
+  "verifiedPhotoFiles": 121,
+  "photoStatuses": {
+    "pending_review": 81,
+    "rejected": 39,
+    "approved": 1
+  },
+  "placeGroups": [
+    {
+      "kind": "attraction",
+      "status": "active",
+      "count": 152
+    },
+    {
+      "kind": "attraction",
+      "status": "awaiting_photo",
+      "count": 33
+    },
+    {
+      "kind": "attraction",
+      "status": "removed",
+      "count": 326
+    },
+    {
+      "kind": "component",
+      "status": "component",
+      "count": 89
+    }
+  ],
+  "uniquePhotoKeys": true,
+  "cachePathsAndImagesValid": true,
+  "castlePhotoAssignmentValid": true
+}

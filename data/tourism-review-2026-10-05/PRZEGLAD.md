@@ -1,0 +1,531 @@
+# Selekcja atrakcji do wersji beta
+
+Przejrzano 515 samodzielnych rekordów. Wybrano 185 miejsc (152 aktywne oraz 33 murale oczekujące na zdjęcie), 29 powiązano jako elementy większych miejsc, a 301 wyłączono z katalogu.
+
+To ocena redakcyjna przydatności w ogólnej trasie, nie ranking ani potwierdzenie bieżącej dostępności. Powody bazują na danych katalogu i źródłach wskazanych poniżej przy konkretnych rekordach. Brak źródła oznacza ocenę na podstawie danych Geoapify/OSM; nie należy interpretować go jako dowodu, że miejsce jest niedostępne.
+
+Pełne dane i identyfikatory są w DECYZJE.csv oraz decisions.json. Zachowano wcześniejsze decyzje R01–R19 oraz dotyczące zdjęć Z04/Z05/Z10. Wyłączenia będą zachowane w historii, bez kasowania źródeł.
+
+## Miejsca pozostawione
+
+- **#1 Muzeum Etnograficzne im. Franciszka Kotuli** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#5 Papugarnia** — Rzeszów: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#7 Rzeszowskie Piwnice** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#9 Biały Ogród** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#10 Platforma Widokowa** — Czudec: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#11 Magiczna Polana** — Rzeszów: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#13 Muzeum Historii Miasta Rzeszowa** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#15 Plac Ofiar Getta** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#16 Krzemionka** — Niechobrz: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#17 Wiewiórki Świata** — Rudna Wielka: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#18 Pomnik Kazimierza Górskiego** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#19 Nierzeczywista** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej. [Źródło](https://www.rsf.rzeszow.pl/galeria-nierzeczywista-rsf/)
+- **#20 Pomnik Tadeusza Kościuszki** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#21 Plac Wolności** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#22 widok na Rzeszow i okolice** — Medynia Głogowska: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#23 AlpakaTeam - Przygoda z Alpaką** — Nosówka: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#25 Muzeum Dobranocek ze Zbiorów Wojciecha Jamy** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#26 Rynek** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/44-turystyka/1727-atrakcje.html)
+- **#27 Park Jedności Polonii z Macierzą** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#28 Łysa Góra** — Wola Zgłobieńska: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#29 Turkusowa Polana** — Rzeszów: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#31 ZPAP** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#34 Widok na Rzeszów** — Żarnowa: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#35 Mini Zoo** — Pstrągowa: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#37 Muzeum Okręgowe w Rzeszowie** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#40 Wilcze** — Barycz: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#41 Kompleks Turystyczny Brzezóvka w Brzezówce** — Brzezówka: Miejsce oferujące zaplanowaną aktywność lub kontakt ze zwierzętami; przydatne w trasie rodzinnej.
+- **#43 Muzeum Diecezjalne w Rzeszowie** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#45 Ogród Miejski im. Solidarności** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer. [Źródło](https://eko.erzeszow.pl/pl/13-zielony/94-parki-i-zielence.html)
+- **#46 Smokówka** — Żarnowa: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#48 Muzeum Energetyki** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#51 Ratośniówki** — Strzyżów: Punkt oznaczony jako widokowy; cel spaceru i oglądania panoramy, a nie sama nazwa wzniesienia.
+- **#53 Muzeum Łowiectwa w Rzeszowie** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#55 Park Kultury i Wypoczynku** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer. [Źródło](https://eko.erzeszow.pl/pl/13-zielony/94-parki-i-zielence.html)
+- **#56 Irena Sendler** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#57 Muzeum Techniki i Militariów** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#60 Przejście 2001** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#61 Muzeum Mleczarstwa** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#63 Kopiec Konfederatów Barskich** — Rzeszów: Rozpoznawalny kopiec o historii opisanej przez miasto; cel spaceru krajoznawczego. [Źródło](https://erzeszow.pl/print/516/8375/8404)
+- **#65 Muzeum Techniki i Militariów - Schron Marysieńka** — Rzeszów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#67 Park Zdrowia** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#69 Muzeum Regionalne** — Zaczernie: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#74 Tadeusz Nalepa** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#75 Park im. Inwalidów Wojennych** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#76 Plan Wiedemanna** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#77 Podkarpackie Centrum Nauki ,,Łukasiewicz''** — Jasionka: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#79 Bulwar WSK Rzeszów** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#80 PZL 37 Łoś** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#81 Kaplica bł. Józefa Kowalskiego** — Siedliska: Miejsce zachowane zgodnie z wcześniejszą szczegółową decyzją użytkownika.
+- **#84 Déballage** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#85 Regionalny Dom Tradycji Ludowych** — Trzciana: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#88 150 lat Rzeszowskiej Straży Pożarnej** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#89 Muzeum Strachów Polnych** — Sołonka: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#91 Park Sybiraków** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#92 Letni Pałac Lubomirskich** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty. [Źródło](https://erzeszow.pl/44-turystyka/1727-atrakcje.html)
+- **#93 Muzeum Regionalne** — Handzlówka: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#96 Błogosławiona Rodzina Ulmów** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#97 Muzeum Historii Miasta i Regionu (d. Kasyno)** — Łańcut: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#99 Park Papieski** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer. [Źródło](https://eko.erzeszow.pl/pl/13-zielony/94-parki-i-zielence.html)
+- **#101 Muzeum Judaistyczne** — Łańcut: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#102 Pomnik Leopolda Lisa-Kuli** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#103 Park Błogosławionej Karoliny Kózki** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#105 Muzeum wsi Podkarpackiej "Potoki"** — Błażowa Górna: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#107 Park im. Władysława Szafera** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#108 Saksofon** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#109 Muzeum - Zamek w Łańcucie** — Łańcut: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#112 Skrzydła dla Filipa** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#113 Muzeum Gorzelnictwa** — Łańcut: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#117 Izba Pamięci gen. Władysława Sikorskiego** — Hyżne: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#119 Park dworski** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#121 Muzeum Pisanek** — Błażowa: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#125 Społeczne Muzeum Ziemi Błażowskiej** — Błażowa: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#127 Park Miłocin** — Rzeszów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#129 Muzeum Społeczne** — Konieczkowa: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#133 Muzeum Silników Stacjonarnych i Techniki Rolniczej „S”** — Niebylec: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#137 Muzeum Polaków Ratujących Żydów na Podkarpaciu im. Ulmów** — Markowa: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#140 Fred Zinnemann** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#141 Skansen w Markowej** — Markowa: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#143 Park dworski** — Zaczernie: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#144 Pomnik Czynu Rewolucyjnego** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#145 Tunel schronowy** — Strzyżów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#148 Zamek Lubomirskich** — Rzeszów: Miejsce zachowane zgodnie z wcześniejszą szczegółową decyzją użytkownika.
+- **#149 Muzeum Samorządowe Ziemi Strzyżowskiej** — Strzyżów: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#151 Retyrada** — Rudna Mała: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#153 Wystawa Starych Motocykli** — Sędziszów Małopolski: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#157 Dom pamięci ludowej w Weryni** — Werynia: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#158 Pomnik Adama Mickiewicza** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#161 Muzeum Kultury Ludowej** — Brzezówka: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#163 Lasek w Mrowli** — Mrowla: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#167 Maria Magdalena** — gmina Krasne: Wzniesienie powiązane z opublikowanym szlakiem PTTK; cel wycieczki pieszej. [Źródło](https://www.pttk.rzeszow.pl/szlaki-turystyczne.html)
+- **#168 Dziewczynka ze słuchawkami** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#169 Kolbuszowskie Muzeum Techniki Militarnej i Użytkowej** — Kolbuszowa Dolna: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#171 Park Księdza Władysława Brzuszka** — Głogów Małopolski: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#173 Muzeum T. Kantora** — Wielopole Skrzyńskie: Muzeum, skansen lub galeria z ekspozycją; sensowny cel wizyty edukacyjnej.
+- **#175 park imienia Tadeusza Nalepy** — Zgłobień: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#176 Bicykl** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#177 Teatr Narodowy w Rzeszowie** — Rzeszów: Miejsce zachowane zgodnie z wcześniejszą szczegółową decyzją użytkownika.
+- **#179 TKt48-27** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#182 Tomasz Stańko** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#185 Punkt Widzenia** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#186 Dzwon Niepodległości** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#188 Deloitte** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#191 Joker** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#192 Pomnik Józefa Piłsudskiego** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#194 Żyj zdrowo w zdrowym świecie** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#198 Pomnik Łukasza Cieplińskiego** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#200 Nasze Maki** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#206 Tadeusz Nalepa** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#207 Pomnik Chwały Żołnierzy Armii Krajowej Podokręgu Rzeszów AK** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#209 Bajka Malowana** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#210 Jan Pakosławic** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#211 Park Jana Bieniaszewskiego** — Wysoka Głogowska: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#212 Zdobywcom przestrzeni** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty. [Źródło](https://muzeum.tychy.pl/zbiory/sztuka/projekt-rzezby-plenerowej-zdobywcom-przestrzeni/)
+- **#214 Park Grabina** — Głogów Małopolski: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer. [Źródło](https://powiat.rzeszowski.pl/powiat/glogow-malopolski/)
+- **#215 Misio i Jaszczur** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#218 Lot** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#219 Pomnik Generała Władysława Sikorskiego** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#220 Park Dworski** — Bratkowice: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#233 Drabina do Nieba** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#237 Krzyż-Pomnik „Ofiarom Komunizmu”** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#239 Mural "Pamiętany"** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#242 Ignacy Łukasiewicz** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#245 Zwierzęta Lisiej Góry** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#248 Super Saiyan Gokū** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#251 Piccolo** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#253 Planty** — Łańcut: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#256 Góra Zamkowa** — Przedmieście Czudeckie: Góra Zamkowa związana z ruinami zamku czudeckiego, opisana przez gminę jako miejsce warte zobaczenia. [Źródło](https://www.czudec.pl/a/solectwo-przedmiescie-czudeckie)
+- **#258 Pomnik Jana Kochanowskiego** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#259 Powozownia** — Łańcut: Powozownia jest ekspozycją Muzeum - Zamku w Łańcucie, dostępną do zwiedzania; pozostawiono jako miejsce wizyty. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#261 Pomnik Juliusza Słowackiego** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#263 Centrum Snu** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#265 Park Zamkowy** — Łańcut: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#266 Franciszek Kotula** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#269 Pizza** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#270 Pomnik Ofiar Terroru** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#272 Ser** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#275 Double Trouble** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#277 Berdecha** — Lecka: Wzniesienie powiązane z opublikowanym szlakiem PTTK; cel wycieczki pieszej. [Źródło](https://www.pttk.rzeszow.pl/szlaki-turystyczne.html)
+- **#278 Burger** — Rzeszów: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#279 Kamień upamiętniający Marcina Borelowskiego "Lelewela"** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#281 Ruchoma Szopka** — Kielanówka: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#290 Katarzyna Sobczyk** — Tyczyn: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#292 Planty** — Błażowa: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#293 Pałac Lubomirskich w Łące** — Łąka: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#296 Jan Paweł II** — Kraczkowa: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#297 Pomnik Sybiraków** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#299 Grodzisko Pierścieniowe Okop** — Rzeszów: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#304 Pomnik Ignacego Łukasiewicza** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#310 Pomnik Wolności 1918-1928** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#312 Zagroda Garncarska** — Medynia Głogowska: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#315 Galeria Rzeźby Cermicznej Władysławy Prucnal** — Medynia Głogowska: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#318 Fortepian** — Łańcut: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#321 Ławeczka Jana i Stanisława Cetnarskich** — Łańcut: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#339 Rodzina Ulmów** — Łańcut: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#342 Niedźwiedź** — Błażowa: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#364 Czabajka** — Harta: Wzniesienie powiązane z opublikowanym szlakiem PTTK; cel wycieczki pieszej. [Źródło](https://www.pttk.rzeszow.pl/szlaki-turystyczne.html)
+- **#365 Stajnie** — Łańcut: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#371 Zbiory Sztuki Cerkiewnej** — Łańcut: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#385 Tężnia solankowa** — Sołonka: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#396 Storczykarnia** — Łańcut: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#402 Pracownia rodziny Plizgów** — Medynia Głogowska: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#411 Gmina Błażowa – Naturalnie Nowoczesna** — Błażowa: Mural zachowany zgodnie z wcześniejszą decyzją użytkownika; wymaga poprawnie dopasowanego i zatwierdzonego zdjęcia.
+- **#415 Pomnik Grunwaldu** — Rzeszów: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem. [Źródło](https://erzeszow.pl/1073-zabytki-rzeszowa/24283-pomniki.html)
+- **#429 Dawna Karczma drewniana, 1 ćw. XIX w** — Rakszawa: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#435 Edukacyjna Zagroda Szmer** — Godowa: Zabytek, ekspozycja, rzemiosło lub charakterystyczny obiekt sztuki publicznej; rozpoznawalny cel krótkiej wizyty.
+- **#450 Grodzisko** — Mrowla: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#460 Zbiorowa Mogiła Żydowska** — Głogów Małopolski: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#463 Planty** — Strzyżów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#466 Park dworski** — Hadle Szklarskie: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#493 Pomnik Walk i Męczeństwa** — Głogów Małopolski: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#506 Gminny Ośrodek Kultury w Jaworniku Polskim** — Jawornik Polski: Miejsce zachowane zgodnie z wcześniejszą szczegółową decyzją użytkownika.
+- **#510 Rynek** — Jawornik Polski: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#511 Pomnik Krzysztofa Głowy** — Głogów Małopolski: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#519 Miejsce dawnego Zamku Będziemyskiego** — Będziemyśl: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#527 Prochownia** — Łańcut: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#532 Park dworski** — Żyznów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#538 Zespół myśliwski Julin** — Wydrze: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#544 Zespół Pałacowo-Parkowy w Weryni** — Werynia: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#551 Grodzisko średniowieczne** — Łańcut: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#563 Bulwary nad Nilem imienia Błogosławionego Księdza Kardynała Stefana Wyszyńskiego** — Kolbuszowa: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#566 Pomnik gen. Władysława Sikorskiego** — Hyżne: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#583 Park podworski** — Dynów: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#586 Miejsce Pamięci - Miejsce byłego obozu NKWD w Trzebusce** — Nienadówka: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+- **#587 Park Niepodległości** — Kolbuszowa: Park, planty, bulwary lub historyczny zespół zieleni; miejsce na spacer, a nie pojedynczy mały skwer.
+- **#599 Pomnik Pamięci Ofiar Terroru Sowieckiego** — Sokołów Małopolski: Wybrany pomnik, rynek, miejsce pamięci lub pozostałość fortyfikacji o wartości krajoznawczej; może być krótkim przystankiem.
+
+## Elementy większych miejsc
+
+- **#100 Taniec Życia** — Rzeszów: Rzeźba przy teatrze; element wizyty w miejscu wskazanym wcześniej przez użytkownika.
+- **#116 Adam Lazarowicz** — Rzeszów: Jedno z sześciu popiersi należących do zespołu pomnika Łukasza Cieplińskiego. [Źródło](https://rzeszowpodkarpackie.com/pomniki-rzeszow/)
+- **#120 Józef Batory** — Rzeszów: Jedno z sześciu popiersi należących do zespołu pomnika Łukasza Cieplińskiego. [Źródło](https://rzeszowpodkarpackie.com/pomniki-rzeszow/)
+- **#124 Mieczysław Kawalec** — Rzeszów: Jedno z sześciu popiersi należących do zespołu pomnika Łukasza Cieplińskiego. [Źródło](https://rzeszowpodkarpackie.com/pomniki-rzeszow/)
+- **#128 Józef Rzepka** — Rzeszów: Jedno z sześciu popiersi należących do zespołu pomnika Łukasza Cieplińskiego. [Źródło](https://rzeszowpodkarpackie.com/pomniki-rzeszow/)
+- **#132 Franciszek Błażej** — Rzeszów: Jedno z sześciu popiersi należących do zespołu pomnika Łukasza Cieplińskiego. [Źródło](https://rzeszowpodkarpackie.com/pomniki-rzeszow/)
+- **#136 Karol Chmiel** — Rzeszów: Jedno z sześciu popiersi należących do zespołu pomnika Łukasza Cieplińskiego. [Źródło](https://rzeszowpodkarpackie.com/pomniki-rzeszow/)
+- **#156 Jaszczurka** — Rzeszów: Rzeźba przy Alei Gwiazd Sportowców Polonijnych w Parku Jedności Polonii z Macierzą; element spaceru.
+- **#160 Ślimak** — Rzeszów: Rzeźba przy Alei Gwiazd Sportowców Polonijnych w Parku Jedności Polonii z Macierzą; element spaceru.
+- **#164 Żaba** — Rzeszów: Rzeźba przy Alei Gwiazd Sportowców Polonijnych w Parku Jedności Polonii z Macierzą; element spaceru.
+- **#172 Kobieta klasyczna** — Rzeszów: Rzeźba przy Alei Gwiazd Sportowców Polonijnych w Parku Jedności Polonii z Macierzą; element spaceru.
+- **#203 Pomnik Stanisława Nitki** — Rzeszów: Pomnik przewoźnika nad Wisłokiem; element spaceru po Parku Kultury i Wypoczynku.
+- **#330 Kleopatra** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#333 Apollo** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#336 Putto - chłopiec z kulą** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#345 Diana** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#348 Glorietta** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#351 Kobieta upinająca wianek na głowie** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#354 Zegar słoneczny** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#368 Lew** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#374 Św. Hubert** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#377 Bachus na panterze** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#380 Kolumna z orłem** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#383 Źródło Solanki** — Sołonka: Źródło solanki i sąsiednia tężnia tworzą jedno miejsce; źródło jako element tężni.
+- **#388 Diana z jeleniem** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#391 Młodzieniec walczący z wężem** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#395 Sad Pamięci** — Markowa: Sad Pamięci jest integralną częścią Muzeum im. Ulmów; jedna wizyta. [Źródło](https://muzeumulmow.pl/pl/muzeum/sad-pamieci/)
+- **#399 Zameczek Romantyczny** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+- **#405 Pawilon (Elizin)** — Łańcut: Mała architektura lub pawilon w Parku Zamkowym; element spaceru po parku. [Źródło](https://zamek-lancut.pl/zasady-zwiedzania)
+
+## Miejsca wyłączone
+
+- **#3 Skwer im. Kazimierza Górskiego** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#33 Skwer im. ks. Józefa Hermana Osińskiego** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#39 Skwer prof. dr hab. n. med. Lesława Grzegorczyka** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#47 Jan Nepomucen** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#50 Ogród Kieszonkowy** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#59 Park kieszonkowy** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#64 Stanisław Konarski** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#68 Ptak** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#71 ogródek jordanowski** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#72 Strusie** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#73 Izba Tradycji Zapel S.A.** — Boguchwała: Izba na terenie wydziału produkcyjnego zakładu; źródło potwierdza istnienie, ale nie regularną ofertę dla zwiedzających. Po potwierdzeniu dostępu można przywrócić. [Źródło](https://zapel.com.pl/historia/)
+- **#78 Michał Stasiuk** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#82 Pomieci 40 mieszkańców Rzeszowa aresztowanych 1 maja 1940 roku i przewiezionych 14 czerwca 1940 roku z Tarnowa pierwszym transportem do niemieckiego obozu koncentracyjnego Auschwitz.** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#83 Ogród kieszonkowy Bielefeld** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#87 Park Niezapominajki** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#95 Ogród kieszonkowy - Klagenfurt** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#110 Tablica pamiątkowa w miejscu kirkutu;XVI-wieczny Cmentarz Żydowski** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#111 Skwer Księdza Infułata Stanisława Maca** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#115 Ogród kieszonkowy Nyíregyháza** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#123 Park im. Adama Węgrzyna** — Rzeszów: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#131 Łysa Góra** — Rzeszów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#135 Wzgórze Matysa** — Rzeszów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#139 Kopiec** — Kielanówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#142 Pomnik Wdzięczności Armii Czerwonej** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#147 Patryja** — gmina Krasne: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#155 Park Stanisława Smykały** — Rudna Mała: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#159 Kamionka** — gmina Krasne: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#178 Jasna Góra** — Borek Stary: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#181 Kamionka** — Kraczkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#184 Dalnica** — Tyczyn: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#187 Zimna Góra** — Kraczkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#190 Patryja** — Kraczkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#193 Dział** — Niechobrz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#195 Św. Jan z Dukli** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#196 Cyp** — Lubenia: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#199 Dereniówka** — Zgłobień: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#202 Stare Kościelisko** — Lubenia: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#204 Figura Matki Boskiej Rzeszowskiej** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#205 Skwer im. Franciszka Litwina** — Głogów Małopolski: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#208 Babia Góra** — Zgłobień: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#217 Szklana Góra** — Borek Stary: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#223 Koziniec** — Nowy Borek: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#226 Park Księdza Antoniego Bukały** — Budy Głogowskie: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#228 Katastrofa smoleńska** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#229 Dział** — Handzlówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#231 1050. rocznica Chrztu Polski** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#232 Szalowe Góry** — Błażowa Dolna: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#234 W 100. rocznicę powstania Związku Harcerstwa Polskiego** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#235 Kamionki** — Hyżne: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#236 Żubr** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#238 Kamieniec** — Błędowa Tyczyńska: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#240 Figura Świętej Katarzyny** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#243 Solidarność** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#244 Stawiska** — Połomia: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#247 Kopiec** — Hyżne: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#249 Kazimierz Pułaski** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#250 Jaźwia Góra** — Pogwizdów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#254 Ikar** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#255 Pomnik św. Jana Nepomucena** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#257 Rosiczka** — Rzeszów: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#262 Łysa Góra** — Handzlówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#264 Stefan Wyszyński** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#267 Jan Paweł II** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#268 Zimny Dział** — Straszydle: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#271 Wilcza Góra** — Czarna: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#273 Pomnik Jana Pawła II** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#274 Jastrzębia Góra** — Poręby Kupieńskie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#276 Szczęść Boże 1957-2007** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#280 Ciemnica** — Hyżne: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#282 Wincenty Witos** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#283 Chełm** — Iwierzyce: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#286 Łysa Góra** — Nienadówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#287 ks. ppłk. Stanisław Żytkiewicz** — Boguchwała: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#288 Pomnik Matki Bożej** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#289 Wielki Dział** — Przedmieście Czudeckie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#291 Jezus w Koronie** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#295 Patryja** — Husów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#298 Dział** — Błażowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#301 Figura Najśw. Serca Pana Jezusa** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#302 Średni Dział** — Lecka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#303 Figura Matki Boskiej** — Sołonka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#305 Działy** — Pstrągowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#307 Czarny Krzyż** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#308 Bycza Góra** — Błażowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#309 Powóz** — Łańcut: Ozdoba/promocja miejsca z oznaczeniem braku dostępu; nie stanowi celu wizyty w becie.
+- **#311 Zubrowa Góra** — Poręby Kupieńskie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#313 Błogosławiona Karolina** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#314 Cisowiec Duży** — Piątkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#316 Osada z epoki kamienia** — Rzeszów: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#317 Zapady** — Piątkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#319 Polegli Żołnierze Radzieccy** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#320 Łysa Góra** — Trzeboś: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#322 Polegli Żołnierze Ludowego Wojska Polskiego** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#323 Lisia Góra** — Dąbrówki: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#324 Józef Piłsudski** — Łańcut: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#325 Drabinianka** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#326 Górki** — Piątkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#329 Mała Góra** — Trzeboś: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#332 Kamionka** — Husów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#335 Cykuł** — Pstrągowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#337 Figura Matki Bożej Różańcowej** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#338 Wysoka Góra** — Piątkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#340 Poległym** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#341 Barania Góra** — Sonina: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#343 Pomnik Jana Pawła II** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#344 Żabia Góra** — Gwoździanka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#346 Jezus** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#347 Betkówki** — Pstrągowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#349 Figura Maryji** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#350 Działy** — Tarnawka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#352 Święty Florian** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#353 Biedroniówka** — Husów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#355 Pomnik rozstrzelanych przez Niemców w 1944r.** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#356 Łysa Góra** — Sędziszów Małopolski: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#357 Święty Antoni** — gmina Krasne: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#358 Łysa Góra** — Gwoźnica Górna: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#359 Ohel Naftalego Cwi Horowica z Ropczyc syna Menachema Mendla Rubina** — Łańcut: Pojedynczy grobowiec; brak w katalogu większego miejsca/zweryfikowanej oferty trasy dziedzictwa. Wyłączony z samodzielnych przystanków beta.
+- **#360 Osada z epoki brązu** — Rzeszów: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#361 Szewski Stołek** — Czarna Sędziszowska: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#362 Ohel Eleazara syna Cwi Elimelecha Szapiro z Dynowa** — Łańcut: Pojedynczy grobowiec; brak w katalogu większego miejsca/zweryfikowanej oferty trasy dziedzictwa. Wyłączony z samodzielnych przystanków beta.
+- **#363 Św. Andrzej Bobola** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#366 Osada z epoki brązu** — Rzeszów: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#367 Kopalina** — Żarnowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#369 Osada z epoki żelaza** — Rzeszów: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#370 Kamieniec** — Futoma: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#372 Średniowieczny punkt osadniczy** — Rzeszów: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#373 Pod Przylaskiem** — Dylągówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#375 Głaz Grażyny Gęsickiej** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#376 Łysa Góra** — Husów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#378 Osada kultury ceramiki wstęgowej** — Rzeszów: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#379 Lotnisko** — Kosina: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#381 Poległym Żołnierzom LWP i Armi Radzieckiej** — Trzebownisko: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#382 Ostra Góra** — Dylągówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#384 Pomnik Jana Pawła II** — Rzeszów: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#386 Polegli legioniści** — Zaczernie: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#387 Czubata Górka** — Czarna Sędziszowska: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#390 Wychylówka** — Pstrągowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#392 Osada z epoki żelaza** — Rudna Wielka: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#393 Pomnik św. Floriana** — Łańcut: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#394 Pamięci rozstrzelanym przez hitlerowców** — Rudna Wielka: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#397 Krzyż Juliana Babiaka** — Boguchwała: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#398 Patryja** — Tarnawka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#400 Mogiła żołnierzy AK** — Boguchwała: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#401 Mogiła** — Markowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#403 Grunwald 1410-1910** — Boguchwała: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#404 Wielki Dział** — Szklary: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#406 600-lecie militarnego zwycięstwa pod Grunwaldem 1410-2010** — Boguchwała: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#407 Sępia** — Bystrzyca: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#408 Papież JPII** — Połomia: Drobna dekoracja, figura lub instalacja niewybrana jako samodzielny cel wycieczki w becie.
+- **#409 Tadeusz Kościuszko** — Boguchwała: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#410 Ostry Stok** — Hadle Szklarskie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#413 Buczkowskie** — Konieczkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#414 Jana Pawła II** — Wesoła: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#416 Kamienica** — Futoma: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#417 św. Florian** — Widełka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#419 Góra Żarnowska** — Strzyżów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#420 św. Michał Archanioł** — Widełka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#421 Stanowisko z epoki żelaza** — Głogów Małopolski: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#422 Kozłowa Góra** — Gwoźnica Górna: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#423 Jan Paweł II** — Widełka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#424 Ludwik Wodzicki** — Tyczyn: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#425 Spalona Baba** — Lipnik: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#426 św. Florian** — Kupno: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#427 Pamiątka kościoła św. Krzyża** — Tyczyn: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#428 Kozia Góra** — Kąkolówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#430 Jubileusz Grunwaldu 1410-1910** — Tyczyn: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#431 Kamienna Góra** — Kąkolówka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#432 św. Onufry** — Sokołów Małopolski: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#434 Góra Białówka** — Tropie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#437 Kłapacz** — Pstrągowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#438 Pomnik Czynu Patriotycznego A.D. 1991** — Tyczyn: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#439 Górki** — Markowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#440 Jan Paweł II** — Boguchwała: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#441 Dział** — Konieczkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#442 Pamięci Pomordowanych przez Hitlerowców Członków Ruchu Oporu** — Rzeszów: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#443 Bulcowa** — Konieczkowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#444 Osada z epoki brązu** — Mrowla: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#445 Zagranicze** — Domatków: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#446 św. Florian** — Jasionka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#447 Jamne** — Gwoźnica Górna: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#448 Grunwald** — Jasionka: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#449 Stawiska** — Harta: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#451 Łysa Góra** — Werynia: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#452 Dwudziestolecie Niepodległości 1918-1938** — Mogielnica: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#453 Stanciówka** — Barycz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#454 Figura Chrystusa** — Jasionka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#455 Szklarska Góra** — Szklary: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#456 Archanioł Michał** — Jasionka: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#457 Kamionka** — Barycz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#459 Kąt** — Grodzisko: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#461 Kamieniec** — Nawsie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#462 Pomink pamięci poległych Żydów** — Głogów Małopolski: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#464 Łysa Góra** — Wólka Niedźwiedzka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#465 300km dróg** — Rzeszów: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#467 Bohaterom Poległym za Wolność w Rocznicę Powstania** — Borek Stary: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#468 Łysa Góra** — Gnojnica: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#469 Pomnik św. Floriana** — Tyczyn: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#470 Babia Góra** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#471 Pomnik Chwały Grunwaldzkiej** — Kraczkowa: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#472 Bąkowa Górka** — Markowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#473 Osada z epoki kamienia** — Kraczkowa: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#474 Straśliwy** — Dobrzechów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#475 Pomnik poległych w I i II wojnie światowej** — Wólka Podleśna: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#476 Dział** — Zawadka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#477 Dąb Papieski** — Głogów Małopolski: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#478 Za Figurą** — Grodzisko: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#479 Poległym** — Stobierna: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#480 Folwark** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#482 Lisie Góry** — Żołynia: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#483 Krzyż na górce** — Głogów Małopolski: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#484 Kamieniec** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#485 Za Polskę, Wolność, Lud Partyzantom** — Borek Stary: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#486 Plebańskie** — Grodzisko: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#487 Krzyż 1938r.** — Wola Rafałowska: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#488 Stecówka** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#490 Giewont** — Żołynia: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#491 Miejsce pamięci narodowej** — Babica: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#492 Bania** — Łubno: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#494 Francicowa Górka** — Dobrzechów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#495 Kamień poświęcony Janowi III Sobieskiemu** — Głogów Małopolski: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#496 Ostry Dział** — Łubno: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#498 Dział** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#499 Matka Boża Niepokalanie Poczęta** — Głogów Małopolski: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#500 Góra Wysoka** — Harta: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#501 Pomnik poległych za Ojczyznę** — Głogów Małopolski: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#502 Podlesie** — Grodzisko: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#503 Pomnik Świętego Floriana** — Głogów Małopolski: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#504 Łysa Góra** — Zielonka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#505 Pomnik Jana Pawła II** — Głogów Małopolski: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#507 Pomnik Maksymiliana Kolbe** — Głogów Małopolski: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#508 Dancerówka** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#509 Pomnik Kardynała Stefana Wyszyńskiego** — Głogów Małopolski: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#512 Wniarzówka** — Żyznów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#513 Aleksander Ładoś** — Głogów Małopolski: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#514 Na Dziale** — Manasterz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#515 Wykopalisko archeologiczne** — Budy Głogowskie: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#516 Karczmarówka** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#517 Obozowisko z epoki kamienia** — Budy Głogowskie: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#518 Banasiowa Góra** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#520 Dział Zięziów** — Manasterz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#522 Pańska Góra** — Domaradz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#523 Pradziejowe stanowisko archeologiczne** — Łańcut: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#524 Sochówka** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#525 100. rocznica odzyskania niepodległości** — Czudec: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#526 Mijów** — Manasterz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#528 Góra pod Michałkiem** — Białobrzegi: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#529 Jan Paweł II** — Czudec: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#530 Skotnik** — Siedleczka: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#531 Jerzy Popiełuszko** — Czudec: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#534 Górka Weryńska** — Kolbuszowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#535 Hołd Pomordowanym** — Sołonka: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#536 Zmuliska** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#537 Osada z epoki kamienia** — Albigowa: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#539 Krzyż milenijny** — Będziemyśl: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#540 Jasna Góra** — Wesoła: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#541 Pomnik Pomordowanych Mieszkańców w czasie II Wojny Światowej** — Medynia Głogowska: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#542 Patryja** — Wysoka Strzyżowska: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#543 Egzekucja 5 III 1944** — Łańcut: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#545 Pomnik ofiar Holokaustu** — Łańcut: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#546 Golgota** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#547 Kamień upamiętniający lipę króla Jagiełły** — Łańcut: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#548 Łysa Góra** — Kopanie Żołyńskie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#549 Osada z epoki kamienia** — Albigowa: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#550 Strażowa** — Wielopole Skrzyńskie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#552 Ogródek jordanowski** — Kolbuszowa: Mały skwer, ogród kieszonkowy lub ogródek jordanowski; lokalna przestrzeń wypoczynku o małej wartości jako osobny cel wycieczki.
+- **#553 Kamieńce** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#555 Polanka** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#557 Godowska Góra** — Godowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#558 Osada z epoki kamienia** — Łańcut: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#559 Siwa Góra** — Hucisko Jawornickie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#560 Grunwald** — Handzlówka: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#561 Jasna Góra** — Golcowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#562 Wiesław Krawczyński** — Łańcut: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#564 Pomnik Czynu Chłopskiego** — Będziemyśl: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#565 Żydowska Góra** — Dynów: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#567 Wisowa Górka** — Ropczyce: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#569 Skotnik** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#571 Hyb** — Domaradz: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#572 Historyczna granica gmin** — Czudec: Kamień, tablica lub znak upamiętniający; lokalny punkt informacyjny bez osobnej aktywności turystycznej.
+- **#573 Kamieniec** — Wesoła: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#574 Krzyż żołnierza** — Łańcut: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#575 Kłapówka** — Zagórze: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#576 Pomnik ks. Adolfa Kowala** — Błażowa: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#577 Graniczna Górka** — Ropczyce: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#578 Pomnik króla Władysława Jagiełły** — Błażowa: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#579 Strzałówka** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#580 Krzyż Milenijny** — Błażowa: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#581 Łysa Góra** — Lutcza: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#582 Pradziejowe stanowisko archeologiczne** — Łańcut: Stanowisko/osada archeologiczna; wpis nie potwierdza ekspozycji ani pozostałości nadających się do oglądania. Wyłączone z beta, a nie uznane za bezwartościowe.
+- **#584 Figura św. Jana Nepomucena z 1883 roku** — Sielec: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#585 Księża Góra** — Budy Łańcuckie: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#588 Kapliczka przydrożna z krzyżem, rok fundowania 1910** — Błażowa: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#589 Dębowiec** — Izdebki: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#590 Statua Jezusa** — Błażowa: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#591 Baranek** — gmina Wiśniowa: W danych jest przede wszystkim nazwa i wysokość wzniesienia; brak podstaw do uznania go za osobny cel turystyczny w tej becie.
+- **#592 Krzyż milenijny** — Sielec: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#593 Ustanie pandemii hiszpanki w 1920** — Widełka: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#595 Pomnik Grunwaldu** — Sędziszów Małopolski: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#596 Krzyż przydrożny** — Trzebuska: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
+- **#597 ks. Jerzego Popiełuszki** — Niebylec: Lokalny pomnik lub upamiętnienie niewybrane do ograniczonego katalogu ogólnych tras beta. Można przywrócić dla trasy tematycznej.
+- **#598 Św. Floriana** — Niebylec: Przydrożna figura, krzyż lub lokalny pomnik sakralny; nie wybrano go jako samodzielnego celu ogólnej trasy turystycznej.
