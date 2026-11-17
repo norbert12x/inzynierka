@@ -1,5 +1,34 @@
 # Atrakcje Podkarpacia
 
+Opis i wymagania: [docs/opis-aplikacji.md](docs/opis-aplikacji.md). Plan prac: [docs/plan-prac.md](docs/plan-prac.md) (zastępuje sekcję „Plan dalszych małych etapów” poniżej). Zasady dla asystentów AI: [AGENTS.md](AGENTS.md).
+
+## Szczegóły atrakcji — test w Swaggerze
+
+`GET /api/attractions/{id}` zwraca jedną aktywną atrakcję: nazwę, opis, adres, współrzędne, stronę WWW, kategorie, godziny z informacją o weryfikacji, `estimatedVisitMinutes`, elementy obiektu (`components`), zatwierdzone zdjęcia z autorem i licencją oraz `attribution` (źródło danych). Pola `null` oznaczają brak danych: `openingHours=null` to nieznane godziny, nie „całodobowo”. Opisy i czasy wizyt są na razie puste (zadania 1.2 i 1.5).
+
+| Przypadek | `id` | Oczekiwany wynik |
+|---|---|---|
+| Aktywna, ze zdjęciem i elementem | `4402cf21-12ab-5f1c-9802-f07ab332feb7` (Muzeum – Zamek w Łańcucie) | 200, `photos` z 1 zdjęciem, `components` niepuste |
+| Aktywna, wiele elementów | `35218f72-3197-51c7-a458-2b77cc3da29e` (Park Zamkowy) | 200, lista `components` |
+| Aktywna, bez zdjęć | `41f02db7-7ab3-5642-b04a-be599c3f228e` (Muzeum Etnograficzne) | 200, `photos=[]` |
+| Usunięta w selekcji | `3ac53e57-a866-58c0-ba9c-2eb1f1c2e63e` (Skwer im. K. Górskiego) | 404 |
+| Mural czekający na zdjęcie | `c7bd67ab-a017-5ad2-9012-0acd29a87e7d` (Irena Sendler) | 404 |
+| Element obiektu | `460717b8-9b5a-5224-8b93-17e9187d466c` (Taniec Życia) | 404 |
+| Nieistniejąca | `00000000-0000-0000-0000-000000000000` | 404 |
+| Nie-GUID | `/api/attractions/abc` | 404 (trasa nie pasuje) |
+
+Kod: `Controllers/AttractionsController.cs` (metoda `Details`), `Models/AttractionDetails.cs`. Plik zatwierdzonego zdjęcia Zamku w Łańcucie jest obecnie brakujący w `.local/photo-cache` (zadanie 1.4), więc `imageUrl` zwróci 404 — sam wpis zdjęcia w odpowiedzi jest poprawny.
+
+## Obszary katalogu — test w Swaggerze
+
+Obszary (nazwa, środek, promień) są w `Inżynierka/appsettings.json`, sekcja `Catalog:Regions`, a nie w kodzie. Na start jeden: `rzeszow`, „Rzeszów i okolice”, środek 50.037, 22.004, promień 30 km. Kolejny obszar = nowy wpis w tablicy. Dokładnie jeden wpis ma `IsDefault: true`.
+
+1. `GET /api/regions` → HTTP 200, `items` z jednym obszarem `rzeszow`, `isDefault: true`. Nie wymaga bazy ani klucza API.
+2. Środek i promień obszaru można podać w `GET /api/attractions?latitude=50.037&longitude=22.004&radiusKm=30`.
+3. Błędna konfiguracja zatrzymuje start aplikacji z komunikatem `Catalog:Regions...`. Sprawdzenie: zmień tymczasowo `RadiusKm` na `0` → aplikacja nie wystartuje; przywróć `30`.
+
+Reguły walidacji sprawdzają testy `Inżynierka.Tests/CatalogOptionsValidatorTests.cs` (także poprawność prawdziwego `appsettings.json`).
+
 Automatyczne pobieranie propozycji zdjęć: `scripts/fetch_place_photos.py --limit 20`. Opis, ograniczenia i instrukcja w `data/photos/README.md`; lista propozycji w `data/photos/DO_PRZEJRZENIA.md`. Zdjęcia wymagają przeglądu przed publikacją.
 
 Obsługa zdjęć w API: `/api/attractions/{id}/photos` i lokalny podgląd propozycji w Development przez `?includePending=true`. Parametr `requirePhoto=true` na liście atrakcji wybiera tylko miejsca z zatwierdzonym zdjęciem. Pełny stan pokrycia i braki: `data/photos/POKRYCIE.md`. Google nie jest używane, zgodnie z decyzją użytkownika.
@@ -105,31 +134,9 @@ Kategorie są propozycją do przetestowania. Nie są jeszcze importem OSM ani li
 
 Konfiguracja Swaggera opiera się na [dokumentacji Microsoft](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-8.0) i pakiecie [Swashbuckle.AspNetCore 9.0.6](https://www.nuget.org/packages/Swashbuckle.AspNetCore/9.0.6).
 
-## Etap 2 — podgląd danych OSM dla Rzeszowa
+## Etap 2 — podgląd danych OSM (usunięty)
 
-Kod przygotowany do Twojego testu. Zgodnie z ustaleniem nie uruchamiano builda ani aplikacji.
-
-1. Uruchom projekt w Visual Studio i otwórz Swagger.
-2. Rozwiń `GET /api/attractions/preview/rzeszow` w sekcji `Attractions`.
-3. Kliknij **Try it out → Execute**. Nie ma parametrów ani klucza API.
-4. Przy HTTP 200 sprawdź `count` i listę `attractions`. Liczba wyników zależy od bieżących danych OSM.
-5. Otwórz kilka `sourceUrl` i porównaj nazwy oraz lokalizacje ze znanymi Ci miejscami.
-
-Pobieramy wybrane obiekty turystyczne i historyczne wokół punktu 50.037, 22.004, w promieniu 3000 m. To próba jakości danych, nie pełna lista atrakcji i nie granice administracyjne Rzeszowa. Zapytanie używa filtra [around z dokumentacji Overpass](https://dev.overpass-api.de/overpass-doc/en/full_data/polygon.html). Dla rozległych obiektów filtr może uwzględnić fragment geometrii znajdujący się w promieniu, choć zwrócony środek leży dalej.
-
-- `osmType` + `osmId`: wspólny identyfikator źródłowy (sam numer nie wystarczy).
-- `categoryCodes`: kategorie zgodne ze słownikiem API. Pusta lista oznacza, że brak podstaw do przypisania kategorii. Nie wyszukujemy jeszcze niezależnie wszystkich obiektów przyrodniczych i sakralnych.
-- `latitude`, `longitude`: współrzędne; `isApproximateLocation=true` dla środka obszaru lub relacji. To nie jest lokalizacja wejścia ani parkingu.
-- `openingHours`: surowy zapis OSM, bez interpretacji i weryfikacji aktualności. `null` oznacza brak danych, nie całodobową dostępność.
-- `rawElementCount`, `skippedElementCount`: liczba pobranych i pominiętych rekordów. Pomijamy brak nazwy, niepoprawną lokalizację/identyfikator i powtórzony identyfikator. Różne identyfikatory tego samego miejsca nie są scalane.
-- `fetchedAtUtc`: czas pobrania, nie data weryfikacji atrakcji.
-- `attribution`, `licenseUrl`: oznaczenie źródła danych.
-
-Każde Execute wysyła jedno zapytanie do publicznego Overpass. Nie ma automatycznych ponowień ani zapisu w bazie. Poczekaj na odpowiedź przed kolejną próbą. HTTP 503 oznacza problem połączenia lub odrzucenie przez dostawcę, 504 przekroczenie czasu oczekiwania, a 502 niepoprawną albo niepełną odpowiedź. W tych przypadkach API zwraca opis błędu zamiast pozornie poprawnej pustej listy.
-
-Kod do przejrzenia: `Services/OverpassAttractionService.cs` pobiera i mapuje dane, `Models/AttractionPreview.cs` opisuje wynik, a `Controllers/AttractionsController.cs` udostępnia endpoint i obsługuje błędy. Rejestracja klienta HTTP znajduje się w `Program.cs`.
-
-Diagnostyka błędów połączenia: odpowiedź zawiera `upstreamStatusCode` (kod HTTP dostawcy) lub `connectionError`, jeśli nie otrzymano odpowiedzi HTTP. Kod 504 dostawcy jest zwracany jako 504 naszego API, a limit 429 jako 503 z opisem ograniczenia. Podczas osobnej próby HTTP 4 października 2026 Overpass zwrócił 504 z informacją o prawdopodobnym przeciążeniu. Nie uruchamiano przy tym aplikacji ani builda. W przypadku 504 odczekaj około minuty przed ponowieniem; poprawa komunikatu nie usuwa przeciążenia zewnętrznego serwera.
+Próbny endpoint `GET /api/attractions/preview/rzeszow` (zapytania na żywo do publicznego Overpass, październik 2026) posłużył do oceny jakości danych OSM. Usunięty 17 listopada 2026 w zadaniu 1.3: katalog czyta wyłącznie Supabase, a dane pobierają skrypty z `scripts/` (Geoapify). Kod jest w historii Git.
 
 ## Plan dalszych małych etapów
 

@@ -1,7 +1,5 @@
-using System.Text.Json;
 using Inżynierka.Data;
 using Inżynierka.Models;
-using Inżynierka.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NetTopologySuite.Geometries;
@@ -10,9 +8,7 @@ namespace Inżynierka.Controllers;
 
 [ApiController]
 [Route("api/attractions")]
-public class AttractionsController(
-    OverpassAttractionService service,
-    ILogger<AttractionsController> logger) : ControllerBase
+public class AttractionsController(ILogger<AttractionsController> logger) : ControllerBase
 {
     [HttpGet]
     [ProducesResponseType(typeof(AttractionListResponse), StatusCodes.Status200OK)]
@@ -23,7 +19,7 @@ public class AttractionsController(
         [FromServices] IServiceProvider services,
         CancellationToken cancellationToken)
     {
-        // Baza jest opcjonalna w konfiguracji; podgląd Overpass nadal może działać bez niej.
+        // Bez konfiguracji bazy aplikacja startuje (Swagger, obszary), a katalog zwraca 503.
         var database = services.GetService<CatalogDbContext>();
         if (database is null)
             return Problem(statusCode: StatusCodes.Status503ServiceUnavailable,
@@ -119,59 +115,81 @@ public class AttractionsController(
         }
     }
 
-    [HttpGet("preview/rzeszow")]
-    [ProducesResponseType(typeof(AttractionPreviewResponse), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status502BadGateway)]
+    // Tylko aktywne atrakcje; usunięte, murale czekające na zdjęcie i elementy obiektów zwracają 404.
+    [HttpGet("{id:guid}")]
+    [ProducesResponseType(typeof(AttractionDetails), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status404NotFound)]
     [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status503ServiceUnavailable)]
-    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status504GatewayTimeout)]
-    public async Task<ActionResult<AttractionPreviewResponse>> PreviewRzeszow(CancellationToken cancellationToken)
+    public async Task<ActionResult<AttractionDetails>> Details(
+        Guid id,
+        [FromServices] IServiceProvider services,
+        CancellationToken cancellationToken)
     {
+        var database = services.GetService<CatalogDbContext>();
+        if (database is null)
+            return Problem(statusCode: StatusCodes.Status503ServiceUnavailable,
+                title: "Brak konfiguracji bazy katalogu.",
+                detail: "Skonfiguruj połączenie z Supabase i uruchom aplikację ponownie.");
+
         try
         {
-            return Ok(await service.GetRzeszowAsync(cancellationToken));
-        }
-        catch (OperationCanceledException) when (!cancellationToken.IsCancellationRequested)
-        {
-            return Problem(statusCode: StatusCodes.Status504GatewayTimeout,
-                title: "Przekroczono czas oczekiwania na dane atrakcji.",
-                detail: "Serwis OpenStreetMap/Overpass nie odpowiedział w ciągu 60 sekund. Spróbuj ponownie później.");
-        }
-        catch (HttpRequestException exception)
-        {
-            logger.LogWarning(exception, "Nie udało się pobrać atrakcji z Overpass.");
-            var upstreamStatus = (int?)exception.StatusCode;
-            var (status, title, detail) = upstreamStatus switch
-            {
-                504 => (StatusCodes.Status504GatewayTimeout,
-                    "Serwer Overpass przekroczył czas obsługi zapytania.",
-                    "Dostawca zwrócił HTTP 504. Może być przeciążony. Odczekaj około minuty i ponów próbę."),
-                429 => (StatusCodes.Status503ServiceUnavailable,
-                    "Serwer Overpass ograniczył liczbę zapytań.",
-                    "Dostawca zwrócił HTTP 429. Odczekaj przed kolejną próbą; nie wysyłaj kilku zapytań jednocześnie."),
-                502 or 503 => (StatusCodes.Status503ServiceUnavailable,
-                    "Serwer Overpass jest chwilowo niedostępny.",
-                    $"Dostawca zwrócił HTTP {upstreamStatus}. Spróbuj ponownie później."),
-                null => (StatusCodes.Status503ServiceUnavailable,
-                    "Nie udało się połączyć z serwerem Overpass.",
-                    "Nie otrzymano odpowiedzi HTTP. Sprawdź połączenie z internetem; szczegóły błędu są w logach aplikacji."),
-                _ => (StatusCodes.Status502BadGateway,
-                    "Serwer Overpass odrzucił zapytanie.",
-                    $"Dostawca zwrócił HTTP {upstreamStatus}. Szczegóły błędu są w logach aplikacji.")
-            };
-
-            return Problem(statusCode: status, title: title, detail: detail,
-                extensions: new Dictionary<string, object?>
+            var place = await database.Places.AsNoTracking().AsSplitQuery()
+                .Where(p => p.Id == id && p.Kind == "attraction" && p.Status == "active")
+                .Select(p => new
                 {
-                    ["upstreamStatusCode"] = upstreamStatus,
-                    ["connectionError"] = upstreamStatus is null ? exception.HttpRequestError.ToString() : null
-                });
+                    p.Id,
+                    p.Name,
+                    p.Description,
+                    p.City,
+                    p.Address,
+                    p.Location,
+                    p.Website,
+                    Categories = p.Categories.OrderBy(item => item.CategoryCode)
+                        .Select(item => new AttractionCategory(item.CategoryCode, item.Category.Name)).ToList(),
+                    p.OpeningHours,
+                    p.OpeningHoursVerification,
+                    p.OpeningHoursConfirmedOn,
+                    p.EstimatedVisitMinutes,
+                    Components = p.Components.Where(c => c.Status == "component")
+                        .OrderBy(c => c.Name).ThenBy(c => c.Id)
+                        .Select(c => new AttractionComponent(c.Id, c.Name)).ToList(),
+                    Photos = p.Photos.Where(photo => photo.Status == "approved")
+                        .OrderBy(photo => photo.FetchedAtUtc).ThenBy(photo => photo.Id)
+                        .Select(photo => new
+                        {
+                            photo.Id, photo.Author, photo.Credit, photo.License,
+                            photo.LicenseUrl, photo.SourcePageUrl, photo.Status
+                        }).ToList(),
+                    FromGeoapify = p.Sources.Any(s => s.Provider == "geoapify")
+                })
+                .SingleOrDefaultAsync(cancellationToken);
+
+            if (place is null)
+                return Problem(statusCode: StatusCodes.Status404NotFound, title: "Nie znaleziono atrakcji.",
+                    detail: "Atrakcja nie istnieje albo nie jest obecnie dostępna w katalogu.");
+
+            var photos = place.Photos.Select(photo => new AttractionPhoto(photo.Id,
+                $"/api/attractions/{place.Id}/photos/{photo.Id}/image",
+                photo.Author, photo.Credit, photo.License, photo.LicenseUrl, photo.SourcePageUrl, photo.Status)).ToList();
+
+            // X = długość, Y = szerokość geograficzna.
+            return Ok(new AttractionDetails(
+                place.Id, place.Name, place.Description, place.City, place.Address,
+                place.Location.Y, place.Location.X, place.Website, place.Categories,
+                place.OpeningHours, place.OpeningHoursVerification, place.OpeningHoursConfirmedOn,
+                place.EstimatedVisitMinutes, place.Components, photos,
+                place.FromGeoapify ? GeoapifyAttribution : null));
         }
-        catch (Exception exception) when (exception is JsonException or InvalidDataException)
+        catch (Exception exception) when (exception is Npgsql.NpgsqlException or TimeoutException
+            || exception is OperationCanceledException && !cancellationToken.IsCancellationRequested)
         {
-            logger.LogWarning(exception, "Niepoprawna odpowiedź Overpass.");
-            return Problem(statusCode: StatusCodes.Status502BadGateway,
-                title: "Źródło danych zwróciło niepoprawną lub niepełną odpowiedź.",
-                detail: "Nie prezentujemy częściowych wyników jako kompletnego pobrania. Spróbuj ponownie później.");
+            logger.LogWarning("Odczyt szczegółów atrakcji nie powiódł się ({ExceptionType}, SQLSTATE={SqlState}).",
+                exception.GetType().Name, (exception as Npgsql.PostgresException)?.SqlState);
+            return Problem(statusCode: StatusCodes.Status503ServiceUnavailable,
+                title: "Nie udało się pobrać atrakcji z bazy.",
+                detail: "Sprawdź połączenie z Supabase i spróbuj ponownie później.");
         }
     }
+
+    private const string GeoapifyAttribution = "Powered by Geoapify | © OpenStreetMap contributors";
 }

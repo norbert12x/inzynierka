@@ -1,5 +1,7 @@
+using Inżynierka.Configuration;
 using Inżynierka.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Inżynierka
 {
@@ -30,6 +32,12 @@ namespace Inżynierka
                     options.UseNpgsql(databaseConnection, postgres => postgres.UseNetTopologySuite()));
             }
 
+            // Obszary katalogu z konfiguracji; błędna sekcja zatrzymuje start aplikacji.
+            builder.Services.AddOptions<CatalogOptions>()
+                .Bind(builder.Configuration.GetSection(CatalogOptions.SectionName))
+                .ValidateOnStart();
+            builder.Services.AddSingleton<IValidateOptions<CatalogOptions>, CatalogOptionsValidator>();
+
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddControllers();
@@ -39,19 +47,13 @@ namespace Inżynierka
                 client.BaseAddress = new Uri("https://api.geoapify.com/");
                 client.Timeout = TimeSpan.FromSeconds(15);
             }).RemoveAllLoggers(); // URL Geoapify zawiera klucz API i adres użytkownika.
-            builder.Services.AddHttpClient<Services.OverpassAttractionService>(client =>
-            {
-                client.BaseAddress = new Uri("https://overpass-api.de/api/");
-                client.Timeout = TimeSpan.FromSeconds(60);
-                client.DefaultRequestHeaders.UserAgent.ParseAdd("PodkarpacieThesis/0.1");
-            });
             builder.Services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new()
                 {
                     Title = "Atrakcje Podkarpacia — API",
                     Version = "v1",
-                    Description = "Katalog atrakcji z Supabase, wyszukiwanie miasta lub adresu, filtry miasta i promienia oraz podgląd OSM."
+                    Description = "Katalog atrakcji z Supabase, wyszukiwanie miasta lub adresu, filtry miasta i promienia, szczegóły atrakcji, zdjęcia i obszary."
                 });
             });
 
