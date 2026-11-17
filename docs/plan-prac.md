@@ -22,7 +22,7 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 
 ## E0 Fundamenty
 
-- 🔶 **0.1 Dokumenty dla AI i opis** (dokumenty zaakceptowane; zostało skrócenie README) – `AGENTS.md`, `CLAUDE.md`, `docs/opis-aplikacji.md`, ten plan. README skrócone do uruchomienia i odsyłaczy.
+- ✅ **0.1 Dokumenty dla AI i opis** (README jako strona projektu, szczegóły API w `docs/api.md`) – `AGENTS.md`, `CLAUDE.md`, `docs/opis-aplikacji.md`, ten plan. README skrócone do uruchomienia i odsyłaczy.
   Gotowe, gdy: użytkownik zaakceptował dokumenty.
 - ✅ **0.2 Projekt testów** – `Inżynierka.Tests` (xUnit) w rozwiązaniu, katalog `Inżynierka/Planning/` na logikę planera, jeden przykładowy test.
   Gotowe, gdy: `dotnet test` przechodzi u użytkownika.
