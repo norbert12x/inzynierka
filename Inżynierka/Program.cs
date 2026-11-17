@@ -29,7 +29,7 @@ namespace Inżynierka
             if (databaseConnection is not null)
             {
                 builder.Services.AddDbContext<CatalogDbContext>(options =>
-                    options.UseNpgsql(databaseConnection, postgres => postgres.UseNetTopologySuite()));
+                    options.UseCatalogDatabase(databaseConnection));
             }
 
             // Obszary katalogu z konfiguracji; błędna sekcja zatrzymuje start aplikacji.

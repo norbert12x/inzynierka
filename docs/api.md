@@ -6,9 +6,18 @@ Zasada dla wszystkich odpowiedzi: `null` oznacza brak danych, nie wartość domy
 
 ## Kategorie — `GET /api/attraction-categories`
 
-Słownik 9 kategorii (`code`, `name`), np. `museums`, `nature`, `public-art`. Jedna atrakcja może mieć kilka kategorii (np. muzeum w zamku).
+Słownik 9 kategorii z bazy (`code`, `name`, `defaultVisitMinutes`), np. `museums`, `nature`, `public-art`; „Pozostałe atrakcje” na końcu. Jedna atrakcja może mieć kilka kategorii (np. muzeum w zamku).
 
-Test: HTTP 200 i 9 pozycji.
+Test: HTTP 200 i 9 pozycji, każda z `defaultVisitMinutes` (np. `museums` = 90, `public-art` = 10). Bez wykonanego `database/005_category_visit_minutes.sql` → 503.
+
+## Czas wizyty
+
+Lista i szczegóły atrakcji zwracają `visitMinutes` i `visitMinutesSource`:
+
+- `place` – czas zapisany przy atrakcji (`estimated_visit_minutes`, np. ręczna korekta dla szczytu lub szlaku),
+- `category_default` – szacunek: najdłuższy `defaultVisitMinutes` spośród kategorii atrakcji; bez kategorii – czas kategorii `other`.
+
+Logika: `Inżynierka/Planning/VisitDuration.cs`, testy `Inżynierka.Tests/VisitDurationTests.cs`. Interfejs powinien pokazywać szacunek jako przybliżony („ok. 90 min”).
 
 ## Obszary — `GET /api/regions`
 
@@ -34,7 +43,7 @@ Tylko aktywne atrakcje (`kind='attraction'`, `status='active'`); pomija usunięt
 | `latitude`, `longitude`, `radiusKm` | Promień od punktu; wszystkie trzy razem, `radiusKm` 0,1–100. Nie łączyć z `city`. |
 | `requirePhoto` | Tylko atrakcje z zatwierdzonym zdjęciem. |
 
-Odpowiedź: `items`, `totalCount`, `page`, `pageSize`, `totalPages`. Element: id, nazwa, miasto, adres, współrzędne, kategorie, godziny (tekst źródłowy, bez interpretacji), `distanceKm` (tylko w promieniu), `hasPhoto`, `pendingPhotoCount`. Kolejność: w promieniu odległość → nazwa → id; inaczej nazwa → id. Odległość PostGIS w linii prostej, nie po drogach.
+Odpowiedź: `items`, `totalCount`, `page`, `pageSize`, `totalPages`. Element: id, nazwa, miasto, adres, współrzędne, kategorie, godziny (tekst źródłowy, bez interpretacji), `visitMinutes` + `visitMinutesSource`, `distanceKm` (tylko w promieniu), `hasPhoto`, `pendingPhotoCount`. Kolejność: w promieniu odległość → nazwa → id; inaczej nazwa → id. Odległość PostGIS w linii prostej, nie po drogach.
 
 Trzy sposoby wyboru miejsca (backend nie wybiera lokalizacji za użytkownika):
 
@@ -56,7 +65,7 @@ Testy (stan po selekcji z 5.10.2026):
 
 ## Szczegóły atrakcji — `GET /api/attractions/{id}`
 
-Jedna aktywna atrakcja: nazwa, opis, adres, współrzędne, strona WWW, kategorie, godziny z weryfikacją, `estimatedVisitMinutes`, `components` (elementy obiektu, np. tablice w parku), zatwierdzone zdjęcia z autorem i licencją, `attribution` (źródło danych). Opisy i czasy wizyt są na razie puste (zadania 1.2 i 1.5).
+Jedna aktywna atrakcja: nazwa, opis, adres, współrzędne, strona WWW, kategorie, godziny z weryfikacją, `visitMinutes` + `visitMinutesSource`, `components` (elementy obiektu, np. tablice w parku), zatwierdzone zdjęcia z autorem i licencją, `attribution` (źródło danych). Opisy są na razie puste (zadanie 1.5). Przykład: Muzeum – Zamek w Łańcucie → `visitMinutes=90`, `visitMinutesSource="category_default"`.
 
 | Przypadek | `id` | Wynik |
 |---|---|---|

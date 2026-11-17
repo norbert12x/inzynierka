@@ -2,7 +2,9 @@
 
 Schemat i import wykonano 5 października 2026. Weryfikacja potwierdziła 600 rekordów, 9 kategorii i 600 wpisów źródłowych. Ponowny import dodał 0 rekordów i zachował katalog bez zmian. Wyniki zapisano w `database-verification.json`. Połączenie aplikacji .NET pozostaje do przetestowania w Visual Studio.
 
-Backend używa PostgreSQL przez EF Core/Npgsql. PostGIS obsługuje lokalizację i przyszłe wyszukiwanie przestrzenne. Na tym etapie wersjonujemy schemat plikami SQL; nie używamy `Database.Migrate()` ani `EnsureCreated()` i nie generowaliśmy migracji EF przez build.
+Backend używa PostgreSQL przez EF Core/Npgsql. PostGIS obsługuje lokalizację i wyszukiwanie przestrzenne.
+
+**Od listopada 2026 schemat zmieniamy migracjami EF Core** (`Inżynierka/Migrations/`, historia w `catalog.__ef_migrations_history`). Pliki `001`–`005` poniżej to historia schematu sprzed migracji; migracja startowa `InitialCatalog` odwzorowuje ich stan i nie tworzy tabel ponownie (wykonuje tylko bezpieczny do ponowienia `005`). Nowe zmiany schematu = `Add-Migration` w Visual Studio, nie nowe pliki SQL. Import danych (`002`) i skrypty Python pozostają bez zmian.
 
 ## Struktura
 
@@ -40,6 +42,7 @@ Zmienne środowiskowe mają pierwszeństwo, np. `Database__Password` i `Database
 2. `002_import_beta_catalog.sql`: import katalogu. Identyfikatory UUID są deterministyczne względem identyfikatora Geoapify. Miejsca i kategorie istniejących miejsc pozostają bez zmian przy ponowieniu. Zaktualizować można jedynie snapshot źródła z co najmniej taką samą datą pobrania. Dane źródłowe i ręczne korekty pozostają oddzielone.
 3. `003_place_photos.sql`: zdjęcia i zapis prób wyszukiwania. Wymagane przez obecny endpoint listy i zdjęć.
 4. `004_user_provided_photos.sql`: dopuszczenie zdjęć własnych lub udostępnionych przez autorów.
+5. `005_category_visit_minutes.sql`: kolumna `catalog.categories.default_visit_minutes` (5–600 min) z szacunkami dla 9 kategorii. Atrakcja bez własnego `estimated_visit_minutes` dostaje najdłuższy czas spośród swoich kategorii. Bezpieczny do ponowienia (nie nadpisuje ustawionych wartości). **Wymagany** przez obecne API kategorii, listy i szczegółów atrakcji. Wykonuje go migracja `InitialCatalog` (`Update-Database`); ręczne wykonanie w SQL Editor też jest bezpieczne.
 
 Skrypt `apply_catalog_database.py --apply` wykonuje również schematy 003 i 004. Nie zatwierdza ani nie usuwa istniejących zdjęć.
 

@@ -29,20 +29,24 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 - ✅ **0.3 Konfiguracja obszaru** – sekcja `Catalog:Regions` w `appsettings.json` (kod, nazwa, środek, promień, domyślny) z walidacją przy starcie; endpoint `GET /api/regions`. Rzeszów i okolice (30 km) jako pierwszy wpis.
   Gotowe, gdy: endpoint zwraca obszar, testy walidacji przechodzą.
 
+- ✅ **0.4 Migracje EF Core** – pakiet `Microsoft.EntityFrameworkCore.Tools`, wspólna konfiguracja `UseCatalogDatabase` (historia w `catalog.__ef_migrations_history`), `CatalogDbContextFactory` dla narzędzi, migracja startowa `InitialCatalog` odwzorowująca `database/001`–`005` (bez tworzenia tabel), nowe zasady w `AGENTS.md`.
+  Gotowe, gdy: `Update-Database` wykonał `InitialCatalog`, dane bez zmian, kolejne `Add-Migration Sprawdzenie` daje pustą migrację (model zgodny ze snapshotem), testy przechodzą.
+
 ## E1 Katalog – domknięcie (🔶 lista, filtry, lokalizacje i zdjęcia już są)
 
 - ✅ Kategorie, lista atrakcji z filtrami (miasto, promień, nazwa, kategoria), wyszukiwanie lokalizacji, zdjęcia.
 - ✅ **1.1 Szczegóły atrakcji** – `GET /api/attractions/{id}`: opis, adres, godziny + weryfikacja, strona WWW, czas wizyty, kategorie, elementy obiektu, zatwierdzone zdjęcia z autorem i licencją, oznaczenie źródła. 404 dla nieaktywnych.
   Gotowe, gdy: test w Swaggerze dla aktywnej, usuniętej i nieistniejącej atrakcji.
-- ⬜ **1.2 Domyślne czasy wizyt** – czas wizyty dla kategorii (konfiguracja lub tabela), używany gdy atrakcja nie ma własnego; w odpowiedzi informacja, czy to szacunek.
+- ✅ **1.2 Domyślne czasy wizyt** – kolumna `catalog.categories.default_visit_minutes` (`database/005_category_visit_minutes.sql`, wykonywany w migracji `InitialCatalog`); `VisitDuration.Resolve` w `Planning/` (własny czas atrakcji → najdłuższy czas kategorii → `other`); `visitMinutes` + `visitMinutesSource` w liście i szczegółach; `GET /api/attraction-categories` czyta z bazy z `defaultVisitMinutes`.
   Gotowe, gdy: każda aktywna atrakcja ma w API czas wizyty z oznaczeniem źródła.
-- 🔶 **1.3 Usunięcie podglądu Overpass** – usunięte: endpoint `preview/rzeszow`, `OverpassAttractionService`, `AttractionPreview`, klient HTTP w `Program.cs`; katalog czyta wyłącznie bazę. (Czeka na kompilację i test u użytkownika.)
+  Później (dane): ręczne `estimated_visit_minutes` dla szczytów i szlaków (np. Berdecha) – dłuższa wycieczka piesza.
+- ✅ **1.3 Usunięcie podglądu Overpass** – usunięte: endpoint `preview/rzeszow`, `OverpassAttractionService`, `AttractionPreview`, klient HTTP w `Program.cs`; katalog czyta wyłącznie bazę.
   Gotowe, gdy: API nie wysyła zapytań do Overpass, w kodzie nie ma stałych współrzędnych Rzeszowa.
 - ⬜ **1.4 Przegląd zdjęć** (praca użytkownika, nie kod) – 73 propozycje w `data/photos/DO_PRZEJRZENIA.md` do zatwierdzenia/odrzucenia; przy okazji sprawdzić podejrzane wpisy bez zdjęcia (np. „Deloitte”, „Burger”, „Centrum Snu”) – mural czy do usunięcia. Stan 17.11: 1 zatwierdzone, 73 propozycje, 111 bez zdjęcia. **Brakuje części plików**: w `.local/photo-cache` jest 55 plików, z tego tylko 38 pasuje do raportu; zdjęcia Białego Ogrodu i zatwierdzone zdjęcie Zamku w Łańcucie zwracają 404. Najpierw ponowne pobranie brakujących plików z `original_url` zapisanego w bazie (nowy tryb skryptu, bez zmian w rekordach).
   Gotowe, gdy: najważniejsze atrakcje (Rzeszów + najbliższe okolice) mają zatwierdzone zdjęcie; raport `POKRYCIE.md` odświeżony.
 - ⬜ **1.5 Krótkie opisy** – opis 1–3 zdania dla najważniejszych atrakcji (teraz 0 z 185), napisany samodzielnie lub z licencjonowanego źródła z podaniem źródła; zapis plikiem SQL lub skryptem z ręczną korektą (`manually_edited_fields`).
   Gotowe, gdy: atrakcje używane w scenariuszu obrony mają opis.
-- ⬜ **1.6 Porządki w katalogu** – jedno źródło kategorii (endpoint czyta z bazy zamiast `AttractionCategoryCatalog` albo test zgodności), w `AttractionPhotosController` obsługa przekroczenia czasu (503 zamiast 500) i brak `?includePending=true` w linku poza Development.
+- ⬜ **1.6 Porządki w katalogu** – ~~jedno źródło kategorii~~ (zrobione w 1.2: endpoint czyta z bazy, `AttractionCategoryCatalog` usunięty); w `AttractionPhotosController` obsługa przekroczenia czasu (503 zamiast 500) i brak `?includePending=true` w linku poza Development.
   Gotowe, gdy: zmiany przejrzane, testy przechodzą.
 - ⬜ **1.7 Więcej źródeł zdjęć** (po naprawie plików z 1.4) – tylko zdjęcia z jasną licencją, zawsze jako `pending_review` z autorem, licencją i linkiem źródła; bez scrapowania stron i Google Grafika.
   1. Wikimedia Commons – wyszukiwanie plików w promieniu (np. 100–200 m) od współrzędnych atrakcji; bez klucza.
@@ -53,7 +57,7 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 
 ## E2 Konta i role
 
-- ⬜ **2.1 Tabele Identity** – plik `database/005_identity.sql` (schemat `identity`), mapowanie `IdentityDbContext`.
+- ⬜ **2.1 Tabele Identity** – migracja EF (`Add-Migration Identity`) w schemacie `identity`, z RLS dla nowych tabel; mapowanie `IdentityDbContext`.
   Gotowe, gdy: użytkownik wykonał SQL, aplikacja startuje i widzi tabele.
 - ⬜ **2.2 Rejestracja, logowanie, wylogowanie, „ja”** – `POST /api/auth/register|login|logout`, `GET /api/auth/me`; ciasteczko HttpOnly; walidacja hasła; polskie komunikaty.
   Gotowe, gdy: scenariusz w Swaggerze: rejestracja → logowanie → `me` → wylogowanie → `me` = 401.
@@ -128,3 +132,12 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 ## Później (poza MVP)
 
 Komunikacja publiczna (GTFS), parsowanie godzin i ich wpływ na kolejność, „przeplanuj” z akceptacją, restauracje, kolejne obszary Podkarpacia, wdrożenie online, wielojęzyczność.
+
+### Agent AI do uzupełniania danych atrakcji
+
+Agent (model językowy z wyszukiwaniem w internecie) dla wybranej atrakcji zbiera informacje z sieci i proponuje: szacowany czas wizyty, krótki opis (powiązane z 1.5), godziny otwarcia, stronę WWW, a dla szczytów i szlaków – czas wycieczki pieszej i punkt dojścia.
+
+- Działa jako skrypt uruchamiany partiami (jak `fetch_place_photos.py`), nie przy każdym żądaniu użytkownika – koszt i limity pod kontrolą.
+- Wynik to **propozycja do przeglądu**, nie automatyczny zapis: wartość + uzasadnienie + linki do źródeł. Po zatwierdzeniu trafia do `estimated_visit_minutes` / `description` i do `manually_edited_fields`, żeby import jej nie nadpisał. `visitMinutesSource` może wtedy dostać wartość np. `research`.
+- Nie zmyśla: brak wiarygodnego źródła = brak propozycji. Opis piszemy własnymi słowami, bez kopiowania tekstów ze stron.
+- Wymaga zgody użytkownika na nową usługę i klucz API (koszt zapytań). Przed wdrożeniem: próba na 10 atrakcjach i porównanie z ręczną oceną – może to być ciekawy fragment pracy inżynierskiej.

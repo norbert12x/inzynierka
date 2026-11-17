@@ -1,9 +1,20 @@
+using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
 namespace Inżynierka.Data;
 
 public static class CatalogDatabaseConfiguration
 {
+    // Tabela historii migracji EF w schemacie catalog (nie public – public jest wystawiony przez Data API Supabase).
+    public const string MigrationsHistoryTable = "__ef_migrations_history";
+    public const string MigrationsHistorySchema = "catalog";
+
+    // Wspólne ustawienia dla aplikacji i narzędzi EF (Add-Migration, Update-Database).
+    public static DbContextOptionsBuilder UseCatalogDatabase(this DbContextOptionsBuilder options, string connectionString)
+        => options.UseNpgsql(connectionString, postgres => postgres
+            .UseNetTopologySuite()
+            .MigrationsHistoryTable(MigrationsHistoryTable, MigrationsHistorySchema));
+
     public static string? GetConnectionString(IConfiguration configuration, string contentRootPath)
     {
         var section = configuration.GetSection("Database");

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Inżynierka.Planning;
 
 namespace Inżynierka.Models;
 
@@ -63,6 +64,9 @@ public sealed record AttractionListItem(
     string? OpeningHours,
     string OpeningHoursVerification,
     DateOnly? OpeningHoursConfirmedOn,
+    // Czas wizyty i źródło – jak w szczegółach atrakcji.
+    int VisitMinutes,
+    VisitMinutesSource VisitMinutesSource,
     double? DistanceKm,
     bool HasPhoto,
     int PendingPhotoCount);

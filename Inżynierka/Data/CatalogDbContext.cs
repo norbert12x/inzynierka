@@ -41,6 +41,7 @@ public sealed class CatalogDbContext(DbContextOptions<CatalogDbContext> options)
         category.HasKey(c => c.Code);
         category.Property(c => c.Code).HasColumnName("code");
         category.Property(c => c.Name).HasColumnName("name").IsRequired();
+        category.Property(c => c.DefaultVisitMinutes).HasColumnName("default_visit_minutes");
 
         var assignment = modelBuilder.Entity<PlaceCategory>();
         assignment.ToTable("place_categories");

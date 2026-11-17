@@ -52,6 +52,8 @@ public sealed class CatalogCategory
 {
     public string Code { get; set; } = "";
     public string Name { get; set; } = "";
+    // Szacowany czas wizyty dla atrakcji bez własnego czasu (database/005_category_visit_minutes.sql).
+    public int DefaultVisitMinutes { get; set; }
     public ICollection<PlaceCategory> Places { get; set; } = new List<PlaceCategory>();
 }
 

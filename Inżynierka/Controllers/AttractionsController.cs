@@ -1,5 +1,6 @@
 using Inżynierka.Data;
 using Inżynierka.Models;
+using Inżynierka.Planning;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NetTopologySuite.Geometries;
@@ -88,18 +89,31 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                     PendingPhotoCount = place.Photos.Count(photo => photo.Status == "pending_review"),
                     DistanceKm = center == null ? (double?)null : EF.Functions.Distance(place.Location, center, true) / 1000,
                     Categories = place.Categories.OrderBy(item => item.CategoryCode)
-                        .Select(item => new AttractionCategory(item.CategoryCode, item.Category.Name)).ToList(),
+                        .Select(item => new { item.CategoryCode, item.Category.Name, item.Category.DefaultVisitMinutes })
+                        .ToList(),
                     place.OpeningHours,
                     place.OpeningHoursVerification,
-                    place.OpeningHoursConfirmedOn
+                    place.OpeningHoursConfirmedOn,
+                    place.EstimatedVisitMinutes
                 })
                 .ToListAsync(cancellationToken);
 
+            var fallbackMinutes = rows.Any(place => place.Categories.Count == 0)
+                ? await GetFallbackVisitMinutesAsync(database, cancellationToken)
+                : 0;
+
             // Odczyt współrzędnych po pobraniu punktu geography; X = długość, Y = szerokość.
-            var items = rows.Select(place => new AttractionListItem(
-                place.Id, place.Name, place.City, place.Address, place.Location.Y, place.Location.X,
-                place.Categories, place.OpeningHours, place.OpeningHoursVerification,
-                place.OpeningHoursConfirmedOn, place.DistanceKm, place.HasPhoto, place.PendingPhotoCount)).ToList();
+            var items = rows.Select(place =>
+            {
+                var visit = VisitDuration.Resolve(place.EstimatedVisitMinutes,
+                    place.Categories.Select(c => c.DefaultVisitMinutes), fallbackMinutes);
+                return new AttractionListItem(
+                    place.Id, place.Name, place.City, place.Address, place.Location.Y, place.Location.X,
+                    place.Categories.Select(c => new AttractionCategory(c.CategoryCode, c.Name)).ToList(),
+                    place.OpeningHours, place.OpeningHoursVerification, place.OpeningHoursConfirmedOn,
+                    visit.Minutes, visit.Source,
+                    place.DistanceKm, place.HasPhoto, place.PendingPhotoCount);
+            }).ToList();
 
             return Ok(new AttractionListResponse(items, totalCount, parameters.Page, parameters.PageSize,
                 (int)Math.Ceiling(totalCount / (double)parameters.PageSize)));
@@ -145,7 +159,8 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                     p.Location,
                     p.Website,
                     Categories = p.Categories.OrderBy(item => item.CategoryCode)
-                        .Select(item => new AttractionCategory(item.CategoryCode, item.Category.Name)).ToList(),
+                        .Select(item => new { item.CategoryCode, item.Category.Name, item.Category.DefaultVisitMinutes })
+                        .ToList(),
                     p.OpeningHours,
                     p.OpeningHoursVerification,
                     p.OpeningHoursConfirmedOn,
@@ -172,12 +187,19 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                 $"/api/attractions/{place.Id}/photos/{photo.Id}/image",
                 photo.Author, photo.Credit, photo.License, photo.LicenseUrl, photo.SourcePageUrl, photo.Status)).ToList();
 
+            var fallbackMinutes = place.Categories.Count == 0
+                ? await GetFallbackVisitMinutesAsync(database, cancellationToken)
+                : 0;
+            var visit = VisitDuration.Resolve(place.EstimatedVisitMinutes,
+                place.Categories.Select(c => c.DefaultVisitMinutes), fallbackMinutes);
+
             // X = długość, Y = szerokość geograficzna.
             return Ok(new AttractionDetails(
                 place.Id, place.Name, place.Description, place.City, place.Address,
-                place.Location.Y, place.Location.X, place.Website, place.Categories,
+                place.Location.Y, place.Location.X, place.Website,
+                place.Categories.Select(c => new AttractionCategory(c.CategoryCode, c.Name)).ToList(),
                 place.OpeningHours, place.OpeningHoursVerification, place.OpeningHoursConfirmedOn,
-                place.EstimatedVisitMinutes, place.Components, photos,
+                visit.Minutes, visit.Source, place.Components, photos,
                 place.FromGeoapify ? GeoapifyAttribution : null));
         }
         catch (Exception exception) when (exception is Npgsql.NpgsqlException or TimeoutException
@@ -192,4 +214,9 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
     }
 
     private const string GeoapifyAttribution = "Powered by Geoapify | © OpenStreetMap contributors";
+
+    // Czas dla atrakcji bez żadnej kategorii: wartość kategorii „other” z bazy (30 min, gdy jej brak).
+    private static async Task<int> GetFallbackVisitMinutesAsync(CatalogDbContext database, CancellationToken cancellationToken)
+        => await database.Categories.Where(c => c.Code == "other")
+            .Select(c => (int?)c.DefaultVisitMinutes).SingleOrDefaultAsync(cancellationToken) ?? 30;
 }

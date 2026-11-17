@@ -1,3 +1,5 @@
+using Inżynierka.Planning;
+
 namespace Inżynierka.Models;
 
 // Szczegóły jednej aktywnej atrakcji. Pola null oznaczają brak danych, nie wartość domyślną:
@@ -15,8 +17,10 @@ public sealed record AttractionDetails(
     string? OpeningHours,
     string OpeningHoursVerification,
     DateOnly? OpeningHoursConfirmedOn,
-    // Czas wizyty zapisany przy atrakcji; domyślne czasy według kategorii dojdą w zadaniu 1.2.
-    int? EstimatedVisitMinutes,
+    // Czas wizyty w minutach i jego źródło: "place" (zapisany przy atrakcji)
+    // albo "category_default" (szacunek – najdłuższy czas spośród kategorii).
+    int VisitMinutes,
+    VisitMinutesSource VisitMinutesSource,
     // Elementy obiektu (np. tablice, rzeźby w parku) przypisane do tej atrakcji.
     IReadOnlyList<AttractionComponent> Components,
     // Tylko zatwierdzone zdjęcia, z autorem i licencją do wyświetlenia przy zdjęciu.

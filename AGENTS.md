@@ -24,7 +24,11 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
 - Ustawienia aplikacji (bez sekretów): klasa opcji + walidator `IValidateOptions` w `Inżynierka/Configuration/`, rejestracja z `ValidateOnStart()` w `Program.cs`. Obszary katalogu: sekcja `Catalog:Regions` (`CatalogOptions`).
 - Integracje zewnętrzne: `Inżynierka/Services/` jako typowany `HttpClient` rejestrowany w `Program.cs` (timeout, bez logowania URL z kluczem – wzór: `GeoapifyGeocodingService`).
 - Logika planera: `Inżynierka/Planning/` – czyste klasy bez bazy i HTTP (dane wejściowe → plan), żeby dało się je testować xUnit.
-- Zmiany bazy: **tylko nowy plik** `database/NNN_opis.sql` (kolejny numer). Nie edytuj istniejących plików SQL. Nie używamy migracji EF, `EnsureCreated()` ani `Database.Migrate()`. Opisz plik w `database/README.md`.
+- Zmiany schematu bazy: **migracje EF Core** w `Inżynierka/Migrations/`. Najpierw zmiana encji/mapowania w `Data/`, potem użytkownik w Visual Studio (Konsola menedżera pakietów, projekt `Inżynierka`) uruchamia `Add-Migration <Nazwa>`; agent przegląda i ewentualnie uzupełnia wygenerowany plik, użytkownik wykonuje `Update-Database`. Agent nie uruchamia narzędzi EF bez prośby.
+  - Nie edytuj migracji już wykonanych w bazie – poprawka = nowa migracja.
+  - To, czego EF nie modeluje (RLS, uprawnienia, ograniczenia CHECK, dane słownikowe), dopisz w migracji przez `migrationBuilder.Sql(...)`. **Każda nowa tabela: `enable row level security`** i brak uprawnień dla `anon`/`authenticated` (backend łączy się bezpośrednio z PostgreSQL).
+  - Historia migracji: `catalog.__ef_migrations_history`. Nie używamy `EnsureCreated()` ani automatycznego `Database.Migrate()` przy starcie.
+  - `database/001`–`005` to historia schematu sprzed migracji (odwzorowana migracją startową `InitialCatalog`) – nie edytuj ich i nie dodawaj nowych plików schematu. Import danych i skrypty z `scripts/` zostają bez zmian.
 - Ekrany: `frontend/src/features/<moduł>/`, wywołania API w `api.ts` modułu.
 - Dokumentacja etapu: opis endpointu i przypadki testowe w Swaggerze (czego oczekiwać, błędy 400/404) w `docs/api.md`. README to stały opis projektu (czym jest aplikacja, stos, uruchomienie) – nie dopisuj tam stanu prac, endpointów ani instrukcji etapów; zmieniaj go tylko, gdy zmienia się stos albo sposób uruchomienia.
 
