@@ -1,5 +1,7 @@
 using Inżynierka.Data;
+using Inżynierka.Data.Entities;
 using Inżynierka.Models;
+using Inżynierka.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,22 +22,25 @@ public sealed class AttractionPhotosController(IWebHostEnvironment environment,
     {
         var database = services.GetService<CatalogDbContext>();
         if (database is null) return Problem(statusCode: 503, title: "Brak konfiguracji bazy.");
+        // Propozycje do przeglądu tylko w Development; poza nim parametr jest ignorowany.
+        var showPending = includePending && environment.IsDevelopment();
         try
         {
             var exists = await database.Places.AnyAsync(p => p.Id == attractionId && p.Kind == "attraction"
-                && (p.Status == "active" || environment.IsDevelopment() && includePending && p.Status == "awaiting_photo"), cancellationToken);
+                && (p.Status == "active" || showPending && p.Status == "awaiting_photo"), cancellationToken);
             if (!exists) return Problem(statusCode: 404, title: "Nie znaleziono atrakcji.");
             var rows = await database.Photos.AsNoTracking().Where(p => p.PlaceId == attractionId
-                && (p.Status == "approved" || includePending && environment.IsDevelopment() && p.Status == "pending_review"))
-                .OrderBy(p => p.FetchedAtUtc).ThenBy(p => p.Id)
-                .Select(p => new { p.Id, p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl, p.Status })
+                && (p.Status == "approved" || showPending && p.Status == "pending_review"))
+                // Najpierw zdjęcia miejsca, potem eksponaty.
+                .OrderBy(p => p.Kind == PhotoKinds.Exhibit).ThenBy(p => p.SortOrder).ThenBy(p => p.FetchedAtUtc).ThenBy(p => p.Id)
+                .Select(p => new { p.Id, p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl, p.Status, p.Kind, p.Caption })
                 .ToListAsync(cancellationToken);
             var items = rows.Select(p => new AttractionPhoto(p.Id,
-                $"/api/attractions/{attractionId}/photos/{p.Id}/image" + (includePending ? "?includePending=true" : ""),
-                p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl, p.Status)).ToList();
+                $"/api/attractions/{attractionId}/photos/{p.Id}/image" + (showPending ? "?includePending=true" : ""),
+                p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl, p.Status, p.Kind, p.Caption)).ToList();
             return Ok(new AttractionPhotosResponse(attractionId, items));
         }
-        catch (Exception exception) when (exception is Npgsql.NpgsqlException or TimeoutException)
+        catch (Exception exception) when (IsDatabaseFailure(exception, cancellationToken))
         {
             logger.LogWarning("Nie udało się odczytać zdjęć ({ExceptionType}).", exception.GetType().Name);
             return Problem(statusCode: 503, title: "Nie udało się pobrać zdjęć z bazy.");
@@ -52,31 +57,33 @@ public sealed class AttractionPhotosController(IWebHostEnvironment environment,
     {
         var database = services.GetService<CatalogDbContext>();
         if (database is null) return Problem(statusCode: 503, title: "Brak konfiguracji bazy.");
+        var showPending = includePending && environment.IsDevelopment();
         try
         {
             var photo = await database.Photos.AsNoTracking().Where(p => p.Id == photoId && p.PlaceId == attractionId
                 && p.Place.Kind == "attraction" && (p.Place.Status == "active"
-                    || includePending && environment.IsDevelopment() && p.Place.Status == "awaiting_photo")
-                && (p.Status == "approved" || includePending && environment.IsDevelopment() && p.Status == "pending_review"))
+                    || showPending && p.Place.Status == "awaiting_photo")
+                && (p.Status == "approved" || showPending && p.Status == "pending_review"))
                 .Select(p => new { p.CachedRelativePath }).SingleOrDefaultAsync(cancellationToken);
             if (photo is null) return Problem(statusCode: 404, title: "Nie znaleziono dostępnego zdjęcia.");
-            var root = Path.GetFullPath(Path.Combine(environment.ContentRootPath, "..", ".local", "photo-cache"));
-            var path = Path.GetFullPath(Path.Combine(environment.ContentRootPath, "..", photo.CachedRelativePath));
-            if (!path.StartsWith(root + Path.DirectorySeparatorChar, StringComparison.OrdinalIgnoreCase))
+            var path = PhotoCache.ResolveFile(environment.ContentRootPath, photo.CachedRelativePath);
+            if (path is null)
                 return Problem(statusCode: 404, title: "Nieprawidłowa lokalizacja zdjęcia.");
-            var contentType = Path.GetExtension(path).ToLowerInvariant() switch
-            {
-                ".jpg" or ".jpeg" => "image/jpeg", ".png" => "image/png", ".webp" => "image/webp", _ => null
-            };
+            var contentType = PhotoCache.ContentType(path);
             if (contentType is null || !System.IO.File.Exists(path))
                 return Problem(statusCode: 404, title: "Plik zdjęcia jest niedostępny.");
             Response.Headers.CacheControl = "no-store";
             return PhysicalFile(path, contentType);
         }
-        catch (Exception exception) when (exception is Npgsql.NpgsqlException or TimeoutException)
+        catch (Exception exception) when (IsDatabaseFailure(exception, cancellationToken))
         {
             logger.LogWarning("Nie udało się odczytać pliku zdjęcia ({ExceptionType}).", exception.GetType().Name);
             return Problem(statusCode: 503, title: "Nie udało się pobrać zdjęcia z bazy.");
         }
     }
+
+    // Błąd bazy albo przekroczony czas zapytania (anulowanie, którego nie zażądał klient) → 503 zamiast 500.
+    private static bool IsDatabaseFailure(Exception exception, CancellationToken cancellationToken)
+        => exception is Npgsql.NpgsqlException or TimeoutException
+            || exception is OperationCanceledException && !cancellationToken.IsCancellationRequested;
 }

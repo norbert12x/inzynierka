@@ -1,4 +1,5 @@
 using Inżynierka.Data;
+using Inżynierka.Data.Entities;
 using Inżynierka.Models;
 using Inżynierka.Planning;
 using Microsoft.AspNetCore.Mvc;
@@ -39,7 +40,7 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
             var query = database.Places.AsNoTracking()
                 .Where(place => place.Kind == "attraction" && place.Status == "active");
             if (parameters.RequirePhoto)
-                query = query.Where(place => place.Photos.Any(photo => photo.Status == "approved"));
+                query = query.Where(place => place.Photos.Any(photo => photo.Status == "approved" && photo.Kind == PhotoKinds.Place));
 
             if (!string.IsNullOrEmpty(city))
                 query = query.Where(place => place.City != null && place.City.Trim().ToLower() == city);
@@ -85,7 +86,8 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                     place.City,
                     place.Address,
                     place.Location,
-                    HasPhoto = place.Photos.Any(photo => photo.Status == "approved"),
+                    // Zdjęcie samej atrakcji – eksponat nie liczy się jako zdjęcie miejsca.
+                    HasPhoto = place.Photos.Any(photo => photo.Status == "approved" && photo.Kind == PhotoKinds.Place),
                     PendingPhotoCount = place.Photos.Count(photo => photo.Status == "pending_review"),
                     DistanceKm = center == null ? (double?)null : EF.Functions.Distance(place.Location, center, true) / 1000,
                     Categories = place.Categories.OrderBy(item => item.CategoryCode)
@@ -169,11 +171,12 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                         .OrderBy(c => c.Name).ThenBy(c => c.Id)
                         .Select(c => new AttractionComponent(c.Id, c.Name)).ToList(),
                     Photos = p.Photos.Where(photo => photo.Status == "approved")
-                        .OrderBy(photo => photo.FetchedAtUtc).ThenBy(photo => photo.Id)
+                        // Kolejność galerii: pierwsze = zdjęcie główne (ustawiane na stronie /dev/zdjecia).
+                        .OrderBy(photo => photo.SortOrder).ThenBy(photo => photo.FetchedAtUtc).ThenBy(photo => photo.Id)
                         .Select(photo => new
                         {
                             photo.Id, photo.Author, photo.Credit, photo.License,
-                            photo.LicenseUrl, photo.SourcePageUrl, photo.Status
+                            photo.LicenseUrl, photo.SourcePageUrl, photo.Status, photo.Kind, photo.Caption
                         }).ToList(),
                     FromGeoapify = p.Sources.Any(s => s.Provider == "geoapify")
                 })
@@ -183,9 +186,13 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                 return Problem(statusCode: StatusCodes.Status404NotFound, title: "Nie znaleziono atrakcji.",
                     detail: "Atrakcja nie istnieje albo nie jest obecnie dostępna w katalogu.");
 
-            var photos = place.Photos.Select(photo => new AttractionPhoto(photo.Id,
+            var allPhotos = place.Photos.Select(photo => new AttractionPhoto(photo.Id,
                 $"/api/attractions/{place.Id}/photos/{photo.Id}/image",
-                photo.Author, photo.Credit, photo.License, photo.LicenseUrl, photo.SourcePageUrl, photo.Status)).ToList();
+                photo.Author, photo.Credit, photo.License, photo.LicenseUrl, photo.SourcePageUrl, photo.Status,
+                photo.Kind, photo.Caption)).ToList();
+            // Osobno zdjęcia miejsca i eksponaty (galeria muzeum).
+            var photos = allPhotos.Where(p => p.Kind != PhotoKinds.Exhibit).ToList();
+            var exhibits = allPhotos.Where(p => p.Kind == PhotoKinds.Exhibit).ToList();
 
             var fallbackMinutes = place.Categories.Count == 0
                 ? await GetFallbackVisitMinutesAsync(database, cancellationToken)
@@ -199,7 +206,7 @@ public class AttractionsController(ILogger<AttractionsController> logger) : Cont
                 place.Location.Y, place.Location.X, place.Website,
                 place.Categories.Select(c => new AttractionCategory(c.CategoryCode, c.Name)).ToList(),
                 place.OpeningHours, place.OpeningHoursVerification, place.OpeningHoursConfirmedOn,
-                visit.Minutes, visit.Source, place.Components, photos,
+                visit.Minutes, visit.Source, place.Components, photos, exhibits,
                 place.FromGeoapify ? GeoapifyAttribution : null));
         }
         catch (Exception exception) when (exception is Npgsql.NpgsqlException or TimeoutException

@@ -23,8 +23,10 @@ public sealed record AttractionDetails(
     VisitMinutesSource VisitMinutesSource,
     // Elementy obiektu (np. tablice, rzeźby w parku) przypisane do tej atrakcji.
     IReadOnlyList<AttractionComponent> Components,
-    // Tylko zatwierdzone zdjęcia, z autorem i licencją do wyświetlenia przy zdjęciu.
+    // Tylko zatwierdzone zdjęcia samej atrakcji, z autorem i licencją do wyświetlenia przy zdjęciu.
     IReadOnlyList<AttractionPhoto> Photos,
+    // Zatwierdzone zdjęcia eksponatów i wnętrz (zwykle muzea), z podpisem `Caption`; pusta lista = brak.
+    IReadOnlyList<AttractionPhoto> Exhibits,
     // Oznaczenie źródła danych do pokazania w interfejsie.
     string? Attribution);
 

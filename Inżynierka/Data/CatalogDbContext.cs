@@ -82,6 +82,11 @@ public sealed class CatalogDbContext(DbContextOptions<CatalogDbContext> options)
         photo.Property(p => p.Metadata).HasColumnName("metadata").HasColumnType("jsonb");
         photo.Property(p => p.FetchedAtUtc).HasColumnName("fetched_at_utc");
         photo.Property(p => p.Status).HasColumnName("status");
+        // Istniejące zdjęcia dostają "place" (wartość domyślna kolumny).
+        photo.Property(p => p.Kind).HasColumnName("kind").IsRequired().HasDefaultValue(PhotoKinds.Place);
+        photo.Property(p => p.Caption).HasColumnName("caption");
+        photo.Property(p => p.SortOrder).HasColumnName("sort_order").HasDefaultValue(0);
+        photo.ToTable(t => t.HasCheckConstraint("place_photos_kind_check", "kind in ('place', 'exhibit')"));
         photo.HasIndex(p => new { p.PlaceId, p.Provider, p.SourceFile }).IsUnique();
         photo.HasOne(p => p.Place).WithMany(p => p.Photos).HasForeignKey(p => p.PlaceId);
     }

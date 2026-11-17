@@ -46,6 +46,18 @@ public sealed class PlacePhoto
     public string Metadata { get; set; } = "{}";
     public DateTimeOffset FetchedAtUtc { get; set; }
     public string Status { get; set; } = "pending_review";
+    // "place" = zdjęcie samej atrakcji, "exhibit" = eksponat lub wnętrze muzeum (osobna galeria).
+    public string Kind { get; set; } = PhotoKinds.Place;
+    // Krótki opis z Commons (np. nazwa eksponatu); null = brak.
+    public string? Caption { get; set; }
+    // Kolejność w galerii (rosnąco); pierwsze zatwierdzone zdjęcie rodzaju "place" = zdjęcie główne atrakcji.
+    public int SortOrder { get; set; }
+}
+
+public static class PhotoKinds
+{
+    public const string Place = "place";
+    public const string Exhibit = "exhibit";
 }
 
 public sealed class CatalogCategory

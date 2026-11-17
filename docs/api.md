@@ -65,7 +65,7 @@ Testy (stan po selekcji z 5.10.2026):
 
 ## Szczegóły atrakcji — `GET /api/attractions/{id}`
 
-Jedna aktywna atrakcja: nazwa, opis, adres, współrzędne, strona WWW, kategorie, godziny z weryfikacją, `visitMinutes` + `visitMinutesSource`, `components` (elementy obiektu, np. tablice w parku), zatwierdzone zdjęcia z autorem i licencją, `attribution` (źródło danych). Opisy są na razie puste (zadanie 1.5). Przykład: Muzeum – Zamek w Łańcucie → `visitMinutes=90`, `visitMinutesSource="category_default"`.
+Jedna aktywna atrakcja: nazwa, opis, adres, współrzędne, strona WWW, kategorie, godziny z weryfikacją, `visitMinutes` + `visitMinutesSource`, `components` (elementy obiektu, np. tablice w parku), zatwierdzone zdjęcia z autorem i licencją – osobno `photos` (sama atrakcja) i `exhibits` (eksponaty/wnętrza muzeum, z podpisem `caption`), `attribution` (źródło danych). Opisy są na razie puste (zadanie 1.5). Przykład: Muzeum – Zamek w Łańcucie → `visitMinutes=90`, `visitMinutesSource="category_default"`.
 
 | Przypadek | `id` | Wynik |
 |---|---|---|
@@ -79,9 +79,74 @@ Jedna aktywna atrakcja: nazwa, opis, adres, współrzędne, strona WWW, kategori
 
 ## Zdjęcia — `GET /api/attractions/{id}/photos` i `.../photos/{photoId}/image`
 
-Lista zatwierdzonych zdjęć (autor, licencja, link do źródła, `imageUrl`) i sam plik obrazu. W Development `?includePending=true` pokazuje też propozycje do przeglądu. Pliki leżą lokalnie w `.local/photo-cache` — brak pliku daje 404 (część plików wymaga ponownego pobrania, zadanie 1.4).
+Lista zatwierdzonych zdjęć (autor, licencja, link do źródła, `imageUrl`, `kind`: `place`/`exhibit`, `caption`) – najpierw zdjęcia miejsca, potem eksponaty – i sam plik obrazu. `hasPhoto` i `requirePhoto` w liście atrakcji liczą tylko zdjęcia miejsca. W Development `?includePending=true` pokazuje też propozycje do przeglądu. Pliki leżą lokalnie w `.local/photo-cache` — brak pliku daje 404 (część plików wymaga ponownego pobrania, zadanie 1.4).
 
 Automat pobierający propozycje zdjęć z Wikimedia Commons: `scripts/fetch_place_photos.py`, opis w `data/photos/README.md`.
+
+## Naprawa brakujących plików zdjęć — `POST /api/dev/photos/repair` (tylko Development)
+
+Sprawdza każdy wpis zdjęcia w bazie (bez odrzuconych) i czy jego plik jest w `.local/photo-cache`. Brakujące pliki Wikimedia pobiera ponownie z `thumbnail_url` zapisanego w bazie (te same zasady co skrypt Python: tylko hosty Wikimedia, maks. 8 MB, JPEG/PNG/WebP, 0,4 s odstępu). **Nie zmienia rekordów w bazie.** Zdjęcia własne (`user_provided`) trzeba skopiować ręcznie.
+
+| Parametr | Działanie |
+|---|---|
+| `dryRun` | `true` (domyślnie) – tylko raport braków; `false` – pobieranie. |
+| `limit` | Maks. liczba pobrań w jednym wywołaniu, 1–200 (domyślnie 50). |
+
+Odpowiedź: `checked`, `present`, `missing`, `downloaded`, `failed`, `remaining` i lista `items` (tylko braki) z `outcome`: `missing`, `downloaded`, `failed` (z opisem), `manual_required`, `invalid_path`.
+
+Testy:
+1. `dryRun=true` → lista braków, nic nie pobrane (stan 17.11: ok. 74 wpisy, z czego część bez pliku).
+2. `dryRun=false` → `downloaded` > 0; potem Biały Ogród (`/api/attractions/73fb5dd6-f1f9-50bf-ad22-2dc1bf47f37b/photos/e230b824-55b8-5e2a-87be-9fb58255cc9d/image?includePending=true`) pokazuje zdjęcie.
+3. Ponowne `dryRun=true` → `missing` = 0 (albo tylko `failed`/`manual_required`).
+4. Poza Development → 404.
+
+## Propozycje zdjęć atrakcji — `POST /api/dev/attractions/{id}/photo-candidates` (tylko Development)
+
+Szuka w Wikimedia Commons kilku zdjęć jednej atrakcji. Kategorię Commons obiektu bierze z Wikidata (P373) na podstawie tagu OSM `wikidata` z `place_sources.raw_data`; tag `subject:wikidata` (osoba lub temat pomnika, np. „Adam Mickiewicz”) jest celowo pomijany. Stan 17.11: ok. 30 atrakcji ma własną kategorię (razem ok. 680 plików).
+
+- `kind=place` (domyślnie): pliki z kategorii obiektu i do 3 jej podkategorii (bez kolekcji/wnętrz), potem po nazwie i mieście, na końcu z geotagiem w promieniu `radiusMeters`.
+- `kind=exhibit` (muzea): tylko pliki z podkategorii kolekcji/wnętrz/wystaw (np. „Collections of Rzeszów Regional Museum”, „Interior of the Łańcut Castle”), do 5 podkategorii. Podpis eksponatu (`caption`) z opisu pliku. Bez kategorii → `note` z wyjaśnieniem.
+
+ Przepuszcza tylko CC BY / CC BY-SA 1.0, 2.0, 2.5, 3.0, 4.0 (także krajowe, np. „3.0 pl”), CC0 i domenę publiczną, z autorem i linkiem licencji, w JPEG/PNG/WebP. Pobiera miniaturę 1280 px do `.local/photo-cache` i **zapisuje w bazie jako `pending_review`** (niewidoczne w publicznym API). Pliki już znane dla atrakcji – także odrzucone – są pomijane, więc odrzucone zdjęcie nie wraca.
+
+| Parametr | Działanie |
+|---|---|
+| `limit` | Ile nowych propozycji zapisać, 1–20 (domyślnie 5). |
+| `radiusMeters` | 0–500 m (domyślnie 50); 0 = bez wyszukiwania w promieniu. Większy promień = więcej sąsiednich budynków. |
+| `kind` | `place` (domyślnie) albo `exhibit`. |
+
+Odpowiedź: `kind`, `commonsCategory`, `note`, `added` (z `imageUrl`, `kind`, `caption`), `skipped` (z powodem, miniaturą prosto z Wikimedia, licencją i autorem – tylko podgląd, bez zapisu; typowe powody: brak autora, dodatkowe ograniczenia, format TIFF/SVG), `alreadyKnown`.
+
+## Decyzja o zdjęciu — `POST /api/dev/photos/{photoId}/review` (tylko Development)
+
+Body: `{"status": "approved"}` – zdjęcie widoczne w API; `"rejected"` – odrzucone; `"pending_review"` – cofnięcie decyzji. Opcjonalnie `"kind": "place" | "exhibit"` – przeniesienie między galerią miejsca a wnętrzami/eksponatami (można podać samo `kind`). Nowo zatwierdzone zdjęcie trafia na koniec galerii. Brak obu pól lub inna wartość → 400, nieznane zdjęcie → 404.
+
+## Zdjęcie główne — `POST /api/dev/photos/{photoId}/primary` (tylko Development)
+
+Ustawia zatwierdzone zdjęcie jako pierwsze w jego galerii (`sort_order` = 0, pozostałe 1, 2, …). Pierwsze zatwierdzone zdjęcie rodzaju `place` to zdjęcie główne atrakcji – publiczne API zwraca zdjęcia w kolejności `sort_order`. Niezatwierdzone → 400.
+
+## Wszystkie zdjęcia atrakcji — `GET /api/dev/attractions/{id}/photos` (tylko Development)
+
+Zatwierdzone, propozycje i odrzucone, z `kind`, `caption`, `sortOrder`, `isPrimary`, informacją o pliku na dysku i identyfikatorem Wikidata (`commonsHint`).
+
+### Strona przeglądu — `http://localhost:5201/dev/zdjecia` (tylko Development)
+
+Wygodna alternatywa dla Swaggera (plik `Inżynierka/DevTools/zdjecia.html`, dane z `GET /api/dev/photos/queue`):
+
+- **Propozycje** – zdjęcia `pending_review` po kolei, z autorem, licencją, źródłem i linkiem do mapy; miniatury innych propozycji tego samego miejsca. Klawisze: **A** zatwierdź, **R** odrzuć, **S** / → pomiń, ← poprzednie, **U** cofnij ostatnią decyzję. Przy braku pliku przycisk „Pobierz brakujące pliki” (repair). „Szukaj więcej zdjęć tego miejsca” uruchamia `photo-candidates`.
+- **Miejsca** – aktywne atrakcje i murale z liczbą zatwierdzonych zdjęć, eksponatów i propozycji; filtry „tylko bez zdjęcia” i „tylko muzea”; przyciski „Szukaj zdjęć” i (dla muzeów) „Szukaj eksponatów”. Propozycje eksponatów mają żółtą etykietę „eksponat” i opis.
+- **Atrakcje – wszystkie zdjęcia** – jedna atrakcja na raz (← / → albo lista), wszystkie jej zdjęcia w grupach: zatwierdzone zdjęcia miejsca, zatwierdzone wnętrza i eksponaty, propozycje, odrzucone. Przy każdym zdjęciu: „Ustaw jako główne”, zatwierdź, odrzuć, „Do przeglądu”, przeniesienie między zdjęciem miejsca a wnętrzem/eksponatem. Główne zdjęcie ma zieloną ramkę. Filtr „tylko z jakimkolwiek zdjęciem”.
+- Przycisk „Szukaj wnętrz i eksponatów” jest przy każdej atrakcji (nie tylko muzeach) – np. wnętrza pałaców i kościołów.
+- **Pominięte** – po każdym wyszukiwaniu pod spodem miniatury plików odrzuconych przez filtr, z powodem i linkiem do Commons (tylko podgląd).
+
+Poza Development API zwraca 404, więc strona nic nie pokaże. Docelowo zastąpi ją panel administratora (E6.6).
+
+### Przegląd zdjęć krok po kroku w Swaggerze (przykład: Biały Ogród `73fb5dd6-f1f9-50bf-ad22-2dc1bf47f37b`)
+
+1. `POST /api/dev/attractions/73fb5dd6-f1f9-50bf-ad22-2dc1bf47f37b/photo-candidates` → lista `added`.
+2. Każdy `imageUrl` otwórz w przeglądarce z prefiksem `http://localhost:5201`.
+3. Najlepsze: `POST /api/dev/photos/{photoId}/review` z `{"status":"approved"}`; pozostałe (i stare, nieudane): `{"status":"rejected"}`.
+4. `GET /api/attractions/73fb5dd6-f1f9-50bf-ad22-2dc1bf47f37b` → `photos` zawiera zatwierdzone zdjęcia.
 
 ## Wyszukiwanie lokalizacji — `GET /api/locations/search`
 

@@ -158,6 +158,10 @@ namespace Inżynierka.Migrations
                         .HasColumnType("text")
                         .HasColumnName("cached_relative_path");
 
+                    b.Property<string>("Caption")
+                        .HasColumnType("text")
+                        .HasColumnName("caption");
+
                     b.Property<string>("Credit")
                         .IsRequired()
                         .HasColumnType("text")
@@ -166,6 +170,13 @@ namespace Inżynierka.Migrations
                     b.Property<DateTimeOffset>("FetchedAtUtc")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("fetched_at_utc");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("text")
+                        .HasDefaultValue("place")
+                        .HasColumnName("kind");
 
                     b.Property<string>("License")
                         .IsRequired()
@@ -201,6 +212,12 @@ namespace Inżynierka.Migrations
                         .HasColumnType("text")
                         .HasColumnName("provider");
 
+                    b.Property<int>("SortOrder")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0)
+                        .HasColumnName("sort_order");
+
                     b.Property<string>("SourceFile")
                         .IsRequired()
                         .HasColumnType("text")
@@ -226,7 +243,10 @@ namespace Inżynierka.Migrations
                     b.HasIndex("PlaceId", "Provider", "SourceFile")
                         .IsUnique();
 
-                    b.ToTable("place_photos", "catalog");
+                    b.ToTable("place_photos", "catalog", t =>
+                        {
+                            t.HasCheckConstraint("place_photos_kind_check", "kind in ('place', 'exhibit')");
+                        });
                 });
 
             modelBuilder.Entity("Inżynierka.Data.Entities.PlaceSource", b =>

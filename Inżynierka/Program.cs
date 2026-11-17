@@ -47,6 +47,20 @@ namespace Inżynierka
                 client.BaseAddress = new Uri("https://api.geoapify.com/");
                 client.Timeout = TimeSpan.FromSeconds(15);
             }).RemoveAllLoggers(); // URL Geoapify zawiera klucz API i adres użytkownika.
+            // Wikimedia (tylko narzędzia Development /api/dev/...): pobieranie plików i wyszukiwanie w Commons.
+            // Wikimedia wymaga opisowego User-Agent z kontaktem do projektu.
+            const string wikimediaUserAgent = "InzynierkaPhotoBot/0.1 (https://github.com/norbert12x/inzynierka; catalog photo research)";
+            builder.Services.AddHttpClient<Services.PhotoDownloadService>(client =>
+            {
+                client.Timeout = TimeSpan.FromSeconds(30);
+                client.DefaultRequestHeaders.UserAgent.ParseAdd(wikimediaUserAgent);
+            });
+            builder.Services.AddHttpClient<Services.WikimediaCommonsService>(client =>
+            {
+                client.BaseAddress = new Uri("https://commons.wikimedia.org/");
+                client.Timeout = TimeSpan.FromSeconds(20);
+                client.DefaultRequestHeaders.UserAgent.ParseAdd(wikimediaUserAgent);
+            });
             builder.Services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new()
@@ -108,6 +122,12 @@ namespace Inżynierka
                 }).WithTags("Database")
                   .Produces(StatusCodes.Status200OK)
                   .ProducesProblem(StatusCodes.Status503ServiceUnavailable);
+
+                // Strona przeglądu zdjęć (DevTools/zdjecia.html). Celowo poza wwwroot: MapStaticAssets podaje HTML
+                // skompresowany gzipem, a skrypt odświeżania Visual Studio doklejony do takiej odpowiedzi ją psuje.
+                app.MapGet("/dev/zdjecia", (IWebHostEnvironment environment) =>
+                        Results.File(Path.Combine(environment.ContentRootPath, "DevTools", "zdjecia.html"), "text/html; charset=utf-8"))
+                    .ExcludeFromDescription();
             }
 
             app.MapStaticAssets();
