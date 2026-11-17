@@ -26,7 +26,7 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
 - Logika planera: `Inżynierka/Planning/` – czyste klasy bez bazy i HTTP (dane wejściowe → plan), żeby dało się je testować xUnit.
 - Zmiany bazy: **tylko nowy plik** `database/NNN_opis.sql` (kolejny numer). Nie edytuj istniejących plików SQL. Nie używamy migracji EF, `EnsureCreated()` ani `Database.Migrate()`. Opisz plik w `database/README.md`.
 - Ekrany: `frontend/src/features/<moduł>/`, wywołania API w `api.ts` modułu.
-- Dokumentacja etapu: opis endpointu i przypadki testowe w Swaggerze (czego oczekiwać, błędy 400/404) w `docs/api.md`. README to strona projektu na GitHubie – aktualizuj tylko tabelę stanu prac i listę endpointów, bez instrukcji etapów.
+- Dokumentacja etapu: opis endpointu i przypadki testowe w Swaggerze (czego oczekiwać, błędy 400/404) w `docs/api.md`. README to stały opis projektu (czym jest aplikacja, stos, uruchomienie) – nie dopisuj tam stanu prac, endpointów ani instrukcji etapów; zmieniaj go tylko, gdy zmienia się stos albo sposób uruchomienia.
 
 ## Zasady
 
