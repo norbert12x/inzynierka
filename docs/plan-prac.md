@@ -74,14 +74,22 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 - ✅ **2.3 Rola Admin** – rola `Admin`, nadawana skryptem/SQL; polityka `[Authorize(Roles = "Admin")]`. Kod gotowy (18.11): `GET /api/admin/users` (`AdminUsersController`, lista kont – zaczątek panelu E6.6), SQL nadania/odebrania roli w `docs/api.md`. Test 401/403/200 przeszedł 18.11.
   Gotowe, gdy: endpoint testowy zwraca 403 dla zwykłego użytkownika i 200 dla admina.
 
-## E3 Czasy przejazdów (OpenRouteService)
+## E3 Czasy przejazdów (szacunek + macierz atrakcji z ORS)
 
-- ⬜ **3.1 Klient ORS** – `OpenRouteServiceClient` (macierz czasów i odległości, profile `driving-car` i `foot-walking`), klucz w `.local/ors-key.txt`, timeout, obsługa limitów (429 → 503).
-  Gotowe, gdy: endpoint diagnostyczny (Development) zwraca macierz dla 3 atrakcji.
-- ⬜ **3.2 Pamięć podręczna** – tabela `routing.travel_times` (para punktów, profil, czas, odległość, data), plik SQL; najpierw baza, potem ORS tylko dla brakujących par.
-  Gotowe, gdy: drugie wywołanie dla tych samych punktów nie wysyła zapytania do ORS.
-- ⬜ **3.3 Tryb samochód + spacer i przybliżenie** – odcinek pieszo poniżej progu (konfiguracja), inaczej samochód; gdy ORS niedostępny – szacunek z odległości PostGIS oznaczony jako przybliżony.
-  Gotowe, gdy: testy xUnit wyboru trybu i przybliżenia; ostrzeżenie w odpowiedzi przy przybliżeniu.
+Decyzja (18.11): planer liczy czasy sam, nawigację robi Google Maps (link). Podstawą jest **szacunek z odległości**, dokładniejsze czasy po drogach dla par atrakcji pobieramy **raz, partiami** z OpenRouteService i trzymamy w bazie – w czasie planowania aplikacja nie wywołuje żadnej usługi routingu. Przegląd opcji (18.11):
+- ORS (HeiGIT), plan Standard 0 €: Matrix 500 zapytań/dzień, 40/min, do 3500 par w zapytaniu; wyniki na licencji **CC-BY-SA 4.0** – zapis dozwolony z podpisem „© openrouteservice by HeiGIT | Data from OpenStreetMap”. Regulamin zabrania przesyłania danych osobowych → adresów noclegu nie wysyłamy. Plan Collaborative (akademicki, 2500/dzień) – w razie potrzeby.
+- Odrzucone: publiczny OSRM (tylko niekomercyjnie, 1 zapytanie/s, bez gwarancji – jak Overpass), GraphHopper Free (5 punktów, niekomercyjnie), Geoapify Route Matrix (ok. 30 macierzy 10×10 dziennie, wspólny limit z wyszukiwaniem), Mapbox/TomTom/HERE (komercyjne, ostrzejsze zasady zapisu).
+- Plan B (za zgodą, nowa usługa): własny OSRM w Dockerze na wyciągu Geofabrik `podkarpackie` (148 MB, ODbL).
+
+- ✅ **3.1 Szacunek czasu** – czysta klasa w `Planning/` (bez bazy i HTTP): odległość w linii prostej × współczynnik objazdu ÷ prędkość, osobno samochód i pieszo, + stały czas na parkowanie przy jeździe autem; wybór trybu: pieszo, gdy marsz ≤ progu w minutach, inaczej samochód. Parametry w sekcji `Routing` (`RoutingOptions` + walidator), wartości startowe do kalibracji w 3.3. Wynik z oznaczeniem źródła (`estimate`).
+  Gotowe, gdy: testy xUnit (tryb, próg, parkowanie, punkt = punkt → 0, błędne parametry konfiguracji zatrzymują start).
+  Kod gotowy (18.11): `Planning/TravelTimeEstimator.cs` (haversine, minuty w górę, `ShouldWalk` do ponownego użycia w 3.3), `Planning/TravelLeg.cs` (`TravelLeg`, `TravelMode`, `TravelTimeSource`, `GeoPoint`), `Configuration/RoutingOptions*.cs`, sekcja `Routing:Estimate` w `appsettings.json` (auto ×1,35 / 45 km/h + 5 min parkowania, pieszo ×1,25 / 4,5 km/h, pieszo do 15 min), diagnostyka `GET /api/dev/routing/estimate`; testy `TravelTimeEstimatorTests`, `RoutingOptionsValidatorTests`. Testy przechodzą (18.11). Porównanie z Google Maps: Rynek Rzeszów → Zamek Łańcut – szacunek 30 min jazdy (+5 parkowania) wobec 27 min w Google, pieszo 4,6 h wobec ok. 4 h; Rynek → Zamek Lubomirskich – pieszo 9 min (wybrane), autem 6 min z parkowaniem. Jedna prędkość zawyża odcinki między miastami – poprawka w 3.3 na danych, nie na jednej trasie.
+- ✅ **3.2 Macierz atrakcji z ORS** – tabela `routing.travel_times` (atrakcja od, atrakcja do, profil `driving-car`/`foot-walking`, czas, odległość, dostawca, data pobrania; migracja EF z RLS). Typowany `HttpClient` ORS w `Services/` (klucz w `.local/ors-key.txt`, timeout, 429 → 503) używany tylko przez narzędzie Development `POST /api/dev/routing/matrix?profile=…&dryRun=true` – pobiera **tylko brakujące pary** aktywnych atrakcji, partiami ≤ 3500 par, z odstępem między zapytaniami i limitem zapytań na wywołanie; tylko pary bliżej niż próg odległości w linii prostej (`Routing:MatrixMaxDistanceKm`, w MVP tyle, żeby objąć cały obszar – czyli wszystkie pary; granice administracyjne nie mają znaczenia), pieszo tylko pary bliżej niż osobny próg (np. 3 km). Szacunek: ok. 300 atrakcji → ok. 26 zapytań dla samochodu – jeden dzień limitu. Nowe atrakcje = ponowne wywołanie.
+  Gotowe, gdy: macierz dla wszystkich aktywnych atrakcji jest w bazie, drugie wywołanie nie wysyła zapytań do ORS, podpis ORS w odpowiedziach API przy czasach z macierzy.
+  Kod gotowy (18.11): encja `TravelTime` w `CatalogDbContext` (schemat `routing`, klucz od–do–profil, oba kierunki, `null` = brak trasy, kaskada przy usunięciu atrakcji, CHECK profilu), `Services/OpenRouteServiceMatrixService.cs`, podział na zapytania `Services/TravelMatrixBatches.cs` (bloki ≤ 59 punktów uporządkowane siatką, tylko brakujące pary w progu) + `TravelMatrixBatchesTests`, sekcja `Routing:Matrix`, endpoint `POST /api/dev/routing/matrix` (`docs/api.md`). Migracja `TravelTimes` (z RLS) wykonana; 18.11 pobrana macierz dla 153 aktywnych atrakcji: `driving-car` 23 256 par w 9 zapytaniach, `foot-walking` – pary do 3 km; 0 par bez trasy (ORS dotarł do każdej atrakcji). Podpis ORS w odpowiedzi narzędzia; w odpowiedziach planera – w 3.3/4.6. Nowe atrakcje: ponowne wywołanie pobiera tylko ich pary.
+- ✅ **3.3 Czasy dla planera i kalibracja** – dostawca czasów dla planera (E4): para atrakcji z bazy (`openrouteservice`), inaczej szacunek (`estimate`) – zawsze dla odcinków z/do noclegu i nowych atrakcji; odcinki z szacunku oznaczone w planie jako „czas przybliżony”. Kalibracja: narzędzie Development porównuje szacunek z macierzą (mediana i 90. percentyl błędu) i dopasowuje parametry → nowe wartości w `appsettings.json`; wynik do pracy. Model jazdy po kalibracji: **czas = stały narzut + droga ÷ prędkość (+ parkowanie)**; narzut i prędkość z regresji liniowej czasu ORS względem drogi (narzut wchłania ruszanie i światła w mieście, prędkość bliższa jeździe poza miastem), współczynnik objazdu z ilorazu drogi ORS i linii prostej. Parkowanie zostaje osobnym parametrem (ORS go nie zawiera). Porównanie przed i po kalibracji na tych samych parach.
+  Gotowe, gdy: testy xUnit dostawcy (para w bazie / brak pary / nocleg) na atrapach; raport kalibracji w `docs/`.
+  Kod gotowy (18.11): `Planning/TravelTimeMatrix.cs` (reguła ORS pieszo → ORS autem → szacunek; gdy ORS pieszo za długo, szacunek tylko autem), `Services/TravelTimeService.cs` (jedno zapytanie po pary atrakcji planu), `Planning/TravelCalibration.cs` + `GET /api/dev/routing/calibration`, nowy parametr `DrivingOverheadMinutes` (domyślnie 0); testy `TravelTimeMatrixTests`, `TravelCalibrationTests`. Kalibracja wykonana 18.11 (23 064 pary auto, 3 344 pieszo): auto ×1,42 / 51,4 km/h / narzut 4,8 min, pieszo ×1,23 / 4,97 km/h; mediana błędu auto 3,6 → 3,0 min, pieszo 2,2 → 0,9 min – raport `docs/kalibracja-czasow.md`, wartości w `appsettings.json`. Testy przechodzą (18.11).
 
 ## E4 Planer
 
@@ -142,6 +150,16 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 ## Później (poza MVP)
 
 Komunikacja publiczna (GTFS), parsowanie godzin i ich wpływ na kolejność, „przeplanuj” z akceptacją, restauracje, kolejne obszary Podkarpacia, wdrożenie online, wielojęzyczność.
+
+### Czasy przejazdów dla całego Podkarpacia
+
+Ustalenie z 18.11: przy kilku tysiącach atrakcji pełna macierz (każda para) jest za duża, więc trzy źródła czasu, od najdokładniejszego:
+
+1. **Macierz atrakcji** (3.2) – tylko pary bliżej niż `Routing:MatrixMaxDistanceKm` (ok. 20–25 km), niezależnie od granic powiatów (np. Rzeszów jest osobnym powiatem grodzkim, a Tyczyn i Łańcut to najbliższe okolice). Jeden kierunek na parę (A→B = B→A). Zgrubnie przy ok. 3000 atrakcji: 0,5–1 mln par na profil samochodowy, 300–500 zapytań ORS (1–2 dni limitu), ok. 50–100 MB w bazie (limit darmowego Supabase: 500 MB).
+2. **Macierz miejscowości** – czasy ORS między siedzibami gmin (ok. 160 punktów, ok. 25 tys. par, ok. 8 zapytań). Daleki odcinek = szacunek atrakcja → jej miejscowość + czas z ORS miejscowość → miejscowość + szacunek miejscowość → atrakcja. Oznaczony jako przybliżony, ale najdłuższa część liczona po prawdziwych drogach (ważne np. dla Bieszczad, gdzie linia prosta myli się o kilkadziesiąt minut).
+3. **Szacunek** (3.1) – gdy brak obu (nocleg, nowa atrakcja przed pobraniem macierzy).
+
+Kod z E3 tego nie blokuje: dostawca czasów już rozróżnia źródła, dochodzi trzecie („przez miejscowości”) i zmiana progu w konfiguracji. Do pracy: porównanie błędów trzech źródeł.
 
 ### Agent AI do uzupełniania danych atrakcji
 

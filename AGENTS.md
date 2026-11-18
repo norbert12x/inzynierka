@@ -9,7 +9,7 @@ Rozmawiaj po polsku, prostym językiem, zwięźle. Użytkownik zna C#. Termin MV
 - Backend: ASP.NET Core 9 (kontrolery API + Swagger w Development), projekt `Inżynierka/`, rozwiązanie `Inżynierka.sln`.
 - Baza: Supabase (PostgreSQL + PostGIS), EF Core + Npgsql + NetTopologySuite. Schemat katalogu: `catalog`.
 - Konta: ASP.NET Core Identity (e-mail + hasło, ciasteczko), role `User` i `Admin`.
-- Routing (czasy przejazdów): OpenRouteService API (profile samochód i pieszo).
+- Czasy przejazdów: szacunek z odległości w `Planning/` + macierz czasów między atrakcjami pobrana z OpenRouteService (profile `driving-car`, `foot-walking`) narzędziem Development i zapisana w `routing.travel_times`. Planer w czasie działania nie wywołuje ORS; adresów noclegu nie wysyłamy (regulamin HeiGIT: bez danych osobowych). Nawigacja: linki Google Maps. Publiczny OSRM odrzucony (jak Overpass).
 - Dane atrakcji: katalog z Geoapify (OpenStreetMap; zabytki, przyroda, pomniki) + nowe atrakcje z Overture Maps Places (aktywna rozrywka, firmy; wyciąg skryptem) + ręcznie, z ochroną przed duplikatami (`docs/zrodla-danych.md`). Geokodowanie: Geoapify. Zdjęcia: Wikimedia Commons + własne. **Bez API Google** (decyzja użytkownika) – Google Maps tylko jako linki nawigacji.
 - E-mail: SMTP + MailKit (lokalnie skrzynka testowa, np. Mailpit w Dockerze).
 - Frontend: React + Vite (TypeScript) w katalogu `frontend/`, mapa Leaflet + kafelki OSM. Dev server Vite przekazuje `/api` do backendu (proxy), więc ciasteczko logowania działa bez CORS.
@@ -39,7 +39,7 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
 
 ## Zasady
 
-- Konfiguracja przez `IConfiguration` (sekcje, np. `Database`, `Geoapify`, `OpenRouteService`, `Smtp`). Sekrety tylko w `.local/` (ignorowane przez Git) lub zmiennych środowiskowych (`Sekcja__Klucz`). Nigdy w kodzie ani `appsettings*.json`. Klucze nie trafiają do odpowiedzi API ani logów.
+- Konfiguracja przez `IConfiguration` (sekcje, np. `Database`, `Geoapify`, `OpenRouteService`, `Routing`, `Smtp`). Sekrety tylko w `.local/` (ignorowane przez Git) lub zmiennych środowiskowych (`Sekcja__Klucz`). Nigdy w kodzie ani `appsettings*.json`. Klucze nie trafiają do odpowiedzi API ani logów.
 - Współrzędne: `geography(point, 4326)`, w NTS `X` = długość, `Y` = szerokość. Odległości liczy PostGIS w metrach.
 - Czas: znaczniki w UTC (`timestamptz`, `DateTimeOffset`). Plan wyjazdu w czasie lokalnym `Europe/Warsaw` (`DateOnly`/`TimeOnly`).
 - Brak danych ≠ wartość domyślna: nieznane godziny otwarcia to nie „całodobowo”, brak zdjęcia nie jest zastępowany innym. Nie zmyślamy godzin, opinii ani czasów zwiedzania.
@@ -47,7 +47,7 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
 - Dodatkowe atrakcje i przeplanowanie wymagają akceptacji użytkownika – nie zmieniaj planu za niego.
 - Region nie może być stałą w kodzie: obszar (środek, promień, nazwa) z konfiguracji/bazy, żeby dało się dodać kolejne części Podkarpacia.
 - Błędy API jako `ProblemDetails` z polskim opisem; błąd bazy → 503 (globalnie), błąd dostawcy zewnętrznego → 502/503/504 zamiast pustej listy.
-- Zachowuj oznaczenia źródeł (OpenStreetMap, Geoapify, Overture z licencją rekordu, OpenRouteService, autor i licencja zdjęcia). Nie używaj źródeł, których regulamin zabrania zapisu danych (Google Places, Foursquare Places API). Publiczny Overpass (OSM) odrzucony – przeciążony, a dane OSM mamy z Geoapify.
+- Zachowuj oznaczenia źródeł (OpenStreetMap, Geoapify, Overture z licencją rekordu, OpenRouteService – CC-BY-SA 4.0, autor i licencja zdjęcia). Nie używaj źródeł, których regulamin zabrania zapisu danych (Google Places, Foursquare Places API). Publiczny Overpass (OSM) odrzucony – przeciążony, a dane OSM mamy z Geoapify.
 - UI, komunikaty i dokumentacja po polsku; nazwy w kodzie po angielsku.
 - Pracujemy małymi etapami: po każdym użytkownik kompiluje, testuje w Swaggerze i przegląda kod.
 

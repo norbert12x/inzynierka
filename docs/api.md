@@ -91,6 +91,32 @@ Scenariusz: zarejestruj `admin@example.com` i `test@example.com` → zaloguj `te
 
 `{"connected":true,"schema":"catalog","placesCount":…,"categoriesCount":…,"accountsSchema":"identity","usersCount":…,"roles":["Admin","User"]}` – szybki test połączenia (liczy wszystkie rekordy, także usunięte i elementy). Przed migracją kont (`Identity`) zwraca 503 – brak tabel `identity.*`.
 
+### Szacunek czasu przejazdu — `GET /api/dev/routing/estimate`
+
+`?fromLatitude=&fromLongitude=&toLatitude=&toLongitude=` (wszystkie wymagane, brak lub poza zakresem → 400). Zwraca `straightLineMeters`, `chosen` (tryb, który wybrałby planer), `walking` i `driving` (oba tryby: `mode`, `minutes` z parkowaniem, `distanceMeters` = linia prosta × współczynnik, `source: "estimate"`, `isApproximate: true`) oraz użyte parametry `Routing:Estimate`. Nie wysyła zapytań na zewnątrz. Do ręcznego porównania z Google Maps, np.:
+- Rynek Rzeszów → Zamek Łańcut: `50.0375, 22.0049 → 50.0687, 22.2317` (ok. 16,5 km w linii prostej; samochodem),
+- Rynek → Zamek Lubomirskich: `50.0375, 22.0049 → 50.0333, 22.0018` (kilkaset metrów; pieszo).
+
+### Macierz atrakcji z ORS — `POST /api/dev/routing/matrix`
+
+`?profile=driving-car|foot-walking&dryRun=true&maxRequests=10` (1–100). Bierze aktywne atrakcje, pomija pary już zapisane w `routing.travel_times` (także „brak trasy”) i dalsze niż próg w linii prostej (`Routing:Matrix`: samochód 80 km – w MVP wszystkie pary, pieszo 3 km), dzieli resztę na zapytania ≤ 3500 par. `dryRun=true` tylko liczy (`missingPairs`, `requestsNeeded`), bez wysyłania do ORS i bez klucza. `dryRun=false` wysyła najwyżej `maxRequests` zapytań co 2 s i zapisuje po każdym; `remainingRequests` > 0 → wywołaj ponownie. Każde zapytanie zużywa 1 z 500 dziennie (plan Standard). Odpowiedź zawiera podpis i licencję ORS (CC-BY-SA 4.0). Klucz: `.local/ors-key.txt` (`OpenRouteService:ApiKey`), nie trafia do odpowiedzi ani logów; wysyłamy tylko współrzędne atrakcji.
+
+Błędy: zły profil / `maxRequests` → 400; brak klucza → 503; limit ORS (429), odrzucony klucz (401/403), odrzucone zapytanie (400 od ORS) albo niedostępność → 503 z treścią błędu ORS; zła odpowiedź → 502; przekroczony czas → 504. W `detail` – ile par zapisano przed błędem.
+
+Zmiana współrzędnych atrakcji nie odświeża jej czasów – usuń jej wiersze (`delete from routing.travel_times where from_place_id = … or to_place_id = …`) i wywołaj ponownie.
+
+Scenariusz: `profile=driving-car&dryRun=true` → np. 185 atrakcji, ok. 34 tys. par, kilkanaście–kilkadziesiąt zapytań; `dryRun=false&maxRequests=1` → `pairsSaved` > 0; potem `maxRequests=100` do `remainingRequests = 0`; ponowne `dryRun=true` → `missingPairs = 0`. To samo dla `foot-walking` (dużo mniej par).
+
+### Kalibracja szacunku — `GET /api/dev/routing/calibration`
+
+Tylko odczyt: bierze pary z `routing.travel_times` (z trasą), liczy odległość w linii prostej i porównuje szacunek z czasem ORS (bez parkowania – ORS go nie zawiera). Pomija pary bliższe niż 200 m. Zwraca:
+- `current` – obecne `Routing:Estimate`, `suggested` – dopasowane: współczynnik objazdu = mediana (trasa ORS ÷ linia prosta); jazda – regresja liniowa czasu względem szacowanej trasy (`drivingOverheadMinutes` = wyraz wolny, `drivingSpeedKmh` z nachylenia); pieszo – regresja przez zero. `parkingMinutes` i `maxWalkingMinutes` bez zmian;
+- `errors` – błąd przed i po dla przedziałów (auto: do 2 km, 2–10, powyżej 10; pieszo: do 1 km, 1–3) i łącznie: mediana i 90. percentyl błędu bezwzględnego w minutach, mediana błędu w %, średni błąd ze znakiem (> 0 – szacunek zawyża).
+
+Za mało par (< 20) dla trybu → jego parametry bez zmian. Nowe wartości trzeba przepisać ręcznie do `appsettings.json` i uruchomić aplikację ponownie.
+
+Czasy dla planera (`Services/TravelTimeService` → `Planning/TravelTimeMatrix`): para atrakcji z bazy – pieszo z ORS, jeśli marsz ≤ `maxWalkingMinutes`, inaczej autem z ORS + parkowanie; nocleg, para bez trasy lub spoza macierzy – szacunek (`source: "estimate"`, czas przybliżony). Endpoint planera – E4.6.
+
 ### Strona `/dev/zdjecia` (`DevTools/zdjecia.html`)
 
 | Endpoint | Działanie |

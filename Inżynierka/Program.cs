@@ -2,6 +2,7 @@ using Inżynierka.Configuration;
 using Inżynierka.Data;
 using Inżynierka.Data.Entities;
 using Inżynierka.Infrastructure;
+using Inżynierka.Planning;
 using Inżynierka.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,9 @@ namespace Inżynierka
                 var geoapifyKeyFile = Path.Combine(local, "geoapify-key.txt");
                 if (string.IsNullOrWhiteSpace(builder.Configuration["Geoapify:ApiKey"]) && File.Exists(geoapifyKeyFile))
                     builder.Configuration["Geoapify:ApiKey"] = File.ReadAllText(geoapifyKeyFile).Trim();
+                var orsKeyFile = Path.Combine(local, "ors-key.txt");
+                if (string.IsNullOrWhiteSpace(builder.Configuration["OpenRouteService:ApiKey"]) && File.Exists(orsKeyFile))
+                    builder.Configuration["OpenRouteService:ApiKey"] = File.ReadAllText(orsKeyFile).Trim();
                 builder.Configuration.AddEnvironmentVariables();
             }
 
@@ -45,6 +49,15 @@ namespace Inżynierka
                 .Bind(builder.Configuration.GetSection(CatalogOptions.SectionName))
                 .ValidateOnStart();
             builder.Services.AddSingleton<IValidateOptions<CatalogOptions>, CatalogOptionsValidator>();
+
+            // Czasy przejazdów (E3): parametry szacunku z konfiguracji, sam szacunek to czysta klasa z Planning/.
+            builder.Services.AddOptions<RoutingOptions>()
+                .Bind(builder.Configuration.GetSection(RoutingOptions.SectionName))
+                .ValidateOnStart();
+            builder.Services.AddSingleton<IValidateOptions<RoutingOptions>, RoutingOptionsValidator>();
+            builder.Services.AddSingleton(services =>
+                new TravelTimeEstimator(services.GetRequiredService<IOptions<RoutingOptions>>().Value.Estimate));
+            builder.Services.AddScoped<TravelTimeService>();
 
             builder.Services.AddControllers();
             builder.Services.AddProblemDetails();
@@ -76,6 +89,13 @@ namespace Inżynierka
                 client.DefaultRequestHeaders.UserAgent.ParseAdd(WikimediaUserAgent);
             });
             builder.Services.AddSingleton<OvertureCandidatesStore>();
+            // OpenRouteService – tylko narzędzie Development pobierające macierz atrakcji (POST /api/dev/routing/matrix).
+            builder.Services.AddHttpClient<OpenRouteServiceMatrixService>(client =>
+            {
+                client.BaseAddress = new Uri("https://api.openrouteservice.org/");
+                client.Timeout = TimeSpan.FromSeconds(60); // macierz do 3500 par
+                client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+            }).RemoveAllLoggers(); // klucz jest w nagłówku Authorization
 
             var app = builder.Build();
 

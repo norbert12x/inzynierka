@@ -9,6 +9,8 @@ public sealed class CatalogDbContext(DbContextOptions<CatalogDbContext> options)
     public DbSet<CatalogCategory> Categories => Set<CatalogCategory>();
     public DbSet<PlaceSource> Sources => Set<PlaceSource>();
     public DbSet<PlacePhoto> Photos => Set<PlacePhoto>();
+    // Schemat routing, ale w tym kontekście – klucze obce do catalog.places.
+    public DbSet<TravelTime> TravelTimes => Set<TravelTime>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -89,5 +91,24 @@ public sealed class CatalogDbContext(DbContextOptions<CatalogDbContext> options)
         photo.ToTable(t => t.HasCheckConstraint("place_photos_kind_check", "kind in ('place', 'exhibit')"));
         photo.HasIndex(p => new { p.PlaceId, p.Provider, p.SourceFile }).IsUnique();
         photo.HasOne(p => p.Place).WithMany(p => p.Photos).HasForeignKey(p => p.PlaceId);
+
+        var travel = modelBuilder.Entity<TravelTime>();
+        travel.ToTable("travel_times", "routing", t =>
+        {
+            t.HasCheckConstraint("travel_times_profile_check", "profile in ('driving-car', 'foot-walking')");
+            t.HasCheckConstraint("travel_times_not_same_place_check", "from_place_id <> to_place_id");
+        });
+        travel.HasKey(t => new { t.FromPlaceId, t.ToPlaceId, t.Profile });
+        travel.Property(t => t.FromPlaceId).HasColumnName("from_place_id");
+        travel.Property(t => t.ToPlaceId).HasColumnName("to_place_id");
+        travel.Property(t => t.Profile).HasColumnName("profile");
+        travel.Property(t => t.DurationSeconds).HasColumnName("duration_seconds");
+        travel.Property(t => t.DistanceMeters).HasColumnName("distance_meters");
+        travel.Property(t => t.Provider).HasColumnName("provider").IsRequired();
+        travel.Property(t => t.FetchedAt).HasColumnName("fetched_at");
+        travel.HasIndex(t => t.ToPlaceId);
+        // Usunięcie atrakcji z bazy usuwa jej czasy; zmiana statusu (np. removed) ich nie rusza.
+        travel.HasOne<CatalogPlace>().WithMany().HasForeignKey(t => t.FromPlaceId).OnDelete(DeleteBehavior.Cascade);
+        travel.HasOne<CatalogPlace>().WithMany().HasForeignKey(t => t.ToPlaceId).OnDelete(DeleteBehavior.Cascade);
     }
 }

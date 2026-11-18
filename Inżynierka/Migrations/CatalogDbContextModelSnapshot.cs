@@ -19,7 +19,7 @@ namespace Inżynierka.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasDefaultSchema("catalog")
-                .HasAnnotation("ProductVersion", "9.0.4")
+                .HasAnnotation("ProductVersion", "9.0.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.HasPostgresExtension(modelBuilder, "extensions", "postgis");
@@ -288,6 +288,49 @@ namespace Inżynierka.Migrations
                     b.ToTable("place_sources", "catalog");
                 });
 
+            modelBuilder.Entity("Inżynierka.Data.Entities.TravelTime", b =>
+                {
+                    b.Property<Guid>("FromPlaceId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("from_place_id");
+
+                    b.Property<Guid>("ToPlaceId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("to_place_id");
+
+                    b.Property<string>("Profile")
+                        .HasColumnType("text")
+                        .HasColumnName("profile");
+
+                    b.Property<int?>("DistanceMeters")
+                        .HasColumnType("integer")
+                        .HasColumnName("distance_meters");
+
+                    b.Property<int?>("DurationSeconds")
+                        .HasColumnType("integer")
+                        .HasColumnName("duration_seconds");
+
+                    b.Property<DateTimeOffset>("FetchedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("fetched_at");
+
+                    b.Property<string>("Provider")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("provider");
+
+                    b.HasKey("FromPlaceId", "ToPlaceId", "Profile");
+
+                    b.HasIndex("ToPlaceId");
+
+                    b.ToTable("travel_times", "routing", t =>
+                        {
+                            t.HasCheckConstraint("travel_times_not_same_place_check", "from_place_id <> to_place_id");
+
+                            t.HasCheckConstraint("travel_times_profile_check", "profile in ('driving-car', 'foot-walking')");
+                        });
+                });
+
             modelBuilder.Entity("Inżynierka.Data.Entities.CatalogPlace", b =>
                 {
                     b.HasOne("Inżynierka.Data.Entities.CatalogPlace", "Parent")
@@ -337,6 +380,21 @@ namespace Inżynierka.Migrations
                         .IsRequired();
 
                     b.Navigation("Place");
+                });
+
+            modelBuilder.Entity("Inżynierka.Data.Entities.TravelTime", b =>
+                {
+                    b.HasOne("Inżynierka.Data.Entities.CatalogPlace", null)
+                        .WithMany()
+                        .HasForeignKey("FromPlaceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Inżynierka.Data.Entities.CatalogPlace", null)
+                        .WithMany()
+                        .HasForeignKey("ToPlaceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Inżynierka.Data.Entities.CatalogCategory", b =>

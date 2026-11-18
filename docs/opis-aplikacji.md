@@ -39,7 +39,10 @@ Logowanie: e-mail + hasło (ASP.NET Core Identity).
 ## Transport i czasy przejazdów
 
 - Tryb główny: **samochód + spacer** – krótkie odcinki pieszo (poniżej progu z konfiguracji), dłuższe samochodem. Uproszczenie MVP: nie śledzimy, gdzie zostało auto (znane ograniczenie, opisane w pracy).
-- Czasy przejazdów: **OpenRouteService** (macierz czasów, profile samochód i pieszo), z zapisem w pamięci podręcznej (baza), żeby nie przekraczać dziennych limitów. Przy niedostępności ORS: szacunek z odległości w linii prostej, oznaczony w planie jako przybliżony.
+- Czasy przejazdów liczy aplikacja sama, **bez wywoływania usług routingu w czasie planowania**:
+  - między atrakcjami – z macierzy czasów po drogach (samochód i pieszo) pobranej raz, partiami, z **OpenRouteService** i zapisanej w bazie (wyniki CC-BY-SA 4.0, podpis ORS i OpenStreetMap);
+  - odcinki z/do noclegu i pary spoza macierzy – **szacunek** z odległości w linii prostej (współczynnik objazdu, prędkość, czas na parkowanie), skalibrowany na danych z ORS i oznaczony w planie jako „czas przybliżony”. Adresów noclegu nie wysyłamy do zewnętrznych usług.
+- **Nawigacja**: linki Google Maps (dzień i odcinki). Czasy w planie są orientacyjne – Google może pokazać inne (korki).
 - **Komunikacja publiczna**: planer nie liczy rozkładów; plan daje link do Google Maps w trybie komunikacji.
 
 ## Dane
@@ -48,7 +51,7 @@ Logowanie: e-mail + hasło (ASP.NET Core Identity).
 - Źródło: Geoapify Places / OpenStreetMap, ręczna selekcja turystyczna (5.10.2026: 152 aktywne, 33 murale czekające na zdjęcie).
 - Godziny otwarcia: tekst w formacie OSM, często brak. Nieznane ≠ całodobowo. W MVP planer tylko **ostrzega**, nie przestawia kolejności.
 - Czas wizyty: szacunek z katalogu (lub domyślny dla kategorii), edytowalny w planie.
-- Nowe dane w MVP: konta (Identity), plany (dni, pozycje), oceny i opinie, zgłoszenia, pamięć podręczna czasów przejazdów.
+- Nowe dane w MVP: konta (Identity), plany (dni, pozycje), oceny i opinie, zgłoszenia, macierz czasów przejazdów między atrakcjami (`routing.travel_times`).
 - Oceny w aplikacji i opinie Google to osobne źródła; opinii Google nie pobieramy.
 
 ## Poza MVP („później”)
