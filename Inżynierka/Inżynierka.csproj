@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
+    <!-- Konta (E2): ASP.NET Core Identity na EF Core; wersja zgodna z EF Core 9.0.1 używanym przez Npgsql. -->
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="9.0.4" />
     <!-- Add-Migration / Update-Database w konsoli menedżera pakietów; tylko narzędzia, nie trafia do aplikacji. -->

@@ -1,7 +1,9 @@
 using Inżynierka.Configuration;
 using Inżynierka.Data;
+using Inżynierka.Data.Entities;
 using Inżynierka.Infrastructure;
 using Inżynierka.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -34,6 +36,9 @@ namespace Inżynierka
                 ?? throw new InvalidOperationException(
                     "Brak konfiguracji bazy: uzupełnij .local/supabase.json (sekcja Database) albo zmienne Database__Host, Database__Username, Database__Password.");
             builder.Services.AddDbContext<CatalogDbContext>(options => options.UseCatalogDatabase(databaseConnection));
+            // Konta i role (schemat identity).
+            builder.Services.AddDbContext<AccountsDbContext>(options => options.UseAccountsDatabase(databaseConnection));
+            AddAccounts(builder.Services);
 
             // Obszary katalogu z konfiguracji; błędna sekcja zatrzymuje start aplikacji.
             builder.Services.AddOptions<CatalogOptions>()
@@ -85,6 +90,8 @@ namespace Inżynierka
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.MapControllers();
 
             if (app.Environment.IsDevelopment())
@@ -93,16 +100,65 @@ namespace Inżynierka
             app.Run();
         }
 
+        // ASP.NET Core Identity: e-mail + hasło, ciasteczko HttpOnly, role User/Admin.
+        private static void AddAccounts(IServiceCollection services)
+        {
+            services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
+                {
+                    options.User.RequireUniqueEmail = true;
+                    options.Password.RequiredLength = 8;
+                    options.Password.RequireDigit = true;
+                    options.Password.RequireLowercase = true;
+                    options.Password.RequireUppercase = true;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequiredUniqueChars = 1;
+                    options.Lockout.AllowedForNewUsers = true;
+                    options.Lockout.MaxFailedAccessAttempts = 5;
+                    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+                    options.SignIn.RequireConfirmedEmail = false; // potwierdzanie e-maila – najwcześniej w E8
+                })
+                .AddEntityFrameworkStores<AccountsDbContext>()
+                .AddErrorDescriber<PolishIdentityErrorDescriber>();
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.Name = "podkarpacie.auth";
+                options.Cookie.HttpOnly = true;
+                options.Cookie.SameSite = SameSiteMode.Lax; // ciasteczko nie idzie z cudzych formularzy POST
+                options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest; // Development działa na http://localhost
+                options.ExpireTimeSpan = TimeSpan.FromDays(14);
+                options.SlidingExpiration = true;
+                // API: zamiast przekierowania na stronę logowania zwracamy 401/403.
+                options.Events.OnRedirectToLogin = context =>
+                    WriteAuthProblemAsync(context.HttpContext, StatusCodes.Status401Unauthorized, "Nie jesteś zalogowany.");
+                options.Events.OnRedirectToAccessDenied = context =>
+                    WriteAuthProblemAsync(context.HttpContext, StatusCodes.Status403Forbidden, "Brak uprawnień do tej operacji.");
+            });
+        }
+
+        private static async Task WriteAuthProblemAsync(HttpContext httpContext, int statusCode, string title)
+        {
+            httpContext.Response.StatusCode = statusCode;
+            await httpContext.RequestServices.GetRequiredService<IProblemDetailsService>().WriteAsync(new ProblemDetailsContext
+            {
+                HttpContext = httpContext,
+                ProblemDetails = { Status = statusCode, Title = title }
+            });
+        }
+
         private static void MapDevelopmentTools(WebApplication app)
         {
             // Szybki test połączenia w Swaggerze.
-            app.MapGet("/api/database/status", async (CatalogDbContext database, CancellationToken cancellationToken) =>
+            app.MapGet("/api/database/status", async (CatalogDbContext database, AccountsDbContext accounts, CancellationToken cancellationToken) =>
                     Results.Ok(new
                     {
                         connected = true,
                         schema = "catalog",
                         placesCount = await database.Places.CountAsync(cancellationToken),
-                        categoriesCount = await database.Categories.CountAsync(cancellationToken)
+                        categoriesCount = await database.Categories.CountAsync(cancellationToken),
+                        accountsSchema = AccountsDbContext.Schema,
+                        usersCount = await accounts.Users.CountAsync(cancellationToken),
+                        roles = await accounts.Roles.OrderBy(r => r.Name).Select(r => r.Name).ToListAsync(cancellationToken)
                     }))
                 .WithTags("Database");
 

@@ -15,6 +15,11 @@ public static class CatalogDatabaseConfiguration
             .UseNetTopologySuite()
             .MigrationsHistoryTable(MigrationsHistoryTable, MigrationsHistorySchema));
 
+    // Konta (Identity) – to samo połączenie, osobna historia migracji w schemacie identity.
+    public static DbContextOptionsBuilder UseAccountsDatabase(this DbContextOptionsBuilder options, string connectionString)
+        => options.UseNpgsql(connectionString, postgres => postgres
+            .MigrationsHistoryTable(MigrationsHistoryTable, AccountsDbContext.Schema));
+
     public static string? GetConnectionString(IConfiguration configuration, string contentRootPath)
     {
         var section = configuration.GetSection("Database");

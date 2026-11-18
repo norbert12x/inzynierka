@@ -45,11 +45,51 @@ Zatwierdzone zdjęcia (autor, licencja, źródło, `imageUrl`, `kind`, `caption`
 
 Geoapify, do 5 propozycji w Polsce. `text` 2–200 znaków, `type` = `address` (domyślnie) albo `city`. `confidence` to ocena dostawcy, nie potwierdzenie adresu. Każde wywołanie zużywa limit Geoapify; klucz nie trafia do odpowiedzi ani logów. Błąd dostawcy 503, zła odpowiedź 502, przekroczony czas 504.
 
+## Konta — `/api/auth`
+
+ASP.NET Core Identity, sesja w ciasteczku `podkarpacie.auth` (HttpOnly, SameSite=Lax, 14 dni przy `rememberMe`, przedłużane). Swagger w przeglądarce wysyła ciasteczko sam. Endpointy z `[Authorize]` dla gościa zwracają **401**, dla zalogowanego bez roli **403** (ProblemDetails, bez przekierowania na stronę logowania). Hasło: 8–128 znaków, cyfra, mała i wielka litera. Po 5 nieudanych logowaniach konto blokuje się na 15 minut.
+
+| Endpoint | Działanie |
+|---|---|
+| `POST /api/auth/register` | `{"email","password"}` → **201** `{id, email, roles:["User"], createdAt}`; nie loguje. Złe dane → **400** (pola `Email`/`Password`), zajęty adres → **409** |
+| `POST /api/auth/login` | `{"email","password","rememberMe"}` → **200** jak wyżej + ciasteczko. Zły e-mail lub hasło → **401** (ten sam komunikat), blokada → **429** |
+| `POST /api/auth/logout` | usuwa ciasteczko → **204** (także dla gościa) |
+| `GET /api/auth/me` | zalogowany → **200**; gość → **401** |
+
+Scenariusz w Swaggerze:
+1. `register` z `{"email":"test@example.com","password":"Haslo1234"}` → 201; drugi raz → 409; `"password":"krotkie"` → 400.
+2. `me` → 401.
+3. `login` złym hasłem → 401; dobrym → 200.
+4. `me` → 200 z rolą `User`.
+5. `logout` → 204; `me` → 401.
+6. (opcjonalnie) 5 × złe hasło → 429 przy kolejnej próbie, także z dobrym hasłem.
+
+### Rola Admin i `GET /api/admin/users`
+
+Lista kont (id, e-mail, role, `createdAt`, `lockoutEnd`) – tylko `[Authorize(Roles = "Admin")]`: gość **401**, zwykły użytkownik **403**, admin **200**. Hash hasła i inne pola Identity nie trafiają do odpowiedzi.
+
+Rolę nadaje się w Supabase (SQL Editor) – w API nie ma endpointu, który by ją nadawał:
+
+```sql
+insert into identity.user_roles (user_id, role_id)
+select u.id, r.id
+from identity.users u
+join identity.roles r on r.normalized_name = 'ADMIN'
+where u.normalized_email = upper('admin@example.com')
+on conflict do nothing;
+```
+
+Odebranie: `delete from identity.user_roles where role_id = (select id from identity.roles where normalized_name = 'ADMIN') and user_id = (select id from identity.users where normalized_email = upper('admin@example.com'));`
+
+Role są zapisane w ciasteczku przy logowaniu – **po zmianie roli wyloguj się i zaloguj ponownie** (inaczej zmiana zadziała dopiero po odświeżeniu sesji przez Identity, do 30 min).
+
+Scenariusz: zarejestruj `admin@example.com` i `test@example.com` → zaloguj `test` → `GET /api/admin/users` **403** → wyloguj → `GET` **401** → nadaj rolę SQL-em → zaloguj `admin` → `me` pokazuje `["Admin","User"]` → `GET /api/admin/users` **200**.
+
 ## Narzędzia redakcyjne (tylko Development; poza nim 404 – atrybut `[DevelopmentOnly]`)
 
 ### `GET /api/database/status`
 
-`{"connected":true,"schema":"catalog","placesCount":…,"categoriesCount":…}` – szybki test połączenia (liczy wszystkie rekordy, także usunięte i elementy).
+`{"connected":true,"schema":"catalog","placesCount":…,"categoriesCount":…,"accountsSchema":"identity","usersCount":…,"roles":["Admin","User"]}` – szybki test połączenia (liczy wszystkie rekordy, także usunięte i elementy). Przed migracją kont (`Identity`) zwraca 503 – brak tabel `identity.*`.
 
 ### Strona `/dev/zdjecia` (`DevTools/zdjecia.html`)
 

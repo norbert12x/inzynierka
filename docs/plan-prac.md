@@ -67,11 +67,11 @@ Jeśli zabraknie czasu, w tej kolejności tniemy: E7 (zgłoszenia, potem opinie)
 
 ## E2 Konta i role
 
-- ⬜ **2.1 Tabele Identity** – migracja EF (`Add-Migration Identity`) w schemacie `identity`, z RLS dla nowych tabel; mapowanie `IdentityDbContext`.
+- ✅ **2.1 Tabele Identity** – migracja EF (`Add-Migration Identity`) w schemacie `identity`, z RLS dla nowych tabel; mapowanie `IdentityDbContext`. Kod gotowy (18.11): pakiet `Microsoft.AspNetCore.Identity.EntityFrameworkCore` 9.0.1 (zgoda użytkownika), osobny `AccountsDbContext` (decyzja: osobny kontekst, migracje w `Migrations/Accounts`, historia `identity.__ef_migrations_history`), `AppUser` z `CreatedAt`, role `User`/`Admin` w `HasData`, tabele `identity.users`, `roles`, `user_roles` itd. (snake_case); `GET /api/database/status` pokazuje liczbę kont i role. Migracje `Identity` i `IdentityRowLevelSecurity` (RLS, brak uprawnień `anon`/`authenticated`) wykonane i sprawdzone 18.11.
   Gotowe, gdy: użytkownik wykonał SQL, aplikacja startuje i widzi tabele.
-- ⬜ **2.2 Rejestracja, logowanie, wylogowanie, „ja”** – `POST /api/auth/register|login|logout`, `GET /api/auth/me`; ciasteczko HttpOnly; walidacja hasła; polskie komunikaty.
+- ✅ **2.2 Rejestracja, logowanie, wylogowanie, „ja”** – `POST /api/auth/register|login|logout`, `GET /api/auth/me`; ciasteczko HttpOnly; walidacja hasła; polskie komunikaty. Kod gotowy (18.11): `AuthController`, `Models/Auth.cs`, `Infrastructure/PolishIdentityErrorDescriber.cs`, konfiguracja `AddAccounts` w `Program.cs` (hasło 8+ z cyfrą i literami obu wielkości, blokada 5 prób / 15 min, 401/403 jako ProblemDetails); rejestracja nie loguje automatycznie. Scenariusz w Swaggerze przeszedł 18.11.
   Gotowe, gdy: scenariusz w Swaggerze: rejestracja → logowanie → `me` → wylogowanie → `me` = 401.
-- ⬜ **2.3 Rola Admin** – rola `Admin`, nadawana skryptem/SQL; polityka `[Authorize(Roles = "Admin")]`.
+- ✅ **2.3 Rola Admin** – rola `Admin`, nadawana skryptem/SQL; polityka `[Authorize(Roles = "Admin")]`. Kod gotowy (18.11): `GET /api/admin/users` (`AdminUsersController`, lista kont – zaczątek panelu E6.6), SQL nadania/odebrania roli w `docs/api.md`. Test 401/403/200 przeszedł 18.11.
   Gotowe, gdy: endpoint testowy zwraca 403 dla zwykłego użytkownika i 200 dla admina.
 
 ## E3 Czasy przejazdów (OpenRouteService)
