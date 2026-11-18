@@ -10,17 +10,20 @@ Rozmawiaj po polsku, prostym językiem, zwięźle. Użytkownik zna C#. Termin MV
 - Baza: Supabase (PostgreSQL + PostGIS), EF Core + Npgsql + NetTopologySuite. Schemat katalogu: `catalog`.
 - Konta: ASP.NET Core Identity (e-mail + hasło, ciasteczko), role `User` i `Admin`.
 - Routing (czasy przejazdów): OpenRouteService API (profile samochód i pieszo).
-- Geokodowanie: Geoapify. Zdjęcia: Wikimedia Commons + własne. **Bez API Google** (decyzja użytkownika) – Google Maps tylko jako linki nawigacji.
+- Dane atrakcji: katalog z Geoapify (OpenStreetMap; zabytki, przyroda, pomniki) + nowe atrakcje z Overture Maps Places (aktywna rozrywka, firmy; wyciąg skryptem) + ręcznie, z ochroną przed duplikatami (`docs/zrodla-danych.md`). Geokodowanie: Geoapify. Zdjęcia: Wikimedia Commons + własne. **Bez API Google** (decyzja użytkownika) – Google Maps tylko jako linki nawigacji.
 - E-mail: SMTP + MailKit (lokalnie skrzynka testowa, np. Mailpit w Dockerze).
 - Frontend: React + Vite (TypeScript) w katalogu `frontend/`, mapa Leaflet + kafelki OSM. Dev server Vite przekazuje `/api` do backendu (proxy), więc ciasteczko logowania działa bez CORS.
 - Testy: xUnit dla logiki planera (projekt testowy obok `Inżynierka/`).
-- Skrypty danych: Python w `scripts/` (pobieranie, przegląd, import).
+- Skrypty danych: Python w `scripts/` (`fetch_overture_places.py`, `download_geoapify_beta.py`); pakiet `duckdb` w `.local/python-packages`. `scripts/archiwum/` – historia budowy katalogu, nie rozwijamy.
 
 Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytkownika.
 
 ## Struktura i gdzie co dodawać
 
 - Endpoint: `Inżynierka/Controllers/<Nazwa>Controller.cs`, kontrakty żądań/odpowiedzi w `Inżynierka/Models/`, encje i mapowanie w `Inżynierka/Data/` (`CatalogDbContext` lub nowy kontekst dla nowego schematu).
+  - `CatalogDbContext` wstrzykuj w konstruktor – baza jest wymagana przy starcie. **Nie łap błędów bazy w endpointach**: obsługuje je `Infrastructure/DatabaseExceptionHandler.cs` (503). `try/catch` tylko dla usług zewnętrznych (502/503/504).
+  - Statusy i rodzaje jako stałe z `Data/Entities/CatalogPlace.cs` (`PlaceStatuses`, `PlaceKinds`, `PhotoStatuses`, `PhotoKinds`, `PhotoProviders`, `SourceProviders`), publiczne zapytania przez `PublicAttractions()` / `ReviewableAttractions()`. Adres zdjęcia: `PhotoCache.ImageUrl(...)`.
+- Narzędzia redakcyjne (dopóki nie ma panelu admina): kontrolery `Dev*Controller` z atrybutem `[DevelopmentOnly]` (poza Development 404), strony HTML w `Inżynierka/DevTools/` mapowane w `Program.cs` (`/dev/zdjecia`, `/dev/atrakcje`). Nie dodawaj plików do `wwwroot`.
 - Ustawienia aplikacji (bez sekretów): klasa opcji + walidator `IValidateOptions` w `Inżynierka/Configuration/`, rejestracja z `ValidateOnStart()` w `Program.cs`. Obszary katalogu: sekcja `Catalog:Regions` (`CatalogOptions`).
 - Integracje zewnętrzne: `Inżynierka/Services/` jako typowany `HttpClient` rejestrowany w `Program.cs` (timeout, bez logowania URL z kluczem – wzór: `GeoapifyGeocodingService`).
 - Logika planera: `Inżynierka/Planning/` – czyste klasy bez bazy i HTTP (dane wejściowe → plan), żeby dało się je testować xUnit.
@@ -28,7 +31,7 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
   - Nie edytuj migracji już wykonanych w bazie – poprawka = nowa migracja.
   - To, czego EF nie modeluje (RLS, uprawnienia, ograniczenia CHECK, dane słownikowe), dopisz w migracji przez `migrationBuilder.Sql(...)`. **Każda nowa tabela: `enable row level security`** i brak uprawnień dla `anon`/`authenticated` (backend łączy się bezpośrednio z PostgreSQL).
   - Historia migracji: `catalog.__ef_migrations_history`. Nie używamy `EnsureCreated()` ani automatycznego `Database.Migrate()` przy starcie.
-  - `database/001`–`005` to historia schematu sprzed migracji (odwzorowana migracją startową `InitialCatalog`) – nie edytuj ich i nie dodawaj nowych plików schematu. Import danych i skrypty z `scripts/` zostają bez zmian.
+  - `database/001`–`005` to historia schematu sprzed migracji (odwzorowana migracją startową `InitialCatalog`) – nie edytuj ich i nie dodawaj nowych plików schematu.
 - Ekrany: `frontend/src/features/<moduł>/`, wywołania API w `api.ts` modułu.
 - Dokumentacja etapu: opis endpointu i przypadki testowe w Swaggerze (czego oczekiwać, błędy 400/404) w `docs/api.md`. README to stały opis projektu (czym jest aplikacja, stos, uruchomienie) – nie dopisuj tam stanu prac, endpointów ani instrukcji etapów; zmieniaj go tylko, gdy zmienia się stos albo sposób uruchomienia.
 
@@ -41,8 +44,8 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
 - Godziny otwarcia: tylko ostrzeżenie w planie, bez wpływu na kolejność (MVP).
 - Dodatkowe atrakcje i przeplanowanie wymagają akceptacji użytkownika – nie zmieniaj planu za niego.
 - Region nie może być stałą w kodzie: obszar (środek, promień, nazwa) z konfiguracji/bazy, żeby dało się dodać kolejne części Podkarpacia.
-- Błędy API jako `ProblemDetails` z polskim opisem; błąd dostawcy zewnętrznego → 502/503/504 zamiast pustej listy.
-- Zachowuj oznaczenia źródeł (OpenStreetMap, Geoapify, OpenRouteService, autor i licencja zdjęcia).
+- Błędy API jako `ProblemDetails` z polskim opisem; błąd bazy → 503 (globalnie), błąd dostawcy zewnętrznego → 502/503/504 zamiast pustej listy.
+- Zachowuj oznaczenia źródeł (OpenStreetMap, Geoapify, Overture z licencją rekordu, OpenRouteService, autor i licencja zdjęcia). Nie używaj źródeł, których regulamin zabrania zapisu danych (Google Places, Foursquare Places API). Publiczny Overpass (OSM) odrzucony – przeciążony, a dane OSM mamy z Geoapify.
 - UI, komunikaty i dokumentacja po polsku; nazwy w kodzie po angielsku.
 - Pracujemy małymi etapami: po każdym użytkownik kompiluje, testuje w Swaggerze i przegląda kod.
 

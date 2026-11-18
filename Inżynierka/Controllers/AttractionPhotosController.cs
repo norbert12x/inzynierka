@@ -7,83 +7,62 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Inżynierka.Controllers;
 
+// Zdjęcia atrakcji: lista zatwierdzonych i plik obrazu z .local/photo-cache.
+// W Development ?includePending=true pokazuje też propozycje (i murale czekające na zdjęcie) – dla strony /dev/zdjecia.
 [ApiController]
 [Route("api/attractions/{attractionId:guid}/photos")]
-public sealed class AttractionPhotosController(IWebHostEnvironment environment,
-    ILogger<AttractionPhotosController> logger) : ControllerBase
+public sealed class AttractionPhotosController(CatalogDbContext database, IWebHostEnvironment environment) : ControllerBase
 {
     [HttpGet]
-    [ProducesResponseType(typeof(AttractionPhotosResponse), 200)]
-    [ProducesResponseType(typeof(ProblemDetails), 404)]
-    [ProducesResponseType(typeof(ProblemDetails), 503)]
-    public async Task<ActionResult<AttractionPhotosResponse>> List(Guid attractionId,
-        [FromServices] IServiceProvider services, CancellationToken cancellationToken,
+    [ProducesResponseType(typeof(AttractionPhotosResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status404NotFound)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status503ServiceUnavailable)]
+    public async Task<ActionResult<AttractionPhotosResponse>> List(Guid attractionId, CancellationToken cancellationToken,
         [FromQuery] bool includePending = false)
     {
-        var database = services.GetService<CatalogDbContext>();
-        if (database is null) return Problem(statusCode: 503, title: "Brak konfiguracji bazy.");
-        // Propozycje do przeglądu tylko w Development; poza nim parametr jest ignorowany.
-        var showPending = includePending && environment.IsDevelopment();
-        try
-        {
-            var exists = await database.Places.AnyAsync(p => p.Id == attractionId && p.Kind == "attraction"
-                && (p.Status == "active" || showPending && p.Status == "awaiting_photo"), cancellationToken);
-            if (!exists) return Problem(statusCode: 404, title: "Nie znaleziono atrakcji.");
-            var rows = await database.Photos.AsNoTracking().Where(p => p.PlaceId == attractionId
-                && (p.Status == "approved" || showPending && p.Status == "pending_review"))
-                // Najpierw zdjęcia miejsca, potem eksponaty.
-                .OrderBy(p => p.Kind == PhotoKinds.Exhibit).ThenBy(p => p.SortOrder).ThenBy(p => p.FetchedAtUtc).ThenBy(p => p.Id)
-                .Select(p => new { p.Id, p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl, p.Status, p.Kind, p.Caption })
-                .ToListAsync(cancellationToken);
-            var items = rows.Select(p => new AttractionPhoto(p.Id,
-                $"/api/attractions/{attractionId}/photos/{p.Id}/image" + (showPending ? "?includePending=true" : ""),
-                p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl, p.Status, p.Kind, p.Caption)).ToList();
-            return Ok(new AttractionPhotosResponse(attractionId, items));
-        }
-        catch (Exception exception) when (IsDatabaseFailure(exception, cancellationToken))
-        {
-            logger.LogWarning("Nie udało się odczytać zdjęć ({ExceptionType}).", exception.GetType().Name);
-            return Problem(statusCode: 503, title: "Nie udało się pobrać zdjęć z bazy.");
-        }
+        var showPending = ShowPending(includePending);
+        var exists = await database.Places.AnyAsync(p => p.Id == attractionId && p.Kind == PlaceKinds.Attraction
+            && (p.Status == PlaceStatuses.Active || showPending && p.Status == PlaceStatuses.AwaitingPhoto), cancellationToken);
+        if (!exists)
+            return Problem(statusCode: StatusCodes.Status404NotFound, title: "Nie znaleziono atrakcji.");
+
+        var items = await database.Photos.AsNoTracking()
+            .Where(p => p.PlaceId == attractionId
+                && (p.Status == PhotoStatuses.Approved || showPending && p.Status == PhotoStatuses.PendingReview))
+            // Najpierw zdjęcia miejsca, potem eksponaty; w galerii według sort_order.
+            .OrderBy(p => p.Kind == PhotoKinds.Exhibit).ThenBy(p => p.SortOrder).ThenBy(p => p.FetchedAtUtc).ThenBy(p => p.Id)
+            .Select(p => new AttractionPhoto(p.Id, "", p.Author, p.Credit, p.License, p.LicenseUrl, p.SourcePageUrl,
+                p.Status, p.Kind, p.Caption))
+            .ToListAsync(cancellationToken);
+        return Ok(new AttractionPhotosResponse(attractionId,
+            items.Select(p => p with { ImageUrl = PhotoCache.ImageUrl(attractionId, p.Id, showPending) }).ToList()));
     }
 
     [HttpGet("{photoId:guid}/image")]
-    [ProducesResponseType(200)]
-    [ProducesResponseType(typeof(ProblemDetails), 404)]
-    [ProducesResponseType(typeof(ProblemDetails), 503)]
-    public async Task<IActionResult> Image(Guid attractionId, Guid photoId,
-        [FromServices] IServiceProvider services, CancellationToken cancellationToken,
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status404NotFound)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status503ServiceUnavailable)]
+    public async Task<IActionResult> Image(Guid attractionId, Guid photoId, CancellationToken cancellationToken,
         [FromQuery] bool includePending = false)
     {
-        var database = services.GetService<CatalogDbContext>();
-        if (database is null) return Problem(statusCode: 503, title: "Brak konfiguracji bazy.");
-        var showPending = includePending && environment.IsDevelopment();
-        try
-        {
-            var photo = await database.Photos.AsNoTracking().Where(p => p.Id == photoId && p.PlaceId == attractionId
-                && p.Place.Kind == "attraction" && (p.Place.Status == "active"
-                    || showPending && p.Place.Status == "awaiting_photo")
-                && (p.Status == "approved" || showPending && p.Status == "pending_review"))
-                .Select(p => new { p.CachedRelativePath }).SingleOrDefaultAsync(cancellationToken);
-            if (photo is null) return Problem(statusCode: 404, title: "Nie znaleziono dostępnego zdjęcia.");
-            var path = PhotoCache.ResolveFile(environment.ContentRootPath, photo.CachedRelativePath);
-            if (path is null)
-                return Problem(statusCode: 404, title: "Nieprawidłowa lokalizacja zdjęcia.");
-            var contentType = PhotoCache.ContentType(path);
-            if (contentType is null || !System.IO.File.Exists(path))
-                return Problem(statusCode: 404, title: "Plik zdjęcia jest niedostępny.");
-            Response.Headers.CacheControl = "no-store";
-            return PhysicalFile(path, contentType);
-        }
-        catch (Exception exception) when (IsDatabaseFailure(exception, cancellationToken))
-        {
-            logger.LogWarning("Nie udało się odczytać pliku zdjęcia ({ExceptionType}).", exception.GetType().Name);
-            return Problem(statusCode: 503, title: "Nie udało się pobrać zdjęcia z bazy.");
-        }
+        var showPending = ShowPending(includePending);
+        var relativePath = await database.Photos.AsNoTracking()
+            .Where(p => p.Id == photoId && p.PlaceId == attractionId && p.Place.Kind == PlaceKinds.Attraction
+                && (p.Place.Status == PlaceStatuses.Active || showPending && p.Place.Status == PlaceStatuses.AwaitingPhoto)
+                && (p.Status == PhotoStatuses.Approved || showPending && p.Status == PhotoStatuses.PendingReview))
+            .Select(p => p.CachedRelativePath)
+            .SingleOrDefaultAsync(cancellationToken);
+        if (relativePath is null)
+            return Problem(statusCode: StatusCodes.Status404NotFound, title: "Nie znaleziono dostępnego zdjęcia.");
+
+        var path = PhotoCache.ResolveFile(environment.ContentRootPath, relativePath);
+        var contentType = path is null ? null : PhotoCache.ContentType(path);
+        if (path is null || contentType is null || !System.IO.File.Exists(path))
+            return Problem(statusCode: StatusCodes.Status404NotFound, title: "Plik zdjęcia jest niedostępny.");
+        Response.Headers.CacheControl = "no-store";
+        return PhysicalFile(path, contentType);
     }
 
-    // Błąd bazy albo przekroczony czas zapytania (anulowanie, którego nie zażądał klient) → 503 zamiast 500.
-    private static bool IsDatabaseFailure(Exception exception, CancellationToken cancellationToken)
-        => exception is Npgsql.NpgsqlException or TimeoutException
-            || exception is OperationCanceledException && !cancellationToken.IsCancellationRequested;
+    // Propozycje do przeglądu tylko w Development; poza nim parametr jest ignorowany.
+    private bool ShowPending(bool includePending) => includePending && environment.IsDevelopment();
 }

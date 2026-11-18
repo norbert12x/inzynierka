@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nowe atrakcje</title>
+<!-- Narzędzie tylko dla Development: adres /dev/atrakcje (Program.cs), korzysta z /api/dev/places/*.
+     Docelowo zastąpi je panel administratora (E6.6). -->
+<style>
+  :root { --bg:#f6f6f3; --card:#fff; --text:#1d1d1b; --muted:#6b6b66; --line:#deded8;
+          --ok:#1f7a3f; --bad:#b3261e; --warn:#8a5a00; --accent:#2457a6; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.45 system-ui, "Segoe UI", sans-serif; background:var(--bg); color:var(--text); }
+  header { display:flex; gap:16px; align-items:center; flex-wrap:wrap; padding:12px 20px; background:var(--card); border-bottom:1px solid var(--line); }
+  header h1 { font-size:18px; margin:0 12px 0 0; }
+  .tab { border:1px solid var(--line); background:none; padding:6px 12px; border-radius:6px; cursor:pointer; font:inherit; }
+  .tab[aria-selected="true"] { background:var(--text); color:#fff; border-color:var(--text); }
+  main { max-width:1150px; margin:0 auto; padding:20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; margin-bottom:12px; }
+  .muted { color:var(--muted); }
+  .badge { display:inline-block; font-size:12px; padding:2px 8px; border-radius:99px; background:var(--bg); border:1px solid var(--line); margin-right:4px; }
+  .badge.same { background:#fde7e5; border-color:var(--bad); color:var(--bad); }
+  .badge.likely { background:#fff3d6; border-color:#e6c46a; color:var(--warn); }
+  .badge.new { background:#e3f3e8; border-color:var(--ok); color:var(--ok); }
+  button.act { font:inherit; padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:var(--card); cursor:pointer; }
+  button.act:disabled { opacity:.5; cursor:default; }
+  button.primary { background:var(--ok); color:#fff; border-color:var(--ok); }
+  table { width:100%; border-collapse:collapse; background:var(--card); }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  td select, td input { font:inherit; padding:4px; }
+  .matches { font-size:13px; margin-top:4px; }
+  .row-added td { opacity:.55; }
+  form.grid { display:grid; grid-template-columns:max-content 1fr; gap:8px 12px; align-items:center; }
+  form.grid input, form.grid select { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; width:100%; }
+  .suggestions button { display:block; width:100%; text-align:left; margin:4px 0; padding:6px 10px; border:1px solid var(--line); border-radius:6px; background:var(--card); cursor:pointer; font:inherit; }
+  #toast { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); background:var(--text); color:#fff; padding:10px 16px; border-radius:8px; display:none; max-width:90vw; }
+  #toast.error { background:var(--bad); }
+  .filters { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin:12px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Nowe atrakcje</h1>
+  <button class="tab" id="tab-overture" aria-selected="true">Z Overture</button>
+  <button class="tab" id="tab-manual" aria-selected="false">Dodaj ręcznie</button>
+  <a href="/dev/zdjecia" class="muted">→ przegląd zdjęć</a>
+</header>
+
+<main>
+  <section id="view-overture">
+    <div class="card">
+      <p style="margin-top:0">Kandydaci z <strong>Overture Maps</strong> (Meta, Microsoft, Foursquare i inni) – escape roomy, laser tag, kajaki, paintball,
+        park linowy, jazda konna, gokarty itp. Lista pochodzi z ostatniego wyciągu na dysku (<code>scripts/fetch_overture_places.py</code>).
+        Część miejsc pochodzi ze stron firm – <strong>sprawdź każde</strong> (strona WWW, mapa) przed dodaniem.</p>
+      <span class="muted" id="ov-info">Ładowanie…</span>
+    </div>
+    <div class="filters">
+      <input type="search" id="ov-filter" placeholder="Filtruj po nazwie, kategorii, miejscowości">
+      <label><input type="checkbox" id="ov-hide-known" checked> ukryj te, które już są w katalogu</label>
+      <label><input type="checkbox" id="ov-confident"> tylko pewność ≥ 0,8</label>
+      <select id="ov-category"><option value="">wszystkie kategorie Overture</option></select>
+    </div>
+    <table id="ov-table" hidden>
+      <thead><tr><th>Miejsce</th><th>Kategoria Overture</th><th>W katalogu?</th><th>Nasza kategoria</th><th>Czas (min)</th><th></th></tr></thead>
+      <tbody id="ov-body"></tbody>
+    </table>
+    <p class="muted" id="ov-attribution"></p>
+  </section>
+
+  <section id="view-manual" hidden>
+    <div class="card">
+      <p style="margin-top:0">Dla miejsc, których nie ma w Overture ani w katalogu. Najpierw wyszukaj adres i wybierz propozycję – współrzędne uzupełnią się same.</p>
+      <form class="grid" id="manual-form" autocomplete="off">
+        <label for="m-name">Nazwa *</label><input id="m-name" required minlength="2" maxlength="200">
+        <label for="m-search">Adres</label>
+        <div style="display:flex;gap:8px"><input id="m-search" placeholder="np. Rejtana 65, Rzeszów"><button type="button" class="act" id="m-search-btn">Szukaj adresu</button></div>
+        <span></span><div class="suggestions" id="m-suggestions"></div>
+        <label for="m-address">Adres do zapisu</label><input id="m-address" maxlength="300">
+        <label for="m-city">Miejscowość</label><input id="m-city" maxlength="100">
+        <label for="m-lat">Szerokość *</label><input id="m-lat" required inputmode="decimal" placeholder="50.037">
+        <label for="m-lon">Długość *</label><input id="m-lon" required inputmode="decimal" placeholder="22.004">
+        <label for="m-category">Kategoria *</label><select id="m-category"></select>
+        <label for="m-minutes">Czas wizyty (min)</label><input id="m-minutes" type="number" min="5" max="600" placeholder="pusty = domyślny dla kategorii">
+        <label for="m-website">Strona WWW</label><input id="m-website" type="url" placeholder="https://…">
+        <label for="m-hours">Godziny otwarcia</label><input id="m-hours" placeholder="np. Mo-Su 10:00-22:00 (format OSM)">
+        <span></span><div><button type="submit" class="act primary">Sprawdź duplikaty i dodaj</button></div>
+      </form>
+      <div id="manual-matches" class="matches"></div>
+    </div>
+  </section>
+</main>
+
+<div id="toast" role="status"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const state = { categories: [], busy: false, overture: [], overtureAdded: new Set() };
+const DEFAULT_CATEGORY = "active-entertainment";
+const levelLabel = { same_source: "już w katalogu", likely: "możliwy duplikat", nearby: "coś obok" };
+
+function toast(text, error = false) {
+  const t = $("toast");
+  t.textContent = text;
+  t.className = error ? "error" : "";
+  t.style.display = "block";
+  clearTimeout(toast.timer);
+  toast.timer = setTimeout(() => t.style.display = "none", error ? 7000 : 4000);
+}
+
+async function api(url, options = {}) {
+  const response = await fetch(url, { headers: { "Content-Type": "application/json" }, ...options });
+  const body = response.headers.get("content-type")?.includes("json") ? await response.json() : null;
+  if (response.status === 409) return { conflict: body };
+  if (!response.ok) {
+    const details = body?.errors ? " " + Object.values(body.errors).flat().join(" ") : "";
+    throw new Error((body?.title ?? `HTTP ${response.status}`) + details);
+  }
+  return body;
+}
+
+function categoryOptions(selected) {
+  return state.categories.map(c => `<option value="${esc(c.code)}" ${c.code === selected ? "selected" : ""}>${esc(c.name)} (${c.defaultVisitMinutes} min)</option>`).join("");
+}
+
+function matchesHtml(matches) {
+  if (!matches.length) return `<span class="badge new">nowe</span>`;
+  return matches.map(m => `<div><span class="badge ${m.level === "same_source" ? "same" : m.level === "likely" ? "likely" : ""}">${levelLabel[m.level]}</span>
+    ${esc(m.name)} <span class="muted">(${m.distanceMeters} m, ${esc(m.status)}) – ${esc(m.reason)}</span></div>`).join("");
+}
+
+// --- Overture ---
+async function loadOverture() {
+  try {
+    const r = await api("/api/dev/places/overture-candidates");
+    state.overture = r.items;
+    const known = r.items.filter(i => i.matches.some(m => m.level === "same_source")).length;
+    const fetched = new Date(r.fetchedAtUtc).toLocaleDateString("pl-PL");
+    $("ov-info").textContent = `Wydanie ${r.release} (pobrane ${fetched}): ${r.total} kandydatów, z czego ${known} już w katalogu.`;
+    const cats = [...new Set(r.items.map(i => i.candidate.category ?? "brak"))].sort();
+    $("ov-category").innerHTML = '<option value="">wszystkie kategorie Overture</option>'
+      + cats.map(c => `<option value="${esc(c)}">${esc(c)} (${r.items.filter(i => (i.candidate.category ?? "brak") === c).length})</option>`).join("");
+    $("ov-attribution").innerHTML = `Dane: Overture Maps Foundation – źródła i licencje przy każdym miejscu
+      (<a href="${esc(r.licenseInfo)}" target="_blank" rel="noopener">zasady oznaczania</a>).`;
+    $("ov-table").hidden = false;
+    renderOverture();
+  } catch (e) {
+    $("ov-info").innerHTML = `${esc(e.message)}<br>Uruchom w folderze projektu: <code>python scripts/fetch_overture_places.py</code>`;
+  }
+}
+
+function renderOverture() {
+  const filter = $("ov-filter").value.trim().toLowerCase();
+  const hideKnown = $("ov-hide-known").checked, confident = $("ov-confident").checked, cat = $("ov-category").value;
+  const rows = state.overture.filter(({ candidate: c, matches }) =>
+    (!hideKnown || !matches.some(m => m.level === "same_source") || state.overtureAdded.has(c.id))
+    && (!confident || c.confidence >= 0.8)
+    && (!cat || (c.category ?? "brak") === cat)
+    && (!filter || `${c.name} ${c.category ?? ""} ${c.city ?? ""} ${c.address ?? ""}`.toLowerCase().includes(filter)));
+  $("ov-body").innerHTML = rows.map(({ candidate: c, matches }) => {
+    const added = state.overtureAdded.has(c.id);
+    const blocked = added || matches.some(m => m.level === "same_source");
+    const addr = [c.address, c.postcode, c.city].filter(Boolean).join(" ");
+    const map = `https://www.openstreetmap.org/?mlat=${c.latitude}&mlon=${c.longitude}#map=18/${c.latitude}/${c.longitude}`;
+    return `<tr class="${added ? "row-added" : ""}" data-id="${esc(c.id)}">
+      <td><strong>${esc(c.name)}</strong><div class="muted">${esc(addr || "brak adresu")}</div>
+        <div class="muted">${c.website ? `<a href="${esc(c.website)}" target="_blank" rel="noopener">strona</a> · ` : ""}<a href="${map}" target="_blank" rel="noopener">mapa</a>
+          · pewność ${c.confidence.toFixed(2)} · ${esc(c.sources.map(x => x.dataset).join(", "))}${c.phone ? " · " + esc(c.phone) : ""}</div></td>
+      <td>${esc(c.category ?? "brak")}</td>
+      <td class="matches">${added ? '<span class="badge new">dodano</span>' : matchesHtml(matches)}</td>
+      <td><select ${blocked ? "disabled" : ""}>${categoryOptions(c.suggestedCategory)}</select></td>
+      <td><input type="number" min="5" max="600" style="width:80px" placeholder="dom." ${blocked ? "disabled" : ""}></td>
+      <td><button class="act primary" ${blocked ? "disabled" : ""}>Dodaj</button></td></tr>`;
+  }).join("");
+  $("ov-body").querySelectorAll("tr").forEach(tr => {
+    tr.querySelector("button").onclick = () => addOverture(tr.dataset.id, tr.querySelector("select").value, tr.querySelector("input").value);
+  });
+}
+
+async function addOverture(id, category, minutes) {
+  const c = state.overture.find(x => x.candidate.id === id).candidate;
+  const ok = await create({
+    name: c.name, city: c.city, address: [c.address, c.postcode].filter(Boolean).join(", ") || null,
+    latitude: c.latitude, longitude: c.longitude, categoryCodes: [category], website: c.website,
+    estimatedVisitMinutes: minutes ? Number(minutes) : null, overtureId: c.id
+  });
+  if (ok) { state.overtureAdded.add(id); renderOverture(); }
+}
+
+// --- Ręcznie ---
+async function searchAddress() {
+  const text = $("m-search").value.trim();
+  if (text.length < 2) { toast("Wpisz co najmniej dwa znaki adresu.", true); return; }
+  try {
+    const r = await api(`/api/locations/search?type=address&text=${encodeURIComponent(text)}`);
+    $("m-suggestions").innerHTML = r.items.length
+      ? r.items.map((s, i) => `<button type="button" data-i="${i}">${esc(s.formattedAddress)} <span class="muted">(${esc(s.resultType)})</span></button>`).join("")
+        + `<div class="muted">${esc(r.attribution)}</div>`
+      : '<div class="muted">Brak wyników – podaj ulicę, numer i miejscowość.</div>';
+    $("m-suggestions").querySelectorAll("button").forEach(b => b.onclick = () => {
+      const s = r.items[Number(b.dataset.i)];
+      $("m-lat").value = s.latitude.toFixed(6);
+      $("m-lon").value = s.longitude.toFixed(6);
+      $("m-address").value = s.formattedAddress;
+      $("m-city").value = s.city ?? "";
+      $("m-suggestions").innerHTML = `<div class="muted">Wybrano: ${esc(s.formattedAddress)}</div>`;
+    });
+  } catch (e) { toast(e.message, true); }
+}
+
+async function submitManual(event) {
+  event.preventDefault();
+  const latitude = Number($("m-lat").value.replace(",", "."));
+  const longitude = Number($("m-lon").value.replace(",", "."));
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) { toast("Podaj poprawne współrzędne (wybierz adres z listy).", true); return; }
+  const body = {
+    name: $("m-name").value.trim(), city: $("m-city").value.trim() || null, address: $("m-address").value.trim() || null,
+    latitude, longitude, categoryCodes: [$("m-category").value], website: $("m-website").value.trim() || null,
+    openingHours: $("m-hours").value.trim() || null,
+    estimatedVisitMinutes: $("m-minutes").value ? Number($("m-minutes").value) : null
+  };
+  // Najpierw pokazujemy, co jest w pobliżu – także „coś obok”, które nie blokuje dodania.
+  try {
+    const matches = await api("/api/dev/places/duplicates", { method: "POST", body: JSON.stringify(body) });
+    $("manual-matches").innerHTML = matches.length ? "<h3>W katalogu w pobliżu:</h3>" + matchesHtml(matches) : "";
+  } catch (e) { toast(e.message, true); return; }
+  if (await create(body)) {
+    $("manual-form").reset();
+    $("m-category").value = DEFAULT_CATEGORY;
+    $("m-suggestions").innerHTML = "";
+  }
+}
+
+// Wspólne dodawanie: przy możliwym duplikacie pyta o potwierdzenie i ponawia z confirmDuplicate.
+async function create(body) {
+  if (state.busy) return false;
+  state.busy = true;
+  try {
+    let r = await api("/api/dev/places", { method: "POST", body: JSON.stringify(body) });
+    if (r?.conflict) {
+      const list = r.conflict.matches.map(m => `• ${m.name} (${m.distanceMeters} m) – ${m.reason}`).join("\n");
+      if (!r.conflict.canConfirm) { toast(r.conflict.title, true); return false; }
+      if (!confirm(`${r.conflict.title}\n\n${list}\n\nDodać mimo to jako osobne miejsce?`)) return false;
+      r = await api("/api/dev/places", { method: "POST", body: JSON.stringify({ ...body, confirmDuplicate: true }) });
+      if (r?.conflict) { toast(r.conflict.title, true); return false; }
+    }
+    toast(`Dodano: ${r.name}. Zdjęcia znajdziesz w /dev/zdjecia → Miejsca.`);
+    return true;
+  } catch (e) { toast(e.message, true); return false; }
+  finally { state.busy = false; }
+}
+
+function showTab(name) {
+  for (const tab of ["overture", "manual"]) {
+    $("view-" + tab).hidden = name !== tab;
+    $("tab-" + tab).setAttribute("aria-selected", name === tab);
+  }
+}
+
+$("tab-overture").onclick = () => showTab("overture");
+$("ov-filter").oninput = renderOverture;
+$("ov-hide-known").onchange = renderOverture;
+$("ov-confident").onchange = renderOverture;
+$("ov-category").onchange = renderOverture;
+$("tab-manual").onclick = () => showTab("manual");
+$("m-search-btn").onclick = searchAddress;
+$("m-search").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); searchAddress(); } });
+$("manual-form").onsubmit = submitManual;
+
+api("/api/attraction-categories").then(categories => {
+  state.categories = categories;
+  $("m-category").innerHTML = categoryOptions(DEFAULT_CATEGORY);
+  loadOverture();
+  if (!categories.some(c => c.code === DEFAULT_CATEGORY))
+    toast("Brak kategorii „Aktywna rozrywka” – wykonaj migrację ActiveEntertainmentCategory.", true);
+}).catch(e => toast("Nie udało się wczytać kategorii: " + e.message, true));
+</script>
+</body>
+</html>

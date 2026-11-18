@@ -1,6 +1,6 @@
 namespace Inżynierka.Services;
 
-// Pobiera plik zdjęcia z Wikimedia na lokalny dysk – te same zasady co scripts/fetch_place_photos.py:
+// Pobiera plik zdjęcia z Wikimedia na lokalny dysk – te same zasady co pierwszy import (scripts/archiwum/fetch_place_photos.py):
 // tylko hosty Wikimedia, maks. 8 MB, JPEG/PNG/WebP, ponowienie przy 429/5xx, zapis przez plik tymczasowy.
 public sealed class PhotoDownloadService(HttpClient client)
 {

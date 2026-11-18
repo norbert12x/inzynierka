@@ -22,9 +22,58 @@ public sealed record CommonsImage(
     // Krótki opis pliku (ObjectName albo ImageDescription), np. nazwa eksponatu; "" = brak.
     string Caption = "");
 
+// Wynik wyszukiwania propozycji: tytuły plików w kolejności trafności, z metodą dopasowania (zapisywaną przy zdjęciu).
+public sealed record CommonsCandidateSearch(string? Category, IReadOnlyList<(string Title, string Method)> Files, string? Note);
+
 // Zapytania do API Wikimedia Commons i Wikidata (bez klucza). Tylko odczyt.
 public sealed partial class WikimediaCommonsService(HttpClient client)
 {
+    // Propozycje zdjęć jednej atrakcji.
+    // Zdjęcia miejsca: kategoria obiektu z Wikidata (najtrafniejsza) i do 3 jej podkategorii, potem po nazwie, na końcu w promieniu.
+    // Wnętrza/eksponaty: tylko podkategorie kolekcji, wnętrz i wystaw – bez szukania po nazwie i w promieniu.
+    public async Task<CommonsCandidateSearch> FindCandidatesAsync(string name, string? city, double latitude, double longitude,
+        string? wikidataId, bool exhibits, int radiusMeters, CancellationToken cancellationToken)
+    {
+        var files = new List<(string Title, string Method)>();
+        var seen = new HashSet<string>();
+        void Collect(IEnumerable<string> titles, string method)
+        {
+            foreach (var title in titles)
+                if (seen.Add(title))
+                    files.Add((title, method));
+        }
+
+        var category = wikidataId is null ? null : await GetCommonsCategoryAsync(wikidataId, cancellationToken);
+        var subcategories = category is null
+            ? Array.Empty<string>()
+            : await GetCategoryMembersAsync(category, "subcat", 50, cancellationToken);
+
+        if (exhibits)
+        {
+            var exhibitCategories = subcategories.Where(IsExhibitCategory).Take(5).ToList();
+            foreach (var sub in exhibitCategories)
+                Collect(await GetCategoryMembersAsync(sub, "file", 50, cancellationToken), "commons_exhibits:" + sub);
+            var note = category is null
+                ? "Atrakcja nie ma kategorii w Wikimedia Commons (brak powiązania Wikidata) – wnętrz i eksponatów nie da się wyszukać."
+                : exhibitCategories.Count == 0 ? $"Kategoria „{category}” nie ma podkategorii kolekcji ani wnętrz." : null;
+            return new CommonsCandidateSearch(category, files, note);
+        }
+
+        if (category is not null)
+        {
+            Collect(await GetCategoryMembersAsync(category, "file", 50, cancellationToken), "commons_category:" + category);
+            foreach (var sub in subcategories.Where(s => !IsExhibitCategory(s)).Take(3))
+                Collect(await GetCategoryMembersAsync(sub, "file", 20, cancellationToken), "commons_category:" + sub);
+        }
+        var byName = files.Count;
+        Collect(await SearchFilesAsync($"\"{name}\" {city}", 20, cancellationToken), "commons_name_search");
+        if (files.Count == byName)
+            Collect(await SearchFilesAsync($"{name} {city}", 20, cancellationToken), "commons_name_search");
+        if (radiusMeters > 0)
+            Collect(await GeoSearchFilesAsync(latitude, longitude, radiusMeters, 20, cancellationToken), $"commons_geosearch_{radiusMeters}m");
+        return new CommonsCandidateSearch(category, files, files.Count == 0 ? "Nic nie znaleziono w Wikimedia Commons." : null);
+    }
+
     // Kategoria Commons obiektu z Wikidata (właściwość P373), np. Q773316 → "Łańcut Castle"; null = brak.
     public async Task<string?> GetCommonsCategoryAsync(string wikidataId, CancellationToken cancellationToken)
     {
@@ -150,7 +199,7 @@ public sealed partial class WikimediaCommonsService(HttpClient client)
         return result;
     }
 
-    // Zasady jak w scripts/fetch_place_photos.py: CC BY / CC BY-SA 1.0, 2.0, 2.5, 3.0, 4.0 (także krajowe, np. „3.0 pl”),
+    // Zasady jak w pierwszym imporcie (scripts/archiwum/fetch_place_photos.py): CC BY / CC BY-SA 1.0, 2.0, 2.5, 3.0, 4.0 (także krajowe, np. „3.0 pl”),
     // CC0 lub domena publiczna; wymagany autor i link licencji; bez dodatkowych ograniczeń; JPEG/PNG/WebP.
     public static string? RejectionReason(CommonsImage image)
     {

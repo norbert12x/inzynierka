@@ -1,5 +1,17 @@
 # Dane do wersji beta
 
+## Overture Maps – kandydaci aktywnej rozrywki
+
+`overture/<wydanie>/candidates.json` – wynik `scripts/fetch_overture_places.py` (obszary z `Inżynierka/appsettings.json`, filtr kategorii i nazw, pewność ≥ 0,5, bez zamkniętych). Wydanie 2026-10-21.0, obszar `rzeszow`: 96 kandydatów. To **propozycje do przeglądu** na `/dev/atrakcje` – nie trafiają do katalogu automatycznie. Licencje i oznaczenia źródeł przy każdej pozycji; porównanie źródeł: `../docs/zrodla-danych.md`.
+
+Odświeżenie (Overture usuwa wydania po ok. 60 dniach, więc wyciąg trzymamy u siebie):
+
+```powershell
+& 'C:/Users/Norbert/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' scripts/fetch_overture_places.py
+```
+
+Wymaga pakietu `duckdb` w `.local/python-packages` (`python -m pip install --target .local/python-packages duckdb`).
+
 ## Aktualna kopia po ręcznych decyzjach
 
 `curated-beta-v1/catalog.json` zawiera katalog po decyzjach R01–R19. Szczegóły w `curated-beta-v1/README.md`.
@@ -40,7 +52,7 @@ Nie jest to pełne przeszukanie regionu; jeśli kandydatów jest za mało, wynik
 Selekcja na zmianę z grup, zaczynając od najbliższych miejsc; identyfikator Geoapify usuwa powtórzenia między stronami/grupami.
 
 Nie uzupełniamy fikcyjnych godzin, opinii i czasów zwiedzania. Zestaw wymaga przeglądu pod kątem duplikatów, przydatności turystycznej i jakości lokalizacji. Nie zawiera jeszcze czasów przejazdów.
-Po zatwierdzeniu danych dodamy ich odczyt w aplikacji — obecny endpoint Overpass pozostaje bez zmian.
+Import do bazy wykonano 5.10.2026 (`database/002`, skrypty w `scripts/archiwum/`).
 
 Źródła: [Geoapify Places API](https://apidocs.geoapify.com/docs/places/), [zasady przechowywania i oznaczenia źródła](https://www.geoapify.com/places-api/).
 Przy prezentacji danych należy zachować oznaczenia Geoapify i OpenStreetMap oraz wymagane odnośniki.

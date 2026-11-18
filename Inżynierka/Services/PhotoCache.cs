@@ -4,6 +4,10 @@ namespace Inżynierka.Services;
 // cached_relative_path w bazie jest względna do katalogu rozwiązania, np. ".local/photo-cache/<plik>.jpg".
 public static class PhotoCache
 {
+    // Adres pliku zdjęcia w naszym API; includePending tylko w narzędziach Development (propozycje do przeglądu).
+    public static string ImageUrl(Guid placeId, Guid photoId, bool includePending = false)
+        => $"/api/attractions/{placeId}/photos/{photoId}/image" + (includePending ? "?includePending=true" : "");
+
     public static string Root(string contentRootPath)
         => Path.GetFullPath(Path.Combine(contentRootPath, "..", ".local", "photo-cache"));
 

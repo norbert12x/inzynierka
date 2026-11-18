@@ -1,77 +1,38 @@
-# Supabase — katalog atrakcji, etap 1
+# Baza danych (Supabase: PostgreSQL + PostGIS)
 
-Schemat i import wykonano 5 października 2026. Weryfikacja potwierdziła 600 rekordów, 9 kategorii i 600 wpisów źródłowych. Ponowny import dodał 0 rekordów i zachował katalog bez zmian. Wyniki zapisano w `database-verification.json`. Połączenie aplikacji .NET pozostaje do przetestowania w Visual Studio.
+Backend łączy się z bazą przez EF Core/Npgsql (PostGIS do lokalizacji i wyszukiwania w promieniu). **Schemat zmieniamy migracjami EF Core** (`Inżynierka/Migrations/`, historia w `catalog.__ef_migrations_history`): zmiana encji w `Inżynierka/Data/` → `Add-Migration <Nazwa>` → `Update-Database` w Konsoli menedżera pakietów Visual Studio. Pliki `001`–`005` w tym folderze to historia schematu sprzed migracji – nie edytujemy ich i nie dodajemy nowych.
 
-Backend używa PostgreSQL przez EF Core/Npgsql. PostGIS obsługuje lokalizację i wyszukiwanie przestrzenne.
-
-**Od listopada 2026 schemat zmieniamy migracjami EF Core** (`Inżynierka/Migrations/`, historia w `catalog.__ef_migrations_history`). Pliki `001`–`005` poniżej to historia schematu sprzed migracji; migracja startowa `InitialCatalog` odwzorowuje ich stan i nie tworzy tabel ponownie (wykonuje tylko bezpieczny do ponowienia `005`). Nowe zmiany schematu = `Add-Migration` w Visual Studio, nie nowe pliki SQL. Import danych (`002`) i skrypty Python pozostają bez zmian.
-
-## Struktura
-
-Tabele w schemacie `catalog`:
+## Tabele (schemat `catalog`)
 
 | Tabela | Przeznaczenie |
 |---|---|
-| `places` | Edytowalny katalog, punkt geograficzny, godziny, status, elementy i relacja do obiektu nadrzędnego. |
-| `categories` | Dziewięć kategorii aplikacji. |
+| `places` | Katalog: nazwa, punkt `geography(point,4326)` (długość, szerokość), godziny, czas wizyty, status, rodzaj (atrakcja / element obiektu), `manually_edited_fields`. |
+| `categories` | Słownik kategorii z `default_visit_minutes` (10 kategorii, w tym „Aktywna rozrywka”). |
 | `place_categories` | Wiele kategorii dla jednego miejsca. |
-| `place_sources` | Dostawca, identyfikator zewnętrzny, czas pobrania i JSON źródłowy. |
+| `place_sources` | Źródło miejsca: `geoapify` (import), `overture`, `manual`; identyfikator zewnętrzny i surowe dane (`raw_data`) z oznaczeniem licencji. |
+| `place_photos` | Zdjęcia: źródło, autor, licencja, ścieżka pliku w `.local/photo-cache`, status przeglądu, rodzaj (`place`/`exhibit`), podpis, kolejność galerii. |
+| `photo_fetch_attempts` | Historia prób pierwszego automatu zdjęć (archiwalna). |
 
-`geography(point,4326)` ma kolejność długość, szerokość geograficzna. Indeks GiST przygotowuje wyszukiwanie w promieniu; taka odległość nie oznacza czasu przejazdu.
+Statusy miejsc: `active` (widoczne w API), `awaiting_photo` (murale czekające na zdjęcie), `component` (element większego obiektu), `removed` (wyłączone, zachowane w historii). Publiczna lista bierze tylko `kind='attraction'` i `status='active'`.
 
-Import rozlicza wszystkie 600 rekordów. Statusy:
-
-- `active`: 152 samodzielne wpisy;
-- `awaiting_photo`: 33 murale, warunkowo zachowane;
-- `component`: 89 elementów (37 powiązanych, 52 do przypisania);
-- `removed`: 326 wpisów zachowanych tylko w historii, nie do prezentowania jako atrakcje.
-
-Lista atrakcji wybiera tylko `kind='attraction'` i `status='active'`. Konta, wycieczki i oceny pozostają osobnymi etapami. Zdjęcia są przechowywane w `place_photos`; próby pozyskania w `photo_fetch_attempts`. Selekcję turystyczną wykonano w Supabase poprzez `scripts/apply_tourism_review.py --apply`; wynik w `data/tourism-review-2026-10-05/applied.json`. Ponowny import nie przywraca wyłączonych miejsc.
+Dostęp: schemat `catalog` nie jest wystawiony przez Data API Supabase, RLS włączone bez publicznych polityk – czyta i zapisuje tylko backend. Każda nowa tabela w migracji: `enable row level security`. Przed udostępnieniem aplikacji: osobna rola backendu z ograniczonymi prawami zamiast konta administratora.
 
 ## Konfiguracja lokalna
 
-Plik `.local/supabase.json` w katalogu rozwiązania jest ignorowany przez Git. Wczytywany tylko w środowisku Development. Pola `Database`: `Host`, `Port`, `Name`, `Username`, `Password`, `RootCertificate`. Certyfikat `.local/supabase-ca.crt` jest używany z weryfikacją nazwy hosta (`VerifyFull`). Hasła nie wpisujemy w `Program.cs` ani `appsettings.json`.
+`.local/supabase.json` (ignorowany przez Git, wczytywany w Development), sekcja `Database`: `Host`, `Port`, `Name`, `Username`, `Password`, `RootCertificate` (`.local/supabase-ca.crt`, weryfikacja `VerifyFull`). Zmienne środowiskowe mają pierwszeństwo (`Database__Password` itd.). **Bez konfiguracji aplikacja nie wystartuje** (czytelny komunikat przy starcie).
 
-Używamy parametrów **Connect → Method → Session pooler**, port 5432. Bezpośredni host `db.<ref>.supabase.co` wymaga tutaj niedostępnej sieci IPv6. Username poolera ma postać `postgres.<ref>`. Nawiasy `[YOUR-PASSWORD]` w przykładzie są placeholderem — hasło wpisujemy bez nawiasów. Klucz publishable i Supabase CLI nie są potrzebne do tego połączenia.
+Połączenie: w panelu Supabase **Connect → Session pooler**, port 5432 (bezpośredni host wymaga IPv6). Użytkownik ma postać `postgres.<ref>`.
 
-Zmienne środowiskowe mają pierwszeństwo, np. `Database__Password` i `Database__Host`. Zmiana konfiguracji wymaga ponownego uruchomienia aplikacji.
+Darmowy projekt usypia się po ok. tygodniu bez ruchu – przywróć go w panelu (**Restore project**). Test połączenia: w Swaggerze `GET /api/database/status` → `{"connected":true,...}`; przy problemie z bazą każdy endpoint zwraca 503 „Baza danych jest chwilowo niedostępna”.
 
-## Schemat i import
+## Historia (październik–listopad 2026)
 
-1. `001_catalog_schema.sql`: schemat, cztery tabele, indeksy, dziewięć kategorii i ograniczenia dostępu. PostGIS ma być w `extensions`; skrypt zatrzyma się, jeśli rozszerzenie istnieje w innym schemacie.
-2. `002_import_beta_catalog.sql`: import katalogu. Identyfikatory UUID są deterministyczne względem identyfikatora Geoapify. Miejsca i kategorie istniejących miejsc pozostają bez zmian przy ponowieniu. Zaktualizować można jedynie snapshot źródła z co najmniej taką samą datą pobrania. Dane źródłowe i ręczne korekty pozostają oddzielone.
-3. `003_place_photos.sql`: zdjęcia i zapis prób wyszukiwania. Wymagane przez obecny endpoint listy i zdjęć.
-4. `004_user_provided_photos.sql`: dopuszczenie zdjęć własnych lub udostępnionych przez autorów.
-5. `005_category_visit_minutes.sql`: kolumna `catalog.categories.default_visit_minutes` (5–600 min) z szacunkami dla 9 kategorii. Atrakcja bez własnego `estimated_visit_minutes` dostaje najdłuższy czas spośród swoich kategorii. Bezpieczny do ponowienia (nie nadpisuje ustawionych wartości). **Wymagany** przez obecne API kategorii, listy i szczegółów atrakcji. Wykonuje go migracja `InitialCatalog` (`Update-Database`); ręczne wykonanie w SQL Editor też jest bezpieczne.
+1. `001_catalog_schema.sql` – schemat, tabele, indeksy, kategorie, ograniczenia dostępu.
+2. `002_import_beta_catalog.sql` – import 600 miejsc z Geoapify (deterministyczne UUID, dane źródłowe oddzielone od ręcznych korekt). Weryfikacja: `database-verification.json`.
+3. `003_place_photos.sql`, `004_user_provided_photos.sql` – zdjęcia i źródło `user_provided`.
+4. `005_category_visit_minutes.sql` – domyślne czasy wizyt; wykonany w migracji startowej `InitialCatalog`.
+5. Selekcja turystyczna 5.10.2026: 152 aktywne, 33 murale, 89 elementów, 326 wyłączonych (`data/tourism-review-2026-10-05/`).
 
-Skrypt `apply_catalog_database.py --apply` wykonuje również schematy 003 i 004. Nie zatwierdza ani nie usuwa istniejących zdjęć.
+Skrypty, którymi to wykonano: `scripts/archiwum/`. Kolejne zmiany: migracje `PhotoKindAndCaption`, `PhotoSortOrder`, `ActiveEntertainmentCategory`.
 
-Można uruchomić pliki kolejno w SQL Editor Supabase. Alternatywnie skrypt `scripts/apply_catalog_database.py` używa lokalnego sterownika PostgreSQL z `.local/python-packages`:
-
-```powershell
-& 'C:/Users/Norbert/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' scripts/apply_catalog_database.py --check-only
-& 'C:/Users/Norbert/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' scripts/apply_catalog_database.py --apply
-```
-
-Polecenia z katalogu rozwiązania. Nie uruchamiają .NET. Tryb `--apply` wykonuje schemat, import i ponowny import do sprawdzenia braku nowych rekordów oraz zmian katalogu. Przy sukcesie zapisuje `database-verification.json`; brak tego raportu oznacza, że import nie został potwierdzony. `import-preview.json` jest wyłącznie raportem przygotowania.
-
-Nie włączamy schematu `catalog` jako publicznego schematu Data API. RLS jest włączone bez publicznych polityk; dostęp ma backend przez połączenie PostgreSQL. Na lokalny etap używamy wskazanej roli administracyjnej bazy; przed udostępnieniem aplikacji przygotujemy oddzielną rolę backendu z ograniczonymi prawami.
-
-## Kategorie
-
-Słownik API został rozszerzony o `culture`, `public-art` i `other`. Reguły importu mapują kategorie Geoapify na słownik aplikacji. Ręczne `categoryCodes` mają pierwszeństwo (teatr, kaplica/muzeum i ośrodek kultury/park). Przy nieznanym dopasowaniu używane jest `other`. Pozostałe źródłowe oznaczenia zachowane w JSON, a kategorie aplikacji można później poprawiać.
-
-## Test po Twojej stronie
-
-Po wykonaniu schematu/importu zatrzymaj aplikację (Shift+F5), skompiluj (Ctrl+Shift+B) i uruchom (F5).
-W Swaggerze: **Database → GET /api/database/status → Try it out → Execute**.
-
-Po poprawnym imporcie oczekiwane HTTP 200:
-
-```json
-{"connected":true,"schema":"catalog","placesCount":600,"categoriesCount":9}
-```
-
-`placesCount` liczy również elementy i wpisy wycofane; nie oznacza 600 aktywnych atrakcji. HTTP 503 z informacją o odczycie bazy oznacza problem z konfiguracją, hasłem, połączeniem lub brak schematu. Endpoint diagnostyczny dostępny tylko w Development. Testów builda i aplikacji nie wykonywał agent, zgodnie z ustaleniem.
-
-Dokumentacja: [połączenia Supabase](https://supabase.com/docs/guides/database/connecting-to-postgres), [TLS i certyfikat](https://supabase.com/docs/guides/database/psql), [PostGIS](https://supabase.com/docs/guides/database/extensions/postgis), [Npgsql / NetTopologySuite](https://www.npgsql.org/efcore/mapping/nts.html).
+Dokumentacja: [połączenia Supabase](https://supabase.com/docs/guides/database/connecting-to-postgres), [PostGIS](https://supabase.com/docs/guides/database/extensions/postgis), [Npgsql / NetTopologySuite](https://www.npgsql.org/efcore/mapping/nts.html).

@@ -1,0 +1,2784 @@
+{
+ "release": "2026-10-21.0",
+ "fetchedAtUtc": "2026-11-18T13:26:53.570542+00:00",
+ "source": "Overture Maps Foundation – Places",
+ "licenseInfo": "https://docs.overturemaps.org/attribution/",
+ "minConfidence": 0.5,
+ "count": 96,
+ "items": [
+  {
+   "id": "cc54f9d8-c39e-48c5-8170-411c5fd83686",
+   "name": "Prison Break Metaverse Escape Room",
+   "category": null,
+   "hierarchy": [],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.58,
+   "operatingStatus": null,
+   "latitude": 50.012714,
+   "longitude": 21.998862,
+   "address": "ulica Eugeniusza Kwiatkowskiego 38",
+   "city": "Rzeszów",
+   "postcode": "35-311",
+   "website": "https://escaperoomar.com/pl/gra-domowa",
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "104387035611251"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f56d1892-62bd-4ea5-b65e-391abb13017e",
+   "name": "The North Face",
+   "category": "adventure_sports_center",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "adventure_sports_center"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.027077,
+   "longitude": 22.013804,
+   "address": "Aleja Kopisto 1",
+   "city": "Rzeszów",
+   "postcode": "35-315",
+   "website": "http://www.thenorthface.eu/",
+   "phone": "177700553",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "Microsoft",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1970324842402022"
+    }
+   ],
+   "attribution": "Data from Microsoft. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "8a6d3295-ed1b-464b-a27d-bd95ae673a77",
+   "name": "Pasaż Majster Rzeszów ul. Przemysłowa 3",
+   "category": "arcade",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "gaming_venue",
+    "arcade"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.69,
+   "operatingStatus": null,
+   "latitude": 50.024616,
+   "longitude": 21.973131,
+   "address": "ulica Przemysłowa 3",
+   "city": "Rzeszów",
+   "postcode": "35-105",
+   "website": "https://www.facebook.com/pasazmajsterrzeszow",
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "115995316469794"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f3ee6955-5468-4c8d-826a-e22922869c99",
+   "name": "ExitMania Escape Room Rzeszów",
+   "category": "arts_and_entertainment",
+   "hierarchy": [
+    "arts_and_entertainment"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.92,
+   "operatingStatus": null,
+   "latitude": 50.034592,
+   "longitude": 21.99464,
+   "address": "ulica Księcia Józefa Poniatowskiego 15",
+   "city": "Rzeszów",
+   "postcode": "35-026",
+   "website": "https://www.exitmania.pl/",
+   "phone": "+48575639487",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "923347761042140"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "ef395dc1-b9c6-4fbe-b5bc-7c0626d93292",
+   "name": "Laser Arena Rzeszów",
+   "category": "arts_and_entertainment",
+   "hierarchy": [
+    "arts_and_entertainment"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.77,
+   "operatingStatus": null,
+   "latitude": 50.039303,
+   "longitude": 22.010504,
+   "address": "Kreczmera 4",
+   "city": "Rzeszów",
+   "postcode": "35-065",
+   "website": "http://www.laserarena.pl",
+   "phone": "664 449 059",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "Foursquare",
+     "license": "Apache-2.0",
+     "recordId": "4d287b278292236a2eaa19bb"
+    }
+   ],
+   "attribution": "Copyright 2024 Foursquare Labs, Inc. All rights reserved. (Apache 2.0)"
+  },
+  {
+   "id": "a94510fe-87a3-4cdc-8c36-9ac2263d0a88",
+   "name": "Laserowa Twierdza",
+   "category": "arts_and_entertainment",
+   "hierarchy": [
+    "arts_and_entertainment"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.94,
+   "operatingStatus": null,
+   "latitude": 50.039196,
+   "longitude": 22.010993,
+   "address": "Aleja Józefa Piłsudskiego 23A",
+   "city": "Rzeszów",
+   "postcode": "35-074",
+   "website": null,
+   "phone": "+48729984585",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "105952304273225"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "c40092ef-9220-497b-8a29-1fb23702c09e",
+   "name": "Extreme Squad",
+   "category": "atv_rental_tour",
+   "hierarchy": [
+    "sports_and_recreation",
+    "recreational_equipment_rental",
+    "atv_rental_tour"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.57,
+   "operatingStatus": null,
+   "latitude": 49.958813,
+   "longitude": 22.021648,
+   "address": "ulica Elizy Orzeszkowej 16",
+   "city": "Tyczyn",
+   "postcode": "36-020",
+   "website": "https://goo.gl/maps/ShZfp6uVxPmYswW37",
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "101627449298897"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "6f7b4c26-8dfa-4f52-8056-793511e8f15a",
+   "name": "Quad4You Wypozyczalnia Quadow Rzeszow",
+   "category": "atv_rental_tour",
+   "hierarchy": [
+    "sports_and_recreation",
+    "recreational_equipment_rental",
+    "atv_rental_tour"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.59,
+   "operatingStatus": null,
+   "latitude": 50.034454,
+   "longitude": 22.091236,
+   "address": "Malawa 144",
+   "city": "Krasne",
+   "postcode": "36-007",
+   "website": "http://Www.Quad4You.eu/",
+   "phone": "+48535366877",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "145132065356045"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "d5002582-fe4e-4130-a64d-f673545476f7",
+   "name": "Wypożyczalnia rowerów elektrycznych i hulajnóg Maria Pałac",
+   "category": "bike_rental",
+   "hierarchy": [
+    "sports_and_recreation",
+    "recreational_equipment_rental",
+    "bike_rental"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.52,
+   "operatingStatus": null,
+   "latitude": 49.8545,
+   "longitude": 22.216583,
+   "address": "Harta 108",
+   "city": "Dynów (Gmina)",
+   "postcode": "36-067",
+   "website": "https://sanbike.pl/",
+   "phone": "+48668822189",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "339481789258858"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "c66a7946-f212-4084-a7cd-fb88d24fd991",
+   "name": "H2O Szkolenia",
+   "category": "boat_rental_and_training",
+   "hierarchy": [
+    "sports_and_recreation",
+    "recreational_equipment_rental",
+    "boat_rental_and_training"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.56,
+   "operatingStatus": null,
+   "latitude": 50.066967,
+   "longitude": 22.230588,
+   "address": "Os. 3 Maja 3/31",
+   "city": "Łańcut",
+   "postcode": "37-100",
+   "website": "http://www.h2o.org.pl/",
+   "phone": "+48505234000",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "611024689378227"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "61b2c5ae-cc53-4d7c-962d-f90125f697c5",
+   "name": "LAGUNA kręgielnia & restauracja",
+   "category": "bowling_alley",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "bowling_alley"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.055897,
+   "longitude": 21.598257,
+   "address": "ulica Grunwaldzka 52",
+   "city": "Ropczyce",
+   "postcode": "39-100",
+   "website": "http://lagunaclub.pl/",
+   "phone": "+48511433054",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "110766562344027"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "357a415b-a7f9-4094-8a87-081be5cc1d44",
+   "name": "Spływy kajakowe LOLEK",
+   "category": "canoe_and_kayak_hire_service",
+   "hierarchy": [
+    "sports_and_recreation",
+    "recreational_equipment_rental",
+    "canoe_and_kayak_hire_service"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.6,
+   "operatingStatus": null,
+   "latitude": 49.868893,
+   "longitude": 21.788251,
+   "address": null,
+   "city": "Strzyżów",
+   "postcode": null,
+   "website": null,
+   "phone": "+48692316313",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "2214642702158598"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f2035f6a-f07a-4c84-9529-75ec68b79802",
+   "name": "Kula Bowling and Club",
+   "category": "dance_club",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "nightlife_venue",
+    "dance_club"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 1.0,
+   "operatingStatus": null,
+   "latitude": 50.048935,
+   "longitude": 21.976062,
+   "address": "Krakowska 20",
+   "city": "Rzeszów",
+   "postcode": "35-111",
+   "website": "http://www.aloha-club.pl/",
+   "phone": "+48177179060",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "122438007883118"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "19b4f89b-1e8f-4378-bd7c-2a0888180161",
+   "name": "Jks Pogórze",
+   "category": "equestrian_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding",
+    "equestrian_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.91,
+   "operatingStatus": null,
+   "latitude": 49.894516,
+   "longitude": 21.809407,
+   "address": "Glinik Zaborowski 181",
+   "city": "Strzyżów",
+   "postcode": "38-103",
+   "website": "http://www.uchwatteam.pl/",
+   "phone": "+48600288141",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1431949967091877"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "e403ba96-555c-4452-96fd-4da57a7e9150",
+   "name": "Sancho Producent Przeszkód",
+   "category": "equestrian_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding",
+    "equestrian_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.83,
+   "operatingStatus": null,
+   "latitude": 50.125668,
+   "longitude": 21.968441,
+   "address": "ulica Rzeszowska 90",
+   "city": "Głogów Małopolski",
+   "postcode": "36-060",
+   "website": "https://przeszkody-sancho.pl/",
+   "phone": "+48694632577",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1490191574545911"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "6d01e388-e2c8-43a3-91bf-4811b4436123",
+   "name": "Sancho Producent Przeszkód",
+   "category": "equestrian_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding",
+    "equestrian_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.83,
+   "operatingStatus": null,
+   "latitude": 50.100178,
+   "longitude": 21.981681,
+   "address": "ulica Rzeszowska 90",
+   "city": "Głogów Małopolski",
+   "postcode": "36-060",
+   "website": "https://przeszkody-sancho.pl/",
+   "phone": "+48694632577",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1490191574545911"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "a6c88f6c-01cf-4472-97f1-a54e505a959b",
+   "name": "Stajenka Leśne Szlaki",
+   "category": "equestrian_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding",
+    "equestrian_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.94,
+   "operatingStatus": null,
+   "latitude": 49.917728,
+   "longitude": 22.004283,
+   "address": "Straszydle 534",
+   "city": "Straszydle",
+   "postcode": "36-043",
+   "website": null,
+   "phone": "+48509265065",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "451284395271135"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "fa05b213-7ce2-4fe5-83dc-6b845f2dba01",
+   "name": "Uchwat Team - Maja i Robert - Kompleksowe szkolenia jeździeckie",
+   "category": "equestrian_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding",
+    "equestrian_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.84,
+   "operatingStatus": null,
+   "latitude": 49.894272,
+   "longitude": 21.809862,
+   "address": "Pogórze, ulica Adama Mickiewicza 11",
+   "city": "Strzyżów",
+   "postcode": "38-100",
+   "website": "http://Www.uchwatteam.pl/",
+   "phone": "+48609504208",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "415636968839572"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "486c7df3-8a7d-4830-9e0c-3125741e600d",
+   "name": "Zagroda Mustang w Weryni",
+   "category": "equestrian_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding",
+    "equestrian_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.95,
+   "operatingStatus": null,
+   "latitude": 50.245674,
+   "longitude": 21.863651,
+   "address": "Werynia 201",
+   "city": "Werynia",
+   "postcode": "36-100",
+   "website": "http://www.zagroda-mustang.pl/",
+   "phone": "+48660428460",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1454175338216576"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "1e408519-54fb-4f8a-abc2-df4175b6514e",
+   "name": "Escape Room Rzeszów",
+   "category": "escape_room",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "gaming_venue",
+    "escape_room"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.041962,
+   "longitude": 22.007961,
+   "address": "Plac Jana Kilińskiego",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": "https://escaperoom-rzeszow.pl/",
+   "phone": "+48736860309",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "101593204644106"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "4b88bf04-b453-4097-a37e-3fff3c2b6251",
+   "name": "Lock Ness Rzeszów - Strefa Zagadek",
+   "category": "escape_room",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "gaming_venue",
+    "escape_room"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.84,
+   "operatingStatus": null,
+   "latitude": 50.034626,
+   "longitude": 21.999689,
+   "address": "ulica Zygmuntowska 1",
+   "city": "Rzeszów",
+   "postcode": "35-030",
+   "website": "http://www.wydostansie.pl/",
+   "phone": "+48731147491",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1020587521444201"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "a93ab836-6489-45af-91e8-8eaccb5b42cc",
+   "name": "Rezydencja Zagadek Escape Room Rzeszów",
+   "category": "escape_room",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "gaming_venue",
+    "escape_room"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.91,
+   "operatingStatus": null,
+   "latitude": 50.041409,
+   "longitude": 22.004673,
+   "address": "Adama Asnyka 7",
+   "city": "Rzeszów",
+   "postcode": "35-005",
+   "website": "http://www.rezydencjazagadek.pl/",
+   "phone": "+48731959102",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "285291084658999"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "4dfee8b3-26b1-4ef1-bf77-3295e4e4abc9",
+   "name": "Wydostan Sie Escape Rooms",
+   "category": "escape_room",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "gaming_venue",
+    "escape_room"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.96,
+   "operatingStatus": null,
+   "latitude": 50.039124,
+   "longitude": 22.007973,
+   "address": "wejście między sklepem z bronią a restauracją Rzeszuff, plac Wolności 2",
+   "city": "Rzeszów",
+   "postcode": "35-073",
+   "website": "http://wydostansie.pl/",
+   "phone": "+48579517453",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "754948151279319"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "ff537f65-fb20-4b66-b38c-a0fecd648097",
+   "name": "ICF Karting",
+   "category": "go_kart_club",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_recreation_club",
+    "go_kart_club"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.047691,
+   "longitude": 21.993156,
+   "address": "Mikołaja Reja 12",
+   "city": "Rzeszów",
+   "postcode": "35-211",
+   "website": "http://www.icfkarting.pl/",
+   "phone": "+48888444557",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "232824686802279"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "5e4cb6de-3f07-46ba-9ee3-69a3a7106443",
+   "name": "KJ Folkowa Podkowa",
+   "category": "horse_riding",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.000652,
+   "longitude": 22.155725,
+   "address": "Wola Rafałowska 102",
+   "city": "Chmielnik",
+   "postcode": "36-017",
+   "website": null,
+   "phone": "+48730030505",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "101367624561316"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "58742e7d-4384-4fde-a330-8f9f88ab6cf0",
+   "name": "Morenowe Wzgórze",
+   "category": "horse_riding",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.91,
+   "operatingStatus": null,
+   "latitude": 49.944218,
+   "longitude": 22.069841,
+   "address": "Kielnarowa 392 b",
+   "city": "Tyczyn",
+   "postcode": "36-020",
+   "website": "http://morenowe.pl/",
+   "phone": "+48605486149",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "580896318915921"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "9a7750cc-61c1-4902-ad4f-922e0ea441a4",
+   "name": "Stajnia Montana",
+   "category": "horse_riding",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.030563,
+   "longitude": 21.765043,
+   "address": "Iwierzyce 29B",
+   "city": "Iwierzyce",
+   "postcode": "39-124",
+   "website": null,
+   "phone": "+48698988536",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "148364995360598"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "5a52a1d0-73e1-4d69-bc27-ed4e67c3c737",
+   "name": "Stajnia Na Porębach - trening jeźdźców i koni",
+   "category": "horse_riding",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.88,
+   "operatingStatus": null,
+   "latitude": 50.177254,
+   "longitude": 21.833511,
+   "address": "Poręby Kupieńskie 29",
+   "city": "Kolbuszowa",
+   "postcode": "36-100",
+   "website": null,
+   "phone": "+48502556443",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "130916770961263"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "e0194deb-d44c-4d81-8d0f-5c1dbeba07e8",
+   "name": "Stajnia Na Porębach - trening jeźdźców i koni",
+   "category": "horse_riding",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horse_riding"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.89,
+   "operatingStatus": null,
+   "latitude": 50.178017,
+   "longitude": 21.836102,
+   "address": "Poręby Kupieńskie 29",
+   "city": "Kolbuszowa",
+   "postcode": "36-100",
+   "website": null,
+   "phone": "+48502556443",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "130916770961263"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "cda3fc7d-2b48-4777-84a6-83eb6d05942c",
+   "name": "Palomino. Horse ridding lessons",
+   "category": "horseback_riding_service",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "horseback_riding_service"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 49.986256,
+   "longitude": 22.152509,
+   "address": "Chmielnik 661a",
+   "city": "Chmielnik",
+   "postcode": "36-016",
+   "website": "http://stadnina-palomino.pl/",
+   "phone": "+48798696066",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "178295062223196"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "a07c4ce3-7e82-4d04-9cb4-4d6371d941cc",
+   "name": "Lodowisko Rzeszów Park Sybiraków",
+   "category": "ice_skating_rink",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "skating_rink",
+    "ice_skating_rink"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.050373,
+   "longitude": 21.980562,
+   "address": "Władysława Broniewskiego",
+   "city": "Rzeszów",
+   "postcode": "35-222",
+   "website": "http://lodowisko.rzeszow.pl/",
+   "phone": "+48791002355",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "105363195286784"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "6d79e1f0-8ac2-44b3-a222-2112e0b900f1",
+   "name": "U Goni",
+   "category": "karaoke_venue",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "performing_arts_venue",
+    "music_venue",
+    "karaoke_venue"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.88,
+   "operatingStatus": null,
+   "latitude": 50.037163,
+   "longitude": 22.005398,
+   "address": "Rynek 10",
+   "city": "Rzeszów",
+   "postcode": "35-064",
+   "website": null,
+   "phone": "+48693275681",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "316031922424185"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "bcb6e044-75ef-4e43-9a55-3a9e55355eae",
+   "name": "GH Shot",
+   "category": "paintball",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "paintball"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.92,
+   "operatingStatus": null,
+   "latitude": 50.05743,
+   "longitude": 22.020472,
+   "address": "Ciepłownicza 5",
+   "city": "Rzeszów",
+   "postcode": "35-322",
+   "website": "http://www.ghshot.pl/",
+   "phone": "+48605172169",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "100136311335488"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "4868ee1b-faf7-4547-8555-a9b44368097c",
+   "name": "Paintball Nienadówka",
+   "category": "paintball",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "paintball"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.6,
+   "operatingStatus": null,
+   "latitude": 50.199997,
+   "longitude": 22.099998,
+   "address": "282",
+   "city": "Sokołów Małopolski",
+   "postcode": "36-052",
+   "website": null,
+   "phone": "+48780187516",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "579977032109248"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "30e5b688-36bd-4284-bede-8e04af81cf23",
+   "name": "Paintball Nienadówka",
+   "category": "paintball",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "paintball"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.58,
+   "operatingStatus": null,
+   "latitude": 50.192783,
+   "longitude": 22.098549,
+   "address": "Nienadówka 282",
+   "city": "Sokołów Małopolski",
+   "postcode": "36-052",
+   "website": null,
+   "phone": "+48780187516",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "579977032109248"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "7b8bc52a-d90d-4226-993c-084a6a893b24",
+   "name": "Paintball Trzeboś",
+   "category": "paintball",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "paintball"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.57,
+   "operatingStatus": null,
+   "latitude": 50.211792,
+   "longitude": 22.158096,
+   "address": "Widokowa",
+   "city": "Sokołów Małopolski",
+   "postcode": "36-050",
+   "website": null,
+   "phone": "+48536076210",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "417184008779945"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "81537563-bea3-41f5-ad3c-8f29675fe53f",
+   "name": "Progame Paintball Rzeszów - centrum rozrywki i organizacji imprez",
+   "category": "paintball",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "paintball"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.8,
+   "operatingStatus": null,
+   "latitude": 50.031487,
+   "longitude": 21.987259,
+   "address": "ulica gen. Mariana Langiewicza 18",
+   "city": "Rzeszów",
+   "postcode": "35-021",
+   "website": "https://www.facebook.com/progamepaintball/",
+   "phone": "+48601535143",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "414921558582403"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "c2427546-6f26-4cc5-8a46-d388cacb6bc7",
+   "name": "Fantazja - Sala Zabaw",
+   "category": "park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.029366,
+   "longitude": 22.000805,
+   "address": "ulica Podpromie 10",
+   "city": "Rzeszów",
+   "postcode": "35-051",
+   "website": "https://www.centra-fantazja.pl/",
+   "phone": "+48178537794",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "136235086468423"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "b28d55e5-6ac3-447d-b3b8-ba99d9fea7a3",
+   "name": "Grawitacja Rzeszów - Park Trampolin",
+   "category": "park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.002148,
+   "longitude": 22.015979,
+   "address": "aleja gen. Władysława Sikorskiego 106b",
+   "city": "Rzeszów",
+   "postcode": "35-304",
+   "website": "http://www.grawitacjapark.pl/",
+   "phone": "+48888497041",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "503668393458843"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "02432129-ec38-4520-8718-29d6a734b481",
+   "name": "Stadnina Koni Z Przedniej Laki",
+   "category": "pet_breeder",
+   "hierarchy": [
+    "lifestyle_services",
+    "animal_or_pet_service",
+    "pet_breeder"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.82,
+   "operatingStatus": null,
+   "latitude": 50.00647,
+   "longitude": 22.209648,
+   "address": "Albigowa 141",
+   "city": "Łańcut (Gmina)",
+   "postcode": "37-122",
+   "website": null,
+   "phone": "+48785469369",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "909636509168516"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "41aa8fb0-bee8-4c93-b521-ac6f5eb7d77d",
+   "name": "Stadnina Twardowski",
+   "category": "pet_breeder",
+   "hierarchy": [
+    "lifestyle_services",
+    "animal_or_pet_service",
+    "pet_breeder"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.92,
+   "operatingStatus": null,
+   "latitude": 50.249775,
+   "longitude": 21.864222,
+   "address": "Rzeszowska 167",
+   "city": "Dzikowiec",
+   "postcode": "36-122",
+   "website": "https://www.tiktok.com/@stadninatwardowski",
+   "phone": "+48605130193",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "240255713528143"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f3c8eb7c-d14c-48cc-ab3a-4cdf6c86a6ec",
+   "name": "Alpacze - Rzeszowskie Alpaki",
+   "category": "physical_therapy",
+   "hierarchy": [
+    "health_care",
+    "outpatient_care_facility",
+    "physical_medicine_and_rehabilitation",
+    "physical_therapy"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.95,
+   "operatingStatus": null,
+   "latitude": 50.00045,
+   "longitude": 22.155123,
+   "address": "Wola Rafałowska 102",
+   "city": "Chmielnik",
+   "postcode": "36-017",
+   "website": null,
+   "phone": "+48727720222",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "100193168371638"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "79909c0d-494f-4a69-ba03-904935ada187",
+   "name": "Bowling Cegielnia",
+   "category": "pizza_restaurant",
+   "hierarchy": [
+    "food_and_drink",
+    "restaurant",
+    "european_restaurant",
+    "mediterranean_restaurant",
+    "italian_restaurant",
+    "pizza_restaurant"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 49.876411,
+   "longitude": 21.752867,
+   "address": "Dobrzechów 83a",
+   "city": "Strzyżów",
+   "postcode": "38-100",
+   "website": "http://www.bowlingcegielnia.pl/",
+   "phone": "+48173333445",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1775111579255187"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "b427072b-0029-4145-a78a-279bc6465426",
+   "name": "Antresola Bilard Klub",
+   "category": "pool_billiards",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "pool_billiards"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.019062,
+   "longitude": 21.99062,
+   "address": "Aleja Powstańców Warszawy 14",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": null,
+   "phone": "+48782828232",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1498157643782797"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "57d4433c-d579-4bc7-a6e9-87182f9981a1",
+   "name": "Billiard Club Eight",
+   "category": "pool_billiards",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "pool_billiards"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.041561,
+   "longitude": 22.009449,
+   "address": "Piotra Bardowskiego 4",
+   "city": "Rzeszów",
+   "postcode": "35-005",
+   "website": "http://osemka.com.pl/",
+   "phone": "+48178625451",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "187942664577256"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "deda7922-e915-4549-8029-574025c6eb7d",
+   "name": "Klub Bilardowy Trójkąt",
+   "category": "pool_billiards",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "pool_billiards"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.041267,
+   "longitude": 22.010816,
+   "address": "ulica Aleksandra Fredry 7",
+   "city": "Rzeszów",
+   "postcode": "35-005",
+   "website": "http://bilard-rzeszow.pl/",
+   "phone": "+48884333972",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "893377014018614"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "534047f9-7abf-4fbb-8195-e16b47857153",
+   "name": "Reskart Gokarty",
+   "category": "race_track",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "race_track"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.93,
+   "operatingStatus": null,
+   "latitude": 50.036419,
+   "longitude": 21.990459,
+   "address": "Klementyny Hoffmanowej 15/19",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": null,
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "312129979587997"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "acad391c-c55c-4583-9a7c-6dee0e0860fb",
+   "name": "Tor MX Lamba Pitbike Park",
+   "category": "race_track",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "race_track"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.78,
+   "operatingStatus": null,
+   "latitude": 50.068409,
+   "longitude": 22.063957,
+   "address": "Spichlerzowa",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": "http://www.lambapitbike.pl/",
+   "phone": "+48453254716",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "101045811630632"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "b04fe775-6cff-480b-b679-060942b05887",
+   "name": "Restauracja Kręgielnia Laguna",
+   "category": "restaurant",
+   "hierarchy": [
+    "food_and_drink",
+    "restaurant"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.055988,
+   "longitude": 21.598076,
+   "address": "Grunwaldzka 52",
+   "city": "Ropczyce",
+   "postcode": "39-100",
+   "website": "http://lagunaclub.pl/",
+   "phone": "+48511433054",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "110766562344027"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f24353fa-e6bf-4402-9709-d3b0ca8b5469",
+   "name": "Baltoro Centrum Wspinaczkowe",
+   "category": "rock_climbing_spot",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "adventure_sport",
+    "rock_climbing_spot"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.74,
+   "operatingStatus": null,
+   "latitude": 50.061131,
+   "longitude": 21.978325,
+   "address": "ulica Obrońców Poczty Gdańskiej 11",
+   "city": "Rzeszów",
+   "postcode": "35-509",
+   "website": null,
+   "phone": "+48798521632",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "323252555144685"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f175ccef-18ee-488f-8ef5-26e402cd51f1",
+   "name": "Peron Baltoro Ścianka Wspinaczkowa",
+   "category": "rock_climbing_spot",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "adventure_sport",
+    "rock_climbing_spot"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.044083,
+   "longitude": 22.007326,
+   "address": "Jana Kochanowskiego 19a",
+   "city": "Rzeszów",
+   "postcode": "35-201",
+   "website": "http://rkw.org.pl/peron_baltoro/",
+   "phone": "+48798521632",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "128534337333124"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "196d1e01-e452-44f8-9188-b7319ce841d6",
+   "name": "Wrotki WyWrotki",
+   "category": "roller_skating_rink",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "skating_rink",
+    "roller_skating_rink"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 1.0,
+   "operatingStatus": null,
+   "latitude": 50.036518,
+   "longitude": 22.007015,
+   "address": "Szpitalna 5",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": "https://www.wrotki-wywrotki.pl/rzeszow/",
+   "phone": "+48578037721",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "2049268638718612"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "e06ec6a6-d570-4c60-8b6e-dbc1d9155c73",
+   "name": "Kasztelan Rzeszow",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.96,
+   "operatingStatus": null,
+   "latitude": 50.048416,
+   "longitude": 21.996046,
+   "address": "Gołębia 10",
+   "city": "Rzeszów",
+   "postcode": "35-205",
+   "website": "http://www.klubkasztelan.pl/",
+   "phone": "+48178611783",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "617742748428927"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "b0da9eaa-21da-4030-a176-d6a9acc3e203",
+   "name": "Strzelnica Fort",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 49.945053,
+   "longitude": 21.830008,
+   "address": "Kolejowa 2a",
+   "city": "Czudec",
+   "postcode": "38-120",
+   "website": null,
+   "phone": "+48794760952",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "429154377491287"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "780e2e1f-272c-493c-95ad-aa30456d9994",
+   "name": "Strzelnica Gun Club Rzeszów",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.9,
+   "operatingStatus": null,
+   "latitude": 50.024418,
+   "longitude": 21.970634,
+   "address": "Przemysłowa 6",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": "http://www.gunclubpolska.pl/",
+   "phone": "+48574974435",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "178205738705410"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "a55282c3-212a-44f3-b1e3-c02382a7239a",
+   "name": "Strzelnica Pod Wiatą Żołynia",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.16988,
+   "longitude": 22.313003,
+   "address": "Mickiewicza 114",
+   "city": "Żołynia",
+   "postcode": "37-110",
+   "website": "http://www.zolynia.pl/asp/pl_start.asp?typ=14&sub=12&menu=170&strona=1",
+   "phone": "+48530905776",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "190038938317365"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "ccd9f349-a434-40cb-8bfc-24997fece72c",
+   "name": "Strzelnica Strzelka k. Rzeszowa",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.144497,
+   "longitude": 21.957578,
+   "address": "ulica Złota 74",
+   "city": "Głogów Małopolski",
+   "postcode": "36-060",
+   "website": "http://strzelka.pl/index.php",
+   "phone": "+48502523887",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "552479681471482"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "009a4efd-9372-4ff9-b97d-c1ee57a8f3b8",
+   "name": "Strzelnica w Borze PZŁ",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.73,
+   "operatingStatus": null,
+   "latitude": 50.13015,
+   "longitude": 21.980697,
+   "address": "",
+   "city": "Głogów Małopolski",
+   "postcode": "36-060",
+   "website": null,
+   "phone": "+48604583252",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "143253519101359"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "42422984-f71e-416d-b8b9-99baa1f2795c",
+   "name": "Łańcucki Klub Strzelecki CEL",
+   "category": "shooting_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "shooting_range"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.9,
+   "operatingStatus": null,
+   "latitude": 50.053379,
+   "longitude": 22.210105,
+   "address": "Józefa Piłsudskiego",
+   "city": "Łańcut",
+   "postcode": "37-100",
+   "website": "http://lancucki-klub-strzelecki-cel.business.site/",
+   "phone": "+48788072622",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "489408481417378"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "99e9ff24-0524-4cdf-ad8b-a2a775cda6c4",
+   "name": "Bowling Kręgielnia Kolbuszowa - Galeria nad Nilem",
+   "category": "sport_league",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_league"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.86,
+   "operatingStatus": null,
+   "latitude": 50.242062,
+   "longitude": 21.778954,
+   "address": "Rzeszowska 10",
+   "city": "Kolbuszowa",
+   "postcode": "36-100",
+   "website": null,
+   "phone": "+48723709488",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "361814827007841"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "4c5db01d-1a73-4a13-a26e-af545c932bef",
+   "name": "Galaktyka Kręgielnia i Restauracja",
+   "category": "sport_league",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_league"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.021065,
+   "longitude": 22.01228,
+   "address": "Zdzisława Kozienia 3",
+   "city": "Rzeszów",
+   "postcode": "35-326",
+   "website": "https://kregielnia24.pl/rezerwuj/683/bowling",
+   "phone": "+48178590880",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "185731514885736"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "e3ec101f-5493-44b5-83fb-ee76bf85bb30",
+   "name": "Karate Kyokushin - KS Punch Squad Dojo Sędziszów Małopolski",
+   "category": "sport_league",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_league"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.65,
+   "operatingStatus": null,
+   "latitude": 50.076252,
+   "longitude": 21.700191,
+   "address": "ulica Bartosza Głowackiego 21",
+   "city": "Sędziszów Małopolski",
+   "postcode": "39-120",
+   "website": null,
+   "phone": "+48729888436",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "104165585151170"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "3b879bd2-6c30-4ea1-9e31-e9bdcba11640",
+   "name": "Reskart Racing",
+   "category": "sport_league",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_league"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.036301,
+   "longitude": 21.990953,
+   "address": "Hoffmanowej 19",
+   "city": "Rzeszów",
+   "postcode": "35-016",
+   "website": "http://www.reskart.pl",
+   "phone": "+48690994226",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "262543157149707"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "eb9f57b9-ddfd-4b5d-a3e3-17c96388636f",
+   "name": "FlyWall - centrum wspinaczkowe i park linowy",
+   "category": "sport_or_fitness_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.046299,
+   "longitude": 22.015373,
+   "address": "Lucjana Siemieńskiego 14",
+   "city": "Rzeszów",
+   "postcode": "35-203",
+   "website": "http://www.flywall.pl/",
+   "phone": "+48881230067",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "102493501092650"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "ba828c65-0dd0-4b6e-a1a0-eec207ce4206",
+   "name": "Linoskoczek",
+   "category": "sport_or_fitness_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.83,
+   "operatingStatus": null,
+   "latitude": 49.989563,
+   "longitude": 22.029003,
+   "address": null,
+   "city": "Rzeszów",
+   "postcode": null,
+   "website": null,
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "176845079037090"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "26a4c97a-6c44-4444-968c-fc06a1804102",
+   "name": "Park Trampolin Happy Jump",
+   "category": "sport_or_fitness_facility",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.56,
+   "operatingStatus": null,
+   "latitude": 50.054317,
+   "longitude": 21.991138,
+   "address": "ulica Torowa 2",
+   "city": "Rzeszów",
+   "postcode": "35-205",
+   "website": "http://www.happyjump.com.pl/",
+   "phone": "+48698739228",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "793109374088128"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "c201bec1-eaa9-413e-b302-cbb65f8964a1",
+   "name": "Wypozyczalna gokartów- Rzeszów PARK",
+   "category": "sports_and_recreation",
+   "hierarchy": [
+    "sports_and_recreation"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.55,
+   "operatingStatus": null,
+   "latitude": 50.111988,
+   "longitude": 22.385283,
+   "address": "Park Jedności Polonii z Macierzą ul. Pułaskiego",
+   "city": "Rzeszów",
+   "postcode": "35-326",
+   "website": null,
+   "phone": "+48790402204",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "551367378243346"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "3fae13f6-0860-4542-8d75-24c324911604",
+   "name": "Wypożyczalnia Gokartów",
+   "category": "sports_and_recreation",
+   "hierarchy": [
+    "sports_and_recreation"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.92,
+   "operatingStatus": null,
+   "latitude": 50.040363,
+   "longitude": 21.907729,
+   "address": "ulica Leśne Wzgórze 1",
+   "city": "Rzeszów",
+   "postcode": "35-213",
+   "website": null,
+   "phone": "+48793282060",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "337251550030867"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "c44636a0-8ff9-493d-b4d7-6414f83a118c",
+   "name": "Ściana Wspinaczkowa Politechniki Rzeszowskiej",
+   "category": "stadium_arena",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "stadium_arena"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.89,
+   "operatingStatus": null,
+   "latitude": 50.018356,
+   "longitude": 21.980635,
+   "address": "ulica Poznańska 2A",
+   "city": "Rzeszów",
+   "postcode": "35-084",
+   "website": "http://sciana.prz.rzeszow.pl/",
+   "phone": "+48609078628",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "195154990554413"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "462ce13e-8059-440c-8862-04493410ca68",
+   "name": "Stadnina Albin",
+   "category": "travel_service",
+   "hierarchy": [
+    "travel_and_transportation",
+    "travel_service"
+   ],
+   "suggestedCategory": "active-entertainment",
+   "confidence": 0.91,
+   "operatingStatus": null,
+   "latitude": 50.021809,
+   "longitude": 22.063143,
+   "address": "Świętej Faustyny 112",
+   "city": "Rzeszów",
+   "postcode": "35-330",
+   "website": null,
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "388853541967066"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "85c1f667-e21d-4143-b589-0427cf20cdc3",
+   "name": "Rezerwat Bór W Głogowie Małopolskim",
+   "category": "wildlife_sanctuary",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "animal_attraction",
+    "wildlife_sanctuary"
+   ],
+   "suggestedCategory": "nature",
+   "confidence": 0.92,
+   "operatingStatus": null,
+   "latitude": 50.17165,
+   "longitude": 21.970272,
+   "address": null,
+   "city": "Głogów Małopolski",
+   "postcode": null,
+   "website": null,
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1124185754284284"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "69f9519a-cb88-4f89-bdb7-6826b44ce343",
+   "name": "Brzezóvka Kompleks Turystyczny",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.218723,
+   "longitude": 21.748188,
+   "address": "Brzezówka 36/F",
+   "city": "Kolbuszowa",
+   "postcode": "36-100",
+   "website": "http://www.brzezovka.pl/",
+   "phone": "+48781116909",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "188575598427653"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "cc4ebd15-9387-4fda-8412-b29726b81106",
+   "name": "Centra Fantazja sp. Z.",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.63,
+   "operatingStatus": null,
+   "latitude": 50.041348,
+   "longitude": 21.999849,
+   "address": "Aleja Józefa Piłsudskiego",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": null,
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "192982051619476"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "bd3c3f21-1426-4056-9c35-9f7fa04e0b0a",
+   "name": "Dirt Podgórska",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 49.815453,
+   "longitude": 22.218454,
+   "address": "Podgórska 19",
+   "city": "Dynów",
+   "postcode": "36-065",
+   "website": "https://www.youtube.com/channel/UCZ2pKxu393JKz2MhEKcm7OA?view_as=subscriber",
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1658465601038755"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "b6dda8a0-fe53-47a2-b920-f272dddabbfc",
+   "name": "Dmuchańce Łańcut",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.54,
+   "operatingStatus": null,
+   "latitude": 50.065563,
+   "longitude": 22.239279,
+   "address": null,
+   "city": "Łańcut",
+   "postcode": null,
+   "website": null,
+   "phone": "+48575515949",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "112011561526679"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "21325380-9f74-43e5-bb06-ea7f014eb2ae",
+   "name": "Jungle Park",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 1.0,
+   "operatingStatus": null,
+   "latitude": 50.054119,
+   "longitude": 21.991155,
+   "address": "Torowa 2",
+   "city": "Rzeszów",
+   "postcode": "35-205",
+   "website": "http://www.junglepark.com.pl/",
+   "phone": "+48604995889",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "267132687277997"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "e6c371d2-9ff5-46f6-9a2f-e7746cdd73c1",
+   "name": "Kolorowy Świat",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 1.0,
+   "operatingStatus": null,
+   "latitude": 50.020161,
+   "longitude": 22.011013,
+   "address": "Zdzisława Kozienia 7",
+   "city": "Rzeszów",
+   "postcode": "35-328",
+   "website": "http://kolorowyswiat-rzeszow.pl/",
+   "phone": "+48506358508",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "471471232934041"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "f1cdb326-f1b8-4a64-9d68-26ee5c3fabde",
+   "name": "Malawa Fun Park",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.013699,
+   "longitude": 22.132116,
+   "address": "Malawa",
+   "city": "Krasne",
+   "postcode": "36-007",
+   "website": "http://www.malawafunpark.pl/",
+   "phone": "+48791486431",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "679731108737443"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "98067260-af8a-4b27-ab64-0f5882fe5330",
+   "name": "Park Linowy Linoskoczek",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.83,
+   "operatingStatus": null,
+   "latitude": 49.98983,
+   "longitude": 22.029875,
+   "address": "Ul. Rodzinna",
+   "city": "Rzeszów",
+   "postcode": null,
+   "website": "http://www.linoskoczek.com.pl/",
+   "phone": "+48790779205",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "324052084683665"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "5de3d1d4-f010-4647-b9ee-7f5157c227fa",
+   "name": "Pływalnia kryta Muszelka",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.059536,
+   "longitude": 21.981976,
+   "address": "Stefana Starzyńskiego 17",
+   "city": "Rzeszów",
+   "postcode": "35-508",
+   "website": "https://muszelka.rzeszow.pl/",
+   "phone": "177481415",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "Microsoft",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1688849866586729"
+    }
+   ],
+   "attribution": "Data from Microsoft. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "b02ca97f-ccda-4008-bdfe-e1d847e6e9fc",
+   "name": "Racing Simulator",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 50.036285,
+   "longitude": 21.990953,
+   "address": "ulica Antoniny Hoffmanowej 19",
+   "city": "Rzeszów",
+   "postcode": "35-016",
+   "website": "http://www.racingsimulator.pl/",
+   "phone": "+48602618037",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1927523130893075"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "1e250ca3-6476-4eff-8954-fb2ea3fb677f",
+   "name": "Strzelnica Kolbuszowa",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.73,
+   "operatingStatus": null,
+   "latitude": 50.244709,
+   "longitude": 21.769923,
+   "address": "Kolbuszowa 18",
+   "city": "Kolbuszowa",
+   "postcode": "",
+   "website": "https://lokolbuszowa.edupage.org/a/strzelnica",
+   "phone": "+48533891175",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "111928271326023"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "cb6aa0fd-e1e0-41d0-816e-41a44bd9d886",
+   "name": "Viking Shooting Academy",
+   "category": "amusement_park",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "amusement_attraction",
+    "amusement_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.57,
+   "operatingStatus": null,
+   "latitude": 49.964573,
+   "longitude": 21.94506,
+   "address": "8f1e286da014190",
+   "city": null,
+   "postcode": "36-040",
+   "website": "https://vikingsa.pl/",
+   "phone": "+48730382392",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "224462164091266"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "4d6becd2-01fb-40d8-9463-d4aa7334bdb8",
+   "name": "Podkarpacki Klub Golfowy",
+   "category": "driving_range",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "golf_course",
+    "driving_range"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.95,
+   "operatingStatus": null,
+   "latitude": 50.079403,
+   "longitude": 21.838379,
+   "address": "Trzciana 244b",
+   "city": "Świlcza",
+   "postcode": "36-071",
+   "website": "http://www.pkgolf.pl/",
+   "phone": "+48509955350",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "136171716423346"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "7818a388-d24c-45fa-a55b-7185b6925ab1",
+   "name": "Mini Golf Rzeszow Wisłok",
+   "category": "golf_course",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "golf_course"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.96,
+   "operatingStatus": null,
+   "latitude": 50.009705,
+   "longitude": 21.99226,
+   "address": "Leśna 1",
+   "city": "Rzeszów",
+   "postcode": "35-083",
+   "website": "http://www.projektczarter.pl/",
+   "phone": "+48791966169",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "788623817865482"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "8ba1e9d2-390e-4dba-8b70-d2ab3291598f",
+   "name": "Pole Golfowe Dwa Stawy",
+   "category": "golf_course",
+   "hierarchy": [
+    "sports_and_recreation",
+    "sport_or_fitness_facility",
+    "golf_course"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.08551,
+   "longitude": 21.839273,
+   "address": "Trzciana 244B",
+   "city": "Trzciana",
+   "postcode": "36-071",
+   "website": "https://dwa-stawy.pl/",
+   "phone": "+48887557800",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "548952448827706"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "d207d1fb-1f90-4a06-8922-f7363ce57248",
+   "name": "Basen W Glogowie",
+   "category": "water_park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park",
+    "water_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.69,
+   "operatingStatus": null,
+   "latitude": 50.151382,
+   "longitude": 21.925981,
+   "address": "Glogow mlp",
+   "city": "Gmina Głogów Małopolski",
+   "postcode": null,
+   "website": null,
+   "phone": null,
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "460692554456077"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "1bfd14df-ae3f-4a16-b319-d603a76e0bad",
+   "name": "Centrum Sportu, Turystyki i Rekreacji w Strzyzow",
+   "category": "water_park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park",
+    "water_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.97,
+   "operatingStatus": null,
+   "latitude": 49.872589,
+   "longitude": 21.790834,
+   "address": "Polna 1",
+   "city": "Strzyżów",
+   "postcode": "38-100",
+   "website": "http://www.parkwodny.cstr.pl/",
+   "phone": "+48172768560",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "314254841971528"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "faf0794f-f0cf-424d-9834-066bd66d38ef",
+   "name": "Delfin",
+   "category": "water_park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park",
+    "water_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.91,
+   "operatingStatus": null,
+   "latitude": 50.025856,
+   "longitude": 22.010429,
+   "address": "ulica Podwisłocze 38B",
+   "city": "Rzeszów",
+   "postcode": "35-309",
+   "website": "http://www.delfin.rzeszow.pl",
+   "phone": "+48178579148",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "236033479859333"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "34731c43-98d0-4b46-ab19-f598af790e0b",
+   "name": "Karpik. Pływalnia",
+   "category": "water_park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park",
+    "water_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.78,
+   "operatingStatus": null,
+   "latitude": 50.044453,
+   "longitude": 21.974197,
+   "address": "ulica Ignacego Solarza 12",
+   "city": "Rzeszów",
+   "postcode": "35-118",
+   "website": "http://www.karpik.rzeszow.pl",
+   "phone": "+1178570091",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1427899944184314"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "951fc9c0-46db-40b5-acab-7dad201df89e",
+   "name": "OSiR Nowa Wieś",
+   "category": "water_park",
+   "hierarchy": [
+    "sports_and_recreation",
+    "park",
+    "water_park"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 50.089504,
+   "longitude": 22.045198,
+   "address": "Nowa Wieś 387",
+   "city": "Trzebownisko",
+   "postcode": "36-001",
+   "website": "http://www.basentrzebownisko.pl/",
+   "phone": "+48177713120",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "239870969760421"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "cccf30f4-7bcc-4713-935f-279f13face2f",
+   "name": "AlpakaTeam",
+   "category": "zoo",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "animal_attraction",
+    "zoo"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.74,
+   "operatingStatus": null,
+   "latitude": 50.018559,
+   "longitude": 21.888657,
+   "address": "Nosówka 271",
+   "city": "Boguchwała",
+   "postcode": "36-047",
+   "website": "https://podarujmilosc.pl/",
+   "phone": "+48533588773",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "2421100911510542"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "27ddbd58-c645-4071-99d9-77531f890c68",
+   "name": "Papugarnia",
+   "category": "zoo",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "animal_attraction",
+    "zoo"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.99,
+   "operatingStatus": null,
+   "latitude": 50.04208,
+   "longitude": 21.9978,
+   "address": "Aleja Józefa Piłsudskiego 44",
+   "city": "Rzeszów",
+   "postcode": "35-001",
+   "website": null,
+   "phone": "+48666400952",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "105407310056948"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "d4fe2d7b-17fb-49c0-bc59-ba30dfa8304a",
+   "name": "Ranczo Alpakamix",
+   "category": "zoo",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "animal_attraction",
+    "zoo"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.5,
+   "operatingStatus": null,
+   "latitude": 50.103966,
+   "longitude": 21.854446,
+   "address": "Bratkowice 814",
+   "city": "Świlcza",
+   "postcode": "36-055",
+   "website": null,
+   "phone": "+48606401968",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "191736759062230"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "8b8fb5b4-49c3-4768-88f7-e532ab2314ad",
+   "name": "Ranczo Pstrągowa",
+   "category": "zoo",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "animal_attraction",
+    "zoo"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.98,
+   "operatingStatus": null,
+   "latitude": 49.954815,
+   "longitude": 21.719732,
+   "address": "",
+   "city": "Czudec",
+   "postcode": "38-121",
+   "website": "http://ranczo.pstragowa.pl/",
+   "phone": "+48601155518",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1513937675494864"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  },
+  {
+   "id": "859fe1ff-ac54-47e8-894a-50b4f4dec511",
+   "name": "Zoo-Garden",
+   "category": "zoo",
+   "hierarchy": [
+    "arts_and_entertainment",
+    "animal_attraction",
+    "zoo"
+   ],
+   "suggestedCategory": "recreation",
+   "confidence": 0.62,
+   "operatingStatus": null,
+   "latitude": 50.007618,
+   "longitude": 22.020609,
+   "address": "ulica Kaktusowa 8",
+   "city": "Rzeszów",
+   "postcode": "35-604",
+   "website": "http://www.zoo-garden.pl/",
+   "phone": "+48696488476",
+   "region": "rzeszow",
+   "sources": [
+    {
+     "dataset": "meta",
+     "license": "CDLA-Permissive-2.0",
+     "recordId": "1610970049230725"
+    }
+   ],
+   "attribution": "Data from meta. Available under CDLA Permissive 2.0."
+  }
+ ]
+}

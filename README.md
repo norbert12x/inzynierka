@@ -24,8 +24,9 @@ Aplikacja nie zgaduje brakujących danych: nieznane godziny otwarcia są pokazyw
 | Baza danych | PostgreSQL + PostGIS w Supabase, EF Core + Npgsql + NetTopologySuite |
 | Frontend | React + Vite (TypeScript), Leaflet z mapą OpenStreetMap |
 | Usługi zewnętrzne | Geoapify (wyszukiwanie adresów, dane o miejscach), OpenRouteService (czasy przejazdów), Wikimedia Commons (zdjęcia), SMTP + MailKit (e-mail) |
+| Dane o atrakcjach | OpenStreetMap (przez Geoapify) i Overture Maps Places, z ochroną przed duplikatami |
 | Testy | xUnit |
-| Przygotowanie danych | Skrypty Python |
+| Przygotowanie danych | Skrypty Python (DuckDB) |
 
 ## Uruchomienie
 
@@ -37,7 +38,7 @@ Wymagania: .NET 9 SDK (lub nowszy z runtime .NET 9), Visual Studio 2022 albo `do
    - `geoapify-key.txt` — klucz API Geoapify,
    - `photo-cache/` — pliki zdjęć atrakcji.
 
-   Zamiast plików można użyć zmiennych środowiskowych, np. `Database__Password` albo `Geoapify__ApiKey`. Szczegóły połączenia z bazą: [database/README.md](database/README.md).
+   Zamiast plików można użyć zmiennych środowiskowych, np. `Database__Password` albo `Geoapify__ApiKey`. Bez konfiguracji bazy aplikacja nie wystartuje. Szczegóły połączenia z bazą: [database/README.md](database/README.md).
 
 2. **Backend.** Otwórz `Inżynierka.sln` w Visual Studio, wybierz profil `http` i uruchom (F5), albo z wiersza poleceń:
 
@@ -61,4 +62,4 @@ Opis wymagań, plan prac i opis API znajdują się w katalogu [docs/](docs/).
 
 ## Źródła danych
 
-Dane o miejscach © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (licencja ODbL), udostępnione przez [Geoapify](https://www.geoapify.com/). Zdjęcia pochodzą z [Wikimedia Commons](https://commons.wikimedia.org/) — autor i licencja są podane przy każdym zdjęciu.
+Dane o miejscach © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (licencja ODbL), udostępnione przez [Geoapify](https://www.geoapify.com/), oraz z [Overture Maps Foundation](https://docs.overturemaps.org/attribution/) (m.in. dane od Meta i Microsoft na licencji CDLA Permissive 2.0, Foursquare na Apache 2.0) — źródło i licencja są zapisane przy każdym miejscu. Zdjęcia pochodzą z [Wikimedia Commons](https://commons.wikimedia.org/) — autor i licencja są podane przy każdym zdjęciu.
