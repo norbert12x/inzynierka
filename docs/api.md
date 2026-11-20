@@ -45,6 +45,28 @@ Zatwierdzone zdjęcia (autor, licencja, źródło, `imageUrl`, `kind`, `caption`
 
 Geoapify, do 5 propozycji w Polsce. `text` 2–200 znaków, `type` = `address` (domyślnie) albo `city`. `confidence` to ocena dostawcy, nie potwierdzenie adresu. Każde wywołanie zużywa limit Geoapify; klucz nie trafia do odpowiedzi ani logów. Błąd dostawcy 503, zła odpowiedź 502, przekroczony czas 504.
 
+### Planer — `POST /api/plans/generate`
+
+Plan wyjazdu bez zapisu, działa dla gościa. Czasy przejazdów z macierzy atrakcji w bazie (`routing.travel_times`) i szacunku – **żadna usługa zewnętrzna nie jest wywoływana**, współrzędne noclegu trafiają tylko do linków Google Maps. Godziny jako `"HH:mm"`, daty `"RRRR-MM-DD"` (czas lokalny). Wartości domyślne i progi: sekcja `Planner` w `appsettings.json` (walidacja przy starcie – `PlannerOptionsValidatorTests`).
+
+| Pole żądania | Działanie |
+|---|---|
+| `lodging` | nocleg wszystkich nocy: `latitude`, `longitude`, opcjonalnie `name` (etykieta) |
+| `days[]` | 1–14 dni, daty rosnąco: `date`; `start`, `end` (domyślnie 09:00–18:00, `end` = powrót do noclegu); `lodging` – nocleg tej nocy, gdy inny (następny dzień startuje stąd); `meal` – brak = 60 min ze startem 13:30–15:00, `{"enabled":false}` = bez przerwy, `minutes` / `earliestStart` / `latestStart` (stała godzina – obie takie same) |
+| `attractions[]` | 1–60 atrakcji z katalogu: `id`, `mandatory` (domyślnie `true`), `visitMinutes` (5–600, brak = czas z katalogu) |
+| `interests` | kody kategorii do propozycji (pusta lista – każda kategoria) |
+| `fillDays` | domyślnie `true` – pierwszy plan: planer dopełnia każdy dzień atrakcjami z katalogu (`addedByPlanner: true`); `false` – tylko wybrane |
+| `includeSuggestions` | `false` – bez propozycji |
+
+Odpowiedź: `days[]` (start/koniec, wizyty z `addedByPlanner` (dołożona przez planer, do usunięcia), `travelBefore`, `arrival`, `waitMinutes` (czekanie na otwarcie, do 60 min), `departure`, `visitMinutesSource` = `place` / `category_default` / `user`; `meal` z `afterVisits`; `returnLeg`, `returnArrival`, `overrunMinutes`, `travelMinutes`, `warnings`, `googleMapsUrls` – cały dzień autem, kilka linków przy > 9 wizytach), `skipped` (opcjonalne bez miejsca w żadnym dniu), `warnings` (całego wyjazdu, `date = null`), `suggestions` (do akceptacji – **nie są w planie**: dzień, `insertAt`, godziny, `extraTravelMinutes`, `freeMinutesLeft`, `matchedInterests`, ostrzeżenia), `travelMinutes`, `travelTimesAttribution` (podpis ORS, gdy któryś odcinek jest z macierzy). Odcinek: `mode` (`walking` / `driving`), `minutes` (z parkowaniem), `source` (`openrouteservice` / `estimate`), `isApproximate` („czas przybliżony”), `googleMapsUrl` i `googleMapsTransitUrl` (komunikacja publiczna).
+
+Zasady planera: `docs/opis-aplikacji.md` („Ustalenia planera”). Kody ostrzeżeń: `day_overrun` (powrót po końcu dnia – do 30 min nic nie usuwamy), `optional_skipped`, `opening_hours_unknown` (tylko obiekty z wejściem), `opening_hours_unreadable`, `maybe_closed`.
+
+Testy (20.11.2026, baza z 153 atrakcjami):
+- 1 dzień (środa 2027-05-19, nocleg 50.0375, 22.0049): Zamek Lubomirskich `22ad8fa6-ad43-530b-aa56-8f65c9782c87`, Muzeum Okręgowe `2132e6f2-e2e9-5621-8891-f2d732dcf13c`, Muzeum Etnograficzne `41f02db7-7ab3-5642-b04a-be599c3f228e` z `"visitMinutes":45`, opcjonalne Muzeum Dobranocek `4e4602ff-7bfb-5ce5-8568-2a958af8e90f` i Papugarnia `32437c37-99c2-5cb7-90e5-0d2303baee6c` , `"interests":["museums"]` → 200, 5 wizyt, posiłek 14:07–15:07, powrót 16:53, odcinki pieszo i autem z ORS, bez ostrzeżeń; planer nic nie dołożył (wolne 67 min, każde pozostałe muzeum trwa 90 min).
+- 3 dni (20–22.05.2027, dzień 1 od 10:00, dzień 2 przeprowadzka do Łańcuta 50.0687, 22.2317, dzień 3 do 16:00 bez posiłku): Zamek w Łańcucie `4402cf21-12ab-5f1c-9802-f07ab332feb7` (180 min), Skansen w Markowej `4599b13e-2d89-5d81-9dd8-7933e670a229`, Centrum Nauki w Jasionce `6e8fbd45-8c30-5072-a405-ff61a11dc487`, Zamek Lubomirskich + opcjonalne Muzeum Okręgowe, Muzeum Historii Miasta `2a07f551-6546-5f64-a51a-def5cf48e19b`, Papugarnia, bez zainteresowań → 200 w ok. 0,6 s; wybrane rozłożone na 3 dni (zamek w Łańcucie w dniu 3, Skansen i Jasionka w dniu przeprowadzki), dni dopełnione przez planer (`addedByPlanner`: m.in. Muzeum Etnograficzne, Planty, Kasyno w Łańcucie, Powozownia, Park Zamkowy; małe – Fortepian, ławeczka, pomnik – tylko po drodze): powrót 18:00 / 17:26 / 15:56; ostrzeżenia tylko `opening_hours_unknown` (Jasionka, Kasyno). `"fillDays": false` – tylko wybrane atrakcje.
+- 400: `attractions: []`, `days: []`, daty malejące, `"date":"2027-02-30"`, `"start":"25:00"`, `end` przed `start`, odwrócone okno posiłku, nieznana / usunięta atrakcja (np. Skwer `3ac53e57-a866-58c0-ba9c-2eb1f1c2e63e`), ta sama atrakcja dwa razy, nieznane zainteresowanie, brak `lodging`, `latitude: 95`, `visitMinutes: 1`.
+
 ## Konta — `/api/auth`
 
 ASP.NET Core Identity, sesja w ciasteczku `podkarpacie.auth` (HttpOnly, SameSite=Lax, 14 dni przy `rememberMe`, przedłużane). Swagger w przeglądarce wysyła ciasteczko sam. Endpointy z `[Authorize]` dla gościa zwracają **401**, dla zalogowanego bez roli **403** (ProblemDetails, bez przekierowania na stronę logowania). Hasło: 8–128 znaków, cyfra, mała i wielka litera. Po 5 nieudanych logowaniach konto blokuje się na 15 minut.

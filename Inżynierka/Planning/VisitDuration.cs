@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Inżynierka.Planning;
 
-// W JSON jako "place" / "category_default".
+// W JSON jako "place" / "category_default" / "user".
 [JsonConverter(typeof(JsonStringEnumConverter<VisitMinutesSource>))]
 public enum VisitMinutesSource
 {
@@ -11,7 +11,10 @@ public enum VisitMinutesSource
     Place,
     // Szacunek: najdłuższy domyślny czas spośród kategorii atrakcji.
     [JsonStringEnumMemberName("category_default")]
-    CategoryDefault
+    CategoryDefault,
+    // Czas podany przez użytkownika w planie.
+    [JsonStringEnumMemberName("user")]
+    User
 }
 
 public sealed record VisitDuration(int Minutes, VisitMinutesSource Source)

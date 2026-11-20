@@ -43,8 +43,8 @@ Nie dodawaj nowych pakietów NuGet/npm ani usług zewnętrznych bez zgody użytk
 - Współrzędne: `geography(point, 4326)`, w NTS `X` = długość, `Y` = szerokość. Odległości liczy PostGIS w metrach.
 - Czas: znaczniki w UTC (`timestamptz`, `DateTimeOffset`). Plan wyjazdu w czasie lokalnym `Europe/Warsaw` (`DateOnly`/`TimeOnly`).
 - Brak danych ≠ wartość domyślna: nieznane godziny otwarcia to nie „całodobowo”, brak zdjęcia nie jest zastępowany innym. Nie zmyślamy godzin, opinii ani czasów zwiedzania.
-- Godziny otwarcia: tylko ostrzeżenie w planie, bez wpływu na kolejność (MVP).
-- Dodatkowe atrakcje i przeplanowanie wymagają akceptacji użytkownika – nie zmieniaj planu za niego.
+- Godziny otwarcia: tylko ostrzeżenie w planie, bez wpływu na kolejność (MVP); przy przyjeździe przed otwarciem planer czeka (do 60 min).
+- Pierwszy generowany plan planer wypełnia sam (wybrane atrakcje + dopełnienie z katalogu, oznaczone „dodane przez planer”, do usunięcia). Potem dodatkowe atrakcje i przeplanowanie wymagają akceptacji użytkownika – nie zmieniaj planu za niego.
 - Region nie może być stałą w kodzie: obszar (środek, promień, nazwa) z konfiguracji/bazy, żeby dało się dodać kolejne części Podkarpacia.
 - Błędy API jako `ProblemDetails` z polskim opisem; błąd bazy → 503 (globalnie), błąd dostawcy zewnętrznego → 502/503/504 zamiast pustej listy.
 - Zachowuj oznaczenia źródeł (OpenStreetMap, Geoapify, Overture z licencją rekordu, OpenRouteService – CC-BY-SA 4.0, autor i licencja zdjęcia). Nie używaj źródeł, których regulamin zabrania zapisu danych (Google Places, Foursquare Places API). Publiczny Overpass (OSM) odrzucony – przeciążony, a dane OSM mamy z Geoapify.

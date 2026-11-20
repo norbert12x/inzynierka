@@ -6,11 +6,17 @@ public sealed record PlanPoint(GeoPoint Location, Guid? PlaceId = null);
 // Czas po drogach z bazy (routing.travel_times); DurationSeconds = null – dostawca nie znalazł trasy.
 public sealed record KnownTravelTime(int? DurationSeconds, int? DistanceMeters);
 
+// Źródło czasów odcinków dla planera (E4); w testach planera – atrapa.
+public interface ITravelTimes
+{
+    TravelLeg GetLeg(PlanPoint from, PlanPoint to);
+}
+
 // Czasy odcinków dla planera: para atrakcji z macierzy ORS, inaczej szacunek (oznaczony jako przybliżony).
 // Bez bazy – TravelTimeService ładuje znane pary, testy podają je ręcznie.
 public sealed class TravelTimeMatrix(
     TravelTimeEstimator estimator,
-    IReadOnlyDictionary<(Guid From, Guid To, TravelMode Mode), KnownTravelTime> known)
+    IReadOnlyDictionary<(Guid From, Guid To, TravelMode Mode), KnownTravelTime> known) : ITravelTimes
 {
     public TravelLeg GetLeg(PlanPoint from, PlanPoint to)
     {

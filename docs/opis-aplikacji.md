@@ -28,7 +28,7 @@ Logowanie: e-mail + hasło (ASP.NET Core Identity).
 3. **Tworzenie planu wyjazdu**
    - daty (jeden lub wiele dni), dla każdego dnia: nocleg (punkt startu i końca; może być inny w każdym dniu) i godziny aktywności,
    - zainteresowania (kategorie), atrakcje **obowiązkowe** i **opcjonalne**,
-   - aplikacja może zaproponować dodatkowe atrakcje – trafiają do planu dopiero po akceptacji,
+   - pierwszy plan wypełnia całe dni: planer dokłada atrakcje z katalogu (oznaczone „dodane przez planer”, można je usunąć); potem dodatkowe atrakcje (propozycje) trafiają do planu dopiero po akceptacji,
    - przerwa na posiłek jako blok czasu (np. 13:00–14:00), bez wskazywania restauracji.
 4. **Wynik planu** – podział atrakcji na dni, kolejność, godziny przyjazdu i wyjazdu, czasy przejazdów, ostrzeżenia (godziny otwarcia nieznane lub atrakcja zamknięta w planowanym czasie, nie zmieściło się w dniu). Link do Google Maps dla każdego odcinka/dnia.
 5. **Edycja planu** – zmiana kolejności w dniu, przenoszenie atrakcji między dniami, zmiana czasu wizyty. Po zmianie aplikacja przelicza godziny i przejazdy, nie zmienia sama kolejności.
@@ -49,7 +49,7 @@ Logowanie: e-mail + hasło (ASP.NET Core Identity).
 
 - Katalog w Supabase, schemat `catalog`: `places` (punkt PostGIS, status, godziny, szacowany czas wizyty, relacja element → obiekt nadrzędny), `categories` (9), `place_categories`, `place_sources` (surowe dane dostawcy oddzielone od ręcznych poprawek), `place_photos`.
 - Źródło: Geoapify Places / OpenStreetMap, ręczna selekcja turystyczna (5.10.2026: 152 aktywne, 33 murale czekające na zdjęcie).
-- Godziny otwarcia: tekst w formacie OSM, często brak. Nieznane ≠ całodobowo. W MVP planer tylko **ostrzega**, nie przestawia kolejności.
+- Godziny otwarcia: tekst w formacie OSM, często brak. Nieznane ≠ całodobowo. W MVP planer tylko **ostrzega** i nie przestawia kolejności; przy przyjeździe przed otwarciem czeka do otwarcia (do 60 min).
 - Czas wizyty: szacunek z katalogu (lub domyślny dla kategorii), edytowalny w planie.
 - Nowe dane w MVP: konta (Identity), plany (dni, pozycje), oceny i opinie, zgłoszenia, macierz czasów przejazdów między atrakcjami (`routing.travel_times`).
 - Oceny w aplikacji i opinie Google to osobne źródła; opinii Google nie pobieramy.
@@ -70,8 +70,17 @@ Na obronie aplikacja działa **lokalnie** na laptopie: backend z Visual Studio, 
 
 Stos, konwencje i zasady pracy: `AGENTS.md`. Plan etapów: `docs/plan-prac.md`.
 
+## Ustalenia planera (19.11)
+
+- Dzień zaczyna się w noclegu z poprzedniej nocy (pierwszy dzień – w noclegu tego dnia) i kończy w noclegu tej nocy; koniec godzin aktywności = powrót do noclegu.
+- Podział na dni: atrakcja trafia do dnia, do którego najmniej dokłada jazdy (blisko noclegu albo innych atrakcji dnia), z karą za już zaplanowany czas zwiedzania – wybrane atrakcje rozkładają się na wszystkie dni, bliskie siebie zostają razem; tylko dni, w których się mieści.
+- Pierwszy plan wypełnia całe dni (w domyślnych albo podanych godzinach): planer dokłada z katalogu większe atrakcje (wizyta > 30 min, pasujące do zainteresowań), najbliższe najpierw, aż żadna się nie zmieści; małe (murale, ławeczki, pomniki) tylko po drodze – najwyżej 5 min jazdy więcej, nie jako „resztka” na koniec dnia. Dołożone są oznaczone „dodane przez planer”. Późniejsze zmiany planu – tylko przez użytkownika.
+- Posiłek: czas trwania + okno startu, domyślnie 60 min ze startem między 13:30 a 15:00; wstawiany między atrakcjami, bez przerywania zwiedzania. Użytkownik może zmienić okno (także na stałą godzinę) albo wstawić posiłek po wybranej atrakcji.
+- Przekroczenie godzin dnia o najwyżej 30 min: planer niczego nie usuwa, tylko ostrzega – użytkownik może usunąć dowolną atrakcję albo zostawić całość. Większe przekroczenie: planer usuwa najkrótsze opcjonalne atrakcje, aż zostanie najwyżej 30 min. Obowiązkowe zostają zawsze (z ostrzeżeniem).
+- Przyjazd przed otwarciem (odczytane godziny): planer czeka do otwarcia, najwyżej 60 min – zmieniają się tylko godziny, nie kolejność; dłużej – ostrzeżenie „może być zamknięte”.
+- Ręczne zmiany użytkownika (kolejność, dłuższa wizyta, miejsce posiłku) są dozwolone – plan jest wtedy przeliczany bez zmiany kolejności, a przekroczenie dnia daje ostrzeżenie.
+
 ## Otwarte kwestie
 
 - Opinie: moderacja przed publikacją czy po (ukrywanie)?
-- Algorytm wielodniowy: dokładne kryterium podziału na dni (najbliżej noclegu danego dnia vs równomierne obciążenie) – do ustalenia w epiku planera.
 - Czy potrzebny czysty tryb „tylko pieszo” (np. zwiedzanie samego Rzeszowa) obok trybu samochód + spacer.

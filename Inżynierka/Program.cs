@@ -59,7 +59,19 @@ namespace Inżynierka
                 new TravelTimeEstimator(services.GetRequiredService<IOptions<RoutingOptions>>().Value.Estimate));
             builder.Services.AddScoped<TravelTimeService>();
 
-            builder.Services.AddControllers();
+            // Planer (E4): wartości domyślne dnia, posiłku, tolerancja, kategorie z wejściem, propozycje.
+            builder.Services.AddOptions<PlannerOptions>()
+                .Bind(builder.Configuration.GetSection(PlannerOptions.SectionName))
+                .ValidateOnStart();
+            builder.Services.AddSingleton<IValidateOptions<PlannerOptions>, PlannerOptionsValidator>();
+
+            // Godziny "HH:mm" i daty "yyyy-MM-dd" z polskimi komunikatami błędów.
+            builder.Services.AddControllers()
+                .AddJsonOptions(json =>
+                {
+                    json.JsonSerializerOptions.Converters.Add(new TimeOnlyJsonConverter());
+                    json.JsonSerializerOptions.Converters.Add(new DateOnlyJsonConverter());
+                });
             builder.Services.AddProblemDetails();
             builder.Services.AddExceptionHandler<DatabaseExceptionHandler>();
             builder.Services.AddEndpointsApiExplorer();
@@ -67,7 +79,7 @@ namespace Inżynierka
             {
                 Title = "Atrakcje Podkarpacia — API",
                 Version = "v1",
-                Description = "Katalog atrakcji (Supabase), wyszukiwanie lokalizacji, zdjęcia, obszary oraz narzędzia redakcyjne /api/dev (tylko Development)."
+                Description = "Katalog atrakcji (Supabase), wyszukiwanie lokalizacji, zdjęcia, obszary, planer wyjazdów oraz narzędzia redakcyjne /api/dev (tylko Development)."
             }));
 
             // Usługi zewnętrzne.
